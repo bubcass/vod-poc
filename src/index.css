@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,h2,h3,h4 { font-family: "Montserrat", ui-sans-serif, system-ui; }
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md text-sm font-medium
+           px-5 py-2.5 transition
+           focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold focus-visible:ring-offset-2
+           disabled:opacity-50 disabled:pointer-events-none;
+    /* Match your page background so the ring looks crisp on cream */
+    @apply focus-visible:ring-offset-brand-cream;
+  }
+
+  /* Primary (gold fill) */
+  .btn-primary {
+    @apply bg-brand-gold text-white hover:bg-[#6f5f28];
+  }
+
+  /* Secondary (mid-grey fill) */
+  .btn-secondary {
+    @apply bg-brand-gray-600 text-white hover:bg-brand-gray-700;
+  }
+
+  /* Gold outline (turns solid on hover) */
+  .btn-outline {
+    @apply bg-transparent border border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-white;
+  }
+}
+@layer components {
+  /* Subtle gradient for legibility on photos */
+  .hero-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-black/45 via-black/20 to-black/0;
+  }
+
+  /* Tagline lockup: “Inside Parliament | Dáil Éireann” */
+  .tagline {
+    @apply inline-flex items-center gap-2 text-xs tracking-wide uppercase
+           bg-black/35 text-white px-2.5 py-1 rounded-full
+           backdrop-blur-sm border border-white/10;
+    letter-spacing: 0.08em;
+  }
+
+  /* Title with light text shadow for contrast on imagery */
+  .title-shadow {
+    text-shadow: 0 1px 2px rgba(0,0,0,.3);
+  }
+}

@@ -1,0 +1,60 @@
+import type { StorItem } from "../components/StorCarousel";
+
+export const storItems: StorItem[] = [
+  {
+    id: "s1",
+    unit: "Parliamentary Budget Office",
+    title: "Budget 2026: Flash impact analysis",
+    subtitle: "Analysis",
+    meta: "14 min read · Updated two days ago",
+    href: "https://data.oireachtas.ie/ie/oireachtas/parliamentaryBudgetOffice/2025/2025-10-07_budget-2026-flash-impact-analysis_en.pdf",
+  },
+  {
+    id: "s11",
+    unit: "Committees",
+    title: "Children's Health Ireland",
+    subtitle: "Committee on Health",
+    meta: "42 min read · Updated 20 April 2027",
+    href: "https://data.oireachtas.ie/ie/oireachtas/committee/dail/34/joint_committee_on_health/reports/2025/2025-10-08_report-on-pre-legislative-scrutiny-of-the-health-assisted-human-reproduction-amendment-bill_en.pdf",
+  },
+  {
+    id: "s2",
+    unit: "Parliamentary Research Service",
+    title: "Housing completions and housing needs | Q1 2027",
+    subtitle: "Longitudinal series",
+    meta: "11 min read · Updated 19 April 2027",
+    href: "https://data.oireachtas.ie/ie/oireachtas/libraryResearch/2025/2025-10-10_briefing-paper-defence-amendment-bill-2025_en.pdf",
+  },
+  {
+    id: "s3",
+    unit: "Parliamentary Research Service",
+    title: "Housing completions: longitudinal dataset",
+    subtitle: "Open data",
+    meta: "JSON · CSV · Updated 19 April 2027",
+    href: "https://data.oireachtas.ie/ie/oireachtas/parliamentaryBusiness/other/2024-11-10_pq-dataset-for-33rd-dail_en.csv",
+  },
+  {
+    id: "s5",
+    unit: "Parliamentary Budget Office",
+    title: "Constituency Insights | Sports funding",
+    subtitle: "Visual data",
+    meta: "11 min read · Updated 16 April 2027",
+    href: "https://d1xvr8qokt4flm.cloudfront.net/en/members/constituency-dashboard/in-focus/",
+  },
+  {
+    id: "s12",
+    unit: "Committees",
+    title: "Review of DEIS school programmes",
+    subtitle: "Committee on Children and Equality",
+    meta: "34 min read · Updated 15 April 2027",
+    href: "https://data.oireachtas.ie/ie/oireachtas/committee/dail/34/joint_committee_on_justice_home_affairs_and_migration/reports/2025/2025-09-24_report-on-pre-legislative-scrutiny-of-the-general-scheme-of-the-guardianship-of-infants-amendment-bill-2025_en.pdf",
+  },
+  {
+    id: "s4",
+    unit: "Learning Hub",
+    title: "The work of Oireachtas committees | Legislation",
+    subtitle: "In-depth guide",
+    meta: "10 min read · Updated 10 April 2027",
+    href: "https://www.oireachtas.ie/en/committees/about-committees/",
+  },
+];
