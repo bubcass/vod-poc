@@ -1,0 +1,14 @@
+# Node
+node_modules/
+dist/
+.env
+.env.local
+
+# Vite / React build artefacts
+.vite
+*.log
+*.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
