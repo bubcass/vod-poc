@@ -61,16 +61,9 @@ export default function RotatingFeatured({
     const onKey = (e: KeyboardEvent) => {
       if (!rootRef.current) return;
       if (!rootRef.current.contains(document.activeElement)) return;
-      if (e.key === "ArrowRight") {
-        e.preventDefault();
-        next();
-      } else if (e.key === "ArrowLeft") {
-        e.preventDefault();
-        prev();
-      } else if (e.code === "Space") {
-        e.preventDefault();
-        setPaused((p) => !p);
-      }
+      if (e.key === "ArrowRight") { e.preventDefault(); next(); }
+      else if (e.key === "ArrowLeft") { e.preventDefault(); prev(); }
+      else if (e.code === "Space") { e.preventDefault(); setPaused((p) => !p); }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -78,6 +71,7 @@ export default function RotatingFeatured({
 
   const item = items[index];
 
+  // preload neighbors (optional)
   const preloadSrcs = useMemo(() => {
     if (count <= 1) return [item.thumb];
     const prevIdx = clamp(index - 1);
@@ -85,30 +79,23 @@ export default function RotatingFeatured({
     return [items[prevIdx].thumb, items[nextIdx].thumb];
   }, [index, items, count]);
 
-  // Amber badge to match shelf (adjust if needed)
-  const forumBadgeClass =
-    "inline-flex items-center px-3 py-1.5 text-[13px] font-semibold rounded-md " +
-    "bg-[#FFC107]/90 text-black border border-[#E0A800] shadow-[0_1px_3px_rgba(0,0,0,0.25)] backdrop-blur-sm";
-
   return (
     <div
       ref={rootRef}
-      className="relative w-full overflow-hidden rounded-xl border border-brand-gray-300 shadow-md group"
+      className="relative w-full overflow-hidden rounded-2xl border border-brand-gray-300 shadow-md group"
       aria-roledescription="carousel"
       aria-label="Featured videos"
       tabIndex={0}
     >
-      {/* Keep hero in 16:9 like shelf; cap overall height to avoid getting too tall */}
-      <div className="relative aspect-video max-h-[70vh]">
-        {/* Background image with top emphasis for faces/text near the top */}
-        <div
-          className="pointer-events-none absolute inset-0 bg-cover bg-no-repeat transition-[background-image] duration-500"
-          style={{
-            backgroundImage: `url(${item.thumb})`,
-            backgroundPosition: "top",
-          }}
-          role="img"
-          aria-label={item.title}
+      {/* Height of the hero */}
+      <div className="relative h-[48vh] sm:h-[52vh] md:h-[56vh]">
+        {/* Full-bleed background image */}
+        <img
+          src={item.thumb}
+          alt=""
+          className="absolute inset-0 w-full h-full object-cover object-top"
+          // ^ object-top to favor the top of images on crops
+          draggable={false}
         />
 
         {/* Preload neighbors */}
@@ -116,32 +103,33 @@ export default function RotatingFeatured({
           <link key={i} rel="preload" as="image" href={src} />
         ))}
 
-        {/* Gradient */}
+        {/* Gradient overlay */}
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/75 via-black/40 to-transparent" />
 
         {/* Content */}
         <div className="relative z-10 h-full flex flex-col justify-end p-6 sm:p-8">
           <div className="max-w-2xl">
-            {/* Forum/location badges */}
-            {item.badges && item.badges.length > 0 && (
+            {item.badges?.length ? (
               <div className="flex flex-wrap gap-2 mb-3">
                 {item.badges.map((b, i) => (
-                  <span key={i} className={forumBadgeClass}>
+                  <span
+                    key={i}
+                    className="inline-flex items-center px-3 py-1.5 text-[13px] font-semibold rounded-md bg-[#FFC107]/95 text-black border border-[#E0A800] shadow-[0_1px_3px_rgba(0,0,0,0.25)] backdrop-blur-sm"
+                  >
                     {b.label}
                   </span>
                 ))}
               </div>
-            )}
+            ) : null}
 
-            {/* Title */}
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2 leading-snug drop-shadow-md">
               {item.title}
             </h2>
 
-            {/* Meta (can include bolded date via your data split) */}
-            {item.meta && <p className="text-white/85 text-sm mb-3">{item.meta}</p>}
+            {item.meta && (
+              <p className="text-white/80 text-sm mb-4">{item.meta}</p>
+            )}
 
-            {/* CTAs */}
             <div className="flex gap-3">
               <button
                 onClick={() => onPlay?.(item)}
@@ -161,7 +149,7 @@ export default function RotatingFeatured({
           </div>
         </div>
 
-        {/* Controls */}
+        {/* Controls (unchanged) */}
         {showControls && count > 1 && (
           <>
             <button
@@ -181,11 +169,11 @@ export default function RotatingFeatured({
           </>
         )}
 
-        {/* Dots + pause */}
+        {/* Dots + pause (unchanged) */}
         <div className="absolute z-20 bottom-3 right-4 flex items-center gap-2">
           <button
             onClick={() => setPaused((p) => !p)}
-            className="text-white/80 text-xs px-2 py-0.5 rounded bg-black/30 hover:bg黑/50 border border-white/20"
+            className="text-white/80 text-xs px-2 py-0.5 rounded bg-black/30 hover:bg.black/50 border border-white/20"
             aria-pressed={paused}
             aria-label={paused ? "Resume autoplay" : "Pause autoplay"}
             title={paused ? "Resume" : "Pause"}

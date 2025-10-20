@@ -146,7 +146,7 @@ export default function VodPage() {
     []
   );
 
-  // 👇 NEW: Committees-specific filter for “Schools funding”
+  // Committees-specific “Schools funding”
   const schoolsFunding = useMemo(
     () =>
       vodAll.filter(
@@ -174,10 +174,11 @@ export default function VodPage() {
         </div>
       </header>
 
-      {/* HERO / SEARCH */}
+      {/* FULL-BLEED HERO / SEARCH */}
       {activeTab === "SEARCH" ? (
         <section className="bg-gradient-to-b from-brand-gray-50 to-brand-cream">
-          <div className="max-w-6xl mx-auto px-4 py-6">
+          {/* keep content boxed on search */}
+          <div className="max-w-7xl mx-auto px-4 py-6">
             <div className="rounded-xl border border-brand-gray-300 bg-white/70 backdrop-blur p-4">
               <label htmlFor="vod-search" className="block text-sm font-medium text-brand-gray-700 mb-1">
                 Search
@@ -199,9 +200,14 @@ export default function VodPage() {
           </div>
         </section>
       ) : (
-        <section className="bg-gradient-to-b from-brand-gray-50 to-brand-cream">
-          <div className="max-w-6xl mx-auto px-4 py-6">
-            <RotatingFeatured items={featured} intervalMs={6000} onPlay={(item) => alert(`Play: ${item.title}`)} />
+        // 👉 full-bleed wrapper (no max-width) so the hero truly spans on ultra-wide screens
+        <section className="w-full">
+          <div className="w-full px-0 sm:px-0">
+            <RotatingFeatured
+              items={featured}
+              intervalMs={6000}
+              onPlay={(item) => alert(`Play: ${item.title}`)}
+            />
           </div>
         </section>
       )}
@@ -236,7 +242,7 @@ export default function VodPage() {
           <VodGrid title="Discover: Order of Business" items={orderSeanad} limit={9} />
         )}
 
-        {/* 👇 NEW Committees-specific shelf */}
+        {/* Committees-specific shelf */}
         {activeTab === "COMMITTEES" && schoolsFunding.length > 0 && (
           <VodGrid title="In Focus: Schools funding" items={schoolsFunding} limit={9} />
         )}

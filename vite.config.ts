@@ -1,7 +1,9 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+// vite.config.ts
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/streaming-page-poc/", // 👈 important for GitHub Pages
-});
+  // MUST match your repo name
+  base: '/vod-poc/',
+})
