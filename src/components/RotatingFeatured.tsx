@@ -1,4 +1,3 @@
-// src/components/RotatingFeatured.tsx
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
 export type FeaturedItem = {
@@ -85,7 +84,7 @@ export default function RotatingFeatured({
     return [items[prevIdx].thumb, items[nextIdx].thumb];
   }, [index, items, count]);
 
-  // Amber badge to match shelf (adjust if needed)
+  // Amber badge to match shelf
   const forumBadgeClass =
     "inline-flex items-center px-3 py-1.5 text-[13px] font-semibold rounded-md " +
     "bg-[#FFC107]/90 text-black border border-[#E0A800] shadow-[0_1px_3px_rgba(0,0,0,0.25)] backdrop-blur-sm";
@@ -98,15 +97,16 @@ export default function RotatingFeatured({
       aria-label="Featured videos"
       tabIndex={0}
     >
-      {/* Keep hero in 16:9 like shelf; cap overall height to avoid getting too tall */}
-      <div className="relative aspect-video max-h-[70vh]">
-        {/* Background image with top emphasis for faces/text near the top */}
+      {/* Keep hero in 16:9; add a CSS var that lets the image layer bleed to viewport edges */}
+      <div className="relative aspect-video max-h-[70vh] [--bleed:calc(50vw-50%)]">
+        {/* Background image: bleed beyond the container horizontally, content stays put */}
         <div
-          className="pointer-events-none absolute inset-0 bg-cover bg-no-repeat transition-[background-image] duration-500"
-          style={{
-            backgroundImage: `url(${item.thumb})`,
-            backgroundPosition: "top",
-          }}
+          className="
+            pointer-events-none absolute inset-y-0
+            left-[calc(-1*var(--bleed))] right-[calc(-1*var(--bleed))]
+            bg-cover bg-no-repeat transition-[background-image] duration-500
+          "
+          style={{ backgroundImage: `url(${item.thumb})`, backgroundPosition: "top" }}
           role="img"
           aria-label={item.title}
         />
@@ -119,7 +119,7 @@ export default function RotatingFeatured({
         {/* Gradient */}
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/75 via-black/40 to-transparent" />
 
-        {/* Content */}
+        {/* Content (unchanged position & padding) */}
         <div className="relative z-10 h-full flex flex-col justify-end p-6 sm:p-8">
           <div className="max-w-2xl">
             {/* Forum/location badges */}
@@ -133,15 +133,12 @@ export default function RotatingFeatured({
               </div>
             )}
 
-            {/* Title */}
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2 leading-snug drop-shadow-md">
               {item.title}
             </h2>
 
-            {/* Meta (can include bolded date via your data split) */}
             {item.meta && <p className="text-white/85 text-sm mb-3">{item.meta}</p>}
 
-            {/* CTAs */}
             <div className="flex gap-3">
               <button
                 onClick={() => onPlay?.(item)}
@@ -185,7 +182,7 @@ export default function RotatingFeatured({
         <div className="absolute z-20 bottom-3 right-4 flex items-center gap-2">
           <button
             onClick={() => setPaused((p) => !p)}
-            className="text-white/80 text-xs px-2 py-0.5 rounded bg-black/30 hover:bg黑/50 border border-white/20"
+            className="text-white/80 text-xs px-2 py-0.5 rounded bg-black/30 hover:bg-black/50 border border-white/20"
             aria-pressed={paused}
             aria-label={paused ? "Resume autoplay" : "Pause autoplay"}
             title={paused ? "Resume" : "Pause"}
