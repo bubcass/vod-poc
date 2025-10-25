@@ -8,19 +8,18 @@ function normalizeMetaFromItem(item: VodItem): { main?: string; rest?: string } 
   const dateField: unknown = (item as any)?.date;
   if (typeof dateField === "string" && dateField.trim()) {
     const restStr =
-      typeof item.meta === "object"
-        ? item.meta?.rest
-        : typeof item.meta === "string"
-        ? item.meta.replace(dateField, "").replace(/^(\s*[—·,-]\s*)/, "").trim()
+      typeof (item as any).meta === "object"
+        ? (item as any).meta?.rest
+        : typeof (item as any).meta === "string"
+        ? (item as any).meta.replace(dateField, "").replace(/^(\s*[—·,-]\s*)/, "").trim()
         : undefined;
     return { main: dateField.trim(), rest: restStr };
   }
 
-  if (item.meta && typeof item.meta === "object") {
-    return { main: item.meta.main, rest: item.meta.rest };
-  }
+  const meta = (item as any).meta;
+  if (meta && typeof meta === "object") return { main: meta.main, rest: meta.rest };
 
-  const s = typeof item.meta === "string" ? item.meta.trim() : "";
+  const s = typeof meta === "string" ? meta.trim() : "";
   if (!s) return {};
 
   let splitIdx = s.indexOf(" — ");
@@ -37,9 +36,7 @@ function normalizeMetaFromItem(item: VodItem): { main?: string; rest?: string } 
   }
 
   const dotIdx = s.indexOf(" · ");
-  if (dotIdx > 0) {
-    return { main: s.slice(0, dotIdx).trim(), rest: s.slice(dotIdx + 3).trim() };
-  }
+  if (dotIdx > 0) return { main: s.slice(0, dotIdx).trim(), rest: s.slice(dotIdx + 3).trim() };
 
   return { rest: s };
 }
@@ -48,24 +45,19 @@ export default function VodPage() {
   const [activeTab, setActiveTab] = useState<TabKey>("ALL");
   const [q, setQ] = useState("");
 
+  // Base items by tab
   const itemsForTab: VodItem[] = useMemo(() => {
     switch (activeTab) {
-      case "DAIL":
-        return vodDail;
-      case "SEANAD":
-        return vodSeanad;
-      case "COMMITTEES":
-        return vodCommittees;
-      case "SEARCH":
-        return vodAll;
+      case "DAIL": return vodDail;
+      case "SEANAD": return vodSeanad;
+      case "COMMITTEES": return vodCommittees;
+      case "SEARCH": return vodAll;
       case "ALL":
-      default:
-        return vodAll;
+      default: return vodAll;
     }
   }, [activeTab]);
 
-  // Hero source for the *standard* (non-Live) flow — we’ll still use the same component,
-  // but we’ll override its "items" with Live slides on the ALL tab.
+  // Featured (non-SEARCH) — note join by " · "
   const featured = useMemo(() => {
     if (activeTab === "SEARCH") return [];
     return itemsForTab.slice(0, 5).map((it) => {
@@ -73,16 +65,17 @@ export default function VodPage() {
       return {
         id: it.id,
         title: it.title,
-        meta: [nm.main, nm.rest].filter(Boolean).join(" — "),
+        meta: [nm.main, nm.rest].filter(Boolean).join(" · "),
         thumb: it.thumb,
         href: it.href,
-        debate: it.debate,
-        badges: it.forum ? [{ label: it.forum }] : undefined,
+        debate: (it as any).debate,
+        forum: it.forum,
+        status: (((it as any)?.status ?? "") as string).toLowerCase(),
       };
     });
   }, [itemsForTab, activeTab]);
 
-  // SEARCH filtering
+  // SEARCH results
   const filteredForSearch: VodItem[] = useMemo(() => {
     if (activeTab !== "SEARCH") return itemsForTab;
     const term = q.trim().toLowerCase();
@@ -90,7 +83,7 @@ export default function VodPage() {
     return vodAll
       .filter((v) => {
         const nm = normalizeMetaFromItem(v);
-        const hay = [v.title, v.forum, v.topic, nm.main, nm.rest]
+        const hay = [v.title, v.forum, (v as any).topic, nm.main, nm.rest]
           .filter(Boolean)
           .join(" ")
           .toLowerCase();
@@ -99,15 +92,15 @@ export default function VodPage() {
       .slice(0, 30);
   }, [activeTab, q, itemsForTab]);
 
-  // --- Explore shelves ---
+  // Explore shelves
   const leadersOnly = useMemo(
-    () => vodAll.filter((v) => (v.topic || "").toLowerCase().includes("leader")),
+    () => vodAll.filter((v) => (((v as any).topic || "") as string).toLowerCase().includes("leader")),
     []
   );
   const orderOfBusinessOnly = useMemo(
     () =>
       vodAll.filter((v) => {
-        const t = (v.topic || "").toLowerCase();
+        const t = (((v as any).topic || "") as string).toLowerCase();
         const ti = (v.title || "").toLowerCase();
         return t.includes("order of business") || ti.includes("order of business");
       }),
@@ -116,20 +109,20 @@ export default function VodPage() {
   const privateMembersOnly = useMemo(
     () =>
       vodAll.filter((v) => {
-        const t = (v.topic || "").toLowerCase();
+        const t = (((v as any).topic || "") as string).toLowerCase();
         const ti = (v.title || "").toLowerCase();
         return t.includes("private members") || ti.includes("private members");
       }),
     []
   );
 
-  // --- Dáil, Seanad, Committees shelves ---
+  // Per-forum shelves
   const leadersDail = useMemo(
     () =>
       vodAll.filter(
         (v) =>
           v.forum === "Dáil Éireann" &&
-          ((v.topic || "").toLowerCase().includes("leader") ||
+          ((((v as any).topic || "") as string).toLowerCase().includes("leader") ||
             (v.title || "").toLowerCase().includes("leader"))
       ),
     []
@@ -140,59 +133,71 @@ export default function VodPage() {
       vodAll.filter(
         (v) =>
           v.forum === "Seanad Éireann" &&
-          ((v.topic || "").toLowerCase().includes("order of business") ||
+          ((((v as any).topic || "") as string).toLowerCase().includes("order of business") ||
             (v.title || "").toLowerCase().includes("order of business"))
       ),
     []
   );
 
-  // Committees-specific filter for “Schools funding”
   const schoolsFunding = useMemo(
     () =>
       vodAll.filter(
         (v) =>
-          v.forum?.toLowerCase().includes("committee") &&
-          (v.title?.toLowerCase().includes("school") ||
-            v.topic?.toLowerCase().includes("school")) &&
-          (v.title?.toLowerCase().includes("funding") ||
-            v.topic?.toLowerCase().includes("funding"))
+          (v.forum || "").toLowerCase().includes("committee") &&
+          ((v.title || "").toLowerCase().includes("school") ||
+            (((v as any).topic || "") as string).toLowerCase().includes("school")) &&
+          ((v.title || "").toLowerCase().includes("funding") ||
+            (((v as any).topic || "") as string).toLowerCase().includes("funding"))
       ),
     []
   );
 
-  // ----- LIVE slides (only used in the hero when activeTab === "ALL") -----
-  type LiveSlideItem = {
+  // ----- DATA-DRIVEN "On now" slides for ALL tab -----
+  type FeaturedItemLocal = {
     id: string;
-    title: string;
+    title: string; // will show in subline
+    meta?: string; // already joined with dot
     thumb: string;
     href?: string;
-    meta?: string;
+    debate?: string;
+    forum?: string; // big headline
+    status?: string; // controls pill on ALL tab
+    badges?: { label: string }[];
   };
 
-  const pickFirst = (pred: (v: VodItem) => boolean): VodItem | undefined =>
-    vodAll.find(pred) || vodAll[0];
+  const ON_NOW = new Set(["live", "in public session", "public", "vote", "vótáil", "votáil", "votail"]);
 
-  const liveSlides: LiveSlideItem[] = useMemo(() => {
-    const dail = pickFirst((v) => (v.forum || "").toLowerCase().includes("dáil"));
-    const seanad = pickFirst((v) => (v.forum || "").toLowerCase().includes("seanad"));
+  const allFromDataOnNow: FeaturedItemLocal[] = useMemo(() => {
+    const items = vodAll
+      .filter((v) => ON_NOW.has((((v as any).status ?? "") as string).toLowerCase()))
+      .map((v) => {
+        const nm = normalizeMetaFromItem(v);
+        return {
+          id: v.id,
+          title: v.title,
+          meta: nm.rest || "", // exclude date for On now
+          thumb: v.thumb,
+          href: v.href,
+          debate: (v as any).debate,
+          forum: v.forum,
+          status: (((v as any).status ?? "") as string).toLowerCase(),
+        } as FeaturedItemLocal;
+      });
 
-    const room = (n: number) =>
-      pickFirst(
-        (v) =>
-          (v.forum || "").toLowerCase().includes("committee") &&
-          ((v.title || "").toLowerCase().includes(`room ${n}`) ||
-            (v.topic || "").toLowerCase().includes(`room ${n}`))
-      );
+    const chamberRank = (forum: string) =>
+      forum?.toLowerCase().includes("dáil") ? 0 :
+      forum?.toLowerCase().includes("seanad") ? 1 :
+      2;
 
-    const slides: LiveSlideItem[] = [];
-    if (dail) slides.push({ id: "live-dail", title: "Dáil Éireann", thumb: dail.thumb, href: dail.href });
-    if (seanad) slides.push({ id: "live-seanad", title: "Seanad Éireann", thumb: seanad.thumb, href: seanad.href });
-    for (let n = 1; n <= 4; n++) {
-      const r = room(n);
-      if (r) slides.push({ id: `live-committee-${n}`, title: `Committee Room ${n}`, thumb: r.thumb, href: r.href });
-    }
-    return slides.length ? slides : featured;
-  }, [featured]);
+    items.sort((a, b) => {
+      const ar = chamberRank(a.forum || "");
+      const br = chamberRank(b.forum || "");
+      if (ar !== br) return ar - br;
+      return (a.title || "").localeCompare(b.title || "");
+    });
+
+    return items;
+  }, []);
 
   const VISIBLE_LIMIT = activeTab === "SEARCH" ? 30 : 8;
 
@@ -225,22 +230,23 @@ export default function VodPage() {
                 className="w-full rounded-md border border-brand-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-brand-gold"
               />
               <div className="mt-2 text-xs text-brand-gray-600">
-                Showing {filteredForSearch.length} result
-                {filteredForSearch.length === 1 ? "" : "s"}
+                Showing {filteredForSearch.length} result{filteredForSearch.length === 1 ? "" : "s"}
                 {q ? <> for <span className="font-medium">“{q}”</span></> : null}.
               </div>
             </div>
           </div>
         </section>
       ) : (
-        // Width-stable hero (unchanged sizing)
+        // Width-stable hero
         <section className="bg-gradient-to-b from-brand-gray-50 to-brand-cream">
           <div className="max-w-6xl mx-auto px-4 py-6">
             <HeroCarousel
-              items={activeTab === "ALL" ? liveSlides : featured}
+              items={activeTab === "ALL"
+                ? (allFromDataOnNow.length ? (allFromDataOnNow as any) : (featured as any))
+                : (featured as any)}
               intervalMs={6000}
               onPlay={(item) => item.href && window.open(item.href, "_self")}
-              liveMode={activeTab === "ALL"} // only ALL gets the green "Live" pill
+              liveMode={activeTab === "ALL" && allFromDataOnNow.length > 0}
             />
           </div>
         </section>
@@ -248,14 +254,12 @@ export default function VodPage() {
 
       {/* MAIN */}
       <main className="flex-grow">
-        {/* Primary shelf */}
         <VodGrid
           title={activeTab === "SEARCH" ? "Search results" : "Explore recent debates"}
           items={activeTab === "SEARCH" ? filteredForSearch : itemsForTab}
           limit={VISIBLE_LIMIT}
         />
 
-        {/* Explore-only shelves */}
         {activeTab === "ALL" && leadersOnly.length > 0 && (
           <VodGrid title="Discover: Leaders’ Questions" items={leadersOnly} limit={9} />
         )}
@@ -266,17 +270,14 @@ export default function VodPage() {
           <VodGrid title="Discover: Private Members’ Business" items={privateMembersOnly} limit={9} />
         )}
 
-        {/* Dáil-specific shelf */}
         {activeTab === "DAIL" && leadersDail.length > 0 && (
           <VodGrid title="Discover: Leaders’ Questions" items={leadersDail} limit={9} />
         )}
 
-        {/* Seanad-specific shelf */}
         {activeTab === "SEANAD" && orderSeanad.length > 0 && (
           <VodGrid title="Discover: Order of Business" items={orderSeanad} limit={9} />
         )}
 
-        {/* Committees-specific shelf */}
         {activeTab === "COMMITTEES" && schoolsFunding.length > 0 && (
           <VodGrid title="In Focus: Schools funding" items={schoolsFunding} limit={9} />
         )}
@@ -348,10 +349,16 @@ function VodGrid({
 function VodCard({ item }: { item: VodItem }) {
   const { main: metaMain, rest: metaRest } = normalizeMetaFromItem(item);
 
-  // Optional status-based suppression if you add `status` in data later
-  const status = ((item as any)?.status || "").toString().toLowerCase();
-  const isSpecial = ["live", "public", "vote", "vótáil", "votáil", "votail"].includes(status);
-  const showOnDemand = !isSpecial; // default true (most VOD is on demand)
+  const rawStatus = (((item as any)?.status || "") as string).toLowerCase();
+  const isSpecial =
+    rawStatus === "live" ||
+    rawStatus === "public" ||
+    rawStatus === "in public session" ||
+    rawStatus === "vote" ||
+    rawStatus === "vótáil" ||
+    rawStatus === "votáil" ||
+    rawStatus === "votail";
+  const showOnDemand = !isSpecial;
 
   return (
     <a
@@ -366,7 +373,7 @@ function VodCard({ item }: { item: VodItem }) {
           loading="lazy"
         />
 
-        {/* Badge row (bottom-left): forum + On demand (blue) */}
+        {/* Badge row (bottom-left) */}
         <div className="absolute left-2 bottom-2 flex items-center gap-1">
           {item.forum && (
             <span className="inline-flex items-center px-2.5 py-0.5 text-[11px] font-semibold rounded-md bg-[#FFC107]/90 text-black border border-[#E0A800] shadow-sm">
@@ -409,13 +416,15 @@ function VodCard({ item }: { item: VodItem }) {
 
 /* ===================== Width-stable container-locked hero carousel ===================== */
 
-type FeaturedItemLocal = {
+type FeaturedItemLocalHC = {
   id: string;
-  title: string;
-  meta?: string;
+  title: string; // used in subline
+  meta?: string;  // joined with dot
   thumb: string;
   href?: string;
   debate?: string;
+  forum?: string; // shown as the big headline
+  status?: string; // used on ALL tab
   badges?: { label: string }[];
 };
 
@@ -423,11 +432,11 @@ function HeroCarousel({
   items,
   intervalMs = 6000,
   onPlay,
-  liveMode = false, // when true, show the green "Live" pill and hide amber/blue pills
+  liveMode = false,
 }: {
-  items: FeaturedItemLocal[];
+  items: FeaturedItemLocalHC[];
   intervalMs?: number;
-  onPlay?: (item: FeaturedItemLocal) => void;
+  onPlay?: (item: FeaturedItemLocalHC) => void;
   liveMode?: boolean;
 }) {
   const [index, setIndex] = useState(0);
@@ -478,19 +487,31 @@ function HeroCarousel({
 
   const item = items[index];
 
-  // Gentle green LIVE pill style (hero only when liveMode=true)
-  const livePill =
-    "inline-flex items-center px-3 py-1.5 text-[13px] font-semibold rounded-md " +
-    "bg-green-600/90 text-white border border-green-700 shadow-sm " +
-    "animate-[pulse_3.6s_ease-in-out_infinite]";
+  // Pill styles (both Live and Vótáil pulse gently)
+  const pillBase = "inline-flex items-center px-3 py-1.5 text-[13px] font-semibold rounded-md";
+  const gentlePulse = "animate-[pulse_3.6s_ease-in-out_infinite]";
 
-  // Forum amber + On demand blue (hero, non-live tabs)
-  const forumBadge =
-    "inline-flex items-center px-3 py-1.5 text-[13px] font-semibold rounded-md " +
-    "bg-[#FFC107]/90 text-black border border-[#E0A800] shadow-[0_1px_3px_rgba(0,0,0,0.25)]";
-  const onDemandBadge =
-    "inline-flex items-center px-3 py-1.5 text-[13px] font-semibold rounded-md " +
-    "bg-blue-300/90 text-blue-900 border border-blue-400 shadow-sm";
+  const pillLive = `${pillBase} bg-green-600/90 text-white border border-green-700 shadow-sm ${gentlePulse}`;
+  const pillVote = `${pillBase} bg-red-600/90 text-white border border-red-700 shadow-sm ${gentlePulse}`;
+  const pillForum = `${pillBase} bg-[#FFC107]/90 text-black border border-[#E0A800] shadow-[0_1px_3px_rgba(0,0,0,0.25)]`;
+  const pillOnDemand = `${pillBase} bg-blue-300/90 text-blue-900 border border-blue-400 shadow-sm`;
+
+  const status = ((item.status || "") as string).toLowerCase();
+  const statusLabel =
+    status === "public" || status === "in public session" ? "In public session"
+    : status === "live" ? "Live"
+    : (status === "vote" || status === "vótáil" || status === "votáil" || status === "votail") ? "Vótáil"
+    : "";
+
+  const statusClass =
+    status === "public" || status === "in public session" ? pillLive
+    : status === "live" ? pillLive
+    : (status === "vote" || status === "vótáil" || status === "votáil" || status === "votail") ? pillVote
+    : "";
+
+  // Subline (title · meta), On now already excludes date at the data-prep step
+  const sublineParts = [item.title, item.meta].filter(Boolean);
+  const subline = sublineParts.join(" · ");
 
   return (
     <div
@@ -500,6 +521,7 @@ function HeroCarousel({
       aria-label="Featured videos"
       tabIndex={0}
     >
+      {/* Fixed-height, width-stable */}
       <div className="relative w-full h-[clamp(360px,60vh,800px)]">
         {/* Image */}
         <img
@@ -509,42 +531,50 @@ function HeroCarousel({
           draggable={false}
         />
 
-        {/* Dark overlay spans full width */}
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/75 via-black/40 to-transparent" />
+        {/* Dark overlay */}
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/55 via-black/25 to-transparent" />
 
-        {/* Content (bottom-left) */}
+        {/* Content */}
         <div className="relative z-10 h-full flex flex-col justify-end p-6 sm:p-8">
           <div className="max-w-2xl space-y-3">
             {/* Pills row */}
-            {liveMode ? (
-              <span className={livePill}>Live</span>
+            {statusLabel && liveMode ? (
+              <span className={statusClass}>{statusLabel}</span>
             ) : (
               <div className="flex flex-wrap items-center gap-2">
-                {item.badges?.map((b, i) => (
-                  <span key={i} className={forumBadge}>{b.label}</span>
-                ))}
-                {/* Always show On demand in non-live hero */}
-                <span className={onDemandBadge}>On demand</span>
+                {item.forum && <span className={pillForum}>{item.forum}</span>}
+                <span className={pillOnDemand}>On demand</span>
               </div>
             )}
 
-            {/* Title */}
+            {/* Forum as main headline */}
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white leading-snug drop-shadow-md">
-              {item.title}
+              {item.forum || item.title}
             </h2>
 
-            {/* Meta */}
-            {item.meta && <p className="text-white/85 text-sm">{item.meta}</p>}
+            {/* Subline: title · meta */}
+            {subline && <p className="text-white/90 text-base sm:text-lg">{subline}</p>}
 
             {/* CTAs */}
-            <div className="flex gap-3 pt-1">
+            <div className="flex flex-wrap gap-3 pt-1">
               <button
                 onClick={() => onPlay?.(item)}
                 className="px-4 py-2 bg-[#666666] text-white text-sm font-medium rounded-md hover:bg-[#555555] transition"
               >
                 ▶ Watch now
               </button>
-              {item.debate && (
+
+              {/* NEW: Only on the On now tab */}
+              {liveMode && (
+                <a
+                  href="https://www.oireachtas.ie/en/detailed-schedule/"
+                  className="px-4 py-2 bg-white/10 text-white text-sm font-medium rounded-md hover:bg-white/20 transition border border-white/20"
+                >
+                  Schedule of proceedings
+                </a>
+              )}
+
+              {item.debate && !liveMode && (
                 <a
                   href={item.debate}
                   className="px-4 py-2 bg-white/10 text-white text-sm font-medium rounded-md hover:bg-white/20 transition border border-white/20"
