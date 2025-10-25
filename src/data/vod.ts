@@ -52,7 +52,10 @@ import dail12 from "../assets/images/dail12.jpg";
 import dail13 from "../assets/images/dail13.jpg";
 
 // Forum types
-export type Forum = "Dáil Éireann" | "Seanad Éireann" | "Committees";
+export type Forum = "Dáil Éireann" | "Seanad Éireann" | "Committees" | string;
+
+// New status type
+export type VodStatus = "Live" | "In public session" | "Vótáil" | "Concluded";
 
 export type VodItem = {
   id: string;
@@ -65,11 +68,12 @@ export type VodItem = {
   href: string;
   debate?: string;
   thumb: string;
+  status: VodStatus; // <-- new required field
 };
 
 // 🎬 Main dataset
 export const vodAll: VodItem[] = [
-  // Existing examples
+  // Existing examples (marked Concluded)
   {
     id: "vod-1",
     kind: "VOD",
@@ -81,6 +85,7 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/dail-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/dail/2025-10-16/34/",
     thumb: ivana,
+    status: "Concluded",
   },
   {
     id: "vod-2",
@@ -93,6 +98,7 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/dail-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/dail/2025-10-16/41/",
     thumb: dail13,
+    status: "Concluded",
   },
   {
     id: "vod-3",
@@ -105,6 +111,7 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/seanad-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/seanad/2025-10-15/9/",
     thumb: seanadLeaders,
+    status: "Concluded",
   },
   {
     id: "vod-4",
@@ -117,6 +124,7 @@ export const vodAll: VodItem[] = [
     href: "#",
     debate: "https://www.oireachtas.ie/en/debates/debate/joint_committee_on_disability_matters/2025-10-15/",
     thumb: financeCommittee,
+    status: "Concluded",
   },
   {
     id: "vod-5",
@@ -129,6 +137,7 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/committees/",
     debate: "https://www.oireachtas.ie/en/debates/debate/joint_committee_on_justice_home_affairs_and_migration/2025-10-14/",
     thumb: committee_meeting,
+    status: "Concluded",
   },
   {
     id: "vod-6",
@@ -141,8 +150,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/committees/",
     debate: "https://www.oireachtas.ie/en/debates/debate/committee_of_public_accounts/2025-10-16/",
     thumb: comm10,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-7",
     kind: "VOD",
     forum: "Dáil Éireann",
@@ -153,8 +163,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/dail-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/dail/2025-10-16/34/",
     thumb: dail2,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-8",
     kind: "VOD",
     forum: "Seanad Éireann",
@@ -165,8 +176,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/seanad-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/dail/2025-10-16/34/",
     thumb: sean15,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-9",
     kind: "VOD",
     forum: "Committee on Foreign Affairs and Trade",
@@ -177,8 +189,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/committees/",
     debate: "https://www.oireachtas.ie/en/debates/debate/joint_committee_on_foreign_affairs_and_trade/2025-10-14/",
     thumb: comm2,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-10",
     kind: "VOD",
     forum: "Dáil Éireann",
@@ -189,8 +202,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/dail-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/dail/2025-10-16/34/",
     thumb: dail8,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-11",
     kind: "VOD",
     forum: "Seanad Éireann",
@@ -201,8 +215,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/seanad-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/dail/2025-10-16/34/",
     thumb: sean4,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-12",
     kind: "VOD",
     forum: "Dáil Éireann",
@@ -213,8 +228,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/dail-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/dail/2025-10-16/34/",
     thumb: dail6,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-13",
     kind: "VOD",
     forum: "Seanad Éireann",
@@ -225,8 +241,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/seanad-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/dail/2025-10-16/34/",
     thumb: sean5,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-14",
     kind: "VOD",
     forum: "Committee on Education and Youth",
@@ -237,8 +254,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/committees/",
     debate: "https://www.oireachtas.ie/en/debates/debate/joint_committee_on_foreign_affairs_and_trade/2025-10-14/",
     thumb: comm3,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-15",
     kind: "VOD",
     forum: "Dáil Éireann",
@@ -249,8 +267,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/dail-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/dail/2025-10-16/34/",
     thumb: dail7,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-16",
     kind: "VOD",
     forum: "Dáil Éireann",
@@ -261,8 +280,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/dail-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/dail/2025-10-16/34/",
     thumb: dail5,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-17",
     kind: "VOD",
     forum: "Seanad Éireann",
@@ -273,8 +293,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/seanad-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/dail/2025-10-16/34/",
     thumb: sean6,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-18",
     kind: "VOD",
     forum: "Dáil Éireann",
@@ -285,8 +306,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/dail-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/dail/2025-10-16/34/",
     thumb: dail9,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-19",
     kind: "VOD",
     forum: "Committee on Defence and National Security",
@@ -297,8 +319,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/committees/",
     debate: "https://www.oireachtas.ie/en/debates/debate/joint_committee_on_foreign_affairs_and_trade/2025-10-14/",
     thumb: comm4,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-20",
     kind: "VOD",
     forum: "Committee on Disability Matters",
@@ -309,8 +332,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/committees/",
     debate: "https://www.oireachtas.ie/en/debates/debate/joint_committee_on_foreign_affairs_and_trade/2025-10-14/",
     thumb: comm5,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-21",
     kind: "VOD",
     forum: "Seanad Éireann",
@@ -321,8 +345,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/seanad-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/dail/2025-10-16/34/",
     thumb: sean8,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-22",
     kind: "VOD",
     forum: "Seanad Éireann",
@@ -333,8 +358,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/seanad-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/dail/2025-10-16/34/",
     thumb: sean9,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-23",
     kind: "VOD",
     forum: "Dáil Éireann",
@@ -345,8 +371,9 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/dail-videos/",
     debate: "https://www.oireachtas.ie/en/debates/debate/dail/2025-10-16/34/",
     thumb: dail10,
+    status: "Concluded",
   },
-    {
+  {
     id: "vod-24",
     kind: "VOD",
     forum: "Committee on Climate, Environment and Energy",
@@ -357,6 +384,81 @@ export const vodAll: VodItem[] = [
     href: "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/committees/",
     debate: "https://www.oireachtas.ie/en/debates/debate/joint_committee_on_foreign_affairs_and_trade/2025-10-14/",
     thumb: comm6,
+    status: "Concluded",
+  },
+
+  // ------ Six new "On now" test placeholders (Live/Public) ------
+  {
+    id: "vod-test-1",
+    kind: "VOD",
+    forum: "Dáil Éireann",
+    topic: "Questions on Policy or Legislation",
+    title: "Questions on Policy or Legislation",
+    date: "Today",
+    meta: "ISL · CC",
+    href: "#",
+    thumb: leadersQuestions,
+    status: "Live",
+  },
+  {
+    id: "vod-test-2",
+    kind: "VOD",
+    forum: "Seanad Éireann",
+    topic: "Motion re arts sector",
+    title: "Motion re arts sector",
+    date: "Today",
+    meta: "CC",
+    href: "#",
+    thumb: sean13,
+    status: "Vótáil",
+  },
+  {
+    id: "vod-test-3",
+    kind: "VOD",
+    forum: "Committee on Enterprise, Tourism and Employment",
+    topic: "Tax treatment of small businesses",
+    title: "Tax treatment of small businesses",
+    date: "Today",
+    meta: "Committee Room 3 · CC",
+    href: "#",
+    thumb: comm1,
+    status: "In public session",
+  },
+  {
+    id: "vod-test-4",
+    kind: "VOD",
+    forum: "Committee on Education and Youth",
+    topic: "Grants for youth groups",
+    title: "Grants for youth groups",
+    date: "Today",
+    meta: "Committee Room 1 · CC",
+    href: "#",
+    thumb: comm7,
+    status: "In public session",
+  },
+  {
+    id: "vod-test-5",
+    kind: "VOD",
+    forum: "Committee on Climate, Environment and Energy",
+    topic: "Meeting the obligations of the Paris Agreement",
+    title: "Meeting the obligations of the Paris Agreement",
+    date: "Today",
+    meta: "Committee Room 2 · CC",
+    href: "#",
+    thumb: comm8,
+    status: "In public session",
+  },
+  {
+    id: "vod-test-6",
+    kind: "VOD",
+    forum: "Committee on Health",
+    topic: "Vaccination programmes for school children",
+    title: "Vaccination programmes for school children",
+    date: "Today",
+    meta: "Committee Room 4 · CC",
+    href: "#",
+    thumb: comm9,
+    status: "In public session",
   },
 ];
 
@@ -364,5 +466,5 @@ export const vodAll: VodItem[] = [
 export const vodDail = vodAll.filter((v) => v.forum === "Dáil Éireann");
 export const vodSeanad = vodAll.filter((v) => v.forum === "Seanad Éireann");
 export const vodCommittees = vodAll.filter((v) =>
-  v.forum?.toLowerCase().includes("committee")
+  (v.forum || "").toLowerCase().includes("committee")
 );
