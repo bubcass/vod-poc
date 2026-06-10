@@ -5,23 +5,24 @@ export default {
     extend: {
       fontFamily: {
         plex: ['"IBM Plex Sans"', 'ui-sans-serif', 'system-ui'],
-        mont: ['Montserrat', 'ui-sans-serif', 'system-ui'],
+        mont: ['"IBM Plex Sans"', 'ui-sans-serif', 'system-ui'],
       },
       colors: {
         brand: {
-          gold: "#7F6C2E",   // primary brand gold
-          cream: "#F4F2EA",  // background cream
+          gold: "#6B5922",
+          cream: "#F6F3EA",
+          ink: "#17191C",
           gray: {
-            50:  "#444444",
-            100: "#444444",
-            200: "#444444",
-            300: "#444444",
-            400: "#444444",
-            500: "#444444",
-            600: "#444444",
-            700: "#444444",
-            800: "#444444",
-            900: "#444444",
+            50: "#FBF8F1",
+            100: "#F1EDE3",
+            200: "#E2DAC8",
+            300: "#D4CCB8",
+            400: "#A79D8A",
+            500: "#7A7264",
+            600: "#5F5A50",
+            700: "#4A463D",
+            800: "#3B382F",
+            900: "#2B2822",
           },
         },
       },

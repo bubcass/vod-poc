@@ -1,0 +1,316 @@
+{
+  "videos": [
+    {
+      "id": "live-dail-2027-04-27-questions-to-taoiseach",
+      "mode": "in_session",
+      "title": "Questions to the Taoiseach",
+      "summary": "Live coverage from Dáil Éireann.",
+      "description": "Current sitting covering questions to the Taoiseach.",
+      "forum": "Dail",
+      "businessType": "Questions to the Taoiseach",
+      "topicTags": ["government", "leaders", "questions"],
+      "status": "live",
+      "startAt": "2027-04-27T14:00:00Z",
+      "endAt": "2027-04-27T14:48:00Z",
+      "durationSeconds": 2880,
+      "language": ["en"],
+      "accessibility": {
+        "captions": true,
+        "isl": true,
+        "transcript": false
+      },
+      "posterImage": "/media/posters/dail/questions-taoiseach.jpg",
+      "landscapeImage": "/media/posters/dail/questions-taoiseach-wide.jpg",
+      "playback": {
+        "destinationUrl": "https://www.oireachtas.ie/en/oireachtas-tv/dail-eireann-live/",
+        "streamUrl": "https://stream.example.ie/live/dail/master.m3u8",
+        "autoplayAllowed": true,
+        "reelsMode": false
+      },
+      "search": {
+        "keywords": ["taoiseach", "dail", "live"],
+        "people": ["Taoiseach"],
+        "places": ["Leinster House"]
+      },
+      "editorial": {
+        "featured": false,
+        "hidden": false
+      }
+    },
+    {
+      "id": "vod-dail-2027-04-27-leaders-questions",
+      "mode": "on_demand",
+      "title": "Leaders' Questions",
+      "summary": "Catch-up coverage from Dáil Éireann.",
+      "description": "Archived clip of Leaders' Questions from the afternoon sitting.",
+      "forum": "Dail",
+      "businessType": "Leaders' Questions",
+      "topicTags": ["leaders", "government", "opposition"],
+      "status": "concluded",
+      "publishedAt": "2027-04-27T17:15:00Z",
+      "durationSeconds": 2880,
+      "language": ["en"],
+      "accessibility": {
+        "captions": true,
+        "isl": true,
+        "transcript": false
+      },
+      "posterImage": "/media/posters/dail/leaders-questions.jpg",
+      "landscapeImage": "/media/posters/dail/leaders-questions-wide.jpg",
+      "playback": {
+        "destinationUrl": "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/dail-videos/",
+        "videoUrl": "https://vod.example.ie/dail/leaders-questions.mp4",
+        "previewUrl": "https://vod.example.ie/previews/dail/leaders-questions-preview.mp4",
+        "previewStartSeconds": 12,
+        "previewEndSeconds": 30,
+        "autoplayAllowed": false,
+        "reelsMode": false
+      },
+      "search": {
+        "keywords": ["leaders questions", "dail", "archive"],
+        "people": [],
+        "places": ["Leinster House"]
+      },
+      "editorial": {
+        "featured": false,
+        "hidden": false
+      }
+    },
+    {
+      "id": "vod-seanad-2027-04-27-order-of-business",
+      "mode": "on_demand",
+      "title": "Order of Business",
+      "summary": "Seanad Éireann archive item.",
+      "description": "Catch-up item from Seanad Éireann.",
+      "forum": "Seanad",
+      "businessType": "Order of Business",
+      "topicTags": ["seanad", "procedure"],
+      "status": "concluded",
+      "publishedAt": "2027-04-27T13:30:00Z",
+      "durationSeconds": 3840,
+      "language": ["en"],
+      "accessibility": {
+        "captions": true,
+        "isl": false,
+        "transcript": false
+      },
+      "posterImage": "/media/posters/seanad/order-of-business.jpg",
+      "landscapeImage": "/media/posters/seanad/order-of-business-wide.jpg",
+      "playback": {
+        "destinationUrl": "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/seanad-videos/",
+        "videoUrl": "https://vod.example.ie/seanad/order-of-business.mp4",
+        "previewUrl": "https://vod.example.ie/previews/seanad/order-of-business-preview.mp4",
+        "previewStartSeconds": 20,
+        "previewEndSeconds": 38,
+        "autoplayAllowed": false,
+        "reelsMode": false
+      },
+      "search": {
+        "keywords": ["seanad", "order of business"],
+        "people": [],
+        "places": ["Leinster House"]
+      },
+      "editorial": {
+        "featured": false,
+        "hidden": false
+      }
+    },
+    {
+      "id": "vod-committee-2027-04-27-health-chi",
+      "mode": "on_demand",
+      "title": "National Children's Hospital Quarterly Update",
+      "summary": "Committee archive item.",
+      "description": "Committee on Health session on the National Children's Hospital.",
+      "forum": "Committee",
+      "committeeName": "Committee on Health",
+      "businessType": "Committee scrutiny",
+      "topicTags": ["health", "children", "capital projects"],
+      "status": "concluded",
+      "publishedAt": "2027-04-27T18:10:00Z",
+      "durationSeconds": 7680,
+      "language": ["en"],
+      "accessibility": {
+        "captions": true,
+        "isl": false,
+        "transcript": false
+      },
+      "posterImage": "/media/posters/committees/health-chi.jpg",
+      "landscapeImage": "/media/posters/committees/health-chi-wide.jpg",
+      "playback": {
+        "destinationUrl": "https://www.oireachtas.ie/en/oireachtas-tv/video-archive/committees/",
+        "videoUrl": "https://vod.example.ie/committees/health-chi.mp4",
+        "previewUrl": "https://vod.example.ie/previews/committees/health-chi-preview.mp4",
+        "previewStartSeconds": 45,
+        "previewEndSeconds": 65,
+        "autoplayAllowed": false,
+        "reelsMode": false
+      },
+      "search": {
+        "keywords": ["committee on health", "children's hospital"],
+        "people": [],
+        "places": ["Leinster House"]
+      },
+      "editorial": {
+        "featured": false,
+        "hidden": false
+      }
+    },
+    {
+      "id": "tv-feature-geneva-window",
+      "mode": "oireachtas_tv",
+      "title": "The Geneva Window | Through a Glass Darkly",
+      "summary": "A feature-length documentary from Oireachtas TV Productions.",
+      "description": "Long-form documentary feature for the Oireachtas TV destination.",
+      "series": "Featured",
+      "programmeType": "Documentary",
+      "topicTags": ["history", "culture", "documentary"],
+      "status": "published",
+      "publishedAt": "2027-03-14T09:00:00Z",
+      "durationSeconds": 4080,
+      "language": ["en"],
+      "accessibility": {
+        "captions": true,
+        "isl": true,
+        "transcript": false
+      },
+      "posterImage": "/media/posters/tv/geneva-window.jpg",
+      "landscapeImage": "/media/posters/tv/geneva-window-wide.jpg",
+      "playback": {
+        "destinationUrl": "https://www.oireachtas.ie/en/oireachtas-tv/oireachtas-tv-productions/geneva-window/",
+        "videoUrl": "https://vod.example.ie/tv/geneva-window.mp4",
+        "previewUrl": "https://vod.example.ie/previews/tv/geneva-window-preview.mp4",
+        "previewStartSeconds": 30,
+        "previewEndSeconds": 52,
+        "autoplayAllowed": true,
+        "reelsMode": false
+      },
+      "search": {
+        "keywords": ["geneva window", "through a glass darkly"],
+        "people": [],
+        "places": []
+      },
+      "editorial": {
+        "featured": true,
+        "featuredOrder": 1,
+        "hidden": false
+      }
+    },
+    {
+      "id": "tv-around-the-houses-march-2027",
+      "mode": "oireachtas_tv",
+      "title": "Around the Houses | March 2027",
+      "summary": "Monthly magazine-style viewing from across the Houses.",
+      "description": "Regular roundup programme for Oireachtas TV.",
+      "series": "Around the Houses",
+      "programmeType": "Magazine",
+      "topicTags": ["roundup", "monthly", "parliament"],
+      "status": "published",
+      "publishedAt": "2027-03-29T10:00:00Z",
+      "durationSeconds": 2880,
+      "language": ["en"],
+      "accessibility": {
+        "captions": true,
+        "isl": true,
+        "transcript": false
+      },
+      "posterImage": "/media/posters/tv/around-the-houses-march-2027.jpg",
+      "landscapeImage": "/media/posters/tv/around-the-houses-march-2027-wide.jpg",
+      "playback": {
+        "destinationUrl": "https://www.oireachtas.ie/en/oireachtas-tv/oireachtas-tv-productions/oireachtas-tv-monthly/10668",
+        "videoUrl": "https://vod.example.ie/tv/around-the-houses-march-2027.mp4",
+        "previewUrl": "https://vod.example.ie/previews/tv/around-the-houses-march-2027-preview.mp4",
+        "previewStartSeconds": 18,
+        "previewEndSeconds": 36,
+        "autoplayAllowed": true,
+        "reelsMode": false
+      },
+      "search": {
+        "keywords": ["around the houses", "monthly"],
+        "people": [],
+        "places": []
+      },
+      "editorial": {
+        "featured": false,
+        "shelfOrder": 1,
+        "hidden": false
+      }
+    },
+    {
+      "id": "tv-in-brief-fiscal-policy",
+      "mode": "oireachtas_tv",
+      "title": "Government Expenditure and Fiscal Policy",
+      "summary": "Short-form briefing content with strong explanatory framing.",
+      "description": "Vertical short designed for quick mobile-first viewing.",
+      "series": "In brief",
+      "programmeType": "Explainer",
+      "topicTags": ["budget", "economy", "briefing"],
+      "status": "published",
+      "publishedAt": "2027-04-20T08:30:00Z",
+      "durationSeconds": 180,
+      "language": ["en"],
+      "accessibility": {
+        "captions": true,
+        "isl": false,
+        "transcript": false
+      },
+      "posterImage": "/media/posters/tv/fiscal-policy-portrait.jpg",
+      "portraitImage": "/media/posters/tv/fiscal-policy-portrait.jpg",
+      "landscapeImage": "/media/posters/tv/fiscal-policy-wide.jpg",
+      "playback": {
+        "destinationUrl": "https://www.oireachtas.ie/en/how-parliament-is-run/houses-of-the-oireachtas-service/parliamentary-budget-office/briefing/",
+        "videoUrl": "https://vod.example.ie/tv/in-brief/fiscal-policy.mp4",
+        "previewUrl": "https://vod.example.ie/previews/tv/in-brief/fiscal-policy-preview.mp4",
+        "previewStartSeconds": 4,
+        "previewEndSeconds": 16,
+        "autoplayAllowed": true,
+        "reelsMode": true
+      },
+      "search": {
+        "keywords": ["fiscal policy", "government expenditure", "briefing"],
+        "people": [],
+        "places": []
+      },
+      "editorial": {
+        "featured": false,
+        "shelfOrder": 2,
+        "hidden": false
+      }
+    }
+  ],
+  "shelves": [
+    {
+      "id": "tv-latest",
+      "title": "Latest videos",
+      "mode": "oireachtas_tv",
+      "shelfType": "latest",
+      "itemIds": [
+        "tv-feature-geneva-window",
+        "tv-around-the-houses-march-2027",
+        "tv-in-brief-fiscal-policy"
+      ]
+    },
+    {
+      "id": "tv-in-brief",
+      "title": "In brief",
+      "mode": "oireachtas_tv",
+      "shelfType": "brief",
+      "series": "In brief",
+      "itemIds": ["tv-in-brief-fiscal-policy"]
+    },
+    {
+      "id": "tv-around-the-houses",
+      "title": "Around the Houses",
+      "mode": "oireachtas_tv",
+      "shelfType": "series",
+      "series": "Around the Houses",
+      "itemIds": ["tv-around-the-houses-march-2027"]
+    }
+  ],
+  "liveWindows": [
+    {
+      "id": "live-now",
+      "label": "Live now",
+      "itemIds": ["live-dail-2027-04-27-questions-to-taoiseach"]
+    }
+  ]
+}
