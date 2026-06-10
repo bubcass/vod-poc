@@ -1709,9 +1709,9 @@ function OnDemandView({
             isVideoSaved={isVideoSaved}
             onToggleSavedVideo={onToggleSavedVideo}
             onMarkVideoWatched={onMarkVideoWatched}
-            title="Catch-up results"
+            title="Filtered results"
             items={results}
-            emptyMessage="Nothing matched that search yet. A combined dropdown and text search should make this route forgiving without becoming over-engineered."
+            emptyMessage="Nothing matched that search yet."
           />
         )}
       </section>
