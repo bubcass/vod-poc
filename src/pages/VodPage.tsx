@@ -2811,9 +2811,10 @@ function MyParliamentView({
               My videos
             </h2>
             <p className="mt-2 max-w-3xl text-sm text-brand-gray-500">
-              Saved videos and recently watched sessions live together here, so
-              people can keep a personal trail through live proceedings,
-              catch-up and Oireachtas TV.
+              Saved videos and recently watched sessions in a convenient
+              personalised collection. This information is stored locally on
+              your device, so clearing browser history and caches may cause you
+              to lose your saved videos.
             </p>
           </div>
         </div>
@@ -2821,22 +2822,22 @@ function MyParliamentView({
 
       <div className="mt-8 space-y-8">
         <LibraryShelf
-          title="Recently watched"
-          description="A running shelf of the videos you opened most recently."
-          items={recentVideos}
-          isVideoSaved={isVideoSaved}
-          onToggleSavedVideo={onToggleSavedVideo}
-          onMarkVideoWatched={onMarkVideoWatched}
-          emptyMessage="Nothing watched yet. Open a live stream, catch-up item or Oireachtas TV feature and it will appear here."
-        />
-        <LibraryShelf
           title="Saved for later"
-          description="A personal shelf for the sessions and programmes you want to come back to."
+          description="A personalised collection of videos to come back to."
           items={savedVideos}
           isVideoSaved={isVideoSaved}
           onToggleSavedVideo={onToggleSavedVideo}
           onMarkVideoWatched={onMarkVideoWatched}
           emptyMessage="Nothing saved yet. Use the save control on any video card to add it to My videos."
+        />
+        <LibraryShelf
+          title="Recently watched"
+          description="Catch up on recently watched sessions."
+          items={recentVideos}
+          isVideoSaved={isVideoSaved}
+          onToggleSavedVideo={onToggleSavedVideo}
+          onMarkVideoWatched={onMarkVideoWatched}
+          emptyMessage="Nothing watched yet. Open a live stream, catch-up item or Oireachtas TV feature and it will appear here."
         />
       </div>
     </main>
