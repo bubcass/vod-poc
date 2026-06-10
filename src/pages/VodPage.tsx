@@ -1232,7 +1232,7 @@ export default function VodPage() {
                   mode === "TV" ? "subtle-tab-active" : "",
                 ].join(" ")}
               >
-                Oireachtas TV
+                Oireachtas Player
               </button>
               <button
                 type="button"
