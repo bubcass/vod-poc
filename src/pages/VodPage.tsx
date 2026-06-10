@@ -327,13 +327,7 @@ function HouseBadge({ label }: { label: string }) {
   );
 }
 
-function DebateLink({
-  href,
-  dark = false,
-}: {
-  href?: string;
-  dark?: boolean;
-}) {
+function DebateLink({ href, dark = false }: { href?: string; dark?: boolean }) {
   if (!href) return null;
 
   return (
@@ -342,7 +336,9 @@ function DebateLink({
       onClick={(event) => event.stopPropagation()}
       className={[
         "inline-flex items-center gap-1 text-sm font-medium underline-offset-2 transition hover:underline",
-        dark ? "contextual-link contextual-link-dark" : "contextual-link contextual-link-light",
+        dark
+          ? "contextual-link contextual-link-dark"
+          : "contextual-link contextual-link-light",
       ].join(" ")}
     >
       <span>Debate</span>
@@ -367,7 +363,9 @@ function CommitteePageLink({
       onClick={(event) => event.stopPropagation()}
       className={[
         "inline-flex items-center gap-1 text-sm font-medium underline-offset-2 transition hover:underline",
-        dark ? "contextual-link contextual-link-dark" : "contextual-link contextual-link-light",
+        dark
+          ? "contextual-link contextual-link-dark"
+          : "contextual-link contextual-link-light",
       ].join(" ")}
     >
       <span>{item.forum}</span>
@@ -496,7 +494,7 @@ function buildMockLiveForums(source: VodItem[]): LiveForumCard[] {
       thumb: cr1.thumb,
       previewSrc: cr1.mp4Url,
       meta: MOCK_LIVE_DATE,
-      note: "Engagement with Department officials",
+      note: "Engagement with the Department of Health and HSE",
     },
     {
       id: "live-cr2",
