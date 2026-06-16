@@ -1,0 +1,5774 @@
+var e=`<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/dail/2026-05-27/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/dail/2026-05-27/debate"/>
+          <FRBRdate date="2026-05-27" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/house/dail/34"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/dail/2026-05-27/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/dail/2026-05-27/debate/mul@"/>
+          <FRBRdate date="2026-05-27" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/dail/2026-05-27/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/dail/2026-05-27/debate/mul@.akn"/>
+          <FRBRdate date="2026-06-13" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_122" href="#sum_34" refersTo="#sum_33" outcome="#lost">
+            <count eId="vote_122-count_1" href="#qty_1" value="56" refersTo="#ta"/>
+            <count eId="vote_122-count_2" href="#qty_2" value="76" refersTo="#nil"/>
+            <count eId="vote_122-count_3" href="#qty_3" value="0" refersTo="#staon"/>
+          </voting>
+          <voting eId="vote_123" href="#sum_46" refersTo="#sum_45" outcome="#lost">
+            <count eId="vote_123-count_1" href="#qty_4" value="61" refersTo="#ta"/>
+            <count eId="vote_123-count_2" href="#qty_5" value="76" refersTo="#nil"/>
+            <count eId="vote_123-count_3" href="#qty_6" value="0" refersTo="#staon"/>
+          </voting>
+          <voting eId="vote_124" href="#sum_52" refersTo="#sum_51" outcome="#lost">
+            <count eId="vote_124-count_1" href="#qty_7" value="63" refersTo="#ta"/>
+            <count eId="vote_124-count_2" href="#qty_8" value="78" refersTo="#nil"/>
+            <count eId="vote_124-count_3" href="#qty_9" value="0" refersTo="#staon"/>
+          </voting>
+          <voting eId="vote_125" href="#sum_134" refersTo="#sum_133" outcome="#carried">
+            <count eId="vote_125-count_1" href="#qty_10" value="78" refersTo="#ta"/>
+            <count eId="vote_125-count_2" href="#qty_11" value="64" refersTo="#nil"/>
+            <count eId="vote_125-count_3" href="#qty_12" value="0" refersTo="#staon"/>
+          </voting>
+          <voting eId="vote_126" href="#sum_138" refersTo="#sum_137" outcome="#carried">
+            <count eId="vote_126-count_1" href="#qty_13" value="78" refersTo="#ta"/>
+            <count eId="vote_126-count_2" href="#qty_14" value="64" refersTo="#nil"/>
+            <count eId="vote_126-count_3" href="#qty_15" value="0" refersTo="#staon"/>
+          </voting>
+          <voting eId="vote_127" href="#sum_210" refersTo="#sum_209" outcome="#carried">
+            <count eId="vote_127-count_1" href="#qty_16" value="80" refersTo="#ta"/>
+            <count eId="vote_127-count_2" href="#qty_17" value="64" refersTo="#nil"/>
+            <count eId="vote_127-count_3" href="#qty_18" value="0" refersTo="#staon"/>
+          </voting>
+          <voting eId="vote_128" href="#sum_214" refersTo="#sum_213" outcome="#carried">
+            <count eId="vote_128-count_1" href="#qty_19" value="80" refersTo="#ta"/>
+            <count eId="vote_128-count_2" href="#qty_20" value="64" refersTo="#nil"/>
+            <count eId="vote_128-count_3" href="#qty_21" value="0" refersTo="#staon"/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#debates">
+        <TLCConcept eId="#lost" href="/ie/oireachtas/ontology#DeclaredLost" showAs="Declared Lost"/>
+        <TLCConcept eId="#carried" href="/ie/oireachtas/ontology#DeclaredCarried" showAs="Declared Carried"/>
+        <TLCConcept eId="#staon" href="/ie/oireachtas/ontology#StaonVote" showAs="Staon Vote"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="AidanFarrelly" href="/ie/oireachtas/member/id/Aidan-Farrelly.D.2024-11-29" showAs="Aidan Farrelly"/>
+        <TLCPerson eId="AindriasMoynihan" href="/ie/oireachtas/member/id/Aindrias-Moynihan.D.2016-10-03" showAs="Aindrias Moynihan"/>
+        <TLCPerson eId="AislingDempsey" href="/ie/oireachtas/member/id/Aisling-Dempsey.D.2024-11-29" showAs="Aisling Dempsey"/>
+        <TLCPerson eId="AlanDillon" href="/ie/oireachtas/member/id/Alan-Dillon.D.2020-02-08" showAs="Alan Dillon"/>
+        <TLCPerson eId="AlbertDolan" href="/ie/oireachtas/member/id/Albert-Dolan.D.2024-11-29" showAs="Albert Dolan"/>
+        <TLCPerson eId="BarryHeneghan" href="/ie/oireachtas/member/id/Barry-Heneghan.D.2024-11-29" showAs="Barry Heneghan"/>
+        <TLCPerson eId="BarryWard" href="/ie/oireachtas/member/id/Barry-Ward.S.2020-03-30" showAs="Barry Ward"/>
+        <TLCPerson eId="BrendanSmith" href="/ie/oireachtas/member/id/Brendan-Smith.D.1992-12-14" showAs="Brendan Smith"/>
+        <TLCPerson eId="BrianBrennan" href="/ie/oireachtas/member/id/Brian-Brennan.D.2024-11-29" showAs="Brian Brennan"/>
+        <TLCPerson eId="BrianStanley" href="/ie/oireachtas/member/id/Brian-Stanley.D.2011-03-09" showAs="Brian Stanley"/>
+        <TLCPerson eId="CarolNolan" href="/ie/oireachtas/member/id/Carol-Nolan.D.2016-10-03" showAs="Carol Nolan"/>
+        <TLCPerson eId="CathalCrowe" href="/ie/oireachtas/member/id/Cathal-Crowe.D.2020-02-08" showAs="Cathal Crowe"/>
+        <TLCPerson eId="CatherineArdagh" href="/ie/oireachtas/member/id/Catherine-Ardagh.S.2016-04-25" showAs="Catherine Ardagh"/>
+        <TLCPerson eId="CatherineCallaghan" href="/ie/oireachtas/member/id/Catherine-Callaghan.D.2024-11-29" showAs="Catherine Callaghan"/>
+        <TLCPerson eId="CathyBennett" href="/ie/oireachtas/member/id/Cathy-Bennett.D.2024-11-29" showAs="Cathy Bennett"/>
+        <TLCPerson eId="CharlesWard" href="/ie/oireachtas/member/id/Charles-Ward.D.2024-11-29" showAs="Charles Ward"/>
+        <TLCPerson eId="CharlieMcConalogue" href="/ie/oireachtas/member/id/Charlie-McConalogue.D.2011-03-09" showAs="Charlie McConalogue"/>
+        <TLCPerson eId="ChristopherOsullivan" href="/ie/oireachtas/member/id/Christopher-O'Sullivan.D.2020-02-08" showAs="Christopher O'Sullivan"/>
+        <TLCPerson eId="CianOCallaghan" href="/ie/oireachtas/member/id/Cian-O'Callaghan.D.2020-02-08" showAs="Cian O'Callaghan"/>
+        <TLCPerson eId="CiaranAhern" href="/ie/oireachtas/member/id/Ciarán-Ahern.D.2024-11-29" showAs="Ciarán Ahern"/>
+        <TLCPerson eId="ClaireKerrane" href="/ie/oireachtas/member/id/Claire-Kerrane.D.2020-02-08" showAs="Claire Kerrane"/>
+        <TLCPerson eId="ColmBrophy" href="/ie/oireachtas/member/id/Colm-Brophy.D.2016-10-03" showAs="Colm Brophy"/>
+        <TLCPerson eId="ColmBurke" href="/ie/oireachtas/member/id/Colm-Burke.S.2011-05-25" showAs="Colm Burke"/>
+        <TLCPerson eId="ConorDMcGuinness" href="/ie/oireachtas/member/id/Conor-D-McGuinness.D.2024-11-29" showAs="Conor D McGuinness"/>
+        <TLCPerson eId="ConorSheehan" href="/ie/oireachtas/member/id/Conor-Sheehan.D.2024-11-29" showAs="Conor Sheehan"/>
+        <TLCPerson eId="CormacDevlin" href="/ie/oireachtas/member/id/Cormac-Devlin.D.2020-02-08" showAs="Cormac Devlin"/>
+        <TLCPerson eId="DanielEnnis" href="/ie/oireachtas/member/id/Daniel-Ennis.D.2026-05-25" showAs="Daniel Ennis"/>
+        <TLCPerson eId="DannyHealyRae" href="/ie/oireachtas/member/id/Danny-Healy-Rae.D.2016-10-03" showAs="Danny Healy-Rae"/>
+        <TLCPerson eId="DaraCalleary" href="/ie/oireachtas/member/id/Dara-Calleary.D.2007-06-14" showAs="Dara Calleary"/>
+        <TLCPerson eId="DarraghOBrien" href="/ie/oireachtas/member/id/Darragh-O'Brien.D.2007-06-14" showAs="Darragh O'Brien"/>
+        <TLCPerson eId="DarrenORourke" href="/ie/oireachtas/member/id/Darren-O'Rourke.D.2020-02-08" showAs="Darren O'Rourke"/>
+        <TLCPerson eId="DavidCullinane" href="/ie/oireachtas/member/id/David-Cullinane.S.2011-05-25" showAs="David Cullinane"/>
+        <TLCPerson eId="DavidMaxwell" href="/ie/oireachtas/member/id/David-Maxwell.D.2024-11-29" showAs="David Maxwell"/>
+        <TLCPerson eId="DeniseMitchell" href="/ie/oireachtas/member/id/Denise-Mitchell.D.2016-10-03" showAs="Denise Mitchell"/>
+        <TLCPerson eId="DessieEllis" href="/ie/oireachtas/member/id/Dessie-Ellis.D.2011-03-09" showAs="Dessie Ellis"/>
+        <TLCPerson eId="DonnaMcGettigan" href="/ie/oireachtas/member/id/Donna-McGettigan.D.2024-11-29" showAs="Donna McGettigan"/>
+        <TLCPerson eId="DonnchadhOLaoghaire" href="/ie/oireachtas/member/id/Donnchadh-Ó-Laoghaire.D.2016-10-03" showAs="Donnchadh Ó Laoghaire"/>
+        <TLCPerson eId="DuncanSmith" href="/ie/oireachtas/member/id/Duncan-Smith.D.2020-02-08" showAs="Duncan Smith"/>
+        <TLCPerson eId="EamonScanlon" href="/ie/oireachtas/member/id/Eamon-Scanlon.S.2002-09-12" showAs="Eamon Scanlon"/>
+        <TLCPerson eId="EdwardTimmins" href="/ie/oireachtas/member/id/Edward-Timmins.D.2024-11-29" showAs="Edward Timmins"/>
+        <TLCPerson eId="EmerCurrie" href="/ie/oireachtas/member/id/Emer-Currie.S.2020-06-29" showAs="Emer Currie"/>
+        <TLCPerson eId="EmerHiggins" href="/ie/oireachtas/member/id/Emer-Higgins.D.2020-02-08" showAs="Emer Higgins"/>
+        <TLCPerson eId="EoghanKenny" href="/ie/oireachtas/member/id/Eoghan-Kenny.D.2024-11-29" showAs="Eoghan Kenny"/>
+        <TLCPerson eId="EoinHayes" href="/ie/oireachtas/member/id/Eoin-Hayes.D.2024-11-29" showAs="Eoin Hayes"/>
+        <TLCPerson eId="EoinOBroin" href="/ie/oireachtas/member/id/Eoin-Ó-Broin.D.2016-10-03" showAs="Eoin Ó Broin"/>
+        <TLCPerson eId="ErinMcGreehan" href="/ie/oireachtas/member/id/Erin-McGreehan.S.2020-06-29" showAs="Erin McGreehan"/>
+        <TLCPerson eId="FionntanOSuilleabhain" href="/ie/oireachtas/member/id/Fionntán-Ó-Súilleabháin.D.2024-11-29" showAs="Fionntán Ó Súilleabháin"/>
+        <TLCPerson eId="FrankFeighan" href="/ie/oireachtas/member/id/Frank-Feighan.S.2002-09-12" showAs="Frankie Feighan"/>
+        <TLCPerson eId="GaryGannon" href="/ie/oireachtas/member/id/Gary-Gannon.D.2020-02-08" showAs="Gary Gannon"/>
+        <TLCPerson eId="GeorgeLawlor" href="/ie/oireachtas/member/id/George-Lawlor.D.2024-11-29" showAs="George Lawlor"/>
+        <TLCPerson eId="GeraldNash" href="/ie/oireachtas/member/id/Gerald-Nash.D.2011-03-09" showAs="Ged Nash"/>
+        <TLCPerson eId="GillianToole" href="/ie/oireachtas/member/id/Gillian-Toole.D.2024-11-29" showAs="Gillian Toole"/>
+        <TLCPerson eId="GraceBoland" href="/ie/oireachtas/member/id/Grace-Boland.D.2024-11-29" showAs="Grace Boland"/>
+        <TLCPerson eId="HelenMcEntee" href="/ie/oireachtas/member/id/Helen-McEntee.D.2013-03-27" showAs="Helen McEntee"/>
+        <TLCPerson eId="HildegardeNaughton" href="/ie/oireachtas/member/id/Hildegarde-Naughton.S.2013-07-19" showAs="Hildegarde Naughton"/>
+        <TLCPerson eId="HollyCairns" href="/ie/oireachtas/member/id/Holly-Cairns.D.2020-02-08" showAs="Holly Cairns"/>
+        <TLCPerson eId="IvanaBacik" href="/ie/oireachtas/member/id/Ivana-Bacik.S.2007-07-23" showAs="Ivana Bacik"/>
+        <TLCPerson eId="JackChambers" href="/ie/oireachtas/member/id/Jack-Chambers.D.2016-10-03" showAs="Jack Chambers"/>
+        <TLCPerson eId="JamesBrowne" href="/ie/oireachtas/member/id/James-Browne.D.2016-10-03" showAs="James Browne"/>
+        <TLCPerson eId="JamesGeogheganFG" href="/ie/oireachtas/member/id/James-Geoghegan.D.2024-11-29" showAs="James Geoghegan"/>
+        <TLCPerson eId="JamesLawless" href="/ie/oireachtas/member/id/James-Lawless.D.2016-10-03" showAs="James Lawless"/>
+        <TLCPerson eId="JamesOConnor" href="/ie/oireachtas/member/id/James-O'Connor.D.2020-02-08" showAs="James O'Connor"/>
+        <TLCPerson eId="JenCummins" href="/ie/oireachtas/member/id/Jen-Cummins.D.2024-11-29" showAs="Jen Cummins"/>
+        <TLCPerson eId="JenniferCarrollMacNeill" href="/ie/oireachtas/member/id/Jennifer-Carroll-MacNeill.D.2020-02-08" showAs="Jennifer Carroll MacNeill"/>
+        <TLCPerson eId="JenniferMurnaneOConnor" href="/ie/oireachtas/member/id/Jennifer-Murnane-O'Connor.S.2016-04-25" showAs="Jennifer Murnane O'Connor"/>
+        <TLCPerson eId="JenniferWhitmore" href="/ie/oireachtas/member/id/Jennifer-Whitmore.D.2020-02-08" showAs="Jennifer Whitmore"/>
+        <TLCPerson eId="JerryButtimer" href="/ie/oireachtas/member/id/Jerry-Buttimer.S.2007-07-23" showAs="Jerry Buttimer"/>
+        <TLCPerson eId="JimOCallaghan" href="/ie/oireachtas/member/id/Jim-O'Callaghan.D.2016-10-03" showAs="Jim O'Callaghan"/>
+        <TLCPerson eId="JoannaByrne" href="/ie/oireachtas/member/id/Joanna-Byrne.D.2024-11-29" showAs="Joanna Byrne"/>
+        <TLCPerson eId="JoeCooney" href="/ie/oireachtas/member/id/Joe-Cooney.D.2024-11-29" showAs="Joe Cooney"/>
+        <TLCPerson eId="JoeNeville" href="/ie/oireachtas/member/id/Joe-Neville.D.2024-11-29" showAs="Joe Neville"/>
+        <TLCPerson eId="JohnBrady" href="/ie/oireachtas/member/id/John-Brady.D.2016-10-03" showAs="John Brady"/>
+        <TLCPerson eId="JohnClendennen" href="/ie/oireachtas/member/id/John-Clendennen.D.2024-11-29" showAs="John Clendennen"/>
+        <TLCPerson eId="JohnConnolly" href="/ie/oireachtas/member/id/John-Connolly.D.2024-11-29" showAs="John Connolly"/>
+        <TLCPerson eId="JohnCummins" href="/ie/oireachtas/member/id/John-Cummins.S.2020-03-30" showAs="John Cummins"/>
+        <TLCPerson eId="JohnLahart" href="/ie/oireachtas/member/id/John-Lahart.D.2016-10-03" showAs="John Lahart"/>
+        <TLCPerson eId="JohnMcGuinness" href="/ie/oireachtas/member/id/John-McGuinness.D.1997-06-26" showAs="John McGuinness"/>
+        <TLCPerson eId="JohnnyGuirke" href="/ie/oireachtas/member/id/Johnny-Guirke.D.2020-02-08" showAs="Johnny Guirke"/>
+        <TLCPerson eId="JohnnyMythen" href="/ie/oireachtas/member/id/Johnny-Mythen.D.2020-02-08" showAs="Johnny Mythen"/>
+        <TLCPerson eId="JohnPaulOShea" href="/ie/oireachtas/member/id/John-Paul-O'Shea.D.2024-11-29" showAs="John Paul O'Shea"/>
+        <TLCPerson eId="KeiraKeogh" href="/ie/oireachtas/member/id/Keira-Keogh.D.2024-11-29" showAs="Keira Keogh"/>
+        <TLCPerson eId="KenOFlynn" href="/ie/oireachtas/member/id/Ken-O'Flynn.D.2024-11-29" showAs="Ken O'Flynn"/>
+        <TLCPerson eId="KevinBoxerMoran" href="/ie/oireachtas/member/id/Kevin-Boxer-Moran.D.2016-10-03" showAs="Kevin Boxer Moran"/>
+        <TLCPerson eId="KieranODonnell" href="/ie/oireachtas/member/id/Kieran-O'Donnell.D.2007-06-14" showAs="Kieran O'Donnell"/>
+        <TLCPerson eId="LiamQuaide" href="/ie/oireachtas/member/id/Liam-Quaide.D.2024-11-29" showAs="Liam Quaide"/>
+        <TLCPerson eId="LouiseOReilly" href="/ie/oireachtas/member/id/Louise-O'Reilly.D.2016-10-03" showAs="Louise O'Reilly"/>
+        <TLCPerson eId="LouisOHara" href="/ie/oireachtas/member/id/Louis-O'Hara.D.2024-11-29" showAs="Louis O'Hara"/>
+        <TLCPerson eId="MaeveOConnell" href="/ie/oireachtas/member/id/Maeve-O'Connell.D.2024-11-29" showAs="Maeve O'Connell"/>
+        <TLCPerson eId="MaireadFarrell" href="/ie/oireachtas/member/id/Mairéad-Farrell.D.2020-02-08" showAs="Mairéad Farrell"/>
+        <TLCPerson eId="MaireDevine" href="/ie/oireachtas/member/id/Máire-Devine.S.2016-04-25" showAs="Máire Devine"/>
+        <TLCPerson eId="MalcolmByrne" href="/ie/oireachtas/member/id/Malcolm-Byrne.D.2019-11-29" showAs="Malcolm Byrne"/>
+        <TLCPerson eId="MarianHarkinIND" href="/ie/oireachtas/member/id/Marian-Harkin.D.2002-06-06" showAs="Marian Harkin"/>
+        <TLCPerson eId="MarieSherlock" href="/ie/oireachtas/member/id/Marie-Sherlock.S.2020-03-30" showAs="Marie Sherlock"/>
+        <TLCPerson eId="MarkWall" href="/ie/oireachtas/member/id/Mark-Wall.S.2020-03-30" showAs="Mark Wall"/>
+        <TLCPerson eId="MarkWard" href="/ie/oireachtas/member/id/Mark-Ward.D.2019-11-29" showAs="Mark Ward"/>
+        <TLCPerson eId="MartinDaly" href="/ie/oireachtas/member/id/Martin-Daly.D.2024-11-29" showAs="Martin Daly"/>
+        <TLCPerson eId="MartinHeydon" href="/ie/oireachtas/member/id/Martin-Heydon.D.2011-03-09" showAs="Martin Heydon"/>
+        <TLCPerson eId="MartinKenny" href="/ie/oireachtas/member/id/Martin-Kenny.D.2016-10-03" showAs="Martin Kenny"/>
+        <TLCPerson eId="MaryButler" href="/ie/oireachtas/member/id/Mary-Butler.D.2016-10-03" showAs="Mary Butler"/>
+        <TLCPerson eId="MaryLouMcDonald" href="/ie/oireachtas/member/id/Mary-Lou-McDonald.D.2011-03-09" showAs="Mary Lou McDonald"/>
+        <TLCPerson eId="MattCarthy" href="/ie/oireachtas/member/id/Matt-Carthy.D.2020-02-08" showAs="Matt Carthy"/>
+        <TLCPerson eId="MattieMcGrath" href="/ie/oireachtas/member/id/Mattie-McGrath.D.2007-06-14" showAs="Mattie McGrath"/>
+        <TLCPerson eId="MauriceQuinlivan" href="/ie/oireachtas/member/id/Maurice-Quinlivan.D.2016-10-03" showAs="Maurice Quinlivan"/>
+        <TLCPerson eId="MichaelCahill" href="/ie/oireachtas/member/id/Michael-Cahill.D.2024-11-29" showAs="Michael Cahill"/>
+        <TLCPerson eId="MichaelCollins2016" href="/ie/oireachtas/member/id/Michael-Collins.D.2016-10-03" showAs="Michael Collins"/>
+        <TLCPerson eId="MichaelHealyRae" href="/ie/oireachtas/member/id/Michael-Healy-Rae.D.2011-03-09" showAs="Michael Healy-Rae"/>
+        <TLCPerson eId="MichaelLowry" href="/ie/oireachtas/member/id/Michael-Lowry.D.1987-03-10" showAs="Michael Lowry"/>
+        <TLCPerson eId="MichaelMartin" href="/ie/oireachtas/member/id/Micheál-Martin.D.1989-06-29" showAs="Micheál Martin"/>
+        <TLCPerson eId="MichaelMoynihan" href="/ie/oireachtas/member/id/Michael-Moynihan.D.1997-06-26" showAs="Michael Moynihan"/>
+        <TLCPerson eId="MichaelMurphy" href="/ie/oireachtas/member/id/Michael-Murphy.D.2024-11-29" showAs="Michael Murphy"/>
+        <TLCPerson eId="MichealCarrigy" href="/ie/oireachtas/member/id/Micheál-Carrigy.S.2020-03-30" showAs="Micheál Carrigy"/>
+        <TLCPerson eId="NaoiseOCearuil" href="/ie/oireachtas/member/id/Naoise-Ó-Cearúil.D.2024-11-29" showAs="Naoise Ó Cearúil"/>
+        <TLCPerson eId="NaoiseOMuiri" href="/ie/oireachtas/member/id/Naoise-Ó-Muirí.D.2024-11-29" showAs="Naoise Ó Muirí"/>
+        <TLCPerson eId="NatashaNewsomeDrennan" href="/ie/oireachtas/member/id/Natasha-Newsome-Drennan.D.2024-11-29" showAs="Natasha Newsome Drennan"/>
+        <TLCPerson eId="NiallCollins" href="/ie/oireachtas/member/id/Niall-Collins.D.2007-06-14" showAs="Niall Collins"/>
+        <TLCPerson eId="NiamhSmyth" href="/ie/oireachtas/member/id/Niamh-Smyth.D.2016-10-03" showAs="Niamh Smyth"/>
+        <TLCPerson eId="NoelGrealishPD" href="/ie/oireachtas/member/id/Noel-Grealish.D.2002-06-06" showAs="Noel Grealish"/>
+        <TLCPerson eId="NoelMcCarthy" href="/ie/oireachtas/member/id/Noel-McCarthy.D.2024-11-29" showAs="Noel McCarthy"/>
+        <TLCPerson eId="NormaFoley" href="/ie/oireachtas/member/id/Norma-Foley.D.2020-02-08" showAs="Norma Foley"/>
+        <TLCPerson eId="PadraigMacLochlainn" href="/ie/oireachtas/member/id/Pádraig-MacLochlainn.D.2011-03-09" showAs="Pádraig Mac Lochlainn"/>
+        <TLCPerson eId="PadraigOSullivan" href="/ie/oireachtas/member/id/Pádraig-O'Sullivan.D.2019-11-29" showAs="Pádraig O'Sullivan"/>
+        <TLCPerson eId="PadraigRice" href="/ie/oireachtas/member/id/Pádraig-Rice.D.2024-11-29" showAs="Pádraig Rice"/>
+        <TLCPerson eId="PaDaly" href="/ie/oireachtas/member/id/Pa-Daly.D.2020-02-08" showAs="Pa Daly"/>
+        <TLCPerson eId="PatBuckley" href="/ie/oireachtas/member/id/Pat-Buckley.D.2016-10-03" showAs="Pat Buckley"/>
+        <TLCPerson eId="PatrickODonovan" href="/ie/oireachtas/member/id/Patrick-O'Donovan.D.2011-03-09" showAs="Patrick O'Donovan"/>
+        <TLCPerson eId="PaulDonnelly" href="/ie/oireachtas/member/id/Paul-Donnelly.D.2020-02-08" showAs="Paul Donnelly"/>
+        <TLCPerson eId="PaulLawless" href="/ie/oireachtas/member/id/Paul-Lawless.D.2024-11-29" showAs="Paul Lawless"/>
+        <TLCPerson eId="PaulMcAuliffe" href="/ie/oireachtas/member/id/Paul-McAuliffe.D.2020-02-08" showAs="Paul McAuliffe"/>
+        <TLCPerson eId="PaulMurphy" href="/ie/oireachtas/member/id/Paul-Murphy.D.2014-10-10" showAs="Paul Murphy"/>
+        <TLCPerson eId="PaulNicholasGogartyGP" href="/ie/oireachtas/member/id/Paul-Nicholas-Gogarty.D.2002-06-06" showAs="Paul Nicholas Gogarty"/>
+        <TLCPerson eId="PeadarToibin" href="/ie/oireachtas/member/id/Peadar-Tóibín.D.2011-03-09" showAs="Peadar Tóibín"/>
+        <TLCPerson eId="PearseDoherty" href="/ie/oireachtas/member/id/Pearse-Doherty.S.2007-07-23" showAs="Pearse Doherty"/>
+        <TLCPerson eId="PeterBurke" href="/ie/oireachtas/member/id/Peter-Burke.D.2016-10-03" showAs="Peter Burke"/>
+        <TLCPerson eId="PeterChapCleere" href="/ie/oireachtas/member/id/Peter-'Chap'-Cleere.D.2024-11-29" showAs="Peter 'Chap' Cleere"/>
+        <TLCPerson eId="PeterRoche" href="/ie/oireachtas/member/id/Peter-Roche.D.2024-11-29" showAs="Peter Roche"/>
+        <TLCPerson eId="ReadaCronin" href="/ie/oireachtas/member/id/Réada-Cronin.D.2020-02-08" showAs="Réada Cronin"/>
+        <TLCPerson eId="RichardBoydBarrett" href="/ie/oireachtas/member/id/Richard-Boyd-Barrett.D.2011-03-09" showAs="Richard Boyd Barrett"/>
+        <TLCPerson eId="RichardODonoghue" href="/ie/oireachtas/member/id/Richard-O'Donoghue.D.2020-02-08" showAs="Richard O'Donoghue"/>
+        <TLCPerson eId="RobertODonoghue" href="/ie/oireachtas/member/id/Robert-O'Donoghue.D.2024-11-29" showAs="Robert O'Donoghue"/>
+        <TLCPerson eId="RobertTroy" href="/ie/oireachtas/member/id/Robert-Troy.D.2011-03-09" showAs="Robert Troy"/>
+        <TLCPerson eId="RodericOGorman" href="/ie/oireachtas/member/id/Roderic-O'Gorman.D.2020-02-08" showAs="Roderic O'Gorman"/>
+        <TLCPerson eId="RoryHearne" href="/ie/oireachtas/member/id/Rory-Hearne.D.2024-11-29" showAs="Rory Hearne"/>
+        <TLCPerson eId="RoseConwayWalsh" href="/ie/oireachtas/member/id/Rose-Conway-Walsh.S.2016-04-25" showAs="Rose Conway-Walsh"/>
+        <TLCPerson eId="RuairiOmurchu" href="/ie/oireachtas/member/id/Ruairí-Ó-Murchú.D.2020-02-08" showAs="Ruairí Ó Murchú"/>
+        <TLCPerson eId="RuthCoppinger" href="/ie/oireachtas/member/id/Ruth-Coppinger.D.2014-05-23" showAs="Ruth Coppinger"/>
+        <TLCPerson eId="RyanOMeara" href="/ie/oireachtas/member/id/Ryan-O'Meara.D.2024-11-29" showAs="Ryan O'Meara"/>
+        <TLCPerson eId="SeamusHealy" href="/ie/oireachtas/member/id/Seamus-Healy.D.2000-06-22" showAs="Seamus Healy"/>
+        <TLCPerson eId="SeamusMcGrath" href="/ie/oireachtas/member/id/Séamus-McGrath.D.2024-11-29" showAs="Séamus McGrath"/>
+        <TLCPerson eId="SeanCanney" href="/ie/oireachtas/member/id/Seán-Canney.D.2016-10-03" showAs="Seán Canney"/>
+        <TLCPerson eId="SeanCroweSF" href="/ie/oireachtas/member/id/Seán-Crowe.D.2002-06-06" showAs="Seán Crowe"/>
+        <TLCPerson eId="SeanFleming" href="/ie/oireachtas/member/id/Seán-Fleming.D.1997-06-26" showAs="Sean Fleming"/>
+        <TLCPerson eId="SeanKyne" href="/ie/oireachtas/member/id/Seán-Kyne.D.2011-03-09" showAs="Seán Kyne"/>
+        <TLCPerson eId="SeanOFearghaillFF" href="/ie/oireachtas/member/id/Seán-Ó-Fearghaíl.S.2000-06-09" showAs="Seán Ó Fearghaíl"/>
+        <TLCPerson eId="ShaneMoynihan" href="/ie/oireachtas/member/id/Shane-Moynihan.D.2024-11-29" showAs="Shane Moynihan"/>
+        <TLCPerson eId="ShayBrennan" href="/ie/oireachtas/member/id/Shay-Brennan.D.2024-11-29" showAs="Shay Brennan"/>
+        <TLCPerson eId="ShonaghNiRaghallaigh" href="/ie/oireachtas/member/id/Shónagh-Ní-Raghallaigh.D.2024-11-29" showAs="Shónagh Ní Raghallaigh"/>
+        <TLCPerson eId="SimonHarris" href="/ie/oireachtas/member/id/Simon-Harris.D.2011-03-09" showAs="Simon Harris"/>
+        <TLCPerson eId="SineadGibney" href="/ie/oireachtas/member/id/Sinéad-Gibney.D.2024-11-29" showAs="Sinéad Gibney"/>
+        <TLCPerson eId="SorcaClarke" href="/ie/oireachtas/member/id/Sorca-Clarke.D.2020-02-08" showAs="Sorca Clarke"/>
+        <TLCPerson eId="ThomasGould" href="/ie/oireachtas/member/id/Thomas-Gould.D.2020-02-08" showAs="Thomas Gould"/>
+        <TLCPerson eId="TimDooley" href="/ie/oireachtas/member/id/Timmy-Dooley.S.2002-09-12" showAs="Timmy Dooley"/>
+        <TLCPerson eId="TomBrabazon" href="/ie/oireachtas/member/id/Tom-Brabazon.D.2024-11-29" showAs="Tom Brabazon"/>
+        <TLCPerson eId="TonyMcCormack" href="/ie/oireachtas/member/id/Tony-McCormack.D.2024-11-29" showAs="Tony McCormack"/>
+        <TLCPerson eId="VeronaMurphy" href="/ie/oireachtas/member/id/Verona-Murphy.D.2020-02-08" showAs="Verona Murphy"/>
+        <TLCPerson eId="WilliamAird" href="/ie/oireachtas/member/id/William-Aird.D.2024-11-29" showAs="William Aird"/>
+        <TLCPerson eId="WillieODea" href="/ie/oireachtas/member/id/Willie-O'Dea.D.1982-03-09" showAs="Willie O'Dea"/>
+        <TLCEvent eId="bill.2024.56.dail.3_sub" href="/ie/oireachtas/bill/2024/56/dail/3_sub" showAs="Údarás na Gaeltachta (Amendment) Bill 2024: An Tuarascáil agus an Chéim Dheiridh (Dáil)"/>
+        <TLCEvent eId="bill.2026.2.dail.3_sub" href="/ie/oireachtas/bill/2026/2/dail/3_sub" showAs="Gas Safety (Amendment) Bill 2026: Committee and Remaining Stages (Dáil)"/>
+        <TLCRole eId="Agriculture" href="/ie/oireachtas/role/office/agriculture" showAs="Agriculture"/>
+        <TLCRole eId="An_Cathaoirleach_Gníomhach" href="/ie/oireachtas/role/office/an_cathaoirleach_gníomhach" showAs="An Cathaoirleach Gníomhach"/>
+        <TLCRole eId="Children" href="/ie/oireachtas/role/office/children" showAs="Children"/>
+        <TLCRole eId="Climate" href="/ie/oireachtas/role/office/climate" showAs="Climate"/>
+        <TLCRole eId="Culture" href="/ie/oireachtas/role/office/culture" showAs="Culture"/>
+        <TLCRole eId="Defence" href="/ie/oireachtas/role/office/defence" showAs="Defence"/>
+        <TLCRole eId="Education" href="/ie/oireachtas/role/office/education" showAs="Education"/>
+        <TLCRole eId="Enterprise" href="/ie/oireachtas/role/office/enterprise" showAs="Enterprise"/>
+        <TLCRole eId="Finance" href="/ie/oireachtas/role/office/finance" showAs="Finance"/>
+        <TLCRole eId="Foreign" href="/ie/oireachtas/role/office/foreign" showAs="Foreign"/>
+        <TLCRole eId="Further_and_Higher_Education" href="/ie/oireachtas/role/office/further_and_higher_education" showAs="Further and Higher Education"/>
+        <TLCRole eId="Health" href="/ie/oireachtas/role/office/health" showAs="Health"/>
+        <TLCRole eId="Housing" href="/ie/oireachtas/role/office/housing" showAs="Housing"/>
+        <TLCRole eId="Justice" href="/ie/oireachtas/role/office/justice" showAs="Justice"/>
+        <TLCRole eId="Minister_for_Agriculture,_Food_and_the_Marine" href="/ie/oireachtas/role/minister/agriculture__food__marine" showAs="Minister for Agriculture, Food and the Marine"/>
+        <TLCRole eId="Minister_for_Children,_Disability_and_Equality" href="/ie/oireachtas/role/minister/children__disability__equality" showAs="Minister for Children, Disability and Equality"/>
+        <TLCRole eId="Minister_for_Climate,_Energy_and_the_Environment" href="/ie/oireachtas/role/minister/climate__energy__environment" showAs="Minister for Climate, Energy and the Environment"/>
+        <TLCRole eId="Minister_for_Culture,_Communications_and_Sport" href="/ie/oireachtas/role/minister/culture__communications__sport" showAs="Minister for Culture, Communications and Sport"/>
+        <TLCRole eId="Minister_for_Defence" href="/ie/oireachtas/role/minister/defence" showAs="Minister for Defence"/>
+        <TLCRole eId="Minister_for_Education_and_Youth" href="/ie/oireachtas/role/minister/education__youth" showAs="Minister for Education and Youth"/>
+        <TLCRole eId="Minister_for_Enterprise,_Tourism_and_Employment" href="/ie/oireachtas/role/minister/enterprise__tourism__employment" showAs="Minister for Enterprise, Tourism and Employment"/>
+        <TLCRole eId="Minister_for_Finance" href="/ie/oireachtas/role/minister/finance" showAs="Minister for Finance"/>
+        <TLCRole eId="Minister_for_Foreign_Affairs_and_Trade" href="/ie/oireachtas/role/minister/foreign_affairs__trade" showAs="Minister for Foreign Affairs and Trade"/>
+        <TLCRole eId="Minister_for_Further_and_Higher_Education,_Research,_Innovation_and_Science" href="/ie/oireachtas/role/minister/further__higher_education__research__innovation__science" showAs="Minister for Further and Higher Education, Research, Innovation and Science"/>
+        <TLCRole eId="Minister_for_Health" href="/ie/oireachtas/role/minister/health" showAs="Minister for Health"/>
+        <TLCRole eId="Minister_for_Housing,_Local_Government_and_Heritage" href="/ie/oireachtas/role/minister/housing__local_government__heritage" showAs="Minister for Housing, Local Government and Heritage"/>
+        <TLCRole eId="Minister_for_Justice,_Home_Affairs_and_Migration" href="/ie/oireachtas/role/minister/justice__home_affairs__migration" showAs="Minister for Justice, Home Affairs and Migration"/>
+        <TLCRole eId="Minister_for_Public_Expenditure,_Infrastructure,_Public_Service_Reform_and_Digitalisation" href="/ie/oireachtas/role/minister/public_expenditure__infrastructure__public_service_reform__digitalisation" showAs="Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation"/>
+        <TLCRole eId="Minister_for_Rural_and_Community_Development_and_the_Gaeltacht" href="/ie/oireachtas/role/minister/rural__community_development__gaeltacht" showAs="Minister for Rural and Community Development and the Gaeltacht"/>
+        <TLCRole eId="Minister_for_Social_Protection" href="/ie/oireachtas/role/minister/social_protection" showAs="Minister for Social Protection"/>
+        <TLCRole eId="Minister_for_Transport" href="/ie/oireachtas/role/minister/transport" showAs="Minister for Transport"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Children,_Disability_and_Equality" href="/ie/oireachtas/role/minister_state/children__disability__equality" showAs="Minister of State at the Department of Children, Disability and Equality"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Climate,_Energy_and_the_Environment" href="/ie/oireachtas/role/minister_state/climate__energy__environment" showAs="Minister of State at the Department of Climate, Energy and the Environment"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Culture,_Communications_and_Sport" href="/ie/oireachtas/role/minister_state/culture__communications__sport" showAs="Minister of State at the Department of Culture, Communications and Sport"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Education_and_Youth" href="/ie/oireachtas/role/minister_state/education__youth" showAs="Minister of State at the Department of Education and Youth"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Enterprise,_Tourism_and_Employment" href="/ie/oireachtas/role/minister_state/enterprise__tourism__employment" showAs="Minister of State at the Department of Enterprise, Tourism and Employment"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Health" href="/ie/oireachtas/role/minister_state/health" showAs="Minister of State at the Department of Health"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Justice,_Home_Affairs_and_Migration" href="/ie/oireachtas/role/minister_state/justice__home_affairs__migration" showAs="Minister of State at the Department of Justice, Home Affairs and Migration"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Public_Expenditure,_Infrastructure,_Public_Service_Reform_and_Digitalisation" href="/ie/oireachtas/role/minister_state/public_expenditure__infrastructure__public_service_reform__digitalisation" showAs="Minister of State at the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Transport" href="/ie/oireachtas/role/minister_state/transport" showAs="Minister of State at the Department of Transport"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_the_Taoiseach" href="/ie/oireachtas/role/minister_state/taoiseach" showAs="Minister of State at the Department of the Taoiseach"/>
+        <TLCRole eId="Public_Expenditure" href="/ie/oireachtas/role/office/public_expenditure" showAs="Public Expenditure"/>
+        <TLCRole eId="Rural" href="/ie/oireachtas/role/office/rural" showAs="Rural"/>
+        <TLCRole eId="Social" href="/ie/oireachtas/role/office/social" showAs="Social"/>
+        <TLCRole eId="Taoiseach" href="/ie/oireachtas/role/office/taoiseach" showAs="Taoiseach"/>
+        <TLCRole eId="Transport" href="/ie/oireachtas/role/office/transport" showAs="Transport"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>DÁIL ÉIREANN</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>DÁIL ÉIREANN</docProponent>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2026-05-27">Dé Céadaoin, 27 Bealtaine 2026</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2026-05-27">Wednesday, 27 May 2026</docDate>
+      </block>
+      <block name="volume">
+        <docNumber refersTo="#vol_1086">Vol. 1086</docNumber>
+      </block>
+      <block name="number">
+        <docNumber refersTo="#no_4">No. 4</docNumber>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">Chuaigh an Cathaoirleach Gníomhach (Deputy Aindrias Moynihan) i gceannas ar 9 a.m.</summary>
+        <summary class="Center" eId="sum_2">Paidir agus Machnamh.</summary>
+        <summary class="Center" eId="sum_3">Prayer and Reflection.</summary>
+      </debateSection>
+      <debateSection name="topical" eId="dbsect_2">
+        <heading>Ábhair Shaincheisteanna Tráthúla - Topical Issue Matters<recordedTime time="2026-05-27T09:00:00+01:00"/></heading>
+        <speech by="#AindriasMoynihan" as="#An_Cathaoirleach_Gníomhach" eId="spk_1">
+          <from>An Cathaoirleach Gníomhach (Deputy Aindrias Moynihan)<recordedTime time="2026-05-27T09:00:00+01:00"/></from>
+          <p eId="para_1">I wish to advise the House of the following matters in respect of which notice has been given under Standing Order 39 and the name of the Member in each case:</p>
+          <p eId="para_2"> Deputy Ruth Coppinger - To discuss the loss of a mainstream teacher in a DEIS plus primary school in Dublin 17.</p>
+          <p eId="para_3"> Deputy Jen Cummins - To discuss supports for children and students with dyslexia.</p>
+          <p eId="para_4"> Deputy Joe Cooney - To discuss the need to provide funding to local authorities for the refurbishment costs of tenant in situ scheme houses. </p>
+          <p eId="para_5"> Deputy Roderic O'Gorman - To discuss the recent fire in an apartment complex in Castleknock, Dublin 15 and what steps can be taken to assist the tenants that have been made homeless as a result. </p>
+          <p eId="para_6"> Deputy Natasha Newsome Drennan - To discuss a public awareness campaign on Lyme disease and the risks posed by ticks in the summer months.</p>
+          <p eId="para_7"> Deputy Pádraig O'Sullivan - To discuss the Minister's engagement with the Before We Die Group, and plans for ramping up residential placements nationwide. </p>
+          <p eId="para_8"> Deputy Albert Dolan - To discuss introducing financial literacy to the school curriculum.</p>
+          <p eId="para_9"> Deputy Pat Buckley - To discuss the urgent need for a person (details supplied) to have treatment under the EU cross-border health directive.</p>
+          <p eId="para_10"> Deputy Malcolm Byrne - To discuss the need for social and affordable housing in Arklow, County Wicklow.</p>
+          <p eId="para_11"> Deputy Michael Murphy - To discuss ongoing delays in the SEAI warmer homes scheme.</p>
+          <p eId="para_12"> Deputy Donnchadh Ó Laoghaire - To discuss the humanitarian crisis in Cuba.</p>
+          <p eId="para_13"> Deputy Colm Burke - To discuss establishing a national radiation therapy equipment replacement programme.</p>
+          <p eId="para_14"> Deputies Maurice Quinlivan, Conor Sheehan - To discuss the delay in funding BusConnects in Limerick.</p>
+          <p eId="para_15"> Deputy Brian Brennan - To discuss emergency roads funding to cover the cost of damage to roads in Wicklow and Wexford by Storm Chandra.</p>
+          <p eId="para_16"> Deputy Naoise Ó Cearúil - To discuss the establishment of a national AI workplace transition programme.</p>
+          <p eId="para_17"> The matters raised by Deputies Ruth Coppinger, Jen Cummins, Naoise Ó Cearúil, Roderic O'Gorman and Brian Brennan have been selected for discussion.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="topical" eId="dbsect_3">
+        <heading>Saincheisteanna Tráthúla - Topical Issue Debate<recordedTime time="2026-05-27T09:00:00+01:00"/></heading>
+        <debateSection name="debate" eId="dbsect_4">
+          <heading>School Staff<recordedTime time="2026-05-27T09:00:00+01:00"/></heading>
+          <speech by="#RuthCoppinger" eId="spk_2">
+            <from>Deputy Ruth Coppinger<recordedTime time="2026-05-27T09:00:00+01:00"/></from>
+            <p eId="para_18">How can it be that a school that made it to DEIS plus status, St. Francis Junior School in Priorswood in Dublin 17, can lose a teacher at the same time, bringing the pupil-teacher ratio from 17:1 to 22:1? This cannot stand. The school was recently given DEIS plus status but the board of management, staff and parents are absolutely devastated to learn that they will lose a mainstream class teacher for the upcoming academic year. It is losing a teacher because the number of pupils on the roll book went from 166 to 165. One pupil being lost means that an entire teacher is lost. The school lodged an appeal with the primary staffing appeals board and, on 13 May, got the answer that the appeal was unsuccessful and that the decision was final. The school cannot accept that decision. That community just cannot lose a teacher for those students.</p>
+            <p eId="para_19"> The impact of losing a teacher in that area will be extremely damaging to the school community and it completely undermines the purpose of DEIS plus support. What is the point in getting a wellness teacher if you lose a mainstream class teacher? This school is one of the most deprived and disadvantaged in the entire country. It endeavours to ensure that every student who walks through the door is loved, cared for and given every support that they can get in society. They are provided with a teaching and learning environment where they can flourish. The pupil-teacher ratio for DEIS plus is 17:1 but this would bring it up to 22:1 if that teacher is removed. Many schools might be able to cope but not in an area like this, serving a community like this, with such high levels of disadvantage. Last year, this school lost a teacher too. It had to amalgamate three junior infant classes into two senior infant classes. Those students will deal with the ramifications of that for five or six years, all the way through primary school. If the school loses this teacher, it will again have to amalgamate three junior infant classes into two senior infant classes and three first classes and into two second classes.</p>
+            <p eId="para_20"> Many of the students who come to this school do not go to preschool or early years learning, unlike peers in other communities. Upon enrolling, they often do not know what learning and educational needs they have. It is vital that the pupil-teacher ratio is maintained so that those students can get the support that they need.</p>
+            <p eId="para_21"> I have been informed by the school that it has the highest enrolment for junior infant classes in the Dublin 17 area. On Friday, 15 May, it had 16 junior infant enrolments for September 2026. On Monday, 18 May, it had two more. It currently has 168 enrolments in mainstream classes, plus six new enrolments in the ASD class. That is a total of 174 children. Its enrolment has gone way beyond what it would have been when it had the teacher taken away based on September figures.</p>
+            <p eId="para_22"> I ask the Minister of State to intervene. Some 40% of the pupils in this school are from the Traveller community and the rest of the children are from extremely deprived socioeconomic backgrounds. All the staff work tirelessly but we all know the impact, as educational research shows, of adverse childhood experiences and trauma and how they affect pupils' ability to learn and flourish in society. This cannot stand and it has to be overturned.</p>
+          </speech>
+          <speech by="#MichaelMoynihan" as="#Minister_of_State_at_the_Department_of_Education_and_Youth" eId="spk_3">
+            <from>Minister of State at the Department of Education and Youth (Deputy Michael Moynihan)<recordedTime time="2026-05-27T09:00:00+01:00"/></from>
+            <p eId="para_23">Addressing educational disadvantage and ensuring that every child and young person can reach their full potential is a key priority for both me, as Minister of State at the Department of Education and Youth, and for the entire Government. The DEIS plus programme represents a significant expansion of targeted educational supports. It is designed to provide enhanced, evidence-based supports to 121 schools with the highest concentrations of children and young people experiencing persistent and inter-generational disadvantage. Approximately 30,000 children and young people nationally will benefit from the scheme. Schools in the DEIS plus programme will receive strengthened, research-informed supports across well-being, attendance, engagement, guidance, leadership capacity, community partnerships and access to services, including the introduction of a new positive mental health and well-being initiative to support a whole-school approach to student well-being.</p>
+            <p eId="para_24"> Teacher numbers at primary level have reached the highest ever level in the current school year. There are over 43,000 teaching posts across the primary school system. This represents an increase of just over 5,000 teachers when compared with the 2019-2020 school year. This has led to a steady improvement in the pupil-teacher ratio and average class sizes during the period. In recent budgets, priority was given to reducing the pupil-teacher ratios in primary schools, which has brought the teacher allocation ratio to an average of one classroom teacher for every 23 pupils in all primary schools, the most favourable ratio ever seen at primary level. More favourable ratios are implemented in DEIS urban band 1, including DEIS plus schools, at an average of 17:1, 21:1 and 19:1 for junior, senior and vertical schools respectively. A three-point reduction in the retention schedule, which was introduced in 2021, assists schools that would otherwise be at risk of losing teachers.</p>
+            <p eId="para_25"> The latest figures for pupil-teacher ratio show an improved ratio of pupils to teachers from 15:1 to 12:1 at primary level when comparing the 2019-2020 school year to the 2024-2025 school year. In the same period, primary staffing schedules improved from 26:1 to 23:1, and average class sizes at primary school level have improved from 24:1 to 22.2:1. In the same period, St. Francis Junior School had a primary teacher ratio of one teacher for every 9.5 students and a class size of one teacher for every 19 students.</p>
+            <p eId="para_26"> The key factor in determining the level of staffing resources provided to individual schools is the staffing schedule for relevant school years and pupil enrolments on the previous 30 September. The primary staffing schedule is a long-standing feature of our primary school allocation system which ensures fairness and transparency in allocating mainstream class teachers across our primary schools, regardless of location. The staffing arrangements include an appeals mechanism for schools to submit a staffing appeal under certain published criteria.</p>
+            <p eId="para_27"> The school referred the Deputy referred to currently has ten mainstream teachers. As the school's enrolment fell below the required enrolment threshold, the mainstream staffing is due to be reduced by one in September. The school submitted an appeal to the primary staffing appeals board. This was unsuccessful. The primary staffing appeals board operates completely independently of the Department and its decision is final. We have to have a system where we have some metrics to ensure that we have staffing across the education system.</p>
+            <p eId="para_28">I take the points the Deputy has made but unfortunately the numbers dictate. It was the Department's decision and then the independent appeals body supported that decision.</p>
+          </speech>
+          <speech by="#RuthCoppinger" eId="spk_4">
+            <from>Deputy Ruth Coppinger<recordedTime time="2026-05-27T09:10:00+01:00"/></from>
+            <p eId="para_29">What the Minister of State said there was lovely but it does not deal with the problem. What is the point of giving a school DEIS plus status and taking away a teacher? It makes no sense. The Minister of State needs to intervene here. This is one of the most disadvantaged areas in terms of social problems and the different minorities represented. Some 40% are from the Traveller community. This is going to hit that community in particular. There are also issues like crime, drug abuse, etc., which we all know exist in very disadvantaged working class communities.</p>
+            <p eId="para_30"> The decision does not represent the reality. That is the point. The numbers have now gone ahead for the next school year based on what was the case. I am asking the Minister of State to intervene and review the allocation for the school or to ask the Minister to do it. To show how much upset this has caused, parents in that community are going door to door. Parents in that community have enough on their plate without having to go do door to door petitioning on this. That is how much it has impacted. The parents know the importance of having that sort of supports in the school. I hope the TDs in the area will get behind this as well because it is not recognising the reality, which is that the school population has gone way over what is needed to maintain that teacher. There have to be ways in which the Minister for education can intervene to review the allocation of a school given the burning social problems the area has. It is not breaking a rule because rules and regulations that do not apply to the reality need to be challenged as well. I am asking the Minister to recognise what DEIS plus is meant to mean and to intervene here.</p>
+          </speech>
+          <speech by="#MichaelMoynihan" eId="spk_5" as="#Minister_of_State_at_the_Department_of_Education_and_Youth">
+            <from>Deputy Michael Moynihan<recordedTime time="2026-05-27T09:10:00+01:00"/></from>
+            <p eId="para_31">In the first instance, the school has the DEIS plus status. That status provides extra resources to communities and schools like the ones the Deputy has mentioned. It is important we acknowledge the work that is being done and the amount of money the Government is putting behind the DEIS plus programme and understand the disadvantage in communities across the country and in the ones the Deputy outlined. The challenge is ensuring we have proper governance. We have to have a cut-off date and 30 September has long been that date. I take the points because having been a public representative for a number of years I see where the numbers go beyond it. Unfortunately, the Department made a decision based on the numbers that were provided on 30 September. That date has been engrained in the primary system for a long number of years. An appeal was submitted by the school authorities and that is completely independent of the Department and of the Minister. The appeals submitted have been looked at. The DEIS plus programme has been put out there to ensure disadvantaged schools and communities are supported in a meaningful way and that we are targeting scarce resources right across the Department to ensure they are going to the most vulnerable. We understand fully the more we invest in education at a disadvantaged level and right across the education system, the better it is for society, but unfortunately the appeals system came back to say it stood by the decision made by the Department. We will continue, through DEIS plus and other programmes, to support the school the Deputy mentioned and also disadvantaged schools right across the country.</p>
+          </speech>
+          <speech by="#RuthCoppinger" eId="spk_6">
+            <from>Deputy Ruth Coppinger<recordedTime time="2026-05-27T09:10:00+01:00"/></from>
+            <p eId="para_32">Maybe the school should close the ASD class.</p>
+          </speech>
+          <speech by="#AindriasMoynihan" as="#An_Cathaoirleach_Gníomhach" eId="spk_7">
+            <from>An Cathaoirleach Gníomhach (Deputy Aindrias Moynihan)<recordedTime time="2026-05-27T09:10:00+01:00"/></from>
+            <p eId="para_33">Thank you. Tá an t-am caite.</p>
+          </speech>
+        </debateSection>
+        <debateSection name="debate" eId="dbsect_5">
+          <heading>Special Educational Needs<recordedTime time="2026-05-27T09:10:00+01:00"/></heading>
+          <speech by="#JenCummins" eId="spk_8">
+            <from>Deputy Jen Cummins<recordedTime time="2026-05-27T09:10:00+01:00"/></from>
+            <p eId="para_34">I thank the Minister of State for taking my questions and facilitating the change. It did not suit both of us at the time so I appreciate him being here. We have discussed dyslexia quite a lot at the education committee over the last while and over the time since the committee started discussing it I have been contacted by so many parents, support teachers and students about dyslexia and the supports available in our schools at primary and secondary level. Today in <i>The Irish Times </i>there is an article about a mother whose child needs a reading school but there is no place available for them.</p>
+            <p eId="para_35"> I want to discuss a number of things. I asked a parliamentary question about reading recovery because there is new research, though perhaps not that new, about the effectiveness of reading recovery. As I am sure the Minister of State is aware, it is a programme used for children early on to help them learn how to read. The mixed research is basically saying it is not as effective for the long term. It can be quite effective immediately but the meta-analysis has come back saying that over a long time reading recovery is not as effective as structured literacy programmes are. On that basis I asked how much money has been spent on reading recovery over the last five years. We are talking about figures of just over €248,000 to almost €370,000. That is a lot of money on a programme that is now being looked at by academics, especially in Australia, as not being an effective use of supports for children with dyslexia.</p>
+            <p eId="para_36"> I am very interested in the Department's view on moving more to a structured literacy programme. That means teaching explicit skills. It is not asking a child what they think is going to happen in a particular sentence or what they think a given word is about. That is useless for a child in the long term. It is great for there and then if they are reading <i>Ann and Barry</i>. I am aware they do not read <i>Ann and Barry</i> any more. It was <i>Ann and Barry</i> in my day and that of the Minister of State but they read more interesting books than that now. Those pictures are relied on so much, whereas the explicit nature of teaching in structured literacy programmes leads to a longer-term understanding of words, structures, etc. It is systemic, sequential, cumulative and has a diagnostic way of looking at literacy. It is really important the Department starts to explore whether we are behind the curve here. We are not keeping on top of what the biggest research is saying, which is to move away from reading recovery and more towards structured literacy.</p>
+            <p eId="para_37"> I also want to address the extra ten minutes in the exams. That debate was very heated in the education committee with the NCSE and the State Examinations Commission. They wanted extra time to decide whether they were going to give our students with dyslexia extra time. The irony was not lost on anybody. In other jurisdictions exam support far exceeds what we have. There is a lot more flexibility. We have an extra ten minutes coming in for the papers. In other countries candidates are allowed an extra 25% exam time. Other countries also allow access to word processing, computers and all that sort of stuff. It seems to be a lot easier. The process for getting reasonable accommodation here is an absolute nightmare.</p>
+            <p eId="para_38"> There are two more things I would like to talk about. What students want when they go to school is proper support not just for reading, spelling and all that sort of stuff but also for how dyslexia affects every part of the body and brain. It is about how those supports can be understood by the students. I want to mention NCPD but I will come back to that.</p>
+          </speech>
+          <speech by="#MichaelMoynihan" eId="spk_9" as="#Minister_of_State_at_the_Department_of_Education_and_Youth">
+            <from>Deputy Michael Moynihan<recordedTime time="2026-05-27T09:10:00+01:00"/></from>
+            <p eId="para_39">I thank the Deputy very much for raising the question and also for the change in time, which I appreciate. We in the Department, and the entire Government, have invested heavily in ensuring that all recognised mainstream schools have been allocated additional special education teaching resources to support children with special educational needs, including students with literacy difficulties.</p>
+            <p eId="para_40"> Guidelines for schools on the organisation, deployment and use of their special education teachers have been published on the Department's website. For the 2026-27 school year there will be, I think, 15,200 special education teachers allocated to primary and post-primary schools to enable them to support children with special educational needs. The NCSE has the responsibility for planning and co-ordinating school supports for children with special educational needs. The Department does not have a role in individual determinations. Funding is also made available to schools for the purchase of specialised equipment such as computers or software to assist children with special educational needs. This includes children with a specific learning disability, where relevant professionals recommend the equipment as being essential for the provision of education. Schools then apply to the NCSE.</p>
+            <p eId="para_41">A continuum of education provision is in place, covering a full range of needs spanning placement in mainstream classes, with support through more specialised placements either in the special class or special school setting.</p>
+            <p eId="para_42"> The Deputy raised the issue of dyslexia in particular. If she looks at the funding that we are giving to special education in particular, she will see that it has grown hugely in recent years and, as I said, we now have over 15,000 teachers. The policy, including international policy, is for children with educational needs to be in mainstream, insofar as is possible, and to support them in mainstream. We are providing a huge amount of funding through the various resources in the Department and the NCSE to ensure that children with dyslexia, in particular, can be accommodated in mainstream education.</p>
+            <p eId="para_43"> Much of the discussion that we have had in the House, with the NCSE, with the Department on a continuous basis and with the Oireachtas committee is to ensure that we are targeting children with dyslexia or other literacy difficulties in a meaningful way. We have put in the resources. A huge volume of work is being done by the special education teachers across the country. They are also doing a huge amount of work outside school time to make sure they are equipped to meet the needs of the children and give them the best possible education.</p>
+            <p eId="para_44"> We are constantly monitoring this. While the Government and the Department are putting in the resources, the question is whether we are having the desired outcomes. We have evidence to show the support that is being given in mainstream classes, and the outcomes are very positive. We are continuing to monitor that. As we have seen over the decades since Independence, education is constantly evolving, and it is continuing to evolve at the moment. There is a greater understanding of the needs, but also a greater understanding of the need to ensure that the resources we are putting in are targeted in a meaningful way. We need to ensure that the outcomes for children and young people are meaningful, and that they are equipped to lead the best life.</p>
+            <p eId="para_45"> To answer the specific question, we are constantly monitoring the resources that we are putting in to ensure we are targeting them in the proper way. I will come back to the Deputy on the other points in my concluding remarks.</p>
+          </speech>
+          <speech by="#JenCummins" eId="spk_10">
+            <from>Deputy Jen Cummins<recordedTime time="2026-05-27T09:20:00+01:00"/></from>
+            <p eId="para_46">I appreciate that the Government is putting a lot of resources into this, and I know the Minister of State is working tirelessly on it. I accept that. However, we can always do things better. It is my job in opposition to always hold the guys on the other side of the House to account, and I like doing that.</p>
+            <p eId="para_47"> There are challenges. We do not have enough reading schools. Dyslexia Ireland is saying exactly what the Minister of State is saying, which is that we want to mainstream everybody, but if we do not have the expertise in every single school, we cannot do that. That is why children need to go to specialist services, like reading schools, for a couple of years.</p>
+            <p eId="para_48"> We need to rapidly upskill every single member of staff in primary and secondary school, particularly secondary school. In primary school, I think that we are doing excellently, and we are able to identify it. In secondary school, the initial teacher training education, the SNA training and the continuous professional development really need to focus on dyslexia and other disabilities. I do not think the expertise is there. They are subject teachers. I am not in any way being disparaging to any teacher. As the Minister of State knows, I love education, and I love the people who work in it because of all the passion they bring to it. However, we can do this better.</p>
+            <p eId="para_49"> There needs to be an inspectorate for the services provided to students with dyslexia. The reason for that is to make sure that the standard is there and that every child is getting the resources they need. Many students come to me saying that they cannot read or write. We can see the number of students who leave mainstream education because they cannot cope in a system that does not work around them. We need to look at that to see where we are letting children fall through the gaps. It is through no fault of their own, or for want of learning. It is the way our system is. We need to make sure that we are able to fully support them in that way.</p>
+            <p eId="para_50"> When it comes to computers and so on, we need more resources for every school. There are students who do not get that funding, and they are missing out. We need to make sure they do not miss out.</p>
+          </speech>
+          <speech by="#MichaelMoynihan" eId="spk_11" as="#Minister_of_State_at_the_Department_of_Education_and_Youth">
+            <from>Deputy Michael Moynihan<recordedTime time="2026-05-27T09:20:00+01:00"/></from>
+            <p eId="para_51">Therein lies the point. We are continuing to invest hugely, but we have to ensure that we get the outcomes of that investment for children and young people in primary and post-primary schools. There are a lot of teachers and SNAs across the education system. They are working extremely hard, and they are desperately committed to what they are doing. They are constantly looking at new initiatives and trying to find the best way of doing this. We are bringing in teacher training for special education to make sure that it is part of this.</p>
+            <p eId="para_52"> There is a constant discussion in relation to the reading schools. We know of the children and other individuals who have gone to the reading schools, and after a number of years, they are able to come back into mainstream school. We can see how that has benefited them. There is a huge volume. There are 15,000 extra special education teachers in the education system. We want to make sure that we can mainstream as much as possible. I take the Deputy’s point on ensuring that we have those available in every school across the country. All of the assistive technology is being rolled out, which is important.</p>
+            <p eId="para_53"> For students who have a particular challenge with dyslexia or other reading or literacy issues, it will affect them into later life. Like the Deputy, we all meet people in adulthood, and we would be filling out a form for them, or whatever, and we can see that it has impeded their lives. We understand that. The most important piece is that there is constant investment in all aspects of specialised education. The NCSE and the Department are continuing to monitor this. We will never arrive at a position in the education system where we say that everything is perfect now, because it is constantly evolving, and new information and research are constantly coming through. We are working on it. We will endeavour to make sure we are doing the right thing.</p>
+          </speech>
+        </debateSection>
+        <debateSection name="debate" eId="dbsect_6">
+          <heading>Artificial Intelligence<recordedTime time="2026-05-27T09:20:00+01:00"/></heading>
+          <speech by="#NaoiseOCearuil" eId="spk_12">
+            <from>Deputy Naoise Ó Cearúil<recordedTime time="2026-05-27T09:20:00+01:00"/></from>
+            <p eId="para_54">Having worked in the artificial intelligence space prior to my election to this House, I have seen the amazing pros but also the cons that come with such technology, particularly as agentic technology develops. Basic administrative tasks in the workplace are being taken away from individuals, allowing them to do more strategic and focused work. That should be welcomed. On the other hand, there are roles that are being completely reshaped, and the entire workplace is being completely reshaped as well. Up to 40% of tasks are at risk of automation in the next five years. That is not all negative. As I said, if we can allow people the flexibility to focus on more strategic work, that type of automation is to be welcomed.</p>
+            <p eId="para_55"> It is a difficulty because up to 40,000 jobs could be at risk because of automation. Some piece of automation within a job is to be welcomed because it helps people. However, if it risks taking someone's job or role, that is where there is a challenge. What we have seen internationally is that there has been a 15% to 40% reduction in customer service and compliance roles, and also in the financial services element.</p>
+            <p eId="para_56"> I have written a national AI workplace replacement programme to essentially direct how we should help workers whose jobs are at risk or are impacted by AI. The Minister, Deputy James Lawless, has done a lot of work on a national skills observatory, and there are other elements, with the Minister of State, Deputy Niamh Smyth, having also taken many actions. However, we need to be proactive before roles are impacted, rather than after. We have seen 700 jobs recently lost at Covalen and another 300 at Meta, so over 1,000 jobs have been lost in recent weeks due to the rise of AI. What I am proposing in this policy is that we focus on small and medium enterprises or large enterprises.</p>
+            <p eId="para_57">As stated, we have seen job losses at the likes of Covalen and Meta hit the news headlines. However, there are many roles that have been replaced and that have not hit the headlines. It is a case of one job here and five jobs there. We know from the industry that this is happening quietly.</p>
+            <p eId="para_58"> What I am setting out in my policy proposal is that when a company is going to reduce its workforce, it should notify the Government and the national AI workplace relations programme. The State could then assist in retraining thee workers involved to take up new roles within the business. If no roles are available within that particular business, then they should be retrained to take up positions outside of it. What that would do is protect jobs and reskill people within the workplace as opposed to those jobs being lost and the people who hold them having to go on social welfare. One example could be somebody working in an administrative or secretarial role who would move into overseeing the AI being used to replace their role. Another example could be around data integrity and ensuring that whatever is happening is GDPR compliant. I have already engaged with the unions, employer representatives, the Taoiseach and Minister of State, Deputy Smyth, in respect of this matter. It is important that we set out the foundation for establishing a programme and a pilot scheme. I will explain that latter in a moment.</p>
+          </speech>
+          <speech by="#CharlieMcConalogue" as="#Minister_of_State_at_the_Department_of_Culture,_Communications_and_Sport" eId="spk_13">
+            <from>Minister of State at the Department of Culture, Communications and Sport (Deputy Charlie McConalogue)<recordedTime time="2026-05-27T09:30:00+01:00"/></from>
+            <p eId="para_59">I thank Deputy Ó Cearúil for raising this very important issue. I recognise his strong work on it and on developing a national AI workplace transition programme and leading out on it in the context of meeting with employers, unions and the relevant Ministers. The Deputy's work within the political system has been pioneering in relation to this matter. It is appropriate that we are discussing it here in the Dáil this morning. This is something that will have to take up much more Government and Oireachtas time in the period ahead in the context of ensuring that we respond to this challenge and that we are at the forefront when it comes to making sure it is used positively and to the benefit of the public. We must also ensure that our policies reflect an approach that harnesses AI in this way.</p>
+            <p eId="para_60"> As the Deputy will know, in the first instance, the Minister for Further and Higher Education, Research, Innovation and Science is the appropriate lead for issues of skilling, reskilling and upskilling of the workforce to navigate the impacts of potential job displacement due to the adoption of Al technologies. I am taking this matter on his behalf this morning,. I know the Deputy has been liaising closely with him and his officials on this issue and on his policy proposal.</p>
+            <p eId="para_61"> The digitalisation of the economy and society and the adoption of AI are among the largest structural forces shaping our country. The Government is committed to driving our digital agenda and to Ireland remaining a digital leader at the heart of Europe and globally. Accordingly, Digital Ireland was published on 18 February. The latter is the national digital and Al strategy. It sets an ambition for Ireland to be a global hub for applied Al innovation. It also renews the Government's commitments to inclusion and accessibility to ensure that no one is left behind in this digital and Al revolution.</p>
+            <p eId="para_62"> Research published by the Departments of Finance and Enterprise, Tourism and Employment shows that Ireland is relatively more exposed than other advanced economies. In line with this finding, Digital Ireland seeks to support workers to navigate and mitigate the impacts of potential job displacement, including through agile, responsive and accessible skills supports. The Government recently held its first national skills round table, marking the beginning of a national programme of high-level engagements focused on ensuring Ireland has the right skills for a rapidly changing economy. This will include a series of sector-specific meetings with employers and industry representative bodies to gain deeper insight into priority skills needs.</p>
+            <p eId="para_63"> Officials within the Department of Further and Higher Education, Research, Innovation and Science are currently developing a statement of ambition, which will focus on digital skills including Al skills, and a roadmap for technology skills for the future, which will be the successor to Technology Skills 2022. The Department is also developing a national skills observatory. It is intended to have the observatory in place by year end. The observatory will have several functions, including monitoring labour market trends and emerging skills needs, which will support Ireland's responsiveness to education and training systems.</p>
+            <p eId="para_64"> Regarding recent developments, last month saw the launch of the AI Ready platform. The latter will support early inclusive skills development, an approach strongly reinforced by ESRI and Central Bank research on Al, skills and labour market disruption. SOLAS and the educational training boards, ETBs, have developed short flexible courses, including micro-qualifications focused on Al awareness, applied skills and career transition opportunities.</p>
+            <p eId="para_65"> Higher education institutions continue to deliver a wide range of specialist and foundational digital skills programmes, including micro-credentials, through initiatives such as Springboard+. These are complemented by the work of Skillnet Ireland, which continues to deliver enterprise-led upskilling opportunities that are aligned with industry needs.</p>
+          </speech>
+          <speech by="#NaoiseOCearuil" eId="spk_14">
+            <from>Deputy Naoise Ó Cearúil<recordedTime time="2026-05-27T09:30:00+01:00"/></from>
+            <p eId="para_66">The roadmap for technology skills of the future, the statement of ambition on digital and AI skills, AI micro credentials and the online platform AI Ready, which was only launched two weeks ago, are all great, particularly in the context of skills. This is not a skill issue, however; this is a worker's issue. It is about stopping people losing their jobs or retaining the jobs they currently hold. Reskilling and retraining are needed within places of employment when a notification is given that there will be a reduction in the workforce. This is primarily to protect workers. There is no doubt about the fact that we are on the crest of a huge change regarding employment and workers' rights in this country. We have to do all that is possible in that regard. Retraining and reskilling will be a huge part of that, but there are many skills that cannot be trained, particularly as people have been working in roles that now no longer exist.</p>
+            <p eId="para_67"> It is not just about the Department of further and higher education; this is primarily an issue for the Departments of enterprise and Social Protection. What I have laid out in the programme details how this can happen in the long term, but also, importantly, the programme sets out the terms for a pilot scheme for financial and customer services within the next three years involving 1,000 workers. That scheme would show that it can work, and it has been costed. Again, this is about protecting people. If it is a success in those sectors, which international examples have shown are the most vulnerable, then it should be expanded to the entire workforce.</p>
+            <p eId="para_68"> I reiterate that this is about protecting workers. People are losing their jobs. Families across the country and in Kildare are worried. I am trying to be as proactive and future focused as possible.</p>
+          </speech>
+          <speech by="#CharlieMcConalogue" eId="spk_15" as="#Minister_of_State_at_the_Department_of_Culture,_Communications_and_Sport">
+            <from>Deputy Charlie McConalogue<recordedTime time="2026-05-27T09:30:00+01:00"/></from>
+            <p eId="para_69">I acknowledge the relevance of the proposal and policy approach the Deputy has put forward. The Government has to focus on seeing how we can ensure workers are retained within companies. That is absolutely the Deputy's focus. The Government obviously takes the need to retrain and reskill people seriously. I have already outlined on behalf of the Minister for further and higher education the different steps being taken, whether it is the roadmap for technology skills for the future, the statement of ambition on digital and AI skills, the AI micro-qualifications developed by SOLAS or the online platform AI Ready, which is focused on trying to make sure the skills and retraining is provided from Government and all our agencies. </p>
+            <p eId="para_70"> The approach Deputy Ó Cearúil is taking goes to the nub of where we need be in order to try to address this challenge. Certainly, he has been doing a lot of work on this with the officials, the Minister, Deputy Lawless, and the Minister of State, Deputy Smyth. I will engage with them in relation to this debate and on the importance of working with the Deputy on the policy proposal he has put forward. I again acknowledge the Deputy's advocacy and leadership within the political system with regard to the importance of addressing this matter and putting forward tangible proposals as to how that can be achieved. It is very important from a Government perspective that our Departments engage with him to take that on board and, collectively, to try to address something that is evolving rapidly.</p>
+            <p eId="para_71"> I agree with the Deputy that our objective has to be how we protect workers during the transition. Obviously, AI has massive potential to be of benefit, but it has to be something that we ensure we harness for the good of wider society in a way that improves people's quality of life. To achieve that, we have to make sure that employment is maintained, that people have jobs to go to and that AI adds to productivity and the good things we, as a society, experience . Crucial to that is that jobs are protected in the process. The Deputy's policy proposal very much aims to address that. I will relay the points he made to the Minister.</p>
+          </speech>
+          <speech by="#AindriasMoynihan" as="#An_Cathaoirleach_Gníomhach" eId="spk_16">
+            <from>An Cathaoirleach Gníomhach (Deputy Aindrias Moynihan)<recordedTime time="2026-05-27T09:40:00+01:00"/></from>
+            <p eId="para_72">I thank the Minister. We need to move on to the next Topical Issue in ainm an Teachta O’Gorman.</p>
+          </speech>
+        </debateSection>
+        <debateSection name="debate" eId="dbsect_7">
+          <heading>Emergency Accommodation<recordedTime time="2026-05-27T09:40:00+01:00"/></heading>
+          <speech by="#RodericOGorman" eId="spk_17">
+            <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T09:40:00+01:00"/></from>
+            <p eId="para_73">Last Friday, in the very early hours of the morning, a serious fire broke out in the Auburn Park apartments in Castleknock in my constituency. The Minister of State knows Castleknock and is probably aware of this apartment block. The fire was significant. Up to four fire engines were dispatched to bring it under control. At least one person was taken to hospital with smoke inhalation. Hundreds of people, all the residents of this block of apartments, had to be evacuated in order to control the fire. Significant damage was done to the roof of the complex. A number of the apartments on the top floors were directly exposed, and others suffered severe water damage as a result of the efforts to extinguish the fire.</p>
+            <p eId="para_74"> All 45 apartments in the complex are currently vacant. Most of the residents were accommodated in a hotel on the night of the fire and have been in that local hotel since then. Locals in the area are working to assist those who were evacuated, particularly those whose apartments were severely damaged.</p>
+            <p eId="para_75"> The key point for me this morning is what happens next. All bar nine of the 45 apartments are owned by a property group and are leased out by that group. Shockingly, earlier this week, many of the residents were told that they were having their tenancy terminated due to the units being uninhabitable. The Minister of State can imagine the shock that created, in that on top of a fire tenants were told their tenancy was gone, just like that. Thankfully, that notice of termination of tenancy has been withdrawn by the property group, and that is something I welcome. However, there is still real concern among these tenants. They have been told they have an hour-long slot to go into their apartments, gather up their stuff and take it out as if people could pack up their entire lives in just one hour. Right now, the residents have accommodation in a hotel but that ends tomorrow, and after that there is no clarity about how these residents are going to be supported.</p>
+            <p eId="para_76"> I have a number of questions the residents need answered urgently to give them some guidance about what happens next. Can a landlord terminate a tenancy on the basis of a unit being uninhabitable, and is there any restriction on the landlord doing that? If a landlord terminates a tenancy on the basis of a unit being uninhabitable, does he or she owe the tenant any other duties after doing that? When a unit has been damaged but the tenancy has not been terminated, what duties does a landlord owe a tenant in that particular situation? For example, does the landlord have any duty to find alternative accommodation for the tenant? Does he or she have any responsibilities as regards assisting the tenant finding and paying for storage for their personal items? Finally, if a landlord does not provide alternative accommodation in circumstances where a unit is badly damaged, where else can the tenant get help? Does the local authority owe any of the obligations there? Do any other parts of the State owe obligations in that particular situation? These are detailed questions.</p>
+            <p eId="para_77"> I recognise the Minister of State is not the line Minister here but these questions really need to be answered urgently because tenants in the vast majority of these homes are looking at a deadline where their accommodation in a hotel is paid until tomorrow and no further. They need to know what to do. I am working to support them, and Deputy Currie has engaged with them and has been giving a lot of help as well, but if we can get some key answers and clarity about the legal responsibilities here, it will at least help guide the tenants to a certain degree.</p>
+          </speech>
+          <speech by="#CharlieMcConalogue" eId="spk_18" as="#Minister_of_State_at_the_Department_of_Culture,_Communications_and_Sport">
+            <from>Deputy Charlie McConalogue<recordedTime time="2026-05-27T09:40:00+01:00"/></from>
+            <p eId="para_78">I thank Deputy O'Gorman for raising this issue. I join with him in recognising the distress the tenants are experiencing as a result of this very traumatic event, and also recognise his advocacy on their behalf, as well as the very stressful situation they remain in as a result of no longer being in their apartments. I am taking this on behalf of the Minister for housing and the Department of housing. The Deputy raised a number of very pertinent and urgent questions in his contribution and I certainly will ask the Department to revert directly to him to have them answered.</p>
+            <p eId="para_79"> The Minister was also concerned to learn of the fire at the Auburn Park apartments last week, and likewise he very much appreciates the distress experienced by the residents and the families affected by the fire. The role of the Department of housing is to ensure a framework of policy, legislation and funding is provided to ensure housing authorities are in a position to address homelessness at a local level. Statutory responsibility for the provision and co-ordination of emergency accommodation rests with the local authorities and in this instance it is the responsibility of Fingal County Council to assess individual needs and deliver supports on the ground, including housing needs assessments, the provision of emergency accommodation and any homelessness supports required for residents affected.</p>
+            <p eId="para_80"> The local authority will work with other agencies such as the Dublin Fire Brigade, the Department of Social Protection, the HSE and approved housing bodies, where appropriate, to ensure all necessary supports are put in place. I assure the Deputy on behalf of the Minister, Deputy Browne and the Department of housing that they will continue to support Fingal County Council with the funding necessary to ensure that residents of Auburn Park are supported in accessing housing assistance where appropriate in the weeks ahead.</p>
+            <p eId="para_81"> This year, more than €563 million has been allocated to homeless services, ensuring that local authorities such as Fingal County Council have the resources required to respond rapidly to situations like this. This includes more than €513 million in current funding to ensure local authorities can provide emergency accommodation, homelessness prevention and tenancy sustainment services to households experiencing or at risk of homelessness and that these households in emergency accommodation are supported to exit homelessness as quickly as possible. The focus is on ensuring rapid access to emergency accommodation, followed by wrap-around supports and pathways back into secure housing. Supporting individuals and families facing homelessness is a key priority for both the Minister and the Government and prevention of homelessness in the first instance is an absolute priority.</p>
+            <p eId="para_82"> There are many prevention initiatives already under way in the Department and across Government, and this includes the provision of social affordable housing, housing assistance payments, HAP, and homeless HAP, and our strong tenancy protection legislation. Increased supply is key to addressing homelessness and the Government is investing significantly in that aspect.</p>
+            <p eId="para_83"> I know Deputy O'Gorman’s particular question is in relation to the need for urgent support for the residents of the Auburn Park apartments and the very distressing situation they find themselves in. Fingal County Council will be liaising closely with them along with the Department of housing, and its response today makes it clear that from a funding point of view it stands ready to work with Fingal County Council and other agencies in relation to trying to support residents and work through this particular challenging situation. The questions the Deputy has raised are very pertinent for residents in relation to the obligations from the owners of the apartments to them. On the legal questions he posed in relation to what those obligations are, I will ask the Department to revert directly to him with those answers.</p>
+            <p eId="para_84"> Again I share concern regarding the really difficult situation these residents find themselves in, and recognise the importance of everyone within the State and all of our agencies working to support them through this difficult period.</p>
+          </speech>
+          <speech by="#RodericOGorman" eId="spk_19">
+            <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T09:40:00+01:00"/></from>
+            <p eId="para_85">I thank the Minister of State for his response. In Topical Issue debates, we often hear a Minister or Minister of State saying, "I will ask the Minister to get back to you." I really appeal to the Minister of State to ask his private secretary to get on to the Minister's private secretary and bring this to his attention. I know he will and I appreciate that. I put a lot of very specific questions to the Minister of State. The answer he has given me is more generalised, and that is fine. However, these specific questions need to be answered. The focus of the reply is very much on the question of homelessness, and let us be honest, these people are homeless right now. Some units are not usable at all while some probably will be usable after a bit of work.</p>
+            <p eId="para_86"> The Minister of State talked about the Government being willing to support Fingal in terms of providing homeless services, and I know our local authority works well, but I am interested in the responsibility of the landlord here because we are not talking about a small landlord or someone who has two or three apartments he or she lets out. This is a significant property development and rental company that has a significant number of units around the city and around the country. I do not know what its responsibility is in a situation like this. Does it have a responsibility to have some degree of insurance if something happens in one of its properties to be able to support tenants if a disastrous situation like this occurs? I ask for clarity on the immediate obligations of this landlord company to its tenants. Does it have to support them in terms of providing alternative accommodation?</p>
+            <p eId="para_87">Do they have to support them in the context of providing alternative accommodation? How long will that last, or, as seems to be the case right now, are these tenants provided for up until tomorrow and then they have to fend for themselves? If that is the case, there is something significantly wrong with the legislative framework we have in place.</p>
+            <p eId="para_88"> I thank the Minister of State for his answer. I appeal to him to raise this with the Minister for housing and ask him to revert to me and other Deputies, including Deputy Currie, as quickly as possible.</p>
+          </speech>
+          <speech by="#CharlieMcConalogue" eId="spk_20" as="#Minister_of_State_at_the_Department_of_Culture,_Communications_and_Sport">
+            <from>Deputy Charlie McConalogue<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+            <p eId="para_89">I assure Deputy O'Gorman that I will immediately relay this back to the Minister for housing and his Department and ask them to respond directly to the Deputy in relation to the really important questions he has posed. I understand the real stress that affected residents are experiencing, where they are not clear on what the situation is or the obligations for support to them when the provision of hotel accommodation runs out tomorrow and the immediate challenge that will arise for them.</p>
+            <p eId="para_90"> In regard to landlords, it is important that there is legal clarity in relation to what their obligations are. It would be important to see that accommodation be available again as quickly as possible when repairs have been carried out in the context of the different levels of damage there would be to each apartment. I have no doubt that for most of the residents, their objective is, if at all possible, to be back in their apartments as quickly as they possibly can. There is the short-term and interim piece in relation to how they are supported through this. The obligations of the apartment owner in relation to that, which are going to be important, require that clarity.</p>
+            <p eId="para_91"> From the point of view of the State, Fingal County Council and State agencies working to support them in the interim period is also important. I will ask the Department and the Minister to revert directly to the Deputy on the questions he has raised.</p>
+          </speech>
+        </debateSection>
+        <debateSection name="debate" eId="dbsect_8">
+          <heading>Road Network<recordedTime time="2026-05-27T09:50:00+01:00"/></heading>
+          <speech by="#BrianBrennan" eId="spk_21">
+            <from>Deputy Brian Brennan<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+            <p eId="para_92">I wish the Minister of State a good morning. I want to speak about roads funding following Storm Chandra in counties Wexford and Wicklow, or, should I say, the lack of roads funding. It was literally this day four months ago, namely 27 January, that Storm Chandra arrived on our shores and caused absolute havoc for people, for their homes and for the roads of the south east. At the time, it was absolutely shocking. Here we are, and there is a sense of <i>déjà vu</i> for me because this is my fourth time to come to the House to ask for additional funds to facilitate repairs to the roads following that storm.</p>
+            <p eId="para_93"> I am totally frustrated. I genuinely feel that I and Wicklow and Wexford county councils are being given the runaround. What is happening is simply unacceptable. When you drive from Hook Head to Bray or from Brittas Bray into Coolkenno, you will see first hand what is going on. We are dealing with dangerous roads. Some of these roads are blocked and some have massive potholes. The general consensus is that it is a serious health and safety risk at this stage.</p>
+            <p eId="para_94"> Wexford County Council is looking for in excess of €20 million. Wicklow County Council is looking for €15 million. These sums are needed, because what we do not want is a sticking-plaster solution. We do not want someone coming around and filling potholes. We want these roads properly cleared off and a proper waterproof surface applied to them. We need this done now. Why are we being pushed around from one Department to another and still not getting a response?</p>
+            <p eId="para_95"> I spoke directly with engineers in the counties regarding their frustration. Again, I stress that this is a huge health and safety issue. It does not matter where you go. I drove from Gorey to Tullow on Sunday. I came back at dusk. There are unmarked roads with potholes on them. Somebody has to stand up in this House and be accountable for the lack of action on this matter. It may not be Deputy Brian Brennan, but as sure as night follows day there will be a TD in some other constituency who will stand up here next January or February following another storm and looking for the exact same thing. Why is there not a policy in place? The CEOs of Wexford and Wicklow county councils were assured that they could go ahead, fix their roads and that the funding would follow. Four months have passed and not one cent of additional funding has been received.</p>
+            <p eId="para_96"> This has to be treated as an emergency. If it is not, we will be dealing with a tragedy or a serious injury caused by the state of these roads. Barriers have been put up but these barriers have now been removed by locals because they need to get access to their homes and lands. It is simply unfair, and I just cannot understand why this is being pushed from the Department of finance to the Department that has responsibility for roads. It seems to be falling between two stools. I am ask for urgent action to be taken now.</p>
+          </speech>
+          <speech by="#CharlieMcConalogue" eId="spk_22" as="#Minister_of_State_at_the_Department_of_Culture,_Communications_and_Sport">
+            <from>Deputy Charlie McConalogue<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+            <p eId="para_97">I thank Deputy Brennan for raising this matter. I have been asked to respond to him on behalf of the Minister for Transport on the issues he has raised here.</p>
+            <p eId="para_98"> Storm Chandra, as the Deputy outlined, brought severe winds, prolonged heavy rain and extensive flooding across multiple regions of the country. It caused significant disruption to our regional and local roads and communities, with the intense rainfall leading to several rivers bursting their banks and extensive surface flooding. More than 120 roads were rendered impassable and over 400 were reported to be significantly damaged. The local authorities in counties Wicklow and Wexford, among others, reported high levels of damage and the need for the provision of additional funding to remediate it.</p>
+            <p eId="para_99"> The Government is committed to continuing to protect our regional and local roads network. This is known to be fundamental in connecting our people and communities and facilitates access to business, education and healthcare, as well as the provision of other critical services. Our regional and local road network spans over 96,000 km, and each local authority is statutorily responsible for the maintenance and improvement of the regional and local roads within their area of responsibility. All work undertaken is funded from their own resources and supplemented by the regional and local roads grant programme operated by the Department of Transport. It is also the role of local authorities to prioritise the investment in and work on their regional and local roads.</p>
+            <p eId="para_100"> The funding provided via the regional and local roads grant programme is intended to supplement realistic contributions from each local authority. It is also advised that each local authority sets aside a contingency from its allocation from the Department of Transport and its own resources for severe weather events that might take place. Allocations from this grant programme were communicated to local authorities on 17 February. In total, €718 million was made available this year to eligible local authorities for their regional and local roads. This was an increase in funding on 2025 and facilitated an increase of €26 million for road protection and renewal works.</p>
+            <p eId="para_101"> Because of the pressures on the regional and local road network, the primary focus for capital investment under the regional and local road grant programme is on the maintenance and renewal of the network, the implementation of the strategic regional and local road projects identified for development - subject to necessary approvals - in the national development plan and targeted minor safety schemes across the regional and local road network.</p>
+            <p eId="para_102"> Wexford County Council was allocated over €23 million, with the majority of this amount determined to be spent on the protection and renewal of County Wexford’s regional and local road network. Wicklow County Council was allocated almost €15 million, again for protection and renewal. In both cases, the allocation for 2026 was higher than that of 2025.</p>
+            <p eId="para_103"> The Department of Transport's grant funding for regional and local roads is determined on as equitable a basis as possible to eligible local authorities. This is based on the length of the road network in the local authority area. The Department has liaised with those local authorities impacted by Storm Chandra to assess the damage and remediation needed. Means to address the additional costs to local authorities are under consideration.</p>
+            <p eId="para_104"> The most pertinent part of the reply is the last couple of lines, which indicate that means to address the additional costs for local authorities are under consideration. The Deputy outlined very clearly the asks from Wicklow and Wexford County Councils and the specifics in relation to the damage done to both counties. I recall that, thankfully, my part of the country, for once, escaped the brunt of this but it was quite acute in those counties. I remember seeing the scenes at the time and the damage that still pertains from that can be very much seen, as the Deputy outlined.</p>
+            <p eId="para_105"> Certainly, after the Deputy raising it here today, I will relay his frustration in relation to the fact that there is not an answer yet on the request for additional funding. The Department is indicating that it is under consideration.</p>
+            <p eId="para_106">Obviously, while it is under consideration, the roads remain to be fixed in some instances. That is something that the Deputy is very keen to have addressed. I will relay that back to the Department and ask it to follow up promptly with the Deputy and with the county councils in Wicklow and Wexford to bring this matter to a conclusion.</p>
+          </speech>
+          <speech by="#BrianBrennan" eId="spk_23">
+            <from>Deputy Brian Brennan<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+            <p eId="para_107">I welcome the Minister of State's reply. I note and respect it. As he stated clearly, they are getting substantial funding, but even prior to the storm, we felt that the funding was not enough, given that they are two quite rural counties. They are two beautiful counties but we have serious issues with roads. We felt we were underfunded before this, but what this is all about now is additional funding. That is the key. We did not feel we had enough of a budget before the storm, and that has now been exacerbated. We simply have a huge shortfall. Councillors are ringing me on a daily basis and telling me that they are getting it full on from their constituents - the people in their towns and villages - that their roads are simply impassable five months on from a storm. It is ironic that we are here on one of the hottest days of the year discussing storms, which is wrong. As sure as night follows day, some other county will be in this situation. There should be a clear strategy within Government, rather than it being pushed from the Departments of Finance and roads, to be able to deal with these issues immediately.</p>
+            <p eId="para_108"> To be fair to the Minister of State, Deputy Moran, he came down and addressed the flooding in Aughrim and Enniscorthy. He dealt with it within weeks, if not months, but we are now standing here five months to the date it happened. I hope that no other TD will have to go through what the TDs in Wicklow and Wexford have gone through. I note that Carlow and Louth have similar issues as well. This should be addressed and there should be a clear strategy in place because this is going to happen again. It is wrong. We need to get this addressed and we also need to sit down and have a long-term solution because this will happen again in other counties. It is unfair to the people living in these areas. They have suffered enough stress due to the storm. Why should they be waiting months and months?</p>
+          </speech>
+          <speech by="#CharlieMcConalogue" eId="spk_24" as="#Minister_of_State_at_the_Department_of_Culture,_Communications_and_Sport">
+            <from>Deputy Charlie McConalogue<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+            <p eId="para_109">I understand the challenging situation in which everyone in the Deputy's county finds themselves and, indeed, the challenge that presents for its Deputies as public representatives as well to seek to address and have this remedied. The reply that I have given on behalf of the Department of Transport and the Minister outlines the funding that was provided this year, namely, €23 million to Wexford County Council and €15 million to Wicklow County Council, which was up on the previous year. It is clear from the response provided to me that that funding was meant to address ongoing work. The figures that the Deputy has indicated to me in terms of the additional ask are very similar in scale to the level of funding provided to both counties this year for roads generally, so it is a very significant ask. Obviously, it reflects very significant damage.</p>
+            <p eId="para_110"> The response from the Department also outlines that it is expected of local authorities that they hold a certain amount of the funds they receive in contingency for exceptional cases. I do not know how much that is in any particular county. I would imagine it is quite small and is nowhere near the scale of what is being discussed here, certainly not what the Deputy has outlined. The request to the Department is similar in scale to what the ongoing level of investment would be in terms of maintenance and development of roads, so it is very significant and would certainly speak to being a lot more than what could be managed within any ongoing contingency fund. There have been a number of instances over the last number of years of damage in both counties as a result of floods.</p>
+            <p eId="para_111"> It is important that that the request to the Department from both local authorities in terms of the remediation be assessed. The Department of Transport has said in this response that it is under consideration. It is important that clarity be brought to that. The Deputy has expressed the frustration felt about how that has not happened yet. I will relay that back fairly clearly to the Department and ask it to engage further with both local authorities.</p>
+          </speech>
+        </debateSection>
+      </debateSection>
+      <debateSection name="motion" eId="dbsect_9">
+        <heading>Fiscal Planning Framework for Economic Certainty: Motion [Private Members]<recordedTime time="2026-05-27T10:00:00+01:00"/></heading>
+        <speech by="#RichardODonoghue" eId="spk_25">
+          <from>Deputy Richard O'Donoghue<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_112">I move:</p>
+          <p class="indent_1" eId="para_113">That Dáil Éireann:</p>
+          <p class="indent_1" eId="para_114">notes that:</p>
+          <p class="indent_2" eId="para_115">— the sectors in the Irish economy such as farming, fisheries, construction and more generally small businesses and households have in recent years been repeatedly exposed to severe economic shocks arising from major international events outside the control of the State, including the Covid-19 Pandemic, the war in Ukraine, instability and conflict involving Iran and the wider Middle East, and ongoing international trade disputes and tariff wars;</p>
+          <p class="indent_2" eId="para_116">— these events have contributed to sudden and dramatic increases in the cost of fuel, electricity, home heating oil, fertiliser, feed, transport, insurance, construction materials and essential consumer goods;</p>
+          <p class="indent_2" eId="para_117">— the frequency and unpredictability of such global disruptions have created major uncertainty for family budgeting, business planning and investment decisions across the Irish economy;</p>
+          <p class="indent_2" eId="para_118">— the current approach of Government has largely been reactive in nature, relying on ad hoc emergency interventions announced after price shocks have already inflicted financial damage on households and enterprises;</p>
+          <p class="indent_2" eId="para_119">— while emergency supports introduced in recent years provided temporary relief, the absence of a clear and transparent framework has created uncertainty for workers, families and businesses attempting to plan ahead during periods of economic instability;</p>
+          <p class="indent_2" eId="para_120">— sectors such as agriculture, haulage, fisheries, construction, hospitality and small retail are particularly vulnerable to sudden increases in fuel and operating costs, while ordinary households remain exposed to spikes in home heating, electricity and grocery prices;</p>
+          <p class="indent_2" eId="para_121">— a proactive national framework for economic resilience and emergency fiscal planning would provide certainty, confidence and stability, by clearly setting out the measures that would automatically be considered or triggered during future crises; and</p>
+          <p class="indent_2" eId="para_122">— such a framework should recognise that the State cannot prevent global crises from occurring, but can ensure that Irish citizens and businesses are not left without clarity as to how Government will respond when such events arise;</p>
+          <p class="indent_1" eId="para_123">recognises that:</p>
+          <p class="indent_2" eId="para_124">— certainty and predictability are essential for sustainable household budgeting, business continuity, employment retention and investment planning;</p>
+          <p class="indent_2" eId="para_125">— businesses and industries require advance visibility regarding the potential activation of supports, reductions or temporary relief measures during periods of severe inflation or supply disruption;</p>
+          <p class="indent_2" eId="para_126">— a transparent, trigger-based system would strengthen confidence in the Irish economy and reduce the uncertainty caused by improvised and delayed policy responses; and</p>
+          <p class="indent_2" eId="para_127">— fiscal planning must move beyond crisis reaction and towards structured preparedness; and</p>
+          <p class="indent_1" eId="para_128">calls on the Government to:</p>
+          <p class="indent_2" eId="para_129">— develop and publish a "Fiscal Planning for Economic Certainty Framework", setting out predetermined economic support measures and response mechanisms, to be considered or activated during major international economic shocks;</p>
+          <p class="indent_2" eId="para_130">— establish transparent trigger points, linked to measurable economic indicators including, but not limited to:</p>
+          <p class="indent_3" eId="para_131">— fuel and energy price increases;</p>
+          <p class="indent_3" eId="para_132">— inflation thresholds;</p>
+          <p class="indent_3" eId="para_133">— supply chain disruptions;</p>
+          <p class="indent_3" eId="para_134">— agricultural input cost spikes;</p>
+          <p class="indent_3" eId="para_135">— international trade restrictions; and</p>
+          <p class="indent_3" eId="para_136">— exceptional transport and logistics cost increases;</p>
+          <p class="indent_2" eId="para_137">— outline, in advance, the range of temporary relief measures that may be introduced when such trigger points are reached, including:</p>
+          <p class="indent_3" eId="para_138">— temporary reductions in excise duties on fuels;</p>
+          <p class="indent_3" eId="para_139">— temporary reductions in Value Added Tax rates;</p>
+          <p class="indent_3" eId="para_140">— targeted reliefs for the transport, farming, fisheries and small business sectors;</p>
+          <p class="indent_3" eId="para_141">— temporary reductions or waivers in commercial rates;</p>
+          <p class="indent_3" eId="para_142">— home heating oil and household energy supports;</p>
+          <p class="indent_3" eId="para_143">— supports for low- and middle-income households facing exceptional cost-of-living pressures; and</p>
+          <p class="indent_3" eId="para_144">— emergency liquidity and working capital supports for vulnerable industries;</p>
+          <p class="indent_2" eId="para_145">— ensure that any framework introduced provides sector-specific certainty for strategic domestic industries, including agriculture, fisheries, haulage, tourism, retail and construction;</p>
+          <p class="indent_2" eId="para_146">— provide for annual review and updating of the framework by the Department of Finance and the Department of Enterprise, Trade and Employment, in consultation with representative bodies, trade unions, SMEs, farming and fisheries organisations;</p>
+          <p class="indent_2" eId="para_147">— prepare and publish annual stress-testing assessments, examining the resilience of the Irish economy to future international shocks and price surges; and</p>
+          <p class="indent_2" eId="para_148">— report to Dáil Éireann within six months, on the establishment and implementation of this framework.</p>
+          <p eId="para_149"> This Private Members' motion is about the cost of doing business in Ireland. It involves sectors in the Irish economy such as farming, fisheries and construction, all general small businesses, every person working in this country, and the shocks arising from events outside of this country. What we are looking at here is a case of fail to prepare, prepare to fail. A definition of madness is doing the same thing over and over again when there is no change. It is a form of madness. We had Covid. After that, we had the Ukraine war. Now, we have the war in Iran. Every time something happens, the Government reacts but it is not proactive. We now know that, in the world in which we live, shocks are going to come all the time. It might be every three or four years. Previously, it was a cycle of ten years when different things happened, but now it is getting more frequent and this Government has learned nothing from this. It comes in with packages after people have had to protest because they are in desperate situations. Small businesses are closing their doors. The minimum wage is going up but the person on the minimum wage gets nothing extra because inflation has passed the minimum wage and the consumer ends up paying for the same thing over and over again. Who is the winner in this? It is the Government.</p>
+          <p eId="para_150"> I attended a meeting of the Committee on Budget Oversight, of which I am Cathaoirleach, yesterday. It was a two-hour slot and the Tánaiste, Simon Harris, and the Minister for public expenditure, Jack Chambers. The latter had all of his Department behind him. It worked out that I was left with 40 minutes in which to speak at the very end, although that did not work out for them. I asked them different questions and I wanted to see how the Department of public expenditure was working with regard to accountability. I wanted to know who was held accountable for doing something wrong. I mentioned the national children's hospital. The Tánaiste was the person who signed off on the children's hospital, which is €1 billion over budget. Has anyone been held accountable for that? The answer is "No". Has anyone in the Department been held accountable for giving bad advice? The answer is "No", but if the Government goes to the electorate tomorrow morning, it will be held to account. When are Ministers in this Cabinet going to stand up to their Departments and make them accountable for bad advice?</p>
+          <p eId="para_151"> What I see is this Government on a railway track. The problem is that it goes from A to B on the track, but if there is a difficulty in the middle, it cannot seem to negotiate that. We have to stop the train. We have to do something. It just goes from A to B. It is a case of tunnel vision with no change. Shocks happen to businesses every time something happens.</p>
+          <p eId="para_152"> What could the Government learn? I asked questions yesterday of this Government. I asked whether it could try a cap on fuel costs? I asked whether it could try one sector to see whether we could introduce something, but I was told we could not because something would then have to do without, but the Tánaiste and Minister did not realise why I was asking that. I wanted to see their mindset. They are following the same rhetoric all the time. If you follow the same thing all the time and it does not change, it is a sign of madness. The madness is that the people in Ireland suffer, yet there are people making bad decisions all the time and getting away with it. If I ran my business the way this Government is running the people's business, I would not be in business, but when you do something wrong in a Department or Government, you get rewarded. You get shoved to a different job if you do something wrong and we end up with failure after failure being rewarded within Departments. It is a proven fact. Look at Uisce Éireann. Look at the set-up of it. It has not delivered but it costs the country billions of euro.</p>
+          <p eId="para_153">I do not need all this paperwork in front of me because I understand the problems.</p>
+          <p eId="para_154"> I asked the Minister, Deputy Chambers, yesterday about how we might go about introducing something. He told me a fund would have to be put away year after year to allow for shocks. Let me provide him with a little education. I look at the young people in the Gallery and it reminds me that if we want something in life, we must save for it. I guarantee that when the Cathaoirleach Gníomhach wanted things throughout his life, he saved up to buy them. If something went wrong, he had a rainy day fund. Five years on, the Government has not learned that instead of panic when something happens, we need the rainy day fund to come out. We need capping systems whereby if something hits a level, measures are introduced without the big television announcements and Ministers fighting with each other trying to get money for their Department from another Department. In the end, when something is given to the public, most people do not get it and it is all held up in administration.</p>
+          <p eId="para_155"> Construction costs have gone up from €120 to €200 per square foot in five years. That means the Government take from the VAT rate of 23% has increased. In addition, it is getting more from the 13.5% VAT on labour. I asked Department officials at the budgetary oversight committee yesterday for figures on the increase in VAT intake. I was initially told it had increased by 6% this year but before we had finished our slot, it had dropped to 3%. A huge panel of departmental officials were in front of me yesterday and they could not give me an answer. The figure went from 6% to 3% in the space of 40 minutes.</p>
+          <p eId="para_156"> Shocks are going to happen and Ireland will be the first to feel them. The fund we have asked the Government to put away for a rainy day should be based on a capping system and should be ready to be rolled out to the public when something happens. The Government introduced a scheme for the agricultural sector that was to give people 12 cent, before then announcing it was based on the previous 12 months' figures. That meant the 12 cent came down to 8 cent. What the Government could have done was implement two half-yearly slots. There are people who do silage bales in one part of the year and tillage in the other part. There are two different sectors. Not everyone who does silage, baling, hay and so on does tillage. There are also a lot of companies doing plant hire operations and agricultural work that do not qualify under the scheme even though their staff are out cleaning dykes, stretching ditches and all of that type of work.</p>
+          <p eId="para_157"> The Government then said it would introduce a scheme to give fuel costs to the transport sector and that it would only deal with the Irish Road Haulage Association. The latter represents 17% of the transport networks in this country. It does not reflect the position of 100% of operators. I agree with what the association got but it would not have secured it only for the people of Ireland standing up and telling the Government there was no other option.</p>
+          <p eId="para_158"> What does the Government need to learn from the debate on this motion? It must learn that it needs to be proactive in putting the funds away now. Come the next election, it will pay for the billions of euro it has lost through bad management and the bad advice it received. The Department will not learn. Maybe it is time to introduce something to investigate how much bad management and bad advice to the Government costs the State. We need to see where accountability lies for bad advice given to the Government that makes every person in this country suffer, regardless of his or her business. That is what we are trying to achieve. When I said this yesterday, the response was that they do not know how to get off the railway track. We must look at this issue and the measures we are proposing must be implemented. Doing the same thing over and over again is a sign of madness.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_26">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_159">I thank John Campbell and Marc Nolan for their assistance in putting together our motion. We have brought it forward because people across the country have been pushed to the edge. The only reason we are now having serious conversations about costs is that ordinary people had to take to the streets to be heard. The recent fuel protests did not happen by accident. They happened because people felt ignored and because workers, families, farmers, fishermen and small business owners simply could not take any more. It took that level of anger and frustration for the Government finally to recognise how severe the situation had become. That is the hard truth.</p>
+          <p eId="para_160"> When we talk about the cost-of-living crisis, let us talk about the real numbers people are dealing with every single day. Food is one of the basics. A sliced pan now costs €1.65 to €1.70. People are paying €2.40 to €2.50 for 2 litre of milk. A pound of butter is pushing €5 after rising by almost 50% in five years. A simple shopping basket of bread, milk, butter and another few basics has quietly but steadily increased week after week. Food prices have been rising by 4% to 6% every year, with groceries inflation running close to 7% recently. This means the weekly shopping that previously cost €100 now costs €130. For many families, there simply is no more room left in their budget.</p>
+          <p eId="para_161"> However, the pressure does not stop at the supermarket. We have seen diesel and petrol hitting €2 per litre, crippling commuters, hauliers and anyone who depends on a car. Home heating oil costs between €1,200 and €1,500 for a standard fill, which is a bill many simply cannot afford. Some householders have seen their electricity and gas bills double, forcing them to ration heat and power. For the farmers and fishermen who produce our food, fertiliser costs double at times, feed prices are climbing sharply and input costs have become completely unpredictable.</p>
+          <p eId="para_162"> This is not pressure; it is a pile-on, and we all know who feels it most. It is every person who has to drive. It is every householder depending on home heating oil. It is the farmer, the fisherman, the small tourism operator and the builder trying to stay afloat. It is the hard-working men and women of this country. They are the people for whom Independent Ireland stands. They are the backbone of this country and they are barely surviving. They are the very people who took to the streets for the fuel protests. They were not protesting for the sake of it but because filling their car, lorry, bus, tractor or fishing vessel had become unaffordable, heating their home had become a luxury and running a business had become a gamble. They protested because they felt they had no other option left.</p>
+          <p eId="para_163"> The fundamental question is why it took protests for the Government to listen. Why does it take crisis after crisis fuelled by energy shortages and food inflation before action is taken? The system is reactive. Prices go up, people struggle, pressures build and protests happen before the Government responds. It is not good enough, it cannot continue and it is why this motion matters. We are proposing a fiscal planning framework for economic certainty. It is a system that finally would bring structure, planning and predictability into how we respond to shocks. We know those shocks are not going away. Fuel prices will rise again, energy costs will spike again and food prices will fluctuate again. It is a question of when, not if. People should not have to protest next time just to be heard. They should already know what will happen.</p>
+          <p eId="para_164"> The framework we propose would set out a clear trigger point. When fuel costs reach a certain level, action will be taken. When inflation rises beyond a threshold, supports will be activated. When farming inputs spike, relief will be provided. The responses must be ready in advance. They include cuts to fuel excise to being down pump prices, VAT reductions to ease pressure on households, targeted supports for farmers, fishermen, hauliers and builders, help for small business owners struggling with overheads and direct supports for families facing impossible heating and electricity bills. Instead of delay, uncertainty and last-minute scrambling, we need certainty. Having certainty changes everything. It means a family facing a heating bill of €1,300 knows help is coming. It means workers filling their tank at €2 per litre know relief will kick in. It means a farmer planning a season is not gambling on the unknown. It means people in the building sector know exactly what the future holds. It means people are not left feeling ignored until they are forced out onto the streets.</p>
+          <p eId="para_165"> That is what the fuel protests told us.</p>
+          <p eId="para_166">They told us people were struggling and were fed up and they told us that the current approach was not working. While we know we cannot prevent global crises, we can prevent people being left without a plan when those crises hit. This motion is about replacing reaction with preparation and making sure that no one in this country has to protest just to be listened to again.</p>
+        </speech>
+        <speech by="#PaulLawless" eId="spk_27">
+          <from>Deputy Paul Lawless<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_167">Aontú will be supporting the motion brought forward by my colleagues in Independent Ireland. As someone from a rural constituency, I know the hardships and difficulties that a high cost of fuel imposes on rural constituencies. We need economic controls and supports that trigger automatically when price inflation and fuel inflation soars. We cannot continue the current system where small businesses have to take to the streets to protest for their livelihoods during times of price hikes. Of course, it is not by accident that the Government is so slow to act and move. Inflation equals higher tax revenue, which suits the Government. Periods of high inflation where prices and energy costs soar are actually favourable to tax revenue because of the tax instrument in terms of fuel, percentages and VAT.</p>
+          <p eId="para_168"> Through a parliamentary question, I have discovered that this Government is on track to take in €200 million more this year in carbon tax than last year. This will be the case even if the Government abandons the October increase in carbon tax. The carbon tax take is set to increase again. Every year, it is on an upward trajectory. According to figures released to Aontú, carbon tax is the second largest component of tax on fuel, second only to VAT, which is 23%.</p>
+          <p eId="para_169"> The motion before us here today is not an expensive one. It is basic arithmetic. If the price of a product doubles, then one can cut the tax on that product by half and expect to take in the same revenue as the previous year. I want to make the point very clearly that, back when Russia invaded Ukraine and the Government took steps to reduce tax on fuel, the overall tax take on fuel did not reduce. In fact, it increased from the previous year. The rate of inflation was such that the public purse did not take a hit despite the excise reduction. In March 2022, as a result of the war, the Government reduced excise duty from 20 cent to 15 cent on diesel and it began restoring excise duty in June 2023, yet between the years 2022 and 2023, the amount of tax taken by this Government actually increased by about €60 million despite the excise reduction. This is what the impact of inflation is doing and what this motion tries to correct. The amount taken in carbon tax on petrol and diesel increased by 20% to 25% each year while the measures were in place. Despite the reductions in excise duty, the Government actually came out of the situation significantly better off in terms of tax revenue. In March of this year, because of the spike in fuel prices that so many families and businesses were suffering, the Government took in an additional €6 million in excise duty compared with the same month last year. That was just one month.</p>
+          <p eId="para_170"> It is mind-boggling to think that the Government is still intent on increasing carbon taxes in October. Canada has reduced carbon tax to zero and Spain has reduced VAT on fuel to 10% while VAT in Ireland is still at 23%. The high taxation policy in relation to fuel is driving a rip-off republic. It is driving inflation in every single sector in this economy.</p>
+          <p eId="para_171"> In response to Aontú's calls for cutting carbon tax, the Taoiseach constantly made the assertion that we needed the funds for other climate action measures. However, further research that I have undertaken shows that the Government is unable to spend much of the carbon tax and is unable to spend the National Oil Reserves Agency, NORA, levy.</p>
+          <p eId="para_172"> We support this motion and I thank my colleagues in Independent Ireland for bringing it forward.</p>
+        </speech>
+        <speech by="#AindriasMoynihan" as="#An_Cathaoirleach_Gníomhach" eId="spk_28">
+          <from>An Cathaoirleach Gníomhach (Deputy Aindrias Moynihan)<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_173">Leanfaimid ar aghaidh. Iarraim ar an Aire Stáit leasú an Rialtais a mholadh. I now invite the Minister of State to move the Government amendment to the motion.</p>
+        </speech>
+        <speech by="#CharlieMcConalogue" as="#Minister_of_State_at_the_Department_of_Culture,_Communications_and_Sport" eId="spk_29">
+          <from>Minister of State at the Department of Culture, Communications and Sport (Deputy Charlie McConalogue)<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_174">I move:</p>
+          <p class="indent_1" eId="para_175">To delete all words after "Dáil Éireann" and substitute the following:</p>
+          <p class="indent_2" eId="para_176">"notes that:</p>
+          <p class="indent_3" eId="para_177">— the conflict in the Middle East has, once again, exposed the vulnerability of the Irish economy, and Irish society more generally, to imported fossil fuels;</p>
+          <p class="indent_3" eId="para_178">— these strategic dependencies have major macroeconomic implications, the risks to macroeconomic and fiscal stability cannot be ignored;</p>
+          <p class="indent_3" eId="para_179">— at a minimum, the large upward shift in energy prices is likely to impart a stagflationary impulse to the global economy, a combination of lower levels of economic activity alongside higher inflation;</p>
+          <p class="indent_3" eId="para_180">— in response, the Government has taken appropriate and timely action to provide relief for households and businesses;</p>
+          <p class="indent_3" eId="para_181">— the total budgetary cost of these support measures is of the order of €750 million this year, this is one the largest interventions of any country in the European Union, these measures reduce the annual rate of inflation in April, May, June and July by about 0.6 percentage points;</p>
+          <p class="indent_3" eId="para_182">— these measures have cut Excise Duty on diesel by 32 cent per litre, and 27 cent on petrol, including the reduction in the National Oil Reserves Agency levy, reduced Excise Duty on green diesel by 7.4 cent per litre, increased repayments under the Diesel Rebate Scheme, and extended the Fuel Allowance to the end of April;</p>
+          <p class="indent_3" eId="para_183">— the Government has also agreed to delay the increase in carbon tax to later in the year, and is introducing support schemes for the transportation and agricultural sectors, in total, these measures represent a significant investment of financial resources to support households and businesses, and will remain in place until 31st July, 2026; and</p>
+          <p class="indent_3" eId="para_184">— the Government published its Medium-Term Fiscal and Structural Plan (MTP) in December 2025, setting out a medium-term fiscal strategy based on three core pillars, sustainability, resilience and readiness;</p>
+          <p class="indent_2" eId="para_185">recognises that:</p>
+          <p class="indent_3" eId="para_186">— a package worth €750 million of supports has been introduced by the Government within the framework of the Government's MTP;</p>
+          <p class="indent_3" eId="para_187">— the MTP provides an appropriate fiscal framework that allows for the achievement of the Government's overarching aim to improve people's lives in a sustainable way;</p>
+          <p class="indent_3" eId="para_188">— by setting an overall medium-term expenditure path, the design of this framework provides Government with the flexibility to respond to challenges, such as, the impact of the conflict in the Middle East on households and businesses, in a timely and proportionate manner, alongside the operation of automatic stabilisers;</p>
+          <p class="indent_3" eId="para_189">— it sets out the Government's commitment to a balanced and sustainable approach to overall fiscal policy, ensuring we continue to target budget surpluses over the medium-term, and set aside some of the windfall to prepare for the future;</p>
+          <p class="indent_3" eId="para_190">— the MTP supports progress on implementing the key social and economic priorities, while delivering on our commitment to sustainable public finances;</p>
+          <p class="indent_3" eId="para_191">— it demonstrates the Government's commitment to using the resources of the State to improve people's lives in a sustainable way, it will act as the framework within which Government decisions will be taken during its term in office, it focuses on delivery, and allows for significant public resources to be directed at improving public services over a five-year period;</p>
+          <p class="indent_3" eId="para_192">— it ensures that we have had the agility to respond, swiftly and forcefully, to help households, firms and sectors when necessary;</p>
+          <p class="indent_3" eId="para_193">— consideration of any trigger points must be balanced in certain instances against the time lag inherent in economic data, which could delay timely Government responses;</p>
+          <p class="indent_3" eId="para_194">— the Irish economy is facing its second fossil fuel shock in less than five years;</p>
+          <p class="indent_3" eId="para_195">— fossil fuel dependence, especially imported fossil fuels, is a major economic vulnerability;</p>
+          <p class="indent_3" eId="para_196">— analytical work will be undertaken by the Department of Finance to set out the key macroeconomic principles that should guide the medium-term transition to manage Ireland's strategic import dependencies; and</p>
+          <p class="indent_3" eId="para_197">— the Government has also established the National Energy Affordability Taskforce to identify, assess and implement measures that will enhance energy affordability for households and businesses while delivering key renewable commitments and protecting security of supply and economic stability; and</p>
+          <p class="indent_2" eId="para_198">acknowledges that:</p>
+          <p class="indent_3" eId="para_199">— the geopolitical and economic outlook continues to be highly uncertain;</p>
+          <p class="indent_3" eId="para_200">— in the Department of Finance's reference scenario, set out in the Annual Progress Report inflation is projected to average 3.3 per cent this year, 1.5 percentage points higher than assumed at budget time but still significantly lower than the 8.1 per cent rate recorded in 2022, after the last energy price shock;</p>
+          <p class="indent_3" eId="para_201">— the economy is still expected to grow this year, albeit at a slower pace than previously forecast, and Government has committed to a range of temporary measures to mitigate the impact of increases in energy prices on households and businesses;</p>
+          <p class="indent_3" eId="para_202">— the overall approach to budgetary policy must remain balanced and sustainable over the medium-term; and</p>
+          <p class="indent_3" eId="para_203">— the Government will consider the continued impact of the energy shock on households, and make proportionate decisions in the forthcoming Budget within the parameters of the appropriate fiscal strategy set out in the MTP."</p>
+          <p eId="para_204"> I thank Independent Ireland for putting this motion before the House today. I am glad to be able to take this matter and give the opening response on behalf of the Government.</p>
+          <p eId="para_205"> At the outset, a lot of the opening contributions by Independent Ireland and Deputy Lawless put the proposition that the Government was cheering on inflation because Government benefited from it in some way. That is certainly not the case. Across the board, where we have inflation, it puts pressure on people's real living standards. It also puts pressure on Government expenditure. Overall, it puts significant pressure on the objective of the Government to try to improve people's incomes and capacity to spend. In fact, one of the key objectives of the Government is to try to take any steps we can that would actually see inflation addressed, not increased.</p>
+          <p eId="para_206"> While there may have been an increased take in relation to fuel, the Government has taken two steps now with two packages to reduce the excise on fuel, thereby seeing a significant reduction in State income from that. Of course, as with every other sector of society, we see inflation impact on the expenditure of the Government. In relation to the economy and, in particular, families, it puts increased pressure on people. The objective of the Government is to try in every way possible to support people's real living standards. We do not want to see inflation. Indeed, the steps we have taken have been to try to address that challenge and the impact it has been having on people.</p>
+          <p eId="para_207"> The Government opposes the motion tabled by Independent Ireland. The ongoing conflict in the Middle East has once again exposed the vulnerability of the Irish economy to imported fossil fuels. According to the International Energy Agency, IEA, we now face a global energy crisis greater than the 1970s oil crisis and the Ukraine war combined.</p>
+          <p eId="para_208"> Like the rest of the world, energy price spikes and price volatility have directly impacted Irish businesses and consumers. This raises both short-term and long-term issues. In the immediate term, the Government recognises the pressures and uncertainty this has generated for Irish households and for key sectors of the economy. It is for this reason that we have introduced a package of supports worth €750 million, among the largest package of any EU member state. Longer term, our strategic dependency on fossil fuels has major macroeconomic and fiscal implications. The evidence from across Europe is clear. Moving towards domestic sources of renewable energy increases our energy security, boosts competitiveness and reduces the burden on ordinary people during shocks like this. This is why the Government is investing record levels of funding in domestic energy infrastructure.</p>
+          <p eId="para_209"> Our ability to implement both short-term relief measures and the longer term investments needed to address this issue permanently is due to our careful management of the public finances over many years. However, the relatively good position of the public finances cannot be taken for granted. There are well-known vulnerabilities in our tax base, particularly surrounding corporation tax. The Government has been effectively managing these risks by continuing to invest in critical infrastructure while also saving for the future through the Future Ireland Fund and the Infrastructure, Climate and Nature Fund. These investments will allow us to navigate the structural issues we face, such as ageing and the energy transition, by making our economy more resilient and competitive in the longer term.</p>
+          <p eId="para_210"> As we look to the future, it is impossible to predict how external shocks will evolve or what new challenges will emerge. This extreme uncertainty highlights the critical importance of maintaining a sustainable budgetary strategy that allows for a rapid and flexible Government response in times of need. In December, the Government published the medium-term fiscal and structural plan, which sets out a medium-term strategy based on three core pillars of sustainability, resilience and readiness.</p>
+          <p eId="para_211">The medium-term plan provides a broad fiscal framework which allows the Government to achieve its aim of improving people's lives in a sustainable way. By setting out an overall medium-term expenditure path, this framework provides the Government with the flexibility to respond to challenges in a timely and proportionate manner. At the same time, it supports the Government's commitment to balanced and sustainable fiscal policy, ensuring we continue to target budget surpluses over the medium term while investing money in the two funds to pay for future costs.</p>
+          <p eId="para_212"> The medium-term plan ensures that we have had the ability to respond swiftly and decisively to help households, firms and sectors whenever necessary. For example, the recent supports we introduced operate within the framework of the medium term plan. These supports include €750 million worth of measures focused on mitigating the impact of high energy costs on households and businesses. These measures reduced the annual rate of inflation in April, May, June and July by about 0.6%. We have cut excise duty on diesel by 32 cent per litre and 27 cent per litre for petrol, including the reduction in the NORA levy. We have also reduced excise duty on green diesel by 7.4 cent per litre. We increased repayments under the diesel rebate scheme and we extended the fuel allowance to the end of April.</p>
+          <p eId="para_213"> The Government has also agreed to delay the increase in carbon tax to later in the year and is introducing support schemes for the transportation, agriculture and fisheries sectors. In total, these measures represent a significant investment of financial resources to support households and businesses. These interventions build on permanent, targeted supports we introduced as part of budgets 2025 and 2026, including a 9% VAT rate for gas and electricity, increases in core welfare rates, higher child support payments and increases and extensions to the fuel allowance. This targeted and practical support package ensures that those exposed to fuel increases will receive meaningful assistance.</p>
+          <p eId="para_214"> In addition to the wide-ranging support already provided by the Government, we recognise that more needs to be done to improve energy affordability, sustainability, and security into the future. Ireland's vulnerability to external energy price shocks is in large part a consequence of our reliance on imported fossil fuels. Reducing this dependence will minimise our exposure to shifts in the international environment and strengthen energy security over the medium and longer term. As such, the Government is making significant investments in renewable energy and grid infrastructure, as well as implementing supports to improve the energy efficiency of our homes and workplaces. Ireland recently achieved 8 GW of installed onshore renewable electricity capacity, a clean energy milestone which marks a significant step towards energy efficiency and security.</p>
+          <p eId="para_215"> Budget 2026 also allocated a record €640 million for Sustainable Energy Authority of Ireland, SEAI, retrofit schemes, allowing us to target 73,000 home energy upgrades over the course of this year. This includes €340 million for the warmer homes scheme, which provides fully funded upgrades for those in energy poverty. These investments are making Irish homes more sustainable and energy-efficient, reducing our reliance on fossil fuels and lowering energy costs for households. We will continue to scale up that investment and accelerate delivery.</p>
+          <p eId="para_216"> In June of last year we established the national energy affordability task force to identify and implement measures to enhance energy affordability for households and businesses. The task force provides a co-ordinated and coherent whole-of-government response to the energy crisis, aligned with programme for Government commitments as well as longer-term objectives on energy affordability and security. The task force is preparing an energy affordability plan as well as co-ordinating the national response to the energy shock arising from the conflict in the Middle East.</p>
+          <p eId="para_217"> It is also worth acknowledging that the Irish economy has remained remarkably resilient in the face of a series of external shocks. Our unemployment rate has remained below 5% for four years, consistent with full employment. Economic growth is expected to continue this year, albeit at a slower pace than previously forecast. We cannot take this economic strength for granted. Risks remain and the outlook continues to be highly uncertain, shaped by factors outside of our control. Accordingly, the Government will continue to take a flexible approach to the current energy crisis, while remaining fiscally and economically responsible. Our fiscal strategy provides a framework for this approach. It ensures that we have had the ability to respond to challenges quickly and appropriately, while maintaining the sustainability of the public finances and investing in the long term.</p>
+        </speech>
+        <speech by="#DarrenORourke" as="#An_Cathaoirleach_Gníomhach" eId="spk_30">
+          <from>An Cathaoirleach Gníomhach (Deputy Darren O'Rourke)<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_218">Before we move to the next speaker I welcome the children from Skerries Educate Together to the Visitors Gallery, along with their teachers, John and Mary. This is of special interest to Deputy Grace Boland as her two children - twins, Kaya and Millie - are with them. Tá fáilte mhór rompu uilig.</p>
+        </speech>
+        <speech by="#KenOFlynn" eId="spk_31">
+          <from>Deputy Ken O'Flynn<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_219">The twins above in the Gallery can be very proud of their mother. She is a great parliamentarian.</p>
+          <p eId="para_220"> There is a growing sense in this community and across Ireland that the ordinary working people are being pushed to their limits, not just by one single crisis, but by continuous pressure every single day and every single week. Nowhere is that pressure more visible than it is in commuter towns - in commuters, taxi drivers and working people across the cities and suburbs. They are the people who get up before dawn, who spend hours sitting in traffic. They are the people who are paying more and more simply to get to work and get home again.</p>
+          <p eId="para_221"> The Government tells us that the economy is strong, but ordinary people do not experience the economy through statistics, they experience it at the petrol pump, the till and when the insurance renewal lands through the front door. They experience it when they pay another toll, parking charge, tax, electricity bill or gas bill. I will put the biggest fear in this country to the Minister and on the record of this House. It is the current postman's knock, and what bill will be dropped through the letterbox at any time.</p>
+          <p eId="para_222"> People ask themselves very simple questions: what is the point and when is this going to stop? For many workers, life no longer feels like progress, it feels like survival. Today, I particularly want to mention taxi drivers because they see the real Ireland, which the Government is sometimes very removed from. They see the nurses coming home from night shifts. They see the elderly person abandoned by poor public transport. They see the young worker who cannot afford to live near their job. They see the family trying to stretch every euro at the end of every week. Taxi drivers themselves are under enormous strain as a result of fuel costs. Insurance is crippling them. Vehicle costs are increasing. There are also increasing licensing costs and regulations yet many are earning less in real terms than they were earning many years ago. Some of them are asking whether it is worth staying on the road or if it is financially viable any more.</p>
+          <p eId="para_223"> The Government seems to have a tremendous disconnect from the reality facing these workers. Outside a few well-served urban areas, the private car is not a luxury. It is not a luxury for any family in this country. It is how people get to work. It is how parents bring their children to school. It is how carers look after their elderly relatives. It is how ordinary life functions in this State. Increasingly, commuters feel punished for simply trying to get their lives together and to live their lives. Commuters are stuck in traffic for hours in these cities and towns, watching infrastructure delayed again and again. They are paying more every year while getting less in return. People are exhausted - financially, mentally and from hearing that Ireland is doing wonderfully while their own standard of living has continued to decline. This frustration is no longer confined to one generation or class in this country. Younger people feel it. Middle-income people feel it. Older people feel it. Small business owners feel it. There is a widening gap between the political establishment and the messaging this Government is sending and the public reality. The public see it clearly. This debate is not just about transport. It is not just about getting our finances in order; it is about affordability, quality of life and whether ordinary working people still matter to this Republic. If somebody works hard in this State, contributes to society and obeys the rules and they still cannot get ahead, then something is fundamentally wrong in this Republic. The public know that and they are increasingly losing their patience with the Government.</p>
+        </speech>
+        <speech by="#PaulNicholasGogartyGP" eId="spk_32">
+          <from>Deputy Paul Nicholas Gogarty<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_224">I welcome the opportunity to speak on preparation for any type of future impact on our State. The one we had recently was obviously the ongoing fuel crisis related to Trump's illogical and downright dumb actions in the Strait of Hormuz and the way the United States and Israel are attacking the Iranian regime. It is an admittedly corrupt and murderous regime but that is not how you topple dictators, and we are suffering the consequences. Five years before that, we had to deal with the Covid pandemic. Ten years before that, we had a massive economic downturn, which successive Governments were responsible for making worse before we had to take those necessary but harsh measures that hurt a lot of people at the time.</p>
+          <p eId="para_225"> In general terms, we are in a period of boom again, although there have been warnings about the impact of AI on jobs and, as the Irish Fiscal Advisory Council says every year, our overdependence on a very small cohort of foreign multinationals. We have revenue right now that needs to be spent strategically but we do need to spend that money. There are several areas I wish to deal with in my brief amount of time to make a contribution.</p>
+          <p eId="para_226"> A recent interaction of mine was with the Taoiseach during Leaders' Questions, when I mentioned the issue of food security. What if we had some form of naval blockade or another global pandemic that impacted the supply of food to this country? I laid out a scenario in which our shelves would be seriously impacted within a couple of weeks. Long term, even though we have enough beef and dairy to supply 32 million people with, that is not a runner in terms of sustainability. In addition, without the imported feed and without the nitrate, our production capacity in that unhealthy way would be damaged. I mentioned issues like having a strategic food reserve, including being able to increase our tillage for strategic purposes, diversification into the likes of fava beans, which can be used for all sorts of protein, and making sure that, like the Netherlands, which is way ahead of us, we can actually react.</p>
+          <p eId="para_227"> The same thing relates to our oil reserves in the short to medium term. We should not let them go down or leave them in the hands of a private operator because we would be vastly stuck if the supply were to stop entirely. As regards the medium term, we heard the Minister, Darragh O'Brien, today try to wangle his way out of why we are not doing what we should be doing in terms of meeting our climate emissions targets. We have so much potential in the next two or three years to create that self-sufficiency. I note that the Minister did say the private wires legislation is coming. That will enable people who can have solar panels on their own houses to store the energy in batteries in those houses. It will also hopefully mean that when we are trying to encourage more people to go with EVs, and when they are in the newer housing estates operated by management companies, they can put a cable under the ground and get their domestic tariff. You can tackle climate change by still allowing people to drive. I am a firm believer in giving options for cycling and for public transport but in many areas in my constituency there are parking wars because people have no option but to drive. You give them somewhere to park and make it hard to get around in the immediate environment to encourage other modes of transport but you create sustainable communities by giving people different options.</p>
+          <p eId="para_228"> The key to giving people options is having energy self-security. While we have some progress in offshore wind, there have not been any new contracts for many years. We have some movement on solar but we have absolutely nothing on tidal or wave. We are way behind, laggards, compared with the likes of Denmark. Those two technologies might be in their infancy but we should be at the forefront in developing them. We should be identifying deepwater ports for this type of technology in order that with battery storage and green hydrogen conversion - and the best rate of this is 60% of overall power production - we are self-sufficient in energy so we have capacity to make revenue from data companies and export to the grid through France and the UK.</p>
+          <p eId="para_229"> There is a massive good news story as part of a global effort to reduce climate emissions but even if we are doing our bit and no one else is and things will get worse down the line, we need that food security and that energy self-sufficiency for whatever world faces us. We need to look at the money we have and spend it strategically now, borrowing if necessary, because we might not understand it right now but we are facing a wartime situation in terms of climate and future shocks around the globe.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_33">
+          <from>Deputy Pearse Doherty<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_230">I thank Independent Ireland for bringing forward this motion on a fiscal planning framework. The motion calls for a framework that would set out an economic policy response to external shocks in terms of financial supports and taxation. There is undoubtedly a need to provide certainty and confidence and to re-establish trust by clearly setting out the measures that would be considered during future crises. The energy shock we are still living through was met with a Government response that was and still is completely inadequate. It exposed a deep lack of preparation and an unwillingness to act on the part of the Government. We saw a dangerous inertia in the face of a crisis from Fianna Fáil, Fine Gael and the Independents. Instead of action, they sat on their hands while people were literally crying out for help. There was an attitude across Government that it was nothing to do with it. It acted like responding to international prices was not a job of government. It through up its hands and blamed the markets. The primary duty of any government is to protect its people, to protect the economy and people's livelihoods but week after week, as people were crying out for help, this Government turned away.</p>
+          <p eId="para_231"> It went further than that. Fianna Fáil, Fine Gael and the Independents took an approach of talking down to people. They refused to listen to what people were telling them and what they were going through. People should never have to take to the streets to force this Government to act like we saw during the fuel protests. However, that does not just happen; it takes people feeling like they have no other option. The truth is that trust has been destroyed. That is why the proposals set out in this motion should be taken seriously. Sectors like the haulage sector, the agriculture sector and the fisheries sector were all treated as disposable by this Government, and that can never, ever happen again. Those sectors are still under massive pressure.</p>
+          <p eId="para_232"> This is not solely about specific sectors, however, as we know. Just like the protests, this is about a broader issue of cost of living, a crisis that affects so many people the length and breadth of this State, a crisis that is still raging today. It was not caused just by Trump and Israel's reckless war in Iran. It was here before that. Obviously, the most recent energy spikes were brought on by that war but that came on the back of years of relentless price increases, a crisis the Government has failed to get under control and, indeed, a crisis it has added to.</p>
+          <p eId="para_233"> Right now the cost-of-living crisis is worse than ever. Many households and small businesses are on the brink. The price of green diesel, for example, is at unsustainably high levels. Home heating oil has hit record prices and the Government still refuses to cut it by a single cent in excise. Record numbers cannot pay their electricity bills. Some 320,000 families, one in four, cannot pay their gas bills. Yet we have a Government that plans to increase taxes on gas, home eating oil and coal in the autumn, just a couple of months away, as people face into the winter. Most people, schools, organisations and businesses have been completely let down and left on their own. Every worker in this State was abandoned last year in the budget by this Government when it gave more than €1 billion in tax cuts to those at the top and left workers worse off. When people were drowning under the cost-of-living crisis, this Government chose not to give them a helping hand. People are working harder now than ever. They are doing longer hours. They are working every hour God sends them just trying to keep their heads above the water. They are paying more and more, yet somehow they are falling behind.</p>
+          <p eId="para_234"> I welcome the constructive proposals in this motion but the only way to respond to the scale of the pressure is with an emergency budget and to take a fraction of the surpluses for this year and use it to take the pressure off people right now. We have had report after report, more and more evidence stacking up, all of it just telling us what people already know: that life is unaffordable, that it is a struggle and that something needs to give. Workers know their pay cheque does not stretch to the end of the week any more. Pensioners know the massive pressures and costs they are under, and the measly increase in last year's budget did not even keep up with food inflation. You can draw a straight line from that to the fact that the number of older people living in poverty has doubled under the Government's watch. These are our older people, the people who have lived their lives, paid their taxes and done everything right, yet the number of them in poverty has now doubled under the Government's watch.</p>
+          <p eId="para_235">We would not need an automatic framework if we had a Government in touch with what is going on up and down this country and if we had a Government that was in touch with the pressure that people are under.</p>
+          <p eId="para_236"> We need to help people in the here-and-now but that has to be used just to buy time to make the actual long-term reforms. This Government has done none of that, however. It has done one-off measures that have never been combined with any meaningful change to make lasting difference to people's lives. We have remained trapped in a cost-of-living crisis because the Government has run out of ideas. It just outsources responsibility to the European Union or to the markets and that has failed and is continuing to fail people. I will continue to raise this over and over again because people really need it, right here and right now. We need an emergency cost-of-living package, we need an emergency budget and it cannot be held back any longer.</p>
+        </speech>
+        <speech by="#RoseConwayWalsh" eId="spk_34">
+          <from>Deputy Rose Conway-Walsh<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_237">It is actually quite shocking that there are not already emergency plans in place that can respond more quickly and more effectively during periods of severe economic disruption. Businesses and workers need certainty. They need to know that when extraordinary circumstances arise, there is a clear and co-ordinated plan to support employment and cash flow. We need practical measures that can help businesses weather crises, including targeted energy supports and measures to ease excessive operating costs, such as spiralling fuel prices. However, any framework must be fair, transparent and focused on protecting workers, families and indigenous enterprise; not simply providing blanket supports without accountability or oversight. The Government should be more proactive and less reactive. Now is the time to do the planning and have the support mechanisms in place to contend with future shocks. We also need to recognise that long-term resilience cannot be built on temporary emergency measures alone. Businesses need affordable energy, functioning infrastructure, access to finance and certainty from Government all year round and not just during crises. The Government must move away from <i>ad hoc</i> crisis management and towards a more prepared and strategic approach that gives businesses and workers greater certainty during times of economic instability.</p>
+          <p eId="para_238"> I want to talk about the schemes that are being introduced. I cannot understand why the end users of those schemes are not consulted at the design stage of the schemes. I will give an example relating to the fuel support scheme for farmers and farm contractors. It is due to close today. The level of uptake has been extremely poor. The reason for this poor return in payment making is because it is not worthwhile. The scheme is calculated from the total usage from the year 2025, with only five months counted as rebate for 20 cent per litre. A farmer who purchased 2,000 litres of fuel is entitled to a rebate of just €166. A farmer would have to qualify for a rebate of at least €100 to be eligible to apply. This is equivalent to purchasing approximately 1,400 litres for 2025. These figures would not be reached by most small-to-medium size farmers, meaning they are excluded completely from the scheme. This happens over and over again. With the increased costs of fuel and fertiliser, etc., this approach to compensating farmers is not nearly enough to alleviate the pressure from rising prices. I cannot understand why in the design of these schemes the Government does not take up the suggestions that are made from Opposition. A much better approach would have been a scheme like the fodder payment scheme paid a few years ago, which was a universal payment. That would have been the common sense approach to this to make sure that farmers in Mayo, Donegal and the more rural constituencies can avail of the schemes that are there. There is no point in having them otherwise.</p>
+          <p eId="para_239"> For instance, there are 250 supports available under local enterprise and enterprise support schemes. When businesses go to look for them, as the Minister of State will know, time and time again the administrative burden and the cost of accessing these schemes is impossible. It is absolutely impossible for businesses. The Government needs to think and it needs to actually involve the end users of these schemes in the design so the Government's time, their time and our time is not being wasted. Just because the Opposition put up tangible, sensible ideas does not mean the egos of those in government should not allow them to avail of what is being given in terms of the design of schemes. Will they just cop-on in relation to all of these schemes and the planning that needs to be done?</p>
+        </speech>
+        <speech by="#PadraigMacLochlainn" eId="spk_35">
+          <from>Deputy Pádraig Mac Lochlainn<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_240">I commend Independent Ireland on the motion. It is an important debate we are having here and it is very clear that the Government has wasted opportunity after opportunity. The calls from the Opposition for an energy credit were supposed to alleviate the burden of homeowners but also to give breathing space to Government to take on the price-gouging of the energy companies. Every time the Government had that opportunity, it wasted it. I am of the view that the Government was cynical because the last time it brought these credits in was days before the last general election. I do not believe it was an attempt to deal with price-gouging. I believe it was a cynical political stunt because the Government has withdrawn them in the harder times that are here now.</p>
+          <p eId="para_241"> The failure to deal with the energy companies is unforgivable because it was Fine Gael and Fianna Fáil policy that gave away what was a proud electrification system built up by the Irish people. We built it up ourselves in hard times with the visionaries who were there at the time and we handed it away to private companies. We had the cheapest electricity in Europe. Today we have the most expensive electricity in Europe. We have a failure, not only in how the Government privatised what was a proud publicly owned amenity but then, if we look at wind energy on land, half the turbines are turned off because the electricity infrastructure is not there. If we look at offshore renewable energy, the Government has made a mess of it on the east coast. The Government did not consult with stakeholders like fishermen and now people are locked into legal battles and the whole process has stalled because of the arrogance and mess that was there. Again, that is because the Government was too close to industry and was not thinking about the best interests of our people.</p>
+          <p eId="para_242"> My final comments today are going to be about fishermen. Where have the supports for fishermen been in recent years? Even after Brexit, the Government never once brought in fuel subsidies. Never once, through all the price shocks that were there as a result of Brexit and the war on Ukraine, were fuel subsidies introduced. Inshore fishermen got nothing, absolutely nothing. As somebody who represents a coastal constituency, I ask that the Minister of State engage with his colleague, the Minister of State, Deputy Timmy Dooley, and his colleague and party leader, Deputy Simon Harris, on the request for financial subsidies for inshore fishermen. There are about 900 of them active across the State. It would not be hard to keep them on the water and to keep those communities flourishing but it needs subsidies. They have never asked for it before. They are there now. They are requesting it now. They have a really good proposal on the table. I am asking the Minister of State to engage with his colleagues and try to deliver a sustainable future for inshore fishermen all around the coast in County Mayo and all around the State.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_36">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_243">I thank Independent Ireland for putting this motion forward today. In recent years, ordinary workers and families have endured a number of economic shocks. Consistently, however, this Government has had to be dragged, kicking and screaming, in order to deploy countermeasures - kicking and screaming to support workers, families, farmers, hauliers and many more. Developers though, have got their tax breaks and, of course, bankers have had their bonuses increased. However, for people struggling to pay electricity bills, heat their homes and put fuel into their cars the Government's response has been half-baked half-measures, often deployed too late and withdrawn the moment the Government feels it is politically acceptable. I welcome this proposal, which would mandate the Government to outline an emergency response to such shocks.</p>
+          <p eId="para_244"> One cohort of people who are no strangers to shocks are the farming families.</p>
+          <p eId="para_245">During the times they are receiving a fair price, which are too rare, the one certainty is that it will not last forever. That is part of why the CAP is so important. It is an important mechanism whereby farmers are paid largely for the environmental, biodiversity and animal health and welfare benefits that they deliver in spades. It is also a mechanism that helps many farms stay viable as it somewhat offsets the entirely unfair prices, which are below the cost of production, they receive for their produce. It is a crucial driver in rural economies, particularly when it is taken in tandem with the LEADER programme with which it is linked. It is therefore of deep concern that the CAP has been viewed by successive European Commissions as a soft touch and something to be raided to fund the pet project of the day. This has led to decreasing funds for Irish farmers in real terms at the very time Ireland became a net contributor to the European budget. The Government wants to spin the figures but I am not sure any farmer would say that the CAP today serves them better than the CAP of 20 years ago. Is anybody queuing up to tell the Minister of State that the new agri-climate rural environment scheme, ACRES, is a patch on the old rural environment protection scheme, REPS? It has also led to reduced LEADER funding for very important programmes in our rural communities. It is welcome to have a rare opportunity to discuss this with the Minister for Finance, whose own Department publishes a report each year confirming the dwindling CAP receipts the Government oversees. </p>
+          <p eId="para_246"> I appeal to the Minister of State to seek to reverse previous cuts during the coming negotiations. However, he cannot seek to restore that funding as he denies it was every taken away. I suggest that he actually read his own Government's reports and recognise that his predecessors sold out our farmers in previous negotiations.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_37">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_247">It is really unfortunate that we have to have another one of these discussions. As we are all aware, the reality out there in the world is that people are under severe pressure. That severe pressure started long before Donald Trump, led by genocidal Israel, brought us into the madness we now find ourselves in. That madness also increases the absolute necessity for us to see delivery on the occupied territories Bill with regard to both goods and services while also pushing for movement on the trade element of the EU-Israel Association Agreement. We know that will be a difficult battle so we should do what we can ourselves. They created this madness but long before that, we had 317,000 people in arrears with their electricity and energy bills. One quarter of that number were in arrears with their gas bills. That is the reality. Every TD, elected representative and other person out there who engages with people will know that. I have no doubt the Minister of State has dealt with people who have been in even more difficult circumstances and who never believed they would be. </p>
+          <p eId="para_248"> We can talk about the moves that are being made in relation to public transport but for a considerable number of people, the car is the only option. We have not delivered for workers and families. We need to see a further decrease in costs, particularly the 15 cent the Government can act on. While I am talking during one of the warmest periods of the year, this being Ireland, it is not going to last. Those who need home heating oil and kerosene and those who are most vulnerable will need fuel very soon, if they do not already. Many were waiting on Government to provide some sort of relief but that relief did not come. That is what we need to see. We need to see those sorts of actions.</p>
+          <p eId="para_249"> It goes without saying that action should have been taken previously on energy company profiteering. We have not given the CRU the necessary powers to hold these companies to account. Sinn Féin and many others recently discussed such proposals but we have not seen action from Government. That is why there is a call for energy credits. These calls are made on the basis that it is something the Government can do now, despite its failure to take other actions. </p>
+          <p eId="para_250"> We continue to see waste throughout the system. That is the difficult piece for people. I refer to the €50 million written off by Irish Rail in relation to its train management system, which is absolutely dead in the water. That is before we talk about bike sheds, security huts and the national children's hospital. People are absolutely fed up with this. </p>
+          <p eId="para_251"> I have spoken with the Minister of State previously. It is absolutely necessary to provide a cost-of-living package and a cost-of-disability payment. We need a payment now and we need a properly constructed payment that works into the future and that recognises that the most vulnerable need these supports.</p>
+        </speech>
+        <speech by="#GeraldNash" eId="spk_38">
+          <from>Deputy Ged Nash<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_252">I also thank Independent Ireland for tabling this motion this morning. It is a well-intentioned motion that is designed to put forward some solutions to the real challenges households and business are facing at present. It provides us with another opportunity to tease out the respective positions of parties in this House in that regard. It would be remiss of me not to remind Government that just two weeks ago, Fine Gael, Fianna Fáil and Independent TDs who support the Government voted against a Labour Party motion to introduce a mini-budget targeted specifically at those who require support the most, and I refer to those who have been essentially left behind by the recent package introduced by Government, the PAYE workers who are, to use a hackneyed phrase, genuinely the backbone of this country and who produce the goods and services that have allowed us to generate significant wealth at Exchequer level, allowing us to invest in services and to have the resources we need to support our society as best we can.</p>
+          <p eId="para_253"> Nobody is saying that any government can insulate every single household and business from the worst effects of this unprecedented crisis, which the International Energy Agency itself has said will have a worse impact than the 1970s oil crisis. We in Labour certainly are not saying that. In many respects, the inability of households to absorb this latest energy shock can be traced back to poor decisions made by Fine Gael and Fianna Fáil in budget 2026, particularly in two areas. There was a failure to fully index core social welfare rates, which has exposed to an even greater level those who depend on the State for their income and who spend a disproportionate amount of their income on heating their homes and on food and groceries. There are also the issues the Government has created for PAYE workers, those very same working people who get up early in the morning, who work hard and who rightly feel the social contract is broken. They do everything properly and correctly. They play by the rules. They work hard and educate themselves and their families. They are paying high rents and mortgages. They feel they get little in return. Their PAYE tax bands, rates and credits are not indexed, which means that, in many cases, they have experienced an effective pay cut. Any small pay increase that has been received is swallowed up by the Revenue Commissioners and goes back into the general taxation pot.</p>
+          <p eId="para_254"> We are living in unprecedented times and in an era of real uncertainty and insecurity. That post-Second World War settlement is not just fraying at the edges; it has collapsed. I would prefer if the motion considered why that is the case. It is because of a move to far-right politics and the election of populist and extremist leaders around the world, egged on by tech billionaires who have no interest in the travails of small businesses and ordinary households across the world.</p>
+          <p eId="para_255">Their only concern is to enrich themselves. It is the behaviour of these maniacs that has created the problems we are experiencing.</p>
+          <p eId="para_256"> The problems here in Ireland are even greater because of our excessive reliance on fossil fuels. We cannot keep subsidising high fossil fuel prices or continue relying on fossil fuels for a couple of different reasons. The first is that we clearly need to decarbonise our economy. The second is we need to improve our energy security. By improving our energy security in terms of the move to renewables, which is not mentioned, from what I can see, in this motion, we can then make our energy bills cheaper for every household and business across the country. We need a renewed focus on that.</p>
+          <p eId="para_257"> I am interested in the idea - and I accept that it is well-intentioned - of a national framework for economic resilience and emerging fiscal planning. Who could argue with that? However, the idea that businesses and industries will have some kind of visibility in the context of a potential activation of certain supports during another energy shock is intriguing. Why would we tell highly profitable fossil fuel energy companies that regardless of the increases they impose on consumers, we are going to subsidise that and every household anyway? That does not make sense. Certainly, I would have to look askance at any businessperson who thinks that it does make sense.</p>
+          <p eId="para_258"> No one should have any difficulty with a move to more sound economic and fiscal planning. That is something we support. I would query some aspects of this motion, while, at the same time, respecting the intent, which is, in general, more positive. When we are looking at the question of economic and fiscal resilience, we also need to look at the structural changes we need to make to our economy and governance system in order to ensure that is the case and that we will not, in this era of permacrisis, be back in this situation again next year, the year after or the year after that.</p>
+          <p eId="para_259"> How do you make an economy more resilient? You do it by ensuring the economy is managed properly and that we avoid the boom-and-bust scenarios that have bedevilled this State for much of its history. We have seen the fallout from that in recent years and the consequences for households, businesses and citizens. We do that by ensuring that housing is safe, secure and affordable. We create a resilient economy by investing in education at all levels, from early years right through to fourth level and lifelong learning. We do that by getting to grips with AI and the threat of mass displacement of jobs and businesses. We do it by closing the income inequality gap that is destroying both our society and the social contract. We do that by embedding collective bargaining systems into our economy, which is something the Government is resisting.</p>
+          <p eId="para_260"> We create a more resilient economic framework by having a renewed focus on the development of highly productive, innovative, indigenous Irish enterprises. We are far too reliant on a small handful of American-based foreign direct investment firms for the bulk of our corporation tax receipts and for a significant proportion of our PAYE receipts from the good jobs they have to create. That is a risk that is always worth repeating. We create a more sound fiscal position and more secure economy by ensuring we tax wealth and assets better than we have managed to do to date. As I said earlier, we do it by focusing on renewables rather than relying on fossil fuels. This motion just deals with the symptoms of that problem as opposed to offering a solution. We also do that by ensuring that we continue to use excess corporation tax receipts and put them into the Future Ireland Fund and the Infrastructure, Climate and Nature Fund, as well as being responsible about how we plan our economy.</p>
+          <p eId="para_261"> We need to address the structural issues that are creating the cost-of-living permacrisis that has been ongoing for a number of years. Given the volatility in the world at present, we are likely to experience these kinds of shocks again and again. Rather than opting for sticking-plaster solutions that are well-intentioned, what we need to do is address the real fundamental imbalances in our economy and in how our society works. That is how we address those problems and that is what we need to focus on. However, that is not where the focus of this Government or the previous Government has been.</p>
+        </speech>
+        <speech by="#CianOCallaghan" eId="spk_39">
+          <from>Deputy Cian O'Callaghan<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_262">Ar dtús, ba mhaith liom a rá go bhfuil rudaí an-deacair do dhaoine anois. I thank Independent Ireland for bringing forward this motion and giving us the opportunity to talk about these very important issues regarding the cost-of-living pressures people are facing day in and day out. We would take a different approach to dealing with this crisis from the one outlined in the motion, because we believe it is fundamentally important that people have the emergency short-term supports that are needed and that we take action that is focused on the medium and long term in order that we do just not go from crisis to crisis. I want to talk about that more during my contribution.</p>
+          <p eId="para_263"> An important part of our response has to be measures to help people who are struggling to keep food on the table today and who are worrying about when it gets cold again and how they are going to heat their homes. They are making difficult, impossible choices day in and day out. Coming into the summer, there are parents who know that they cannot afford to pay for activities for their kids. Their kids' friends are able to take part in activities that cost money but they are not. There are families who know they will not be able to take a holiday. There are also families who are already thinking about the start of school at the end of August or the beginning of September and how they are going to meet costs relating to iPads, technology, etc. All of these worries gnaw at people day in and day out. People will literally go to bed and wake up worrying about them. The Government response has been wholly inadequate. At the same time, we have to adopt a long-term approach which means that we are not just going from crisis to crisis. I will talk more about that.</p>
+          <p eId="para_264"> The Minister referred to moving towards domestic sources of renewable energy to increase our energy security, boost competitiveness and reduce the burden on ordinary people during shocks like this. The key words there are "moving towards." Fine Gael has been in office since 2011, and we still have no offshore wind at all. We had an offshore wind farm at that time, so we are actually going backwards in terms of offshore renewable energy. That is an incredible indictment of this Government. It is all the more incredible when you look at what Spain has achieved in recent years. Spain has broken its dependency on gas in the context of electricity generation. It has put more renewable wind and solar energy in place, which means it has some of the cheapest electricity bills for households and businesses in Europe. Contrastingly, in Ireland, we have the highest electricity bills for households and businesses in Europe. Not only that, our country is one of the most reliant in the EU on imported fossil fuels. We are incredibly exposed to what is happening in the Middle East at present and to any future shocks. We are on the way to paying out billions of euro in fines for not meeting our climate targets because of the failure of the Government to invest sufficiently in renewable energy.</p>
+          <p eId="para_265"> The Social Democrats have put forward a practical proposal for something that could be done quickly by the Government to help with this. Our solar for all plan would increase the grants available to households, because availing of the grants available in order to invest in solar panels is currently out of reach for most households. This would bring down household electricity bills and help us to meet our renewable energy targets, which would mean we would be less exposed to current circumstances and to the future shocks which, unfortunately, are going to come.</p>
+          <p eId="para_266"> I implore the Government to take on board our practical proposals. They could be implemented quickly. We need those on top of emergency measures, such as targeted energy credits of €400 to help households through the immediate crisis.</p>
+          <p eId="para_267">We need an emergency cost-of-disability payment for disabled people who, incredibly, had up to €1,400 taken off their annual incomes by the Government in the budget before this latest crisis even hit. It was an incredibly cruel move on the part of this Government to cut disabled people's incomes by up to €1,400. Having promised a cost-of-disability payment to help disabled people with the extra costs they face in both the general election campaign and the programme for Government, the Government took up to €1,400 off disabled people. That was a cruel, unnecessary decision in a country that has a lot of resources available to it.</p>
+          <p eId="para_268"> We should also be working on the more long-term measures. We have the highest unemployment rate of disabled people in Europe. We would not need such high levels of income supports if the Government took the correct and necessary actions, like those taken by other European countries, to ensure that more disabled people could participate in the labour markets. It is incredible that the Government's targets for employment for disabled people in the public sector are below the current employment rate. That is an incredible indictment of the Government's record in respect of this matter, which came to light during the Estimates process in the documentation that the Government produced. It is indefensible.</p>
+          <p eId="para_269"> A great deal needs to be done to address these issues. Other measures that are needed include affordable childcare, another matter in respect of which the Government broke all its promises. During the election campaign, Simon Harris promised that within 100 days of the new Government being formed, there would be a proper roadmap in place for affordable childcare in order to get the cost down to €200 a month. Of course, that was not produced. In the budget, there were no measures to reduce the cost of childcare for families. That is a massive block for families. That should have been done. There were promises, again by Simon Harris, to phase out third level fees. In the budget, the Government actually increased fees by €1,000, thereby putting families and students under even more pressure.</p>
+          <p eId="para_270"> There has been promise after promise by the Government about helping people with the cost of living. What it actually did made matters worse. We really need the kinds of actions that we are talking about to get us out of these short-term crises. Sinéad O'Sullivan has written extensively about the need to build up the State's ability to invest in public services, capacity and renewable energy in order that we are not just having to put more money into emergency measures time and again, which, of course, reduces our capacity to be able to invest in medium- and long-term measures.</p>
+        </speech>
+        <speech by="#RoryHearne" eId="spk_40">
+          <from>Deputy Rory Hearne<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_271">I thank Independent Ireland for tabling this motion. As my colleague said, we would not agree with all the proposals set out, but this is an important debate that needs to happen. When we look at what is going on right now across the country, we can see that people are really struggling. They are not just struggling financially; they are struggling to get around on public transport and they are struggling with the lack of basic infrastructure. This is the fundamental problem. Ireland is not working for people. It is not working for anyone. Our economic infrastructure and social infrastructure are completely inadequate.</p>
+          <p eId="para_272"> The Social Democrats have set out a different approach. It is a social democratic approach which puts the State central to delivering and guaranteeing the social and economic infrastructure so that our economy functions. The reality, as I have stated previously, is that this Government is cruel - it stands over the highest level of evictions since the Famine and the highest level of homelessness on record - but that it is also incompetent. There are record budget surpluses, yet people cannot get around our capital city. They cannot access health services or housing, the most basic of infrastructure. Why is that the case? It is because the State, rather than building up its own capacity, is outsourcing.</p>
+          <p eId="para_273"> We see this most clearly in the area of housing. Over €1 billion per year is going to for-profit providers of emergency accommodation and private landlords through the housing assistance payment, HAP. That is €1 billion every year that gives nothing by way of a permanent, public asset in return. Talk about poor value for money. In the area of childcare, there are similarly huge subsidies for the private sector. Why are we not building up public housing and public childcare models? These things would permanently bring down the cost of living. That is the structural change that is needed.</p>
+          <p eId="para_274"> What is going on, as I said, is that there is still an issue with ideology and the belief that the market is the best way to deliver things. The Taoiseach gets up here and says that we have no substance in our proposals. That is spin. It is completely untrue and he knows it is untrue. We have set out detailed proposals, whether for a public childcare model, for a State construction company, and for solar for all. There are clear, detailed policies, but this Government is showing an absolute reluctance to take our proposal seriously, because it does not want to change and does not want to acknowledge the depth of this crisis and of the Government's failure. Communities need real investment. We believe that rather than cutting the tax of investor funds, we need a tax that in respect of the super-wealthy in this country to allow us to end child poverty.</p>
+        </speech>
+        <speech by="#SeamusHealy" eId="spk_41">
+          <from>Deputy Seamus Healy<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_275">Families and businesses are now living through the second global fossil fuel crisis in five years. We are increasingly vulnerable as long as we depend on energy imports. Unless we take action to diversify away from fossil fuels, we will again be hit by the next crisis. When that hits, pensioners, the sick and families will again worry about the cost of home heating oil. Farmers, fishers, agricultural contractors and bus companies will again face devastation as a result of increased diesel prices. Electricity and gas prices will go through the roof once more . Arrears on people's electricity and gas bills will hit new heights and families will be put to the pin of their collar to make ends meet.</p>
+          <p eId="para_276"> We have to generate our own clean, affordable power. That means we must generate power from our own huge offshore wind and wave energy resources. Wind Energy Ireland says this requires sustained support from the Government, Eirgrid, the regulator and others in order to ensure that every available resource is aligned behind a single overriding objective. That objective is the energy independence of the country.</p>
+          <p eId="para_277"> In the context of this motion, I want to refer to the question of balanced regional development. Dublin is bulging at the seams, which is creating significant issues across society, including climate, transport, water and wastewater issues, antisocial behaviour and crime. The 2024 IDA Ireland annual report showed a breakdown of 57% of projects in the regions and 43% in Dublin. I believe that split should be significantly higher for the regions, with a target of 75% to 80% for the regions and 20% to 25% for Dublin. Within the regions, there must be a balance between counties, with an even spread across county boundaries.</p>
+          <p eId="para_278"> The town of Clonmel is a significant regional hub for south Tipperary, west Waterford, east Limerick and west Kilkenny. In 2001, South Tipperary County Council, in a far-seeing development, purchased the 270 acres of the Ballingarrane estate. IDA Ireland has purchased 50 acres of that site, and planning permission has been secured for a manufacturing facility of 110,000 sq. ft. It has access to water and electrical services and is a prime site. There is already successful development at the site. Questum is an enterprise accelerator centre, operated by the Technical University of the Shannon, with a number of incubation units and some 200 people employed. We already have in the area a number of flagship industries, including Abbott Vascular, Boston Scientific, and MSD Ballydine. The success of these industries should assist IDA Ireland in securing an anchor tenant for this site. Twenty-five years is far too long to wait for an anchor tenant for the site and the future of the town of Clonmel and the surrounding areas is linked with the development. I urge the Minister and IDA Ireland to ramp up the marketing of this site urgently.</p>
+        </speech>
+        <speech by="#PaulMurphy" eId="spk_42">
+          <from>Deputy Paul Murphy<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_279">I welcome the supports for ordinary people in this motion, but they do not go far enough. People are really suffering. They cannot afford food, rent, or childcare. There are 500,000 people who are in arrears on their electricity and gas bills.</p>
+          <p eId="para_280">We need more than once-off cost-of-living payments and temporary excise cuts.</p>
+          <p eId="para_281"> We need a radical transformation of how this country is run. Instead of the Ireland for the rich we currently have, we need an Ireland where people come before profit. We are not going to get that from this Government or from right wing Independents. Noticeably missing from the motion is anything to do with rents. Rents are one of the biggest costs for very many people. They are going up at a record rate and the motion has nothing to say about it. Independent Ireland might come back at the end and explain why rents are missing. Is it because it is a party is made up of ex-Fianna Fáilers that represents the landlords, just like Fianna Fáil does? Is it because Independent Ireland would prefer people to blame immigrants for the housing crisis, rather than the landlords who profit from the crisis?</p>
+          <p eId="para_282"> People Before Profit want price caps on energy to give people certainty about costs. To do that we need to bring our energy system back into public ownership and run it on a not-for-profit basis to provide permanently low-cost, renewable electricity to every household in the country. We need massive public investment in offshore wind and solar. We need free retrofitting and solar panels for every household that needs it, including plug-in solar for renters and free, frequent and fast public transport.</p>
+          <p eId="para_283"> We also need to stop building data centres. Again, there is nothing in the motion about the data centres that are currently using about a quarter of our electricity and driving up energy costs for everyone. The Government wants to build even more. It wants to pretend they will somehow save the tech jobs in Meta, Covalen and Oracle that are being decimated as we speak. One bit of the Government’s countermotion that really stands out is the acknowledgement that "fossil fuel dependence, especially imported fossil fuels, is a major economic vulnerability;". I agree but this morning’s EPA report shows the Government has no interest in cutting fossil fuel dependency to protect us from the climate and cost-of-living crises. It is going to miss the 2030 emissions target by more than half and possibly by three quarters. A pathetic 4% reduction in emissions from agriculture, which is our biggest-emitting sector, is projected with existing measures. Given Fianna Fáil and Fine Gael prioritise profits above all else, you would think they at least might take action on the economic risk of being faced with having to pay up to €26 billion as a consequence but no chance. The climate Minister is back to openly admitting he is going to break the Government’s own climate law after claiming it was taken out of context when he first said it over Christmas. It is nearly June and there is still no climate action plan for 2026 and no date for when it is going to be published. Is that the vital political leadership the Taoiseach bloviated about at COP30 in Belém? People should be very angry about this. The Government’s failure to get us out of fossil fuel dependency is costing us thousands of euro on our energy bills, destroying the climate and is going to cost us billions of euro in climate fines that could have been spent on transitioning to low-cost renewable energy.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_43">
+          <from>Deputy Brian Stanley<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_284">The debate we are having is very welcome and I thank Independent Ireland's group for putting it forward. With the economy, we have to radically reset how we are doing things and the next budget has to be different. Over €9.5 billion extra was given out last year in measures but none of it went to the disabled, the self-employed or PAYE workers. They were left out. The disabled finished up €1,400 a year worse off. The upcoming budget has to change that. We need a democratic, left republican budget this year. Income tax thresholds and tax bands need to be adjusted to favour middle- and low-income workers. Any one-off winter energy credits must be targeted and go to households that are on below €75,000 gross. I understand everybody cannot get everything and we should not do that but we should favour middle- and low-income families.</p>
+          <p eId="para_285"> Retrofitting of homes has to be accelerated. I welcome the progress that has been made but some of the grants need to be improved. Some 880 homes in Laois added solar in 2024 to 2025 and 1,100 homes in total got some energy works in that period. That is welcome but out of over 30,000 homes that needs to be accelerated. We need the rent credits to be improved but most importantly we need measures to calm rents, reduce them and cap them. Affordable childcare must be addressed. For businesses insurance costs continue to be high. VAT changes we had in the last budget are going to favour large hotels and the big fast food companies. The changes should be altered and I propose a graduated scale, so it is 9% on the first €5 million of turnover and after that 13%. Let us favour the smaller coffee shops, businesses and hotels. That would benefit them.</p>
+          <p eId="para_286"> On agri supports, we must face that we need added value. Of course we need financial supports for farmers but there also has to be added value if we are going to keep modest-sized family farms going. That is the reality. We have not even got off the blocks with anaerobic digestion. Farmers need to be getting a second income from their produce. We have a huge farm waste problem and there is an opportunity for pelleted fertiliser, which has been done in other countries like Italy, but we have not even started doing it. I welcome the proposal from the Government on flour production. Some counties, including Laois, have a big tradition of growing wheat. One of those flour mills needs to be located there. We need to boost organic production.</p>
+          <p eId="para_287"> On haulage, we have to recognise the reality that there is an absence of an alternative there but we have biofuels and for some reason we are charging very high VAT on HVO, which is being used in trucks. That should be looked at. I am aware there is a European directive there but we need to go back to Europe on that.</p>
+        </speech>
+        <speech by="#DarrenORourke" as="#An_Cathaoirleach_Gníomhach" eId="spk_44">
+          <from>An Cathaoirleach Gníomhach (Deputy Darren O'Rourke)<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_288">Go raibh maith agat.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_45">
+          <from>Deputy Brian Stanley<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_289">The last thing is that on government procurement, we need to get better value for money. We cannot keep spending €336,000 on bike sheds, €2.5 billion on the children’s hospital and €1.4 million on a security hut. We need to spend money better.</p>
+        </speech>
+        <speech by="#AlbertDolan" eId="spk_46">
+          <from>Deputy Albert Dolan<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_290">It is really important to say that at any time a government needs to be both ready and able to respond to crises if and when they arise. We saw recently that when the Government was in a position where it could respond. It had the capital to deploy to help support people through the oil shock we are experiencing due to what is going on in the Middle East, and to the tune of €750 million. It is prudent financial management over the past few years that has got us into a position where we are able to respond should crisis arise.</p>
+          <p eId="para_291"> However, there are people out there right now who are struggling. They are struggling to pay bills and to afford the cost of living in this country and they need to be supported in the upcoming budget. They need to be supported to see that hard work pays and that the work they are doing is valued both by society. They must be able to see that in their pockets as well. It is also important to recognise the ground is shifting. What used to be a career for life is no longer the same today and the jobs market is shifting rapidly and changing. It therefore becomes even more important the Government is prudent in how it manages its finances so we can help transition in the coming years to the newer economy we are going to experience. With that, we cannot leave people behind. We have to ensure people are upskilled, educated and given every opportunity to succeed, going forward. I firmly believe Ireland is best positioned in the European Union to be one of the most successful countries over the next five or ten years.</p>
+          <p eId="para_292"> However, if we do not bring people with us and if everyone does not feel that success then what was it all for? As a Government, we have to ensure we have the financial power to be able to deliver serious public services. A lot of the work I have been doing on public spending and the management of that is so there is transparency for the public on how government is spending and how contract management is working. It is only when you get that transparency you can track what is happening and make a decision on how we could be more efficient, which is a problem the Government has at the moment. So much money has come in and one of the biggest frustrations I hear out there day in, day out is that the Government has all this money yet we are not seeing the boots on the ground and the projects being built, including large-scale infrastructure. That is where we need to see that acceleration. I welcome the work that is going on with the Critical Infrastructure Bill but we have to be able to show tangible results.</p>
+          <p eId="para_293">For me, priorities would be to see the double-tracking of the line from Athenry to Galway, and to see the 300-bed block get through the critical infrastructure pathway and be built.</p>
+        </speech>
+        <speech by="#MattieMcGrath" eId="spk_47">
+          <from>Deputy Mattie McGrath<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_294">I am delighted to speak on this Bill. It is a good and timely debate that is badly needed in our country. We think back to the pioneering days of Seán Lemass and T. K. Whitaker, what they could do and what they did, and the vision, passion and integrity they had. To some extent, we have evolved from that. Of course, we joined the EU and we had loads of money, but we crashed the economy, not once, but twice, and we had the International Monetary Fund, IMF, here. There are soundings again this week that are terrifying people. It is said that property taxes should be increased, and that we have to rein in our spending and stop the reliance on data centres and those kinds of companies and outlets.</p>
+          <p eId="para_295"> There is a social contract with the people, but it has been utterly shattered. We saw this recently with the protests about the cost of living and fuel. Ordinary people, hard-working mná agus fir na hÉireann, agus na buachaillí agus cailíní freisin, all came out because enough was enough and they could not cope. They see the waste. I will not even mention the items already mentioned that were news headlines here in the last year. Every day of the week, I mention spending, but there is no accountability whatsoever.</p>
+          <p eId="para_296"> Take the Ukrainian housing, where one company, Sisk, had 11 contracts on 11 sites. Modular units worth a maximum of €80,000 have now cost €450,000 nationally. It is daylight robbery. In Clonmel, when I sat down with the company and the Office of Public Works, OPW, integration team, I was guaranteed that they would not cost a penny more than €200,000, with everything included, and I knew the site involved. We now find out that they cost €496,000, and that is not yet the final bill. It is an abomination, and that is only one area. This is widespread. With the children's hospital, my group and I argued that it should be put out on the M50. We knew the contract was written to rob the State. We have the Critical Infrastructure Bill but, unfortunately, the same people are writing that legislation, the people who have lost their way, who cannot seem to see outside the box and who are blinkered. Then we have the legions and battalions of NGOs running around Government Buildings in front of Ministers and behind Ministers. They have their ear, and they are dictating policy and legislation. It is a simple outrage that this is happening. We have completely lost our way.</p>
+          <p eId="para_297"> With regard to education and skills, we have great, educated people here, but we need to reskill to have more trades and more practical work. With regard to wind energy and solar, why is it always big companies that are coming into communities to do these projects? CRH is trying to build a big biodigester near Thurles in Tipperary at the site of the old lime plant in Killough. It is antagonising people because it has money, and it sees nothing except the money and greed. It does not want to respect communities, and it will not engage with communities or try to work with them.</p>
+          <p eId="para_298"> There is a lot of work to be done here. The sun is shining and the hay is to be made, but I do not know what hay is being made.</p>
+        </speech>
+        <speech by="#CathalCrowe" eId="spk_48">
+          <from>Deputy Cathal Crowe<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_299">The ground is still too damp in Clare to get the tractors in for the hay, but we are aiming for July, all things going well, and maybe we will get a bit of silage as well.</p>
+        </speech>
+        <speech by="#MattieMcGrath" eId="spk_49">
+          <from>Deputy Mattie McGrath<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_300">Clare still has the hurling, at least.</p>
+        </speech>
+        <speech by="#CathalCrowe" eId="spk_50">
+          <from>Deputy Cathal Crowe<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_301">Yes, we are still hurling.</p>
+          <p eId="para_302"> I am glad to have the opportunity to speak in this debate. I support the Government amendment. I thank the Minister of State for his efforts. It is very important that we have fiscal prudence. I was elected on the same day as the Minister of State back in 2020. That whole five-year period felt quite different. There was relative global economic stability, whereas things have been anything but on the global scene since then, with several wars in the Middle East and the Russo-Ukrainian war now going beyond the four-year mark, and all the turbulence that has brought. Ireland, as a small island nation on the western periphery of Europe, very much feels those shocks when they happen.</p>
+          <p eId="para_303"> That sets the whole budgetary context. It sets the need for prudence to be intrinsic in all of our plans as we make our way forward for budget 2027, which will be announced in October. Prudence has got us to a stable point. Our neighbours in the United Kingdom, with a much larger economy that for centuries had a dominant position over ours and that of most of continental Europe, have very much felt the shock in recent years. That is down to political instability. Brexit has come back to haunt them time and again, and it continues to destabilise them politically and economically.</p>
+          <p eId="para_304"> In line with what others have said, I believe it is important that, as we begin to accelerate preparations for budget 2027, middle Ireland be thought of in this budget. All sorts of measures were brought in last October, some of them popular and some not so popularly received by the public, but the type of people I would like to see accommodated centrally in the next budget are those who get out and work. The Minister of State's former leader called them the people who got up early in the morning. We all get up early, or at some point in the morning. It is the low-to-middle-income earners paying taxes who are very much squeezed. The income tax has to be paid, but when they need a safety net, they find that the thresholds set by Departments, such as the Department of Social Protection, do not allow for them. People are better off in this country if they are extremely wealthy or extremely poor, because they have either the wealth to withstand the shocks that come into their household or they have an income sufficiently low that the safety nets protect them at times of difficulty.</p>
+        </speech>
+        <speech by="#AlanDillon" as="#Minister_of_State_at_the_Department_of_Enterprise,_Tourism_and_Employment" eId="spk_51">
+          <from>Minister of State at the Department of Enterprise, Tourism and Employment (Deputy Alan Dillon)<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_305">I welcome the opportunity to close this debate. I thank the Minister of State, Deputy Charlie McConalogue, for his opening remarks, which I will expand on. As he outlined, the Government opposes the motion brought forward by the Independent Ireland Deputies. The Government is acutely aware of the pressures faced by many households and businesses across the country as a result of the increased energy and fuel prices on the back of the ongoing conflict in the Middle East. In response, we have taken a flexible approach, helping in a meaningful way across a number of areas and making sure that ordinary people see the benefit of those interventions. Importantly, we are doing this in a way that does not jeopardise our long-term objectives, which are centred around permanent changes to our energy system so people do not have to face rapid price increases in the future.</p>
+          <p eId="para_306"> To support those affected by the energy price spikes, we have introduced a €750 million package of supports, one of the largest packages across the European Union. The impact of the supports that we introduced has been significant, with 27 cent off a litre of petrol, 32 cent off a litre of diesel and 7.4 cent off a litre of green diesel. We have extended the fuel allowance, expanded the diesel rebate scheme and reduced the NORA levy. We have also opened the fuel support scheme for farmers, with a scheme for hauliers to follow in the coming weeks.</p>
+          <p eId="para_307"> The Department of Finance estimates that, taken together, this package has reduced the annual rate of inflation from April to July by 0.6 percentage points. These measures are targeted to support the essential sectors that we depend on and those most vulnerable to price increases. While they are temporary in nature, time-bound and proportionate, they are in line with the longer term fiscal strategy.</p>
+          <p eId="para_308"> Of course, these temporary supports are only one aspect of the Government’s response. They build on measures introduced over the past two budgets that provide real benefits for households and businesses across the country. These include the 9% VAT rate for hospitality and hairdressing, taking effect from 1 July, that will support over 150,000 jobs. The reduced 9% VAT rate on electricity and gas will remain in place until the end of 2030. This is one of the lowest rates across the EU. The increases in core welfare rates benefit some 1.5 million people, including pensioners, people with disabilities, carers and lone parents. These measures have been carefully designed to be long-lasting and fiscally sustainable.</p>
+          <p eId="para_309"> In the long term, our strategic dependence on fossil fuels has major economic implications. Moving towards domestic sources of renewable energy will reduce the impact of shocks like these and will also help to insulate people from dramatic increases in energy costs, such as we have seen in recent months and previously during the Russian invasion of Ukraine. This is why we are investing record levels of funding in the energy infrastructure through the national development plan.</p>
+          <p eId="para_310">We know that money alone is not the answer to every problem. In order to achieve our long-term success, the institutions of the State and, crucially, the private sector need to be able to deliver more efficiently and achieve better value for money. The accelerating infrastructure action plan will do just that. This plan is on track to speed up the delivery and therefore lower costs for critical infrastructure such as energy transmission. We recently achieved 8 GW of installed onshore renewable energy capacity, a major clean energy milestone on the path toward green energy efficiency and security.</p>
+          <p eId="para_311"> In addition to this, budget 2026 allocated record funding for home retrofitting, including fully funded upgrades to the warmer homes scheme for those in energy poverty. These investments generate real benefits for households by making Irish homes more sustainable and more energy efficient and by lowering energy costs. The national energy affordability task force, which was established in June 2025, will further accelerate on the implementation of measures to improve energy affordability and security. The energy affordable task force will provide a coherent cross-Government strategy for reducing energy costs for Irish businesses and consumers in the long term.</p>
+          <p eId="para_312"> In all of this, it is vital to recognise that the Government's ability to respond to energy shocks and to invest in strategic energy infrastructure is made possible by sensible management of the public finances. As we take decisive action to support businesses and households in the short term, we also must maintain our ability to respond to future shocks and safeguard our economy into the long term. The medium-term fiscal and structural plan, published in December 2025, allows us to do that. It provides a framework for maintaining a sustainable budgetary strategy into the future and by setting out an overall medium-term expenditure path. The medium-term plan provides the Government with the flexibility to respond to challenges in a timely and appropriate manner. By focusing on the medium term, it safeguards overall fiscal sustainability. It is important to predict how external events will evolve and what new challenges will emerge into the future.</p>
+          <p eId="para_313"> The broader global environment remains incredibly uncertain. As a small, open economy, Ireland is particularly vulnerable. As such, the best approach for the Government is to ensure that we remain flexible to the challenges that lie ahead. Over the long term, we must continue to reduce our exposure to international energy markets by investing in secure domestic energy supply. Our fiscal strategy, set out in the medium-term plan, allows us to achieve both these aims. It ensures that we have the ability to respond to the challenges quickly and appropriately while maintaining the sustainability of the public finances and investing in the long term.</p>
+        </speech>
+        <speech by="#RichardODonoghue" eId="spk_52">
+          <from>Deputy Richard O'Donoghue<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_314">The contributions from the Government side and their colleagues show why we are in the position we are in. I spoke to some of those who contributed. They said they would like to see the people in the middle, the working class, looked after in this budget. One person told me he got elected the same day as the Minister of State, which was the same day I got elected. Since I got elected, they are the people I have been looking to have looked after. It has taken the Government six years to even come out and say that it wants the people who are working to be looked after. Six years later, this is what the Government comes out with.</p>
+          <p eId="para_315"> I will give the Minister of State a small insight into the six years his party has been in government. We will go to the working, squeezed middle. We will take an average house as an example. If somebody wanted to buy or build a 2,000 sq. ft house, it would have cost of €240,000 plus VAT. That meant that five or six years ago, that house cost of €272,406. Let us travel forward. Today, five or six years later, that same house costs €454,000, including VAT. The VAT to the Government has gone from €32,400 to €54,000. That is a tax take on somebody trying to provide their own home. It is the working squeezed middle. This is two people who are working, trying to provide a roof over their head, probably trying to start a family and trying to secure their livelihoods. What the Government has done with the stroke of a pen is that has taken €22,000 extra in tax from people building or buying their own house.</p>
+          <p eId="para_316"> That is not all the Government has done. I will use the model of 40% of a person's income to afford a mortgage. Five years ago, if a person had to get a mortgage of €270,000 to build a house, they would have to have earnings of €3,830 per month to afford a repayment of €1,532 per month. That is based on a 4.75% interest rate. A person would end up paying €189,650 in interest on a house worth €270,000. By the time everything was repaid, a person would repay €460,000. Today, that house would cost €450,000. A person would have to have earnings of €6,252.50 per month for repayments of €2,500 per month. In five years, the Government has almost doubled the cost of buying or building a house. The Government has increased its tax take not only on the building of the house but the person is now paying 40% in income tax. It is tax on top of tax. That is what the Government has done in five years.</p>
+          <p eId="para_317"> Every one of the Government speakers said there was so much money and that was why the Government could give the targeted €750 million. They said it was due to the war in Ukraine, the war in Iran and Covid. These are all knee-jerk reactions. The Minister, Deputy Chambers, told us yesterday that if the Government had to do this, it would have to put X amount of money away every year to counteract this. The problem is the Government has gone €1 billion over budget on a hospital that has not been delivered yet. It has misspent on bike sheds and huts - €1.4 million. If you add up all the money the Government has misspent, that would be money that would there today to introduce measures when prices rise. When fuel hits a certain level, for example, it could be automatically added. All the money the Government has misspent would actually cover the people today. It would bring down inflationary costs.</p>
+          <p eId="para_318"> Everything the Government has done has driven inflation. It has doubled the cost of buying and building a house. It has doubled the cost of buying a car. It has doubled the cost of running a vehicle and it has doubled its tax intake on the same thing. That is all the Government is doing.</p>
+          <p eId="para_319"> Yesterday I spoke to officials from the Department. I asked what the VAT intake was up by this year. The first thing they said was that it was up by 6%. Some 40 minutes later, they said it was only up by 3%. The officials do not even know what they are doing in their own Department. That is how clued in they are. These are the people advising the Minister. These are the people the Minister and the Government is defending every single day. The problem we have here is that Ministers are just fronts for Departments that are making mistakes and the Ministers are not holding them to account. The Ministers are just fronts and they are told what to do every day. When are Ministers going to take responsibility and take on their own Departments and tell them they are wrong? Tell people they are not the right people for the job, to get out and to get people who can actually manage the purse and finances and get us accountability. When are Ministers going to stand up for that? What is wrong is that Ministers are deciding to put their careers over the people of this country. It is all down to career politicians. The day people do not want me in this House, I will be quite happy to go. The day I cannot contribute to try to help the vulnerable people in this country, I will be quite happy to go.</p>
+          <p eId="para_320">The only reason I am here is to help those vulnerable people. It is not to get a job in Cabinet or a promotion like most of the Cabinet. They will do and say anything to get a better job. I do not mind if the Government delivers something. I do not mind if anyone in the House delivers something. My job in the House is to make sure that delivery is done. The Government can have all of the praise in the world for delivering once the job is done. That is a person who does not mind about careers. I have my career. I have family. I have dependents. They are crippled week in and week out with over-taxation by the Government. The Government has said it will deliver and provide a scheme here and there. The only scheme is the scheme the Government is doing for itself. </p>
+          <p eId="para_321"> The Government introduced a retrofit grant. I have explained the cost of building over the past five years. The retrofit grant for oil-based properties to insulate houses requires silicone and PVC which are oil-based products, the cost of which have increased. The grants are worth nothing. The Government puts pressure on something that is inflated. The Government has put pressure on an oil-based product and is talking about the environment. </p>
+          <p eId="para_322"> The Government is investing taxpayers' money and driving inflation. The Government has decided that when something is under pressure, it will put more pressure on it. We are one-tenth of 1% of global emissions. People in the country are going hungry. The Government thinks more about targeting something and trying to put fossil fuel vehicles off the road when they are the only thing that vulnerable people can afford in order to go to work. That is what the Government is doing. It is punishing everyone. </p>
+          <p eId="para_323"> The Government has a big wad of money which it misspent. There should be a full inquiry into Departments regarding the misuse of funding. That is what should be done. We could then see how many people that misspent money could have helped. There are many career politicians in government who give an old spatter now and then but are not seen in their own areas. They are only seen there for a picture. They run in and out. They give all the promises to get themselves elected, but do not want to do any delivery. That is the issue with Government. Until the Government takes on its Departments and makes them accountable, it is only a front. That is what it is. </p>
+          <p eId="para_324"> Minister are backing up something they are told before they walk into the House. They are handed a paper. I do my own. I do not need a Department to tell me it is wrong because I can see it in all of the paperwork we get and the misspent money in this country is all down to Departments giving the Government bad advice. Members of Government say, "Yes sir", "No sir" and "I want a promotion for that". That is what they do. The Government encourages and promotes people for doing wrong and every Irish person in this country is suffering.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_53">
+          <from>Deputy Timmy Dooley<recordedTime time="2026-05-27T12:00:00+01:00"/></from>
+          <p eId="para_325">This is the lad who is going to have a Luas in every county in Ireland.</p>
+        </speech>
+        <speech by="#RichardODonoghue" eId="spk_54">
+          <from>Deputy Richard O'Donoghue<recordedTime time="2026-05-27T12:00:00+01:00"/></from>
+          <p eId="para_326">Timmy do-little is at it again, is he?</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_55">
+          <from>Deputy Timmy Dooley<recordedTime time="2026-05-27T12:00:00+01:00"/></from>
+          <p eId="para_327">A Luas in every county in Ireland.</p>
+        </speech>
+        <summary eId="sum_4"> Amendment put.</summary>
+        <speech by="#VeronaMurphy" eId="spk_56">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:00:00+01:00"/></from>
+          <p eId="para_328">In accordance with Standing Order 85(2), the division is postponed until the weekly division time on Wednesday, 27 May 2026.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="questions" eId="dbsect_10">
+        <heading>Ceisteanna ó Cheannairí - Leaders' Questions<recordedTime time="2026-05-27T12:00:00+01:00"/></heading>
+        <speech by="#MaryLouMcDonald" eId="spk_57">
+          <from>Deputy Mary Lou McDonald<recordedTime time="2026-05-27T12:00:00+01:00"/></from>
+          <p eId="para_329">In last October's budget of €9.4 billion, the Government made the very cruel decision to leave disabled people worse off by €1,400. Since then, life has become so much harder for everybody, but all the more so if one is a disabled person who has fallen further and further behind. Our Dáil motion yesterday called on the Government to do two things. First, to deliver an emergency €500 cost of disability payment now and, second, to introduce a new permanent cost of disability scheme. Instead of listening, the Government pushed back. It rejected our motion and the amendment it brought forward is an insult to disabled people. </p>
+          <p eId="para_330"> It is consultation after consultation and report after report for the Government, when it knows exactly what needs to be done and what the issues are. Yet, the Government tells disabled people to wait. It is the same for carers. At the rate the Government is going, it will take 30 years to abolish the means test for carers. There is no urgency at all. </p>
+          <p eId="para_331"> Yesterday, the Government announced a new autism assessment protocol, but one of the first things from the mouth of the Minister for Health was that the Government will not have enough staff for the new assessment centres. Good God. Who announces new centres knowing that we do not have the staff to make them work? This is happening when more than 20,000 children are waiting for an assessment of needs, thousands of children with disabilities are waiting for therapies, supports and services, hundreds of children with additional needs are waiting for a school place and thousands of children are in inappropriate school placements. </p>
+          <p eId="para_332"> Every single summer, parents face a battle to find an appropriate school place for their child the following September. Despite all of the big promises made by the Government, this summer is no different. Tonight in Cabra, in my community, parents will hold a meeting on this issue again. We will hear more stories of pressure and rejection letters piled high on the kitchen table. I know one mother who has received 17 rejection letters for her child. We will hear stories of children being offered school places that do not exist in classrooms that have not been opened or even built. Does the Government know what that does to a parent and child? </p>
+          <p eId="para_333"> We will also hear anger that the window for July provision applications for summer educational support for children with additional needs was open for only one week this year. What is that all about? In previous years, the window was open for months. This unreasonable timeframe means that many children will miss out on vital educational support this summer. Why is the Government making life so difficult for these families? It needs to immediately reopen the application window to allow schools to get their applications in.</p>
+          <p eId="para_334"> Tá Fianna Fáil agus Fine Gael ag teip ar dhaoine faoi mhíchumas agus páistí le riachtanais bhreise le blianta fada. Caithfear deireadh a chur leis. Tá sé in am don Rialtas meas a léiriú agus seirbhísí agus tacaíocht cheart a chur ar fáil.</p>
+          <p eId="para_335"> The failure of people and children with additional needs is immense. I have raised several issues with the Taoiseach today, but I could go on and on. I appeal to the Taoiseach to deliver the cost of disability scheme, resource the new autism assessment centres, guarantee an appropriate school place for every child in September and, for goodness sake, immediately reopen the application window for July provision.</p>
+        </speech>
+        <speech by="#" eId="spk_58">
+          <from> Deputies<recordedTime time="2026-05-27T12:00:00+01:00"/></from>
+          <p eId="para_336">Hear, hear.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_59">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:00:00+01:00"/></from>
+          <p eId="para_337">Ar dtús báire, ní aontaím leis an Teachta. Tá an-chuid déanta againn. Gan amhras, tá i bhfad níos mó le déanamh againn maidir le daoine le míchumas. Tagraím don infheistíocht atá curtha isteach againn, go háirithe sa cháinaisnéis anuraidh. Ba é an méadú is mó riamh in aon cháinaisnéis.</p>
+          <p eId="para_338"> The investment in disability has been very strong. The last budget saw one of the largest ever increases in disability services, up to 20% of an increase, which is significant and is having an impact, in particular in terms of service providers who are providing services to people with disabilities.</p>
+          <p eId="para_339"> In respect of the cost of disability, the Deputy is being somewhat disingenuous by pretending it is one consultation after another, the process is simple and the Government should just go and do it. It is not that simple. There could be over 1 million people who identify with a disability in the census, about 22% of the population. One can go through all of the various age categories. It is not that simple. The Minister, Deputy Calleary, as the Deputy knows, organised a significant public consultation which has received a significant number of responses.</p>
+          <p eId="para_340"> I attended the strategic focus network summit on the cost of disability on 13 May. It brought together all of the key stakeholders to share perspectives and inform our approach. This is a significant and complex initiative. It is better that we do this in a structured and targeted way so that those most in need will avail of and benefit from it.</p>
+          <p eId="para_341">It is not just a once-off payment. That will not work on a sustainable basis</p>
+          <p eId="para_342"> Work is under way now to bring together all of the views and evidence. The Minister, Deputy Calleary, will bring forward a paper in July in respect of the cost of disability payment arising out of all of that consultation. We will then assess that in the context of the Estimates for decisions in the next budget. As I said, the previous budget deliberately prioritised permanent structural supports that will endure in five and ten years' time. The core rates went up significantly. Child support payments went up dramatically again. For any child over 12, it went up by €16, to €78 a week, and for anybody under 12, it went up by €8, to €58 a week. There has been a sustained increase in child support payments over the last number of years.</p>
+          <p eId="para_343"> On education, Deputy McDonald is deliberately ignoring the dramatic increases in resources in education in terms of special needs assistants, special education teachers and also classes.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_60">
+          <from>Deputy Mary Lou McDonald<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_344">The Government tried to cut them.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_61">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_345">We will have places for children next September. As Deputy McDonald knows, with the decision of the early entry portal, many more applied than was anticipated and 6,000 children who are within existing mainstream schools applied for special class status, which will be provided for and very substantial additional resources have been allocated to meet that need.</p>
+        </speech>
+        <speech by="#LouiseOReilly" eId="spk_62">
+          <from>Deputy Louise O'Reilly<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_346">Is that a guarantee?</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_63">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_347">No one can deny the extraordinary and very significant investment that has been made - rightly so - in special education.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_64">
+          <from>Deputy Mary Lou McDonald<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_348">Is the Government reopening the July provision?</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_65">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_349">It is quite significant.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_66">
+          <from>Deputy Mary Lou McDonald<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_350">Is the Government reopening the July provision?</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_67">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_351">The Deputy has an awful habit of interrupting. I have never interrupted her once in anything she says.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_68">
+          <from>Deputy Mary Lou McDonald<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_352">The Taoiseach mumbles. He does not enunciate clearly.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_69">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_353">I beg your pardon?</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_70">
+          <from>Deputy Mary Lou McDonald<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_354">You do not enunciate clearly. You mumbled. I did not hear what you said.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_71">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_355">Okay, we will leave it. We will leave it.</p>
+        </speech>
+        <speech by="#MaryButler" eId="spk_72" as="#Minister_of_State_at_the_Department_of_the_Taoiseach">
+          <from>Deputy Mary Butler<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_356">That is shocking.</p>
+        </speech>
+        <speech by="#NoelGrealishPD" eId="spk_73">
+          <from>Deputy Noel Grealish<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_357">That is an appalling comment to make. A disgrace.</p>
+        </speech>
+        <speech by="#MaryButler" eId="spk_74" as="#Minister_of_State_at_the_Department_of_the_Taoiseach">
+          <from>Deputy Mary Butler<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_358">That is a new low. It is a new low.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_75">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_359">I ask everybody to be respectful. There are a lot of people in the Gallery. I call Deputy McDonald.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_76">
+          <from>Deputy Mary Lou McDonald<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_360">These are important issues and it is important when the Head of Government addresses them that he is audible, clear and I can hear him. It is not a case of whether the Taoiseach agrees with me or not. He seems singularly unable to acknowledge the real experience of disabled people who are telling him, and have told him for quite some time, that they are struggling financially. At times, they have told stories of making choices between heating and eating. Even in scenarios that are not that extreme, they are under huge pressure. The Taoiseach is right. A one-off payment is not the be all and end all but they need that now. They also need a cost of disability scheme.</p>
+          <p eId="para_361"> For all of the Taoiseach's palaver about what the Government has done and his clapping himself on his back, I have a letter here from one mother who is explaining what she is living through now because her child does not have the guarantee of a school place in September. She talks about watching time run out while everybody else's child moves forward and her frustration at having to repeatedly prove her child's need to the system.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_77">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_362">I thank the Deputy. I call the Taoiseach to respond.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_78">
+          <from>Deputy Mary Lou McDonald<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_363">She talks about the uncertainty, the exhaustion, the guilt and the anger.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_79">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_364">The Deputy's time is up. I call the Taoiseach.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_80">
+          <from>Deputy Mary Lou McDonald<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_365">Can the Taoiseach please tell everybody that he is guaranteeing a school place for every child? Is he reopening the July provision?</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_81">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_366">Deputy McDonald's time is up.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_82">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_367">I recognise the issues facing people with disabilities. The first thing I did in government was to set up a special disability unit within my Department to prioritise and drive delivery of services and to improve them in every single Government Department and in a whole-of-government approach. We have established a Cabinet subcommittee on disability to deal with all aspects of public services and departmental responses and we have launched a human rights strategy in respect of disabled people. The prioritisation is clear and the investments have followed that prioritisation, especially in special education. There have been many more new special schools established in the past 12 months. There have been hundreds and hundreds of additional special classes added. Staff numbers are up 27% since 2020 in special education.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_83">
+          <from>Deputy Mary Lou McDonald<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_368">Will every child have a school place?</p>
+        </speech>
+        <speech by="#NoelGrealishPD" eId="spk_84">
+          <from>Deputy Noel Grealish<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_369">Stop interrupting.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_85">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_370">We will have 26,000 special needs assistants by the beginning of the next school year. There will be 26,000 of them and I could go on.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_86">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_371">The Taoiseach's time is up. I call Deputy Bacik.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_87">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_372">We need to do more and we will do more, as we have with the school therapy services.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_88">
+          <from>Deputy Ivana Bacik<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_373">Today's Environmental Protection Agency report confirms Ireland is nowhere near on-track to meet our climate targets. In fact, we are projected to achieve barely half of the emissions reductions required by law. In that context, the climate Minister’s interview earlier today with David McCullagh on RTÉ was extraordinary. The Minister urged us to look on the bright side throughout but, however he tries to spin it - he is good at spinning - there is no silver lining. The Green Party’s exit from Government marked the death knell of Fianna Fáil’s ambition on climate. Take this year’s climate action plan. The Minister, Deputy O’Brien, has confirmed it will not arrive until quarter 3. A climate plan for 2026 published with just three months left in the year is laughable.</p>
+          <p eId="para_374"> We know why it has not arrived. It is because the Government has no plan and the numbers are getting worse. This is also why the Government sat on the land use review for months on end. Emissions from that sector are projected to soar by more than 70%. Michael Healy-Rae may have resigned as Minister of State but we now know he is far from the most sizeable thing being emitted from the forestry sector. While emissions rise, the Government is dismantling crucial protections for our environment. Take the Critical Infrastructure Bill. It fundamentally undermines the climate Act, allowing major infrastructure projects to bypass climate considerations entirely. This was a sly move by the Government and, appallingly, it was supported by almost all Opposition parties, except for the Labour Party and the Green Party. A false choice has been cynically presented: Ireland must either build infrastructure or decarbonise. That is nonsense.</p>
+          <p eId="para_375"> We know we can build homes, transport and energy infrastructure while also cutting emissions. As our Labour Party climate spokesperson, Ciarán Ahern TD, has pointed out, other countries are doing this. The Government is doing neither at the scale required. Ireland’s infrastructure deficit is our single biggest economic challenge. Offshore wind is delayed.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_89">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_376">It is not delayed.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_90">
+          <from>Deputy Ivana Bacik<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_377">Upgrades to the grid crawl at a snail’s pace. The Government is missing emissions targets and ripping up climate protections. It is a famine of ambition. Let us take transport. The Taoiseach's rhetoric increasingly tries to manufacture an urban-rural divide on climate and transport. Of course, we know some people will always need cars in both rural and urban areas.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_91">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_378">That is great.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_92">
+          <from>Deputy Ivana Bacik<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_379">However, children are breathing polluted air, our roads are choked with traffic, we have some of the highest asthma rates in Europe and in a cost of living crisis, households are spending a fortune on fuel and car costs because they have no other choice. There is endless outrage in this House expressed about bike sheds, particularly from the largest Opposition party, but we know a single car parking space costs up to €70,000 and the OPW spends more than €1 million a year leasing parking spaces for civil servants. Cycling saves money and reduces emissions. The Government is failing on active travel, failing on climate targets and failing to deliver infrastructure at scale.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_93">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_380">The Deputy's time is up. She should have asked her question in the time.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_94">
+          <from>Deputy Ivana Bacik<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_381">Where is the progress? Why can the Government not take climate seriously?</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_95">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_382">I reject very strongly the Deputy's assertion that we are not taking climate seriously. Her reference to the Green Party not being in government is false.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_96">
+          <from>Deputy Ivana Bacik<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_383">The Green Party is not in government.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_97">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_384">We are doing things differently because there is a problem, which the Deputy referenced in terms of the Critical Infrastructure Bill. One of the issues is the fundamentalist, purist and perfect is always the enemy of the good. We will achieve far more on climate than perhaps the Labour Party approach or, at times, the Green Party approach because we need to bring people with us. That consensus has broken down. I can see it in the Dáil in the past few years. The Government's commitment has not lessened on climate.</p>
+          <p eId="para_385"> We will get there in a more practical and effective way. To be frank, the Deputy is saying we can build infrastructure - we cannot, in many instances, because environmental law has been weaponised at every turn.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_98">
+          <from>Deputy Ivana Bacik<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_386">Oh, no.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_99">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:10:00+01:00"/></from>
+          <p eId="para_387">It has been. The Deputy needs to face up to it and not be naive. At every turn, significant infrastructure and even infrastructure that will improve the climate has faced challenges because environmental considerations have been weaponised. That is a problem and a challenge. It is a problem all over Europe, by the way. It is all over Europe. That is why some of the renewable energy directives, REDs, were brought in at European level to make sure the overall good is prioritised, as with offshore wind farms. These will benefit climate but because of some aspects related to nature they can be delayed interminably. Choices always have to be made with development. It is not apple pie in every single scenario.</p>
+          <p eId="para_388"> The bottom line is that Ireland now has the lowest level of greenhouse gas emissions in 35 years. The Deputy said it is rising. Our emissions are decreasing. One of the successful things we have been able to do is decouple economic growth from emissions. The EPA's latest projections predict we are likely to either achieve our first carbon budget or marginally exceed it, as well as showing significant emissions reductions across major sectors of the economy.</p>
+          <p eId="para_389">Emissions in agriculture are set to decrease by between 4% and 19%, and those in transport are set to decrease by between 16% and 28%. These reductions in our largest sectors are significant and should not be dismissed.</p>
+          <p eId="para_390"> Emissions from electricity generation are estimated to reduce by between 53% and 60% by 2030. With additional measures, we are projected to meet our overall Carbon Budget 1 programme target, with only three sectors set to miss their 2025 sectoral emissions ceilings: transport, industry and public and commercial buildings. The Deputy did not refer to any of that in her opening remarks. The projected reduction now has increased to 25%, as opposed to 23%, which was the previous assessment of the EPA. Therefore, we are making progress. The issue is how we can make progress faster.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_100">
+          <from>Deputy Ivana Bacik<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_391">That is exactly it. We acknowledge where there has been progress but it is the scale of the progress that is the problem. It is the pace of change that is the problem. There is no sense from the Government of the necessary ambition or urgency to take the further measures required to achieve the emissions reductions we have signed up to. The figures speak for themselves. The Taoiseach may seek to scapegoat climate for delays in infrastructure. The children's hospital has seen chronic delays. This was not due to climate or environmental concerns. There are failings in the Government on delivering infrastructure projects.</p>
+        </speech>
+        <speech by="#GeorgeLawlor" eId="spk_101">
+          <from>Deputy George Lawlor<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_392">The children's hospital.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_102">
+          <from>Deputy Ivana Bacik<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_393">I reference the children's hospital because the Taoiseach is saying the environment is being weaponised to delay infrastructure provision but there are plenty of delays in the Government's infrastructure projects which have no basis in climate considerations. The figures in the EPA report speak for themselves. The Taoiseach's climate Minister may spin a good spin and he sought to blag on housing figures as housing Minister. </p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_103">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_394">I thank the Deputy. Her time is up. The Taoiseach will respond.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_104">
+          <from>Deputy Ivana Bacik<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_395">He was doing the same this morning on climate.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_105">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_396">Deputy, the time is up.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_106">
+          <from>Deputy Ivana Bacik<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_397">The figures speak for themselves.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_107">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_398">The Taoiseach to respond.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_108">
+          <from>Deputy Ivana Bacik<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_399">The Taoiseach cannot get away with this on climate.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_109">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_400">Deputy Bacik, there is no point in us talking over each other. Your time is up.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_110">
+          <from>Deputy Ivana Bacik<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_401">We need to deliver reductions at a greater pace.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_111">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_402">We need an honest debate. Let us deal with the facts. Ireland now has the lowest level of greenhouse gas emissions in 35 years. </p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_112">
+          <from>Deputy Ivana Bacik<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_403">Yes but from a high-----</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_113">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_404">No. Hold on. Look at what else has happened in the 35 years. That is in the context of an increase in population of 1.5 million, more than 1 million new homes and over 1 million more vehicles on the road. Those are dramatic statistics. We are growing as a population. We were relatively under-populated historically but our population is now growing dramatically. With 1.5 million more people, 1 million additional homes and 1 million additional vehicles, we have the lowest level of emissions in 35 years. We have decoupled economic growth from this issue, which is key.</p>
+          <p eId="para_405"> I set up a clearing house in my Department to drive offshore wind energy development. We are not delaying it. We brought industry in to obtain a systemic assessment of the issues that could be a factor in developing offshore wind energy generation. The Deputy knows what has happened in the US, where there is a public policy against offshore wind. That is impacting on the economics. We are driving forward-----</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_114">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_406">We must move on. The Taoiseach's time is up.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_115">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_407">-----and we have offshore wind proposals in planning.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_116">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_408">I call Deputy Charles Ward.</p>
+        </speech>
+        <speech by="#CharlesWard" eId="spk_117">
+          <from>Deputy Charles Ward<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_409">I want to raise the matter of how the State is communicating life-changing decisions to people in the defective concrete blocks scheme. A constituent of mine applied in 2022. Her home was assessed by an IS 465 engineer on the Housing Agency's list. The conclusion was clear: scientific and engineering principles dictated that full demolition and rebuilding was the only safe option to restore this unsafe home. The Housing Agency did not accept that, however, and it downgraded the remediation option to option 2, which retains defective material within the structure, despite extremely low compressive strength levels and readings, and clear evidence of ongoing deterioration inside and outside the house. My constituent appealed that decision and that appeal took years. On 18 May at 9 o'clock in the morning, she received an email from the appeals board stating her appeal had been upheld, the Housing Agency's decision had been annulled and option 1, demolition and rebuild, was directed. That was presented as the outcome of her appeal. For those living in structurally unsafe homes, it is about something as simple as being able to move on. My constituent thought she could move on and that there was finally an answer. Hours later, however, she received a second email that stated the first communication was sent in error and did not reflect the decision of the board. It apologised for the confusion caused.</p>
+          <p eId="para_410"> This is not a minor administrative correction; this is a life-changing communication issued by the State, through the body that withdrew its decision on the same day it made it known. The woman affected followed every single rule of the process and compiled everything in the right order for years, knowing her home had deteriorated and praying and hoping she would get through the process, only to have a decision made and reversed on the same day.</p>
+          <p eId="para_411"> I am not questioning the independence of the appeals panel. That is definitely not the issue here. The issue is that those running a State-administrated scheme dealing with unsafe homes confirmed, in an official written communication, a full demolition and rebuild outcome and retracted that communication hours later. That should never happen in a system dealing with people in a vulnerable situation like those we are dealing with in Donegal and throughout the country.</p>
+          <p eId="para_412"> My question is simple: what safeguards are in place to ensure no other person in the scheme will be told they have secured full remediation only for the decision to be withdrawn the next day as an administrative error? That level of failure is simply unacceptable. This is meant to be the biggest scheme in the history of the State but the failures are starting to show up day after day.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_118">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_413">I thank the Deputy for raising this issue. I have made inquiries. The issue he raised did happen. It is unacceptable from my perspective, particularly given the enormity of the issue for the individual householder concerned, that she should have received two emails with completely opposite positions on the one day. My understanding is that the chair of the board accepts that an error was made and that it should not have occurred, and is immediately instituting a change in the process by which communications are issued to ensure it will not be made again. The Minister for Housing, Local Government and Heritage has asked that the chair immediately meet officials in his Department to ensure the process is robust and that errors of this nature do not occur again.</p>
+          <p eId="para_414"> The Department itself does not process the appeals, as the Deputy knows. He is not questioning that. The Department passes them on to the Housing Agency. The appeals board is separate from the Housing Agency and the Department and is chaired by a senior counsel. The error should not have happened, particularly in the context of about 3,500 applications having been made to the scheme to date. Good progress has been made to date, with approximately 500 homes already fully remediated and approximately 750 having works done right now. It is a large scheme but that in itself does not excuse what occurred. The authorities concerned need to focus on how decisions are communicated to applicants, particularly where there is a question mark or appeal process under way, given that it will be a question of whether full demolition or remediation is required and whether better forms of communication, other than email, should be part of how things are done.</p>
+          <p eId="para_415"> The Deputy is correct in saying the scheme is one of the biggest in the State. About €300 million has already been provided to assist homeowners, with an average grant of approximately €350,000. This has been communicated. The Deputy's point is well made. Everybody must now ensure that the error is not made again.</p>
+        </speech>
+        <speech by="#CharlesWard" eId="spk_119">
+          <from>Deputy Charles Ward<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_416">I thank the Taoiseach for that. I have another issue regarding IS 465. We were told the revised IS 465 was due in April or May but now we are heading towards June. The scheme is meant to be the biggest in the history of the State. It has been delayed and delayed. Will the revised version of IS 465 be published in June? The Tánaiste could tell me on the last occasion that publication would be within weeks and now I am asking the Taoiseach, some five or six weeks later, whether he can tell me whether the revised IS 465 will be published in June.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_120">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_417">I have to defer to the Minister. I will ask him to communicate with the Deputy directly in respect of the matter. I am always loath to give precise timelines on behalf of other Ministers but I will make sure that this is followed up because commitments have been given on it. We will make sure that it gets done.</p>
+        </speech>
+        <speech by="#RichardODonoghue" eId="spk_121">
+          <from>Deputy Richard O'Donoghue<recordedTime time="2026-05-27T12:20:00+01:00"/></from>
+          <p eId="para_418">There was a meeting of the Joint Committee on Health this morning. Members of the hospital group, including Sandra Broderick, and Mr. Mike Ahearne of the HSE are in the Gallery.</p>
+          <p eId="para_419">I acknowledge the work they have been doing within the hospital sector in Limerick. They will be looking forward to the new hospital and the new wing. Is there a timeline for that?. Will it be a design-build project? Patient safety is a huge thing. One of the cases in UHL, which I have brought up in the House on many occasions, was that of Jessica Sheedy. That case has gone to the High Court. I would not like to see any other family going through something like that. Her case has been brought up on many occasions. The inquiry is ongoing.</p>
+          <p eId="para_420"> When are we getting a new hospital in Limerick? When are we getting the new extension in Limerick? When are we going to have a hospital of excellence that will be located at the side of a motorway and accessible not only for people in Limerick but also those in Tipperary, Clare and all the other areas. We need access, which we do not have to children's hospital at the moment. It is hard to get to. At least there was a small bit of forward thinking about where the new hospital will go in Limerick. I welcome that from the point of view of patient safety for the people in all the counties who will be going to the hospital. I want to make sure that happens. I do not want it delayed for years and find that we are talking about it again in five or ten years' time. I hope the lessons have been learnt from the last hospital and that it will be a design-build project that will be delivered on budget and on time. That is what a design-build does. It means that it is factored in by whatever contractor takes it on that they take the risk. The Government has control of the risk and the contractor takes the risk. Design-build means delivery on budget and on time. Otherwise, we do not have it and the contractor does not make money. I am okay with that, once it is built on time. That means we have patient safety. We can then have the people who have left these shores back home to Ireland. We can tell them they are going to be a part of a good news story for the Munster region because we will have a hospital in which they can excel and provide patient safety across this country. That is the goal here. I want to ensure that we have it. Is there a timeline for this project? When will the diggers be on site? When will the hospital be delivered?</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_122">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:30:00+01:00"/></from>
+          <p eId="para_421">I thank the Deputy for raising what is an important issue for people in the mid-west more generally. I acknowledge that the Deputy has acknowledged some progress in respect of developments in health services in the mid-west. He paid tribute to the chief executive officer and the team there at UHL regarding that progress, which was needed. We need to continue to work to enhance services, particularly the quality of services, and best outcomes, and, in particular, to ensure that patient safety will always be at the centre of everything that is done. The first principle of medicine is not to do any harm. That is something clinicians, and indeed everybody else involved in the administration of a hospital, must always have uppermost in their minds.</p>
+          <p eId="para_422"> The 90-bed block that was built recently was delivered on time and within budget. We need to acknowledge that. A lot of infrastructure is, by the way, but, understandably in the context of accountability, it is the ones that are not that get the headlines. We are confident that the next 90-bed block will also come in on budget and on time. The contract has already been awarded for that. That is crucial and critical.</p>
+          <p eId="para_423"> The Minister will shortly be establishing a project board to deal with health services not just in the context of a new hospital in Limerick but the broader health services for the mid-west. Ennis and Nenagh hospitals will need more services. One has to look at the entirety of the hospital campuses in the mid-west in order to get the optimal outcome. We have seen that in the north east. We have seen that in terms of some of the hospital groups whereby the utilisation of other hospitals, apart from the tertiary centre, has been advantageous to patients, with access to outpatient clinics or endoscopy, or a variety of diagnostic facilities and so on. That complements the work that takes place in the acute hospitals or tertiary hospitals. The objective of the project board that the Minister will establish is to get the complete picture for the entirety of the mid-west. Deputies from Clare and Tipperary are very focused on that aspect, as well as on developing a new hospital. The good news is that a site has been secured. As we all, including the Deputy, know, if you are building anything, a school or anything else, securing a site is key and can help us to accelerate the deliberations in respect of it. The objective is to have the best, state-of-the-art services to cater for a population in the mid-west that is going to continue to grow,</p>
+        </speech>
+        <speech by="#RichardODonoghue" eId="spk_123">
+          <from>Deputy Richard O'Donoghue<recordedTime time="2026-05-27T12:30:00+01:00"/></from>
+          <p eId="para_424">I have already acknowledged the Minister in the context of the work that is being done in Limerick. We went through a very bad spell. The initial hospital of excellence was brought up in 2009. The people involved are no longer in the HSE, but they downsized Nenagh, Ennis and St. John's Hospital. It is great that the Taoiseach has acknowledged that the reverse needs to happen. That was one of the first things I said when I was elected six years ago. We need to ensure investment in health services. The Taoiseach has acknowledged that investment needs to go in there again.</p>
+          <p eId="para_425"> I acknowledge the work that has been done to date. It is refreshing to have the Minister in place. We have that now. We have good people in good places who want to get good things done, so let us get them done. Let us work together and get it done. I do not mind who does the job once it is done. At the moment, it is being done but I need to make sure that we have the timelines, that there is delivery and that we ensure patient safety. I acknowledge that the Taoiseach has said that Nenagh, Ennis and those areas need investment.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_124">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:30:00+01:00"/></from>
+          <p eId="para_426">I have always been a strong advocate for investment in Nenagh, Ennis and Clonmel-----</p>
+        </speech>
+        <speech by="#RichardODonoghue" eId="spk_125">
+          <from>Deputy Richard O'Donoghue<recordedTime time="2026-05-27T12:30:00+01:00"/></from>
+          <p eId="para_427">Good man.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_126">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:30:00+01:00"/></from>
+          <p eId="para_428">-----which has benefited from significant investment, but that is in a different area from Nenagh and Ennis, which is part of the mid-west provision of services.</p>
+          <p eId="para_429"> The most recent 90-bed block was delivered on time. Along with the investment, we need constant reform as to how we provide services. There has been a lot of investment in health services in the past five years, which needs to be acknowledged. There has to be a relentless focus on outcomes from that investment and quality of patient care. Things have changed. Clinicians are changing practices all the time and advancing technologies, mechanisms, methodologies and so on to improve efficiency all round. The Deputy can be assured that we are focused, and the Minister is, in particular, on timely delivery of the next commitments, particularly the 90-bed block that we want delivered on time and within budget.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="questions" eId="dbsect_11">
+        <heading>Ceisteanna ó na Comhaltaí Eile - Other Members’ Questions<recordedTime time="2026-05-27T12:30:00+01:00"/></heading>
+        <speech by="#BarryHeneghan" eId="spk_127">
+          <from>Deputy Barry Heneghan<recordedTime time="2026-05-27T12:30:00+01:00"/></from>
+          <p eId="para_430">I was great to hear the Taoiseach mentioning No Mow May. If he would like a beehive, I will give him one. I have 17. I know the Department of justice has them on the roof; it would be great to see them on Government Buildings as well.</p>
+          <p eId="para_431"> Constantly in this House I have raised the issue of private wires and the current system of energy. I was elected to this House seven months after I finished my master's degree in DCU, which focused on data centres and waste heat utilisation. One of the main things we learned about was the current system of EirGrid and ESB, and its failures. When I found myself involved in Government formation, one of the priorities for me was private wires. My Bill is ready. I have submitted it to the Bills Office. I see the frustration across the country about our energy costs. EirGrid has had nine months to put a code index into the grid to fix an issue. Because data centres need a constant stream of energy, we need to reduce curtailment and the dispatch down. This code index can help renewable projects. The Irish public is currently paying fossil fuel prices for energy when we have tens if not hundreds of renewable projects waiting for grid connections.</p>
+          <p eId="para_432"> Yesterday, I raised the issue of CIÉ charging a solar farm that is ready and built. Over €450,000 has been allocated in respect of a job that will take one day. Why are semi-State companies allowed to charge such an extortionate amount that will eventually end up with the Irish public? The families paying energy bill every month deserve nothing less than action. I will again mention plug-in solar. We are at a point where renewable energy generation is being reduced. We are wasting clean energy while households are paying the price.</p>
+          <p eId="para_433"> The concept of a private wire is simple. It is a direct cable from a renewable source such as a solar farm, a wind turbine or a battery energy storage system. There is no grid queue and no six-year wait. My Bill would give more powers to the Commission for Regulation of Utilities, CRU, to have a six-month timeline. In view of people's worries about job losses and the global situation at the moment, we need to increase Irish jobs. We can do so with my Bill. I spent 18 months developing the Bill. I now see why things take time, but it is done and has the Office of Parliamentary Legal Advisers, OPLA, stamp. It will help SMEs, community energy projects and battery storage. It contains a line that would make any project being used by a private company give a proportionate amount to a community benefit fund.</p>
+          <p eId="para_434"> The Government's current proposal for the private wires system limits it to four specific circumstances. My proposal does not. It would help community energy and SMEs, and the CRU confirmed to me at the committee of which I am a member last week - I should be at this week's meeting now - that private wires could facilitate more renewables than might be the case at present. We are losing foreign direct investment to countries with cheaper, cleaner and more certain energy. I was at the wind energy conference yesterday.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_128">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_435">Thank you, Deputy.</p>
+        </speech>
+        <speech by="#BarryHeneghan" eId="spk_129">
+          <from>Deputy Barry Heneghan<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_436">Does the Taoiseach agree that it is time to cut the red tape-----</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_130">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_437">Taoiseach to respond.</p>
+        </speech>
+        <speech by="#BarryHeneghan" eId="spk_131">
+          <from>Deputy Barry Heneghan<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_438">------and back the CRU with more funding in order to enable it to act?</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_132">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_439">I thank the Deputy and commend him on the work he is doing on this issue. It is a particular focus for him. He identified it as a key priority for him, on his election to Dáil Éireann, and for inclusion in the programme for Government. The private wires Bill for which the Minister has received sanction from the Government is priority legislation. The intention is to publish a draft Bill in the coming months - I think prior to the summer recess - with a target that the Bill will complete its passage through the Oireachtas later this year. An detailed, expedited delivery plan will also be published. That will detail targeted, time-bound actions to swiftly operationalise the regulatory regime.</p>
+          <p eId="para_440"> The Deputy is about to publish his Bill. The Department and Minister will engage with him and examine it in detail. I believe the Minister has met the Deputy about it already. I have spoken to the Minister on a number of occasions putting the pressure on to get this Bill through because private wires will provide greater opportunities for electricity consumers and generators and will lead to increased competitiveness and sustainability. As the Deputy will be aware, the Government approved the general scheme last December.</p>
+          <p eId="para_441"> It is interesting that April was the third month in a row where more than 50% of our electricity was generated from renewables. The Deputy's point about renewables and dispatch down is significant. We are conscious of it, although battery storage is improving all the time and is increasing significantly across the country.</p>
+          <p eId="para_442"> The joint committee has undertaken pre-legislative scrutiny of the general scheme of the private wires Bill. Its report was published at the end of April. The Department is now looking at the recommendations which, perhaps, the Deputy, and others made at that committee. It is also looking at and developing the expedited delivery plan, which will set out the key actions to take forward to swiftly operationalise the regime from a regulatory perspective. The Bill, once enacted, will give the CRU powers to create the necessary regulations to oversee private wire developments, including in respect of safety and technical standards and a licensing framework.</p>
+          <p eId="para_443"> Ultimately, we want to make sure that this can contribute to customers and to the broader story in the context of complementarity with the national grid. There are issues that have to be worked out in terms of the potential interaction between private wires and the national grid.</p>
+        </speech>
+        <speech by="#BarryHeneghan" eId="spk_133">
+          <from>Deputy Barry Heneghan<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_444">I welcome the progress on the Government's Bill. I hope it will absorb the proposal I am putting forward. The cost to Irish households is already runs into hundreds of millions if not billions of euro because of these delays. I welcome the Government's general scheme. It contains 47 recommendations. I answered as to how my Bill would tackle those 47 recommendations, and I will submit my answers to the Minister. The technology is available. The Taoiseach mentioned battery storage, and I welcome that the Taoiseach met those involved in that regard. We need to make sure that both the eventual Bill and everything that we do in this House prioritise the Irish people. I welcome that CRU oversight has been examined but I would love there to be more engagement on my Bill as a basis for faster delivery and for there to be confirmation that private wires will officially serve SMEs, community energy and the Irish consumers more than large-scale generation. There is a role for large-scale generation. I am not living in the clouds, because I understand that 50,000 jobs are directly or indirectly linked.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_134">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_445">Thank you, Deputy. Taoiseach to respond.</p>
+        </speech>
+        <speech by="#BarryHeneghan" eId="spk_135">
+          <from>Deputy Barry Heneghan<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_446">There are more jobs to be created. We could get hundreds of thousands of jobs-----</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_136">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_447">Time is up, Deputy, please.</p>
+        </speech>
+        <speech by="#BarryHeneghan" eId="spk_137">
+          <from>Deputy Barry Heneghan<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_448">-----for welders, all types of technician and engineers and this is why it needs to be done.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_138">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_449">Private wires will allow for direct connection between generation and the customer where it is more efficient to do so than connecting to the national grid. Private wires will also provide an alternative connection mechanism from renewable projects to customers. As far as I am concerned, large-scale generation can be positive as well for SMEs. I will talk to the Minister about the aspects the Deputy feels are not covered the general scheme. That is the whole purpose of his engaging with the Minister about his legislative proposals. It is also the purpose of the work of the committee in its pre-legislative consideration process, which has been completed.</p>
+          <p eId="para_450"> Private wires will create options for renewable energy developers. The development of the regime has been supported by the renewable energy sector since the public consultation in 2023. Obviously, it will also serve national climate objectives.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_12">
+        <heading>Teachtaireacht ón Seanad - Message from Seanad<recordedTime time="2026-05-27T12:40:00+01:00"/></heading>
+        <speech by="#VeronaMurphy" eId="spk_139">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_451">Seanad Éireann has passed the International Co-operation (Omagh Bombing Inquiry) Bill 2026, without amendment.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="questions" eId="dbsect_13">
+        <heading>Ceisteanna ar Pholasaí nó ar Reachtaíocht - Questions on Policy or Legislation<recordedTime time="2026-05-27T12:40:00+01:00"/></heading>
+        <speech by="#MaryLouMcDonald" eId="spk_140">
+          <from>Deputy Mary Lou McDonald<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_452">It seems that there is no end to RTÉ's sense of entitlement in its attitude to the spending of public money or to the lack of oversight in that regard by the Government. This morning, I read that since 2021, the State broadcaster has splashed out - get this - €230,000 on limousine rides for celebrities, dignitaries and presenters. These are not to be confused with common or garden taxis. It spends hundreds of thousands of additional money on those. What is going on? How is it in any way appropriate for this type of money to be blown on luxury limousines, including Mercedes V class, BMW 7 series, etc. We see that kind of expenditure at a time when everyone is struggling and after RTÉ was bailed out. The promise of that bailout was that there would be prudent, appropriate, moderate investment-----</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_141">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_453">Thank you, Deputy. The Taoiseach to respond</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_142">
+          <from>Deputy Mary Lou McDonald<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_454">-----of taxpayers' money.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_143">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_455">In the first instance, the Government has sanctioned legislation to ensure RTÉ comes under the aegis of the Committee of Public Accounts and the Comptroller and Auditor General. That will give the Oireachtas a specific mechanism to hold RTÉ to account regarding the types of expenditure the Deputy has just described. It is for RTÉ to account for that. The Government does not run RTÉ. We allocate funding, principally for balanced public service broadcasting, because it is the national State broadcaster, but the Government does not in any shape or form defend any excessive or unnecessary expenditure of the type the Deputy outlined.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_144">
+          <from>Deputy Ivana Bacik<recordedTime time="2026-05-27T12:40:00+01:00"/></from>
+          <p eId="para_456">On "Prime Time" last night, Sharon Clarken spoke with extraordinary dignity about the life-long impact of thalidomide on survivors and their families. More than 64 years since the drug thalidomide was withdrawn, survivors are still waiting for justice from the State. Many are now in their 60s and 70s and are living with complex medical needs. Parents, in particular mothers who took thalidomide, have died waiting for closure. I think of survivors like the late Jacqui Browne, who died just last year. Still, there has been no formal State apology.</p>
+          <p eId="para_457"> The Taoiseach is aware of the issues and has expressed strong words of sympathy for survivors, but that is not enough. There is no legal barrier preventing a formal State apology, a proper compensation and support scheme reflecting care needs of survivors and a clear timeline in order that no one else dies waiting for justice. After last night's "Prime Time" programme, how much longer must thalidomide survivors wait for justice?</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_145">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_458">The Tánaiste and I have met the Irish Thalidomide Association four times over the past eight months. All of the meetings were cordial and positive. We are anxious to get things moving. We have provided comprehensively and substantively in respect of issues relating to health needs for the entirety of the lives of people impacted by thalidomide and in terms of independent living and any supports that are required in that respect. There have been ongoing issues in terms of how we deal with the Contergan situation. There are other aspects that have been positively progressed. We are anxious, on the Government side, to progress this as speedily as possible. I can assure the Deputy of that.</p>
+        </speech>
+        <speech by="#JenniferWhitmore" eId="spk_146">
+          <from>Deputy Jennifer Whitmore<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_459">Yet another damning report from the Environmental Protection Agency, EPA, today that shows the Government is utterly failing to reduce emissions by the amount it committed to. For something that Taoiseach claims is an existential crisis, it is incredible how poorly his Government is at dealing with it. The EPA report makes clear that, at absolute best, the Government is on track to make 50% of the emissions reductions to which it has committed. That could cost us hugely. It is estimated that it could cost us up to €28 billion in European fines. I know the Taoiseach firmly does not believe that Europe is going to fine us that amount of money. In the absence of any information from Europe or any evidence to support his claim, however, that is a really high-risk strategy he is taking. In actual fact, he is playing chicken with the EU and that could cost us dearly environmentally, socially and other in other ways.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_147">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_460">The Taoiseach to respond.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_148">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_461">I outlined earlier in my comments to Deputy Bacik that the Government and Irish society have made significant progress. The target of 51% is very challenging, but we have made a hell of a lot of progress in onshore wind, which has been quite dramatic. In April, the third month in a row, onshore wind represented 50% of electricity generation here. Solar is really moving at pace now and, from all we can see, will continue to do so. It went from zero to replace coal as the third highest source of indigenous generation in less than a decade. I could go on. I mentioned the 1 million extra homes. It is important that we are all honest. Every day in the House - I am not referring to Deputy Whitmore because she is committed and consistent-----</p>
+        </speech>
+        <speech by="#JenniferWhitmore" eId="spk_149">
+          <from>Deputy Jennifer Whitmore<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_462">It is the EPA saying this, not me.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_150">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_463">Let us understand and acknowledge the challenges. Wind farms are objected to and are a source of huge issues across the length and breadth of the country. Solar farms are now becoming a significant issue that people are not happy with.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_151">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_464">Thank you Taoiseach. Time is up.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_152">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_465">People are against gas generation stations as well-----</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_153">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_466">I ask all Members to respect each other's time. Time is up Taoiseach.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_154">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_467">-----and the bottom line is we cannot switch on lights if we do not have more and more renewables. The consensus is not out there in relation to that in society more generally.</p>
+        </speech>
+        <speech by="#RuthCoppinger" eId="spk_155">
+          <from>Deputy Ruth Coppinger<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_468">Should hundreds of people lose their peace and quiet in order for a cup of coffee to be flown over them and delivered to a particular person? This week has seen major setbacks for commercial fast-food drone delivery in Dublin West and Cork. In Dublin West, Fingal County Council refused retention of operation for Manna at its base in Coolmine. Many submissions were made by residents. This was the second base from which Manna had no permission to operate. In the Taoiseach's city, where a hub was established without permission, the council has sent an enforcement letter to the same company. A unanimous motion has been passed by Councillor Brian McCarthy of Solidarity Party-People Before Profit in Cork, calling for a review of the impact of drones on the environment. The Irish Aviation Authority has dropped some of the restrictions it had on drones. Is it not time to outlaw the delivery of fast food by commercial drones in residential areas? The nuisance that they cause and the impact they have is way beyond the necessity for them.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_156">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_469">There is a challenge and a problem here in terms of the regulatory frameworks governing what is a new phenomenon of drones providing services like delivering coffee or whatever else to people in residential areas. I do not understand why people cannot just go to a café, socialise and so on or why people think a drone is necessary to deliver a cup of coffee or whatever. It is something I do not comprehend, and I do not think needs to happen.</p>
+          <p eId="para_470"> There is a big issue here. Residents are concerned about residential amenity in terms of noise and about potential privacy concerns. On the other hand, drone technology has probably been one of the fastest growing technologies, which we cannot ignore either. Companies are developing the technology for all sorts of applications. We want to see that develop, but we do need to protect our neighbourhoods. The planning authorities-----</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_157">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_471">Thank you, Taoiseach. Time is up and we have to stick to it.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_158">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_472">-----and the Irish Aviation Authority need to come together on this. I have asked Ministers to work on it.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_159">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_473">We need to respect the time.</p>
+        </speech>
+        <speech by="#KenOFlynn" eId="spk_160">
+          <from>Deputy Ken O'Flynn<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_474">Under the previous Minister for Health, third-party insourcing was introduced and used by the HSE to reduce waiting lists and carry out additional procedures in public hospitals outside normal hours. Now, providers are being told the system will come to an end in June, despite no alternative plans being published. At the same time, the numbers on waiting lists have surged to 155,000 since December 2024. More than 126,000 people are now waiting for treatments and diagnosis. What is difficult for patients in my constituency to understand is that over the past 27 months, insourcing delivered more than 500,000 episodes of care for around €90 million while outsourcing has cost €500 million for 157,000 episodes of care. As a former Minister of Health, does the Taoiseach accept that the Government is moving away from the more cost-effective tools available to it in the context of reducing waiting lists? Will he intervene with the Minister?</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_161">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_475">There are fundamental issues with the insourcing model as it evolved. We are talking about people working in tertiary public hospitals who are being paid already. There are issues of which we have to be very conscious in terms of making sure that we are not paying twice for the same procedures or services. There have to be clear lines of demarcation. We are always open to engaging with perspectives people may have on this, but certainly there was a significant hue and cry about this when the scale of it was revealed. It has caused concerns. Then the HSE investigated some aspects of it and some of what it came up with was not ideal at all or optimal in terms of how we should deploy public resources.</p>
+        </speech>
+        <speech by="#MalcolmByrne" eId="spk_162">
+          <from>Deputy Malcolm Byrne<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_476">I am sure the Taoiseach will join with me in wishing the tens of thousands who are going to sitting State exams next week well. As we come towards the end of the school year, we must express our gratitude to school communities for all the work they do. School caretakers and secretaries are an essential part of those school communities. In September of last year, that they were forced to take to the picket lines. None of them wanted to be there. I would be grateful if the Taoiseach could provide an update regarding progress on resolving the dispute with school caretakers and secretaries and to convey our thanks to them for the work they do within our schools.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_163">
+          <from> The Taoiseach<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_477">I was almost wishing the leaving certificate upon us given the very tough, wet winter we had. I said that surely when the leaving certificate comes around we would get good weather. Lo and behold, we have scorching weather, which is unfortunate for the students involved. It seems to be the case every year that there is a burst of sunshine at this time. I hope it will create a good backdrop to what is a very significant exam for the students. We wish them well. The good news is that there are many routes to help them get to their desired qualifications and careers.</p>
+          <p eId="para_478"> On the school caretakers and secretaries, that matter is being dealt with by the labour relations machinery at the moment. I have been discussing it with the Minister, Deputy Chambers. I pay tribute to school secretaries and caretakers. They are an indispensable cog in the wheel of how schools operate. I accept what the Deputy is saying. The objective is to have this resolved before the commencement of the next school year. Hopefully, it will be resolved long before then.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_164">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-27T12:50:00+01:00"/></from>
+          <p eId="para_479">The issue I want raise is the need for sporting infrastructure. Last week, I met with GAA members who were working on the No One Shouted Stop Until Now report, which focuses on Ireland's demographic shift in the past few decades and the response to it. Key findings in the report included that just 50 clubs out of the 2,200 clubs in the island of Ireland account for 25% of all zero to five-year-olds. That is startling. Just six counties are home to more than half of all zero to five-year-olds on the island of Ireland; my county of Kildare is one. The majority of GAA clubs remain rural, with 78% in areas where populations are shrinking. Like me, the Taoiseach is a keen follower of the GAA, but this also impacts hugely on other sports such as rugby and football, which face similar statistical and demographic shifts.</p>
+          <p eId="para_480">My ask today is that we work through planning and infrastructure to secure zoning, development levies and funding for multisport facilities such as Kerdiffstown in north Kildare, in order to address demographic shifts and allow for more sporting facilities.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_165">
+          <from> The Taoiseach<recordedTime time="2026-05-27T13:00:00+01:00"/></from>
+          <p eId="para_481">I would be a very enthusiastic supporter of what the Deputy has articulated in respect of more facilities. Local authorities have a key role in the zoning of land and the designation of lands. We were fortunate in Cork city over the years that successive city councils and city CEOs saw the value of land for playing pitches.</p>
+          <p eId="para_482"> I have always contrasted that with the Dublin experience, which I find, frankly, poor in terms of the length of lease it gives clubs and the capacity of clubs to develop their facilities, and State agencies likewise. I will not go too far but the bottom line is we were fortunate in the sense that, outside of Dublin, many clubs had 100-year leases or own the land. I would be in favour of making sure that more councils look after clubs of all codes and community facilities.</p>
+        </speech>
+        <speech by="#MauriceQuinlivan" eId="spk_166">
+          <from>Deputy Maurice Quinlivan<recordedTime time="2026-05-27T13:00:00+01:00"/></from>
+          <p eId="para_483">I have raised a number of times over the years the capacity issues faced by University Hospital Limerick. The huge number of people on trolleys remains unacceptably high. One of the impacts of that is the number of outpatients waiting excessive amounts of time for appointments: 3,244 people have been on outpatient waiting lists for more than 12 months, with 981 of those waiting over 18 months for an appointment.</p>
+          <p eId="para_484"> Something that could be done to reduce these numbers is the opening of the new surgical hub at the site of the old Scoil Carmel. That was scheduled to open this month but has now been delayed until the end of the year. Not only is it being delayed, but it will now receive only 50% of the funding it requires to operate properly, making it difficult to complete the 20,000 annual procedures that had been planned for. I welcome the new surgical hub regardless of whether it is delayed, but why is the funding being cut when the Government is fully aware of the crisis in emergency care at University Hospital Limerick?</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_167">
+          <from> The Taoiseach<recordedTime time="2026-05-27T13:00:00+01:00"/></from>
+          <p eId="para_485">Overall, funding is increasing in health and continues to increase dramatically and exponentially, certainly for the past five years.</p>
+        </speech>
+        <speech by="#MauriceQuinlivan" eId="spk_168">
+          <from>Deputy Maurice Quinlivan<recordedTime time="2026-05-27T13:00:00+01:00"/></from>
+          <p eId="para_486">The Government has cut it.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_169">
+          <from> The Taoiseach<recordedTime time="2026-05-27T13:00:00+01:00"/></from>
+          <p eId="para_487">The Limerick surgical hub is expected to be operational in quarter 4 of this year. Medical assessment units are extending services. Opening hours have been extended from 8 a.m. until midnight in Ennis and Nenagh hospitals. Overall, significant progress is being made in the HSE Mid West region on both waiting lists and waiting times. Compared to December 2021, the April 2026 total waiting list in HSE Mid West has reduced by 12%. The average length of time that patients on lists have been waiting has also reduced from 15 months to 6.3 months in the same period. There are challenges but increased capacity will help. As we discussed earlier, the contract has been signed for the next 90-bed block.</p>
+        </speech>
+        <speech by="#MauriceQuinlivan" eId="spk_170">
+          <from>Deputy Maurice Quinlivan<recordedTime time="2026-05-27T13:00:00+01:00"/></from>
+          <p eId="para_488">Yes, but the Government is opening a new hub that-----</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_171">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T13:00:00+01:00"/></from>
+          <p eId="para_489">I call Deputy Cathal Crowe.</p>
+        </speech>
+        <speech by="#CathalCrowe" eId="spk_172">
+          <from>Deputy Cathal Crowe<recordedTime time="2026-05-27T13:00:00+01:00"/></from>
+          <p eId="para_490">There was a recent landmark An Coimisiún Pleanála ruling relating to the Ballycar wind farm in County Clare. The argument centred on whether building the wind farm proximate to a radar installation would make the radar unsafe. It was argued that the flicker - the turning of the turbine blades - would distort the radar and make aviation unsafe. Key to that case were the Irish Aviation Authority, AirNav Ireland and Shannon Airport. They all weighed in objecting to this and it was ultimately proven that it would be unsafe. That was the decision of An Coimisiún Pleanála. There is now a health and safety onus and a moral obligation to ensure that land proximate to wind turbines is dezoned from wind energy to safeguard key national radar infrastructure.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_173">
+          <from> The Taoiseach<recordedTime time="2026-05-27T13:00:00+01:00"/></from>
+          <p eId="para_491">I am not aware of the specifics of that case. It seems a fairly unusual one in terms of the interaction of a potential wind farm with radar. Normally, the aviation authority has a role in housing, for example, close to an airport, which I would be familiar with. It is difficult to understand how things got to the stage they got to. An Coimisiún Pleanála has made its decision but I am not sure it would have as wide an impact across the country as it has had in the specific circumstance the Deputy raised.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_174">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T13:00:00+01:00"/></from>
+          <p eId="para_492">This morning, the EPA stated that Ireland was going to dramatically fail to meet its 2030 legally binding climate targets. This failure by the Government will have major financial consequences for Ireland, with fines running into billions of euro to be imposed by the European Union. Listening to the Minister, Deputy O'Brien, on the radio and listening to the Taoiseach in response to Deputy Bacik, you would swear this morning's announcement was actually good news - the Government patting itself on the back because it is only going to fail the first carbon budget by a small amount; delighted with itself that the link between emissions and growth is broken, even though plenty of European countries did that ages ago; listing past growth in renewable energy, even though that was led by Green Party policies; and entirely ignoring the fact that its climate action plan is five months behind schedule. I have a serious question: does this morning's announcement that we are so far off target cause the Taoiseach any concern whatsoever?</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_175">
+          <from> The Taoiseach<recordedTime time="2026-05-27T13:00:00+01:00"/></from>
+          <p eId="para_493">The Deputy should not be condemning himself so much. It is only 16 months that this Government has been in place. The idea that we are not getting to 50% because of the past 16 months is nonsense. The Deputy must know that. Policies take a lot of time to bed in and deliver. The last Government did a lot, including Fianna Fáil, Fine Gael and the Greens. The Green Party does not have a monopoly on climate. What is the Deputy saying? Is it that what happened when he was in government was not sufficient? He cannot blame the last 16 months for where we are. We have made progress. The targets are significantly challenging. The Deputy knows that - he always knew it. His former leader always knew it as well, so let us have a bit of realism here. The Deputy cannot just say that because his party lost the election, suddenly everything has gone south in terms of environmental and climate policy. It has not. One of the challenges is you need to work with people, not browbeat them, lecture them and hector them into climate change. That is one of the challenges. It is a concerning issue but we have made progress. Our population has grown dramatically. The Deputy should acknowledge that, too.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_176">
+          <from>Deputy Brendan Smith<recordedTime time="2026-05-27T13:00:00+01:00"/></from>
+          <p eId="para_494">The assessment of need system has not been working. That system has not served children with additional needs or their families. I sincerely hope that the new autism assessment system works. Much faster access to assessment is essential, and follow-up therapies if needed. Time and again I have highlighted in this Chamber, through parliamentary questions and written representations, the unacceptable delays in children with additional needs in Cavan and Monaghan accessing therapies. Parents waiting for therapies for their children are justifiably angry and frustrated at the lack of timely supports and interventions. Enable Ireland provides the children's disability network team in County Cavan. Historically, there have been staff shortages there, impacting severely on children who need supports. Parents on limited incomes are paying for private provision, another source of pressure on them. Staff shortages in therapists across Cavan and Monaghan need to be prioritised by the HSE for urgent attention. Those families cannot continue to wait and wait.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_177">
+          <from> The Taoiseach<recordedTime time="2026-05-27T13:00:00+01:00"/></from>
+          <p eId="para_495">I thank the Deputy for raising this important issue. I know he has been advocating strongly on behalf of children and families in Cavan-Monaghan. Those counties have been facing some of the longest waits in the country for children's therapies. The root cause of that has been a chronic staffing deficit. At the Deputy's instigation, the Minister, Deputy Foley, visited the region recently and acknowledged directly that the system was not serving children and families as it should. However, there is a national recruitment campaign. Since 2020, about 40 therapists have been recruited in Cavan and Monaghan, bringing the total to 117. The national children's disability network team, CDNT, recruitment campaign attracted over 500 applications. Appointments are actively being progressed and staffing has increased by 28% nationally. That is about 448 additional whole-time equivalents. Waiting lists are coming down. The Minister is also changing the <i>modus operandi </i>in terms of how things will be done.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_178">
+          <from>Deputy Pádraig Rice<recordedTime time="2026-05-27T13:00:00+01:00"/></from>
+          <p eId="para_496">It is three months since the Social Democrats' GP plan was unanimously passed by the Dáil, yet we are still waiting on the Government to progress any real reform of GP services. The strategic review of general practice was to conclude within nine months but it has now taken over three years. The minimal changes introduced in recent years fall far short. Take for example the social deprivation practice grant, which was reformed earlier this year. Under the new grant, none of the Dublin inner city practices in the Deep End Ireland group, which represents GPs working in the most disadvantaged communities, received the social deprivation grant. That includes Summerhill Family Practice. How can ending their grant funding be justified? Clearly, the new system is not working, yet the Minister for Health does not plan on doing anything about it until the end of the year, when there will be a look-back exercise. Why is the Minister waiting to look back when she knows there is a problem right now? Will the Taoiseach urgently ensure that all practices in socially deprived areas receive the grant that was designed to support them? Will he tell us exactly when the never-ending strategic review of general practice will be finished?</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_179">
+          <from> The Taoiseach<recordedTime time="2026-05-27T13:00:00+01:00"/></from>
+          <p eId="para_497">First of all, there has been very significant investment in GP services, significant increases in recruitment and additional placements and positions in our third level colleges.</p>
+          <p eId="para_498">Parallel with that, there has also been the expansion of pharmacy in its role in primary care, which should not be dismissed either. I would argue that a lot of investment under the various negotiations have occurred in respect of primary care and particularly in terms of GP care.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_180">
+          <from>Deputy Pádraig Rice<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_499">The social deprivation issue, Taoiseach.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_181">
+          <from> The Taoiseach<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_500">I am going to come back to the Deputy on that. I will talk to the Minister in respect of that specific issue but the idea that there has not been investment or significant resources allocated to GPs needs to be questioned.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_182">
+          <from>Deputy Pádraig Rice<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_501">The strategic review of GP-----</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_183">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_502">Please, Deputy.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_184">
+          <from> The Taoiseach<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_503">It is happening.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_185">
+          <from>Deputy Pádraig Rice<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_504">It has been happening for years.</p>
+        </speech>
+        <speech by="#EdwardTimmins" eId="spk_186">
+          <from>Deputy Edward Timmins<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_505">I want to raise the issue of the residential zoned land tax and how it applies to county councils. Councils were originally led to believe that they would not have to pay this tax. In Wicklow in the past year, the council paid €1 million in residential zoned land tax, which impacts on reducing services in County Wicklow. This does not work correctly because it penalises forward-looking councils like Wicklow that purchased land and had lands zoned. They are now being penalised for doing that. I ask that this be reviewed. Councils were originally told that it would not apply to them. I ask that the residential zoned land tax be abolished for county councils because it is encouraging them not to purchase land and not to hit their housing targets. It contradicts everything we are trying to do to improve housing.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_187">
+          <from> The Taoiseach<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_506">I will ask the Tánaiste and Minister for Finance to have a look at that issue and to give some background information to the Deputy in respect of it.</p>
+        </speech>
+        <speech by="#SineadGibney" eId="spk_188">
+          <from>Deputy Sinéad Gibney<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_507">Family resource centres are a lifeline for many families and individuals and right now they are helping people to bear the brunt of the multiple crises we are facing such as fuel, housing, cost of living, childcare and mental health. They are at the coalface. They provide vital supports, and they also contribute to the public good through social cohesion. They ensure that childhood continues, needs are met and communities remain connected, resilient and thriving.</p>
+          <p eId="para_508"> Dundrum, Hillview and Balally family resource centres, FRCs, do the most incredible work in my constituency of Dublin Rathdown, but it is so disheartening to hear of the pressure they are put under in delivering what they do. We have to increase core funding because, at the moment, core funding for FRCs is at €180,000 per annum and that is intended to support three staff and overheads. It is not enough and will not prove sustainable for many centres. Some 70% of FRCs have reported that running costs have increased by at least 10% over the past two years. Will the Taoiseach commit to an appropriate increase in FRC core funding so that the wonderful FRCs around our country, like Hillview, Balally and Rosemount, can continue to deliver?</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_189">
+          <from> The Taoiseach<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_509">I have been a lifetime advocate for family resource centres and, in government, Fianna Fáil has always been very supportive of them. That is why we approved in the last budget ten new family resource centres. The Minister also levelled up certain family resource centres because there were different levels of core funding to different centres. I will talk to the Minister to see what we can do in the forthcoming Estimate in the context of the core grant to such resource centres because I do believe that they provide a very strong, multidisciplinary and holistic facility and service to communities and families.</p>
+        </speech>
+        <speech by="#MichealCarrigy" eId="spk_190">
+          <from>Deputy Micheál Carrigy<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_510">I want to raise the issue of the lack of services for rail commuters from Longford travelling to Dublin. In the evening time in particular, there are only three trains - 4.50 p.m., 5.50 p.m. and 6.57 p.m. - that service Longford and beyond. There is no rail service from Longford to Sligo after 7 p.m. We have a growing number of commuters travelling to Dublin. We want to take cars off the road, but that means we need to put services place. However, when I contact Irish Rail, it acknowledges that it is purchasing 285 new carriages for the greater Dublin area. We need to look at investment across the entire network. If we are going to look for more people to use public transport, we need to put those services in place. On that route in particular, there is no service beyond Mullingar for the rest of the north west of Ireland after 7 p.m.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_191">
+          <from> The Taoiseach<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_511">I will engage with Iarnród Éireann on this. A lot of expansion is happening and there are a lot of costs attached to it, investment required and so on like that. On the specifics of what the Deputy has raised, I will communicate to Iarnród Éireann his concerns in terms of the lack of frequency of such services.</p>
+        </speech>
+        <speech by="#NatashaNewsomeDrennan" eId="spk_192">
+          <from>Deputy Natasha Newsome Drennan<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_512">I know that the Taoiseach is familiar with those who suffer from Friedreich's ataxia, as it has been raised with him in recent weeks. It is now nearly 700 days and the HSE has still not made a decision on the reimbursement for the drug Skyclarys. Other EU citizens are receiving this transformational drug thanks to support from their governments. Why are the HSE and Irish Government not supporting Irish citizens who urgently need it?</p>
+          <p eId="para_513"> At the start of the year, a group of young adults came to the Dáil to tell Members about their ordeal and what they were going through. Emily Felix was one of those people. At the time, she only needed one person to help her. Now, she needs two. I spoke to Emily's mother last night. She and her family feel helpless. The Minister will not meet with them and they are receiving only generic replies. I ask the Taoiseach to intervene and request that the Minister meet with these families and those who are suffering. I cannot stress enough how time sensitive this is.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_193">
+          <from> The Taoiseach<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_514">I fully accept the urgency and seriousness of this for those who require Skyclarys. The engagement between the HSE and the company has perhaps at times been problematic. When I saw "problematic", delays have taken place, but meetings did happen. I will talk to the Minister again to see if we can get an outcome to this as quickly as we possibly can for all concerned.</p>
+        </speech>
+        <speech by="#NatashaNewsomeDrennan" eId="spk_194">
+          <from>Deputy Natasha Newsome Drennan<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_515">They cannot wait any longer. They need it. It is criminal.</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_195">
+          <from>Deputy David Cullinane<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_516">I want to raise with the Taoiseach the urgent need for approval for Newtown School in Waterford to proceed with tender and construction for a new school building. The school has served Waterford for over two centuries. It entered the free education scheme in 2014 when it agreed to expand to accommodate 600 students funded by the Department. The old building, Wyse house, on the site is in urgent need of emergency works and a new development is needed to accommodate the growing student numbers.</p>
+          <p eId="para_517"> To be fair, the school contacted all TDs asking us to raise this issue. It asks that the Government prioritises the development project, which includes moving this to tender and construction, but it also asks for emergency funding to deal with the state of the building at the moment where it needs to be improved. I know it is something that the Taoiseach can raise with the Minister for education.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_196">
+          <from> The Taoiseach<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_518">I think I was at the site some time back, albeit not when the school was operational. It was a private school for many years and came over to the public system in 2012. It is an historic listed building. It is my understanding that modular provision has been made. I am getting a lot of prompts from behind me from the Minister of State, Deputy Butler, who is very familiar with the issue as well. It is an historic building and in fairness to the community there, it provides a significant contribution to education. The modular buildings will hopefully deal with the interim requirements, but I take the Deputy's overall point in terms of a new school building.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_197">
+          <from>Deputy Michael Murphy<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_519">Does the Taoiseach agree that the racing of the horse-drawn vehicles called sulkies on public roads is completely unacceptable? It is incredible to think that, under existing road traffic legislation, in particular section 74 of the Roads Act 1993, it is allowed for under certain circumstances. I am engaging with the Department of Transport in my role as Chair of the Oireachtas Committee on Transport on the heads of the road traffic Bill, which are due to be presented to the Government before the summer recess. There is an opportunity to address that and to amend section 74 of the 1993 Act. I have also written to the Ministers for justice, agriculture and Transport for the establishment of a working group that would also look at issues around minimum age, licensing and the regulatory framework. There is no minimum age for driving a horse-drawn vehicle, so I would appreciate the Taoiseach's support in terms of amending section 74 of the Act and the establishment of the working group.</p>
+        </speech>
+        <speech by="#MichaelMartin" eId="spk_198">
+          <from> The Taoiseach<recordedTime time="2026-05-27T13:10:00+01:00"/></from>
+          <p eId="para_520">Broadly speaking, I favour what the Deputy says in terms of a proper regulatory framework. In many instances, established practices and existing laws have not been comprehensive enough to deal with all of the issues relating to road safety, including the general safety of people, and there are also the issues of equine welfare and animal welfare concerns. The welfare of equines is protected by legislation. There is a commitment in the programme for Government to build on existing inspectorate supports across the country, ensuring a consistent approach to dealing with horse welfare. I understand that correspondence has been exchanged this week between the Ministers for agriculture, Transport and justice with a view to arranging an initial scoping meeting at official level. That is the first positive step in this, and we will bring the three Ministers and their Departments together to get moving on this.</p>
+        </speech>
+        <summary eId="sum_5">
+          <i> Cuireadh an Dáil ar fionraí ar 1.20 p.m. agus cuireadh tús leis arís ar 2.21 p.m.</i>
+        </summary>
+        <summary eId="sum_6">
+          <i> Sitting suspended at 1.20 p.m. and resumed at 2.21 p.m.</i>
+        </summary>
+      </debateSection>
+      <debateSection name="statement" eId="dbsect_14">
+        <heading>Ensuring our Skills, Training and Innovation Systems Keep Pace in a Changing World: Statements<recordedTime time="2026-05-27T14:20:00+01:00"/></heading>
+        <speech by="#JamesLawless" as="#Minister_for_Further_and_Higher_Education,_Research,_Innovation_and_Science" eId="spk_199">
+          <from>Minister for Further and Higher Education, Research, Innovation and Science (Deputy James Lawless)<recordedTime time="2026-05-27T14:20:00+01:00"/></from>
+          <p eId="para_521">I will start the debate by reflecting back on 100 years ago. The 1926 census digitisation recently emerged and it showed a very different Ireland. It is worth reflecting on the journey that we have travelled in that 100 years.</p>
+          <p eId="para_522"> Before I get into that, though, I hope the House will indulge me a brief personal note. Had I not been performing parliamentary duties today, I would have been attending my grand-aunt, auntie Alice's 100th birthday this afternoon where she is celebrating her party in a nursing home in Mallow with friends and family. She featured in that 1926 census as a very young infant. It is worth reflecting of that. I wish her a happy birthday and to family members who are joining her for that celebration today. She is a proud daughter of Dunmore East and now a resident in Mallow.</p>
+          <p eId="para_523"> That century of life and the journey that we have all taken in that time in my own family and Ireland as a nation - the journey of our societal progress and economic growth - very much mirrors the topic of today's conversation, which is about skills, training, talent and research.</p>
+          <p eId="para_524"> If we look back at the census, it tells us that, in 2026, when my grand-aunt Alice was born, it was a country of 3 million people. It was overwhelmingly rural. At the time, more than half the workforce was employed in agriculture or manual labour. Only a very small proportion - less than 3% or 4% - worked in what would be considered today as professional or technical occupations. Higher education was out of the reach of most families and emigration shaped the horizon of too many young people. Yet within the span of that single lifetime, Ireland has transformed itself. Through education, economic modernisation and openness to new ideas, we moved from the margins of Europe to being one of not only Europe's but the world's leading knowledge economies.</p>
+          <p eId="para_525"> Today, we face another major transition. The forces shaping this century are different in form but similar in magnitude to those of the previous century. Once again, our success will depend on how effectively we prepare our people for our skills systems and prepare our economy for change that will continue to come at us. Change is the only constant in life. We cannot shy away or shield from it, but what we can do is embrace change, prepare for it and roll with it in being agile, versatile and responsive across our skill and training systems. I very much welcome today's discussion as an opportunity to set out some of the objectives and achievements of my Department to date, some of the challenges that Ireland faces at this time of change and how we can respond. I look forward to listening to colleagues around the House on their contributions on the same theme.</p>
+          <p eId="para_526"> I will start by raising what we often refer as the four Ds that summarise the challenges facing Ireland and much of world today. The four Ds are demographics, digitalisation, decarbonisation and deglobalisation. Ireland has benefited enormously from foreign direct investment, FDI, and globalisation for decades, going back to Lemass and Whitaker's embrace of FDI and opening up of Ireland as a global trading economy, which had huge dividends and continues to do so on a large scale. However, resilience and indigenous growth require deeper capability domestically, including companies that are capable of scaling, innovating and competing internationally. Skills, research and innovation policy are central to building that capacity. Although our employment levels remain high and our unemployment levels remain low, we can never be complacent about the increasing challenges that are undoubtedly coming at us.</p>
+          <p eId="para_527"> As everyone in the Chamber is aware, Ireland has entered a period of profound transition, driven by four independent but interdependent global disrupters, namely, the four Ds. Population growth, combined with ageing, will fundamentally reshape Ireland's labour supply and workforce composition going forward with several implications for skills needs over the coming decades. I was at an event this morning, which was a skills roundtable that my Department held with the construction sector. One of the presentations referred to how today we had four working aged people for every one person in retirement. By 2050, we will have two working aged people for every person in retirement. That is a celebration of our health service and longer lifespan, but it also shows the scale of the challenge in supporting people living longer and healthier lives, the healthcare needs that go with that and the demographics of a changing population.</p>
+          <p eId="para_528"> In tandem, the economy is having to constantly evolve to accommodate the rapid pace of the second D, digitalisation. That includes AI, quantum, the Internet, social media, smartphones and all the technologies that pervade our lives and we have come to take for granted but that continue to change at scale. They are also pivotal to the Irish economy and technology sector in Ireland, employing roughly 150,000 to 200,000 people directly. We are home to many of the major global giants that drive on those technologies. The reality is that the impact of AI is becoming more visible with each passing day, even if we still do not understand its full implications. Only last week, we saw job losses being announced by Meta and Covalen, reminding us just how quickly the landscape can shift and bringing darker clouds onto the horizon. While these changes are driven by many factors, there is a growing recognition that technological change, including AI, will play an increasingly important role in shaping the future of work over the decade ahead.</p>
+          <p eId="para_529"> Artificial intelligence will undoubtedly and unfortunately displace some tasks and reshape parts of the labour market. Equally, though, it will create new industries, professions and opportunities. The question for Ireland is whether we can position ourselves as passive consumers of these technologies and watch them come at us or we want to be active participants in shaping and building the future and embracing and leading the adoption of technology. Responding to AI cannot simply mean reacting to disruption after the fact. Ireland must aim to become one of the most AI-capable workforces in Europe. To support this, I recently launched a platform called <i>aiready.ie,</i> which is a new national initiative with the mission to upskill 1 million people to develop practical AI skills and learning over the years ahead. The objective of the initial phase, which is now live, is to ensure that everybody, including workers, consumers and pensioners, can confidently use and benefit from AI technologies in their daily working lives. I encourage all Deputies to log on and complete the training.</p>
+          <p eId="para_530"> All of this is happening at a time of extraordinary geopolitical uncertainty sparked by a series of wars, supply chain disruptions and protectionist policies. Many of these factors are further shaped by ongoing efforts within the European Union to move to climate neutrality, which is a necessary transition that is bringing significant change to economies and labour markets. Our decarbonisation agenda demands our energy supply, energy grid and our entire renewable energy sources to be fully explored and utilised, which itself brings its own demands in terms of skill sets, renewable energy skills, planning, construction and the entire infrastructure agenda that the Government has set out. Everything from our metros, DART+, energy grids and housing supply that we want to radically ramp up is all dependent on a skilled workforce with the relevant training and skills available to build it all out.</p>
+          <p eId="para_531"> When we look at these four Ds together, they will result in considerable structural change across the economy. Each of these megatrends has the potential to impact on the key components of economic growth, such as productivity, labour and capital. Ireland has navigated periods of profound economic transition before. A century ago, the majority of our workforce was employed in agricultural and manual labour.</p>
+          <p eId="para_532">By the 1960s, free secondary education had transformed opportunity for an entire generation. Today, we face another transition, one driven by technology, demographics and global competition, and once again education and skills policy will determine how successfully Ireland adapts. They are accelerating the pace at which skills requirements evolve and place unprecedented pressure on education and training systems to respond with speed, scale and precision. They are accelerating the demand for digital, green, healthcare, engineering and adaptive workforce skills. They are making lifelong learning, reskilling and flexible education systems even more critical to ensuring that we can keep pace with the changing and evolving demands of our workforce needs. It is, therefore, an opportune time to pause and reflect on the current state of play of our skills and innovation systems to determine both where we stand and where we must go next. </p>
+          <p eId="para_533"> My Department was established less than six years ago to ensure that Ireland's economy and society were enabled to adapt to the challenges and uncertainty we now face. I see our role in that way as responding to both the immediate needs of today but also looking ahead to anticipate future needs. My Department increasingly operates at the intersection of education policy and enterprise policy and in many respects it might be termed a ministry for the future, ensuring that our people, our research system and our skills base remain Ireland's greatest competitive advantage.</p>
+          <p eId="para_534"> As Minister, I am guided by four clear priorities. First, to foster research and innovation as an economic enabler. Second, to provide high quality, highly accessible tertiary education. Third, to expand and develop pathways to skills, reskilling and apprenticeships to match Ireland's evolving workforce and societal needs. Fourth, to promote curiosity and the pursuit of knowledge and education as a public good in its own right. I am expanding pathways to skills, reskilling and apprenticeship capacity through targeted investments across that sector. Our further and higher education system has expanded rapidly in recent years through this increased funding, with more course places, apprenticeships and alternative entry routes beyond the traditional CAO pathway being made available. Higher education enrolments reached nearly 279,000 students in 2025. This was a 5% increase on 2024, with CAO applications rising by more than 7% in 2025. To cope with this demand and to accommodate more students taking their choices, we expanded places in high-demand areas, with more than 300 additional healthcare training places added in 2025 alone, summing to 1,100 new places created across the healthcare and related therapy professions in recent years. </p>
+          <p eId="para_535"> The future will require higher levels of targeted upskilling. Microcredentials are firmly establishing Ireland as a European pioneer in accredited flexible learning. There are now over 600 short, enterprise-aligned courses available to allow professionals to upskill and reskill in high-demand fields. We have also been busy building out the tertiary degree programmes initiative where students begin in further education and training colleges and later progress into higher education institutions. I have now almost quadrupled the number of programmes from 19 in 2024, when it commenced, to 78 now in 2026, with programmes expanding into areas like occupational therapy, nursing, social care and the creative arts. I have just come from a graduation ceremony at Dunboyne College of Further Education, which now has a feeder school into Maynooth University school of nursing. Dunboyne College has many other occupations and qualifications on its list. It, along with many other FET colleges around the country, is now providing local and regional access to high standards of education, which can lead on to a tertiary degree or to further qualifications in universities elsewhere. </p>
+          <p eId="para_536"> We have also significantly expanded the apprenticeship system to address shortages in construction, engineering, ICT, healthcare and trades. There are now over 80 different programmes of apprentices and the total number of apprentices exceeded 31,000 at the end of 2025, which is an increase of almost 60% since 2020. Construction and construction-related apprentices accounted for almost 23,000 of these, up 57% from the same period. Our target is to increase annual apprenticeship registrations to 12,500 per annum by 2030. My officials are currently developing an action plan to achieve this target and it will be published by the end of the year. This additional apprenticeship capacity is funded through the National Training Fund, a cornerstone of our education skills framework which also supports a range of other skills programmes, including Springboard+ through our higher education institutions and the skills to advance scheme through our education and training boards. The common denominator is that the programmes are aimed at increasing the skills of our population, particularly in areas of key importance to our economy such as engineering, IT and construction.</p>
+          <p eId="para_537"> In 2025 I allocated €489 million to workforce training, which represented an 85% increase over 2020 expenditure. In January, I signed the commencement order for the National Training Fund (Amendment) Act 2025, which enables the drawdown of €1.5 billion from the National Training Fund surplus over the six years to 2030. This comprises €885 million in current funding and a €650 million capital uplift. This funding will deliver increased investment in further education apprenticeships, research support, modern infrastructure to deliver world-class skills, as well as expanded healthcare and veterinary training facilities. As a Government, we want to be sure that the National Training Fund continues to future-proof Ireland's workforce and ensure that it is equipped with the skills needed to thrive in an increasingly unpredictable global landscape. I am engaging with the Tánaiste in his role as Minister for Finance regarding the treatment of the National Training Fund within expenditure ceilings and working collaboratively across the board to ensure the National Training Fund can be deployed strategically, responsibly and at scale to meet Ireland's long-term skills and competitiveness needs.</p>
+          <p eId="para_538"> The National Training Fund also supports the work of Skillnet Ireland, the workforce development agency. Investment in the agency has grown substantially year on year. Since my Department was established in 2020, investment in Skillnet Ireland's core funding has grown significantly, rising by 43% from approximately €36 million to €51 million in 2025. Through 17 enterprise-led networks, Skillnet delivers training that is demand-driven and tailored specifically to the needs of industry. This partnership approach underpins our approach to skills development. All of these developments highlight the multiple pathways for people to begin their journey in the workforce and to expand their knowledge, skills and experience over time. Everyone needs to evolve their skills given the pace of change and my Department's work is critical in enabling this lifelong learning, agile response to skill sets and taking bite-sized chunks of an educational journey through things like microcredits and flexible credentials. We also know that success must be predicated on strong collaboration with industry and education, and my Department plays a key role in ensuring that key stakeholders are working together to keep pace with the demands of the modern world. It does this by bringing together further and higher education, enterprise and Government to ensure skills provision is aligned with the needs of the economy. We take a whole-of-government approach, working closely with key Departments to ensure alignment. </p>
+          <p eId="para_539"> Skills policy now cuts across every major national mission. Housing delivery depends on construction skills. Climate transition depends on engineering capability. Digital transformation depends on advanced technical talent. Meeting our disability and healthcare needs requires a team of healthcare professionals. All of these demand co-ordination across the Departments of housing, education, enterprise and, of course, infrastructure through the Department of public expenditure and infrastructure. Of course, we must also ensure our policies are grounded in reality and responsive to the shifts and the needs of business to meet the increasing challenges and unpredictability of the workplace today. </p>
+          <p eId="para_540"> I have convened a set of national skills round-table discussions to bring together leading employers, industry bodies, trade unions, education partners and others to identify skills gaps and ensure that training pipelines match real-world employment needs. Just this morning I jointly hosted an event with the Minister, Deputy James Browne, in UCD with the main construction players, as I just mentioned and the different agencies and representative associations. The event focused on construction skills and infrastructure needs, with over 50 delegates attending and participating in the task of shaping our skills landscape together in order that we can meet our national ambition in construction and infrastructure growth. This series marks the beginning of a national programme of structured, sectoral-focused, high-level engagements ensuring that Ireland has the right skills for a rapidly changing economy. The series will examine how AI, digital transformation, new technologies and evolving work practices are reshaping the skills required across every sector and identifying and taking actions now to future-proof our workforce. Through the series, round-table members participate in targeted, deep-dive sessions. Insights gathered will drive national skills policy, investment priorities and support long-term workforce planning. </p>
+          <p eId="para_541"> Another way we are preparing for the future is through the reformed National Skills Council. This was fundamentally reformed and re-launched last year to provide strategic foresight and bridge the gap between education, enterprise and Government to meet modern workforce demands. The restructuring, following a recommendation of the OECD, focuses on transforming the Irish skills ecosystem to prioritise the employer's voice in workforce development and address structural changes, such as the digital transformation and the transition to a net-zero economy.</p>
+          <p eId="para_542">The council has published its inaugural strategic advice to Government, Skills Matter: Priorities to Shape Our Future Capabilities. Key recommendations of this advice include establishing a national skills observatory, effectively a database of real-time information on our skills needs, vacancies, gaps and the requirements of society and the economy to meet the ongoing needs through our skills and talent provision. It also proposed leveraging the National Training Fund more effectively so investments can be better aligned with the upskilling needs of enterprise and workers; and shifting the education and training system to support flexible, lifelong learning opportunities.</p>
+          <p eId="para_543"> The national skills observatory is currently in development, and this will transform our skills and intelligence landscape. It will help us to map out Ireland's future skills pipeline and provide the best education and training responses for identified needs with greater precision and foresight. It will strengthen our skills response, so that it is agile and able to pivot, enabling us to address emerging and pressing needs. I am looking forward to receiving the National Skills Council’s second set of advice which is anticipated next month.</p>
+          <p eId="para_544"> Ireland has strongly succeeded when we concentrated on excellence, in institutions like Tyndall, the original regional technical colleges now technological universities, and our apprenticeships. However, the existing system was built for a slower moving economy and perhaps a slower moving State. The economy now moves faster. I am resetting the systems we have in place to drive the development of skills, investing in programmes that ensure we have systems that are agile, responsive and closely aligned with industry needs.</p>
+          <p eId="para_545"> My Department is exploring the concept of national skills academies that will build on our tradition of excellence by creating recognised national centres with deep industry integration and strong regional impact. Put simply, these academies would be centres of excellence, focused high-quality hubs that bring together education providers and industry in key areas of strategic need. These centres can act as anchors within our skills system, driving innovation curricula, accelerating the adoption of new technologies and providing clear, high-quality pathways into critical occupations.</p>
+          <p eId="para_546"> Whether in areas such as digital technologies, advanced manufacturing, semiconductors, construction, retrofitting, the green economy and much more, centres of excellence can help ensure that our training provision is not only keeping pace with change but actively shaping and leading it. They can concentrate and bring together expertise, support regional development, and act as beacons that attract both learners and investment.</p>
+          <p eId="para_547"> This would ensure alignment with jobs, working closely with employers in the design of training so people gain skills that lead to real opportunities. It would ensure that businesses, particularly SMEs, are supported to access the talent and training they need to grow, innovate and adopt new technologies.</p>
+          <p eId="para_548"> Just as importantly and critically, national skills academies are about people. They would open up flexible, accessible learning opportunities, supporting lifelong learning, helping people adapt in their careers and creating new pathways into employment for anyone who might have been left behind. They would help us to build a more inclusive labour market, where everyone has the opportunity to contribute and succeed, ensuring that we have the skills, talent and systems to shape change and to lead it. Investing in skills means investing in our people. When we invest in our people, we invest in Ireland’s future.</p>
+          <p eId="para_549"> On the innovation front, the programme for Government sets out an ambitious set of commitments for research. I am very much focused on research and innovation as an economic enabler and a creator of societal resilience. I have increased investment in research with over half of the €4.55 billion that I secured under the national development plan dedicated to this crucial economic tool. This includes €750 million of new money for a landmark INSPIRE research infrastructure programme, focusing on research equipment across the higher education sector; and in parallel an increased budget for Research Ireland to support the implementation of its inaugural five-year strategy, Curiosity, Capability and Competitiveness. The three pillars of the Research Ireland strategy of talent, economy and society speak to the same goals I set out earlier.</p>
+          <p eId="para_550"> We are also expanding our role in European and global research systems, for example, through membership of CERN which I did in my first 100 days serving in this role; signing the European Quantum Pact; and securing to date over €1 billion in Horizon Europe funding.</p>
+          <p eId="para_551"> While INSPIRE is funding research equipment, it is a strategic investment in Ireland’s talent and innovation ambitions. Research infrastructure is not a niche academic concern; it is national infrastructure and a public good in the same way that transport, energy and digital networks are national infrastructure.</p>
+          <p eId="para_552"> Strengthening Ireland's research workforce is a cornerstone of national research and innovation policy. I am progressing multiple routes to nurture our existing research community such as through a range of Research Ireland's programmes and attracting international research through the Global Talent Ireland initiative that I launched last summer along with a new and expanded scholarship programme, called Global Gaels.</p>
+          <p eId="para_553"> I am also very keen to strengthen the links between PhD provision and industry so that PhD graduates enter the labour market with the best possible, employer-ready skill set. In this regard, I am examining the industrial PhD model used in other countries and also looking at other ways we can align the needs of industry with our emerging research talent.</p>
+          <p eId="para_554"> I welcome the opportunity to reflect on these issues in today’s debate because the scale and speed of change we are now experiencing demand constant attention and resources. The reality is that there is no single, simple response to the challenges posed by the 4 Ds I set out at the start. We are dealing with overlapping pressures on our labour market, our public finances, our infrastructure and our capacity to deliver. It is clear that in the years ahead, we will face difficult choices about how we prioritise resources and where we focus our efforts. Investment in education, research and innovation is always money well spent. We are already seeing the fruits. We are already beginning to see the needs for these areas. Whether it is expanding our construction workforce to meet housing and climate targets or to grow our healthcare workforce in response to demographic change, the competition for talent and skills will only intensify. It is important that we try to meet these demands and try to scale up as rapidly and sustainably as possible.</p>
+          <p eId="para_555"> The return on skills investment and research investment is not immediate but it plants a seed which will flourish over time. The results will not come overnight but they will come tomorrow and in the generation to come. That creates a responsibility to act early, to stay the course, and to resist the temptation to be short term or reactive in our thinking.</p>
+          <p eId="para_556"> There is a great deal under way already and a lot more to come. When my grand aunt Alice was born a century ago, the newly released census captured a country still finding its feet economically, educationally and societally. The decisions taken by successive generations transformed Ireland in the course of her lifetime. The responsibility on our generation is no different: to ensure that the Ireland taking shape over the next century is equally prepared, equally ambitions and equally capable of adapting to the world ahead. I look forward to the rest of the debate and listening to the views of colleagues on this important discussion.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_15">
+        <heading>Message from Select Committee<recordedTime time="2026-05-27T14:40:00+01:00"/></heading>
+        <speech by="#JohnMcGuinness" eId="spk_200">
+          <from> An Leas-Cheann Comhairle<recordedTime time="2026-05-27T14:40:00+01:00"/></from>
+          <p eId="para_557">The Select Committee on Arts, Media, Communications, Culture and Sport has completed its consideration of the Media Regulation Bill 2026 and has made no amendments thereto.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="statement" eId="dbsect_16">
+        <heading>Ensuring our Skills, Training and Innovation Systems Keep Pace in a Changing World: Statements (Resumed)<recordedTime time="2026-05-27T14:40:00+01:00"/></heading>
+        <speech by="#DonnaMcGettigan" eId="spk_201">
+          <from>Deputy Donna McGettigan<recordedTime time="2026-05-27T14:40:00+01:00"/></from>
+          <p eId="para_558">I wish the Minister’s grand aunt a happy 100th birthday. It is a great achievement to have.</p>
+          <p eId="para_559"> I welcome this debate on ensuring our skills, training and innovation systems are kept up to date in a rapidly advancing world. Technology continues to evolve at a pace that means if, as a country, we are not investing enough in skills, research and innovation, we will be left behind very quickly. The world of work is changing before our eyes. Artificial intelligence, automation, green technologies and digital transformation are already reshaping entire industries and Ireland cannot afford to stand still while other countries race ahead. That is why we need proper investment in these sectors to provide opportunities into the future. Harnessing these opportunities will help create well-paid sustainable jobs, further develop Ireland’s capacity to attract foreign direct investment and strengthen indigenous enterprise while contributing significantly to the economy across the island. However, investment cannot simply be talked about; it must be delivered.</p>
+          <p eId="para_560"> An OECD Ireland skills strategy report released in 2023 raised urgent concerns about the readiness of Irish adults to adapt to changes in the world of work. Despite a high proportion of adults holding third level qualifications, the report highlighted a serious lack of essential upskilling and lifelong learning participation placing many Irish workers at risk falling behind. The figures speak for themselves. Only 14% of the adult population engaged in education and training in 2021. In comparison, countries such as Sweden and Finland reported rates of 35% and 31%, respectively. That is a stark warning signal and emphasises the urgent need for increased investment in lifelong learning initiatives. Workers should not have to choose between paying bills an improving their qualifications. Education and training must be accessible throughout a person’s life and not just at the beginning of it. Sinn Féin believes in building a fairer economy where workers are supported to adapt and thrive in changing circumstances.</p>
+          <p eId="para_561"> Just this week the IMF warned that Ireland is more exposed to AI than many advanced economies because of our concentration of information and communication technologies, financial services and other knowledge-intensive industries. The IMF made clear that we need to better prepare our labour market for the impact of AI. That preparation starts with Government taking skills training and lifelong learning seriously.</p>
+          <p eId="para_562">We recognise the enormous benefits and potential AI can bring by improving public services, increasing productivity and driving innovation, but we do not naively look upon AI as an intrinsic force for good. There is also significant potential for harm, from job displacement and misinformation to abuses of privacy. For that reason, AI must be robustly regulated, with workers and communities protected as technology advances.</p>
+          <p eId="para_563"> Alongside investment in digital skills, we need to remove barriers to apprenticeships and trades. Apprenticeships are critical to delivering the homes, schools, hospitals and infrastructure that our country desperately needs.</p>
+          <p eId="para_564"> If we are serious about future-proofing our economy, we must also address the crisis in higher education and research. Third level institutions and their ability to carry out world-class research and development are at a crucial juncture. There has been massive under-investment in research and higher education over the past decade. Targeted all-island intervention is needed to ensure that research facilities are fully equipped to deliver the knowledge skills needed for both multinational employers and indigenous Irish firms. Failure to invest now will have negative consequences for future growth, innovation and job creation.</p>
+          <p eId="para_565"> Irish unity would create significant opportunities for greater co-operation between third level institutions across the island. Linking research facilities on an all-island basis would provide greater co-ordination, stronger collaboration and the potential to accelerate Irish scientific and technological advances for the benefit of everyone who lives on this island.</p>
+          <p eId="para_566"> We also need to listen carefully to what industry is telling us. IBEC’s Open for Business campaign has highlighted the urgent need to accelerate infrastructure projects across the State. Concerningly, IBEC’s skills survey revealed that 82% of Irish firms are reporting significant skills gaps in their workforce, and this damages our competitiveness. We cannot build a resilient economy while failing to invest in the workforce needed to sustain it.</p>
+          <p eId="para_567"> To prevent talent gaps and keep pace with rapid change, we need ambitious investment in renewable energy, offshore wind, grid connectivity and innovation capacity. The green transition presents enormous opportunities for skilled employment and regional development, if properly planned. Success in this evolving landscape requires us to forecast future shifts, build adaptable skill sets and actively shape the future instead of reacting to it after the fact. Navigating an increasingly unpredictable global market means our top priority must be future-proofing Ireland and continuously upskilling our talent base. That requires long-term thinking and sustained investment.</p>
+        </speech>
+        <speech by="#RoseConwayWalsh" eId="spk_202">
+          <from>Deputy Rose Conway-Walsh<recordedTime time="2026-05-27T14:50:00+01:00"/></from>
+          <p eId="para_568">I will set my script down and instead talk to the Minister about my biggest concern at the moment, namely, youth unemployment. It is at approximately 12% and could grow further. Graduates and their parents and families have invested in education to the point where they are coming out with four or maybe six years of education, but they do not have employment opportunities in their own country. Obviously, whatever strategies we have are not working when we take that as a measure of what is happening today. It is a huge concern. I want the Minister to specifically put actions in place to ensure those people can work in their own country.</p>
+          <p eId="para_569"> There are also too many barriers. I spoke with a physiotherapist the other day. In the first instance, we did not have enough college places for people like her and, as a result, they had to train in the Netherlands. As part of their registration, they had to come back to do a placement in an acute hospital. They found out, however, that because they were forced to get their education abroad, no placement was available for them in an acute hospital. They find themselves being forced to emigrate and work in another country when we are desperate for physiotherapists here. There are too many blockages and I want the Minister to examine and remove them.</p>
+          <p eId="para_570"> I also want the Minister to work, as my colleague said, on an all-island basis. We need a labour force that covers the whole of the island. There are too many impediments to having that workforce right across the island.</p>
+          <p eId="para_571"> The other concern is that we may find ourselves in a situation, just like with Covalen, Meta and others, where people are suddenly without jobs. Imagine a young couple or individual working for such a company. They may have debts, but they will also have huge obligations, such as rent or a mortgage and all of those things. Those people may suddenly find they do not have a job any more. The Minister must speak to the Minister, Deputy Burke, about this. I have been trying to get through to him for months now about the need to have a plan in place so that when there is an announcement made about job losses, there is one point of contact for those workers. That point of contact would be able to advise them about opportunities for their start-up enterprises, the immediate supports that are available and securing new employment.</p>
+          <p eId="para_572"> I also see an opportunity in this regard. We have lost so much expertise within government. We need much more expertise inside Departments. Where we have young, qualified people coming out of college or people who have been unfortunate enough to lose their jobs, we need to be taking those skills inside government to build up the necessary expertise so that we are not continuously outsourcing and taking consultants on. We should be building that capacity in Departments, whatever Department it might be, right across government. This outsourcing that has been done for years has left us vulnerable to outside influences. Many things need to be done in this regard, rather than mere written strategies.</p>
+        </speech>
+        <speech by="#MaireadFarrell" eId="spk_203">
+          <from>Deputy Mairéad Farrell<recordedTime time="2026-05-27T14:50:00+01:00"/></from>
+          <p eId="para_573">One of my constituents is an apprentice heavy vehicle mechanic. When he signed up for the course, it was advertised as a four-year apprenticeship. While it was a big commitment, it was an investment in himself that he wanted to make. It is, however, a commitment that he would likely not have made had he known how his training would pan out. In January 2025, he should have started the off-the-job training aspect of his course, but he was told that he would have to wait for an indefinite period of time because SOLAS did not have the capacity to deliver it. Months passed in this vein. He contacted me in the hope that some way to end this wait could be found in order that he could continue his course. All he wanted was to roll up his sleeves and start work, but he was left out in the cold waiting to hear whether he could continue his course.</p>
+          <p eId="para_574"> More than one year has passed since, and he is still waiting. This month, SOLAS contacted him to inform him that he will be waiting until January 2027 at the earliest. That is a full two years after he should have started this training. I spoke to him today and he told me is considering dropping out of the course. He is considering looking at something else. This is not the first time he has said this to me. It is a continuous thought. He feels he cannot continue to wait and is utterly disappointed.</p>
+          <p eId="para_575"> This young man has been failed by the State. His ambition has been crushed by a broken skills and training system that is not working for apprentices. He is not alone in this regard. In a response to a parliamentary question I received in December, the Minister confirmed that over 1,7000 apprentices were waiting in limbo for off-the-job training. Meanwhile, there are chronic shortages of tradespeople across our economy. The Department’s forecast shows that we need 80,000 construction workers to deliver its plans for 300,000 new homes, plus the retrofitting of over 400,000 homes. Yet, apprentices of all types are waiting to progress but they cannot do so. These people want to be qualified. They want to help their communities and sort out the housing crisis but the Government is letting them fall through the cracks and asking them to put their lives on hold. The Government is simply not delivering for them.</p>
+          <p eId="para_576"> If a law degree – I have said this before in this Chamber - took six instead of four years, there would be outcry across the Chamber. Think about this young man and his two friends who are considering dropping out of their apprenticeship programme because they simply cannot wait any longer. I have followed this matter up with SOLAS and I have raised it in this Chamber, but to no avail. We need a fundamental shift in how we deliver apprenticeships. Instead of putting up barriers to entry, letting courses spiral in length and charging apprenticeship fees, the Government should be doing everything in its power to encourage young people into these jobs and boost the number of workers in trade and construction. It should increase the funding for the training bodies, provide targeted financial supports to SMEs during off-the-training blocks and abolish apprenticeship fees once and for all. We need to take these things seriously. We need to allow young people to have a future.</p>
+        </speech>
+        <speech by="#DonnchadhOLaoghaire" eId="spk_204">
+          <from>Deputy Donnchadh Ó Laoghaire<recordedTime time="2026-05-27T14:50:00+01:00"/></from>
+          <p eId="para_577">I admire the Minister’s suit. I recall it was a tradition for a while that the summer properly started in Leinster House when former Member Bernard Durkan broke out his cream and grey suit. Perhaps the Minister – another Kildare TD - is now taking up that mantle and is the tribune of summer in Leinster House.</p>
+        </speech>
+        <speech by="#JamesLawless" eId="spk_205">
+          <from>Deputy James Lawless<recordedTime time="2026-05-27T14:50:00+01:00"/></from>
+          <p eId="para_578">I hope to be in this House as long as him.</p>
+        </speech>
+        <speech by="#DonnchadhOLaoghaire" eId="spk_206">
+          <from>Deputy Donnchadh Ó Laoghaire<recordedTime time="2026-05-27T14:50:00+01:00"/></from>
+          <p eId="para_579">That would be a fine record.</p>
+          <p eId="para_580"> On the research side of things, I back the calls by IFUT. We are talking about taking research seriously, and rightly so, but people undertaking PhDs in crucial areas of research in many instances still receive a stipend that is very low. It needs to be acknowledged that this is not some form of payment towards maintenance; it is their full-time job. They are not meant to be doing anything else. They are meant to be full time at the PhD, whatever discipline it is, whether science, health or whatever. It is meant to be a full-time occupation. Ultimately, the PhD stipend is not sustainable in particular in Dublin and Cork and probably in the other cities as well. That needs to be addressed.</p>
+          <p eId="para_581"> On the skills side and apprenticeships, I remain concerned. We have a housing crisis and it continues to escalate. We are not going to resolve that without ensuring there is adequate throughput of apprentices on the craft apprenticeship side. There are serious backlogs. Like my colleague, Teachta Mairéad Farrell, I have heard of people who have gone through the different stages of the apprenticeship and waiting for the final stage for a year or two years. What is meant to be a four-year qualification takes six years. That is unacceptable. If we are encouraging people to take up apprenticeships, it should not just be school-leavers. It should be people switching careers. Unfortunately, it is not realistic for somebody in their thirties who might have a mortgage or childcare costs and is leaving a different career. They are not able to survive on first-year and second-year apprentice payments. It is just not sustainable. That needs to be looked at. How do we support people who decide at 33, 34 or 35 years of age or whatever age or maybe later that they want to become an electrician when there is clearly a need in that discipline. There are blockages in most of the trades, particularly instructors for electricians and electrical instrumentation. There is a particularly slow take-up of wet trades. When you talk to contractors, that is a big concern for them. We need to look at how to bring more people into apprenticeships and into the wet trades, which are badly needed during this housing crisis. That needs particular examination.</p>
+        </speech>
+        <speech by="#EoghanKenny" eId="spk_207">
+          <from>Deputy Eoghan Kenny<recordedTime time="2026-05-27T15:00:00+01:00"/></from>
+          <p eId="para_582">We meet at a moment of enormous change in our economy, workplaces and society. Across every sector from manufacturing to medicine, construction to finance, agriculture to creative industries, technology is transforming how we work, learn and live. Artificial intelligence, automation, digitalisation and the green transition are not future challenges, they are present realities. While these changes bring enormous opportunity, they also bring understandable anxiety for many workers, families and communities. The question before us is quite simple: will Ireland shape this transformation in the interests of people or will we allow people to be left behind by it?</p>
+          <p eId="para_583"> When we talk about skills, training and innovating, we are not simply talking about economics, we are talking about dignity, opportunity and whether a young person in Longford, a parent returning to work in Cork or a worker displaced in Donegal can look to the future with confidence rather than fear. That is why our skills and innovation systems must not merely react to change, they must anticipate it and prepare people for it. They must ensure the benefits of innovation are broadly shared across society. Ireland has many strengths to build upon. We have a highly educated workforce, world-class universities and technological universities, strong enterprise sectors and a global reputation as a centre for investment and innovation. There are also serious weaknesses we can no longer ignore. Too many workers cannot access flexible retraining opportunities, too many apprentices struggle with costs, accommodation and insecure pathways, too many schools still lack adequate digital infrastructure and guidance supports, too many adults feel lifelong learning is designed for other people and not for them and too often our education and training systems remain fragmented, difficult to navigate and slow to adapt. The pace of technological change is accelerating but public policy has not kept pace.</p>
+          <p eId="para_584"> The Labour Party vision for skills and innovation begins with a simple principle - education does not end at 18 or 22 years of age or with a degree certification. In a changing world, learning must become lifelong, flexible and genuinely accessible to everybody. That means we need major expansion of lifelong learning opportunities not as a slogan or pilot programme but as a central pillar of our economic and social policy. Workers should be able to upskill or retrain without risking poverty, losing housing security or sacrificing family responsibilities. That requires flexible evening courses, hybrid learning, modular qualifications and proper financial supports. It also requires partnership between Government, employers, unions and education providers because workers themselves often know best where skills gaps are emerging and where training is urgently needed.</p>
+          <p eId="para_585"> We must be honest that many people currently locked out of training are those who need it most - low-paid workers, workers in insecure employment, people with disabilities, carers, workers in rural communities and older workers who fear technological change because nobody has invested in supporting them through it. A just transition, whether digital or green, cannot simply mean telling people to adapt. It means giving them the tools, time and support to adapt successfully. If we are serious about future skills, we must also be serious about apprenticeships. For too long in Ireland apprenticeships have been treated as secondary options rather than equal pathways to success. I know from the Minister's perspective since he has taken over this role apprenticeships are no longer a secondary opportunity for people. That mentality is outdated and damaging. I believe that is changing during this Dáil term.</p>
+          <p eId="para_586"> We urgently need more apprenticeships in construction, retrofitting, healthcare technologies, cybersecurity, advanced manufacturing and renewable energy. We need stronger links between apprenticeships and further progression routes into higher education and to tackle financial barriers that continue to discourage participation. At a time when we face housing shortages, infrastructure deficits and climate obligations, investing in apprenticeships is not optional; it is essential national planning. Future skills are not only technical skills. Creativity, critical thinking, communicating and adaptability matter.</p>
+          <p eId="para_587"> In an era of artificial intelligence, uniquely human skills will become even more valuable. That has profound implications for schools and the higher education system. We cannot prepare young people for a changing world through an education model built entirely around high-stake exams and rote learning. Students need digital literacy but they also need media literacy, civic education, creativity, teamwork and problem solving. Teachers need support too because no innovation agenda can succeed if educators are overwhelmed, under-resourced and exhausted. Teachers are already managing extraordinary pressures in classrooms. If we want our education system to evolve, Government must seriously invest in teacher recruitment, continuous professional development and classroom supports. Innovation cannot simply be downloaded onto schools with the resources.</p>
+          <p eId="para_588"> While we rightly discuss technology, we must also discuss inequality. Technological change can deepen inequality if governments fail to intervene. We already see worrying divides in access to digital infrastructure, devices and educational opportunity. We know children from disadvantaged backgrounds continue to face barriers their wealthier peers do not. Educational disadvantage still maps too closely onto income, geography and disability. If innovation only benefits those already advantaged, it will fail socially and politically. That is why the Labour Party believes investment in education and skills is not merely economic spending but also social investment. It is nation-building and one of the most effective ways to strengthen democracy. Societies where people feel secure, valued and included are better able to navigate change.</p>
+          <p eId="para_589"> We should also recognise the importance of research in public innovation. Ireland's future competitiveness cannot rely indefinitely on low corporate tax or external investment alone. We need indigenous innovation, stronger research ecosystems, sustained public investment in science, research and development and stronger collaboration between universities, technological universities, enterprise agencies and local communities. Innovation policy must not become detached from public purpose. It should help us to solve real societal challenges such as sustainable housing, delivering cleaner energy, improving healthcare access, supporting inclusive education, strengthening public transport and addressing climate change.</p>
+          <p eId="para_590">Technology is not neutral. Public policy shapes whose interests it serves.</p>
+          <p eId="para_591"> We must also confront the implications of AI honestly and responsibly. AI has enormous potential to improve productivity, healthcare, research and public services, but it also raises serious concerns around employment rights, misinformation, bias, surveillance and concentration of economic power. Workers cannot simply be treated as collateral damage when it comes to technological disruption. We need strong labour protections, ethical regulation and social dialogue as these technologies evolve. Crucially, workers must have a voice in shaping how technology is introduced in workplaces, because innovation imposed without consultation breeds distrust. Innovation developed democratically builds confidence.</p>
+          <p eId="para_592"> There is another issue we must address, namely regional imbalance. Too often, opportunity remains concentrated in Dublin and a handful of urban centres. A modern skills strategy must include regional development. That means investing in further education colleges, technological universities, research hubs, transport links and broadband right across the country. Talent exists everywhere in this country; opportunity does not. It is the responsibility of the Government to close the gap in this regard.</p>
+          <p eId="para_593"> The green transition also presents one of the greatest opportunities of our generation. Retrofitting homes, developing renewable energy, expanding public transport and restoring biodiversity will all require huge numbers of skilled workers. If we fail to train people now, however, we will face bottlenecks, labour shortages and missed climate targets later. Climate policies and skill policies must therefore be developed together rather than separately. The same is true for housing policy, industrial policy and regional policy. Joined-up government cannot remain as an aspiration; it must become a reality.</p>
+          <p eId="para_594"> We must remember that the purpose of economic progress is not simply higher GDP figures; it is improving people's lives. A successful skills and innovation system is not only measured by productivity statistics or investment rankings; it is also measured by whether people feel secure about the future, whether workers feel valued, whether young people believe they can build a decent life here and whether communities feel included in national progress. That is the test we should apply to every policy decision in this area.</p>
+          <p eId="para_595"> Ireland has the talent. We have the creativity. We have the potential, but potential alone is not enough. We need political choices that match the scale of change before us - choices to invest in lifelong learning, to support workers through transition, to strengthen apprenticeships and further education, to tackle inequality and to place fairness and inclusion at the heart of our innovation policy. The future of work should not be something that happens to people; it should be something that we shape together. If we get this right, Ireland can become not only a leader in innovation but also a leader in ensuring that innovation works for everybody.</p>
+        </speech>
+        <speech by="#AlbertDolan" eId="spk_208">
+          <from>Deputy Albert Dolan<recordedTime time="2026-05-27T15:10:00+01:00"/></from>
+          <p eId="para_596">Something that we have to be cognisant of is that over the past few years many people have said that it is our corporate tax rate that has attracted so much investment. That is not the case any more. It is our people who are driving that investment. It is also down to our knowledge base, our skills base, our highly-educated workforce, our work ethic and, I guess, to a desire for better and to do more. That does not just happen, however. That will only happen with continuous investment, continuous learning, continuous education and a continuous drive to see people upskill and be better prepared to take on the challenges that are coming at us. It also is a reflection of the fact that nobody will do one job for 30 or 40 years any more. Such jobs will be highly unlikely. People will constantly have to re-educate, reskill and better equip themselves for the opportunities that are going to come their way.</p>
+          <p eId="para_597"> On the advance of AI and the opportunities and threats that come with it, what I want to say is that there could be massive economic benefits to Ireland from AI. What will it all be for, however, if the benefit is not felt by everyone? The key lies in ensuring that our workforce is skilled and educated and moves with AI and that we leverage our country as being one of the best countries in the world in which to do business through AI. We must also facilitate it and see that Ireland garners disproportionate benefits over other countries in terms of our speed of implementation. That is where the biggest wins will be achieved.</p>
+          <p eId="para_598"> The other point I want to make is around innovation and people taking a chance on themselves in the context of starting their own companies. It is so important that we continue to invest in innovation and in people who want to see something that is a game-changer take place in our country. Companies and individuals struggle to scale across Europe and do not make it big. That comes down to capital access as well. However, we have an opportunity to invest in innovation over the coming years and to see to it that there are huge success stories which generate massive employment and excitement across the country.</p>
+        </speech>
+        <speech by="#CormacDevlin" eId="spk_209">
+          <from>Deputy Cormac Devlin<recordedTime time="2026-05-27T15:10:00+01:00"/></from>
+          <p eId="para_599">Skills, training and innovation are the foundation of Ireland's competitiveness and of every young person's opportunity in life. The investment of €1.5 billion in the National Training Fund, including €37 million to SOLAS for construction, manufacturing, healthcare and the green transition, is the single most consequential reskilling investment of this Government. Apprenticeship registrations in construction and related fields have grown by 57% since 2020. I see this on the ground in my constituency, in Dublin College, Loughlinstown, where craft apprentices from across south County Dublin and beyond do their phase 2 training.</p>
+          <p eId="para_600"> I raised in the House previously the phase 2 backlogs that existed post-Covid, and it is great to see progress in that area, with the numbers down from 5,300 in October 2023 to 1,800 or thereabouts today. This shows that the system is working, but, of course, there is more to be done. Further investment will expand the number of places and ensure that they are relevant in the context of a changing Ireland.</p>
+          <p eId="para_601"> The next big challenge is AI and the impact it is going to have on society and the labour market. AI will not replace skilled workers but it will reshape every job they do. As a result, we must prepare young people not only to use AI but also to develop it, interrogate it and think critically alongside it. Foundational digital literacy, AI literacy and critical analytical skills must be embedded as the core of every further and higher education programme, not merely bolted on. I welcome <i>t</i>he establishment of AI Ready<i>
+						</i> and the advent of the Springboard+ AI places.</p>
+          <p eId="para_602"> The harder task will be reforming the curriculum right across the system. The educators at Dublin College and those in Blackrock, Sallynoggin and, of course, Dún Laoghaire Institute of Art, Design and Technology, IADT, which the Minister visited recently, are up to that challenge.</p>
+          <p eId="para_603"> Speaking of recent visits, the Minister also visited the community training college on York Road in Dún Laoghaire, where educators such as Ms Catherine Bell and her colleagues do fantastic work upskilling students and preparing them for their next stage of life in the exciting decade ahead. I thank the Minister for his commitment to his role and for the visits he has made across the Dún Laoghaire area.</p>
+        </speech>
+        <speech by="#JohnClendennen" eId="spk_210">
+          <from>Deputy John Clendennen<recordedTime time="2026-05-27T15:10:00+01:00"/></from>
+          <p eId="para_604">It is broadly agreed that 65% of children who start primary school this year will start work when they finish their education in jobs that do not currently exist. That shows the level of change we are seeing. The OECD and the World Economic Forum have outlined that the average person will have ten to 15 different jobs during their working life. On foot of that, we need to be more dynamic and more adaptable than ever before in what we do in the area of training, skills and innovation systems.</p>
+          <p eId="para_605"> Eurostat figures show that in relation to tertiary education attainment, we are well above the European average and our target currently of 65% of youth between 25 and 34 years have attained educational qualifications compares to the European average of roughly 40%. That shows that there is an ability and a desire on the part of our young people to improve themselves, but what we need to do is ensure that they have the flexibility to provide that in other areas. When we look at the likes of trades and apprenticeships, we need to continue on our trajectory in making it more appealing and encouraging people to get into that area.</p>
+          <p eId="para_606"> The Minister visited the Laois and Offaly Education and Training Board in Offaly on Monday. The progress that has been made there in terms of diversification and the number of different courses that have been invested in has been exceptional. It has truly made a difference to my local community.</p>
+          <p eId="para_607"> I will give the Minister one example of just transition whereby funding was made available in order to address the void left by the ESB and Bord na Móna for science, technology, engineering and mathematics, STEM, officers. The latter have done an exceptional job. Every primary school and every secondary school in Offaly now has VEX Robotics. This has created a whole new culture of STEM, led by Mr. Ray Bell and Mr. Dean Hodge. At the end of this year, however, just transition is due to conclude and the jobs of those STEM officers could potentially be in jeopardy.</p>
+          <p eId="para_608">We cannot have that situation when we are working to innovate and looking to be dynamic and adaptable when it comes to new sectors. We need to get them up and running. We have schools that are enjoying success in competitions in the US on an annual basis. Countries are looking to us with regard to what we have done in respect of STEM education at a time when we are putting funding in jeopardy. That cannot happen. If I could ask the Minister one thing it would be to find funding for opportunities like that.</p>
+        </speech>
+        <speech by="#BarryWard" eId="spk_211">
+          <from>Deputy Barry Ward<recordedTime time="2026-05-27T15:20:00+01:00"/></from>
+          <p eId="para_609">I agree with much, if not everything, that has been said in the course of the debate by those on all sides. Balancing our skills need and development is important. I want to come at this from a slightly different angle, however. I am chair of the European affairs committee, and a delegation from the committee recently visited Luxembourg and met some of the people involved in the European institutions there. We know they exist throughout the European Union, including with Eurofound, which celebrates its 50th year in Loughlinstown in my constituency this year. There are a range of positions and good jobs in those institutions that are available to Irish people.</p>
+          <p eId="para_610"> We have done very well in the European civil service, if I can call it that, over the years, whereby Irish people have attained very high positions, in particular the likes of Catherine Day, who was head of the European civil service before she retired. In a meeting with the European Court of Auditors in Luxembourg, we found there were six high level in Ireland there due to retire the coming years. There are not the people at the middle level ready to take over for them at the higher level.</p>
+          <p eId="para_611"> In terms of readiness and preparedness from a national point of view, one of the opportunities we have is to push much harder that door into European institutions. The European Movement Ireland has a green book to advertise and inform people of the vacancies arising. Those vacancies can relate to the Commission, the Council, the Parliament or other institutions right across the Union. We need to do better at convincing Irish people to apply for these jobs. We are lagging behind other countries in terms of applications. Italy is one of the front-runners. It has an institution dedicated to preparing people to apply for those jobs, not just telling them about what a job involves and the remuneration package but also about how to apply for a job and how to prepare an application. When people get interviews, that institution gives them the skill set and information they need to be successful. That is important, not just because it is good for the people involved to get those jobs and get into an institution that can be a lifelong place of growth and opportunity but also, and more importantly, it means, from a national perspective, that when decisions are made all over Europe, if there is an Irish person sitting at the table, our perspective is ventilated. Of course, the institutions do not represent any state, and I am not saying they should, but it cannot be a bad thing for Ireland to have a person in the room when decisions are being made. The best way to do that is to reinforce the need for Irish people to apply for jobs in Europe.</p>
+        </speech>
+        <speech by="#NatashaNewsomeDrennan" eId="spk_212">
+          <from>Deputy Natasha Newsome Drennan<recordedTime time="2026-05-27T15:20:00+01:00"/></from>
+          <p eId="para_612">I welcome this opportunity to speak about the high standard of skilled workers we have in Ireland and to those students who are coming through our education system right now. This is something we should be very proud of, but it is also an area in respect of which we must be far more ambitious. When it comes to educating our citizens, the sky should be the limit.</p>
+          <p eId="para_613"> We need to recognise the achievements of our institutions. We are fortunate to have the South East Technological University, SETU, which has campuses across Waterford, Carlow, Wexford, Wicklow and Kilkenny. We also have Carlow College, Ireland's second oldest third level institution, which recently announced that it will wind down operations and that no new students sill be accepted this September. As one can imagine, this is a massive blow for Carlow. Over 600 students attend the college, but, critically, 87 staff members now face redundancy over the coming two years. There has been talk of redeployment, but the staff must be central to those talks. They have a wealth of knowledge and expertise that we cannot afford to lose.</p>
+          <p eId="para_614"> There has been engagement between Carlow College and SETU. I ask the Department to work alongside the institutions to support a positive outcome for staff and to put supports in place for those who cannot transition to SETU. I would also like to know when the Government became aware of the plan to close Carlow College and whether any attempts were made to keep it open. This is a substantial site and an historic building that cannot be left idle to just rot away. The immense uncertainty hanging over staff and students right now cannot be overstated. I have heard from staff who do not know whether to stay in the hope of redeployment or to start looking elsewhere. I have also heard from students who are worried about whether their courses can be completed if the staff begin to leave. They deserve clarity, not vague assurances. We should strive to offer a wide range of third level courses in the south east.</p>
+          <p eId="para_615"> I have four sons in primary and secondary school. I know from speaking to other parents the worry and anxiety they feel at the thought of their children having to go to Dublin or Cork for a course. The cost is crippling for so many families. The silent sacrifices parents make so often I go unnoticed, but we make them just to give our children opportunities. That is why having a strong range of courses on offer and giving young people the chance to study near their own communities would be a positive development. It would be great for families and communities.</p>
+        </speech>
+        <speech by="#JenCummins" eId="spk_213">
+          <from>Deputy Jen Cummins<recordedTime time="2026-05-27T15:20:00+01:00"/></from>
+          <p eId="para_616">I was late for the Minister's speech because I had to be somewhere else. I have read it and I like the fact that reference was made to the four Ds. I am sure some people in this building will remember the three Cs or whatever the other letters were years ago in education. The three Rs-----</p>
+        </speech>
+        <speech by="#JamesLawless" eId="spk_214">
+          <from>Deputy James Lawless<recordedTime time="2026-05-27T15:20:00+01:00"/></from>
+          <p eId="para_617">Reading, writing and arithmetic.</p>
+        </speech>
+        <speech by="#JenCummins" eId="spk_215">
+          <from>Deputy Jen Cummins<recordedTime time="2026-05-27T15:20:00+01:00"/></from>
+          <p eId="para_618">That is exactly it. We now have the four Ds. I agree with many of the points the Minister made. We are educating our children and young people leaving secondary school. In terms of where they go on, the starting point is what level people are at when they do the leaving certificate or leaving certificate applied. Many do not know how to open a bank account, change a tyre on a bike or car or do many practical things because we have put them into a system from which they almost have to be deprogrammed. They have to develop critical thinking skills in first year in college. My daughter had to do that in order to start to think about real-life things as opposed to what is taught by means of the leaving certificate syllabus. That is for a different Department and another day.</p>
+          <p eId="para_619"> When it comes to learning at third level, we have to examine a number of things. The Minister spoke about broadening first year post-leaving certificate and post leaving certificate applied courses and making them more general. I would love to see that. I often speak about the love of learning, which is something I am very passionate about. The rest of this contribution will probably be about where we are, the skills we need for an economy and so on, but my fundamental starting point on education is the love of learning and passion because that is what will drive us forward. When somebody works in a job they love, they will do really well. It is the same when they are studying.</p>
+          <p eId="para_620"> We need to examine what we are offering. I agree with what a previous speaker said. The Minister's focus on apprenticeships is most welcome. The easier we can make the transfer from second level to third level and into apprenticeships the better. At a meeting of the further and higher education committee when young apprentices explained the process of applying to be an apprentice I was struck by how complex the process is. Everybody else fills out a CAO form, which is not easy and which is quite complex. For a parent it can be quite daunting, in particular a parent who may never have applied through the CAO. We need to make the apprenticeship process more streamlined.</p>
+          <p eId="para_621"> As another Deputy stated, we need to take account of young people not in employment, education or training. I talk about community training centres quite a lot. I will speak about one I visited during the week, namely Cherry Orchard Community Training Centre. It has tied-in equine services. People can learn to work with horses, including equine therapy and working in stable management. That is the sort of practical skills that CTCs have. It is the same with Youthreach and local training initiatives, LTIs. I could not come in here and not say that we need to sort out the contracts for CTCs and LTIs. Organisations are working to assist young people who found mainstream education did not fit how they learned, which is ultimately what the difficulty is.</p>
+          <p eId="para_622"> I refer to adult and further education. Community education is important to make sure that anybody who has not had the opportunity to go to third level straight after school has an opportunity to go back and learn.</p>
+          <p eId="para_623">In this country, we have a massive issue with people who still do not have appropriate numeracy and literacy abilities. Adult education services and organisations like the National Adult Literacy Agency, NALA, are there to make sure people are at the appropriate level because they cannot be left behind, yet they have been for a long time. On that basis, some of the skills we need to be looking at come under one of the Ds the Minister mentioned, namely, digital and AI skills. Whether we like it or not, the reality is AI is here and we need to find a mechanism to be able to use it to our advantage and make sure that everybody is using it in all different sectors but in an appropriate and ethical way. With that comes cybersecurity and data analysis training. What does that mean in all of the different sectors we will be working with? There is also software engineering, cloud computing and digital skills for all sectors - small- and medium-sized enterprises, but also for the public sector. We are in here. How are people dealing with it in the Civil Service? How are we dealing with all of these things?</p>
+          <p eId="para_624"> The Minister mentioned industry and education collaboration, which is really important because we need those partnerships. One cannot exist without the other. We cannot be training and running loads of programmes at third level that have no relevance whatsoever. In a way, we have that in second level. There is stuff that is not relevant to anything. It is outdated, outmoded and we have done it for years. We need to change that, and that is what is good about the leaving cert reform. We need to make sure that industry and education are connected, not only in the technical universities or the further education training centres, but also at apprenticeship level.</p>
+          <p eId="para_625"> Coming back to lifelong learning for a second, we need a modular basis for learning that is also stackable. I had the pleasure of opening the exhibition for the students in the Royal Hibernian Academy of Arts, RHA, the other day. They can do modules or they can do a two-year course. I will come back to the Minister at a later stage because the RHA does not have Higher Education Authority, HEA, status and there is something amiss there. It was fantastic to meet those students because they told me that they could come in and do one module and, later, they could do another. It fits into their lifestyle, which is important. We need to ask if it can be online or hybrid.</p>
+          <p eId="para_626"> There is the mid-career change issue. There are several of us sitting in this Chamber who have changed jobs mid-career to become politicians. That is the same for everybody. People change careers. It is not like years ago when you started, went into a job and stayed in it for 45 or 50 years.</p>
+          <p eId="para_627"> The other things I want to talk about are research and innovation ecosystems. How do we do that? How do we have start-up incubators? Where do they fit within that? Somebody mentioned the regions earlier. We need to move out of Dublin; we do not all live in Dublin. We need stronger technological transfer supports within that ecosystem.</p>
+          <p eId="para_628"> We have talked about green skills and the climate a lot and the fact that we might miss those targets now. If we are not using now as the catalyst for moving into all areas of climate, we will really fall behind. Part of that is looking at what technologies we need and where we are with regard to renewables, sustainable construction, the circular economy and all of that sort of stuff.</p>
+          <p eId="para_629"> There is a student who has been on work experience with me for the last little while. She will be heading off to do a master's degree next year in an institution in this country. It will cost €9,000. If we want to have things like that, master's programmes cannot be that expensive. That is prohibitive for many people.</p>
+          <p eId="para_630"> We are very strong on pharmaceuticals in this country. We need to look at biotech and the capacity there with regard to life sciences, automation and robotics. Since I have come into this role, I have met a number of people who are working in that industry. We need to support them much more but there needs to be link, not just between people who are working in that industry and third level, but also back to second level. It starts in second level. In fact, I would say it starts in primary school.</p>
+          <p eId="para_631"> There are two final points I want to make. All of that said, there are two areas that are really important. None of this will be of any use to anyone if we are not making sure it is inclusive and there is social mobility within it. We cannot leave behind anybody because they live in a socio-economically disadvantaged or rural area, they are a mature student or they have been displaced by AI or automation. We need to make sure we are focusing on that.</p>
+          <p eId="para_632"> Regarding disability and other support services, as education spokesperson, I daily hear about the number of children who are identified as having additional needs. We are far behind where we need to be with support services for children and adults who have disabilities. We need to make sure that we are training occupational therapists, OTs, speech and language therapists, SLTs, therapists, psychologists, psychiatrists and all of those people who can make sure that the disabled person is getting the supports they need.</p>
+          <p eId="para_633"> We have a huge issue in this country with mental health and we do not have the support services we need. There are huge waiting lists.</p>
+          <p eId="para_634"> In terms of skills, we need not only everything on the technological side, but also a human perspective. We need to have people who are trained, have the capacity and passion to work with people of all ages who have mental health problems or disabilities, and are supported to reach their best potential. I could not leave this conversation without saying that. While a lot of what I have said is about the pharmaceutical industry or technical aspects, but at the end of this, we need to make sure that every person in this country has the capacity to learn and work to the best of their ability. We need to ensure there are all the supports around that.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_216">
+          <from>Deputy Michael Murphy<recordedTime time="2026-05-27T15:30:00+01:00"/></from>
+          <p eId="para_635">I will take this opportunity to not only highlight, but shine a light on the proposed college of the future on the former Kickham Barracks site in Clonmel and acknowledge the progress of the project in the context of the SOLAS major project process. It would be remiss of me not to acknowledge the Minister's steadfast support for the project as well. As the Minister knows, I wrote to him in March inviting him to come to Clonmel to see the site first hand. He is due to visit the site in the next number of weeks. I look forward to welcoming him to Clonmel.</p>
+          <p eId="para_636"> It should not be seen as just another major project. It is transformative in nature and involves the creation of Ireland's fully integrated further and higher education campus. I acknowledge the significance of this project for Clonmel, south Tipperary and the wider region. It presents a once-in-a-lifetime opportunity to deliver a modern tertiary educational campus. I acknowledge all of the stakeholders involved at the local level, particularly Tipperary ETB, but also the local authority, local industry, the public representatives and the wider community. Importantly, this project reflects the ambitions set out by the Government on balanced regional development, skills provision and parity of esteem between further and higher education.</p>
+          <p eId="para_637"> I look forward to welcoming the Minister to Clonmel in early June. Seeing the scale and potential of the project first hand will underline its continued momentum and Government support. That is important as the project moves to the next phase. I acknowledge the work of Tipperary ETB, SOLAS and all of those involved to date as well as the Minister's steadfast support in particular. I look forward to seeing this flagship project continue to the next phase.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_217">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-27T15:30:00+01:00"/></from>
+          <p eId="para_638">I thank the Minister for giving us the opportunity to talk about such an important area of our society and economy. The area I am particularly focused on as Leas-Chathaoirleach of the AI Oireachtas committee is the impact of AI, the disruption and making sure that Ireland is ready and prepared. We need to make sure that the students of the future are adapting and developing the necessary skills they will need for the jobs of the future. An IMF report released on Monday or yesterday indicated that up to 40% of current jobs in Ireland would be impacted by AI in one way or another. That potentially underestimates the impact of AI in Ireland but what is really being highlighted there is the strong services element of our economy and the impact that AI can have on that.</p>
+          <p eId="para_639"> For a lot of young people out there, one of their biggest fears is that their jobs will effectively be taken away and they will not have jobs. These are graduates who have done all of the right things, worked hard and their parents have saved to support them through college. They want to see them getting good jobs and staying and working here. They are really fearful that the introduction and pace of AI will not be good for them. The only way to respond is to ensure that we have the right skill set and that our third level institutions, our further and higher education institutions and the State are walking, as much as they can, in lockstep with the changes that are taking place in the private sector and the changes that are being adapted in the public sector when it comes to AI.</p>
+          <p eId="para_640">The Minister will be familiar with the interim report the AI committee published in December. One of the key recommendations was the establishment of a critical skills observatory. I was delighted to see that recommendation form part of the national AI strategy published by the Taoiseach. I am aware that the Minister is working on this observatory and that it is soon to be completed, based on replies to parliamentary questions I saw.</p>
+          <p eId="para_641"> We need to set up the critical skills observatory as soon as possible. It is important – maybe this is already happening – to have a good degree of collaboration between the Minister’s Department and the Department of education, given that the Minister for education, Deputy Hildegarde Naughton, has established an AI task force. This is really responding to the needs of the moment. I am sure I am no different from any other TD in this room in the sense that when I talk to teachers and students, I note they are saying the same thing. Teachers just want some level of direction in terms of how the children use AI. The children want direction on how they can use AI in a way that effectively does not stupefy them and does not reduce their capacity and learning skills in education.</p>
+          <p eId="para_642"> Many countries are already moving at pace in this area. One of the countries I visited with the Chair of the AI committee, Deputy Malcolm Byrne, was Estonia, a country well known for its digitalised society. At secondary level, it is already sandboxing education to some extent. It is introducing AI into the classroom but monitoring and assessing it at a very high level. Academic institutions are supporting its introduction into the classroom. They are appraising it as it is introduced. Having retrained many of the teachers who have voluntarily signed up for some of the pilot projects, they are assessing the learning in the classroom. Ireland has, perhaps, the opportunity to learn from the mistakes being made in some countries when they introduce AI into education.</p>
+          <p eId="para_643"> I urgently ask that the critical skills observatory be established and that we ensure we have the jobs for the future.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_218">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T15:40:00+01:00"/></from>
+          <p eId="para_644">I call Deputy Joe Neville.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_219">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-27T15:40:00+01:00"/></from>
+          <p eId="para_645">First off, I just-----</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_220">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T15:40:00+01:00"/></from>
+          <p eId="para_646">Deputy Cahill has just arrived and I believe Deputy Neville was to share his time with him.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_221">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-27T15:40:00+01:00"/></from>
+          <p eId="para_647">Yes.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_222">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T15:40:00+01:00"/></from>
+          <p eId="para_648">Therefore, I think we will have to cut Deputy Neville’s time a little.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_223">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-27T15:40:00+01:00"/></from>
+          <p eId="para_649">Perfect.</p>
+          <p eId="para_650"> I welcome Ms Clodagh Hanna, chair of the politics society in Trinity. It is good to have someone who is beginning the journey from a schools perspective. Over the past 25 or 30 years, or indeed since I have been observing, we have been very good at sending children to university and then into the workforce. Ireland’s having a highly educated workforce has worked very well for it internationally, but that is beginning to change. We know of the impact of AI and that we need to consistently renew critical skills, not only in university, but also after university. The days of going to university and then getting a job had already changed, but we now have a situation where the skill sets required will probably change considerably.</p>
+          <p eId="para_651"> As somebody who has worked in businesses, especially where electricians and plumbers were required, I have seen where there have been deficits. As a country, we probably pushed everybody to university. That has worked for us, but we have lost the skills that would be required for the building of the likes of Intel, which I was thinking about when thinking about this topic. Intel is a huge multinational based in my constituency, and I can walk to it, but it should be remembered that the people required to build it are the electricians and plumbers. We need to ensure we have the skill sets for those apprenticeships while also having critical skills in the likes of AI, which will really change how we do things. As a country, we need to have a two-pronged approach. It is not just about going one way. Last year, the Minister said that we had €79 million secured for apprenticeships. I would like this increased significantly if it can be. We have to keep a focus on this and not have everything going one way, having regard to how the workforce is changing. Sitting behind a desk is not for everyone and, as a country, we need both skill sets.</p>
+          <p eId="para_652"> I thank the Chair for the opportunity to speak on this today.</p>
+        </speech>
+        <speech by="#MichaelCahill" eId="spk_224">
+          <from>Deputy Michael Cahill<recordedTime time="2026-05-27T15:40:00+01:00"/></from>
+          <p eId="para_653">I want to raise again two hugely important education and economic development projects for County Kerry and ask that every effort be made to expedite both.</p>
+          <p eId="para_654"> The first is the proposed hospitality education college at the former Pretty Polly site in Killarney. It is a transformative project not just for Killarney but also for the wider south-west region. Hospitality and tourism, as the Minister is well aware, are the backbone of our local economy, and this project would create a state-of-the-art training campus focused on hospitality and skills development. I welcome the progress already made. I thank the Minister especially for the €2.375 million he made available to Kerry ETB to acquire the site from Kerry County Council and the approval given to Kerry ETB to engage with the vendor and proceed with the due diligence on the preferred site. However, I urge that SOLAS continue driving this project forward at pace. The demand for skilled workers in hospitality, tourism and food services is enormous, and the college will help secure the future workforce for one of Ireland’s most important industries while also bringing more educational investment into Kerry.</p>
+          <p eId="para_655"> The second project I want to highlight is the proposed commercial diving and underwater welding training course, to be based in Cahersiveen and to be provided through Kerry ETB. This is an exciting and innovative project with huge potential for south Kerry and Ireland’s marine sector. There are excellent careers and well-paid jobs available in underwater welding and commercial diving but we need to ensure Irish people have access to the training required to enter those professions. Cahersiveen is ideally placed to become a national centre of excellence for this type of marine training and skills development.</p>
+          <p eId="para_656"> I acknowledge the constructive engagement already taking place involving Kerry ETB, Bord Iascaigh Mhara and the relevant Minister of State, Deputy Timmy Dooley, but I ask that the project be prioritised and progressed urgently.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_225">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-27T15:40:00+01:00"/></from>
+          <p eId="para_657">In a rapidly changing world, it is very difficult to follow from one headline to another, whether it relates to domestic matters or geopolitics, which are in constant flux. Somebody said that we seemed, unfortunately, to be almost returning to the 1700s, just with better weaponry. It is a necessity that we deal with the realities of the world we live in and ensure we have the appropriate skill sets.</p>
+          <p eId="para_658"> I welcome certain things when we are talking about ensuring a greater level of access for those who may need another path, whether that is in medicine or teaching. I am talking about two very particular skill sets that we need in society. A considerable number of people, particularly young people, may want to enter medicine or teaching. It is necessary to ensure we allow the free flow because, at times, we may open pathways but not to all. This must be taken into account.</p>
+          <p eId="para_659"> We know the issues that exist regarding the whole sphere of disability, particularly children’s disability, even if we are talking specifically about autism. No matter what issues I may have with how children’s disability network teams, CDNTs, and primary care are put together, I know that whether we are talking about in-school therapies, CDNTs, primary care or something else, there will be a need for a greater number of therapists. It is about ensuring the best modes of training. We have all seen apprenticeship types change. We must have an increased number of pathways that suit people from the point of view of garnering the skills necessary to deliver.</p>
+          <p eId="para_660"> It goes without saying that Queen’s University Belfast and Dundalk Institute of Technology, DkIT, have a partnership that many of us welcome. Hopefully, it can be a win for both and ensure more of the work that has already been done by the likes of the Regional Development Centre in DkIT, and also a greater level of research work and output.</p>
+          <p eId="para_661"> The Louth and Meath Education and Training Board has done considerable work with the Advanced Manufacturing Training Centre of Excellence, which is operating directly with employers. I cannot but talk about the Ó Fiaich Institute of Further Education, the Drogheda Institute of Further Education, DIFE, and the various pathways that are available, but I still feel we need much earlier intervention to ensure we can get people into work.</p>
+          <p eId="para_662"> We are aware of the ongoing fear of displacement through AI, with whatever benefits there will be. We have seen it in Meta contractor Covalen and possibly PayPal. However, we do need to deal with the issue of personal assistants in the further education colleges and the need for proper contracts.</p>
+        </speech>
+        <speech by="#PaulMurphy" eId="spk_226">
+          <from>Deputy Paul Murphy<recordedTime time="2026-05-27T15:50:00+01:00"/></from>
+          <p eId="para_663">An Economic and Social Research Institute, ESRI, report in April predicted that approximately 7% of Irish jobs could be lost to AI in the short to medium term. That equates to approximately 200,000 jobs. The Central Bank estimated earlier this year that almost 900,000 jobs are at risk of being replaced by AI. That is just direct job losses. In reality, the impact will be a lot worse than that because many of the jobs that are lost will be higher paid roles in ICT and finance. Over 20,000 tech jobs have been lost in the past year alone and the rate of job loss is accelerating. Meta is cutting 20% of jobs. Covalen Solutions is trying to make 700 workers redundant. Oracle is cutting 150 jobs. Fianna Fáil and Fine Gael have turned the economy into a corporate tax haven where income and wealth are distributed like an upside down pyramid but jobs go the other way around. A small number of mega rich US multinationals are booking billions in profits and paying a sliver of the workforce very high salaries and bonuses. In turn, this is supporting over 500,000 low-paid service workers in hospitality, retail, cleaning and childcare. That is why Ireland has the highest level of market income inequality in Europe. If 200,000 higher paid jobs are lost, or even more, when the AI bubble bursts and the global economy crashes, the wider impact on jobs and workers could be truly catastrophic.</p>
+          <p eId="para_664"> AI still is not profitable, despite all the trillions being speculated on it, and nobody has proven yet that it will lead to widespread productivity gains. An economics paper published earlier in the year, called "The AI Layoff Trap", shows how even if it does, the economic impact will still be dire because the more capitalists replace workers with AI, the fewer workers there will be to buy good and services, and consumer markets will collapse.</p>
+          <p eId="para_665"> What is the Government doing to plan for this? Not nothing but worse than nothing. It is cheering on the AI lemmings as they race over the cliff. The Taoiseach and the rest of the Cabinet are constantly banging on about adopting more AI and doing it faster even though they know it is going to decimate jobs and worsen inequality. They are sacrificing more and more of our electricity and water supply for vast, empty data centres that do not create tech jobs or protect them from being cut. In fact, they are speeding up tech job losses by creating the infrastructure that the big tech bosses need to replace more tech workers with AI. Every data centre is like a giant Pac-Man gobbling up energy, water and jobs. The ESRI predicts significant declines in household income and increases in inequality as a result of AI, including a 30% increase in capital income to the richest 10%. It is so extreme that even the ESRI is now recommending expanding taxes on wealth and capital. In other words, a wealth tax and an increase in corporation tax and inheritance taxes on the rich. That is precisely what we have been calling for. However, there is no chance of the Government doing any of that. In fact, it is doing the opposite. It is living in the last century and must get its head out of the clouds.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_227">
+          <from>Deputy Brian Stanley<recordedTime time="2026-05-27T15:50:00+01:00"/></from>
+          <p eId="para_666">This is an important debate. A high proportion, in excess of 60%, of our young people go to third level. It is good that people are becoming highly qualified and are able to get quality jobs. However, there is a skills shortage and an imbalance. There is a shortage of people with construction skills and a shortage of people undertaking those apprenticeships. That was not addressed during the Celtic tiger, even though there was a building boom, and it was certainly not done during the crash. There is a shortage of electricians, plumbers, plasterers, carpenters and technicians for retrofitting and heat pumps, etc. Laois County Council has difficulty even getting people to service heat pumps and finding people to repair them because the skills are not there.</p>
+          <p eId="para_667"> We also need apprenticeships in the motor trade. There is, in Laois, a chronic shortage of mechanics, technicians and crash repair panel beaters, along with the shortages across the county in the building trades. We need apprenticeships. There need to be apprenticeships across a wide range of areas.</p>
+          <p eId="para_668"> I welcome the fact that the Government has expanded the programme. There are over 80 apprenticeships at the moment. We need to be promoting that in accounting, IT, manufacturing, logistics and so on. Apprenticeships offer an alternative route. We need to further develop apprenticeships through the Laois and Offaly Education and Training Board. It is doing excellent work in Mount Lucas. Other training centres in Laois and Offaly need to be used for that. Apprentices have an advantage because they are earning and training. That is better than being in a third level college in a lot of ways. They have on-the-job and real-life experience, which is hugely important. They also have progression to secure employment and the exceptionally high rate of employment after apprenticeships shows that. They also have freedom in later life because they have a transferable a skill. They can progress to greater things. For example, carpenters can move on to become clerks of works.</p>
+          <p eId="para_669"> I acknowledge the expansion in the range of apprenticeships. We should be actively promoting that. An idea was put forward over the weekend by an economist who suggested that when we are building an extension to a school, the pupils of the school should be able to visit it and interact with the workers and the project to give them a taste of what it is like and encourage them.</p>
+          <p eId="para_670"> There is exploitation of apprentices by a small number of employers. They use them as a means of cheap labour by paying less than the minimum wage. Instead of apprenticeships being used as an opportunity for learning and training, they are being used for that. The apprentices are being let go in their third or fourth years. It is important that apprentices have the right to be represented, like all other workers, by a trade union. We do not have the right to collective bargaining here and we need it, particularly for apprentices. They need to be within the minimum wage framework and the Redundancy Payments Act.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_228">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2026-05-27T15:50:00+01:00"/></from>
+          <p eId="para_671">One aspect of a changing world is a population that is getting older. That means we need more people caring for the people who get older and who are less mobile and have higher levels of disability and so on. That means the people who provide that care need to be treated properly if we are going to get the people to do the work, the need for which is expanding and is going to expand as the population of this country gets older. However, we do not, to a very large extent, treat them well. I have met quite a lot of people over the past couple of weeks. The workers at North Side Home Care Services are on strike. Once upon a time, they had parity with those who were directly employed by the HSE. They were at the same level as healthcare assistants. That parity was broken and has never been restored for considerable numbers of people, despite an impression being conveyed that a deal was done when some people, those in section 39 organisations, got restoration. There was a whole group of people - and I am only getting my head around this - who were considered out of scope, whatever that means. It meant they did not get pay restoration. They are getting paid poverty wages while doing the same work as people who are employed directly by the HSE and get relatively decent wages compared to them.</p>
+          <p eId="para_672"> It is not just North Side Home Care Services workers who are in this situation and are on strike. I met a load of others. There are thousands of people doing this work. They are doing very difficulty work and are asking themselves why on earth they would continue to do the job when they are getting paid such a miserable level of pay and did not get pay restoration. They think it is because a lot of these so-called not-for-profit care companies are a stepping stone towards the privatisation of these services. You start at the same level as directly employed healthcare assistants, with parity and so on, and end up on poverty pay working for a company where there is no accountability and the work is outsourced and privatised. That is a big part of a changing world. It is not as high flying as digital and all that stuff but is an important part of our future, given our ageing population. We need to start to treat those workers properly. It begins with them being returned to the pay parity they enjoyed before austerity, which, let us not forget, was imposed after Fianna Fáil drove us over a cliff.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" eId="spk_229">
+          <from>Deputy John McGuinness<recordedTime time="2026-05-27T15:50:00+01:00"/></from>
+          <p eId="para_673">I agree with Deputy Newsome Drennan about the transparency that is needed around the Carlow College decision and the 600 students and staff. We need clarity as soon as possible and I ask the Minister to give that issue his attention.</p>
+          <p eId="para_674"> I welcome the fact that we have a South East Technological University. I want to see the campuses developed properly and fully, and funded. I refer particularly to Kildalton College and the veterinary courses there. We need to see a future where more students are attracted into that area and the funding is clearly available for the expansion of those courses.</p>
+          <p eId="para_675">Likewise, millions of euro have now been invested in the further education college of the future in Kilkenny and I would like to see it expand and develop again.</p>
+          <p eId="para_676"> Earlier in the debate, Lemass and Whitaker were mentioned. If they were here, they would probably say the development of everyone in the Civil Service sector needs as much attention to ensure they keep pace with the policies we are putting forward. Much of the expenditure we approve in the House is poorly spent. There are often big issues with it but it is a large amount of money. It is time now that we modernise the Civil Service, equip the staff for what we want them to do with the policies we are outlining and encourage them to reform Government Departments in a meaningful way so they are at pace with political decisions and the changing world we now live in. Will the Minister of State address that in the context of education?</p>
+        </speech>
+        <speech by="#MalcolmByrne" eId="spk_230">
+          <from>Deputy Malcolm Byrne<recordedTime time="2026-05-27T16:00:00+01:00"/></from>
+          <p eId="para_677">Lamp lighter, town crier, water carrier, horse-drawn cart driver, washerwoman - these were all careers highlighted in the 1926 census, which was published recently. I am sure many here looked at the national archives and saw those roles. They were all skilled roles. What happened was that technology came along and replaced them over time. It is critical for any society when technology comes along that people do not stand like Luddites, as we heard some colleagues speak previously, but embrace the technology, avail of the opportunities and, most important, ensure citizens are upskilled to avail of the new opportunities. AI is without doubt the most transformative technology we have seen in quite some time. The World Economic Forum reckons that in the next five years, while 92 millions jobs will be displaced globally, 170 million new jobs will be created in new areas, in exciting areas like healthcare and so on.</p>
+          <p eId="para_678"> I commend the Minister, Deputy Lawless, on the <i>aiready.ie </i>initiative and the proactive approach being taken by many universities and training agencies to upskill and reskill all our citizens. However, it will require a whole of society approach and we need to be ambitious because this will have an impact on every area. How are we embedding the use of AI skills - the value that can be added by their use - into every area of work from agriculture to transport?</p>
+          <p eId="para_679"> I will briefly mention another critical issue. We all know about the great work done by Youthreach and local training initiative programmes. I am familiar, for instance, with Youthreach in Gorey. The Gorey and Courtown local training initiatives, LTI, offered through Gorey Youth Needs Group do incredible, good work on the ground. Many young people have been able to avail of training and have gone on to pursue incredible careers. However, there remains a differential in the pay structures between staff who operate on Youthreach programmes and staff who operate on LTI programmes. Those inequities need to be addressed. The people providing young people with real opportunities need equity and I ask the Minister of State to prioritise that matter.</p>
+        </speech>
+        <speech by="#NaoiseOCearuil" eId="spk_231">
+          <from>Deputy Naoise Ó Cearúil<recordedTime time="2026-05-27T16:00:00+01:00"/></from>
+          <p eId="para_680">Thinking of a changing world, many of us this afternoon are speaking about AI, and rightly so. However, in Ireland the changing world also means an increase in population and an ageing population. Thankfully, we have the National Training Fund and €650 million of that is for healthcare training. In my hometown, Maynooth, for example, there is now a school of nursing helping to tackle the issue of not having enough healthcare staff across the country and particularly in the eastern region. That is extremely welcome.</p>
+          <p eId="para_681"> On artificial intelligence, many colleagues have spoken about the initiatives taken by the Government thus far, particularly by the Minister, Deputy James Lawless, my constituency colleague, including the launch of <i>aiready.ie</i> two weeks ago and how that is improving and helping people. Some 45 micro qualifications are ready. Springboard courses and Skillnet courses are available. These are all courses happening, particularly for people looking to learn more about AI.</p>
+          <p eId="para_682"> Where we fall short is in workers <i>in situ</i>. I spoke about this as a Topical Issue matter this morning. The Minister of State, Deputy McConalogue, was here when I spoke about it. I have developed a policy and programme and a pilot for that programme under which people would be retrained and reskilled within their roles if their jobs are at risk, if there is a risk of that job being removed. That ensures we protect workers in the jobs they are in, rather than them losing them. It is not just a higher education and skills issue. It is a Department of enterprise issue and a Department of Social Protection issue because it goes across all of society. Most important, it is a workers' issue, to protect workers in society.</p>
+          <p eId="para_683"> Deputy Malcolm Byrne spoke about the various historical jobs that no longer exist. Some administrative jobs will no longer exist but people who work in administration in a law firm, for example, could manage the AI software or become a data analyst. It is reskilling in the job and the State has, and should have, a role to contribute, but so should employers. That is critical for the future of workers.</p>
+        </speech>
+        <speech by="#MaeveOConnell" eId="spk_232">
+          <from>Deputy Maeve O'Connell<recordedTime time="2026-05-27T16:00:00+01:00"/></from>
+          <p eId="para_684">Today, I will speak about AI in higher education and specifically the impact it is having on staff in higher education. AI is often talked about as a double-edged sword in education. There are benefits for students with personalised learning, continuous feedback and delivery of education through multi-media. Students have different learning styles and now we can deliver education in different ways to suit them. However, this is putting increased pressure on staff. The staff are not getting the same benefits from AI. It is putting increased workloads on them and we are not focused enough on this and do not talk enough about it. These are the very people on whom we depend to deliver all the wonderful things we are hearing about today to upskill our workforce for the future. It is the staff we expect to do that upskilling.</p>
+          <p eId="para_685"> Why are they facing these additional pressures? They are all being asked to redesign assessments. We are in a post-plagiarism world, as it is called. Our traditional form of assessment, the final written exam, guarantees academic integrity but is also vulnerable to issues around the use of AI. Staff are having to learn new systems and to do things differently through AI. Even if AI is used for assessment purposes, it still needs human verification. One study found that 75% of students were failed by the AI grader so all of those had to be verified. Lecturers are conducting mini <i>viva</i>
+						<i>voces</i> on written assignments to ensure academic integrity is maintained, that the students are learning what they were taught, what it was intended for them to learn and that they have embedded that learning. AI grading is also generating more student queries than forms of traditional assessment. One study found that 88% of students queried their AI generated grade.</p>
+          <p eId="para_686"> This is in a context where we are facing an ever increasing arms race with AI technology. There is a race between the detection tools to check whether an assignment submitted used AI and students' evasion tactics. In the short term, I do not see that the extra workload on staff in higher education institutions will reduce. In fact, we could be facing a number of years of constant pressure to try to maintain the standards and integrity.</p>
+          <p eId="para_687"> I welcome the Higher Education Authority's new framework on AI. It creates a groundwork around it but we also need to support it more with openness to change. We need to look at ways to support our staff. One in five staff in higher education is on a temporary contract. They need support to manage these changes.</p>
+        </speech>
+        <speech by="#FionntanOSuilleabhain" eId="spk_233">
+          <from>Deputy Fionntán Ó Súilleabháin<recordedTime time="2026-05-27T16:00:00+01:00"/></from>
+          <p eId="para_688">Many may be fixated on upskilling in AI but Ireland is at crisis in another way, with the lack of practical skills. There are shortages in a whole range of craft areas, with a lack of builders, the lack of upskilling and training in building or construction, including plastering, plumbing, retrofitting, electrical services, carpentry and I could go on. These are all practical skills we desperately need.</p>
+          <p eId="para_689">Unfortunately, Ireland moved away from this as a society. We started to look down our noses at training and apprenticeships in these vocational areas. There was an overprioritisation, with all young people having to have a university degree. That happened over the last couple of decades and Ireland is very much paying the price for it now. It was a very short-sighted approach. It is grand talking about AI and upskilling in this area but if you do not have plasterers, builders, plumbers, carpenters or retrofitters - areas in which young people can make a great amount of money - Ireland is going to be paralysed. We can see that in the delivery of our infrastructure at the moment.</p>
+          <p eId="para_690"> I am on the Oireachtas Joint Committee on Further and Higher Education, Research, Innovation and Science, as is Deputy McGettigan who is sitting here in front of me. We produced a 59-page document recently following eight meetings with a vast range of groups, basically to come up with practical recommendations for the next apprenticeship strategy for 2026-30. It examined how the system is working or, should I say, how it is not working. We looked at areas like the shortage of skills in areas such as housing delivery, infrastructure and climate transition. We need to put a great focus on resourcing Youthreach programmes and the ETBs. We identified many barriers to these apprenticeships in Ireland. There were financial barriers due to low pay, insufficient allowances and high up-front costs for tools; barriers for those with disabilities and low incomes; travel and accommodation issues in terms of long commutes and accommodation support if people have to live away from home. There were also employer-related barriers, especially for SMEs, with difficulties in having apprenticeships, training blocks for apprentices, the administrative burden and a lack of financial support for small businesses to employ apprentices. Other barriers identified were the lack of awareness and poor promotion in our secondary schools; a cultural bias in favour of the university pathway; the complexity of the system, with multiple bodies such as SOLAS and the ETBs; and the lack of a centralised system like the CAO, which we need to have. As regards access and inclusion, there were barriers for those in minority groups, childcare responsibilities and a difficulty in matching up employers with apprentices. There are 48 recommendations and I encourage the Minister of State to look through them. I could go on all evening on it, but it is a key area we need to look at because otherwise we are going to be lost as a country. We can talk all we like about AI but if we do not have the practical skills we will be lost.</p>
+        </speech>
+        <speech by="#PeadarToibin" eId="spk_234">
+          <from>Deputy Peadar Tóibín<recordedTime time="2026-05-27T16:10:00+01:00"/></from>
+          <p eId="para_691">It is really important to have a debate on the issue of AI and the impact it is going to have on society, training and education but we have not really had one in this country for a long time. We are at the edge of a significant economic transformation in Ireland. We are probably one of the most exposed countries in the whole of the European Union in terms of the AI revolution. It is not something that will happen in the distant future; it is happening at the moment. It is already leading to unemployment in this country. Incredibly, 20,000 jobs have been lost in the IT sector in just the first three months of this year. That is an incredible figure. It is hidden by the fact that we have good job figures in general, but there is an underlying fault line which is starting to create major difficulties. I shudder for any parent who is sending a child into university at the moment and has to try to select the right jobs and the right courses for their children, given the fact that AI is coming after some of the most well-paid jobs in the country. Many of the jobs and the further education courses that were highly sought-after by children and parents are now the types of jobs that are going to be swallowed up by AI.</p>
+          <p eId="para_692"> I have listened to other TDs talk about this. There has not been an equivalent to the revolution we are seeing at the moment. The Industrial Revolution is probably going to be the closest equivalent to it. AI is equivalent to nuclear power in relation to its impact on society. It can, like nuclear power, be a force for good but it can also be a force for great harm. I do not think the attitude of the Government, which says, "Ah sure it will be fine; there will be bumps along the way but we will get over it and in the end we will all work out a little bit better," is the right attitude to it. It is going to have a severe effect on the economy. It is going to affect top-paying jobs the most. According to the ESRI, 7% of all jobs in this State, in the short to medium term, are in danger as a result of AI and its development. The closest thing I can think of in recent times, in terms of jobs being lost in this revolution, is potentially the bank crash.</p>
+          <p eId="para_693"> US tech companies are investing heavily in AI. They are slashing jobs in staggering numbers. Microsoft cut 15,000 workers last year. Amazon laid off 30,000. Block estimated 4,000 jobs, or 40% of its workforce, were gone. Oracle laid off thousands of jobs. Pinterest has laid off 14% of its workers in recent times. Google is saying that AI accounts for 51% of all code that has been written in that organisation in the last while. Block's head of engineering said 90% of the company's code submissions were authored partially or fully by AI in the last while. All of these areas are in big trouble.</p>
+          <p eId="para_694"> There are a number of things falling out of this as well. Staff are being forced to use tools that are designed to replace their jobs. On that key element of human oversight of decisions that are being made by AI, staff whistleblowers are indicating that this is not happening in many situations. Many of the entry-level roles for finance or law graduates are being replaced with AI at the moment.</p>
+          <p eId="para_695"> Like nuclear power, we really need to regulate AI in an international fashion. No individual company, or even a bloc such as the European Union, can regulate it by itself. As countries such as China and the US are going to look to further gain competitive advantages in terms of AI over the next while, there needs to be an international agreement on how we deal with AI and its development in future. That is the first issue.</p>
+          <p eId="para_696"> The other issue relates to training and education. There are 7,000 Irish nurses registered in Australia at the moment. We are educating Irish nurses to go abroad to work. That is bonkers. Spending significant sums of money to educate medical experts and healthcare workers to work in another jurisdiction is one of the stupidest things a State can do. An individual business would be out of its mind to do that, yet that is what we are doing at the moment. In 2023, the majority of doctors who graduated left the country. Right now, 51% of all students in medical schools in this State are from outside the EU. The medical schools are dependent on money to function. They are not getting enough from the State. They get far more from students from outside the EU because those students have to pay tens of thousands of euro for their degree. Therefore, currently the majority of medical students in Irish universities are from outside the EU. These individuals will naturally want to go home and work in their home countries. Again, our infrastructure is being used to educate staff for other locations. As a result, the majority of staff we are putting into our hospitals are themselves from other countries such as India, Sudan and elsewhere. It is not like people are not getting sick in these other countries. They are. This idea that states are educating people for other states and then filling their hospitals with graduates from other countries needs to be looked at. The idea that the Government is presiding over medical schools where the majority of students are from outside the European Union is wrong. I have raised this for the past few years and nothing has happened on it at all.</p>
+          <p eId="para_697"> I agree with Deputy Fionntán Ó Súilleabháin that there is currently a massive gap in the whole trades area in Irish society. It is one of the significant gaps that exists in the construction industry. The Government has indicated that there are quite a few large infrastructural projects coming down the line. We are hopeful of a Navan to Dublin rail line, etc., being built in the next number of years. We do not currently have the workers to fill those gaps. Right now, any domestic person looking for a plumber or an electrician is having great difficulties.</p>
+          <p eId="para_698">The project to get solar panels onto our roofs is being slowed down by difficulties in getting electricians. There is a massive pool of Irish people working abroad who were working in the State in these trades. Aontú has a policy called "Operation Shamrock", the objective of which is to provide funding for these individuals to come home, to provide funding for them to work for four years in the sectors we need them to work in and to provide accommodation quickly so they have somewhere to live. The Government was able to provide accommodation quickly for IPAS and should be able to do the same to get workers back from the likes of Australia and Canada to work in this country in the trades where they are badly needed.</p>
+          <p eId="para_699"> As a country, we are at a precipice of enormous, radical change, change that most of us cannot imagine or plan for. There is very little effort by the Government to seek international regulation to control that change in a manner that does not disrupt people's lives. It will disrupt people's lives and reduce significantly many people's incomes, which will have knock-on effects on mortgages and people's ability to raise their families. That controlled transition is not happening, which will create great difficulties for the training and education sector.</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_235">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T16:20:00+01:00"/></from>
+          <p eId="para_700">When we speak about ensuring our skills, training and innovation systems keep pace with the changing world, we often focus on technology, artificial intelligence - which will be revolutionary - automation and digital transformation, but for constituencies like Roscommon-Galway, the real question is much simpler: will people have the opportunity to build a future where they are from? Change is already happening. Employers are struggling to recruit. Our health services need skilled professionals. Construction needs apprenticeships and tradespeople. Agriculture is becoming more technologically advanced and more specialised. Small businesses are expected to digitise and compete globally. The risk is not simply falling behind technologically; the risk is that rural communities fall behind economically.</p>
+          <p eId="para_701"> We need a skills system that recognises learning does not end at 21 years of age. People should be able to engage in lifelong learning when they are returning to work or changing careers. Many people will be changing careers with the advent of artificial intelligence - farming, running a business or adapting to new industries. We also need to elevate apprenticeships, practical training and further education to the same status as traditional academic routes. Success should not depend on leaving your county. Innovation must not stop at the gates of our cities. If Government is serious about balanced regional development, investment in skills, enterprise supports and training opportunities, it must reach towns across Roscommon-Galway and the wider west.</p>
+          <p eId="para_702"> I welcome the commitment to the veterinary college in Mountbellew, east Galway, as a demonstration of the Government's commitment to decentralise higher education. Talent, ambition and potential are not scarce in rural Ireland; what is scarce, too often, is access. Our responsibility is to ensure that, in a rapidly changing world, a person's place of birth never determines whether they can adapt, succeed or contribute. The pace of change is not slowing down and rural Ireland cannot be expected to simply catch up afterwards. We need to anticipate where jobs are going, where shortages are emerging and where opportunities will come from, and we need to prepare people before those gaps appear. If training and innovation systems move too slowly, communities like ours risk losing people, investment and opportunity. Getting this right is not only about economic growth; it is about keeping towns viable and services functioning, and giving people a genuine reason to build their futures at home.</p>
+        </speech>
+        <speech by="#JohnConnolly" eId="spk_236">
+          <from>Deputy John Connolly<recordedTime time="2026-05-27T16:20:00+01:00"/></from>
+          <p eId="para_703">The Irish workforce's strong foundation has been referenced frequently throughout this debate. We have one of the youngest and most educated workforces in Europe and continue to attract significant investment because of that, particularly in high-value sectors such as med tech and ICT.</p>
+          <p eId="para_704"> Galway has become a global leader in medical technology, employing thousands in companies that export worldwide. Within the city, we are conscious of its importance and we want to develop it further and to create a workforce in the city and the region that can facilitate that growing sector. I do not think that success in the med tech sector - we are also enjoying some development in the whole tech sector - in Galway emerged in isolation. It is deep-rooted in Galway in that the city has a strong creative and cultural identity and a strong tradition in the creative arts going back some time. We are well known for the traditional Irish arts but, even in more recent years, the range and spectrum of artistic endeavour in Galway city is ever growing. That is one of the things that has created this innovation in science and technology in the city. It is fuelled by that creativity. For that reason, it is important our approach to research and education be balanced. While investment in STEM is hugely important and will ensure we have the workforce to fill the jobs I speak of, we must also support other areas of research and academic endeavour, such as humanities, the arts, history and sociology. These disciplines develop creativity, critical thinking and cultural confidence, and that is vital to a functioning and creative society and economy.</p>
+          <p eId="para_705"> Is mian liom ceist a ardú faoi na deiseanna atá ar fáil – nó easpa deiseanna atá ann faoi láthair – chun staidéar a dhéanamh trí mheán na Gaeilge ag an tríú leibhéal. Labhraíonn muid go rialta ag an gcoiste Gaeilge agus ag an gcoiste ardoideachais agus breisoideachais agus deirimid nach bhfuil go leor deiseanna faoi láthair do dhaoine a bhfuil an Ghaeilge acu mar chéadtheanga staidéar a dhéanamh trí mheán na Gaeilge ag an tríú leibhéal. Caithfidh muid breathnú air seo. Ní hamháin gur rud teanga é seo, ach is é an rud ceart é.</p>
+          <p eId="para_706"> Dá dtógfaí mé le Gaeilge, ba cheart go mbeadh na deiseanna agam staidéar a dhéanamh trí mheán na Gaeilge ag gach leibhéal oideachais – ag leibhéil na bunscoile agus meánscoile agus ag an tríú leibhéal chomh maith. Níl na deiseanna sin ann faoi láthair. Ba cheart dúinn breathnú air sin, go háirithe má tá muid dáiríre faoin sprioc atá againn go mbeidh 20% den earnáil phoiblí in ann Gaeilge a labhairt go líofa faoi 2030. Caithfidh muid a bheith cinnte go bhfuil an córas oideachais agus an córas oiliúna in ann an sprioc sin a bhaint amach.</p>
+          <p eId="para_707"> Another local development that is crucial to the advancement of the education sector and the realisation of the skill development we want to see in the country, particularly in Galway, is the college of further education that is being proposed by the Galway and Roscommon Education and Training Board. We met recently with the board and the Minister, Deputy Lawless, met with the executive of the GRETB. There are very exciting plans there. The further education sector has become a real option for young people on their conclusion of secondary school. We need to provide the facilities to match those opportunities. The Galway college of further education is an exciting development. The proposed building is based on the Tuam Road in Galway. It would expand access to training and skill development, support regional economic development and strengthen the links between education and enterprise. I will not say there are barriers or impediments. It is progressing but the pace of progress from concept to reality is slower than we would like. We would like to think development could be quicker. I know the members of the executive of the GRETB are anxious to progress it. I do not think they would be offended by my saying they are becoming a little bit frustrated by the assessment process it must go through before they are given the green light to develop the facility. Will the Minister of State discuss that with the Minister, Deputy Lawless, and the Department of further and higher education, so that the project comes to fruition at the earliest opportunity?</p>
+          <p eId="para_708"> There is another thing that, in a general sense, it is important to raise during this debate.</p>
+          <p eId="para_709">Participation in lifelong learning in Ireland lags behind other EU countries. We still have this sense that education is solely for young people and while it is most advantageous for young people to avail of it as early as they can in life, we still need to turn the dial somewhat to give people the opportunities throughout their lives for educational enhancement, skill development and personal enhancement because one core aspect of the education system at every level - primary, secondary and third - should be the development of the person. Whatever skills they learn will be their vocation in life. We need to teach young people, and all people, that all those cross-curricular, or transversal skills as they are called in the third level and further education sectors, such as personal skills, personal well-being, critical thinking and how to work together as part of a team, are hugely important. They create good employees and good members of society as well.</p>
+          <p eId="para_710"> One of the debates we had at the higher education committee recently was about the area of assistive technology in the third level sector. It was interesting to hear from some of those working in the sector and the discussion around how they feel that young people may not have the level of digital literacy skills that we may have taken for granted that they do have and how they find that it is necessary to train young people in that area. That is hugely important. One of the things they spoke about was how different operating systems and platforms demand different skills and young people who are able to manage one platform or operating system are challenged by others. Examining that issue is important too.</p>
+        </speech>
+        <speech by="#CarolNolan" eId="spk_237">
+          <from>Deputy Carol Nolan<recordedTime time="2026-05-27T16:30:00+01:00"/></from>
+          <p eId="para_711">We are told constantly that Ireland must prepare for a changing world: automation, the green transition, AI and new labour market demands. Yet, when we examine how this Government is actually managing the National Training Fund – the very tool meant to deliver those skills – an interesting picture emerges. Through a series of recent parliamentary questions, I have exposed the reality. In 2025, the National Training Fund ran a surplus of €283 million. Levy income reached €1.297 billion while spending was just €1.014 billion. Projections show surpluses of €172 million in 2026 rising to €365 million annually by 2030 while actual training expenditure flatlines. </p>
+          <p eId="para_712"> Employers pay the full 1% levy in good faith, yet this money sits unused rather than reaching the front line. IBEC recommended a targeted, time-limited rebate in 2022 to help businesses cope with rising costs. The Government refused it outright as the Minister reconfirmed to me recently in a response to a parliamentary question. I ask for that to be looked at again because businesses are really struggling and it is a sensible, common sense and practical proposal put forward by IBEC.</p>
+          <p eId="para_713"> Instead, we are told that any change is a matter for the Estimates process. Meanwhile, rural and domestic SMEs, battered by auto-enrolment, the living wage, and pension hikes get no relief.</p>
+          <p eId="para_714"> The neglect of practical, sector-specific training is particularly stark. For example, look at Farm Business Skillnet, the exact type of close to the labour market programme IBEC called for. Funding has crawled from €152,124 in 2023 to just €160,000 in 2025. I ask for this to be addressed. In terms of apprenticeships I also ask that the funding for phase two apprenticeships be allocated to Laois and Offaly Education and Training Board Excellence, LOETB. I visited its skills centre on Monday and the Minister, Deputy Lawless, was also there and it was very much appreciated. We need the STEM officer to continue in their role in Offaly County Council. It is important that is also funded. I make those calls on behalf of my constituency. I hope the funding for those positions will be continued because they have been highly effective. I saw the apprentices in action in the skills centre in Tullamore and they were very impressive. We need to become more ambitious and more like Germany in terms of the range of apprenticeships and in terms of making sure that apprenticeships are on the same level as degree programmes.</p>
+          <p eId="para_715"> In fairness, I can see that progress has been made. We have the skills centre in Mount Lucas, and I commend LOETB on all its fantastic work. It was great to get the opportunity to meet some of the apprentices who were there on Monday. More women are going into apprenticeships as well and that was clear to be seen in Tullamore. I want to reiterate the calls for funding for phase two of the apprenticeship programme and for the STEM officer for Offaly County Council.</p>
+          <p eId="para_716"> I referred to the Farm Business Skillnet initiative earlier. However, the number of farm businesses supported has collapsed and this has to be taken on board. It has collapsed from 2,112 farm businesses to 1,199 and the total funding for all agriculture-focused Skillnet networks has fallen from €2.94 million to €2.61 million. That is not keeping pace. We need real skills and not paper skills.</p>
+          <p eId="para_717"> The just transition, for example, is not an abstract concept. Older workers face real disruption from climate policy, technology change and market shifts. They need targeted, practical upskilling delivered through employer-led networks like Skillnet and not just box ticking.</p>
+          <p eId="para_718"> The National Training Fund belongs to the employers and workers who pay into it. It should not be a slush fund for pet projects. I call on the Minister to immediately increase core funding to Farm Business Skillnet and other rural Skillnet programmes in addition to the other funding that I mentioned was needed.</p>
+        </speech>
+        <speech by="#CharlieMcConalogue" as="#Minister_of_State_at_the_Department_of_Culture,_Communications_and_Sport" eId="spk_238">
+          <from>Minister of State at the Department of Culture, Communications and Sport (Deputy Charlie McConalogue)<recordedTime time="2026-05-27T16:30:00+01:00"/></from>
+          <p eId="para_719">I thank all Deputies for their contributions today. This has been a thoughtful and wide-ranging discussion, and it also reflects the shared understanding across the House that the pace of change we are experiencing is both significant and accelerating.</p>
+          <p eId="para_720"> Ireland has transformed profoundly over recent decades. We have built a strong, dynamic and outward-looking economy, supported by a workforce that is skilled, adaptable and ambitious. That resilience remains evident today, even as we navigate a period marked by geopolitical uncertainty, economic pressures and shifting global dynamics.</p>
+          <p eId="para_721"> As has been reflected in the debate, we are now moving into a new phase - one where the scale, speed and interaction of change are unlike anything we have experienced before. The forces we have discussed, the so-called "4 Ds" of demographic change, digitalisation, decarbonisation and deglobalisation, are not abstract trends. They are already reshaping our economy, labour market and society. They are influencing where jobs are created, how work is organised and what skills are required to participate fully in that changing world.</p>
+          <p eId="para_722"> In response, there is a significant amount of work already under way. Across further and higher education, we have seen a sustained expansion of capacity and a diversification of pathways. There is now a much stronger emphasis on flexibility and on creating opportunities for people throughout their working lives. Initiatives such as the growth of apprenticeships, the development of new tertiary pathways and the expansion of flexible and modular learning are helping to open up access and meet evolving needs.</p>
+          <p eId="para_723"> We also need to think carefully about how students enter education. Ireland has traditionally channelled young people into narrow specialisations at an increasingly early stage. There is merit in broader entry pathways that allow students develop strong transversal skills such as critical thinking, adaptability, communication and problem solving before specialising later.</p>
+          <p eId="para_724"> There has also been a clear focus on strengthening the link between education and enterprise. That partnership is essential. Whether through direct industry engagement, targeted initiatives or structured dialogue such as the national skills round tables, we are seeing a more responsive and aligned approach to identifying and addressing skills needs as they emerge.</p>
+          <p eId="para_725"> At the same time, investment has increased significantly supporting not only skills development but also research and innovation capacity. That investment is about more than numbers; it is about building a system that can adapt, anticipate and continue to evolve in line with economic and societal change.</p>
+          <p eId="para_726"> There is important work under way to strengthen our understanding of those changes through improved data, better foresight and a more strategic approach to planning for future skills needs.</p>
+          <p eId="para_727">All of that represents real and meaningful progress, but it is important to recognise that this progress does not remove the challenges ahead. If anything, it underlines their scale. We will face increasing competition for skills across critical areas of our economy, from construction and infrastructure to healthcare, digital technologies and the green transition. We will have to balance competing demands, manage constraints and make choices about where to focus our efforts. That is the reality of a tighter labour market and a more complex global environment. Perhaps most importantly, we must remain conscious of the time dimension. Investment in skills is essential, but it is often not immediate in its impact. The decisions we take today in education, training and workforce development will often take years to fully translate into outcomes. That requires a long-term perspective and a willingness to maintain focus and investment even as pressures evolve.</p>
+          <p eId="para_728"> While there is much to point to in terms of progress, there can be no complacency. If anything, the uncertainty of the current moment reinforces the need for sustained effort. Technological change will continue apace, demographic pressures will intensify over time and global conditions will remain unpredictable. The demand for skills will continue to shift as a result. Our collective task is to ensure that we remain responsive to that change while also being grounded in a clear understanding of our priorities and constraints. Our approach is to continue to invest in people. This means maintaining strong partnerships between the Government, enterprise and education. It also means being willing to adapt our approaches as new challenges emerge and recognising that this is not a once-off response, but an ongoing process.</p>
+          <p eId="para_729"> Every major phase of Irish progress has ultimately depended on education, skills and knowledge. The decisions we take now on apprenticeships, research, infrastructure, lifelong learning and workforce development will shape Ireland long after current pressures and headlines have passed. Our responsibility is to ensure the next generation inherits a country equipped not merely to compete but also to thrive. Debates such as this form part of that process with acknowledgement of the importance of continued engagement across this House and the value of bringing different perspectives to bear on a shared set of challenges. I look forward to continuing that engagement in the time ahead and to working with colleagues to ensure that Ireland remains well-positioned to navigate the changes that lie before us.</p>
+        </speech>
+        <speech by="#ErinMcGreehan" as="#An_Cathaoirleach_Gníomhach" eId="spk_239">
+          <from>An Cathaoirleach Gníomhach (Deputy Erin McGreehan)<recordedTime time="2026-05-27T16:40:00+01:00"/></from>
+          <p eId="para_730">Before I move to the next item, I want to warmly welcome Emma Harte, Aidan Harte, Susan O'Reilly, Lynn Carr and Joanne Lynch to the House.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="motion" eId="dbsect_17">
+        <heading>Extension of Civil Law (Miscellaneous Provisions) Act 2021: Motion<recordedTime time="2026-05-27T16:40:00+01:00"/></heading>
+        <speech by="#NiallCollins" as="#Minister_of_State_at_the_Department_of_Justice,_Home_Affairs_and_Migration" eId="spk_240">
+          <from>Minister of State at the Department of Justice, Home Affairs and Migration (Deputy Niall Collins)<recordedTime time="2026-05-27T16:40:00+01:00"/></from>
+          <p eId="para_731">I move:</p>
+          <p class="indent_1" eId="para_732">That Dáil Éireann resolves that the period of operation of sections 1 to 7 and 9 of the Civil Law (Miscellaneous Provisions) Act 2021 (No. 14 of 2021) be extended for a further period of six months, beginning on the 1st day of June, 2026 and ending on the 30th day of November, 2026.</p>
+          <p eId="para_733"> I am here to introduce a resolution to extend the sunset clause in the Civil Law (Miscellaneous Provisions) Act 2021. Deputies will be aware that the Act was introduced in July 2021 and this allowed the hospitality sector to continue to provide the sale and supply of intoxicating liquor in outdoor seating areas. This Act was introduced during the Covid-19 pandemic. Much of the legislation enacted at that time was introduced in response to the real challenges faced, in particular by local businesses, because of the pandemic. Those in the hospitality sector faced enormous challenges, and the State intervened and provided significant and worthwhile supports that kept many of those businesses going. The provisions of the 2021 Act were in place until 30 November 2021 and have been further extended nine times by resolutions of each House of the Oireachtas in November 2021, May 2022, November 2022, May 2023, November 2023, May 2024, October 2024, May 2025 and November 2025. The relevant provisions regularising the position in respect of outdoor seating areas on a permanent basis have been included in the Criminal Law, Civil Law and Defence (Miscellaneous Provisions) Bill 2026, which was published on 9 January 2026, completed Second Stage in the Dáil on 22 January and completed Committee Stage on 19 May. As the progression of the Bill through the Houses is ongoing, it will not be possible to bring these provisions into operation prior to 31 May next.</p>
+          <p eId="para_734"> The extension of provisions in the 2021 Act today will allow the hospitality sector, local businesses and patrons to continue to enjoy the benefits of outdoor hospitality while the measures to place matters on a permanent footing are going through the Houses. Earlier this month, the Government agreed to extend the provisions of the 2021 Act for a further six months. The measures provided for in the Act also ensure that An Garda Síochána know that those premises engaged in the sale and supply of intoxicating liquor in outdoor seating areas are doing so lawfully, providing An Garda Síochána with the power to direct licence holders to comply with this legislation as it relates to outdoor seating areas, facilitates the enforcement of the Act and is an important safeguard. The House will agree that it is essential that An Garda Síochána continue to have clarity in relation to its powers for public order purposes, and equally, that licensed premises owners understand their obligations to maintain order in outside public areas where they are selling alcohol.</p>
+          <p eId="para_735"> The Government considers it to be in the public interest to provide for the sale or supply of intoxicating liquor in certain circumstances in seating areas located outside licensed premises. This allows licensees of such premises to conduct business and to operate in these outdoor seating areas. It is important to extend this operational period for another six months to give clarity to licensed premises, local authorities and An Garda Síochána. The increased availability and popularity of outdoor dining and socialising has been welcomed by many. Its innovation is reflective of the demand for more variety and choice in the ways in which we socialise and in the types of venues and social spaces that are available. It is also crucial to the viability of many local businesses across our towns and cities. Accordingly, it is proposed to extend the operation of the Act for a further period of six months until 30 November next to allow for ongoing certainty for all those operating in the hospitality sector, their patrons, local authorities and An Garda Síochána.</p>
+          <p eId="para_736"> In summary, I am here to ask for the support of the House to extend the provisions of outdoor seating which have proven to be popular in the industry, local businesses and patrons. As previously stated, these provisions have been included in the Criminal Law, Civil Law and Defence (Miscellaneous Provisions) Bill 2026. I commend the motion to the House.</p>
+        </speech>
+        <speech by="#MarkWard" eId="spk_241">
+          <from>Deputy Mark Ward<recordedTime time="2026-05-27T16:40:00+01:00"/></from>
+          <p eId="para_737">The 2021 Act introduced a change in the law to allow for the sale and consumption of alcohol in relevant outdoor seating areas where the use of those areas has been permitted by local authorities on public land or private land next to a licensed premise. This was emergency legislation that was brought in during Covid. Five years later, we are still dealing with six-month extensions of that legislation. I am a member of the justice committee and am aware that there is legislation pending in this area. Hopefully, that legislation will get through the Houses of the Oireachtas sometime this year because it is important that we get the regularisation of outdoor seating areas on a permanent footing. It is important that we do that instead of coming in here and doing this every six months as we have done for the past number of years.</p>
+          <p eId="para_738"> It is apt that we are talking about this today. I went for a walk on my lunch break. It is gorgeous out. The weather is beautiful. I walked down streets that previously would not have had outdoor seating areas and saw people sitting out and enjoying a coffee or an alcoholic drink, having a bit of food and socialising. That brings the city to life. It brings a new vibrancy to our city. It is the same in villages and towns across the country. It is important that we support this.</p>
+          <p eId="para_739"> We also need to look at the broader supports that are given to our villages, towns and city centres to make them safer and more welcoming spaces and at how we invest in public amenities and help small local businesses to get started and to thrive.</p>
+          <p eId="para_740">Unfortunately, the policies of successive Governments have hollowed out our villages, rural towns and city centres. Organisations like Clondalkin Tidy Towns need to be better supported. The latter is a voluntary group of community activists. It was established in 2012 and it seeks to restore pride to Clondalkin village. It does sterling work for the community and is unselfish in its aim to make Clondalkin a better place for us all to enjoy. It gets good support from South Dublin County Council, but the latter is often hamstrung by budgetary and bureaucratic issues. One recent example was when the Tidy Towns group tried to get some storage space in the village area. This was met with resistance from South Dublin County Council. To me, providing a storage space to a vital organisation that volunteers in our village to make it a better place is a no-brainer. Even today, Clondalkin Tidy Towns had to resort to a Facebook post calling on South Dublin County Council to power-wash the streets of our village. This would not happen if the local authority was given an adequate budget by central government.</p>
+          <p eId="para_741"> I want to take this opportunity to thank all the volunteers in the Clondalkin Tidy Towns group for the unselfish work they do for us all to enjoy and benefit from. The Government would be much better off trying to revitalise our villages. It must ensure that there are proper public services, including access to GP services, good public transport and enough gardaí. It must ensure that our towns have proper amenities for our young people. Unfortunately, what we have seen in villages in Dublin Mid-West such as Clondalkin and Lucan and others is the proliferation of unregulated vape shops. These brightly lit shops entice young people with their colours, lights and advertising. The packaging is aimed at children, and it is not uncommon for children in school uniforms to be seen going into these shops and coming out with vapes. I am aware that the Government is bringing forward legislation to tackle this scourge in our communities. However, it is too late for a generation of young people who are already hooked on nicotine.</p>
+          <p eId="para_742"> The Government has set aside one hour today to extend the provisions of the 2021 Act to make our cities more vibrant and user friendly. If it had dealt with this previously, we could now be dealing with issues that are directly impacting our cities at the moment. I want to talk about the horse-drawn carriages in Dublin city centre that are to be found just around the corner from where we are sitting. Dublin has a rich cultural history of proper urban horsemanship. Horse carriage rides are synonymous with the south inner city. It is very sad to see this being eroded as a result of a lack of regulation. We have a situation where have responsible carriage operators who are fully licensed by Dublin City Council are working alongside rogue operators who do not have proper certification. Whenever there is no regulation, there is a disregard for animal welfare and the welfare and cleanliness of our city. Steps need to be taken to ensure that this industry is regulated and that our city is properly looked after.</p>
+          <p eId="para_743"> While the purpose of this motion is to deal with street furniture to make our city a better city for all, Dublin City Council has put in place planters along St. Stephen's Green to impede the horse-drawn carriages from parking there safely. I have asked the council to remove them. Perhaps the Minister for justice can do the same, because this is an area that is in his constituency. We need to respect the culture and history of responsible horse-drawn carriage operators who look after their animals and who are also endorsed by animal welfare groups like My Lovely Horse.</p>
+          <p eId="para_744"> Discarded nitrous oxide canisters are another blight on our towns and villages. The Government has delayed my legislation to tackle this issue by nine months. In that time, we have seen more reports on the health impacts on young people of nitrous oxide misuse. Earlier today I received information from Fingal County Council to the effect that it disposed of 4,900 canisters in 2024 and a further 4,000 in 2025. The council also reports that it costs €11 to dispose of a single canister. Walk around any area and discarded nitrous oxide canisters can be seen lying in our parks and on the sides of our roads. Every one of them costs the local authority €11 to dispose of, which is bonkers. In the past two years, Fingal County Council has spent nearly €100,000 disposing of these canisters.</p>
+          <p eId="para_745"> I previously mentioned how Dublin City Council is on course for a 490% increase in the number of canisters collected. The Government has also committed €3 million this year for waste management for all the nitrous oxide seized by customs. The Government knows that this is an issue. It is allocating millions of euro to dispose of canisters but it is doing nothing to regulate the use of nitrous oxide. My legislation, which the Government has delayed, would not only lead to cost savings, it could also save lives. I have written to the Minister for an update on the proposed national working group that is to be established to tackle the issue of nitrous oxide. I want to know why it has taken six years to get this matter on the agenda. The Government needs to get serious about this. The Government often accuses those of us on this side of the House of not bringing forward any solutions. I brought this forward as a solution. I gave it to the Government gift wrapped and it kicked it down the road for nine months.</p>
+        </speech>
+        <speech by="#DuncanSmith" eId="spk_242">
+          <from>Deputy Duncan Smith<recordedTime time="2026-05-27T16:50:00+01:00"/></from>
+          <p eId="para_746">The Labour Party will be supporting this motion, as it has supported similar motions at six-month intervals going back to 2021, to allow continued outdoor seating and socialising in our towns and cities. It was born out of a necessity during the Covid period but it has ushered in and accelerated a positive culture of dining and drinking in this country. I have seen at first hand the impacts of good policy when it comes to outside dining in my constituency. In Malahide, the pedestrianisation of New Street, where I have a clinic every week, has allowed businesses to thrive. It is a vibrant space for people to socialise and consume food and drink outdoors. However, we have also seen the frustration when bad policy decisions are made about outside dining, such as what we saw with Drury Street a number of weeks ago. There is still a lack of clarity and direction in relation to this matter. That is why we need to put it on a firm footing. We need to recognise and accept this positive cultural shift that we have seen around our country.</p>
+          <p eId="para_747"> We need to look at the positives of pedestrianisation and converting units from shops into apartments and improving public transport so that people living farther out from cities do not see the lack of public transport options as a barrier to travelling and enjoying these options, either in our cities or towns. In capital cities across Europe, there are places and spaces that have been built for communities. I refer, for example, to Las Ramblas in Barcelona. These are spaces designed for people to simply spend time with each other, have a drink, have a bite to eat or to just be. In Dublin, we have seen some small steps being taken, but that feeling is not yet there. We have seen some good positives in relation to the pedestrianisation of Capel Street but we have also seen the closure of really important and distinctive shops there such as Mr. Middleton's gardening shop just off Capel Street and Mr. Brenfer's darts shop. These were important shops that added to the character and characteristics of the city. In Dublin, my city, we are seeing small shops being squeezed out because Government policy seems to drive the provision and development of hotels, short-term lets, and is reefing the heart out of the city and removing communities and people who live there and replacing them with a transient tourist population and that is having an impact on businesses.</p>
+          <p eId="para_748"> In the wonderful weather we are having today, I cycled down to the Oliver Bond flat complex and spent a number of hours there with residents. The complex is very close to my heart. My father and his brother and sister were raised there by my nana and granddad. This is the largest flat complex in the country and is in need of positive regeneration. There are an awful lot of discussions about the mould, the damp and the conditions of the apartments but what is lost in the discussion is the fact that this is a community of people who live in the centre of our city. We need to ensure that these communities continue to thrive and continue to raise families in these flat complexes. These families have kept that flat complex and many others like it going, on both sides of the river, between the canals, for more than 90 years. When we talk about communities and the cherry on top of outdoor dining it is all wonderful, but it means nothing if we do not have the people to actually live, work and thrive in these areas.</p>
+          <p eId="para_749"> What I see with the motion on the 2021 legislation is an example of how the Government does not have joined-up policy in relation to thriving communities in our large towns and cities. We knew this instantly. Deputy Gannon would have also spoken on similar motions at six-month intervals. We have seen this as a positive over the past number of years, yet the Government has failed to put it on a permanent footing.</p>
+          <p eId="para_750">It also speaks to the fact that this Government does not understand how to deliver and sustain thriving communities in our city centres or indeed in our large town centres. It goes right down to the very basics of urban regeneration and investment. It is more than what is at the bottom of an excel spreadsheet in terms of the number of units. It is not about units; it is about homes and communities. It is about communities that have sustained this city through good times and bad so that all of us who either originally come from the inner city who are now living in the suburbs but feel the call and the pull of home into the city can come here, be around our people and enjoy outdoor dining. It is about being able to go into individual distinct shops and not being surrounded by betting shops, fast-food outlets and vape shops but by shops that represent our city. Workers who live in our city, whether they were born in our city or have come here to work, should be able live and thrive in Dublin city centre.</p>
+          <p eId="para_751"> This Government does not get it. I know this is away from the point of simply looking at extending outdoor dining, which we all accept is a good thing, but it means nothing if the Government does not put on a permanent footing real regeneration and real investment in our communities.</p>
+          <p eId="para_752"> We will be supporting this motion. We cannot come in here every six months and have the same conversations. The weather outside is good today and people are outside dining, but they also dine outside in overcast weather and even rainy weather. It is where we are now. It is the modern culture of our cities and large towns, but we need much more to sustain that and for it to thrive. We need to ensure that we have policies that allow people to live and raise families for the next 90 years in the Oliver Bond flats and other complexes in other areas of the city because without that, there is no Dublin.</p>
+        </speech>
+        <speech by="#GaryGannon" eId="spk_243">
+          <from>Deputy Gary Gannon<recordedTime time="2026-05-27T17:00:00+01:00"/></from>
+          <p eId="para_753">Of course, we will support this motion as we supported the extension the numerous times it was brought to us before. I again say what many Members, including Deputy Smith, just said, namely, that we cannot keep coming here repeatedly as we have done over the last number years, doing the same thing and being told this will be the last time. Everybody agrees this should be permanent. Why are we still extending it every six months? We all agree that outdoor dining works. Those in opposition, in government, councillors in our local authorities, the businesses and the people of Dublin agree that it works. We should not have to come back here again in six months’ time.</p>
+          <p eId="para_754"> Outdoor dining and outdoor social spaces are no longer a Covid-era response. They have become part of how people experience Dublin and cities across Ireland. I acknowledge that legislation is progressing to put these arrangements on a permanent footing. That is welcome but it is long overdue. In the meantime, uncertainty remains. Businesses remain unsure and temporary arrangements keep temporary thinking in place.</p>
+          <p eId="para_755"> In my previous speeches on this matter, I have spoken about Drury Street. I mentioned walking through it on summer evenings and seeing something Dublin 2 rarely gives itself, that being, permission to relax, to be social, to be alive in our own city - not people rushing through a city but people actually just sitting there inhabiting it. In recent weeks, Ciss Maddens had its outdoor seating licence revoked and then within in a matter of weeks the outdoor area was back again after the licence was renewed. I am not speaking to the merits of that individual decision because there may be valid concerns around access, pedestrianised flow or public space management potentially. Of course, those concerns matter, but what struck me was something bigger. One week a popular outdoor space that contributed to the atmosphere of the area was removed, then two weeks later after public pressure, it was put back in. What does that say to businesses? What does that say to the people trying to invest in our streets? What does that say to anyone trying to imagine a longer term future for Dublin city centre? It just speaks of uncertainty and that nobody is really in charge. It says we have still not decided whether we actually believe in this model or whether we are merely just tolerating it. If we believe outdoor social spaces are part of a modern capital city, policy needs to reflect that belief consistently. Joined-up thinking matters. We cannot on one hand praise vibrancy, the night-time economy, footfall and city centre renewal, and then on the other hand leave the framework around all of that feeling temporary and feeling fragile. This goes well beyond one pub or one street.</p>
+          <p eId="para_756"> The first time I spoke on these extensions, I mentioned Talbot Street, Henry Street and other areas north of the river that deserve exactly the same imagination and confidence that is shown elsewhere. I asked people then to imagine Talbot Street on a warm evening with outdoor seating, better public realm, colour, activity and life spilling onto the street, and to imagine Henry Street as somewhere people stayed rather than simply passed through. What always strikes me when I walk down Henry Street is that everybody is moving; there is no place to simply sit. That is an anomaly on a main street in a capital city. People should be able to just sit and relax. I am not saying the same thing again today because they are just as relevant, not because it is difficult, not because it is impossible, but because nothing meaningful has actually happened.</p>
+          <p eId="para_757"> After enough years pass, some things stop looking like failures and just start looking like choices. A city centre does not become vibrant by accident. Streets do not redesign themselves. Public spaces do not improve through aspiration alone. Government chooses where urgency goes. Government chooses where funding goes. Government chooses whether reports like the report of the Dublin city task force just gather dust or whether recommendations become reality.</p>
+          <p eId="para_758"> The frustrating thing about all this is that Dublin is already showing what works. Capel Street has shown what works, parts of Drury Street have shown it works and the people themselves have shown what works. Young people especially have shown something important. Every summer we hear concerns that there are not enough places to gather, not enough affordable ways to simply exist socially in the city. When people find those spaces organically, the State seems surprised about it.</p>
+          <p eId="para_759"> Outdoor dining and seating were never only about hospitality. They are about civic life, about allowing people to enjoy cities rather than merely moving through them, about creating places that feel welcoming and about recognising that a successful city is not measured only by commercial activity but by what people want to spend their time doing there. That is the bigger opportunity here.</p>
+          <p eId="para_760"> We will support the extension today but I genuinely hope it is the last time we have to discuss another six-month continuation of something everyone already accepts should be permanent. In November, we were told it would be the last time. Eventually, repeating temporary measures stops looking like being cautious and just starts looking like indecision. Even more, it looks like nobody is in charge.</p>
+          <p eId="para_761"> Dublin in particular, although I am sure the same can be said of everywhere else around the country, cannot afford more indecision. It cannot afford more Ministers going to the GPO announcing task forces whose reports just sit on shelves. We need ambition and that ambition can and should extend beyond simple outdoor dining. That ambition should extend to over-the-shop living, for example. How can we get people living more in the city centre above the shops on Henry Street, Grafton Street and O'Connell Street? These suggestions have been made for 20 years in various different reports and every time the suggestion is made, somebody says it seems like a good idea, but all the factors needed to implement that good idea just get left on the shelf because there may be some legislative difficulties or some resourcing required. That is all fine but where we fall down is in imagination, leadership and a genuine passion for Dublin.</p>
+          <p eId="para_762"> We can talk about outdoor dining and over-the-shop living but that cannot be separated from simple things like waste collection. In my area of Stoneybatter, outdoor dining took hold from places like Ray’s and Slice, with people sitting out there enjoying the community. In the last couple of weeks, I have got notifications that the waste management service is to be changed and bins are to be placed along every single house on the road. That speaks of an absence of joined-up thinking and an absence of a genuine vision not only for city centres but for the communities that inhabit them.</p>
+          <p eId="para_763"> The Dublin task force actually had some good recommendations. One of the more frustrating aspects of my time here is that good intention falls down when there is actually no follow-through, with nobody to take charge and be in control of these things. The city is the lesser for it because Dublin and, I am sure, all the other cities in Ireland have enormous potential, but when there are so many different agencies, so many people saying it is not their job and so many people saying that it is the responsibility of X, all of these things start to look shabby and lacking imagination.</p>
+          <p eId="para_764"> We will support this extension today as we did six months ago and six months before that. What I would like to support in the future is not just a genuine vision for Dublin but the capacity to deliver upon it.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_244">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2026-05-27T17:00:00+01:00"/></from>
+          <p eId="para_765">I am happy to support this extension insofar as it is contributing to enabling and supporting street life in cities, towns and villages.</p>
+          <p eId="para_766">It will allow people to socialise and interact on the streets. People will be able to enjoy the lovely weather we are having at the moment and make the very best of it. Generally, it brings vibrancy and energy to our cities, towns and villages. This is a good move by the Government but I wish enabling bars and restaurants to seat people on the streets was matched by a greater commitment from the Government to enliven our city and town centres and create the spaces people need, both for socialising and arts and culture more generally.</p>
+          <p eId="para_767"> Of the many protests I have attended and been involved with over the years, the Izakaya protest was one of the most enjoyable. It centred around an alternative music venue for young people, DJs and so on that is threatened with closure because of a decision by the new owners of what used to be the Central Hotel – now the Hoxton Hotel - to try to take an injunction against a club that had been operating there for years. It is a great venue for grassroots music and DJs. Think about these people who took over the hotel. The club was there when they bought it. If they did not like the fact that the club was there, they should not have bought it. They should not have tried to close down an important venue for young people and music and culture in the inner city.</p>
+          <p eId="para_768"> There was fantastic energy on the protest. I met a lot of people whom I have never seen at protests before. While I knew some people at the protest, I did not know they had any stake in this. A lot of young people were present. What drove their involvement in the protest was a sense of anger about a lack of cultural spaces where people can pursue things like developing grassroots music and different cultural pursuits and endeavours. They feel such spaces do not exist or are under constant pressure and that there is not enough support from the authorities and the State in providing those spaces for the community and society and for people involved in music and arts. People, therefore, felt the need to protest. The protest was about more than Izakaya, however; it was about a much wider issue about the spaces available.</p>
+          <p eId="para_769"> Of course, Drury Street is just around the corner from where that protest took place. Over the past while, a vibrant scene of young people sitting outside, enjoying themselves and eating and drinking has developed. There is a pleasant atmosphere. That is being shut down now because of a decision by the council, which is very regrettable. A good, new and organic development in the city centre is being taken away. It is a mistake. It is not helping the vibrance of the city.</p>
+          <p eId="para_770"> I will provide another example that was highlighted to me during the recent by-election, a matter in which we had been involved beforehand. Eoghan Ó Ceannabháin, who was our candidate, is also a musician. He was involved in the campaign around The Complex. While this matter was raised repeatedly in this Chamber, it came up again during the recent by-election in Dublin Central. During the course of the by-election campaign, I met the person who ran The Complex. She reiterated and reminded me how disgraceful it was that the Government allowed The Complex to close. A lot of artists lost their studios and a lot of people who practised, rehearsed, performed or used the venue in some shape or form, as well as those were who employed in it, lost this wonderful, multidisciplinary arts, cultural and musical venue due to the lack of €6 million. The former Minister for Finance and TD for the area, Paschal Donohoe, more or less indicated that the money would be forthcoming to save the venue because it was being put up for sale but it did not materialise, despite the begging and pleading with the Government to save the venue.</p>
+          <p eId="para_771"> I had forgotten what the people running The Complex, which has since closed, proposed to the Government. I do not know if this was made clear to the Government, but it was certainly made to clear to the Department and the local authority at the time. The Complex had approximately €4 million but it needed an additional €6 million to buy the venue in order to save The Complex, all the artists' and cultural space. They proposed that the venue could be redeveloped to have social and affordable housing on top of it. It would have been a win-win for the north inner city. The Government had the chance to save a cultural space, including all the artists’ studios and rehearsal and performance spaces. It could have done all of that, as well as getting social and affordable housing on top of it, for a small amount of money, relatively speaking, in the greater scheme of things. It did not do it, however. It just refused point blank to intervene and the place has since closed down.</p>
+          <p eId="para_772"> Apparently, it is not over yet because the sale has not gone through. I once again ask the Government to look at this. If it is committed to having vibrant, cultural spaces in our cities for social interaction and all that kind of stuff, for a few million euro, it could save The Complex, along with social and affordable housing on top of it. It is a win-win for the city and for culture, arts, music and everyone. Why would the Government not do it? I appeal to it to reconsider.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_245">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T17:10:00+01:00"/></from>
+          <p eId="para_773">I welcome the continued support for outdoor seating and dining, which has proven to be one of the most practical and successful measures for our hospitality sector in recent years. This is not just about tables and chairs on a footpath. It is about breathing life back into our towns and village across Ireland, particularly in rural and coastal communities. Outdoor dining has created a vibrant atmosphere that attracts visitors, supports local jobs and keeps small businesses viable.</p>
+          <p eId="para_774"> When the 9% VAT rate was introduced, there was a lot of negativity, shamefully, in this Chamber about big fast food companies gaining. Obviously, those speaking like that do not realise that small businesses relied on the reduction of the VAT rate. We in Independent Ireland fully supported it.</p>
+          <p eId="para_775"> When it comes to outdoor seating, it has given small, family-run business a fighting chance in the face of rising costs. Many of them invested in these spaces in good faith. They now form a core part of how these businesses operate. Take Schull, where I live, as an example. There is Townhouse O D’s, which has two beautiful outdoor areas, one on the back and one on the street. We have Jim’s café where people love to sit out and look at the ocean. Below that is the Harbour Hotel as well as Hackett’s Bar. It is great for the locality. It gives off a great vibe. Both tourists and locals love it. Sure, I would not mind being there today. I suppose anyone else would not mind being there today, especially in this weather. On the main street in Bantry, there are great cafés and restaurants with outdoor seating. There is also the Quay’s Bar and many others. The street is nearly full of umbrellas, tables and chairs. It is fantastic for the town. I could go on about all the beautiful places in west Cork, but what I am saying is that this is great for the whole country. We should be building on that success.</p>
+          <p eId="para_776"> I cannot understand why this is treated temporarily. This is a success story. No one in this Chamber objects to this measure. Good God, if we were in here objecting, it would never be brought up so often. I cannot understand why we keep having to come back in here to talk about it. Why can we not make it permanent and be done with it? This is a common-sense policy that works for businesses, visitors and local economies right across Ireland.</p>
+          <p eId="para_777"> We need to go further. We need to look at night-time buses in communities. There are pilot projects in Kerry and – I might be wrong – Sligo. They are great projects. Local Link buses are travelling around and dropping and picking people up during the night. For obvious reasons, people cannot socialise properly if they do not have transport. It is hard to get a taxi or a hackney. We should be looking at rolling out those schemes in a bigger way.</p>
+          <p eId="para_778"> I hear a lot of criticism in this Chamber about the 9% VAT rate and short-term lets. The Social Democrats and the Labour Party in particular have a real target of hitting tourism. For some reason, they are anti-tourism in this country, but they should not be.</p>
+          <p eId="para_779">The 9% VAT rate was to help local communities survive the crisis they were going through, and the same with short-term lets. I was up in Galway for many weeks recently, where short-term lets are necessary for the very survival of local communities there, as in my constituency. They love people coming in mainly from our own country. They like to holiday around, find some place to stay, enjoy going out at night, have something to eat and spend money in the local economy. We have parties in here that are against that. I am scratching my head wondering what the hell they are at? They do not understand the benefit. Do not attack the tourism sector to try to fix the housing sector. Are we to ruin the tourism sector to fix the housing sector? That is where the Social Democrats and Labour have been for quite a long time.</p>
+          <p eId="para_780"> Other things like country markets and fair days benefit communities, bring people into communities and help people stay in them. We need to properly promote that. We need to look into areas we can force more business. Given the number of pubs and clubs that have been closed in recent times and clubs, that is important.</p>
+          <p eId="para_781"> I have been fighting a long time for people to come back to towns like Dunmanway to live in local communities. Its wastewater treatment plant needs to be upgraded. It is a sad thing to find out that after public representatives from the Government side stated it would get 50 houses with a recent do-up of the wastewater treatment plant, it would only get 15. Who is codding who while trying to get a big headline?</p>
+        </speech>
+        <speech by="#PaulLawless" eId="spk_246">
+          <from>Deputy Paul Lawless<recordedTime time="2026-05-27T17:20:00+01:00"/></from>
+          <p eId="para_782">How fitting it is that we are here today in the heatwave of summer 2026 discussing outdoor dining and socialising on this beautiful day and a beautiful week? Right across Ireland, people are enjoying a beverage outside in the sunshine. Good luck to them and God bless them. We had a long winter. I hope that every person enjoys the beautiful weather we are having.</p>
+          <p eId="para_783"> I supported this legislation last year, I will support it today and I will support it again in the future because outdoor seating and socialising is a good thing. We should support it. We should put it on a permanent footing and encourage every person to get out and enjoy a drink outside if possible. It is good for your health - vitamin D and so on. We should not roll over this legislation every six months or a year. It should put it on a permanent footing and ensure that publicans and the wider hospitality sector have the confidence to invest in these facilities.</p>
+          <p eId="para_784"> The pub trade is struggling massively. Over the last 20 years, thousands of pubs have closed. Last year, 360 pubs closed. Many of those were in rural Ireland. In many villages, the last remaining public building was a pub - there was no community centre or shop. We need to refocus. We should support rural pubs to stay alive to make sure every community has a hub.</p>
+        </speech>
+        <speech by="#PaulNicholasGogartyGP" eId="spk_247">
+          <from>Deputy Paul Nicholas Gogarty<recordedTime time="2026-05-27T17:20:00+01:00"/></from>
+          <p eId="para_785">Here we are again with yet another extension. Nobody in this House disputes the value of the legislation but we have been bringing this Covid-era legislation on for five years to allow outdoor dining. At this stage, we have to get to the real legislation. My understanding is it has been tied up at committee with other stuff added on. We should have stand-alone legislation and get it through quickly to give permanent security to the many businesses that are feeling the pressure, especially with fuel price hikes. We need to move beyond this and get to the actual legislation.</p>
+          <p eId="para_786"> I am conscious that my time has been cut into, so I will use my last few seconds to wish Sarah in the Public Gallery a very happy birthday.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" eId="spk_248">
+          <from> An Leas-Cheann Comhairle<recordedTime time="2026-05-27T17:20:00+01:00"/></from>
+          <p eId="para_787">That is very important.</p>
+        </speech>
+        <speech by="#BarryHeneghan" eId="spk_249">
+          <from>Deputy Barry Heneghan<recordedTime time="2026-05-27T17:20:00+01:00"/></from>
+          <p eId="para_788">I, too, would like to wish Sarah a very happy birthday.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" eId="spk_250">
+          <from> An Leas-Cheann Comhairle<recordedTime time="2026-05-27T17:20:00+01:00"/></from>
+          <p eId="para_789">Happy birthday, Sarah, from everyone in the House.</p>
+        </speech>
+        <speech by="#NiallCollins" eId="spk_251" as="#Minister_of_State_at_the_Department_of_Justice,_Home_Affairs_and_Migration">
+          <from>Deputy Niall Collins<recordedTime time="2026-05-27T17:20:00+01:00"/></from>
+          <p eId="para_790">I would like to be associated with those remarks.</p>
+        </speech>
+        <speech by="#MarkWard" eId="spk_252">
+          <from>Deputy Mark Ward<recordedTime time="2026-05-27T17:20:00+01:00"/></from>
+          <p eId="para_791">We all do.</p>
+        </speech>
+        <speech by="#BarryHeneghan" eId="spk_253">
+          <from>Deputy Barry Heneghan<recordedTime time="2026-05-27T17:20:00+01:00"/></from>
+          <p eId="para_792">I agree with the majority of what people have said. This was brought in during Covid. It was definitely a crutch for the hospitality industry.</p>
+          <p eId="para_793"> I represent north Dublin. Outdoor seating was recently closed on Drury Street and there is a constant attack on amenities in outdoor areas. At a time when pubs and people are under enormous pressure and we constantly sit at desks, getting out, sitting in the sun with your friends and having a meal, a drink or a pint should be encouraged. I, too, am worried about the number of pubs closing across Ireland, in particular rural Ireland.</p>
+          <p eId="para_794"> In Dublin city, people complain and use the excuse of litter. Well, then install more bins, create more jobs and have people take those bins. If there is a bin, people will not throw litter on the ground. They will put it in the bin. We love this city and we want to encourage people to love it.</p>
+          <p eId="para_795"> I have been to Barcelona and went across European inter-railing. I saw vibrant, outdoor, liveable cities. We have seen it in small parts of Dublin but it needs to be encouraged across Ireland. We do not need more empty streets. We need energy, culture and community. The recommendations of the report show this. Outdoor dining and socialising brings people into the city and makes it safer with passerby surveillance, more welcoming and more alive.</p>
+          <p eId="para_796"> In some pubs and businesses across north Dublin, accessibility for those with disabilities is easier with outdoor dining, as there can be difficulties inside the building. That is why this extension matters. I welcome it.</p>
+          <p eId="para_797"> I was out yesterday cycling on a sunny evening through Dublin. The streets are full of life but people are sitting on the ground. Restaurants and pubs have some outdoor areas but when someone finishes work in the city, they should be able to meet up with friends and spend time in the city instead of rushing home.</p>
+          <p eId="para_798"> Like Deputy Lawless, I welcome the very good weather. Everyone should have the opportunity to enjoy it and take a break. When this legislation was first introduced, I was working in a pub. We got our outdoor area and that has now become a hub for the community. There are community groups in the area, and they meet outside and sit in the sun. It should be continuously encouraged not only because of the pressure pubs are under but also the pressure people are under. For many publicans, outdoor seating is part of staying financially viable. These pubs are not just businesses. As the Minister of State knows, a good chunk of rural and urban pubs are family owned for three, four or five generations with the name still outside. They are community spaces and they are also where some political careers can start.</p>
+          <p eId="para_799"> I do not mention rural Ireland much. The local pub is one of the last remaining public buildings in a lot of towns. The Minister of State knows that it is not just a pub. It is where someone goes to find out the news or where someone who has lost a family member goes to have a chat. We should encourage those places to survive.</p>
+          <p eId="para_800"> Regarding Dublin and the excuse of litter being an issue, install more bins. It cannot be used an excuse. Where stronger enforcement is concerned, I thank the Minister for justice, Deputy Jim O'Callaghan, for the increase in the number of gardaí on the beat. If footpath access is a concern, I called for an extension in respect of pubs if we had qualified for the World Cup, which sadly we did not.</p>
+          <p eId="para_801"> We cannot respond to everything by restricting. We need to be proactive and preventative. That needs to be across Departments, not just with this matter. European cities embrace outdoor life and create atmosphere. I welcome that the Department has introduced legislation to extend this provision, but it should be happening across the board. It would also provide clarity for businesses if it was brought into legislation fully, not just an extension, because businesses could then plan financially on the understanding that the income they get from these areas could be used as a collateral for expansion and for more staff to take on permanent roles. We constantly talk about reviving Dublin city. This is a practical way. If it is brought in and made permanent there would be a more vibrant, safer city.</p>
+        </speech>
+        <speech by="#NiallCollins" as="#Minister_of_State_at_the_Department_of_Justice,_Home_Affairs_and_Migration" eId="spk_254">
+          <from>Minister of State at the Department of Justice, Home Affairs and Migration (Deputy Niall Collins)<recordedTime time="2026-05-27T17:20:00+01:00"/></from>
+          <p eId="para_802">I thank all of the speakers for their contributions and pledges of support for the motion.</p>
+          <p eId="para_803">Hopefully, it will be the last occasion that we will be here renewing this on a twice-annual basis. As we indicated, it will be legislated for on a permanent basis.</p>
+          <p eId="para_804"> We listened to what the speakers had to say. Some of the issues raised were on topic and some of them were off topic.</p>
+          <p eId="para_805"> A lot of them had to do with the local authority realm as well. Obviously, Government does not run local authorities. It shows the importance of the local authorities that they have such an impact on the vibrancy of the hospitality sector and also on the town and village centres. They play a very important role.</p>
+        </speech>
+        <summary eId="sum_7"> Question put and agreed to.</summary>
+        <summary eId="sum_8">
+          <i> Cuireadh an Dáil ar fionraí ar 5.31 p.m. agus cuireadh tús leis arís ar 5.36 p.m.</i>
+        </summary>
+        <summary eId="sum_9">
+          <i>Sitting suspended at 5.31 p.m. and resumed at 5.36 p.m.</i>
+        </summary>
+      </debateSection>
+      <debateSection name="billCommittee" eId="dbsect_18">
+        <heading>Gas Safety (Amendment) Bill 2026: Instruction to Committee<recordedTime time="2026-05-27T17:30:00+01:00"/></heading>
+        <speech by="#TimDooley" as="#Minister_of_State_at_the_Department_of_Climate,_Energy_and_the_Environment" eId="spk_255">
+          <from>Minister of State at the Department of Climate, Energy and the Environment (Deputy Timmy Dooley)<recordedTime time="2026-05-27T17:30:00+01:00"/></from>
+          <p eId="para_806">I move:</p>
+          <p class="indent_1" eId="para_807">That Standing Order 194 is modified in accordance with Standing Order 241(2) to provide that it be an instruction to the Committee in relation to the Gas Safety (Amendment) Bill 2026, that the Committee has power to make amendments to the Bill which are outside the scope of the existing subject matter of the Bill in order to amend the Turf Development Act 1998, in order to increase the statutory borrowing limit of <i>Bord na Móna</i>, and to change the title of the Bill and make other consequential amendments required to take account of the change above.</p>
+          <p eId="para_808"> I commend this motion to enable the introduction of the amendments to the Gas Safety (Amendment) Bill 2026 which are outside the scope of the Bill's original subject matter. The amendments address an outstanding issue for Bord na Móna with implications for the green transition. The purpose of this motion is to enable the committee to make certain amendments to the Gas Safety (Amendment) Bill 2026 which are beyond the scope of the Bill's original subject matter, as I said. The Bill, which completed Second Stage in the House in January of this year, addresses long-standing safety issues with regard to liquified petroleum gas and natural gas and I wish to ask the House for leave to attach amendments addressing another outstanding issue in the energy sector.</p>
+          <p eId="para_809"> New sections, which have necessitated this motion, will amend section 22(1) of the Turf Development Act 1998 which sets the statutory borrowing limit of Bord na Móna. This is currently set at €650 million. The amendment will raise this limit to €1.5 billion. The increase was requested by Bord na Móna to enable the delivery of its ten-year plan and to contribute to the achievement of targets under the national climate action plan.</p>
+          <p eId="para_810"> A higher borrowing limit will provide flexibility in how Bord na Móna funds future projects integral to the company's brown-to-green strategy which has seen it conclude all peat operations and emerge as a leading provider of renewable energy and climate solutions. It will avoid the need for large-scale asset disposal, including operational wind farms and development projects.</p>
+          <p eId="para_811"> Following the request of Bord na Móna, the Minister for Climate, Energy and the Environment, the Minister for Finance and the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation consented to a statutory increase in the borrowing limit. The advice of the New Economy and Recovery Authority, NewERA, was sought. The authority issued a report recommending the increase. The process for consent to this change was in compliance with the requirements of section 8.23 of the code of practice for the governance of State bodies and Bord na Móna's shareholder expectation letter.</p>
+          <p eId="para_812"> Deputies may be assured that, following the increase to the statutory limit, any new borrowings on the part of Bord na Móna will require the consent of the Minister for Climate, Energy and the Environment and the Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation. There will be an opportunity to discuss these amendments further on Committee Stage and I thank the Deputies for their support in enabling these important amendments to be debated as part of the Bill. I commend this motion to the House.</p>
+        </speech>
+        <speech by="#PaDaly" eId="spk_256">
+          <from>Deputy Pa Daly<recordedTime time="2026-05-27T17:30:00+01:00"/></from>
+          <p eId="para_813">We will be supporting the Bill. Notwithstanding that, however, there is the issue of funding with the Commission for Regulation of Utilities, CRU. There are some concerns on a broader level. This is more, as they say, upstream. Regulation is to be in place, I understand, for 1 September for non-domestic gas, and roll-out plans, preparation and training, making sure that people who are qualified will be in place. There is a suspicion that pre-Creeslough we knew that the installation practices for third-party meters, who meter the State's LPG, needed to be revised.</p>
+          <p eId="para_814">These new proposals are, of course, necessary. I have spoken to some of the Creeslough families. The DPP will take a decision. There is a suspicion, subject to any further investigation, that it may have been the result of a gas explosion. I renew the calls on that issue. The Minister of State might have a word with his colleague, the Minister for justice, about a public inquiry into what happened, pending, of course, what is coming from the DPP. </p>
+          <p eId="para_815"> For a decade we have had promises from the CRU for non-domestic gas regulation. Deadlines were missed and now this Bill is going through. As I said, it is not perfect. The installer representative panels have advocated for gas installers. They have to engage with the CRU and the gas safety supervisory body, GSSB, to resolve any challenges around the State. The panel opposed proposals on non-domestic gas installation in 2023 and 2024 and, as I said, deadlines were missed. The CRU then revised the criteria document. Some installers have a question about the consultation process and the level of public consultation with catering companies, the restaurant sector and hotels. I understand the public consultation has not been published. They feel the criteria document should have included changes to the registration process procedures and new entrant categories and established a dedicated body to manage updates. There is also a question about electronic gas certification. Again, that is not necessarily relevant to the Bill. We would welcome any progress on electronic gas certification when the system is up and running. </p>
+          <p eId="para_816"> Many thousands of households depend on gas. Of course, a lot of them are in arrears due to the cost of living crisis and supports have been ripped away. We need legislation that is complete, but there must be enough resourcing and sufficient numbers of people employed to ensure that the proposals in the Bill take effect and the system can run as well as it ought. The bottom line is public safety. People need to have confidence.</p>
+          <p eId="para_817"> The 12,000 households dependent on LNG and the 600,000 households using natural gas are finding it difficult to transition to any other sources of heat. We need to make sure their lives are not put at risk because if these systems fail or are unsafe, unfortunately, as we have seen, lives can be put at risk. We need strong legislation and robust regulation. We have to get it right. We support the Bill because, while it is not the perfect solution, it is a step in the right direction. </p>
+          <p eId="para_818"> We can deal with the amendments later. We were not expecting the Bord na Móna regulations until they came in. We can talk about that on that Stage.</p>
+        </speech>
+        <speech by="#CiaranAhern" eId="spk_257">
+          <from>Deputy Ciarán Ahern<recordedTime time="2026-05-27T17:40:00+01:00"/></from>
+          <p eId="para_819">We will support the Bill on Committee Stage. I echo a lot of the comments made by Deputy Daly. The Bill is not perfect, but it is an important step in strengthening the regulatory landscape here. The motion to instruct the committee relates to the amendment to increase Bord na Móna's borrowing limit, and I have no principled objection to that. I understand that borrowing limits require updating due to inflation or increases in corporate activity, etc., and from the perspective of the Department it might not be worth creating a whole new Act in that regard. </p>
+          <p eId="para_820"> I want to take this opportunity to make some broader points about Bord na Móna. Most pertinently, I want to make the point that it is probably time it received a statutory overhaul of its mandate. It is no longer a turf development company. Clearly, it has ended all peat harvesting on its lands. The commercial sale of peat in Ireland was banned in 2022, or at least it was supposed to have been. Any turf left in Ireland is not for exploitation for commercial purposes. In fact, Bord na Móna is now involved in pretty much the exact opposite activity, in that it is remediating and re-wetting bogs. It is in the climate solutions business now and has taken on an important role as a renewable energy provider, which is great to see, with equally important responsibilities as a major landowner and environmental custodian. We know the difficulties the Government is having regarding land use, land use change, emissions coming from that sector and how much work needs to be done in that area. Bord na Móna will play a critical role in some of that.</p>
+          <p eId="para_821"> There has been substantial change in what Bord na Móna actually does, but it has made this change without any structural overhaul of the legislation underpinning it. The primary objectives of the company, as set out in the Turf Development Act, no longer apply. It has instead relied on ancillary objectives and powers throughout its so-called brown to green transition. I suggest that now that the transition period is more or less complete, it would be appropriate to bring forward new legislation to underpin the company's new role and clarify its mandate. </p>
+          <p eId="para_822"> The second point I would like to raise is the proposal to co-locate renewable infrastructure with massive data centres on Bord na Móna land, so-called energy parks. I am deeply uncomfortable with a semi-State body tasked with renewable infrastructure development having a strategic partnership with a tech giant like Amazon in the first place. As a matter of principle, I do not like that we are depending on it for funding. The energy transition must, first and foremost, be about people, just transition and nature restoration, and not satisfying the needs and wants of the world tech oligarchs. </p>
+          <p eId="para_823"> We already have a situation whereby data centres are sucking up virtually all of the renewable energy we are generating in this country, meaning that it is not going towards helping households move to cleaner sources or decarbonising our energy sector. These energy park proposals betray the Government's thinking. I generally fear that we are witnessing a corporate capture of clean energy in Ireland. We have to ask ourselves if plonking a 500 MW data centre on former bog land owned by a semi-State company is really the best use of our resources. That is as much electricity as is consumed by 325,000 homes. Where do we want our renewable energy to go? Do we want it to go to help households up and down the country which are still dependent on fossil fuels and currently being pilloried by their bills? Do we want to help them transition to cleaner renewable energy or do we want to help the tech giants? </p>
+          <p eId="para_824"> We have serious questions about the environmental biodiversity impacts these projects will have on lands that we need to re-wild or bogs that we may need to re-wet. The Labour Party has a view on that. The Department of enterprise seems to have taken its view. I would like to hear the views of the Minister of State's Department. I am sure he will say we need to consider our industrial strategy and so on, but the wind only seems to be blowing one direction, pardon the pun. </p>
+          <p eId="para_825"> Virtually everything we have seen from this Government so far with regard to renewable energy and energy more broadly seems to be to the overwhelming benefit of corporate interests. The private wires legislation, of which data centres will be the primary beneficiary, is another example. I echo the calls of other Members of the Opposition that the Minister, Deputy Burke, his officials and representatives from Bord na Móna and Amazon come before the climate committee to discuss these proposals. We need to get our priorities straight. We should not be building massive privately owned and operated data centres on what is, in effect, State land. We should not be building renewable infrastructure just to satisfy their insatiable demands. </p>
+        </speech>
+        <speech by="#TimDooley" as="#Minister_of_State_at_the_Department_of_Climate,_Energy_and_the_Environment" eId="spk_258">
+          <from>Minister of State at the Department of Climate, Energy and the Environment (Deputy Timmy Dooley)<recordedTime time="2026-05-27T17:40:00+01:00"/></from>
+          <p eId="para_826">I thank Deputies for their contributions. I appreciate the assistance of Members of the House in enabling this minor but important legislative change to be discussed as part of the Gas Safety (Amendment) Bill 2026. This will enable the Government to expedite a measure which ensures Bord na Móna's future as a vital contributor to our green transition.</p>
+          <p eId="para_827">Deputy Daly raised the issue - we may get to it as part of the second debate on the Bill - about the relationship of the Bill to the tragic incident that occurred in Creeslough. As I understand it, the Bill was not prompted at all by the Creeslough tragedy and at the time of that incident, the CRU had already published its final decision on the regulation of LPG networks and work on this legislation had actually begun. The safety amendments will bring all operators of LPG distribution networks within the scope of safety licensing by the CRU and will strengthen the commission's existing powers in regard to gas and LPG safety generally. In 2022, the memorandum of understanding was agreed upon and signed by An Garda Síochána, the Health and Safety Authority and the CRU to facilitate the sharing of information and resources between agencies.</p>
+          <p eId="para_828"> On the issues Deputy Ahern raised, there is a fundamental misunderstanding by some of the role played by data centres. I am not at all suggesting that is the case in Deputy Ahern's situation but in the minds of some of the public, data centres are part of an infrastructure that is necessary to provide entertainment to a modern generation and that somehow, the nice to have things like Netflix, TikTok or YouTube are effectively stored in these repositories. However, nothing could be further from the truth. Data centres are now what advanced factories were in the 1980s. Ultimately, they are a sharing of filing cabinets that were a feature of Georgian offices dotted around this city and elsewhere around the world. In fact, very significant reductions in energy use are a result of bringing that data management together. It is never discussed but if you had individual racks in offices rather than as part of the cloud, there would be a much greater drain on the electricity network.</p>
+          <p eId="para_829"> From an Irish perspective, the Deputy rightly identified something when he asked is this the industrial strategy or is this the direction the Government is going and where does our Department sit in it? He raised the point in a careful and balanced way and to some extent, he asked is it data centres or is it cheaper electricity for households? A fundamental part of the capacity of a household to pay for electricity is the requirement they have work. Data centres, whether we like it or not, are part of the direction of travel from the tech sector. More and more people are working from home. That is a good thing and one of the positives that came out of the pandemic, if any did. Cloud computing and cloud access provide the infrastructure to do that. Data centres are part of that. I do not see data centres as bad things at all. Yes, they are a challenge to us because we have seen underinvestment in our key infrastructure for decades, particularly in the grid and the generation of electricity.</p>
+          <p eId="para_830"> We are going through that transition so there are two things happening at the same time. We are trying to transition our immediate demand for energy from fossil fuels to renewable electricity as we are repowering the economy but we are also getting that exponential growth right at the same time as we need that clean energy, with demand driven by artificial intelligence and other advances in the tech sector. It is a particular challenge for us. We have been behind the curve but between now and 2030, over €18 billion will be invested by EirGrid into the grid. We are doing with EirGrid something like what we are doing with Bord na Móna as part of this. We are putting in core capital of €3 billion to allow EirGrid to borrow more. We are raising the borrowing limit for Bord na Móna to allow it to become an enabler.</p>
+          <p eId="para_831"> I take the Deputy's point about being careful about our relationship with oligarchs in the tech sector. What is on offer is a positive in terms of future economic growth and support for the tech sector, more generally. This morning, I spoke at a Digital Infrastructure Ireland conference. It is a body that speaks for the data centres and there was a report prepared by Jim Power. It was saying that if we do not get our act together here and do not figure out a way to allow growth in data centres, other countries will attract that. I was in Alberta, Canada, as part of the St. Patrick's Day discussions and we saw they are trying to attract data centres. By their nature, data centres are not big employers but they attract other enterprises around them. If we do not succeed in anchoring the data here, others will and they will benefit in terms of the tech jobs of the future. There is a job of work to be done.</p>
+        </speech>
+        <summary eId="sum_10"> Question put and agreed to.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_19">
+        <heading>Gnó na Dála - Business of Dáil<recordedTime time="2026-05-27T17:50:00+01:00"/></heading>
+        <speech by="#JohnMcGuinness" eId="spk_259">
+          <from> An Leas-Cheann Comhairle<recordedTime time="2026-05-27T17:50:00+01:00"/></from>
+          <p eId="para_832">I understand the Government Whip intends to move a proposal in relation to arrangements for the motion regarding the report of the Committee on Standing Orders and Dáil Reform in respect of Dáil sittings from 9 to 11 June.</p>
+        </speech>
+        <speech by="#MaryButler" as="#Minister_of_State_at_the_Department_of_the_Taoiseach" eId="spk_260">
+          <from>Minister of State at the Department of the Taoiseach (Deputy Mary Butler)<recordedTime time="2026-05-27T17:50:00+01:00"/></from>
+          <p eId="para_833">It is proposed, notwithstanding yesterday's Order of Business, that the motion regarding the report of the Committee on Standing Orders and Dáil Reform entitled arrangements for Leaders' Questions, Questions Nominated for Priority and Private Members' time in respect of Dáil sittings from 9 to 11 June 2026 shall be taken on the conclusion of the motion regarding leave to introduce Supplementary Estimates for Public Services 2026, without debate, and any division demanded thereon shall be taken immediately.</p>
+          <p eId="para_834"> All of the party whips are in agreement.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" eId="spk_261">
+          <from> An Leas-Cheann Comhairle<recordedTime time="2026-05-27T17:50:00+01:00"/></from>
+          <p eId="para_835">Is the proposal agreed? Agreed.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_262">
+          <from>Deputy Timmy Dooley<recordedTime time="2026-05-27T17:50:00+01:00"/></from>
+          <p eId="para_836">We will get the translation later and find out what we have agreed to.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" refersTo="#bill.2026.2.dail.3_sub" eId="dbsect_20">
+        <heading>Gas Safety (Amendment) Bill 2026: Committee and Remaining Stages<recordedTime time="2026-05-27T17:50:00+01:00"/></heading>
+        <summary eId="sum_11"> Sections 1 to 3, inclusive, agreed to.</summary>
+        <summary eId="sum_12">NEW SECTIONS</summary>
+        <speech by="#JohnMcGuinness" eId="spk_263">
+          <from> An Leas-Cheann Comhairle<recordedTime time="2026-05-27T17:50:00+01:00"/></from>
+          <p eId="para_837">Amendment Nos. 1, 2 and 7 are related and will be discussed together.</p>
+        </speech>
+        <speech by="#TimDooley" as="#Minister_of_State_at_the_Department_of_Climate,_Energy_and_the_Environment" eId="spk_264">
+          <from>Minister of State at the Department of Climate, Energy and the Environment (Deputy Timmy Dooley)<recordedTime time="2026-05-27T17:50:00+01:00"/></from>
+          <p eId="para_838">I move amendment No. 1:</p>
+          <p eId="para_839"> In page 9, between lines 2 and 3, to insert the following:</p>
+          <p class="indent_1" eId="para_840">
+            <b>“Amendment of section 9D of Principal Act</b>
+          </p>
+          <p class="indent_1" eId="para_841"><b>4. </b>Section 9D of the Principal Act is amended—</p>
+          <p class="indent_2" eId="para_842">(a) in subsection (2)(c), by the insertion of “, notwithstanding subsection (10)(b),” after “and”, and</p>
+          <p eId="para_843"> (b) in subsection (10)(b), by the substitution of “Subject to subsection (2)(b), all” for “All”.”.</p>
+          <p eId="para_844"> These amendments enable the Commission for the Regulation of Utilities to provide funding to enable the continued operation of the safe electric scheme and the registered gas installer scheme in the interest of safety for electricity and gas operators and the public. These statutory schemes were established by the CRU in 2009 to regulate the activities respectively of gas installers and electrical contractors with respect to safety under the energy Act 2006. In 2022, the CRU appointed an operator for both schemes following a competitive tender process. Schemes are funded through annual membership fees and certain charges paid by members. In recent years, the CRU has attempted to limit fee increases to reflect a difficult trading environment and cost-of-living pressures. However, the current contract requires scheme operators to recover a certain amount of revenue to support its operations.</p>
+          <p eId="para_845"> Amendments Nos. 1 and 2 remove the restrictions in the principal Act which prevent the CRU from providing funds directly. This will ensure that the schemes, which serve vital safety functions in the public interest, can continue to operate in the case of unexpected cost increases or decreased revenues due to declining membership. Amendment No. 7 is a technical amendment reflecting this purpose in the Bill's Long Title. I assure the House these changes will not result in any additional charges on the Exchequer. The Electricity Regulation Act 1999 enables the statutory functions of the CRU to be funded through a levy to be paid each year by the industry.</p>
+        </speech>
+        <summary eId="sum_13"> Amendment agreed to.</summary>
+        <speech by="#TimDooley" eId="spk_265" as="#Minister_of_State_at_the_Department_of_Climate,_Energy_and_the_Environment">
+          <from>Deputy Timmy Dooley<recordedTime time="2026-05-27T17:50:00+01:00"/></from>
+          <p eId="para_846">I move amendment No. 2:</p>
+          <p eId="para_847"> In page 9, between lines 2 and 3, to insert the following:</p>
+          <p eId="para_848">
+            <b> “Amendment of section 9F of Principal Act</b>
+          </p>
+          <p eId="para_849"><b> 5. </b>Section 9F of the Principal Act is amended—</p>
+          <p eId="para_850"> (a) in subsection (2)(c), by the insertion of “, notwithstanding subsection (10)(c),” after “and”, and</p>
+          <p eId="para_851"> (b) in subsection (10)(c), by the substitution of “Subject to subsection (2)(b), all” for “All”.”.</p>
+        </speech>
+        <summary eId="sum_14"> Amendment agreed to.</summary>
+        <summary eId="sum_15"> Section 4 agreed to.</summary>
+        <summary eId="sum_16"> Sections 5 to 22, inclusive, agreed to.</summary>
+        <summary eId="sum_17">NEW SECTION</summary>
+        <speech by="#JohnMcGuinness" eId="spk_266">
+          <from> An Leas-Cheann Comhairle<recordedTime time="2026-05-27T18:00:00+01:00"/></from>
+          <p eId="para_852">Amendments Nos. 3 to 6, inclusive, and No. 8 are related and may be discussed together, by agreement.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_267" as="#Minister_of_State_at_the_Department_of_Climate,_Energy_and_the_Environment">
+          <from>Deputy Timmy Dooley<recordedTime time="2026-05-27T18:00:00+01:00"/></from>
+          <p eId="para_853">I move amendment No. 3: </p>
+          <p class="indent_1" eId="para_854">In page 40, between lines 10 and 11, to insert the following: </p>
+          <p class="indent_1" eId="para_855">
+            <b>"Amendment of section 22 of Turf Development Act 1998 </b>
+          </p>
+          <p class="indent_1" eId="para_856"><b>23.</b>Section 22(1)(b) of the Turf Development Act 1998 is amended by the substitution of "€1,500,000,000" for "€650,000,000".".</p>
+          <p eId="para_857"> Amendment No. 3 inserts into the principal Act a provision amending section 22(1)(b) of the Turf Development Act 1998. I have already outlined the reasons for this change when introducing the motion to instruct the committee. I thank Members for allowing this important amendment to be dealt with as part of the Bill currently before the House.</p>
+          <p eId="para_858"> Amendments Nos. 4 to 6, inclusive, and No. 8 are technical amendments consequent to the amendment of the Turf Development Act 1998 to reflect the Bill's expanded purpose. Its Short Title is changed to the Gas Safety and Miscellaneous Amendments Bill 2026.</p>
+        </speech>
+        <summary eId="sum_18"> Amendment agreed to.</summary>
+        <summary eId="sum_19">SECTION 23</summary>
+        <speech by="#TimDooley" eId="spk_268" as="#Minister_of_State_at_the_Department_of_Climate,_Energy_and_the_Environment">
+          <from>Deputy Timmy Dooley<recordedTime time="2026-05-27T18:00:00+01:00"/></from>
+          <p eId="para_859">I move amendment No. 4:</p>
+          <p class="indent_1" eId="para_860">In page 40, line 12, to delete "(Amendment)" and substitute "and Miscellaneous Amendments".</p>
+        </speech>
+        <summary eId="sum_20"> Amendment agreed to.</summary>
+        <speech by="#TimDooley" eId="spk_269" as="#Minister_of_State_at_the_Department_of_Climate,_Energy_and_the_Environment">
+          <from>Deputy Timmy Dooley<recordedTime time="2026-05-27T18:00:00+01:00"/></from>
+          <p eId="para_861">I move amendment No. 5:</p>
+          <p class="indent_1" eId="para_862">In page 40, between lines 12 and 13, to insert the following:</p>
+          <p class="indent_2" eId="para_863">"(2) The Turf Development Acts 1946 to 1998 and <i>section 23</i> may be cited together as the Turf Development Acts 1946 to 2026.".</p>
+        </speech>
+        <summary eId="sum_21"> Amendment agreed to.</summary>
+        <speech by="#TimDooley" eId="spk_270" as="#Minister_of_State_at_the_Department_of_Climate,_Energy_and_the_Environment">
+          <from>Deputy Timmy Dooley<recordedTime time="2026-05-27T18:00:00+01:00"/></from>
+          <p eId="para_864">I move amendment No. 6:</p>
+          <p eId="para_865"> In page 40, lines 13 and 14, to delete " and 19" and substitute ", <i>19</i> and <i>23</i>".</p>
+        </speech>
+        <summary eId="sum_22"> Amendment agreed to.</summary>
+        <summary eId="sum_23"> Section 23, as amended, agreed to.</summary>
+        <summary eId="sum_24">TITLE</summary>
+        <speech by="#TimDooley" eId="spk_271" as="#Minister_of_State_at_the_Department_of_Climate,_Energy_and_the_Environment">
+          <from>Deputy Timmy Dooley<recordedTime time="2026-05-27T18:00:00+01:00"/></from>
+          <p eId="para_866">I move amendment No. 7:</p>
+          <p class="indent_1" eId="para_867">In page 3, line 5, after "1999" to insert the following:</p>
+          <p class="indent_2" eId="para_868">"to provide for the funding of functions of an Electrical Safety Supervisory Body or Gas Safety Supervisory Body appointed under that Act by the Commission for Regulation of Utilities;".</p>
+        </speech>
+        <summary eId="sum_25"> Amendment agreed to.</summary>
+        <speech by="#TimDooley" eId="spk_272" as="#Minister_of_State_at_the_Department_of_Climate,_Energy_and_the_Environment">
+          <from>Deputy Timmy Dooley<recordedTime time="2026-05-27T18:00:00+01:00"/></from>
+          <p eId="para_869">I move amendment No. 8:</p>
+          <p class="indent_1" eId="para_870">In page 3, line 19, after "2014;" to insert "to amend the Turf Development Act 1998;".</p>
+        </speech>
+        <summary eId="sum_26"> Title, as amended, agreed to.</summary>
+        <speech by="#JohnMcGuinness" eId="spk_273">
+          <from> An Leas-Cheann Comhairle<recordedTime time="2026-05-27T18:00:00+01:00"/></from>
+          <p eId="para_871">Pursuant to Standing Order 194(3), I report specially to the Dáil that the committee has amended the Title. </p>
+        </speech>
+        <summary eId="sum_27"> Bill reported with amendments, received for final consideration and passed.</summary>
+        <speech by="#JohnMcGuinness" eId="spk_274">
+          <from> An Leas-Cheann Comhairle<recordedTime time="2026-05-27T18:00:00+01:00"/></from>
+          <p eId="para_872">The Bill will now be sent to the Seanad.</p>
+        </speech>
+        <summary eId="sum_28">
+          <i> Cuireadh an Dáil ar fionraí ar 6.07 p.m. agus cuireadh tús leis arís ar 6.12 p.m.</i>
+        </summary>
+        <summary eId="sum_29">
+          <i>Sitting suspended at 6.07 p.m. and resumed at 6.12 p.m.</i>
+        </summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_21">
+        <heading>Message from Select Committee<recordedTime time="2026-05-27T18:00:00+01:00"/></heading>
+        <speech by="#RuairiOmurchu" as="#An_Cathaoirleach_Gníomhach" eId="spk_275">
+          <from>An Cathaoirleach Gníomhach (Deputy Ruairí Ó Murchú)<recordedTime time="2026-05-27T18:00:00+01:00"/></from>
+          <p eId="para_873">The Select Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach, has completed its consideration of the National Treasury Management Agency (Miscellaneous Provisions) Bill 2026, and has made no amendments thereto.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" refersTo="#bill.2024.56.dail.3_sub" eId="dbsect_22">
+        <heading>Údarás na Gaeltachta (Amendment) Bill 2024: An Tuarascáil agus an Chéim Dheiridh<recordedTime time="2026-05-27T18:10:00+01:00"/></heading>
+        <speech by="#RuairiOmurchu" as="#An_Cathaoirleach_Gníomhach" eId="spk_276">
+          <from>An Cathaoirleach Gníomhach (Deputy Ruairí Ó Murchú)<recordedTime time="2026-05-27T18:10:00+01:00"/></from>
+          <p eId="para_874">Tá baint ag leasuithe Uimh. 1, 2, 27 agus 32 le chéile agus pléifear le chéile iad.</p>
+        </speech>
+        <speech by="#DaraCalleary" as="#Minister_for_Rural_and_Community_Development_and_the_Gaeltacht" eId="spk_277">
+          <from>Minister for Rural and Community Development and the Gaeltacht (Deputy Dara Calleary)<recordedTime time="2026-05-27T18:10:00+01:00"/></from>
+          <p eId="para_875">Tairgim leasú Uimh. 1:</p>
+          <p class="indent_1" eId="para_876">Ar leathanach 7, líne 11, “agus” a scriosadh agus “do leasú an Achta Rialtais Áitiúil, 2001; agus” a chur ina ionad.</p>
+          <p eId="para_877"> Is leasú teicniúil é leasú Uimh. 1 atá á mholadh agam mar aon le leasú Uimh. 32, rud a leasóidh an tAcht Rialtais Áitiúil tríd an mBille seo freisin. Ní mór é seo a léiriú ag tús an Bhille, áit a leagtar amach cuspóir an Bhille. Deimhníonn an leasú sin mar atá leagtha amach i leasú Uimh. 32 gur aidhm de chuid an Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta í an aidhm maidir le logainm a athrú a bhaineann le háit i limistéar Gaeltachta. I leasú Uimh. 32, sonraítear ach deimhnítear gurb é an tAire Forbartha Tuaithe agus Pobail, agus Gaeltachta an tAire atá freagrach as logainm i limistéar Gaeltachta a athrú.</p>
+          <p eId="para_878"> Baineann alt 192 den Acht Rialtais Áitiúil, 2001, a cuireadh isteach le halt 48 den Acht comhshaoil - foráil a leagadh amach in 2011 - le haidhm de chuid an Aire atá freagrach as an nGaeltacht. Is é an aidhm atá i gceist ná athrú a chur ar logainm i gcás áit atá i limistéar Gaeltachta. Anuraidh, nuair a bhí an obair ullmhúcháin ar siúl chun aidhmeanna na Gaeltachta agus na Gaeilge a aistriú ón Aire Turasóireachta, Cultúir, Ealaíon, Gaeltachta, Spóirt agus Meán chuig an Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta, tugadh faoi deara go raibh botún i dteideal an Aire in alt 192 den Acht Rialtais Áitiúil, 2001. Rinneadh cinneadh dá bhrí sin nach bhféadfaí an aidhm áirithe sin a chur san áireamh san ordú lena ndéanfaí feidhmeanna na Gaeltachta agus na Gaeilge a aistriú agus go gcaithfí soiléiriú a dhéanamh ar an Aire atá freagrach as an bhfeidhm atá i gceist le reachtaíocht phríomha. Leis an leasú atá á mholadh agam anseo, cuirfear an méid sin i gcrích.</p>
+          <p eId="para_879"> Teastaíonn uaim leasuithe Uimh. 2 agus 27 a dhéanamh mar gur aistríodh aidhmeanna na Gaeltachta agus na Gaeilge ón Aire Turasóireachta, Cultúir, Ealaíon, Gaeltachta, Spóirt agus Meán chuig an Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta ar tionscnú an Bhille seo.</p>
+          <p eId="para_880"> Maidir le leasú Uimh. 32, toisc go bhfuil an aidhm atá i gceist le haistriú go díreach chuig an Aire Forbartha Tuaithe agus Pobail, agus Gaeltachta le reachtaíocht phríomha, sin an reachtaíocht atá á moladh anseo, níl ordú aistrithe aidhme breise de dhíth. Níl aon impleachtaí ag an leasú seo i dtaobh various ordaithe logainmneacha atá déanta cheana féin. Molaim na leasuithe seo don Teach agus gabhaim buíochas leis na Teachtaí as an tuiscint.</p>
+        </speech>
+        <speech by="#ConorDMcGuinness" eId="spk_278">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T18:10:00+01:00"/></from>
+          <p eId="para_881">Nílimid ag cur i gcoinne na leasuithe.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" as="#An_Cathaoirleach_Gníomhach" eId="spk_279">
+          <from>An Cathaoirleach Gníomhach (Deputy Ruairí Ó Murchú)<recordedTime time="2026-05-27T18:10:00+01:00"/></from>
+          <p eId="para_882">An bhfuil duine ar bith ag iarraidh aon rud eile a rá?</p>
+        </speech>
+        <speech by="#ConorSheehan" eId="spk_280">
+          <from>Deputy Conor Sheehan<recordedTime time="2026-05-27T18:10:00+01:00"/></from>
+          <p eId="para_883">Táim sásta leanúint ar aghaidh.</p>
+        </speech>
+        <summary eId="sum_30"> Aontaíodh an leasú.</summary>
+        <speech by="#DaraCalleary" eId="spk_281" as="#Minister_for_Rural_and_Community_Development_and_the_Gaeltacht">
+          <from>Deputy Dara Calleary<recordedTime time="2026-05-27T18:10:00+01:00"/></from>
+          <p eId="para_884">Tairgim leasú Uimh. 2:</p>
+          <p class="indent_1" eId="para_885">Ar leathanach 7, líne 19, “tAire Turasóireachta, Cultúir, Ealaíon, Gaeltachta, Spóirt agus Meán” a scriosadh agus “tAire Forbartha Tuaithe agus Pobail agus Gaeltachta” a chur ina ionad.</p>
+        </speech>
+        <summary eId="sum_31"> Aontaíodh an leasú.</summary>
+        <speech by="#ConorDMcGuinness" eId="spk_282">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T18:10:00+01:00"/></from>
+          <p eId="para_886">Tairgim leasú Uimh. 3:</p>
+          <p class="indent_1" eId="para_887">Ar leathanach 9, líne 13, “(b)” a scriosadh.</p>
+          <p eId="para_888"> Tuigim go bhfuil leasuithe Uimh. 3, 5 agus 22 á bplé le chéile. An bhfuil sé sin ceart?</p>
+        </speech>
+        <speech by="#RuairiOmurchu" as="#An_Cathaoirleach_Gníomhach" eId="spk_283">
+          <from>An Cathaoirleach Gníomhach (Deputy Ruairí Ó Murchú)<recordedTime time="2026-05-27T18:10:00+01:00"/></from>
+          <p eId="para_889">Tá.</p>
+        </speech>
+        <speech by="#ConorDMcGuinness" eId="spk_284">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T18:10:00+01:00"/></from>
+          <p eId="para_890">An sprioc atá ag na leasuithe seo ná le cinntiú go mbeidh an bord iomlán ag Údarás na Gaeltachta tofa agus go mbeidh guth ag na ceantair Ghaeltachta níos lú atá scartha amach ó mhórchuid na Gaeltachta ina gcontaetha féin. Táim ag tagairt ar cheantair Ghaeltachta i gContae na Mí agus i gContae Phort Láirge mar shamplaí.</p>
+          <p eId="para_891"> Faoin mBille mar atá, bheadh seisear as 16 comhalta boird roghnaithe ag an Aire, agus ní thoghfaí ach deichniúr go daonlathach. Sa seanchóras ní raibh ach trí cheapachán ón Aire agus 17 tofa ón bpobal. Anois beidh dúbailt ar an líon ceaptha ag an Aire agus laghdú ar an líon tofa. I gcomparáid leis an údarás mar a bhí sular scriosadh na toghcháin, is cosúil go bhfuil power grab i dtreo an Aire ón bpobal le feiceáil. Bhí an t-údarás in ainm is a bheith mar ghuth daonlathach an phobail in áit ghuth an Aire sa Ghaeltacht.</p>
+          <p eId="para_892"> Dúirt an tAire nach mbeadh saineolas ar an mbord dá dtoghfaí an bord go hiomlán, ach tá an Dáil seo tofa go hiomlán agus is féidir linn saineolas a fháil chun cabhrú linn. Tá sé mar an gcéanna le comhairlí contae nó comhairlí cathrach. Ní ghlacfadh an Dáil le haon trian de na Teachtaí Dála a bheith roghnaithe ag an Aire. Ní ghlacfaimis leis dá mbeadh aon trian de chomhairle contae nó cathrach tofa nó ainmnithe ag Aire. Ní aon leithscéal é an gá le saineolas ar féidir a choimisiúnú i bhfeidhmeannas an údaráis. Bhí modh níos cuimsithí ag Sinn Féin i gcomhair bord níos mó le guth níos láidre agus níos ionadaíche don phobal na Gaeltachta, leasú Uimh. 4, bunaithe ar pholasaithe cuimsitheacha Shinn Féin ag lorg dínit, dea-chleachtas agus daonlathas don Ghaeltacht, ach dúradh go mbeadh costas i gceist toisc níos mó comhaltaí boird a bheith ann. Mar sin rialaíodh as ord é.</p>
+          <p eId="para_893"> Ní Sinn Féin amháin a lorg bord iomlán tofa agus ionadaíocht do na ceantair bheaga. Ba iad sin moltaí traspháirtí an choiste Gaeilge sa Dáil dheireanach.</p>
+          <p eId="para_894">Dúirt moladh 1:</p>
+          <p class="indent_1" eId="para_895">Molann an Comhchoiste go ndéanfaidh an tAire athbhreithniú ar líon na mball ar Bhord Údarás na Gaeltachta lena chinntiú go mbeidh ionadaíocht ag gach ceantar Gaeltachta ar leith, na ceantair beaga cosúil le Uíbh Ráthaigh i gContae Chiarraí agus na hoileáin Ghaeltachta ina measc. Molann an Comhchoiste é seo lena chinntiú go mbeidh ionadaíocht ar Bhord Údarás na Gaeltachta ó gach pobal Gaeltachta, rud atá an-tábhacht ag baint leis i meon na bpobal sin.</p>
+          <p eId="para_896"> Ba mholadh 2 ón gcomhchoiste ná:</p>
+          <p class="indent_1" eId="para_897">... go gcuirfear an tAire córas i bhfeidhm trína dtoghfar baill uile Bhord Údarás na Gaeltachta, seachas córas ina dtoghfar roinnt ball agus ina n-ainmnítear roinnt ball eile</p>
+          <p eId="para_898"> Mar sin, tá comhréiteach molta sna leasuithe seo ionas go mbeidh an 16 go léir tofa ag pobail Ghaeltachta le breis suíochán i nGaillimh, i dTír Chonaill, i Maigh Eo agus i gCiarraí. Chinnteodh na leasuithe ionadaíocht ar leith d’Uíbh Ráthach, Acaill agus na hoileáin. Níl costas breise ag baint leis an gcur chuige seo. De bharr na bhfáthanna sin atá léirithe agam, táim ag brú leasuithe Uimh. 3, 5 agus 22.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" as="#An_Cathaoirleach_Gníomhach" eId="spk_285">
+          <from>An Cathaoirleach Gníomhach (Deputy Ruairí Ó Murchú)<recordedTime time="2026-05-27T18:20:00+01:00"/></from>
+          <p eId="para_899">Tá leasuithe Uimh. 3, 5 agus 22 bainteach lena chéile. Leanann leasú Uimh. 22 as leasú Uimh. 5. Déanfar leasuithe Uimh. 3, 5 agus 22 a phlé le chéile.</p>
+        </speech>
+        <speech by="#ConorSheehan" eId="spk_286">
+          <from>Deputy Conor Sheehan<recordedTime time="2026-05-27T18:20:00+01:00"/></from>
+          <p eId="para_900">Gabhaim buíochas le mo chomhghleacaithe as na leasuithe sin a chur síos. Aontaím leis an méid a bhí á rá ag an Teachta McGuinness. I dtuairim Pháirtí an Lucht Oibre agus i mo thuairim féin, tá gá le bord níos mó agus caithfidh an bord iomlán a bheith tofa. Tacaím le leasuithe Uimh. 3, 5 agus 22.</p>
+        </speech>
+        <speech by="#MaireadFarrell" eId="spk_287">
+          <from>Deputy Mairéad Farrell<recordedTime time="2026-05-27T18:20:00+01:00"/></from>
+          <p eId="para_901">Is rud é seo a bhfuilimid ag plé le fada an lá. Táimid soiléir go gcaithfidh an bord iomlán a bheith tofa agus go gcaithfear ionadaíocht ó gach ceantar Gaeltachta a bheith ann. Tá sé sin fíorthábhachtach. Tá muintir na Gaeltachta ag fanacht le fada an lá i gcomhair bord tofa agus teacht ar ais na dtoghchán. Ar ndóigh, tá sé fíorthábhachtach go mbeadh sé seo déanta agus go mbeadh an bord iomlán tofa. Is é sin an fáth go bhfuil na leasuithe seo á gcur chun tosaigh.</p>
+        </speech>
+        <speech by="#DaraCalleary" eId="spk_288" as="#Minister_for_Rural_and_Community_Development_and_the_Gaeltacht">
+          <from>Deputy Dara Calleary<recordedTime time="2026-05-27T18:20:00+01:00"/></from>
+          <p eId="para_902">Gabhaim buíochas leis na Teachtaí. Tá scileanna áirithe riachtanach ar bhoird Stáit agus, go deimhin, ar bhord Údarás na Gaeltachta. Tugann meascán do bhaill thofa agus baill cheaptha deis chun a chinntiú go bhfuil meascán áirithe de scileanna, taithí, saineolas agus ionadaíocht ag an mbord. An uair dheireanach a reáchtáladh comórtas le haghaidh bhord an údaráis, bhí scileanna áirithe san áireamh nach mór d'iarrthóirí taithí a léiriú iontu. Is iad na scileanna a bhí san áireamh ná cur chun cinn na Gaeilge agus pleanáil teanga; forbairt fiontraíochta agus cruthú fostaíochta; forbairt pobail nó cur chun cinn na n-ealaíon; agus rialachas corparáideach. Bhí cáilíochtaí i réimsí atá bainteach le boird Stáit - mar shampla, cáilíochtaí i mbainistíocht gnó, bainistíocht airgeadais nó cuntasaíocht, pleanáil teanga nó forbairt pobail - san áireamh chomh maith mar rudaí inmhianaithe. Níl bealach ann inar féidir na scileanna sin a chinntiú gan comhaltaí a bheith ceaptha ag cibé cén tAire a bheidh ann. Ar an mbonn sin, ní féidir liom glacadh leis an leasú seo.</p>
+        </speech>
+        <speech by="#ConorDMcGuinness" eId="spk_289">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T18:20:00+01:00"/></from>
+          <p eId="para_903">Seasann an argóint a dhein mé níos luaithe. Má táimid ag caint mar gheall ar dhaonlathas agus guth na bpobal a bheith cloiste, ba cheart go mbeadh vótáil i gceist chun baill den bhord a roghnú in ionad iad a bheith ainmnithe. Laistigh dár leasuithe, Uimh. 3, 5 agus 22, bheadh ionadaithe cinnte i go leor de na Gaeltachtaí atá róbheag le guth a fháil agus iad caite isteach le ceantair mhór thíre. Níl ach idir 2% agus 4% den daonra Gaeltachta i nGaillimh, Dún na nGall agus Corcaigh lonnaithe ar na hoileáin. Ag an am céanna, tá daonra na n-oileán Gaeltachta níos mó ná daonra na nGaeltachtaí i bPort Láirge agus sa Mhí agus beidh suíocháin ag an dá cheantar sin. Táimid ag iarraidh bunleibhéal a thabhairt do gach ceantar Gaeltachta, ní hamháin sna toghcháin, ionas go mbeidh aitheantas ann. Faoinár leasuithe, bheadh ionadaithe cinnte i nGaeltacht Uíbh Ráthach i gCiarraí agus i nGaeltacht Acla i Maigh Eo, mar a bhí pléite agus molta ag an gcoiste. Faoin mBille mar atá sé, ní bheidh dóthain daonra ag na ceantair seo difear a dhéanamh i dtoghcháin atá dírithe ar Ghaeltachtaí Chiarraí thiar agus tuaisceart Mhaigh Eo. Ag an am céanna, tá daonra ag Uíbh Ráthach agus Acaill atá cosúil le daonra Ghaeltachtaí Phort Láirge agus na Mí. Baineann sé sin le cothrom na Féinne a bheith ag na ceantair éagsúla. Nuair atáimid ag caint mar gheall ar chúrsaí Gaeltachta, cultúrtha agus ionadaíochta, táimid ag caint mar gheall ar phobail cois cósta ach go háirithe. Is pobail imeallacha iad a bhfuil cultúr agus aitheantas éagsúil acu fiú laistigh de cheantar Gaeltachta an chontae. Caithfimid glacadh leis sin agus caithfimid an méid sin a thuiscint. </p>
+          <p eId="para_904"> Bheadh an Ghaillimh roinnte go tíreolaíoch freisin. Bheadh ceithre shuíochán ag Conamara agus suíochán amháin ag an Eachréidh agus bruach thoir na Gaillimhe. Leis seo, aithnítear go bhfuil gá le scoilt ionas nach mbeadh an iomarca cumhachta ag vótaí na cathrach i gcóras atá in ainm chun guth a thabhairt don phobal teanga atá lonnaithe i gConamara ach tugtar deis don cheantar Gaeltachta soir ó abhainn na Gaillimhe plé a dhéanamh ar cad a theastaíonn uathu freisin. Tá na trí leasuithe an-tábhachtach. Impím ar an Aire glacadh leo mar tá sé seo ag eascairt ón gcomhchoiste agus ón éileamh pobail atá ann sna ceantair Ghaeltachta.</p>
+        </speech>
+        <speech by="#ConorSheehan" eId="spk_290">
+          <from>Deputy Conor Sheehan<recordedTime time="2026-05-27T18:20:00+01:00"/></from>
+          <p eId="para_905">Chuala mé an méid a bhí le rá ag an Aire. Tá a lán cumhacht fós ag an Aire. Impím air glacadh leis na leasuithe seo. Bheadh sé níos daonlathaí. Tá iarrtha sna leasuithe na toghcháin seo a athrú ionas go mbeidh siad níos láidre.</p>
+        </speech>
+        <speech by="#MaireadFarrell" eId="spk_291">
+          <from>Deputy Mairéad Farrell<recordedTime time="2026-05-27T18:20:00+01:00"/></from>
+          <p eId="para_906">Má tá an tAire dáiríre faoi bhord daonlathach agus guth a chinntiú san údarás do phobail Ghaeltachta atá níos lú nó atá lonnaithe ar na hoileáin, ba chóir dó glacadh leis na leasuithe seo. Má tá sé ag diúltú do na leasuithe seo, ní mór dó a mhíniú cén fáth go bhfuil sé níos tábhachtaí go mbeidh seisear ionadaithe aige féin ar an mbord in áit ionadaithe atá roghnaithe ag Gaeltacht na bpobal oileánda nó Gaeltacht Uíbh Ráthach. Mar a dúradh níos luaithe, is dúbailt atá ann ó mar a bhí, ó thriúr go seisear.</p>
+        </speech>
+        <speech by="#DaraCalleary" eId="spk_292" as="#Minister_for_Rural_and_Community_Development_and_the_Gaeltacht">
+          <from>Deputy Dara Calleary<recordedTime time="2026-05-27T18:20:00+01:00"/></from>
+          <p eId="para_907">Is bord Stáit é sin freisin. Ba cheart go mbeadh gach duine atá ar an mbord freagrach ní hamháin do cheantar áirithe, ach don Stát. Tá sé tábhachtach go mbeidh guth ag na ceantair air ach is bord Stáit é a bhfuil dlíthe ag baint leis. Tá an Teachta Farrell ar an gCoiste um Chuntais Phoiblí nó bhí sí.</p>
+        </speech>
+        <speech by="#MaireadFarrell" eId="spk_293">
+          <from>Deputy Mairéad Farrell<recordedTime time="2026-05-27T18:20:00+01:00"/></from>
+          <p eId="para_908">Táim ar an gcoiste airgeadais.</p>
+        </speech>
+        <speech by="#DaraCalleary" eId="spk_294" as="#Minister_for_Rural_and_Community_Development_and_the_Gaeltacht">
+          <from>Deputy Dara Calleary<recordedTime time="2026-05-27T18:20:00+01:00"/></from>
+          <p eId="para_909">Tuigeann sí an fhreagracht atá ar bhoird Stáit. Tuigeann sí freisin go dtarlaíonn timpistí nuair atá an fhreagracht sin lag. Tá sé tábhachtach go bhfuil an tíreolaíocht tugtha san áireamh, gan dabht, ach tá sé tábhachtach freisin go bhfuil an meascán seo ann agus go mbeidh na scileanna ar leag mé amach ann. Ba iad: cur chun cinn na Gaeilge agus pleanáil teanga; forbairt fiontraíochta; cruthú fostaíochta; forbairt pobail; cur chun cinn na n-ealaíon; agus rialachas corparáideach. Tá seans ann nach mbeidh daoine le toghadh ina gcónaí sna ceantair a bhfuil na scileanna sin acu. Beidh ar cibé cén tAire a bheidh ann seans a thabhairt do dhaoine. Is bord Stáit é sin. Tá an tíreolaíocht agus na toghcháin tábhachtach ach tá an meascán idir baill thofa agus baill cheaptha tábhachtach freisin. Leis na ceapacháin sin, beidh an tAire in ann a chinntiú go bhfuil na scileanna atá riachtanach do bhord Stáit timpeall an bhoird. Leis an meascán idir baill thofa agus baill cheaptha, beidh deis ag cibé cén Aire a bheidh ann na scileanna sin a chur i seirbhís Údarás na Gaeltachta. Is é sin an rud is tábhachtaí.</p>
+        </speech>
+        <speech by="#ConorDMcGuinness" eId="spk_295">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T18:30:00+01:00"/></from>
+          <p eId="para_910">Tá ardmheas agam ar an Aire, mar is eol dó, ach ní féidir liom glacadh leis an argóint sin i dtaobh na gceapachán. Más eisean atá mar Aire nó duine a thagann ina dhiaidh mar Aire, conas a mbeadh a fhios againn go mbeadh na scileanna agus na tuiscintí cuí ag an Aire úd sin na daoine cearta a cheapadh? Conas a mbeadh a fhios againn? An freagra ná go bhfuil an tAire freagrach don Teach seo. Conas a mbeadh a fhios againn go mbeadh na scileanna cuí ag na Teachtaí Dála istigh sa Teach? Níl a fhios againn. Má tá cáilíochtaí á leagan síos in ionad toghcháin, táthar ag cur isteach ar an bpróiseas daonlathach. Tá deis ag pobal na hÉireann agus ag gach saoránach sa Stáit seo a vóta a chaitheamh pé slí gur mhian leis nó léi gan treoir ón Aire nó ón Rialtas. Ba cheart go mbeadh an deis chéanna ag saoránaigh atá ina gcónaí sa Ghaeltacht na daoine atá ag déanamh ionadaíocht orthu a cheapadh gan an tAire a bheith ag ainmniú daoine. Is dócha go bhfuil príomhoifigeach cúnta in Údarás na Gaeltachta - an príomhfheidhmeannach, táim cinnte. Tá sé mar an gcéanna le haon údarás Stát eile. Is féidir le haon údarás Stát – agus déanann siad an-chuid de – comhairleoirí a fháil isteach chun tacú le saineolas. Déanann gach Roinn agus nach mór gach comhlacht agus eagras Stát é sin go rialta. Is féidir é sin a dhéanamh. Mar sin, ní ghlacaim leis an argóint go bhfuil sé seo faoin Aire a bheith in ann cinnte a dhéanamh de go bhfuil an taithí agus na cáilíochtaí cuí ag na baill boird. Sílim go bhfuil sé faoi chumhacht a choimeád ar an údarás in ionad daonlathas a thabhairt do na pobail Ghaeltachta. </p>
+        </speech>
+        <summary eId="sum_32"> Cuireadh leasú Uimh. 3. </summary>
+        <debateSection name="division" refersTo="#bill.2024.56.dail." eId="dbsect_23">
+          <summary eId="sum_33">Amendment put: </summary>
+          <summary title="division" eId="sum_34">The Dáil divided: Tá, <quantity refersTo="#ta" normalized="56" eId="qty_1">56</quantity>; Níl, <quantity refersTo="#nil" normalized="76" eId="qty_2">76</quantity>; Staon, <quantity refersTo="#staon" normalized="0" eId="qty_3">0</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_24">
+            <p eId="para_911">Tá</p>
+            <p eId="para_912">
+              <person refersTo="#IvanaBacik">Bacik, Ivana.</person>
+            </p>
+            <p eId="para_913">
+              <person refersTo="#CathyBennett">Bennett, Cathy.</person>
+            </p>
+            <p eId="para_914">
+              <person refersTo="#RichardBoydBarrett">Boyd Barrett, Richard.</person>
+            </p>
+            <p eId="para_915">
+              <person refersTo="#JohnBrady">Brady, John.</person>
+            </p>
+            <p eId="para_916">
+              <person refersTo="#PatBuckley">Buckley, Pat.</person>
+            </p>
+            <p eId="para_917">
+              <person refersTo="#JoannaByrne">Byrne, Joanna.</person>
+            </p>
+            <p eId="para_918">
+              <person refersTo="#SorcaClarke">Clarke, Sorca.</person>
+            </p>
+            <p eId="para_919">
+              <person refersTo="#RoseConwayWalsh">Conway-Walsh, Rose.</person>
+            </p>
+            <p eId="para_920">
+              <person refersTo="#RuthCoppinger">Coppinger, Ruth.</person>
+            </p>
+            <p eId="para_921">
+              <person refersTo="#ReadaCronin">Cronin, Réada.</person>
+            </p>
+            <p eId="para_922">
+              <person refersTo="#SeanCroweSF">Crowe, Seán.</person>
+            </p>
+            <p eId="para_923">
+              <person refersTo="#DavidCullinane">Cullinane, David.</person>
+            </p>
+            <p eId="para_924">
+              <person refersTo="#JenCummins">Cummins, Jen.</person>
+            </p>
+            <p eId="para_925">
+              <person refersTo="#PearseDoherty">Doherty, Pearse.</person>
+            </p>
+            <p eId="para_926">
+              <person refersTo="#PaulDonnelly">Donnelly, Paul.</person>
+            </p>
+            <p eId="para_927">
+              <person refersTo="#DessieEllis">Ellis, Dessie.</person>
+            </p>
+            <p eId="para_928">
+              <person refersTo="#DanielEnnis">Ennis, Daniel.</person>
+            </p>
+            <p eId="para_929">
+              <person refersTo="#AidanFarrelly">Farrelly, Aidan.</person>
+            </p>
+            <p eId="para_930">
+              <person refersTo="#MaireadFarrell">Farrell, Mairéad.</person>
+            </p>
+            <p eId="para_931">
+              <person refersTo="#GaryGannon">Gannon, Gary.</person>
+            </p>
+            <p eId="para_932">
+              <person refersTo="#SineadGibney">Gibney, Sinéad.</person>
+            </p>
+            <p eId="para_933">
+              <person refersTo="#EoinHayes">Hayes, Eoin.</person>
+            </p>
+            <p eId="para_934">
+              <person refersTo="#RoryHearne">Hearne, Rory.</person>
+            </p>
+            <p eId="para_935">
+              <person refersTo="#EoghanKenny">Kenny, Eoghan.</person>
+            </p>
+            <p eId="para_936">
+              <person refersTo="#MartinKenny">Kenny, Martin.</person>
+            </p>
+            <p eId="para_937">
+              <person refersTo="#ClaireKerrane">Kerrane, Claire.</person>
+            </p>
+            <p eId="para_938">
+              <person refersTo="#PaulLawless">Lawless, Paul.</person>
+            </p>
+            <p eId="para_939">
+              <person refersTo="#GeorgeLawlor">Lawlor, George.</person>
+            </p>
+            <p eId="para_940">
+              <person refersTo="#PadraigMacLochlainn">Mac Lochlainn, Pádraig.</person>
+            </p>
+            <p eId="para_941">
+              <person refersTo="#DonnaMcGettigan">McGettigan, Donna.</person>
+            </p>
+            <p eId="para_942">
+              <person refersTo="#ConorDMcGuinness">McGuinness, Conor D.</person>
+            </p>
+            <p eId="para_943">
+              <person refersTo="#DeniseMitchell">Mitchell, Denise.</person>
+            </p>
+            <p eId="para_944">
+              <person refersTo="#PaulMurphy">Murphy, Paul.</person>
+            </p>
+            <p eId="para_945">
+              <person refersTo="#JohnnyMythen">Mythen, Johnny.</person>
+            </p>
+            <p eId="para_946">
+              <person refersTo="#GeraldNash">Nash, Ged.</person>
+            </p>
+            <p eId="para_947">
+              <person refersTo="#NatashaNewsomeDrennan">Newsome Drennan, Natasha.</person>
+            </p>
+            <p eId="para_948">
+              <person refersTo="#ShonaghNiRaghallaigh">Ní Raghallaigh, Shónagh.</person>
+            </p>
+            <p eId="para_949">
+              <person refersTo="#CarolNolan">Nolan, Carol.</person>
+            </p>
+            <p eId="para_950">
+              <person refersTo="#CianOCallaghan">O'Callaghan, Cian.</person>
+            </p>
+            <p eId="para_951">
+              <person refersTo="#RobertODonoghue">O'Donoghue, Robert.</person>
+            </p>
+            <p eId="para_952">
+              <person refersTo="#LouisOHara">O'Hara, Louis.</person>
+            </p>
+            <p eId="para_953">
+              <person refersTo="#LouiseOReilly">O'Reilly, Louise.</person>
+            </p>
+            <p eId="para_954">
+              <person refersTo="#DarrenORourke">O'Rourke, Darren.</person>
+            </p>
+            <p eId="para_955">
+              <person refersTo="#EoinOBroin">Ó Broin, Eoin.</person>
+            </p>
+            <p eId="para_956">
+              <person refersTo="#DonnchadhOLaoghaire">Ó Laoghaire, Donnchadh.</person>
+            </p>
+            <p eId="para_957">
+              <person refersTo="#RuairiOmurchu">Ó Murchú, Ruairí.</person>
+            </p>
+            <p eId="para_958">
+              <person refersTo="#FionntanOSuilleabhain">Ó Súilleabháin, Fionntán.</person>
+            </p>
+            <p eId="para_959">
+              <person refersTo="#LiamQuaide">Quaide, Liam.</person>
+            </p>
+            <p eId="para_960">
+              <person refersTo="#MauriceQuinlivan">Quinlivan, Maurice.</person>
+            </p>
+            <p eId="para_961">
+              <person refersTo="#PadraigRice">Rice, Pádraig.</person>
+            </p>
+            <p eId="para_962">
+              <person refersTo="#ConorSheehan">Sheehan, Conor.</person>
+            </p>
+            <p eId="para_963">
+              <person refersTo="#MarieSherlock">Sherlock, Marie.</person>
+            </p>
+            <p eId="para_964">
+              <person refersTo="#DuncanSmith">Smith, Duncan.</person>
+            </p>
+            <p eId="para_965">
+              <person refersTo="#BrianStanley">Stanley, Brian.</person>
+            </p>
+            <p eId="para_966">
+              <person refersTo="#MarkWall">Wall, Mark.</person>
+            </p>
+            <p eId="para_967">
+              <person refersTo="#MarkWard">Ward, Mark.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_25">
+            <p eId="para_968">Níl</p>
+            <p eId="para_969">
+              <person refersTo="#WilliamAird">Aird, William.</person>
+            </p>
+            <p eId="para_970">
+              <person refersTo="#CatherineArdagh">Ardagh, Catherine.</person>
+            </p>
+            <p eId="para_971">
+              <person refersTo="#GraceBoland">Boland, Grace.</person>
+            </p>
+            <p eId="para_972">
+              <person refersTo="#TomBrabazon">Brabazon, Tom.</person>
+            </p>
+            <p eId="para_973">
+              <person refersTo="#BrianBrennan">Brennan, Brian.</person>
+            </p>
+            <p eId="para_974">
+              <person refersTo="#ShayBrennan">Brennan, Shay.</person>
+            </p>
+            <p eId="para_975">
+              <person refersTo="#ColmBrophy">Brophy, Colm.</person>
+            </p>
+            <p eId="para_976">
+              <person refersTo="#ColmBurke">Burke, Colm.</person>
+            </p>
+            <p eId="para_977">
+              <person refersTo="#MaryButler">Butler, Mary.</person>
+            </p>
+            <p eId="para_978">
+              <person refersTo="#JerryButtimer">Buttimer, Jerry.</person>
+            </p>
+            <p eId="para_979">
+              <person refersTo="#MichaelCahill">Cahill, Michael.</person>
+            </p>
+            <p eId="para_980">
+              <person refersTo="#CatherineCallaghan">Callaghan, Catherine.</person>
+            </p>
+            <p eId="para_981">
+              <person refersTo="#DaraCalleary">Calleary, Dara.</person>
+            </p>
+            <p eId="para_982">
+              <person refersTo="#SeanCanney">Canney, Seán.</person>
+            </p>
+            <p eId="para_983">
+              <person refersTo="#MichealCarrigy">Carrigy, Micheál.</person>
+            </p>
+            <p eId="para_984">
+              <person refersTo="#JenniferCarrollMacNeill">Carroll MacNeill, Jennifer.</person>
+            </p>
+            <p eId="para_985">
+              <person refersTo="#PeterChapCleere">Cleere, Peter 'Chap'.</person>
+            </p>
+            <p eId="para_986">
+              <person refersTo="#JohnClendennen">Clendennen, John.</person>
+            </p>
+            <p eId="para_987">
+              <person refersTo="#NiallCollins">Collins, Niall.</person>
+            </p>
+            <p eId="para_988">
+              <person refersTo="#JohnConnolly">Connolly, John.</person>
+            </p>
+            <p eId="para_989">
+              <person refersTo="#JoeCooney">Cooney, Joe.</person>
+            </p>
+            <p eId="para_990">
+              <person refersTo="#CathalCrowe">Crowe, Cathal.</person>
+            </p>
+            <p eId="para_991">
+              <person refersTo="#JohnCummins">Cummins, John.</person>
+            </p>
+            <p eId="para_992">
+              <person refersTo="#EmerCurrie">Currie, Emer.</person>
+            </p>
+            <p eId="para_993">
+              <person refersTo="#MartinDaly">Daly, Martin.</person>
+            </p>
+            <p eId="para_994">
+              <person refersTo="#AislingDempsey">Dempsey, Aisling.</person>
+            </p>
+            <p eId="para_995">
+              <person refersTo="#CormacDevlin">Devlin, Cormac.</person>
+            </p>
+            <p eId="para_996">
+              <person refersTo="#AlanDillon">Dillon, Alan.</person>
+            </p>
+            <p eId="para_997">
+              <person refersTo="#AlbertDolan">Dolan, Albert.</person>
+            </p>
+            <p eId="para_998">
+              <person refersTo="#FrankFeighan">Feighan, Frankie.</person>
+            </p>
+            <p eId="para_999">
+              <person refersTo="#SeanFleming">Fleming, Sean.</person>
+            </p>
+            <p eId="para_1000">
+              <person refersTo="#NormaFoley">Foley, Norma.</person>
+            </p>
+            <p eId="para_1001">
+              <person refersTo="#JamesGeogheganFG">Geoghegan, James.</person>
+            </p>
+            <p eId="para_1002">
+              <person refersTo="#NoelGrealishPD">Grealish, Noel.</person>
+            </p>
+            <p eId="para_1003">
+              <person refersTo="#MarianHarkinIND">Harkin, Marian.</person>
+            </p>
+            <p eId="para_1004">
+              <person refersTo="#SimonHarris">Harris, Simon.</person>
+            </p>
+            <p eId="para_1005">
+              <person refersTo="#BarryHeneghan">Heneghan, Barry.</person>
+            </p>
+            <p eId="para_1006">
+              <person refersTo="#MartinHeydon">Heydon, Martin.</person>
+            </p>
+            <p eId="para_1007">
+              <person refersTo="#EmerHiggins">Higgins, Emer.</person>
+            </p>
+            <p eId="para_1008">
+              <person refersTo="#KeiraKeogh">Keogh, Keira.</person>
+            </p>
+            <p eId="para_1009">
+              <person refersTo="#SeanKyne">Kyne, Seán.</person>
+            </p>
+            <p eId="para_1010">
+              <person refersTo="#JohnLahart">Lahart, John.</person>
+            </p>
+            <p eId="para_1011">
+              <person refersTo="#JamesLawless">Lawless, James.</person>
+            </p>
+            <p eId="para_1012">
+              <person refersTo="#MichaelLowry">Lowry, Michael.</person>
+            </p>
+            <p eId="para_1013">
+              <person refersTo="#DavidMaxwell">Maxwell, David.</person>
+            </p>
+            <p eId="para_1014">
+              <person refersTo="#PaulMcAuliffe">McAuliffe, Paul.</person>
+            </p>
+            <p eId="para_1015">
+              <person refersTo="#NoelMcCarthy">McCarthy, Noel.</person>
+            </p>
+            <p eId="para_1016">
+              <person refersTo="#TonyMcCormack">McCormack, Tony.</person>
+            </p>
+            <p eId="para_1017">
+              <person refersTo="#SeamusMcGrath">McGrath, Séamus.</person>
+            </p>
+            <p eId="para_1018">
+              <person refersTo="#ErinMcGreehan">McGreehan, Erin.</person>
+            </p>
+            <p eId="para_1019">
+              <person refersTo="#KevinBoxerMoran">Moran, Kevin Boxer.</person>
+            </p>
+            <p eId="para_1020">
+              <person refersTo="#AindriasMoynihan">Moynihan, Aindrias.</person>
+            </p>
+            <p eId="para_1021">
+              <person refersTo="#MichaelMoynihan">Moynihan, Michael.</person>
+            </p>
+            <p eId="para_1022">
+              <person refersTo="#ShaneMoynihan">Moynihan, Shane.</person>
+            </p>
+            <p eId="para_1023">
+              <person refersTo="#JenniferMurnaneOConnor">Murnane O'Connor, Jennifer.</person>
+            </p>
+            <p eId="para_1024">
+              <person refersTo="#MichaelMurphy">Murphy, Michael.</person>
+            </p>
+            <p eId="para_1025">
+              <person refersTo="#HildegardeNaughton">Naughton, Hildegarde.</person>
+            </p>
+            <p eId="para_1026">
+              <person refersTo="#JoeNeville">Neville, Joe.</person>
+            </p>
+            <p eId="para_1027">
+              <person refersTo="#DarraghOBrien">O'Brien, Darragh.</person>
+            </p>
+            <p eId="para_1028">
+              <person refersTo="#JimOCallaghan">O'Callaghan, Jim.</person>
+            </p>
+            <p eId="para_1029">
+              <person refersTo="#JamesOConnor">O'Connor, James.</person>
+            </p>
+            <p eId="para_1030">
+              <person refersTo="#KieranODonnell">O'Donnell, Kieran.</person>
+            </p>
+            <p eId="para_1031">
+              <person refersTo="#PatrickODonovan">O'Donovan, Patrick.</person>
+            </p>
+            <p eId="para_1032">
+              <person refersTo="#RyanOMeara">O'Meara, Ryan.</person>
+            </p>
+            <p eId="para_1033">
+              <person refersTo="#JohnPaulOShea">O'Shea, John Paul.</person>
+            </p>
+            <p eId="para_1034">
+              <person refersTo="#PadraigOSullivan">O'Sullivan, Pádraig.</person>
+            </p>
+            <p eId="para_1035">
+              <person refersTo="#NaoiseOCearuil">Ó Cearúil, Naoise.</person>
+            </p>
+            <p eId="para_1036">
+              <person refersTo="#SeanOFearghaillFF">Ó Fearghaíl, Seán.</person>
+            </p>
+            <p eId="para_1037">
+              <person refersTo="#NaoiseOMuiri">Ó Muirí, Naoise.</person>
+            </p>
+            <p eId="para_1038">
+              <person refersTo="#PeterRoche">Roche, Peter.</person>
+            </p>
+            <p eId="para_1039">
+              <person refersTo="#BrendanSmith">Smith, Brendan.</person>
+            </p>
+            <p eId="para_1040">
+              <person refersTo="#NiamhSmyth">Smyth, Niamh.</person>
+            </p>
+            <p eId="para_1041">
+              <person refersTo="#EdwardTimmins">Timmins, Edward.</person>
+            </p>
+            <p eId="para_1042">
+              <person refersTo="#GillianToole">Toole, Gillian.</person>
+            </p>
+            <p eId="para_1043">
+              <person refersTo="#RobertTroy">Troy, Robert.</person>
+            </p>
+            <p eId="para_1044">
+              <person refersTo="#BarryWard">Ward, Barry.</person>
+            </p>
+          </debateSection>
+          <debateSection name="staon" eId="dbsect_26">
+            <p eId="para_1045">Staon</p>
+            <p eId="para_1046">
+              <person refersTo="#"/>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_35">Tellers: Tá, Deputies Conor D. McGuinness and Mairéad Farrell; Níl, Deputies Mary Butler and Emer Currie.</summary>
+          <summary title="decision" refersTo="#lost" eId="sum_36">Amendment declared lost.</summary>
+        </debateSection>
+        <summary eId="sum_37"> Faisnéiseadh go rabhthas tar éis diúltú don leasú.</summary>
+        <speech by="#JohnMcGuinness" eId="spk_296">
+          <from> An Leas-Cheann Comhairle<recordedTime time="2026-05-27T18:40:00+01:00"/></from>
+          <p eId="para_1047">Rialaíodh leasú Uimh. 4 as ord.</p>
+        </speech>
+        <summary eId="sum_38"> Níor tairgeadh leasú Uimh. 4.</summary>
+        <speech by="#ConorDMcGuinness" eId="spk_297">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T18:40:00+01:00"/></from>
+          <p eId="para_1048">Tairgim leasú Uimh 5:</p>
+          <p class="indent_1" eId="para_1049">[<a href="C://svn/" target=""><u>Ar leathanach </u></a>][<a href="C://svn/" target=""><u>11, líne 16 agus líne 17 a scriosadh agus an méid seo a leanas a chur ina n-ionad:</u></a>]</p>
+          <p class="indent_3" eId="para_1050">[<a href="C://svn/" target=""><u>	16 chomhalta thofa a cheapfar de réir Chuid IVA.”;</u></a>]</p>
+        </speech>
+        <summary eId="sum_39"> Faisnéiseadh go rabhthas tar éis diúltú don leasú.</summary>
+        <speech by="#JohnMcGuinness" eId="spk_298">
+          <from> An Leas-Cheann Comhairle<recordedTime time="2026-05-27T18:40:00+01:00"/></from>
+          <p eId="para_1051">Rialaíodh leasú Uimh. 6 as ord.</p>
+        </speech>
+        <summary eId="sum_40"> Níor tairgeadh leasú Uimh. 6.</summary>
+        <speech by="#ConorDMcGuinness" eId="spk_299">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T18:50:00+01:00"/></from>
+          <p eId="para_1052">Tairgim leasú Uimh. 7:</p>
+          <p class="indent_1" eId="para_1053">Ar leathanach 11, líne 19 a scriosadh agus an méid seo a leanas a chur ina hionad: </p>
+          <p class="indent_2" eId="para_1054">“(2AA) Ceapfaidh comhaltaí an Údaráis cathaoirleach agus leas-chathaoirleach óna measc féin uair sa bhliain, ag déanamh malartú chun a chinntiú nach mbeidh níos mó ná tréimhse amháin mar chathaoirleach nó mar leas-chathaoirleach le linn téarma amháin ag duine nó daoine a dhéanann ionadaíocht thar ceann an chontae chéanna, agus ag cinntiú gur as contaetha éagsúla iad an cathaoirleach agus an leas-chathaoirleach.”,”.</p>
+          <p eId="para_1055"> Ag Céim an Choiste, dúirt an tAire, an Teachta Calleary, "Tá sé tábhachtach go mbeadh an cathaoirleach agus an t-údarás neamhspleách agus go mbeadh an neamhspleáchas sin ann" agus "Tá sé tábhachtach go mbeadh an t-údarás neamhspleách ón Rialtas agus go mbeadh sé in ann teacht amach le cúrsaí a bhaineann leis an nGaeilge agus an Ghaeltacht." Dhiúltaigh an tAire glacadh le cathaoirleach a bheith tofa ag comhaltaí an údaráis féin, áfach. Ba mholadh 7 a tháinig ó ghrinnscrúdú réamhreachtach an chomhchoiste Gaeilge ná "molann an Comhchoiste gur faoi Bhord Údarás na Gaeltachta a bheidh sé an Cathaoirleach agus an Leaschathaoirleach a thoghadh." Is moladh ó chomhchoiste tras-pháirtí é sin. Cén fáth go bhfuil an tAire anois ag iarraidh go mbeidh cathaoirleach roghnaithe ag an Aire féin faoin mBille seo? Conas is féidir le cathaoirleach atá buíoch den Aire nó d'aon Aire sa todhchaí as a ról a bheith iomlán neamhspleách ón Aire sin?</p>
+          <p eId="para_1056"> Tá Sinn Féin ag moladh go mbeadh cathaoirleach agus leas-chathaoirleach tofa ag an mbord féin, go mbeadh srianta ann ionas nach mbeadh an bheirt as an gcontae amháin, go mbeadh malartú gach bliain, mar atá déanta ag cathaoirligh in údaráis áitiúla, agus go gcinnteofaí nach i gcontae amháin a bheadh an ról ó bhliain amháin go bliain eile.</p>
+          <p eId="para_1057"> Le linn an phlé ag Céim an Choiste cúpla mí ó shin, dúirt an tAire freisin go mbeadh sé sásta breathnú ar cháilíochtaí riachtanacha don chathaoirleach a leagan amach ag an gcéad chéim eile. Cá bhfuil na cáilíochtaí sin leagtha síos? Ag an am céanna, dúirt sé go mbeidh sé sásta plé a dhéanamh ar roinnt de na leasuithe a bhí curtha chun cinn againn ar an taobh seo den Teach ag Céim an Choiste, machnamh a dhéanamh orthu agus b'fhéidir cuid dóibh a chur san áireamh. Cá bhfuil siad?</p>
+        </speech>
+        <speech by="#MaireadFarrell" eId="spk_300">
+          <from>Deputy Mairéad Farrell<recordedTime time="2026-05-27T18:50:00+01:00"/></from>
+          <p eId="para_1058">Déanann an leasú seo ciall. Déanann sé ciall go mbeadh an cinneadh seo déanta ag an mbord féin. Ar aon bhord ar a raibh mé féin, agus fiú sa Seomra seo, roghnaíonn na baill an cathaoirleach. Ba chóir dó a bheith mar sin ar an mbord seo freisin. Ní rud fíoreisceachtúil é go mbeadh sé seo i gceist. Mar gheall air sin, tacaím leis an leasú.</p>
+        </speech>
+        <speech by="#ConorSheehan" eId="spk_301">
+          <from>Deputy Conor Sheehan<recordedTime time="2026-05-27T18:50:00+01:00"/></from>
+          <p eId="para_1059">Táim sásta tacú leis an leasú seo chomh maith. Aontaím leis. Tá sé fíorthábhachtach ó thaobh daonlathas agus trédhearcacht an bhoird agus na cathaoirleachta.</p>
+        </speech>
+        <speech by="#DaraCalleary" eId="spk_302" as="#Minister_for_Rural_and_Community_Development_and_the_Gaeltacht">
+          <from>Deputy Dara Calleary<recordedTime time="2026-05-27T18:50:00+01:00"/></from>
+          <p eId="para_1060">Ar dtús, ní bhíonn leas-chathaoirleach i gceist le boird rialachais nó comhlachtaí Stáit ar nós Údarás na Gaeltachta. Tá foráil san Acht um Údarás na Gaeltachta, 1979, a dhéileálann le hasláithreacht an chathaoirligh, ina bhfuil sé ráite:</p>
+          <p class="indent_1" eId="para_1061">mura mbeidh agus fad nach mbeidh cathaoirleach an Údaráis i láthair nó má bhíonn oifig an chathaoirligh folamh, roghnóidh na comhaltaí den Údarás a bheidh i láthair duine dá líon chun bheith ina chathaoirleach ar an gcruinniú.</p>
+          <p eId="para_1062"> Tá an socrú seo fós i bhfeidhm. Ní léir go bhfuil gá an cur chuige seo a leasú.</p>
+          <p eId="para_1063"> Ní bheidh sé ag teacht le dea-chleachtas go mbeadh an bord ag ainmniú cathaoirleach óna bhallraíocht féin. Tá sé i gceist go mbeidh cumhacht ag an Aire an cathaoirleach a ainmniú. Tá scileanna ar leith ag teastáil ón gcathaoirleach a bhíonn á lorg tríd an bpróiseas earcaíochta a reáchtálann an tSeirbhís um Cheapacháin Phoiblí. Tá sé sin tábhachtach. Beidh comórtas eagraithe ag an Seirbhís um Cheapacháin Phoiblí. Ní mór go léireoidh iarrthóirí ar ról an chathaoirligh fianaise ar thaithí cheannaireachta ag leibhéal sách sinsearach, lena n-airítear cumas cathaoirleacht a dhéanamh ar bhord, agus taithí chuí i réimse amháin, ar a laghad, de na réimsí seo a leanas: cur chun cinn na Gaeilge agus pleanáil teanga, forbairt fiontraíochta, cruthú fostaíochta, forbairt phobail, cur chun na n-ealaíon, agus rialachas corparáideach. Freisin, beidh sé ar chumas an cathaoirligh ról lárnach a chomhlíonadh i dtaca le stiúradh, ceannaireacht agus rialachas corparáideach na heagraíochta agus caidreamh dearfach a chothú le príomhfheidhmeannach na heagraíochta chun dea-rialtas a éascú.</p>
+          <p eId="para_1064"> Tá traidisiún de chathaoirligh neamhspleácha den údarás. Tá sé maslach a rá go mbeidh aon chathaoirleach a cheapfaidh an Aire ar son an Rialtais. Ní hé sin an traidisiún san údarás ná ina lán comhlachtaí Stáit eile. Mar a dúirt mé, beidh na hainmneacha ag teacht ó chomórtas PAS. Beidh a lán daoine a bhfuil an taithí agus scileanna atá leagtha amach in ann cur isteach ar an gcomórtas sin tríd an PAS.</p>
+          <p eId="para_1065"> Phléigh mé na tuairimí ón díospóireacht a bhí againn an oíche dheireanach. Tagann sé ar ais go dtí an pointe céanna. Tá an t-údarás difriúil. Is bord Stáit é. Mar gheall gur bord Stáit é, tá freagrachtaí air. Mar a dúirt mé sa díospóireacht dheireanach a bhí againn, tá freagrachtaí ag bord an údaráis nach bhfuil againn mar Theachtaí Dála. Tá freagrachtaí dlíthiúla agus comhlachta ag an mbord nach bhfuil againn. Ní féidir comparáid a dhéanamh idir an tOireachtas agus an t-údarás. Mar sin, ní féidir liom glacadh leis an leasú seo.</p>
+        </speech>
+        <speech by="#ConorDMcGuinness" eId="spk_303">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T18:50:00+01:00"/></from>
+          <p eId="para_1066">Tá muinín againn inár bpobail Ghaeltachta nó níl. Tá muinín againn sna daoine a dtoghfar nó níl an mhuinín sin againn. Caithfidh an Rialtas muinín a léiriú. Má táimid dáiríre mar gheall ar thoghcháin don údarás a thabhairt ar ais, caithfimid a thuiscint go bhfuil saoirse ag an Aire agus ag an Rialtas an rud ceart a dhéanamh. In ionad a rá arís agus arís eile gur bord Stáit é seo, go gcaithfidh na rialacha a bheith daingean agus go gcaithfimid cúlú ón daonlathas chomh fada agus is féidir, bíodh fís ag an Aire. Conas is féidir linn déileáil leis an údarás seo? Tá an-chuid eagrais Stáit ann. Tá struchtúir éagsúla ag an-chuid dóibh. Is comhlachtaí iad cuid dóibh agus is forais tras-Teorainn, institiúidí nó Ranna Stáit iad cinn eile. Tá slite timpeall ar rudaí. Táimid ag iarraidh rud éigin a chruthú anseo leis an mBille agus lenár leasuithe atá éagsúil chun dul i ngleic leis na ceantair éagsúla seo, na ceantair Ghaeltachta, atá ag iarraidh daonlathas a bheith acu arís. Is údarás é seo. Tá údarás ag baint le hÚdarás na Gaeltachta. Tá gá le fís dhifriúil ón Aire agus ón Rialtas mar gheall air seo. Tá díomá orm é a chloisteáil arís agus arís eile go gcaithfear leath-thoghcháin a bheith ann, go gcaithfidh an Rialtas daoine agus an gcathaoirleach a ainmniú agus nach bhfuil sé chun a dhéanamh cinnte go bhfuil cothrom na Féinne ag na ceantair bheaga, na ceantair imeallacha agus na ceantair éagsúla ó thaobh na hionadaíochta de. Tá díomá orm nach bhfuil an Rialtas sásta glacadh leis an leasú seo.</p>
+        </speech>
+        <speech by="#DaraCalleary" eId="spk_304" as="#Minister_for_Rural_and_Community_Development_and_the_Gaeltacht">
+          <from>Deputy Dara Calleary<recordedTime time="2026-05-27T18:50:00+01:00"/></from>
+          <p eId="para_1067">Tá muinín agam i bpobal na Gaeltachta freisin. Tá muinín agam go mbeidh daoine in ann cur isteach ar an gcomórtas PAS. Tá muinín agam freisin go bhfuil tuiscint ann gur údarás é Údarás na Gaeltachta, rud atá tábhachtach, ach gur bord Stáit é freisin. Tá sé sin tábhachtach. Mar gheall gur bord Stáit é, tá sé tábhachtach go mbeidh meascán de bhaill thofa agus baill cheaptha ann. Ní bheidh na ceapacháin ag teacht ó phóca an Aire ach ó chomórtas PAS. Is daoine leis na scileanna a cheapfar. Beidh a lán daoine ón nGaeltachta agus ó phobal na Gaeilge a bhfuil na scileanna sin acu in ann dul os comhair PAS chun agallamh a dhéanamh agus dul tríd an bpróiseas chun seirbhís a dhéanamh ar bhord an údaráis.</p>
+          <p eId="para_1068">Tá muinín mhór agam go mbeidh muintir agus pobal na Gaeltachta in ann é sin a dhéanamh.</p>
+        </speech>
+        <summary eId="sum_41"> Cuireadh an leasú agus faisnéiseadh go rabhthas tar éis diúltú dó.</summary>
+        <speech by="#RuairiOmurchu" as="#An_Cathaoirleach_Gníomhach" eId="spk_305">
+          <from>An Cathaoirleach Gníomhach (Deputy Ruairí Ó Murchú)<recordedTime time="2026-05-27T19:00:00+01:00"/></from>
+          <p eId="para_1069">Tá leasú Uimh. 8 as ord.</p>
+        </speech>
+        <summary eId="sum_42"> Níor tairgeadh leasú Uimh. 8.</summary>
+        <speech by="#ConorDMcGuinness" eId="spk_306">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T19:00:00+01:00"/></from>
+          <p eId="para_1070">Tairgim leasú Uimh. 9:</p>
+          <p class="indent_1" eId="para_1071">Ar leathanach 11, an méid seo a leanas a chur isteach i ndiaidh líne 34:</p>
+          <p class="indent_3" eId="para_1072">“(2G) Ní bheidh sé nó sí intofa más comhalta den Dáil, den Seanad, de Pharlaimint na hEorpa nó d’údarás áitiúil é nó í. I gcás go dtoghfar an duine chun na Dála, chun an tSeanaid, chun Parlaimint na hEorpa nó chun údaráis áitiúil fad is atá sé nó sí ina chomhalta nó ina comhalta den Údarás, déanfaidh an tAire an liosta cúltaca atá luaite i bhfo-alt (2F) a úsáid chun comhalta nua a roghnú le teacht i gcomharbacht air nó uirthi tráth nach déanaí ná seachtain tar éis a thofa nó a tofa chun an eagrais eile.”.”</p>
+          <p eId="para_1073"> Mhol Sinn Féin an leasú seo ar Chéim an Choiste go mbeadh cosc ar dhuine a bheith mar chomhairleoir contae agus comhalta ar bhord an údaráis ag an am céanna toisc go bhfuil Sinn Féin i gcoinne double-jobbing agus ag iarraidh go mbeadh comhaltaí tofa an údaráis dírithe go hiomlán ar a bheith ag freastal ar riachtanais na Gaeltachta. Léirigh an tAire nach raibh sé sásta glacadh leis cé gur aithin sé cé chomh gnóthach is atá obair an chomhairleora cheana féin agus gur theastaigh acmhainní breise uathu chun a gcuid oibre ar an údarás áitiúil a dhéanamh, gan trácht ar obair sa bhreis a dhéanamh san údarás seo. Táimid fós den tuairim go dteastaíonn idirdhealú idir an dá ról. Bhí moladh traspháirtí ón choiste Gaeltachta sa ghrinnscrúdú réamhreachtaíochta "nach mbeidh cead ag aon ... [duine] a bheith ina mbaill de Bhord Údarás na Gaeltachta, más Comhalta de Thithe an Oireachtais, de Pharlaimint an Aontais Eorpaigh, de Thionól Thuaisceart Éireann nó d’aon údarás áitiúil ar oileán na hÉireann iad ag an am". Bhí an tAire sásta glacadh leis an moladh sin maidir le Tithe an Oireachtais agus Parlaimint na hEorpa ach is cosúil nach bhfuil sé ag glacadh leis an moladh i dtaobh daoine a bheith ina mbaill d’údaráis áitiúla agus d’Údarás na Gaeltachta.</p>
+        </speech>
+        <speech by="#ConorSheehan" eId="spk_307">
+          <from>Deputy Conor Sheehan<recordedTime time="2026-05-27T19:00:00+01:00"/></from>
+          <p eId="para_1074">Tá mé an-sásta tacaíocht a thabhairt don leasú seo mar gheall ar an méid a bhí le rá ag an Aire faoin údarás mar bhord Stát agus mar gheall ar an gcomórtas PAS. Bhí a fhios agam cheana féin go raibh daoine ann a bhí agus atá mar Bhaill den Dáil agus go raibh orthu éirí as bord Stát roimh dóibh a bheith tofa mar Theachta Dála nó mar Sheanadóir. Aontaím go mór leis an leasú seo mar gheall ar na rudaí céanna a bhí á rá ag mo chomhghleacaí, an Teachta McGuinness.</p>
+        </speech>
+        <speech by="#DaraCalleary" eId="spk_308" as="#Minister_for_Rural_and_Community_Development_and_the_Gaeltacht">
+          <from>Deputy Dara Calleary<recordedTime time="2026-05-27T19:00:00+01:00"/></from>
+          <p eId="para_1075">Gabhaim buíochas leis na Teachtaí. Mar is eol dóibh, níl an foráil seo ag teastáil mar tá sé clúdaithe sa phríomh-Acht cheana féin ó thaobh Comhaltaí don Dáil, don Seanad agus baill foirne na hEorpa. Maidir le comhaltaí d’Údarás na Gaeltachta, i gcás go n-ainmneofar é nó í mar Chomhalta de Seanad Éireann nó go dtoghfar é nó í mar Chomhalta de cheachtar Theacht an Oireachtais, nó chun a bheith ina ionadaí nó ina hionadaí i bParlaimint na hEorpa, nó é nó í a bheith tofa chun Parlaimint na hEorpa, stadfaidh sé nó sí de bheith ina chomhalta don údarás.</p>
+          <p eId="para_1076"> Maidir le comhaltaí na húdaráis áitiúla, sílim gur cheart go mbeadh baill na gcomhairlí contae san áireamh le haghaidh ballraíocht ar bhord an údaráis. Tá siad san áireamh ar an mbord reatha mar atá, agus bhí roimhe seo. Chomh maith leis sin, sílim nach mbeidh sé indéanta comhalta nua a bheith roghnaithe laistigh de sheachtain. Ní dóigh liom go mbeidh dóthain ama i gceist ansin chun comhalta nua atá incháilithe a roghnú. Teastaíonn solúbthacht áirithe le haghaidh rudaí mar sin. Agus é sin san áireamh, ní féidir liom glacadh leis an leasú seo.</p>
+        </speech>
+        <summary eId="sum_43"> Cuireadh an leasú agus faisnéiseadh go rabhthas tar éis diúltú dó.</summary>
+        <speech by="#RuairiOmurchu" as="#An_Cathaoirleach_Gníomhach" eId="spk_309">
+          <from>An Cathaoirleach Gníomhach (Deputy Ruairí Ó Murchú)<recordedTime time="2026-05-27T19:00:00+01:00"/></from>
+          <p eId="para_1077">Bogaimid ar aghaidh go dtí leasú Uimh. 10. Táimid ag plé Uimh. 10 go 15, go huile, agus leasaithe Uimh. 30 agus 31. Tá baint acu le chéile agus pléifear le chéile iad. </p>
+        </speech>
+        <speech by="#ConorDMcGuinness" eId="spk_310">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T19:00:00+01:00"/></from>
+          <p eId="para_1078">Tairgim leasú Uimh. 10:</p>
+          <p class="indent_1" eId="para_1079">[<a href="C://svn/" target=""><u>Ar leathanach </u></a>][<a href="C://svn/" target=""><u>13, idir líne 3 agus líne 4, an méid seo a leanas a chur isteach:</u></a>]</p>
+          <p class="indent_2" eId="para_1080">[<a href="C://svn/" target=""><u>“ “(7A) Féadfaidh an tÚdarás leas i maoin agus réadmhaoin a cheannach nó a fháil ar mhaithe le tithíocht, seirbhísí, nó áiseanna sóisialta nó cultúir a chur ar fáil ar cibé téarmaí agus faoi réir cibé coinníollacha is cuí leis.”.</u></a>]</p>
+          <p eId="para_1081"> Baineann na leasuithe seo leis an ábhar is práinní sa Ghaeltacht, is é sin, cúrsaí tithíochta, agus muid ag triail ról a chruthú don údarás i dtreo réiteach na faidhbe. Tréaslaím le BÁNÚ, Tinteán, agus Conradh na Gaeilge as labhairt linn anseo sa Dáil agus agóid a eagrú lasmuigh de Theach Laighean cúpla mí ó shin ar an ábhar seo. Ar an lá céanna leis an agóid tithíochta don Ghaeltacht taobh amuigh, d’aontaigh Teachtaí Dála d’aon ghuth le rún ó Shinn Féin ag moladh maoiniú d’Údarás na Gaeltachta a ardú go suntasach, mar atá leagtha amach i gcáinaisnéis mhalartach Shinn Féin do 2026, agus na cumhachtaí riachtanacha a chur ar fáil dó chomh maith le toghcháin dhaonlathacha athuair chun deis a thabhairt do phobal na Gaeltachta soláthar cuí ar thithíocht áitiúil a mhúnlú. Ba é sin toil na Dála seo. Bunaithe ar an gcur chuige sin, tá na leasuithe Uimh. 10, 14, agus 15 in ainm Shinn Féin, agus tacaímid leis na leasuithe eile atá molta ag na Daonlathaithe Shóisialta ar an ábhar céanna.</p>
+          <p eId="para_1082"> Dúirt an tAire ar Chéim an Choiste faoi na leasuithe a bhí againn ansin, "Níl mé in ann glacadh leis na leasuithe ag an bpointe seo, ach tá mé ag rá go bhfuil muid chun leasuithe a dhéanamh ar an gcéad Chéim eile, Céim na Tuarascála.” Ach ní fheictear na leasuithe sin anois. Níl siad leagtha síos. Níl dul chun cinn déanta agus níl freagra na ceiste faighte againn ó shin.</p>
+          <p eId="para_1083"> Go sonrach, baineann leasú Uimh. 10 le moladh ó Chonradh na Gaeilge. I bhfocal Conradh na Gaeilge féin, tá éigeandáil tithíochta sa Ghaeltacht agus caithfear feidhmiú go práinneach le dul i ngleic leis. Mura gcuirtear le feidhmeanna an údaráis sa Bhille seo anois le tithíocht a chur san áireamh, tá gach seans nach mbeidh deis eile ann roimh dheireadh thréimhse an Rialtais reatha agus cuirfidh sé seo moill mhór ar chumas an údaráis feidhmiú i gceart ar an ábhar seo. Dúirt an tAire Stáit, an Teachta Thomas Byrne, a bhí mar Aire Stáit na Gaeltachta ag an am, cúpla uair gur mhaith leis go mbeadh breis feidhmeanna ag an údarás. Seo í an deis mar sin na feidhmeanna tithíochta sin a thabhairt don údarás.</p>
+          <p eId="para_1084"> Tá 13 comharchumann Gaeltachta agus 12 coiste pleanála teanga ag aontú le polasaí tithíochta atá curtha le chéile ag an gconradh atá ag lorg breis feidhmeanna tithíochta don údarás. Chomh maith leo siúd, tá grúpaí pobal eile ag aontú go bhfuil gá feidhmeanna breise tithíochta a thabhairt d’Údarás na Gaeltachta, le BÁNÚ, an mheitheal náisiúnta pleanála teanga agus grúpaí eile san áireamh. De réir ceannteidil an Bhille, tá an Bille ag plé le cúpla rud eile nach mbaineann go díreach le toghchán Údarás na Gaeltachta. Cén fáth nach mbeadh feidhmeanna tithíochta don údarás san áireamh sa phlé ar an mBille seo mar sin? Bheadh sé seo i bhfad níos ábhartha don Bhille ná an dá leasú atá curtha san áireamh sa Bhille le déanaí maidir le hAcht na dTeangacha Oifigiúla agus Acht na Gaeltachta. Feictear domsa go bhfuil easpa agus ganntanas sa Bhille seo agus níl an tAire ná an Rialtas seo ag tapú an deis leis an reachtaíocht seo na cumhachtaí sa bhreis a thabhairt don údarás chun dul i ngleic leis an ngéarchéim tithíochta Gaeltachta atá ag cur todhchaí na Gaeltachta i mbaol.</p>
+        </speech>
+        <speech by="#MaireadFarrell" eId="spk_311">
+          <from>Deputy Mairéad Farrell<recordedTime time="2026-05-27T19:00:00+01:00"/></from>
+          <p eId="para_1085">Mar is eol don Aire, is í ceist na tithíochta ceann do na príomhcheisteanna atá sa Ghaeltacht. Is é tithíocht Gaeltachta ceann de na rudaí is mó ar a bhfuil feachtasaíocht á déanamh sa Ghaeltacht faoi láthair. Tá mé ag caint ar leithéidí BÁNÚ, Tinteán agus daoine eile, ar ndóigh, atá ag cur leis an bhfeachtas sin. Tá sé soiléir nach bhfuil daoine in ann teach a thógáil, a cheannach nó a fháil ar cíos sa nGaeltacht agus is é sin an bhunfhadhb atá anseo. Ón méid atáimid ag plé anseo agus ansin tá na leasuithe ann, an é go bhfuil an tAire ag rá go bhfuil cumhachtaí breise agus reachtaíocht bhreise ag teastáil ón údarás le talamh a dhíol go AHB nó le húdarás tithíochta?</p>
+          <p eId="para_1086">Más rud é go dtugtar an chumhacht sin do chomhairle chontae nó do AHB, ar an gcéad dul síos an bhfuil a fhios againn go díreach go mbeidh sé sin i gcomhair tithíocht shóisialta, tithíocht inacmhainne nó tithíocht ar phraghas réasúnta ionas go mbeadh daoine in ann iad a cheannach? Cén cinnteacht a bheadh ann i dtéarmaí cúrsaí teanga? Céard a chiallódh sé do dhaoine le Gaeilge agus do dhaoine gan Ghaeilge? Céard go díreach a bheadh ann? Cén smacht a bheadh ag an údarás ar an scéal le cinntiú go mbeadh an Ghaeilge mar chuid lárnach dhó sin? Ón méid a thuigim, dúirt an tAire go mbeadh sé ag neartú an leasú faoin tithíocht ach ón méid atá feicthe againn, níl sé sin go hiomlán soiléir. Is iad sin na chéad ceisteanna atá agam. Tiocfaidh mé ar ais le níos mó.</p>
+        </speech>
+        <speech by="#SeanKyne" eId="spk_312">
+          <from>Deputy Seán Kyne<recordedTime time="2026-05-27T19:10:00+01:00"/></from>
+          <p eId="para_1087">Cuirim fáilte roimh an Aire agus aontaím gurb é tithíocht an rud is tábhachtaí trasna na tíre, an Ghaeltacht ina measc. Cuirim fáilte roimh an méid atá leagtha amach sa chlár Rialtas maidir leis an ról lárnach a bheidh ag Údarás na Gaeltachta. Tá a fhios agam go bhfuil sé sásta an comhoibriú sin a dhéanamh leis an rialtas áitiúil. Tá sé sin fíorthábhachtach, agus leis sin go mbeidh ról lárnach idir an t-údarás, na comhairlí contae agus Uisce Éireann chun leanúint ar aghaidh le tithe sóisialta agus tithe ar phraghas réasúnta a thógáil. Is ceist amháin é cén chaoi a n-oibríonn sé sin ach tá comhoibriú fíorthábhachtach. Ó na cainteanna a bhí agam leis an t-údarás, tuigim go mb’fhéidir go mbeadh sé ag obair mar chomhlacht tithíochta sa ról seo, ach ag an am céanna tá sí fíorthábhachtach go mbeadh ról ar leith aige ag obair leis an gcomhairle contae. Tá an talamh agus an taithí innealtóireachta aige. B'fhéidir nach bhfuil an taithí aige tithe a thógáil ach tá an taithí aige ó thaobh innealtóireacht de, agus tá an taithí chuí ag an gcomhairle contae. Idir an dá eagraíocht agus Uisce Éireann, beidh siad in ann leanúint ar aghaidh.</p>
+          <p eId="para_1088"> Teastaíonn an dara scéim phíolótach idir an trí eagraíocht Stáit chun talamh a fháil agus scéim a thógáil. Tá sé ráite ag an Rialtas go bhfuil sé sásta go mbeidh tógálaithe in ann scéimeanna a thógáil le hionaid séarachais sealadacha freisin. Cabhróidh sé sin sna háiteanna nach bhfuil scéim séarachais amháin ann. Aontaím go bhfuil sé fíorthábhachtach go mbeadh ról ar leith ag an t-údarás maidir le tithíocht.</p>
+        </speech>
+        <speech by="#RoryHearne" eId="spk_313">
+          <from>Deputy Rory Hearne<recordedTime time="2026-05-27T19:10:00+01:00"/></from>
+          <p eId="para_1089">I am not sure whether we are speaking on all the leasuithe now.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" as="#An_Cathaoirleach_Gníomhach" eId="spk_314">
+          <from>An Cathaoirleach Gníomhach (Deputy Ruairí Ó Murchú)<recordedTime time="2026-05-27T19:10:00+01:00"/></from>
+          <p eId="para_1090">We are taking amendments Nos. 10 to 15, inclusive, and amendments Nos. 30 and 31. They are all related.</p>
+        </speech>
+        <speech by="#RoryHearne" eId="spk_315">
+          <from>Deputy Rory Hearne<recordedTime time="2026-05-27T19:10:00+01:00"/></from>
+          <p eId="para_1091">Ceart go leor. Tá an ghéarchéim tithíochta sna Gaeltachtaí uafásach ar fad. It is time to give a direct role to Údarás na Gaeltachta to deliver affordable housing in the Gaeltacht areas. Táim ag tacú le Conradh na Gaeilge agus grúpaí pobail eile, ar nós Tintéan agus BÁNÚ, agus iad ag lorg cumhachtaí breise don údaras ionas go bhféadfadh sé talamh a cheannach ar mhaithe le tithíocht a sholáthar.</p>
+          <p eId="para_1092"> It is very clear that the future of the Gaeltacht as an Irish-speaking community and the future of the language itself is in jeopardy as a result of the housing crisis, which is a housing disaster, in the Gaeltacht. What we want to see in proposing these amendments is a shift and a change to give Údarás na Gaeltachta a direct role. Tá todhchaí na Gaeltachta mar phobal Gaeilge á cur i mbaol de bharr an intinn dhiúltach atá ag an Aire agus an Roinn maidir le ceisteanna tithíochta sa Ghaeltacht. Níl an tAire sásta úsaid a bhaint as an gcumhacht atá aige faoi mhír 9 d'Acht na dTithe (Gaeltacht) (Leasú), 2001. Tá an cuma ar an scéal nach bhfuil sé sásta ach an oiread ligean don údarás rannóg tithíochta a bhunú.</p>
+          <p eId="para_1093"> The authority - Údarás na Gaeltachta - has land in the Gaeltacht, for example in Baile na hAbhann, close to the sewage treatment plant, which could provide a mixture of social and affordable housing and where serviced sites could be developed if the Minister gave sufficient resources and the authority to Údarás na Gaeltachta to develop this land. There seems to be a reason - I do not understand it - that the Department appears to be reluctant to give these powers to Údarás na Gaeltachta. It is time to change that and it is time to give Údarás na Gaeltachta a direct role in delivering housing. Tá talamh ag Údarás na Gaeltachta i mBaile na hAbhann, mar shampla, in aice leis an ionad cóireála séarachais, áit a bhféadfadh sé meascán de thithíocht shóisialta, tithíocht inacmhainne agus suíomhanna le seirbhísí a fhorbairt. Ba chóir don Aire acmhainní a chur ar fáil don údarás idir airgead caipitil agus airgead reatha.</p>
+          <p eId="para_1094"> Tá talamh ag an údarás sa Rinn i gContae Port Láirge, i nGaoth Dobhair agus i Ráth Chairn a bhféadfaí a fhorbairt le cainteoirí Gaeilge a choinneáil sna pobail Ghaeltachta dá mbeadh an tAire agus an Roinn sásta cead agus maoiniú a thabhairt le rannóg tithíochta a bhunú le go bhféadfadh an t-údarás daoine a fhostú leis an obair a dhéanamh chun pleananna a réiteach, cead pleanála a fháil agus úsáid a bhaint as na scéimeanna atá ag an Roinn tithíochta le tithíocht a sholáthar do chainteoirí Gaeilge sna ceantair Ghaeltachta ina bhfuil an Ghaeilge in úsáid i measc an phobail. In this amendment we are calling on the Minister to give permission to Údarás na Gaeltachta to develop housing and to have a direct role so that people in the Gaeltacht can have a guaranteed delivery of housing.</p>
+        </speech>
+        <speech by="#ConorSheehan" eId="spk_316">
+          <from>Deputy Conor Sheehan<recordedTime time="2026-05-27T19:10:00+01:00"/></from>
+          <p eId="para_1095">Ar dtús báire, ba mhaith liom comhghairdeas a dhéanamh leis an Teachta Kyne as ucht bheith tofa arís ina Teachta Dála. Ba mhaith liom chomh maith mo chuid tacaíochta a thabhairt don leasú seo. Aontaím leis an méid a bhí le rá ag na Teachtaí Conor McGuinness, Hearne agus Kyne. Tá an saineolas agus an eolas ag an t-údarás chun é seo a dhéanamh go héifeachtach. Caithfidh an Rialtas ról reachtúil lárnach a thabhairt don údarás maidir le tógáil tithe sa Ghaeltacht. Caithfidh an t-údarás a bheith in ann maoin a cheannach ar mhaithe le tithíocht. D’fhéadfadh sé talamh a cheannach ar mhaithe le tithíocht a sholáthar. Tá sé riachtanach go mbeidh cead agus cumhacht ag Údarás na Gaeltachta maoin nó talamh a cheannach chun pobail Ghaeltachta a chothú agus forbairt eacnamaíoch agus shóisialta a dhéanamh sna ceantair sin.</p>
+          <p eId="para_1096"> Roimh dom teacht isteach anseo anocht, bhí mé ag dul trí shuirbhé tithíochta Údarás na Gaeltachta. Léiríonn an suirbhé sin go bhfuil géarchéim thar a bheith dian ann do chainteoirí Gaeilge agus do dhaoine óga ar mian leo fanacht sa Ghaeltacht, go háirithe daoine óga. Nuair a bhí mé ag dul tríd an suirbhé, chonaic mé go bhfuil 56% dóibh siúd atá faoi láthair ag lorg tithíocht sa Ghaeltacht faoi 44 bliain d’aois. Tá sé cosúil le seanfhocal anois ach mar a deirtear, Gaeltacht gan tithíocht is ea Gaeltacht gan todhchaí. Tá a fhios agam go bhfuil an tAire chun an rud céanna a rá - nach bhfuil seisean amháin freagrach as cúrsaí tithíochta; is é an tAire tithíochta atá freagrach as - ach ba chóir go mbeadh Aire na Gaeltachta freagrach maidir le cúrsaí tithíochta sa Ghaeltacht.</p>
+          <p eId="para_1097">Ba chóir go mbeadh Údarás na Gaeltachta freagrach astu chomh maith.</p>
+        </speech>
+        <speech by="#DaraCalleary" eId="spk_317" as="#Minister_for_Rural_and_Community_Development_and_the_Gaeltacht">
+          <from>Deputy Dara Calleary<recordedTime time="2026-05-27T19:20:00+01:00"/></from>
+          <p eId="para_1098">Gabhaim buíochas leis na Teachtaí. Cuirim fáilte ar ais go dtí an Teach roimh an Teachta Kyne. Déanaim comhghairdeas leis as a bheith tofa arís chuig an Seomra seo den Oireachtas. Nílim in ann glacadh leis na leasuithe. Leagann siad amach go bhfuil cumhacht agus taithí ag an údarás i leith cúrsaí tithíochta. Níl aon taithí ag an údarás ar chúrsaí tithíochta ag an bpointe seo. Níl scileanna aige chun déileáil le cúrsaí tithíochta. Tá ráite go bhfuil sites agus tograí ann go mbeadh sé in ann íoc astu. B'fhéidir go bhfuil róil eile i gceist do na sites sin, mar shampla, róil a bhaineann le fiontar ná fostaíocht. </p>
+          <p eId="para_1099"> Tá rud eile sna leasuithe nach bhfuilim in ann glacadh leis. Tá na húdaráis áitiúla i gceannas ar chúrsaí pleanála. Tá sé tábhachtach go bhfuil mar tá cúrsaí pleanála bunaithe ar phleananna forbartha contae agus cathrach. Tá na cumhachtaí sin agus cumhachtaí pleanála ag na húdaráis áitiúla. Níl cumhachtaí pleanála ag an údarás ag an bpointe seo.</p>
+          <p eId="para_1100"> Agus é sin ráite, mar Aire, tá ceist na tithíochta sa Ghaeltacht an-tábhachtach dom. Bhí roinnt cruinnithe agam leis an Aire Tithíochta, Rialtais Áitiúil agus Oidhreachta, an Teachta James Browne, chun é seo a phlé. Táimid ag obair ar ráiteas pleanála le haghaidh na Gaeltachta. Táimid ag obair ar na ceisteanna atá leagtha amach ag an Teachta Farrell agus muid ag iarraidh déileáil leo. Níl sé éasca teacht ar na freagraí. Táim oscailte do thuairimí nó proposals ó na Teachtaí as na Gaeltachtaí atá anseo faoi na ceisteanna sin. Chuir an Teachta Farrell cúpla ceist faoi na roghanna go gcaithfimid a dhéanamh maidir leis an nGaeilge, caighdeáin Ghaeilge agus rudaí mar sin. Má tá aon tuairimí aici, táim sásta comhrá agus díospóireacht a bheith agam léi fúthu sula bhfoilsímid an ráiteas pleanála.</p>
+          <p eId="para_1101"> Labhair an Teachta Sheehan faoin suirbhé a rinne an t-údarás. Tá sé seo tábhachtach freisin. Tá ról ag an údarás. Glacaim leis go bhfuil ról tábhachtach ag an údarás ina leith seo. Bhí a lán cruinnithe agam leis an bpríomhfheidhmeannach faoin ról sin agus faoi na scileanna atá chun a bheith úsáidte. De bharr ceann de na cruinnithe sin, cuireadh an post le chéile. Tá post san údarás anois maidir le cúrsaí tithíochta, go háirithe tithe folmha. Tá an t-údarás ag déanamh an tsuirbhé sin mar gheall ar an bpost sin. Tá cúpla scéim ann. Táim sásta obair le haon Teachta chun scéim phíolótach a dhéanamh. Bhí scéim ann i nGaeltacht Chiarraí. Bhí tithíocht tógtha ag an gcomharchumann, le tacaíocht airgeadais, chun árasáin a chur ar fáil do na coláistí samhraidh. Ba scéim shuimiúil é sin. Thug sé cúpla idea dom.</p>
+          <p eId="para_1102"> Níl sé ceart a rá go bhfuil freagracht ag an údarás amháin as na dúshláin tithíochta. Níl sé féaráilte don údarás ná do na daoine atá ag lorg tithíochta sa Ghaeltacht. Tá an freagra sna húdaráis áitiúla, sa ráiteas pleanála don Ghaeltacht a bheidh á fhoilsiú againn agus b'fhéidir sna comharchumainn trí AHBs a chur le chéile. Tá an ceart ag an Teachta Hearne. Tá talamh ag an údarás nach mbeidh sé in ann a úsáid le haghaidh cúrsaí fiontair agus tionscail. Táimid ag scrúdú an talaimh sin chun a fháil amach an bhfuil séarachas agus uisce ann. Is dúshlán dúinn é sin. Tá an ceart ag an Teachta Kyne. Tá obair le déanamh againn le hUisce Éireann ar an dúshlán sin chun go mbeidh seirbhísí ann. Nuair atá na seirbhísí sin ann - táimid ag plé seirbhísí séarachais agus uisce leis an Aire, an Teachta Browne - beimid in ann díriú isteach ar an talamh sin agus ansin scéim phíolótach a dhéanamh ach ní bheidh an t-údarás ag tógáil tithe. Ag an bpointe seo, tá an chumhacht aige tithe a dhíol ach ní bheidh aon ról aige i dtógáil tithe. Beidh sé an-tábhachtach. Beidh ról tánaisteach aige. Is le haghaidh na húdaráis áitiúla cúrsaí pleanála. Táimid go léir ag teacht le chéile. Tá a lán rudaí ag teacht le chéile anseo. Táimid á mbailiú le chéile. Beidh sé sin leagtha amach sa ráiteas pleanála.</p>
+          <p eId="para_1103"> Táim ag tabhairt cuiridh. I am inviting people to give their proposals on what a planning statement for the Gaeltacht should look like. There are tough decisions and tough calls to be made on it. However, to say that Údarás na Gaeltachta would have the entire role for housing in the Gaeltacht is wrong because it does not have the skills at the moment in terms of housing development. It has a role, an absolutely central role, in housing. Deputy Kyne’s proposal for pilot schemes is something we will pursue. However, the local authorities have the planning authority based on their development plans and based on the law. The údarás definitely has a role. The difficulty in giving it other roles is that its prime role in terms of enterprise, language planning and the work that it does well would be diluted. At a time when we have good employment in the Gaeltacht, we need to maintain its focus on that.</p>
+          <p eId="para_1104"> As we will be discussing later, it needs to retain its focus on other opportunities for Gaeltacht employment. We need to grow Gaeltacht employment. We need to grow its role in language planning and strengthen that role. We need to grow its role in supporting the local co-ops. We need it to focus on that role along with an important advisory role in housing as a role tánaisteach.</p>
+        </speech>
+        <speech by="#ConorDMcGuinness" eId="spk_318">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T19:20:00+01:00"/></from>
+          <p eId="para_1105">Tá sé ráite agam agus ag roinnt Teachtaí eile anseo cheana féin gurb í an ghéarchéim tithíochta an riosca is mó dár gceantair Ghaeltachta. Tá ár gceantair Ghaeltachta i mbaol de dheasca easpa tithíocht inacmhainne, tithe sóisialta agus cead pleanála do dhaoine gur mhaith leo cur fúthu ina gceantair dhúchais Ghaeltachta. Gan daoine a bheith in ann tithe a thógáil, níl siad in ann clanna a thosú ná a thógáil sna ceantair Ghaeltachta agus caillimid glúin. Nuair atá glúin caillte ag ceantar Gaeltachta, mar atá ag tarlú i mo cheantar féin, Gaeltacht na nDéise, beidh deireadh le ré na Gaeltachta ann. Tá sé seo an-tábhachtach. Tá a fhios agam go dtuigeann an tAire an cheist. Tá sé go breá a rá go bhfuil sé oscailte dár dtuairimí agus moltaí ach tá leasuithe curtha síos againn ar an gCéim seo agus ar Chéim an Choiste agus níor ghlac sé le hoiread is ceann amháin dóibh. Tá sé go breá a rá go bhfuil sé oscailte ach an léireoidh sé dúinn go bhfuil? Níor ghlac sé le hoiread is ceann amháin dár moltaí, moltaí atá ag teacht ó pholaiteoirí san Fhreasúra.</p>
+          <p eId="para_1106"> Agus an tAire sa Rialtas, ritheann sé le réasún nach nglacfadh sé le leasuithe ón taobh seo. Tuigim é sin go léir. Ag Céim an Choiste, bhí leasuithe i m'ainm féin, in ainm mo chomhghleacaí, an Teachta Ó Snodaigh, in ainm an Teachta Quaide agus in ainm Catherine Connolly, a bhí ina Teachta ag an am sin agus atá ina hUachtarán anois. Bhíomar oscailte go raibh an-chuid de na moltaí sin ag teacht ó Chonradh na Gaeilge, BÁNÚ agus Tinteán, daoine a bhfuil saineolas acu. Bhí siad ag rá gur chóir na cumhachtaí sin a thabhairt don údarás. Dúirt an tAire nach bhfuil na freagraí go léir ag an údarás agus aontaím leis. Tá an ceart aige. Tá freagracht ar na húdaráis áitiúla dul i ngleic leis an ngéarchéim tithíochta. Tá freagracht ar an Aire, ar a chomhghleacaí, an tAire tithíochta, agus ar an Rialtas dul i ngleic léi. Ní cóir dearmad a dhéanamh air sin. Tá an oiread sin ceisteanna ann mar gheall ar chúrsaí tithíochta sa Ghaeltacht, lena n-áirítear tithíocht inacmhainne, tithíocht sóisialta, cúrsaí bonneagar - leanfaidh mé ar aghaidh nuair nach bhfuil aon duine ag féachaint orm - agus, ar ndóigh, cead pleanála, gur féidir linn dul chuig an údarás i gcomhair cuid de na freagraí. Is é sin an fáth go bhfuil na leasuithe seo á gcur chun cinn. Táimid ag iarraidh tuilleadh cumhachtaí a thabhairt d'Údarás na Gaeltachta.</p>
+        </speech>
+        <speech by="#RoryHearne" eId="spk_319">
+          <from>Deputy Rory Hearne<recordedTime time="2026-05-27T19:20:00+01:00"/></from>
+          <p eId="para_1107">I want to come back in on this. Fianna Fáil has had a history of developing housing in a very progressive way in the past. This is a time for new initiatives, a time for vision and a time for radical action on the housing crisis, nowhere more so than in the Gaeltachtaí. It is absolutely central that we listen to the organisations on the ground. Tá na heagraíochtaí Conradh na Gaeilge, Tinteán agus BÁNÚ ag lorg an róil sin don údarás. Tá ról láidir á lorg acu a thabharfadh cumhacht tithíochta don údarás. These organisations, Conradh na Gaeilge, BÁNÚ and Tinteán, are looking for Údarás na Gaeltachta to have this role to actually deliver housing. I am in complete agreement with them. We put forward this proposal in our housing plan for the Gaeltachtaí because, at the moment, it is clearly not working and I do not see how the way forward that has been set out can work.</p>
+          <p eId="para_1108"> As we said, an t-údarás has a huge amount of land and development skills. The Minister talked about skills. The question is why it cannot develop further skills. It has skills in development and can develop further skills in housing. If we are really visionary, why could it not, for example, be developing modular home factories and developing skills in the areas that would give people employment and build housing? Why do we have to limit what it can do when people are looking for this? It seems to me that there is a conservatism here, a reluctance to actually allow an t-údarás to do what it could be doing, which would actually offer the Gaeltachtaí a future in terms of developing housing themselves and having that power.</p>
+          <p eId="para_1109"> The Gaeltacht Act 2012 states that Údarás na Gaeltachta may implement initiatives in the Gaeltacht. I will come back on that.</p>
+        </speech>
+        <speech by="#ConorSheehan" eId="spk_320">
+          <from>Deputy Conor Sheehan<recordedTime time="2026-05-27T19:30:00+01:00"/></from>
+          <p eId="para_1110">Tá mé buíoch den Aire as an méid a bhí le rá aige mar gheall ar an scéim phíolótach agus mar gheall ar an méid a bhí curtha i láthair ag an Teachta Kyne. Caithfidh muid bogadh ar aghaidh leis sin. Ag an am céanna, áfach, bíonn an t-údarás ag obair maidir le cúrsaí tithíochta sa Ghaeltacht pé scéal. Ní aontaím leis an Aire nach bhfuil na scileanna ag an údarás. Tá roinnt scileanna aige agus tá daoine fostaithe ann. Caithfidh muid glacadh leis an leasú seo chun an chumhacht a thabhairt d’Údarás na Gaeltachta ionas go mbeidh ról lárnach aige maidir le cúrsaí tithíochta sa Ghaeltacht.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" as="#An_Cathaoirleach_Gníomhach" eId="spk_321">
+          <from>An Cathaoirleach Gníomhach (Deputy Ruairí Ó Murchú)<recordedTime time="2026-05-27T19:30:00+01:00"/></from>
+          <p eId="para_1111">Glaoim ar an Teachta Kyne. Déanaim comhghairdeas leis agus cuirim fáilte ar ais roimhe.</p>
+        </speech>
+        <speech by="#SeanKyne" eId="spk_322">
+          <from>Deputy Seán Kyne<recordedTime time="2026-05-27T19:30:00+01:00"/></from>
+          <p eId="para_1112">Cuirim fáilte roimh ráiteas an Aire go bhfuil sé sásta breathnú ar scéim phíolótach maidir leis sin. Tá a lán áiteanna ina bhféadfaí leanúint ar aghaidh nó breathnú isteach ar scéim phíolótach cosúil leis An Fhairche i gConamara, áit ina bhfuil scéim séarachais faoi láthair. Áit eile is ea Baile na hAbhann, a bhfuil a lán rudaí eile ó thaobh fostaíochta de ann. Tá scoileanna, séipéil agus tithe do dhaoine aosta sa bhaile sin freisin. Mar sin, tá áiteanna a bhféadfaí breathnú orthu sa chomhthéacs seo. Leanaimis ar aghaidh idir an trí eagraíocht sin – an chomhairle contae, an t-údarás agus Uisce Éireann – chun scéimeanna a thógáil sna háiteanna sin.</p>
+        </speech>
+        <speech by="#DaraCalleary" eId="spk_323" as="#Minister_for_Rural_and_Community_Development_and_the_Gaeltacht">
+          <from>Deputy Dara Calleary<recordedTime time="2026-05-27T19:30:00+01:00"/></from>
+          <p eId="para_1113">Gabhaim buíochas leis na Teachtaí. Is tábhachtach comhthéacs a chur leis an díospóireacht seo. Bunaithe ar na figiúirí ó na húdaráis áitiúla, ceadaíodh, ar an meán, 90% d’iarratais phleanála le haghaidh tithíochta sa Ghaeltacht in 2025, rud a léiríonn go bhfuil a lán rudaí ag tarlú sa Ghaeltacht i réimse na tithíochta. Ina theannta sin, bronnadh os cionn €3 milliún ar iarratais i limistéir Ghaeltachta faoin deontas athchóirithe do réadmhaoin fholamh, is é sin, the vacant houses grant. More than €3 million was given to the empty houses grant in Gaeltacht areas le linn 2024 agus 2025, between 2024 and 2025. Léiríonn sé sin go mbíonn pobail na Gaeltachta ag baint leas as an scéim seo. Léiríonn sé go bhfuil rudaí ag tarlú. </p>
+          <p eId="para_1114"> Aontaím leis an Teachta McGuinness; tá sé seo ar cheann de na dúshláin is mó atá romhainn. Is é sin an fáth nach mbeidh mé in ann a rá go bhfuil freagra éasca air seo ná a mholadh go gcuirfí an freagracht go léir ar an údarás. Tá a lán scileanna san údarás. The údarás has fantastic skills but, in terms of developing housing and planning responsibilities for housing, there are other, quicker ways to do it to get the kind of supply of housing we need for Irish-speaking families in the Gaeltacht areas. Is é sin an fáth a mbíonn muid ag obair go dlúth leis an Aire, an Teachta Browne. Bíonn oifigigh mo Roinne ag obair go dlúth leis na hoifigigh sa Roinn tithíochta ar an ráiteas pleanála. Agus an ráiteas pleanála sin á chur le chéile, áfach, tá a lán ceisteanna deacra le freagairt, go háirithe maidir leis na cineálacha cáilíochtaí agus conditions a bheidh i gceist le haghaidh cúrsaí pleanála. Tá mé dírithe ar chúrsaí pleanála agus tithíochta. Tá suim agam i bhfad níos mó deiseanna a thabhairt do dhaoine chun tithe a chruthú sa Ghaeltacht, agus tá mé ag obair ar scéimeanna lena dhéanamh. Léiríonn na figiúirí go bhfuil rudaí ag tarlú sa Ghaeltacht. Tá sé tábhachtach go leagann muid na figiúirí seo amach freisin.</p>
+        </speech>
+        <speech by="#ConorDMcGuinness" eId="spk_324">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T19:30:00+01:00"/></from>
+          <p eId="para_1115">Dúirt an tAire ansin, “There are other quicker ways to do it”, ach ní fheictear dúinn iad. Níl aon dul chun cinn déanta le linn ré an Aire, le linn ré a pháirtí nó le linn ré a chomhghleacaithe Rialtais, Fine Gael. Tá sé seo ag cur isteach ar na ceantair Ghaeltachta. Tá muid ag iarraidh go mbeadh na cumhachtaí breise seo ag an údarás ionas gur féidir leis ról a imirt i réiteach na géarchéime tithíochta sa Ghaeltacht. Ní dóigh liom go bhfuil aon duine sa Seomra seo ag rá gurb é an t-údarás an t-aon dream a bheidh lárnach i réiteach na faidhbe seo. Tá géarghá le gach údarás agus Roinn Rialtais a bheith ag oibriú as lámha a cheile chun dul i ngleic leis seo. </p>
+          <p eId="para_1116"> Ag féachaint ar na húdaráis áitiúla, mar a luaigh mé cheana féin, aontaím leis an Aire go bhfuil ról le himirt acu, ach bíonn siad ag déileáil leis an ngéarchéim tithíochta ina limistéir ina iomláine. Mar shampla, bíonn Comhairle Cathrach agus Contae Phort Láirge ag déileáil leis an ngéarchéim tithíochta sa chathair agus i nDún Garbháin, Port Lách agus in áiteanna eile. Bíonn sé freagrach as forbairt tithíochta go ginearálta. </p>
+          <p eId="para_1117"> Tá taithí agus ról ag Údarás na Gaeltachta chun an Ghaeltacht a choinneáil beo. Nuair a bhí easpa fostaíochta ag cur le bánú na Gaeltachta, bhí an ról sin dírithe ar chúrsaí fiontraíochta agus cruthú post. Is cúrsaí tithíochta atá anois ag cur le bánú na Gaeltachta. Mar sin, caithfidh Údarás na Gaeltachta ról níos lárnaí a bheith aige i dtaobh tithíochta. Níl aon duine ag argóint go mbeadh gach freagracht ar an údarás le déileáil leis seo, ach tá freagra ar chuid de na ceisteanna ag an údarás. Tá muid ag iarraidh go mbeidh na cumhachtaí sin aige chun dul i ngleic leis an ngéarchéim seo agus a ról a imirt ina leith.</p>
+        </speech>
+        <speech by="#RoryHearne" eId="spk_325">
+          <from>Deputy Rory Hearne<recordedTime time="2026-05-27T19:30:00+01:00"/></from>
+          <p eId="para_1118">An féidir liom teacht isteach?</p>
+        </speech>
+        <speech by="#RuairiOmurchu" as="#An_Cathaoirleach_Gníomhach" eId="spk_326">
+          <from>An Cathaoirleach Gníomhach (Deputy Ruairí Ó Murchú)<recordedTime time="2026-05-27T19:30:00+01:00"/></from>
+          <p eId="para_1119">Tá muid críochnaithe leis.</p>
+        </speech>
+        <speech by="#RoryHearne" eId="spk_327">
+          <from>Deputy Rory Hearne<recordedTime time="2026-05-27T19:30:00+01:00"/></from>
+          <p eId="para_1120">Cén fáth?</p>
+        </speech>
+        <speech by="#RuairiOmurchu" as="#An_Cathaoirleach_Gníomhach" eId="spk_328">
+          <from>An Cathaoirleach Gníomhach (Deputy Ruairí Ó Murchú)<recordedTime time="2026-05-27T19:30:00+01:00"/></from>
+          <p eId="para_1121">Tá a fhios agam go bhfuil ainm an Teachta ar an leasú, ach is é an duine a bhogann an leasú a bhfuil seans aige labhairt ag an deireadh. Ní raibh sé sin ar eolas agam ach oiread.</p>
+        </speech>
+        <speech by="#RoryHearne" eId="spk_329">
+          <from>Deputy Rory Hearne<recordedTime time="2026-05-27T19:30:00+01:00"/></from>
+          <p eId="para_1122">I will not get caught with that one again.</p>
+        </speech>
+        <speech by="#ConorDMcGuinness" eId="spk_330">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T19:30:00+01:00"/></from>
+          <p eId="para_1123">That is why I was waiting on Deputy Hearne to hop in.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" as="#An_Cathaoirleach_Gníomhach" eId="spk_331">
+          <from>An Cathaoirleach Gníomhach (Deputy Ruairí Ó Murchú)<recordedTime time="2026-05-27T19:30:00+01:00"/></from>
+          <p eId="para_1124">Déanfaidh sé sin cúis.</p>
+        </speech>
+        <summary eId="sum_44"> Cuireadh leasú Uimh. 10.</summary>
+        <debateSection name="division" refersTo="#bill.2024.56.dail." eId="dbsect_27">
+          <summary eId="sum_45">Amendment put: </summary>
+          <summary title="division" eId="sum_46">The Dáil divided: Tá, <quantity refersTo="#ta" normalized="61" eId="qty_4">61</quantity>; Níl, <quantity refersTo="#nil" normalized="76" eId="qty_5">76</quantity>; Staon, <quantity refersTo="#staon" normalized="0" eId="qty_6">0</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_28">
+            <p eId="para_1125">Tá</p>
+            <p eId="para_1126">
+              <person refersTo="#IvanaBacik">Bacik, Ivana.</person>
+            </p>
+            <p eId="para_1127">
+              <person refersTo="#CathyBennett">Bennett, Cathy.</person>
+            </p>
+            <p eId="para_1128">
+              <person refersTo="#RichardBoydBarrett">Boyd Barrett, Richard.</person>
+            </p>
+            <p eId="para_1129">
+              <person refersTo="#JohnBrady">Brady, John.</person>
+            </p>
+            <p eId="para_1130">
+              <person refersTo="#PatBuckley">Buckley, Pat.</person>
+            </p>
+            <p eId="para_1131">
+              <person refersTo="#JoannaByrne">Byrne, Joanna.</person>
+            </p>
+            <p eId="para_1132">
+              <person refersTo="#SorcaClarke">Clarke, Sorca.</person>
+            </p>
+            <p eId="para_1133">
+              <person refersTo="#RoseConwayWalsh">Conway-Walsh, Rose.</person>
+            </p>
+            <p eId="para_1134">
+              <person refersTo="#RuthCoppinger">Coppinger, Ruth.</person>
+            </p>
+            <p eId="para_1135">
+              <person refersTo="#ReadaCronin">Cronin, Réada.</person>
+            </p>
+            <p eId="para_1136">
+              <person refersTo="#SeanCroweSF">Crowe, Seán.</person>
+            </p>
+            <p eId="para_1137">
+              <person refersTo="#DavidCullinane">Cullinane, David.</person>
+            </p>
+            <p eId="para_1138">
+              <person refersTo="#JenCummins">Cummins, Jen.</person>
+            </p>
+            <p eId="para_1139">
+              <person refersTo="#PaDaly">Daly, Pa.</person>
+            </p>
+            <p eId="para_1140">
+              <person refersTo="#MaireDevine">Devine, Máire.</person>
+            </p>
+            <p eId="para_1141">
+              <person refersTo="#PearseDoherty">Doherty, Pearse.</person>
+            </p>
+            <p eId="para_1142">
+              <person refersTo="#PaulDonnelly">Donnelly, Paul.</person>
+            </p>
+            <p eId="para_1143">
+              <person refersTo="#DessieEllis">Ellis, Dessie.</person>
+            </p>
+            <p eId="para_1144">
+              <person refersTo="#DanielEnnis">Ennis, Daniel.</person>
+            </p>
+            <p eId="para_1145">
+              <person refersTo="#AidanFarrelly">Farrelly, Aidan.</person>
+            </p>
+            <p eId="para_1146">
+              <person refersTo="#MaireadFarrell">Farrell, Mairéad.</person>
+            </p>
+            <p eId="para_1147">
+              <person refersTo="#GaryGannon">Gannon, Gary.</person>
+            </p>
+            <p eId="para_1148">
+              <person refersTo="#SineadGibney">Gibney, Sinéad.</person>
+            </p>
+            <p eId="para_1149">
+              <person refersTo="#PaulNicholasGogartyGP">Gogarty, Paul Nicholas.</person>
+            </p>
+            <p eId="para_1150">
+              <person refersTo="#JohnnyGuirke">Guirke, Johnny.</person>
+            </p>
+            <p eId="para_1151">
+              <person refersTo="#EoinHayes">Hayes, Eoin.</person>
+            </p>
+            <p eId="para_1152">
+              <person refersTo="#RoryHearne">Hearne, Rory.</person>
+            </p>
+            <p eId="para_1153">
+              <person refersTo="#EoghanKenny">Kenny, Eoghan.</person>
+            </p>
+            <p eId="para_1154">
+              <person refersTo="#MartinKenny">Kenny, Martin.</person>
+            </p>
+            <p eId="para_1155">
+              <person refersTo="#ClaireKerrane">Kerrane, Claire.</person>
+            </p>
+            <p eId="para_1156">
+              <person refersTo="#PaulLawless">Lawless, Paul.</person>
+            </p>
+            <p eId="para_1157">
+              <person refersTo="#GeorgeLawlor">Lawlor, George.</person>
+            </p>
+            <p eId="para_1158">
+              <person refersTo="#PadraigMacLochlainn">Mac Lochlainn, Pádraig.</person>
+            </p>
+            <p eId="para_1159">
+              <person refersTo="#DonnaMcGettigan">McGettigan, Donna.</person>
+            </p>
+            <p eId="para_1160">
+              <person refersTo="#ConorDMcGuinness">McGuinness, Conor D.</person>
+            </p>
+            <p eId="para_1161">
+              <person refersTo="#DeniseMitchell">Mitchell, Denise.</person>
+            </p>
+            <p eId="para_1162">
+              <person refersTo="#JohnnyMythen">Mythen, Johnny.</person>
+            </p>
+            <p eId="para_1163">
+              <person refersTo="#GeraldNash">Nash, Ged.</person>
+            </p>
+            <p eId="para_1164">
+              <person refersTo="#NatashaNewsomeDrennan">Newsome Drennan, Natasha.</person>
+            </p>
+            <p eId="para_1165">
+              <person refersTo="#ShonaghNiRaghallaigh">Ní Raghallaigh, Shónagh.</person>
+            </p>
+            <p eId="para_1166">
+              <person refersTo="#CarolNolan">Nolan, Carol.</person>
+            </p>
+            <p eId="para_1167">
+              <person refersTo="#CianOCallaghan">O'Callaghan, Cian.</person>
+            </p>
+            <p eId="para_1168">
+              <person refersTo="#RobertODonoghue">O'Donoghue, Robert.</person>
+            </p>
+            <p eId="para_1169">
+              <person refersTo="#RodericOGorman">O'Gorman, Roderic.</person>
+            </p>
+            <p eId="para_1170">
+              <person refersTo="#LouisOHara">O'Hara, Louis.</person>
+            </p>
+            <p eId="para_1171">
+              <person refersTo="#LouiseOReilly">O'Reilly, Louise.</person>
+            </p>
+            <p eId="para_1172">
+              <person refersTo="#DarrenORourke">O'Rourke, Darren.</person>
+            </p>
+            <p eId="para_1173">
+              <person refersTo="#EoinOBroin">Ó Broin, Eoin.</person>
+            </p>
+            <p eId="para_1174">
+              <person refersTo="#DonnchadhOLaoghaire">Ó Laoghaire, Donnchadh.</person>
+            </p>
+            <p eId="para_1175">
+              <person refersTo="#RuairiOmurchu">Ó Murchú, Ruairí.</person>
+            </p>
+            <p eId="para_1176">
+              <person refersTo="#FionntanOSuilleabhain">Ó Súilleabháin, Fionntán.</person>
+            </p>
+            <p eId="para_1177">
+              <person refersTo="#LiamQuaide">Quaide, Liam.</person>
+            </p>
+            <p eId="para_1178">
+              <person refersTo="#MauriceQuinlivan">Quinlivan, Maurice.</person>
+            </p>
+            <p eId="para_1179">
+              <person refersTo="#PadraigRice">Rice, Pádraig.</person>
+            </p>
+            <p eId="para_1180">
+              <person refersTo="#ConorSheehan">Sheehan, Conor.</person>
+            </p>
+            <p eId="para_1181">
+              <person refersTo="#MarieSherlock">Sherlock, Marie.</person>
+            </p>
+            <p eId="para_1182">
+              <person refersTo="#DuncanSmith">Smith, Duncan.</person>
+            </p>
+            <p eId="para_1183">
+              <person refersTo="#BrianStanley">Stanley, Brian.</person>
+            </p>
+            <p eId="para_1184">
+              <person refersTo="#MarkWall">Wall, Mark.</person>
+            </p>
+            <p eId="para_1185">
+              <person refersTo="#MarkWard">Ward, Mark.</person>
+            </p>
+            <p eId="para_1186">
+              <person refersTo="#JenniferWhitmore">Whitmore, Jennifer.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_29">
+            <p eId="para_1187">Níl</p>
+            <p eId="para_1188">
+              <person refersTo="#WilliamAird">Aird, William.</person>
+            </p>
+            <p eId="para_1189">
+              <person refersTo="#CatherineArdagh">Ardagh, Catherine.</person>
+            </p>
+            <p eId="para_1190">
+              <person refersTo="#GraceBoland">Boland, Grace.</person>
+            </p>
+            <p eId="para_1191">
+              <person refersTo="#TomBrabazon">Brabazon, Tom.</person>
+            </p>
+            <p eId="para_1192">
+              <person refersTo="#BrianBrennan">Brennan, Brian.</person>
+            </p>
+            <p eId="para_1193">
+              <person refersTo="#ShayBrennan">Brennan, Shay.</person>
+            </p>
+            <p eId="para_1194">
+              <person refersTo="#ColmBrophy">Brophy, Colm.</person>
+            </p>
+            <p eId="para_1195">
+              <person refersTo="#JamesBrowne">Browne, James.</person>
+            </p>
+            <p eId="para_1196">
+              <person refersTo="#ColmBurke">Burke, Colm.</person>
+            </p>
+            <p eId="para_1197">
+              <person refersTo="#MaryButler">Butler, Mary.</person>
+            </p>
+            <p eId="para_1198">
+              <person refersTo="#JerryButtimer">Buttimer, Jerry.</person>
+            </p>
+            <p eId="para_1199">
+              <person refersTo="#MalcolmByrne">Byrne, Malcolm.</person>
+            </p>
+            <p eId="para_1200">
+              <person refersTo="#MichaelCahill">Cahill, Michael.</person>
+            </p>
+            <p eId="para_1201">
+              <person refersTo="#CatherineCallaghan">Callaghan, Catherine.</person>
+            </p>
+            <p eId="para_1202">
+              <person refersTo="#DaraCalleary">Calleary, Dara.</person>
+            </p>
+            <p eId="para_1203">
+              <person refersTo="#SeanCanney">Canney, Seán.</person>
+            </p>
+            <p eId="para_1204">
+              <person refersTo="#MichealCarrigy">Carrigy, Micheál.</person>
+            </p>
+            <p eId="para_1205">
+              <person refersTo="#JenniferCarrollMacNeill">Carroll MacNeill, Jennifer.</person>
+            </p>
+            <p eId="para_1206">
+              <person refersTo="#PeterChapCleere">Cleere, Peter 'Chap'.</person>
+            </p>
+            <p eId="para_1207">
+              <person refersTo="#JohnClendennen">Clendennen, John.</person>
+            </p>
+            <p eId="para_1208">
+              <person refersTo="#JohnConnolly">Connolly, John.</person>
+            </p>
+            <p eId="para_1209">
+              <person refersTo="#JoeCooney">Cooney, Joe.</person>
+            </p>
+            <p eId="para_1210">
+              <person refersTo="#CathalCrowe">Crowe, Cathal.</person>
+            </p>
+            <p eId="para_1211">
+              <person refersTo="#JohnCummins">Cummins, John.</person>
+            </p>
+            <p eId="para_1212">
+              <person refersTo="#EmerCurrie">Currie, Emer.</person>
+            </p>
+            <p eId="para_1213">
+              <person refersTo="#MartinDaly">Daly, Martin.</person>
+            </p>
+            <p eId="para_1214">
+              <person refersTo="#AislingDempsey">Dempsey, Aisling.</person>
+            </p>
+            <p eId="para_1215">
+              <person refersTo="#CormacDevlin">Devlin, Cormac.</person>
+            </p>
+            <p eId="para_1216">
+              <person refersTo="#AlanDillon">Dillon, Alan.</person>
+            </p>
+            <p eId="para_1217">
+              <person refersTo="#AlbertDolan">Dolan, Albert.</person>
+            </p>
+            <p eId="para_1218">
+              <person refersTo="#FrankFeighan">Feighan, Frankie.</person>
+            </p>
+            <p eId="para_1219">
+              <person refersTo="#SeanFleming">Fleming, Sean.</person>
+            </p>
+            <p eId="para_1220">
+              <person refersTo="#NormaFoley">Foley, Norma.</person>
+            </p>
+            <p eId="para_1221">
+              <person refersTo="#JamesGeogheganFG">Geoghegan, James.</person>
+            </p>
+            <p eId="para_1222">
+              <person refersTo="#NoelGrealishPD">Grealish, Noel.</person>
+            </p>
+            <p eId="para_1223">
+              <person refersTo="#MarianHarkinIND">Harkin, Marian.</person>
+            </p>
+            <p eId="para_1224">
+              <person refersTo="#BarryHeneghan">Heneghan, Barry.</person>
+            </p>
+            <p eId="para_1225">
+              <person refersTo="#MartinHeydon">Heydon, Martin.</person>
+            </p>
+            <p eId="para_1226">
+              <person refersTo="#EmerHiggins">Higgins, Emer.</person>
+            </p>
+            <p eId="para_1227">
+              <person refersTo="#KeiraKeogh">Keogh, Keira.</person>
+            </p>
+            <p eId="para_1228">
+              <person refersTo="#SeanKyne">Kyne, Seán.</person>
+            </p>
+            <p eId="para_1229">
+              <person refersTo="#JohnLahart">Lahart, John.</person>
+            </p>
+            <p eId="para_1230">
+              <person refersTo="#JamesLawless">Lawless, James.</person>
+            </p>
+            <p eId="para_1231">
+              <person refersTo="#MichaelLowry">Lowry, Michael.</person>
+            </p>
+            <p eId="para_1232">
+              <person refersTo="#DavidMaxwell">Maxwell, David.</person>
+            </p>
+            <p eId="para_1233">
+              <person refersTo="#PaulMcAuliffe">McAuliffe, Paul.</person>
+            </p>
+            <p eId="para_1234">
+              <person refersTo="#NoelMcCarthy">McCarthy, Noel.</person>
+            </p>
+            <p eId="para_1235">
+              <person refersTo="#CharlieMcConalogue">McConalogue, Charlie.</person>
+            </p>
+            <p eId="para_1236">
+              <person refersTo="#TonyMcCormack">McCormack, Tony.</person>
+            </p>
+            <p eId="para_1237">
+              <person refersTo="#SeamusMcGrath">McGrath, Séamus.</person>
+            </p>
+            <p eId="para_1238">
+              <person refersTo="#ErinMcGreehan">McGreehan, Erin.</person>
+            </p>
+            <p eId="para_1239">
+              <person refersTo="#KevinBoxerMoran">Moran, Kevin Boxer.</person>
+            </p>
+            <p eId="para_1240">
+              <person refersTo="#AindriasMoynihan">Moynihan, Aindrias.</person>
+            </p>
+            <p eId="para_1241">
+              <person refersTo="#MichaelMoynihan">Moynihan, Michael.</person>
+            </p>
+            <p eId="para_1242">
+              <person refersTo="#ShaneMoynihan">Moynihan, Shane.</person>
+            </p>
+            <p eId="para_1243">
+              <person refersTo="#JenniferMurnaneOConnor">Murnane O'Connor, Jennifer.</person>
+            </p>
+            <p eId="para_1244">
+              <person refersTo="#MichaelMurphy">Murphy, Michael.</person>
+            </p>
+            <p eId="para_1245">
+              <person refersTo="#HildegardeNaughton">Naughton, Hildegarde.</person>
+            </p>
+            <p eId="para_1246">
+              <person refersTo="#JoeNeville">Neville, Joe.</person>
+            </p>
+            <p eId="para_1247">
+              <person refersTo="#DarraghOBrien">O'Brien, Darragh.</person>
+            </p>
+            <p eId="para_1248">
+              <person refersTo="#JimOCallaghan">O'Callaghan, Jim.</person>
+            </p>
+            <p eId="para_1249">
+              <person refersTo="#JamesOConnor">O'Connor, James.</person>
+            </p>
+            <p eId="para_1250">
+              <person refersTo="#KieranODonnell">O'Donnell, Kieran.</person>
+            </p>
+            <p eId="para_1251">
+              <person refersTo="#PatrickODonovan">O'Donovan, Patrick.</person>
+            </p>
+            <p eId="para_1252">
+              <person refersTo="#RyanOMeara">O'Meara, Ryan.</person>
+            </p>
+            <p eId="para_1253">
+              <person refersTo="#JohnPaulOShea">O'Shea, John Paul.</person>
+            </p>
+            <p eId="para_1254">
+              <person refersTo="#ChristopherOsullivan">O'Sullivan, Christopher.</person>
+            </p>
+            <p eId="para_1255">
+              <person refersTo="#NaoiseOCearuil">Ó Cearúil, Naoise.</person>
+            </p>
+            <p eId="para_1256">
+              <person refersTo="#SeanOFearghaillFF">Ó Fearghaíl, Seán.</person>
+            </p>
+            <p eId="para_1257">
+              <person refersTo="#NaoiseOMuiri">Ó Muirí, Naoise.</person>
+            </p>
+            <p eId="para_1258">
+              <person refersTo="#PeterRoche">Roche, Peter.</person>
+            </p>
+            <p eId="para_1259">
+              <person refersTo="#BrendanSmith">Smith, Brendan.</person>
+            </p>
+            <p eId="para_1260">
+              <person refersTo="#NiamhSmyth">Smyth, Niamh.</person>
+            </p>
+            <p eId="para_1261">
+              <person refersTo="#EdwardTimmins">Timmins, Edward.</person>
+            </p>
+            <p eId="para_1262">
+              <person refersTo="#GillianToole">Toole, Gillian.</person>
+            </p>
+            <p eId="para_1263">
+              <person refersTo="#BarryWard">Ward, Barry.</person>
+            </p>
+          </debateSection>
+          <debateSection name="staon" eId="dbsect_30">
+            <p eId="para_1264">Staon</p>
+            <p eId="para_1265">
+              <person refersTo="#"/>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_47">Tellers: Tá, Deputies Conor D. McGuinness and Rory Hearne; Níl, Deputies Mary Butler and Emer Currie.</summary>
+          <summary title="decision" refersTo="#lost" eId="sum_48">Amendment declared lost.</summary>
+        </debateSection>
+        <summary eId="sum_49"> Faisnéiseadh go rabhthas tar éis diúltú don leasú.</summary>
+        <speech by="#RoryHearne" eId="spk_332">
+          <from>Deputy Rory Hearne<recordedTime time="2026-05-27T19:50:00+01:00"/></from>
+          <p eId="para_1266">Tairgim leasú Uimh. 11:</p>
+          <p class="indent_1" eId="para_1267">Ar leathanach 13, idir líne 3 agus líne 4, an méid seo a leanas a chur isteach: </p>
+          <p class="indent_2" eId="para_1268">" "(7A) Féadfaidh an tÚdarás talamh a cheannach, tithíocht a fhorbairt agus láithreáin sheirbhísithe a dhíol chun tithíocht a sholáthar sa Ghaeltacht.".</p>
+        </speech>
+        <summary eId="sum_50"> Cuireadh leasú Uimh. 11.</summary>
+        <debateSection name="division" refersTo="#bill.2024.56.dail." eId="dbsect_31">
+          <summary eId="sum_51">Amendment put: </summary>
+          <summary title="division" eId="sum_52">The Dáil divided: Tá, <quantity refersTo="#ta" normalized="63" eId="qty_7">63</quantity>; Níl, <quantity refersTo="#nil" normalized="78" eId="qty_8">78</quantity>; Staon, <quantity refersTo="#staon" normalized="0" eId="qty_9">0</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_32">
+            <p eId="para_1269">Tá</p>
+            <p eId="para_1270">
+              <person refersTo="#IvanaBacik">Bacik, Ivana.</person>
+            </p>
+            <p eId="para_1271">
+              <person refersTo="#CathyBennett">Bennett, Cathy.</person>
+            </p>
+            <p eId="para_1272">
+              <person refersTo="#RichardBoydBarrett">Boyd Barrett, Richard.</person>
+            </p>
+            <p eId="para_1273">
+              <person refersTo="#JohnBrady">Brady, John.</person>
+            </p>
+            <p eId="para_1274">
+              <person refersTo="#PatBuckley">Buckley, Pat.</person>
+            </p>
+            <p eId="para_1275">
+              <person refersTo="#JoannaByrne">Byrne, Joanna.</person>
+            </p>
+            <p eId="para_1276">
+              <person refersTo="#SorcaClarke">Clarke, Sorca.</person>
+            </p>
+            <p eId="para_1277">
+              <person refersTo="#RoseConwayWalsh">Conway-Walsh, Rose.</person>
+            </p>
+            <p eId="para_1278">
+              <person refersTo="#RuthCoppinger">Coppinger, Ruth.</person>
+            </p>
+            <p eId="para_1279">
+              <person refersTo="#ReadaCronin">Cronin, Réada.</person>
+            </p>
+            <p eId="para_1280">
+              <person refersTo="#SeanCroweSF">Crowe, Seán.</person>
+            </p>
+            <p eId="para_1281">
+              <person refersTo="#DavidCullinane">Cullinane, David.</person>
+            </p>
+            <p eId="para_1282">
+              <person refersTo="#JenCummins">Cummins, Jen.</person>
+            </p>
+            <p eId="para_1283">
+              <person refersTo="#PaDaly">Daly, Pa.</person>
+            </p>
+            <p eId="para_1284">
+              <person refersTo="#MaireDevine">Devine, Máire.</person>
+            </p>
+            <p eId="para_1285">
+              <person refersTo="#PearseDoherty">Doherty, Pearse.</person>
+            </p>
+            <p eId="para_1286">
+              <person refersTo="#PaulDonnelly">Donnelly, Paul.</person>
+            </p>
+            <p eId="para_1287">
+              <person refersTo="#DessieEllis">Ellis, Dessie.</person>
+            </p>
+            <p eId="para_1288">
+              <person refersTo="#DanielEnnis">Ennis, Daniel.</person>
+            </p>
+            <p eId="para_1289">
+              <person refersTo="#AidanFarrelly">Farrelly, Aidan.</person>
+            </p>
+            <p eId="para_1290">
+              <person refersTo="#MaireadFarrell">Farrell, Mairéad.</person>
+            </p>
+            <p eId="para_1291">
+              <person refersTo="#GaryGannon">Gannon, Gary.</person>
+            </p>
+            <p eId="para_1292">
+              <person refersTo="#SineadGibney">Gibney, Sinéad.</person>
+            </p>
+            <p eId="para_1293">
+              <person refersTo="#PaulNicholasGogartyGP">Gogarty, Paul Nicholas.</person>
+            </p>
+            <p eId="para_1294">
+              <person refersTo="#JohnnyGuirke">Guirke, Johnny.</person>
+            </p>
+            <p eId="para_1295">
+              <person refersTo="#EoinHayes">Hayes, Eoin.</person>
+            </p>
+            <p eId="para_1296">
+              <person refersTo="#RoryHearne">Hearne, Rory.</person>
+            </p>
+            <p eId="para_1297">
+              <person refersTo="#EoghanKenny">Kenny, Eoghan.</person>
+            </p>
+            <p eId="para_1298">
+              <person refersTo="#MartinKenny">Kenny, Martin.</person>
+            </p>
+            <p eId="para_1299">
+              <person refersTo="#ClaireKerrane">Kerrane, Claire.</person>
+            </p>
+            <p eId="para_1300">
+              <person refersTo="#PaulLawless">Lawless, Paul.</person>
+            </p>
+            <p eId="para_1301">
+              <person refersTo="#GeorgeLawlor">Lawlor, George.</person>
+            </p>
+            <p eId="para_1302">
+              <person refersTo="#PadraigMacLochlainn">Mac Lochlainn, Pádraig.</person>
+            </p>
+            <p eId="para_1303">
+              <person refersTo="#DonnaMcGettigan">McGettigan, Donna.</person>
+            </p>
+            <p eId="para_1304">
+              <person refersTo="#ConorDMcGuinness">McGuinness, Conor D.</person>
+            </p>
+            <p eId="para_1305">
+              <person refersTo="#DeniseMitchell">Mitchell, Denise.</person>
+            </p>
+            <p eId="para_1306">
+              <person refersTo="#JohnnyMythen">Mythen, Johnny.</person>
+            </p>
+            <p eId="para_1307">
+              <person refersTo="#GeraldNash">Nash, Ged.</person>
+            </p>
+            <p eId="para_1308">
+              <person refersTo="#NatashaNewsomeDrennan">Newsome Drennan, Natasha.</person>
+            </p>
+            <p eId="para_1309">
+              <person refersTo="#ShonaghNiRaghallaigh">Ní Raghallaigh, Shónagh.</person>
+            </p>
+            <p eId="para_1310">
+              <person refersTo="#CarolNolan">Nolan, Carol.</person>
+            </p>
+            <p eId="para_1311">
+              <person refersTo="#CianOCallaghan">O'Callaghan, Cian.</person>
+            </p>
+            <p eId="para_1312">
+              <person refersTo="#RichardODonoghue">O'Donoghue, Richard.</person>
+            </p>
+            <p eId="para_1313">
+              <person refersTo="#RobertODonoghue">O'Donoghue, Robert.</person>
+            </p>
+            <p eId="para_1314">
+              <person refersTo="#KenOFlynn">O'Flynn, Ken.</person>
+            </p>
+            <p eId="para_1315">
+              <person refersTo="#RodericOGorman">O'Gorman, Roderic.</person>
+            </p>
+            <p eId="para_1316">
+              <person refersTo="#LouisOHara">O'Hara, Louis.</person>
+            </p>
+            <p eId="para_1317">
+              <person refersTo="#LouiseOReilly">O'Reilly, Louise.</person>
+            </p>
+            <p eId="para_1318">
+              <person refersTo="#DarrenORourke">O'Rourke, Darren.</person>
+            </p>
+            <p eId="para_1319">
+              <person refersTo="#EoinOBroin">Ó Broin, Eoin.</person>
+            </p>
+            <p eId="para_1320">
+              <person refersTo="#DonnchadhOLaoghaire">Ó Laoghaire, Donnchadh.</person>
+            </p>
+            <p eId="para_1321">
+              <person refersTo="#RuairiOmurchu">Ó Murchú, Ruairí.</person>
+            </p>
+            <p eId="para_1322">
+              <person refersTo="#FionntanOSuilleabhain">Ó Súilleabháin, Fionntán.</person>
+            </p>
+            <p eId="para_1323">
+              <person refersTo="#LiamQuaide">Quaide, Liam.</person>
+            </p>
+            <p eId="para_1324">
+              <person refersTo="#MauriceQuinlivan">Quinlivan, Maurice.</person>
+            </p>
+            <p eId="para_1325">
+              <person refersTo="#PadraigRice">Rice, Pádraig.</person>
+            </p>
+            <p eId="para_1326">
+              <person refersTo="#ConorSheehan">Sheehan, Conor.</person>
+            </p>
+            <p eId="para_1327">
+              <person refersTo="#MarieSherlock">Sherlock, Marie.</person>
+            </p>
+            <p eId="para_1328">
+              <person refersTo="#DuncanSmith">Smith, Duncan.</person>
+            </p>
+            <p eId="para_1329">
+              <person refersTo="#BrianStanley">Stanley, Brian.</person>
+            </p>
+            <p eId="para_1330">
+              <person refersTo="#MarkWall">Wall, Mark.</person>
+            </p>
+            <p eId="para_1331">
+              <person refersTo="#MarkWard">Ward, Mark.</person>
+            </p>
+            <p eId="para_1332">
+              <person refersTo="#JenniferWhitmore">Whitmore, Jennifer.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_33">
+            <p eId="para_1333">Níl</p>
+            <p eId="para_1334">
+              <person refersTo="#WilliamAird">Aird, William.</person>
+            </p>
+            <p eId="para_1335">
+              <person refersTo="#CatherineArdagh">Ardagh, Catherine.</person>
+            </p>
+            <p eId="para_1336">
+              <person refersTo="#GraceBoland">Boland, Grace.</person>
+            </p>
+            <p eId="para_1337">
+              <person refersTo="#TomBrabazon">Brabazon, Tom.</person>
+            </p>
+            <p eId="para_1338">
+              <person refersTo="#BrianBrennan">Brennan, Brian.</person>
+            </p>
+            <p eId="para_1339">
+              <person refersTo="#ShayBrennan">Brennan, Shay.</person>
+            </p>
+            <p eId="para_1340">
+              <person refersTo="#ColmBrophy">Brophy, Colm.</person>
+            </p>
+            <p eId="para_1341">
+              <person refersTo="#JamesBrowne">Browne, James.</person>
+            </p>
+            <p eId="para_1342">
+              <person refersTo="#ColmBurke">Burke, Colm.</person>
+            </p>
+            <p eId="para_1343">
+              <person refersTo="#MaryButler">Butler, Mary.</person>
+            </p>
+            <p eId="para_1344">
+              <person refersTo="#JerryButtimer">Buttimer, Jerry.</person>
+            </p>
+            <p eId="para_1345">
+              <person refersTo="#MalcolmByrne">Byrne, Malcolm.</person>
+            </p>
+            <p eId="para_1346">
+              <person refersTo="#MichaelCahill">Cahill, Michael.</person>
+            </p>
+            <p eId="para_1347">
+              <person refersTo="#CatherineCallaghan">Callaghan, Catherine.</person>
+            </p>
+            <p eId="para_1348">
+              <person refersTo="#DaraCalleary">Calleary, Dara.</person>
+            </p>
+            <p eId="para_1349">
+              <person refersTo="#SeanCanney">Canney, Seán.</person>
+            </p>
+            <p eId="para_1350">
+              <person refersTo="#MichealCarrigy">Carrigy, Micheál.</person>
+            </p>
+            <p eId="para_1351">
+              <person refersTo="#JenniferCarrollMacNeill">Carroll MacNeill, Jennifer.</person>
+            </p>
+            <p eId="para_1352">
+              <person refersTo="#PeterChapCleere">Cleere, Peter 'Chap'.</person>
+            </p>
+            <p eId="para_1353">
+              <person refersTo="#JohnClendennen">Clendennen, John.</person>
+            </p>
+            <p eId="para_1354">
+              <person refersTo="#JohnConnolly">Connolly, John.</person>
+            </p>
+            <p eId="para_1355">
+              <person refersTo="#JoeCooney">Cooney, Joe.</person>
+            </p>
+            <p eId="para_1356">
+              <person refersTo="#CathalCrowe">Crowe, Cathal.</person>
+            </p>
+            <p eId="para_1357">
+              <person refersTo="#JohnCummins">Cummins, John.</person>
+            </p>
+            <p eId="para_1358">
+              <person refersTo="#EmerCurrie">Currie, Emer.</person>
+            </p>
+            <p eId="para_1359">
+              <person refersTo="#MartinDaly">Daly, Martin.</person>
+            </p>
+            <p eId="para_1360">
+              <person refersTo="#AislingDempsey">Dempsey, Aisling.</person>
+            </p>
+            <p eId="para_1361">
+              <person refersTo="#CormacDevlin">Devlin, Cormac.</person>
+            </p>
+            <p eId="para_1362">
+              <person refersTo="#AlanDillon">Dillon, Alan.</person>
+            </p>
+            <p eId="para_1363">
+              <person refersTo="#AlbertDolan">Dolan, Albert.</person>
+            </p>
+            <p eId="para_1364">
+              <person refersTo="#FrankFeighan">Feighan, Frankie.</person>
+            </p>
+            <p eId="para_1365">
+              <person refersTo="#SeanFleming">Fleming, Sean.</person>
+            </p>
+            <p eId="para_1366">
+              <person refersTo="#NormaFoley">Foley, Norma.</person>
+            </p>
+            <p eId="para_1367">
+              <person refersTo="#JamesGeogheganFG">Geoghegan, James.</person>
+            </p>
+            <p eId="para_1368">
+              <person refersTo="#NoelGrealishPD">Grealish, Noel.</person>
+            </p>
+            <p eId="para_1369">
+              <person refersTo="#MarianHarkinIND">Harkin, Marian.</person>
+            </p>
+            <p eId="para_1370">
+              <person refersTo="#BarryHeneghan">Heneghan, Barry.</person>
+            </p>
+            <p eId="para_1371">
+              <person refersTo="#MartinHeydon">Heydon, Martin.</person>
+            </p>
+            <p eId="para_1372">
+              <person refersTo="#EmerHiggins">Higgins, Emer.</person>
+            </p>
+            <p eId="para_1373">
+              <person refersTo="#KeiraKeogh">Keogh, Keira.</person>
+            </p>
+            <p eId="para_1374">
+              <person refersTo="#SeanKyne">Kyne, Seán.</person>
+            </p>
+            <p eId="para_1375">
+              <person refersTo="#JohnLahart">Lahart, John.</person>
+            </p>
+            <p eId="para_1376">
+              <person refersTo="#JamesLawless">Lawless, James.</person>
+            </p>
+            <p eId="para_1377">
+              <person refersTo="#MichaelLowry">Lowry, Michael.</person>
+            </p>
+            <p eId="para_1378">
+              <person refersTo="#DavidMaxwell">Maxwell, David.</person>
+            </p>
+            <p eId="para_1379">
+              <person refersTo="#PaulMcAuliffe">McAuliffe, Paul.</person>
+            </p>
+            <p eId="para_1380">
+              <person refersTo="#NoelMcCarthy">McCarthy, Noel.</person>
+            </p>
+            <p eId="para_1381">
+              <person refersTo="#CharlieMcConalogue">McConalogue, Charlie.</person>
+            </p>
+            <p eId="para_1382">
+              <person refersTo="#TonyMcCormack">McCormack, Tony.</person>
+            </p>
+            <p eId="para_1383">
+              <person refersTo="#SeamusMcGrath">McGrath, Séamus.</person>
+            </p>
+            <p eId="para_1384">
+              <person refersTo="#ErinMcGreehan">McGreehan, Erin.</person>
+            </p>
+            <p eId="para_1385">
+              <person refersTo="#KevinBoxerMoran">Moran, Kevin Boxer.</person>
+            </p>
+            <p eId="para_1386">
+              <person refersTo="#AindriasMoynihan">Moynihan, Aindrias.</person>
+            </p>
+            <p eId="para_1387">
+              <person refersTo="#MichaelMoynihan">Moynihan, Michael.</person>
+            </p>
+            <p eId="para_1388">
+              <person refersTo="#ShaneMoynihan">Moynihan, Shane.</person>
+            </p>
+            <p eId="para_1389">
+              <person refersTo="#JenniferMurnaneOConnor">Murnane O'Connor, Jennifer.</person>
+            </p>
+            <p eId="para_1390">
+              <person refersTo="#MichaelMurphy">Murphy, Michael.</person>
+            </p>
+            <p eId="para_1391">
+              <person refersTo="#HildegardeNaughton">Naughton, Hildegarde.</person>
+            </p>
+            <p eId="para_1392">
+              <person refersTo="#JoeNeville">Neville, Joe.</person>
+            </p>
+            <p eId="para_1393">
+              <person refersTo="#DarraghOBrien">O'Brien, Darragh.</person>
+            </p>
+            <p eId="para_1394">
+              <person refersTo="#JimOCallaghan">O'Callaghan, Jim.</person>
+            </p>
+            <p eId="para_1395">
+              <person refersTo="#JamesOConnor">O'Connor, James.</person>
+            </p>
+            <p eId="para_1396">
+              <person refersTo="#KieranODonnell">O'Donnell, Kieran.</person>
+            </p>
+            <p eId="para_1397">
+              <person refersTo="#PatrickODonovan">O'Donovan, Patrick.</person>
+            </p>
+            <p eId="para_1398">
+              <person refersTo="#RyanOMeara">O'Meara, Ryan.</person>
+            </p>
+            <p eId="para_1399">
+              <person refersTo="#JohnPaulOShea">O'Shea, John Paul.</person>
+            </p>
+            <p eId="para_1400">
+              <person refersTo="#ChristopherOsullivan">O'Sullivan, Christopher.</person>
+            </p>
+            <p eId="para_1401">
+              <person refersTo="#PadraigOSullivan">O'Sullivan, Pádraig.</person>
+            </p>
+            <p eId="para_1402">
+              <person refersTo="#NaoiseOCearuil">Ó Cearúil, Naoise.</person>
+            </p>
+            <p eId="para_1403">
+              <person refersTo="#SeanOFearghaillFF">Ó Fearghaíl, Seán.</person>
+            </p>
+            <p eId="para_1404">
+              <person refersTo="#NaoiseOMuiri">Ó Muirí, Naoise.</person>
+            </p>
+            <p eId="para_1405">
+              <person refersTo="#PeterRoche">Roche, Peter.</person>
+            </p>
+            <p eId="para_1406">
+              <person refersTo="#BrendanSmith">Smith, Brendan.</person>
+            </p>
+            <p eId="para_1407">
+              <person refersTo="#NiamhSmyth">Smyth, Niamh.</person>
+            </p>
+            <p eId="para_1408">
+              <person refersTo="#EdwardTimmins">Timmins, Edward.</person>
+            </p>
+            <p eId="para_1409">
+              <person refersTo="#GillianToole">Toole, Gillian.</person>
+            </p>
+            <p eId="para_1410">
+              <person refersTo="#RobertTroy">Troy, Robert.</person>
+            </p>
+            <p eId="para_1411">
+              <person refersTo="#BarryWard">Ward, Barry.</person>
+            </p>
+          </debateSection>
+          <debateSection name="staon" eId="dbsect_34">
+            <p eId="para_1412">Staon</p>
+            <p eId="para_1413">
+              <person refersTo="#"/>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_53">Tellers: Tá, Deputies Rory Hearne and Conor D. McGuinness; Níl, Deputies Mary Butler and Emer Currie.</summary>
+          <summary title="decision" refersTo="#lost" eId="sum_54">Amendment declared lost.</summary>
+        </debateSection>
+        <summary eId="sum_55"> Faisnéiseadh go rabhthas tar éis diúltú don leasú.</summary>
+        <speech by="#RoryHearne" eId="spk_333">
+          <from>Deputy Rory Hearne<recordedTime time="2026-05-27T20:00:00+01:00"/></from>
+          <p eId="para_1414">Tairgim leasú Uimh. 12:</p>
+          <p class="indent_1" eId="para_1415">Ar leathanach 13, idir líne 3 agus líne 4, an méid seo a leanas a chur isteach:</p>
+          <p class="indent_3" eId="para_1416">“ “(7A) Tabharfaidh an tÚdarás tosaíocht do thithe inacmhainne a sheachadadh é féin sa Ghaeltacht.”.</p>
+        </speech>
+        <summary eId="sum_56"> Cuireadh an leasú agus faisnéiseadh go rabhthas tar éis diúltú dó.</summary>
+        <speech by="#RoryHearne" eId="spk_334">
+          <from>Deputy Rory Hearne<recordedTime time="2026-05-27T20:00:00+01:00"/></from>
+          <p eId="para_1417">Tairgim leasú Uimh. 13:</p>
+          <p class="indent_1" eId="para_1418">Ar leathanach 13, idir líne 3 agus líne 4, an méid seo a leanas a chur isteach:</p>
+          <p class="indent_3" eId="para_1419">“ “(7A) Ceadófar don Údarás tithe folmha agus tréigthe a cheannach go héigeantach sa Ghaeltacht ar mhaithe lena n-úsáid chun tithíocht inacmhainne a sholáthar.”.</p>
+        </speech>
+        <summary eId="sum_57"> Cuireadh an leasú agus faisnéiseadh go rabhthas tar éis diúltú dó.</summary>
+        <speech by="#ConorDMcGuinness" eId="spk_335">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T20:00:00+01:00"/></from>
+          <p eId="para_1420">Tairgim leasú Uimh. 14:</p>
+          <p class="indent_1" eId="para_1421">Ar leathanach 13, líne 4, “nó teach” a chur isteach i ndiaidh “talamh”.</p>
+        </speech>
+        <summary eId="sum_58">Cuireadh an leasú agus faisnéiseadh go rabhthas tar éis diúltú dó.</summary>
+        <speech by="#ConorDMcGuinness" eId="spk_336">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T20:00:00+01:00"/></from>
+          <p eId="para_1422">Tairgim leasú Uimh. 15:</p>
+          <p class="indent_1" eId="para_1423">Ar leathanach 13, líne 4, “, a léasú nó a ligean” a chur isteach i ndiaidh “a dhíol”.</p>
+        </speech>
+        <summary eId="sum_59">Cuireadh an leasú agus faisnéiseadh go rabhthas tar éis diúltú dó.</summary>
+        <speech by="#VeronaMurphy" eId="spk_337">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T20:00:00+01:00"/></from>
+          <p eId="para_1424">Amendments Nos. 16 and 17 are as ord.</p>
+        </speech>
+        <speech by="#ConorDMcGuinness" eId="spk_338">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T20:00:00+01:00"/></from>
+          <p eId="para_1425">Can I speak to those amendments, even briefly?</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_339">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T20:00:00+01:00"/></from>
+          <p eId="para_1426">No, not to amendments that are out of order.</p>
+        </speech>
+        <summary eId="sum_60"> Níor tairgeadh leasú Uimh. 16.</summary>
+        <summary eId="sum_61"> Níor tairgeadh leasú Uimh. 17.</summary>
+        <speech by="#VeronaMurphy" eId="spk_340">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T20:00:00+01:00"/></from>
+          <p eId="para_1427">Amendments Nos. 18 to 20, inclusive, are as ord.</p>
+        </speech>
+        <summary eId="sum_62"> Níor tairgeadh leasú Uimh. 18. </summary>
+        <summary eId="sum_63"> Níor tairgeadh leasú Uimh. 19. </summary>
+        <summary eId="sum_64"> Níor tairgeadh leasú Uimh. 20. </summary>
+        <speech by="#ConorDMcGuinness" eId="spk_341">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T20:00:00+01:00"/></from>
+          <p eId="para_1428">Tairgim leasú Uimh. 21:</p>
+          <p eId="para_1429"> Ar leathanach 13, idir líne 27 agus líne 28, an méid seo a leanas a chur isteach:</p>
+          <p eId="para_1430"> “(c) Oifigeach Pleanála Teanga a bheidh ag obair sa limistéar arb ina leith a bhunófar an coiste réigiúnach.”.</p>
+          <p eId="para_1431"> Tá an leasú seo an-simplí. An sprioc atá againn ná a chinntiú go mbeadh oifigigh pleanála teanga áitiúil i measc na mball ar na coistí réigiúnacha atá luaite sa Bhille. Is é sin le rá go mbeadh na daoine atá fostaithe ag na comharchumainn agus atá faoi stiúir Údarás na Gaeltachta chun pleananna pobalbhunaithe teangeolaíochta agus pleananna teanga a chur i gcrích ar na coistí réigiúnacha chun an saineolas sin agus an taithí atá acu mar shaineolaithe pleanáil teanga a thabhairt chuig na coistí sin. Freisin, ar ndóigh, bheadh daoine atá ag plé go laethúil leis na dúshláin, na constaicí agus leis na féidearthachtaí agus na tosaíochtaí atá ag an bpobal i dtaobh an Ghaelainn a chur chun cinn ina gceantair éagsúla ag an mbord mar chuid de na comhráití agus mar chuid de na coistí réigiúnacha. Impím ar an Aire glacadh leis an moladh seo. Níl costas i gceist. Nílimid ach ag rá go mbeadh daoine eile le saineolas ag an mbord agus rudaí sna réigiúin á phlé. Ritheann sé le ciall. Mar a dúirt an tAire cheana féin cúpla babhta, tá sé oscailte dár moltaí agus don aiseolas atá ag teacht ó na ceantair Ghaeltachta. Tá sé seo ag teacht ón aiseolas ó na hoifigigh pleanála teanga, ó na comharchumainn áitiúla, ó na heagrais atá ag plé le cúrsaí teanga go laethúil, agus ar ndóigh ó na daoine atá ag déanamh ionadaíochta ar na ceantair Ghaeltachta ar an dtaobh seo den Teach. </p>
+        </speech>
+        <speech by="#DaraCalleary" eId="spk_342" as="#Minister_for_Rural_and_Community_Development_and_the_Gaeltacht">
+          <from>Deputy Dara Calleary<recordedTime time="2026-05-27T20:00:00+01:00"/></from>
+          <p eId="para_1432">Gabhaim buíochas leis an Teachta. Rachaidh na coistí réigiúnacha i gcomhairle le grúpa pleanála teanga sa limistéar faoi leith ina bhunófar an choiste chun comhairle a thabhairt don údarás agus chun cuidiú leis an údarás i gcomhlíonadh a aidhmeanna sa limistéar sin. Léiríonn sé seo an ról atá ag na coistí réigiúnacha ó thaobh na hionadaíochta de. Is fiú a rá chomh maith go bhfuil oifigeach pleanála teanga ar bhord reatha de chuid Údarás na Gealtachta agus iar-oifigeach pleanála teanga chomh maith. Mar a sheasann rudaí, ní cheapaim go bhfuil gá ar leith go mbeadh spás oscailte d’oifigigh pleanála teanga ar na coistí. Tá mé an-chinnte go mbeidh comhráití fiúntacha idir na coistí agus na grúpaí pleanála teanga. Dá bhrí sin ní féidir liom glacadh le leasú Uimh. 21. </p>
+        </speech>
+        <speech by="#ConorDMcGuinness" eId="spk_343">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T20:00:00+01:00"/></from>
+          <p eId="para_1433">Is cúis díomá é nach bhfuil an tAire sásta glacadh leis seo. Mar a dúirt mé, sílim go ritheann sé le ciall. Tá réasún ag baint leis an gceist áirithe seo. In an-chuid boird Stát agus an-chuid coistí deonacha agus coistí reachtúla, tuigimid má tá ceisteanna ag teacht aníos le linn cruinnithe coiste nó cruinnithe boird agus má tá coimhlint leasa ann nó faoi baol go mbeadh, gur féidir le daoine seasamh amach.</p>
+          <p eId="para_1434">Dá mba rud é go raibh rud éigin le plé ag na coistí réigiúnacha a bhaineann le tuarastal na n-oifigeach pleanála teanga, mar shampla, seans nach mbeadh gá dó a bheith istigh sa chruinniú áirithe sin. Táimid ag rá le dream atá ag obair go dlúth agus go crua chun an Ghaeilge a chur chun cinn, chun na Gaeltachtaí a choimeád slán agus chun dul i ngleic le bánú na Gaeltachta go bhfuil an doras oscailte agus b’fhéidir, trí sheans éigin, go mbeidh siad ar na coistí seo.</p>
+          <p eId="para_1435"> Aithníonn ár leasú gur cheart go mbeadh siad ann mar cheart agus mar chuid den troscán. Seo teist i ndáiríre maidir le má tá an tAire oscailte do na tuairimí seo agus má tá sé toilteanach glacadh le cuid den aiseolas agus cuid de na héilimh atá ag teacht ó na ceantair Ghaeltachta agus na hoifigigh phleanála teanga chun a chinntiú go bhfuil siad iniata sna comhráite atá ag dul ar aghaidh agus ar na coistí réigiúnacha seo.</p>
+        </speech>
+        <speech by="#DaraCalleary" eId="spk_344" as="#Minister_for_Rural_and_Community_Development_and_the_Gaeltacht">
+          <from>Deputy Dara Calleary<recordedTime time="2026-05-27T20:10:00+01:00"/></from>
+          <p eId="para_1436">Tuigim agus aontaím leis an Teachta go bhfuil na hoifigigh phleanála teanga ag déanamh sárjab sna ceantair ina bhfuil siad. Tá muinín agam freisin go mbeidh siad lánpháirteach sna struchtúir seo agus i gcoiste réigiúnach an údaráis agus go mbeidh siad in ann obair leis an gcoiste sin. Ní bheidh an coiste in ann obair cheart a dhéanamh gan obair na n-oifigeach pleanála teanga. Táim sásta nach gcaithfimid é a leagan amach sa dlí agus go n-oibríonn sé.</p>
+        </speech>
+        <speech by="#ConorDMcGuinness" eId="spk_345">
+          <from>Deputy Conor D. McGuinness<recordedTime time="2026-05-27T20:10:00+01:00"/></from>
+          <p eId="para_1437">Ní ghlacaim leis sin i slí amháin. Nóiméad amháin tá an tAire ag rá nach féidir leis na coistí réigiúnacha seo a gcuid gnó a dhéanamh i gceart gan ionchur ó na hoifigigh phleanála teanga, agus aontaím leis sin. An nóiméad eile, áfach, tá an tAire ag rá nach gá dúinn é sin a chur síos sa reachtaíocht. Sin an jab atá á dhéanamh againn faoi láthair. Seo an jab atá os ár gcomhair anois, chun an píosa reachtaíochta seo a chur i gcrích.</p>
+          <p eId="para_1438"> Táimid ar an taobh seo den Teach ag rá gur cheart go mbeadh cinnteacht ann go mbeadh an ról agus an spás sin do na hoifigigh phleanála teanga daingnithe sa reachtaíocht agus go mbeadh an chathaoir curtha amach dóibh chun a chinntiú go bhfuil siad ag an mbord agus go mbeidh an guth, an t-ionchur, an taithí agus an saineolas atá acu - rud nach bhfuil ag go leor daoine eile - ar na coistí sin. Tá sé an-simplí. Líne amháin téacs atá ann. Nílimid ag cur ceiste ar an Aire rud éigin tromchúiseach nó deacair a dhéanamh, ach táimid ag tabhairt an deis dó a thaispeáint agus a léiriú an méid a dúirt sé – go bhfuil sé sásta éisteacht agus glacadh lenár moltaí.</p>
+        </speech>
+        <speech by="#VeronaMurphy" eId="spk_346">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T20:10:00+01:00"/></from>
+          <p eId="para_1439">As the time permitted for the debate has expired, I am required to put the following question, in accordance with an order of the Dáil of 26 May: "That the amendments set down by the Minister for Rural and Community Development and the Gaeltacht and not disposed of are hereby made to the Bill; Fourth Stage is hereby completed; and the Bill is hereby passed."</p>
+        </speech>
+        <summary eId="sum_65"> Cuireadh agus aontaíodh an cheist.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_35">
+        <heading>Supplementary Estimates for Public Services 2026: Leave to Introduce<recordedTime time="2026-05-27T20:10:00+01:00"/></heading>
+        <speech by="#DaraCalleary" as="#Minister_for_Social_Protection" eId="spk_347">
+          <from>Minister for Social Protection (Deputy Dara Calleary)<recordedTime time="2026-05-27T20:10:00+01:00"/></from>
+          <p eId="para_1440">I move:</p>
+          <p class="indent_1" eId="para_1441">That leave be given by the Dáil to introduce the following Supplementary Estimates for the service of the year ending on the 31st day of December, 2026:</p>
+          <p eId="para_1442"> Vote 30— Agriculture, Food and the Marine (Supplementary Estimate).</p>
+          <p eId="para_1443"> Vote 31 — Transport (Supplementary Estimate).</p>
+        </speech>
+        <summary eId="sum_66"> Question put and agreed to.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_36">
+        <heading>Report of Committee on Standing Orders and Dáil Reform: Motion<recordedTime time="2026-05-27T20:10:00+01:00"/></heading>
+        <speech by="#MaryButler" as="#Minister_of_State_at_the_Department_of_the_Taoiseach" eId="spk_348">
+          <from>Minister of State at the Department of the Taoiseach (Deputy Mary Butler)<recordedTime time="2026-05-27T20:10:00+01:00"/></from>
+          <p eId="para_1444">I move:</p>
+          <p class="indent_1" eId="para_1445">That Dáil Éireann adopts the Report of the Committee on Standing Orders and Dáil Reform entitled "Rotas and arrangements for Leaders' Questions, Questions nominated for priority and Private Members' Time in respect of Dáil sittings from 9 to 11 June 2026", copies of which were laid before Dáil Éireann on 27th May, 2026.</p>
+        </speech>
+        <summary eId="sum_67"> Question put and agreed to.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_37">
+        <heading>Message from Select Committee<recordedTime time="2026-05-27T20:10:00+01:00"/></heading>
+        <speech by="#VeronaMurphy" eId="spk_349">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T20:10:00+01:00"/></from>
+          <p eId="para_1446">The Select Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach has completed its consideration of the Insurance (Disregard of Certain Medical History and Miscellaneous Provisions) Bill 2025 and has made amendments thereto.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="motion" eId="dbsect_38">
+        <heading>Cost of Disability: Motion (Resumed) [Private Members]<recordedTime time="2026-05-27T20:20:00+01:00"/></heading>
+        <summary eId="sum_68"> The following motion was moved by Deputy Louise O'Reilly on Tuesday, 26 May 2026:</summary>
+        <summary eId="sum_69">That Dáil Éireann:</summary>
+        <summary eId="sum_70">notes that there have been four major reviews and reports on the cost of disability, i.e., the additional costs to which disabilities give rise for individuals and their families, beginning with The Commission on the Status of Persons with Disabilities in 1996, the Indecon Report entitled "The Cost of Disability in Ireland" in 2021, the Government's failed Green Paper on the Cost of Disability in 2023, and the recent joint research project by the Economic and Social Research Institute (ESRI) and the Irish Human Rights and Equality Commission (IHREC) "Adjusting Estimates of Poverty for the Cost of Disability" in 2025;</summary>
+        <summary eId="sum_71">further notes that the Government launched yet another consultation on the matter in February of this year;</summary>
+        <summary eId="sum_72">recognises that households in which a member has a disability undergo significant additional costs, compared to households in which no member has a disability, with the ESRI/IHREC estimating a weekly cost of €488 - €555 on average;</summary>
+        <summary eId="sum_73">affirms that no one in the State should be worse off socially, politically, or economically, because of their disability;</summary>
+        <summary eId="sum_74">condemns the choice made by the Government in Budget 2026 to withdraw emergency supports from workers and families, including, in particular, the €1,400 worth of cost-of-living supports withdrawn from disabled people this year;</summary>
+        <summary eId="sum_75">recognises that workers and families, including and especially those with disabilities, cannot wait until next year and Budget 2027 for supports, and that on the basis of their Budget 2026 experience they cannot trust the Government to deliver what is needed; and</summary>
+        <summary eId="sum_76">calls on the Government to:</summary>
+        <summary eId="sum_77">— immediately introduce an Emergency Budget with supports for workers and families, including a €500 lump sum for people with disabilities; and</summary>
+        <summary eId="sum_78">— introduce, no later than Budget 2027, a new permanent cost of disability scheme, involving weekly payments for people with disabilities, whether they are in employment or not in employment, that recognises the additional costs to which their disabilities give rise.</summary>
+        <summary eId="sum_79"> Debate resumed on amendment No. 1:</summary>
+        <summary eId="sum_80">To delete all words after "Dáil Éireann" and substitute the following:</summary>
+        <summary eId="sum_81">"acknowledges that:</summary>
+        <summary eId="sum_82">— the State provides a broad range of income, education, health and other supports for disabled people, has increased investment in these supports and under the leadership of the Cabinet Committee of Disability Matters chaired by the Taoiseach, will continue to prioritise further improvements over the lifetime of this Government, including with respect to the introduction of a cost of disability payment;</summary>
+        <summary eId="sum_83">— Budget 2026 provided for a €1.15 billion package of new social protection measures, bringing expenditure in respect of disabled people and their carers to just under €6 billion per annum, this contained significant targeted measures to support disabled people and carers, including:</summary>
+        <summary eId="sum_84">— a €10, or 4.1 per cent increase in the weekly rates of disability payments, bringing personal rates to €254 per week from January, this represents an additional payment of €520 in 2026 and a €51 increase in weekly disability income support payments since Budget 2021;</summary>
+        <summary eId="sum_85">— the highest ever increase in the weekly Child Support Payment, an increase of €16 to €78 for children aged 12 or over (an additional €832 per child in 2026), and €8 to €58 for children aged under 12 (an additional €416 per child in 2026), these payments have increased by €48.20 and €28.20 per week respectively since 2017, approximately, 53,000 recipients of the Disability Allowance (DA), the Blind Pension and the Invalidity Pension are in receipt of a Child Support Payment;</summary>
+        <summary eId="sum_86">— a €5, or 15 per cent increase in the Fuel Allowance, bring it to €38 per week from January 2026, providing recipients with an additional €140 during the annual Fuel Allowance season;</summary>
+        <summary eId="sum_87">— a €20 per month increase in the monthly rate of Domiciliary Care Allowance, bringing it to €380 per month from January 2026, this represents an additional payment of €240 per year in 2026, and an increase of over €70 or 23 per cent since 2022;</summary>
+        <summary eId="sum_88">— an increase in the weekly Carer's Allowance income disregard to €1,000 for a single person (up from €625) and €2,000 for a couple (up from €1,250), while the weekly income limit for Carer's Benefit will rise by €375 to €1,000, all from July 2026;</summary>
+        <summary eId="sum_89">— the extension of fuel allowance eligibility to enable people on DA or the Blind Pension payments to retain their Fuel Allowance payment for five years if they take up employment;</summary>
+        <summary eId="sum_90">— the extension of eligibility for Back to Work Family Dividend payment to the DA or Blind Pension recipients when taking up employment;</summary>
+        <summary eId="sum_91">— expansion of eligibility for the Wage Subsidy Scheme (WSS) to people who acquire a disability while in employment, and to those who transfer from Invalidity Pension to Partial Capacity Benefit; and</summary>
+        <summary eId="sum_92">— increased payment rates under the WSS, to encourage employers to employ disabled people;</summary>
+        <summary eId="sum_93">— Budget 2026, also included an increased allocation of €3.88 billion for disability services funded through the Department of Children, Disability and Equality in 2026, providing €2.21 billion to deliver residential services for over 9,000 disabled people, enabling them to live as independently as possible in their local communities, including:</summary>
+        <summary eId="sum_94">— day and night respite care of over 10,000 extra nights and 15,000 further day sessions;</summary>
+        <summary eId="sum_95">— €10 million extra to support the transition of people under the age of 65 currently residing in nursing homes;</summary>
+        <summary eId="sum_96">— €3 million extra for the development and continued expansion of Community Neuro-Rehabilitation Teams;</summary>
+        <summary eId="sum_97">— €24.5 million providing approximately 1,400 new places for disabled students leaving school;</summary>
+        <summary eId="sum_98">— €5.5 million for 100,000 additional home support hours and 50,000 additional personal assistance hours;</summary>
+        <summary eId="sum_99">— €8 million for the recruitment of 150 additional staff for Children's Disability Network Teams;</summary>
+        <summary eId="sum_100">— €20 million extra for the Assessment of Need Targeted Waitlist Initiative, through the provision of up to 6,000 clinical assessments; and</summary>
+        <summary eId="sum_101">— €65 million for new developments in disability residential services, including €40 million that will provide in the region of 199 residential responses, including 152 newly created residential placements;</summary>
+        <summary eId="sum_102">— Budget 2026, also provided for further improvements for disabled people in education, including an allocation of €3 billion to special education, will provide:</summary>
+        <summary eId="sum_103">— an additional 860 teachers for special education;</summary>
+        <summary eId="sum_104">— up to a further 3,000 special class and special school places for the 2026/2027 school year; and</summary>
+        <summary eId="sum_105">— 1,717 additional Special Needs Assistants bringing the total number to almost 24,900;</summary>
+        <summary eId="sum_106">— in addition, Budget 2026 provided:</summary>
+        <summary eId="sum_107">— €130 million under the Housing Adaptation Grants for Older People and People with Disabilities;</summary>
+        <summary eId="sum_108">— a €25 million allocation to the Public Transport Accessibility Retrofit Programme, to deliver bus and train accessibility improvements to increase the numbers of wheelchair accessible small public service vehicles (taxis), and to expand the Independent Travel Support scheme;</summary>
+        <summary eId="sum_109">— approximately an allocation increase of €2 million to €13 million, to the Disabled Drivers and Disabled Passengers Scheme Fuel Grant;</summary>
+        <summary eId="sum_110">— investment of €69 million in the School Transport Scheme, which will benefit 26,700 students with disabilities; and</summary>
+        <summary eId="sum_111">— an increase of €3 million for the Fund for Students with Disabilities in further and higher education to €18.2 million, which supports over 24,500 students;</summary>
+        <summary eId="sum_112">notes that:</summary>
+        <summary eId="sum_113">— the €250 million energy relief package introduced in March included a four-week extension to the Fuel Allowance season, this directly benefits over 96,000 families where the recipient is in receipt of either the DA, the Blind Pension, or the Invalidity Pension;</summary>
+        <summary eId="sum_114">— under the Supplementary Welfare Allowance scheme, a special Heating Supplement may be paid to assist people in certain circumstances that have special heating needs, for example, in the case of ill health, infirmity or a medical condition; and</summary>
+        <summary eId="sum_115">— the Additional Needs Payment may also be made to help meet an essential, once-off cost which an applicant is unable to meet out of their own resources;</summary>
+        <summary eId="sum_116">further acknowledges that:</summary>
+        <summary eId="sum_117">— a dedicated Disability Unit has been established in the Department of the Taoiseach, to drive progress in enhancing supports for disabled people;</summary>
+        <summary eId="sum_118">— progress will be monitored by the Cabinet Committee on Children, Disability and Education chaired by the Taoiseach;</summary>
+        <summary eId="sum_119">— in addition to the measures already taken, the Government is determined to deliver on its Programme for Government commitment to introduce a permanent Annual Cost of Disability Support Payment;</summary>
+        <summary eId="sum_120">— this commitment was reiterated as a core objective of the National Human Rights Strategy for Disabled People 2025-2030, which the Government published in September 2025;</summary>
+        <summary eId="sum_121">— under this strategy, the Minister for Social Protection hosted a Cost of Disability Strategic Focus Network Summit (the Summit) on 13th May, 2026, this summit brought together over 300 people (in-person and on-line), including disabled people, representatives from Disabled Person's Organisations (DPOs), key stakeholder groups, Members of the Oireachtas and officials from a number of Government Departments; and</summary>
+        <summary eId="sum_122">— reflecting the requirement for a whole-of-Government approach to addressing costs of disability the Summit was addressed by the Taoiseach, the Tánaiste, the Minister for Children, Disability and Equality, and the Minister of State at the Department of Transport, and also attended by the Minister of State with responsibility for Disability at the Department of Children, Disability and Equality;</summary>
+        <summary eId="sum_123">— the approach to and content of the Summit was informed by:</summary>
+        <summary eId="sum_124">— responses to a public consultation to which over 1,100 submissions received;</summary>
+        <summary eId="sum_125">— direct input from DPOs who helped to develop the agenda, and played a key role at the event including, leading sessions; and</summary>
+        <summary eId="sum_126">— all relevant research, including the Indecon Report entitled 'The Cost of Disability in Ireland' in 2021, which was commissioned by the Department of Social Protection and represents the largest and most comprehensive analysis of the cost of disability;</summary>
+        <summary eId="sum_127">— the discussions at the Summit highlighted:</summary>
+        <summary eId="sum_128">— how the costs of disability are not uniform, but vary significantly depending on the type and nature of a person's disability, and their personal circumstances;</summary>
+        <summary eId="sum_129">— not all costs can be addressed through a cost of disability payment as many costs relate to services and require measures across other sectors, including health, education and transport; and</summary>
+        <summary eId="sum_130">— the preference by disabled people, for a basic universal payment made to all disabled people supplemented by additional amounts for disabled people facing the highest costs; and</summary>
+        <summary eId="sum_131">further notes that the Department of Social Protection will continue to engage with disabled people and their advocates, with respect to a cost of disability payment, including at the Department's Pre-Budget Forum on 1st July.".</summary>
+        <summary eId="sum_132">	(Minister for Social Protection)</summary>
+        <speech by="#VeronaMurphy" eId="spk_350">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T20:20:00+01:00"/></from>
+          <p eId="para_1447">I must now deal with a postponed division relating to the cost of living. On Tuesday, 26 May 2026, on the question, "That the amendment to the motion be agreed to", a division was claimed and in accordance with Standing Order 85(2), that division must be taken now.</p>
+        </speech>
+        <debateSection name="division" eId="dbsect_39">
+          <summary eId="sum_133">Amendment put: </summary>
+          <summary title="division" eId="sum_134">The Dáil divided: Tá, <quantity refersTo="#ta" normalized="78" eId="qty_10">78</quantity>; Níl, <quantity refersTo="#nil" normalized="64" eId="qty_11">64</quantity>; Staon, <quantity refersTo="#staon" normalized="0" eId="qty_12">0</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_40">
+            <p eId="para_1448">Tá</p>
+            <p eId="para_1449">
+              <person refersTo="#WilliamAird">Aird, William.</person>
+            </p>
+            <p eId="para_1450">
+              <person refersTo="#CatherineArdagh">Ardagh, Catherine.</person>
+            </p>
+            <p eId="para_1451">
+              <person refersTo="#GraceBoland">Boland, Grace.</person>
+            </p>
+            <p eId="para_1452">
+              <person refersTo="#TomBrabazon">Brabazon, Tom.</person>
+            </p>
+            <p eId="para_1453">
+              <person refersTo="#BrianBrennan">Brennan, Brian.</person>
+            </p>
+            <p eId="para_1454">
+              <person refersTo="#ShayBrennan">Brennan, Shay.</person>
+            </p>
+            <p eId="para_1455">
+              <person refersTo="#ColmBrophy">Brophy, Colm.</person>
+            </p>
+            <p eId="para_1456">
+              <person refersTo="#JamesBrowne">Browne, James.</person>
+            </p>
+            <p eId="para_1457">
+              <person refersTo="#ColmBurke">Burke, Colm.</person>
+            </p>
+            <p eId="para_1458">
+              <person refersTo="#MaryButler">Butler, Mary.</person>
+            </p>
+            <p eId="para_1459">
+              <person refersTo="#JerryButtimer">Buttimer, Jerry.</person>
+            </p>
+            <p eId="para_1460">
+              <person refersTo="#MalcolmByrne">Byrne, Malcolm.</person>
+            </p>
+            <p eId="para_1461">
+              <person refersTo="#MichaelCahill">Cahill, Michael.</person>
+            </p>
+            <p eId="para_1462">
+              <person refersTo="#CatherineCallaghan">Callaghan, Catherine.</person>
+            </p>
+            <p eId="para_1463">
+              <person refersTo="#DaraCalleary">Calleary, Dara.</person>
+            </p>
+            <p eId="para_1464">
+              <person refersTo="#SeanCanney">Canney, Seán.</person>
+            </p>
+            <p eId="para_1465">
+              <person refersTo="#MichealCarrigy">Carrigy, Micheál.</person>
+            </p>
+            <p eId="para_1466">
+              <person refersTo="#JenniferCarrollMacNeill">Carroll MacNeill, Jennifer.</person>
+            </p>
+            <p eId="para_1467">
+              <person refersTo="#PeterChapCleere">Cleere, Peter 'Chap'.</person>
+            </p>
+            <p eId="para_1468">
+              <person refersTo="#JohnClendennen">Clendennen, John.</person>
+            </p>
+            <p eId="para_1469">
+              <person refersTo="#JohnConnolly">Connolly, John.</person>
+            </p>
+            <p eId="para_1470">
+              <person refersTo="#JoeCooney">Cooney, Joe.</person>
+            </p>
+            <p eId="para_1471">
+              <person refersTo="#CathalCrowe">Crowe, Cathal.</person>
+            </p>
+            <p eId="para_1472">
+              <person refersTo="#JohnCummins">Cummins, John.</person>
+            </p>
+            <p eId="para_1473">
+              <person refersTo="#EmerCurrie">Currie, Emer.</person>
+            </p>
+            <p eId="para_1474">
+              <person refersTo="#MartinDaly">Daly, Martin.</person>
+            </p>
+            <p eId="para_1475">
+              <person refersTo="#AislingDempsey">Dempsey, Aisling.</person>
+            </p>
+            <p eId="para_1476">
+              <person refersTo="#CormacDevlin">Devlin, Cormac.</person>
+            </p>
+            <p eId="para_1477">
+              <person refersTo="#AlanDillon">Dillon, Alan.</person>
+            </p>
+            <p eId="para_1478">
+              <person refersTo="#AlbertDolan">Dolan, Albert.</person>
+            </p>
+            <p eId="para_1479">
+              <person refersTo="#TimDooley">Dooley, Timmy.</person>
+            </p>
+            <p eId="para_1480">
+              <person refersTo="#FrankFeighan">Feighan, Frankie.</person>
+            </p>
+            <p eId="para_1481">
+              <person refersTo="#SeanFleming">Fleming, Sean.</person>
+            </p>
+            <p eId="para_1482">
+              <person refersTo="#NormaFoley">Foley, Norma.</person>
+            </p>
+            <p eId="para_1483">
+              <person refersTo="#JamesGeogheganFG">Geoghegan, James.</person>
+            </p>
+            <p eId="para_1484">
+              <person refersTo="#NoelGrealishPD">Grealish, Noel.</person>
+            </p>
+            <p eId="para_1485">
+              <person refersTo="#MarianHarkinIND">Harkin, Marian.</person>
+            </p>
+            <p eId="para_1486">
+              <person refersTo="#MartinHeydon">Heydon, Martin.</person>
+            </p>
+            <p eId="para_1487">
+              <person refersTo="#EmerHiggins">Higgins, Emer.</person>
+            </p>
+            <p eId="para_1488">
+              <person refersTo="#KeiraKeogh">Keogh, Keira.</person>
+            </p>
+            <p eId="para_1489">
+              <person refersTo="#SeanKyne">Kyne, Seán.</person>
+            </p>
+            <p eId="para_1490">
+              <person refersTo="#JohnLahart">Lahart, John.</person>
+            </p>
+            <p eId="para_1491">
+              <person refersTo="#JamesLawless">Lawless, James.</person>
+            </p>
+            <p eId="para_1492">
+              <person refersTo="#MichaelLowry">Lowry, Michael.</person>
+            </p>
+            <p eId="para_1493">
+              <person refersTo="#DavidMaxwell">Maxwell, David.</person>
+            </p>
+            <p eId="para_1494">
+              <person refersTo="#PaulMcAuliffe">McAuliffe, Paul.</person>
+            </p>
+            <p eId="para_1495">
+              <person refersTo="#NoelMcCarthy">McCarthy, Noel.</person>
+            </p>
+            <p eId="para_1496">
+              <person refersTo="#CharlieMcConalogue">McConalogue, Charlie.</person>
+            </p>
+            <p eId="para_1497">
+              <person refersTo="#TonyMcCormack">McCormack, Tony.</person>
+            </p>
+            <p eId="para_1498">
+              <person refersTo="#SeamusMcGrath">McGrath, Séamus.</person>
+            </p>
+            <p eId="para_1499">
+              <person refersTo="#ErinMcGreehan">McGreehan, Erin.</person>
+            </p>
+            <p eId="para_1500">
+              <person refersTo="#KevinBoxerMoran">Moran, Kevin Boxer.</person>
+            </p>
+            <p eId="para_1501">
+              <person refersTo="#AindriasMoynihan">Moynihan, Aindrias.</person>
+            </p>
+            <p eId="para_1502">
+              <person refersTo="#MichaelMoynihan">Moynihan, Michael.</person>
+            </p>
+            <p eId="para_1503">
+              <person refersTo="#ShaneMoynihan">Moynihan, Shane.</person>
+            </p>
+            <p eId="para_1504">
+              <person refersTo="#JenniferMurnaneOConnor">Murnane O'Connor, Jennifer.</person>
+            </p>
+            <p eId="para_1505">
+              <person refersTo="#MichaelMurphy">Murphy, Michael.</person>
+            </p>
+            <p eId="para_1506">
+              <person refersTo="#HildegardeNaughton">Naughton, Hildegarde.</person>
+            </p>
+            <p eId="para_1507">
+              <person refersTo="#JoeNeville">Neville, Joe.</person>
+            </p>
+            <p eId="para_1508">
+              <person refersTo="#DarraghOBrien">O'Brien, Darragh.</person>
+            </p>
+            <p eId="para_1509">
+              <person refersTo="#JimOCallaghan">O'Callaghan, Jim.</person>
+            </p>
+            <p eId="para_1510">
+              <person refersTo="#JamesOConnor">O'Connor, James.</person>
+            </p>
+            <p eId="para_1511">
+              <person refersTo="#KieranODonnell">O'Donnell, Kieran.</person>
+            </p>
+            <p eId="para_1512">
+              <person refersTo="#PatrickODonovan">O'Donovan, Patrick.</person>
+            </p>
+            <p eId="para_1513">
+              <person refersTo="#RyanOMeara">O'Meara, Ryan.</person>
+            </p>
+            <p eId="para_1514">
+              <person refersTo="#JohnPaulOShea">O'Shea, John Paul.</person>
+            </p>
+            <p eId="para_1515">
+              <person refersTo="#ChristopherOsullivan">O'Sullivan, Christopher.</person>
+            </p>
+            <p eId="para_1516">
+              <person refersTo="#PadraigOSullivan">O'Sullivan, Pádraig.</person>
+            </p>
+            <p eId="para_1517">
+              <person refersTo="#NaoiseOCearuil">Ó Cearúil, Naoise.</person>
+            </p>
+            <p eId="para_1518">
+              <person refersTo="#SeanOFearghaillFF">Ó Fearghaíl, Seán.</person>
+            </p>
+            <p eId="para_1519">
+              <person refersTo="#NaoiseOMuiri">Ó Muirí, Naoise.</person>
+            </p>
+            <p eId="para_1520">
+              <person refersTo="#PeterRoche">Roche, Peter.</person>
+            </p>
+            <p eId="para_1521">
+              <person refersTo="#BrendanSmith">Smith, Brendan.</person>
+            </p>
+            <p eId="para_1522">
+              <person refersTo="#NiamhSmyth">Smyth, Niamh.</person>
+            </p>
+            <p eId="para_1523">
+              <person refersTo="#EdwardTimmins">Timmins, Edward.</person>
+            </p>
+            <p eId="para_1524">
+              <person refersTo="#GillianToole">Toole, Gillian.</person>
+            </p>
+            <p eId="para_1525">
+              <person refersTo="#RobertTroy">Troy, Robert.</person>
+            </p>
+            <p eId="para_1526">
+              <person refersTo="#BarryWard">Ward, Barry.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_41">
+            <p eId="para_1527">Níl</p>
+            <p eId="para_1528">
+              <person refersTo="#IvanaBacik">Bacik, Ivana.</person>
+            </p>
+            <p eId="para_1529">
+              <person refersTo="#CathyBennett">Bennett, Cathy.</person>
+            </p>
+            <p eId="para_1530">
+              <person refersTo="#RichardBoydBarrett">Boyd Barrett, Richard.</person>
+            </p>
+            <p eId="para_1531">
+              <person refersTo="#JohnBrady">Brady, John.</person>
+            </p>
+            <p eId="para_1532">
+              <person refersTo="#PatBuckley">Buckley, Pat.</person>
+            </p>
+            <p eId="para_1533">
+              <person refersTo="#JoannaByrne">Byrne, Joanna.</person>
+            </p>
+            <p eId="para_1534">
+              <person refersTo="#SorcaClarke">Clarke, Sorca.</person>
+            </p>
+            <p eId="para_1535">
+              <person refersTo="#RoseConwayWalsh">Conway-Walsh, Rose.</person>
+            </p>
+            <p eId="para_1536">
+              <person refersTo="#RuthCoppinger">Coppinger, Ruth.</person>
+            </p>
+            <p eId="para_1537">
+              <person refersTo="#ReadaCronin">Cronin, Réada.</person>
+            </p>
+            <p eId="para_1538">
+              <person refersTo="#SeanCroweSF">Crowe, Seán.</person>
+            </p>
+            <p eId="para_1539">
+              <person refersTo="#DavidCullinane">Cullinane, David.</person>
+            </p>
+            <p eId="para_1540">
+              <person refersTo="#JenCummins">Cummins, Jen.</person>
+            </p>
+            <p eId="para_1541">
+              <person refersTo="#PaDaly">Daly, Pa.</person>
+            </p>
+            <p eId="para_1542">
+              <person refersTo="#MaireDevine">Devine, Máire.</person>
+            </p>
+            <p eId="para_1543">
+              <person refersTo="#PearseDoherty">Doherty, Pearse.</person>
+            </p>
+            <p eId="para_1544">
+              <person refersTo="#PaulDonnelly">Donnelly, Paul.</person>
+            </p>
+            <p eId="para_1545">
+              <person refersTo="#DessieEllis">Ellis, Dessie.</person>
+            </p>
+            <p eId="para_1546">
+              <person refersTo="#DanielEnnis">Ennis, Daniel.</person>
+            </p>
+            <p eId="para_1547">
+              <person refersTo="#AidanFarrelly">Farrelly, Aidan.</person>
+            </p>
+            <p eId="para_1548">
+              <person refersTo="#MaireadFarrell">Farrell, Mairéad.</person>
+            </p>
+            <p eId="para_1549">
+              <person refersTo="#GaryGannon">Gannon, Gary.</person>
+            </p>
+            <p eId="para_1550">
+              <person refersTo="#SineadGibney">Gibney, Sinéad.</person>
+            </p>
+            <p eId="para_1551">
+              <person refersTo="#PaulNicholasGogartyGP">Gogarty, Paul Nicholas.</person>
+            </p>
+            <p eId="para_1552">
+              <person refersTo="#JohnnyGuirke">Guirke, Johnny.</person>
+            </p>
+            <p eId="para_1553">
+              <person refersTo="#EoinHayes">Hayes, Eoin.</person>
+            </p>
+            <p eId="para_1554">
+              <person refersTo="#RoryHearne">Hearne, Rory.</person>
+            </p>
+            <p eId="para_1555">
+              <person refersTo="#EoghanKenny">Kenny, Eoghan.</person>
+            </p>
+            <p eId="para_1556">
+              <person refersTo="#MartinKenny">Kenny, Martin.</person>
+            </p>
+            <p eId="para_1557">
+              <person refersTo="#ClaireKerrane">Kerrane, Claire.</person>
+            </p>
+            <p eId="para_1558">
+              <person refersTo="#PaulLawless">Lawless, Paul.</person>
+            </p>
+            <p eId="para_1559">
+              <person refersTo="#GeorgeLawlor">Lawlor, George.</person>
+            </p>
+            <p eId="para_1560">
+              <person refersTo="#PadraigMacLochlainn">Mac Lochlainn, Pádraig.</person>
+            </p>
+            <p eId="para_1561">
+              <person refersTo="#DonnaMcGettigan">McGettigan, Donna.</person>
+            </p>
+            <p eId="para_1562">
+              <person refersTo="#ConorDMcGuinness">McGuinness, Conor D.</person>
+            </p>
+            <p eId="para_1563">
+              <person refersTo="#DeniseMitchell">Mitchell, Denise.</person>
+            </p>
+            <p eId="para_1564">
+              <person refersTo="#PaulMurphy">Murphy, Paul.</person>
+            </p>
+            <p eId="para_1565">
+              <person refersTo="#JohnnyMythen">Mythen, Johnny.</person>
+            </p>
+            <p eId="para_1566">
+              <person refersTo="#GeraldNash">Nash, Ged.</person>
+            </p>
+            <p eId="para_1567">
+              <person refersTo="#NatashaNewsomeDrennan">Newsome Drennan, Natasha.</person>
+            </p>
+            <p eId="para_1568">
+              <person refersTo="#ShonaghNiRaghallaigh">Ní Raghallaigh, Shónagh.</person>
+            </p>
+            <p eId="para_1569">
+              <person refersTo="#CarolNolan">Nolan, Carol.</person>
+            </p>
+            <p eId="para_1570">
+              <person refersTo="#CianOCallaghan">O'Callaghan, Cian.</person>
+            </p>
+            <p eId="para_1571">
+              <person refersTo="#RichardODonoghue">O'Donoghue, Richard.</person>
+            </p>
+            <p eId="para_1572">
+              <person refersTo="#RobertODonoghue">O'Donoghue, Robert.</person>
+            </p>
+            <p eId="para_1573">
+              <person refersTo="#KenOFlynn">O'Flynn, Ken.</person>
+            </p>
+            <p eId="para_1574">
+              <person refersTo="#RodericOGorman">O'Gorman, Roderic.</person>
+            </p>
+            <p eId="para_1575">
+              <person refersTo="#LouisOHara">O'Hara, Louis.</person>
+            </p>
+            <p eId="para_1576">
+              <person refersTo="#LouiseOReilly">O'Reilly, Louise.</person>
+            </p>
+            <p eId="para_1577">
+              <person refersTo="#DarrenORourke">O'Rourke, Darren.</person>
+            </p>
+            <p eId="para_1578">
+              <person refersTo="#EoinOBroin">Ó Broin, Eoin.</person>
+            </p>
+            <p eId="para_1579">
+              <person refersTo="#DonnchadhOLaoghaire">Ó Laoghaire, Donnchadh.</person>
+            </p>
+            <p eId="para_1580">
+              <person refersTo="#RuairiOmurchu">Ó Murchú, Ruairí.</person>
+            </p>
+            <p eId="para_1581">
+              <person refersTo="#FionntanOSuilleabhain">Ó Súilleabháin, Fionntán.</person>
+            </p>
+            <p eId="para_1582">
+              <person refersTo="#LiamQuaide">Quaide, Liam.</person>
+            </p>
+            <p eId="para_1583">
+              <person refersTo="#MauriceQuinlivan">Quinlivan, Maurice.</person>
+            </p>
+            <p eId="para_1584">
+              <person refersTo="#PadraigRice">Rice, Pádraig.</person>
+            </p>
+            <p eId="para_1585">
+              <person refersTo="#ConorSheehan">Sheehan, Conor.</person>
+            </p>
+            <p eId="para_1586">
+              <person refersTo="#MarieSherlock">Sherlock, Marie.</person>
+            </p>
+            <p eId="para_1587">
+              <person refersTo="#DuncanSmith">Smith, Duncan.</person>
+            </p>
+            <p eId="para_1588">
+              <person refersTo="#BrianStanley">Stanley, Brian.</person>
+            </p>
+            <p eId="para_1589">
+              <person refersTo="#MarkWall">Wall, Mark.</person>
+            </p>
+            <p eId="para_1590">
+              <person refersTo="#MarkWard">Ward, Mark.</person>
+            </p>
+            <p eId="para_1591">
+              <person refersTo="#JenniferWhitmore">Whitmore, Jennifer.</person>
+            </p>
+          </debateSection>
+          <debateSection name="staon" eId="dbsect_42">
+            <p eId="para_1592">Staon</p>
+            <p eId="para_1593">
+              <person refersTo="#"/>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_135">Tellers: Tá, Deputies Mary Butler and Emer Currie; Níl, Deputies Pádraig Mac Lochlainn and Denise Mitchell.</summary>
+          <summary title="decision" refersTo="#carried" eId="sum_136">Amendment declared carried.</summary>
+        </debateSection>
+        <debateSection name="division" eId="dbsect_43">
+          <summary eId="sum_137">Question put: "That the motion, as amended, be agreed to."</summary>
+          <summary title="division" eId="sum_138">The Dáil divided: Tá, <quantity refersTo="#ta" normalized="78" eId="qty_13">78</quantity>; Níl, <quantity refersTo="#nil" normalized="64" eId="qty_14">64</quantity>; Staon, <quantity refersTo="#staon" normalized="0" eId="qty_15">0</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_44">
+            <p eId="para_1594">Tá</p>
+            <p eId="para_1595">
+              <person refersTo="#WilliamAird">Aird, William.</person>
+            </p>
+            <p eId="para_1596">
+              <person refersTo="#CatherineArdagh">Ardagh, Catherine.</person>
+            </p>
+            <p eId="para_1597">
+              <person refersTo="#GraceBoland">Boland, Grace.</person>
+            </p>
+            <p eId="para_1598">
+              <person refersTo="#TomBrabazon">Brabazon, Tom.</person>
+            </p>
+            <p eId="para_1599">
+              <person refersTo="#BrianBrennan">Brennan, Brian.</person>
+            </p>
+            <p eId="para_1600">
+              <person refersTo="#ShayBrennan">Brennan, Shay.</person>
+            </p>
+            <p eId="para_1601">
+              <person refersTo="#ColmBrophy">Brophy, Colm.</person>
+            </p>
+            <p eId="para_1602">
+              <person refersTo="#JamesBrowne">Browne, James.</person>
+            </p>
+            <p eId="para_1603">
+              <person refersTo="#ColmBurke">Burke, Colm.</person>
+            </p>
+            <p eId="para_1604">
+              <person refersTo="#MaryButler">Butler, Mary.</person>
+            </p>
+            <p eId="para_1605">
+              <person refersTo="#JerryButtimer">Buttimer, Jerry.</person>
+            </p>
+            <p eId="para_1606">
+              <person refersTo="#MalcolmByrne">Byrne, Malcolm.</person>
+            </p>
+            <p eId="para_1607">
+              <person refersTo="#MichaelCahill">Cahill, Michael.</person>
+            </p>
+            <p eId="para_1608">
+              <person refersTo="#CatherineCallaghan">Callaghan, Catherine.</person>
+            </p>
+            <p eId="para_1609">
+              <person refersTo="#DaraCalleary">Calleary, Dara.</person>
+            </p>
+            <p eId="para_1610">
+              <person refersTo="#SeanCanney">Canney, Seán.</person>
+            </p>
+            <p eId="para_1611">
+              <person refersTo="#MichealCarrigy">Carrigy, Micheál.</person>
+            </p>
+            <p eId="para_1612">
+              <person refersTo="#JenniferCarrollMacNeill">Carroll MacNeill, Jennifer.</person>
+            </p>
+            <p eId="para_1613">
+              <person refersTo="#PeterChapCleere">Cleere, Peter 'Chap'.</person>
+            </p>
+            <p eId="para_1614">
+              <person refersTo="#JohnClendennen">Clendennen, John.</person>
+            </p>
+            <p eId="para_1615">
+              <person refersTo="#JohnConnolly">Connolly, John.</person>
+            </p>
+            <p eId="para_1616">
+              <person refersTo="#JoeCooney">Cooney, Joe.</person>
+            </p>
+            <p eId="para_1617">
+              <person refersTo="#CathalCrowe">Crowe, Cathal.</person>
+            </p>
+            <p eId="para_1618">
+              <person refersTo="#JohnCummins">Cummins, John.</person>
+            </p>
+            <p eId="para_1619">
+              <person refersTo="#EmerCurrie">Currie, Emer.</person>
+            </p>
+            <p eId="para_1620">
+              <person refersTo="#MartinDaly">Daly, Martin.</person>
+            </p>
+            <p eId="para_1621">
+              <person refersTo="#AislingDempsey">Dempsey, Aisling.</person>
+            </p>
+            <p eId="para_1622">
+              <person refersTo="#CormacDevlin">Devlin, Cormac.</person>
+            </p>
+            <p eId="para_1623">
+              <person refersTo="#AlanDillon">Dillon, Alan.</person>
+            </p>
+            <p eId="para_1624">
+              <person refersTo="#AlbertDolan">Dolan, Albert.</person>
+            </p>
+            <p eId="para_1625">
+              <person refersTo="#TimDooley">Dooley, Timmy.</person>
+            </p>
+            <p eId="para_1626">
+              <person refersTo="#FrankFeighan">Feighan, Frankie.</person>
+            </p>
+            <p eId="para_1627">
+              <person refersTo="#SeanFleming">Fleming, Sean.</person>
+            </p>
+            <p eId="para_1628">
+              <person refersTo="#NormaFoley">Foley, Norma.</person>
+            </p>
+            <p eId="para_1629">
+              <person refersTo="#JamesGeogheganFG">Geoghegan, James.</person>
+            </p>
+            <p eId="para_1630">
+              <person refersTo="#NoelGrealishPD">Grealish, Noel.</person>
+            </p>
+            <p eId="para_1631">
+              <person refersTo="#MarianHarkinIND">Harkin, Marian.</person>
+            </p>
+            <p eId="para_1632">
+              <person refersTo="#MartinHeydon">Heydon, Martin.</person>
+            </p>
+            <p eId="para_1633">
+              <person refersTo="#EmerHiggins">Higgins, Emer.</person>
+            </p>
+            <p eId="para_1634">
+              <person refersTo="#KeiraKeogh">Keogh, Keira.</person>
+            </p>
+            <p eId="para_1635">
+              <person refersTo="#SeanKyne">Kyne, Seán.</person>
+            </p>
+            <p eId="para_1636">
+              <person refersTo="#JohnLahart">Lahart, John.</person>
+            </p>
+            <p eId="para_1637">
+              <person refersTo="#JamesLawless">Lawless, James.</person>
+            </p>
+            <p eId="para_1638">
+              <person refersTo="#MichaelLowry">Lowry, Michael.</person>
+            </p>
+            <p eId="para_1639">
+              <person refersTo="#DavidMaxwell">Maxwell, David.</person>
+            </p>
+            <p eId="para_1640">
+              <person refersTo="#PaulMcAuliffe">McAuliffe, Paul.</person>
+            </p>
+            <p eId="para_1641">
+              <person refersTo="#NoelMcCarthy">McCarthy, Noel.</person>
+            </p>
+            <p eId="para_1642">
+              <person refersTo="#CharlieMcConalogue">McConalogue, Charlie.</person>
+            </p>
+            <p eId="para_1643">
+              <person refersTo="#TonyMcCormack">McCormack, Tony.</person>
+            </p>
+            <p eId="para_1644">
+              <person refersTo="#SeamusMcGrath">McGrath, Séamus.</person>
+            </p>
+            <p eId="para_1645">
+              <person refersTo="#ErinMcGreehan">McGreehan, Erin.</person>
+            </p>
+            <p eId="para_1646">
+              <person refersTo="#KevinBoxerMoran">Moran, Kevin Boxer.</person>
+            </p>
+            <p eId="para_1647">
+              <person refersTo="#AindriasMoynihan">Moynihan, Aindrias.</person>
+            </p>
+            <p eId="para_1648">
+              <person refersTo="#MichaelMoynihan">Moynihan, Michael.</person>
+            </p>
+            <p eId="para_1649">
+              <person refersTo="#ShaneMoynihan">Moynihan, Shane.</person>
+            </p>
+            <p eId="para_1650">
+              <person refersTo="#JenniferMurnaneOConnor">Murnane O'Connor, Jennifer.</person>
+            </p>
+            <p eId="para_1651">
+              <person refersTo="#MichaelMurphy">Murphy, Michael.</person>
+            </p>
+            <p eId="para_1652">
+              <person refersTo="#HildegardeNaughton">Naughton, Hildegarde.</person>
+            </p>
+            <p eId="para_1653">
+              <person refersTo="#JoeNeville">Neville, Joe.</person>
+            </p>
+            <p eId="para_1654">
+              <person refersTo="#DarraghOBrien">O'Brien, Darragh.</person>
+            </p>
+            <p eId="para_1655">
+              <person refersTo="#JimOCallaghan">O'Callaghan, Jim.</person>
+            </p>
+            <p eId="para_1656">
+              <person refersTo="#JamesOConnor">O'Connor, James.</person>
+            </p>
+            <p eId="para_1657">
+              <person refersTo="#KieranODonnell">O'Donnell, Kieran.</person>
+            </p>
+            <p eId="para_1658">
+              <person refersTo="#PatrickODonovan">O'Donovan, Patrick.</person>
+            </p>
+            <p eId="para_1659">
+              <person refersTo="#RyanOMeara">O'Meara, Ryan.</person>
+            </p>
+            <p eId="para_1660">
+              <person refersTo="#JohnPaulOShea">O'Shea, John Paul.</person>
+            </p>
+            <p eId="para_1661">
+              <person refersTo="#ChristopherOsullivan">O'Sullivan, Christopher.</person>
+            </p>
+            <p eId="para_1662">
+              <person refersTo="#PadraigOSullivan">O'Sullivan, Pádraig.</person>
+            </p>
+            <p eId="para_1663">
+              <person refersTo="#NaoiseOCearuil">Ó Cearúil, Naoise.</person>
+            </p>
+            <p eId="para_1664">
+              <person refersTo="#SeanOFearghaillFF">Ó Fearghaíl, Seán.</person>
+            </p>
+            <p eId="para_1665">
+              <person refersTo="#NaoiseOMuiri">Ó Muirí, Naoise.</person>
+            </p>
+            <p eId="para_1666">
+              <person refersTo="#PeterRoche">Roche, Peter.</person>
+            </p>
+            <p eId="para_1667">
+              <person refersTo="#BrendanSmith">Smith, Brendan.</person>
+            </p>
+            <p eId="para_1668">
+              <person refersTo="#NiamhSmyth">Smyth, Niamh.</person>
+            </p>
+            <p eId="para_1669">
+              <person refersTo="#EdwardTimmins">Timmins, Edward.</person>
+            </p>
+            <p eId="para_1670">
+              <person refersTo="#GillianToole">Toole, Gillian.</person>
+            </p>
+            <p eId="para_1671">
+              <person refersTo="#RobertTroy">Troy, Robert.</person>
+            </p>
+            <p eId="para_1672">
+              <person refersTo="#BarryWard">Ward, Barry.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_45">
+            <p eId="para_1673">Níl</p>
+            <p eId="para_1674">
+              <person refersTo="#IvanaBacik">Bacik, Ivana.</person>
+            </p>
+            <p eId="para_1675">
+              <person refersTo="#CathyBennett">Bennett, Cathy.</person>
+            </p>
+            <p eId="para_1676">
+              <person refersTo="#RichardBoydBarrett">Boyd Barrett, Richard.</person>
+            </p>
+            <p eId="para_1677">
+              <person refersTo="#JohnBrady">Brady, John.</person>
+            </p>
+            <p eId="para_1678">
+              <person refersTo="#PatBuckley">Buckley, Pat.</person>
+            </p>
+            <p eId="para_1679">
+              <person refersTo="#JoannaByrne">Byrne, Joanna.</person>
+            </p>
+            <p eId="para_1680">
+              <person refersTo="#SorcaClarke">Clarke, Sorca.</person>
+            </p>
+            <p eId="para_1681">
+              <person refersTo="#RoseConwayWalsh">Conway-Walsh, Rose.</person>
+            </p>
+            <p eId="para_1682">
+              <person refersTo="#RuthCoppinger">Coppinger, Ruth.</person>
+            </p>
+            <p eId="para_1683">
+              <person refersTo="#ReadaCronin">Cronin, Réada.</person>
+            </p>
+            <p eId="para_1684">
+              <person refersTo="#SeanCroweSF">Crowe, Seán.</person>
+            </p>
+            <p eId="para_1685">
+              <person refersTo="#DavidCullinane">Cullinane, David.</person>
+            </p>
+            <p eId="para_1686">
+              <person refersTo="#JenCummins">Cummins, Jen.</person>
+            </p>
+            <p eId="para_1687">
+              <person refersTo="#PaDaly">Daly, Pa.</person>
+            </p>
+            <p eId="para_1688">
+              <person refersTo="#MaireDevine">Devine, Máire.</person>
+            </p>
+            <p eId="para_1689">
+              <person refersTo="#PearseDoherty">Doherty, Pearse.</person>
+            </p>
+            <p eId="para_1690">
+              <person refersTo="#PaulDonnelly">Donnelly, Paul.</person>
+            </p>
+            <p eId="para_1691">
+              <person refersTo="#DessieEllis">Ellis, Dessie.</person>
+            </p>
+            <p eId="para_1692">
+              <person refersTo="#DanielEnnis">Ennis, Daniel.</person>
+            </p>
+            <p eId="para_1693">
+              <person refersTo="#AidanFarrelly">Farrelly, Aidan.</person>
+            </p>
+            <p eId="para_1694">
+              <person refersTo="#MaireadFarrell">Farrell, Mairéad.</person>
+            </p>
+            <p eId="para_1695">
+              <person refersTo="#GaryGannon">Gannon, Gary.</person>
+            </p>
+            <p eId="para_1696">
+              <person refersTo="#SineadGibney">Gibney, Sinéad.</person>
+            </p>
+            <p eId="para_1697">
+              <person refersTo="#PaulNicholasGogartyGP">Gogarty, Paul Nicholas.</person>
+            </p>
+            <p eId="para_1698">
+              <person refersTo="#JohnnyGuirke">Guirke, Johnny.</person>
+            </p>
+            <p eId="para_1699">
+              <person refersTo="#EoinHayes">Hayes, Eoin.</person>
+            </p>
+            <p eId="para_1700">
+              <person refersTo="#RoryHearne">Hearne, Rory.</person>
+            </p>
+            <p eId="para_1701">
+              <person refersTo="#EoghanKenny">Kenny, Eoghan.</person>
+            </p>
+            <p eId="para_1702">
+              <person refersTo="#MartinKenny">Kenny, Martin.</person>
+            </p>
+            <p eId="para_1703">
+              <person refersTo="#ClaireKerrane">Kerrane, Claire.</person>
+            </p>
+            <p eId="para_1704">
+              <person refersTo="#PaulLawless">Lawless, Paul.</person>
+            </p>
+            <p eId="para_1705">
+              <person refersTo="#GeorgeLawlor">Lawlor, George.</person>
+            </p>
+            <p eId="para_1706">
+              <person refersTo="#PadraigMacLochlainn">Mac Lochlainn, Pádraig.</person>
+            </p>
+            <p eId="para_1707">
+              <person refersTo="#DonnaMcGettigan">McGettigan, Donna.</person>
+            </p>
+            <p eId="para_1708">
+              <person refersTo="#ConorDMcGuinness">McGuinness, Conor D.</person>
+            </p>
+            <p eId="para_1709">
+              <person refersTo="#DeniseMitchell">Mitchell, Denise.</person>
+            </p>
+            <p eId="para_1710">
+              <person refersTo="#PaulMurphy">Murphy, Paul.</person>
+            </p>
+            <p eId="para_1711">
+              <person refersTo="#JohnnyMythen">Mythen, Johnny.</person>
+            </p>
+            <p eId="para_1712">
+              <person refersTo="#GeraldNash">Nash, Ged.</person>
+            </p>
+            <p eId="para_1713">
+              <person refersTo="#NatashaNewsomeDrennan">Newsome Drennan, Natasha.</person>
+            </p>
+            <p eId="para_1714">
+              <person refersTo="#ShonaghNiRaghallaigh">Ní Raghallaigh, Shónagh.</person>
+            </p>
+            <p eId="para_1715">
+              <person refersTo="#CarolNolan">Nolan, Carol.</person>
+            </p>
+            <p eId="para_1716">
+              <person refersTo="#CianOCallaghan">O'Callaghan, Cian.</person>
+            </p>
+            <p eId="para_1717">
+              <person refersTo="#RichardODonoghue">O'Donoghue, Richard.</person>
+            </p>
+            <p eId="para_1718">
+              <person refersTo="#RobertODonoghue">O'Donoghue, Robert.</person>
+            </p>
+            <p eId="para_1719">
+              <person refersTo="#KenOFlynn">O'Flynn, Ken.</person>
+            </p>
+            <p eId="para_1720">
+              <person refersTo="#RodericOGorman">O'Gorman, Roderic.</person>
+            </p>
+            <p eId="para_1721">
+              <person refersTo="#LouisOHara">O'Hara, Louis.</person>
+            </p>
+            <p eId="para_1722">
+              <person refersTo="#LouiseOReilly">O'Reilly, Louise.</person>
+            </p>
+            <p eId="para_1723">
+              <person refersTo="#DarrenORourke">O'Rourke, Darren.</person>
+            </p>
+            <p eId="para_1724">
+              <person refersTo="#EoinOBroin">Ó Broin, Eoin.</person>
+            </p>
+            <p eId="para_1725">
+              <person refersTo="#DonnchadhOLaoghaire">Ó Laoghaire, Donnchadh.</person>
+            </p>
+            <p eId="para_1726">
+              <person refersTo="#RuairiOmurchu">Ó Murchú, Ruairí.</person>
+            </p>
+            <p eId="para_1727">
+              <person refersTo="#FionntanOSuilleabhain">Ó Súilleabháin, Fionntán.</person>
+            </p>
+            <p eId="para_1728">
+              <person refersTo="#LiamQuaide">Quaide, Liam.</person>
+            </p>
+            <p eId="para_1729">
+              <person refersTo="#MauriceQuinlivan">Quinlivan, Maurice.</person>
+            </p>
+            <p eId="para_1730">
+              <person refersTo="#PadraigRice">Rice, Pádraig.</person>
+            </p>
+            <p eId="para_1731">
+              <person refersTo="#ConorSheehan">Sheehan, Conor.</person>
+            </p>
+            <p eId="para_1732">
+              <person refersTo="#MarieSherlock">Sherlock, Marie.</person>
+            </p>
+            <p eId="para_1733">
+              <person refersTo="#DuncanSmith">Smith, Duncan.</person>
+            </p>
+            <p eId="para_1734">
+              <person refersTo="#BrianStanley">Stanley, Brian.</person>
+            </p>
+            <p eId="para_1735">
+              <person refersTo="#MarkWall">Wall, Mark.</person>
+            </p>
+            <p eId="para_1736">
+              <person refersTo="#MarkWard">Ward, Mark.</person>
+            </p>
+            <p eId="para_1737">
+              <person refersTo="#JenniferWhitmore">Whitmore, Jennifer.</person>
+            </p>
+          </debateSection>
+          <debateSection name="staon" eId="dbsect_46">
+            <p eId="para_1738">Staon</p>
+            <p eId="para_1739">
+              <person refersTo="#"/>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_139">Tellers: Tá, Deputies Mary Butler and Emer Currie; Níl, Deputies Pádraig Mac Lochlainn and Denise Mitchell.</summary>
+          <summary title="decision" refersTo="#carried" eId="sum_140">Question declared carried.</summary>
+        </debateSection>
+      </debateSection>
+      <debateSection name="motion" eId="dbsect_47">
+        <heading>Fiscal Planning Framework for Economic Certainty: Motion (Resumed) [Private Members]<recordedTime time="2026-05-27T20:20:00+01:00"/></heading>
+        <summary eId="sum_141"> The following motion was moved by Deputy Richard O'Donoghue on Wednesday, 27 May 2026:</summary>
+        <summary eId="sum_142">That Dáil Éireann:</summary>
+        <summary eId="sum_143">notes that:</summary>
+        <summary eId="sum_144">— the sectors in the Irish economy such as farming, fisheries, construction and more generally small businesses and households have in recent years been repeatedly exposed to severe economic shocks arising from major international events outside the control of the State, including the Covid-19 Pandemic, the war in Ukraine, instability and conflict involving Iran and the wider Middle East, and ongoing international trade disputes and tariff wars;</summary>
+        <summary eId="sum_145">— these events have contributed to sudden and dramatic increases in the cost of fuel, electricity, home heating oil, fertiliser, feed, transport, insurance, construction materials and essential consumer goods;</summary>
+        <summary eId="sum_146">— the frequency and unpredictability of such global disruptions have created major uncertainty for family budgeting, business planning and investment decisions across the Irish economy;</summary>
+        <summary eId="sum_147">— the current approach of Government has largely been reactive in nature, relying on ad hoc emergency interventions announced after price shocks have already inflicted financial damage on households and enterprises;</summary>
+        <summary eId="sum_148">— while emergency supports introduced in recent years provided temporary relief, the absence of a clear and transparent framework has created uncertainty for workers, families and businesses attempting to plan ahead during periods of economic instability;</summary>
+        <summary eId="sum_149">— sectors such as agriculture, haulage, fisheries, construction, hospitality and small retail are particularly vulnerable to sudden increases in fuel and operating costs, while ordinary households remain exposed to spikes in home heating, electricity and grocery prices;</summary>
+        <summary eId="sum_150">— a proactive national framework for economic resilience and emergency fiscal planning would provide certainty, confidence and stability, by clearly setting out the measures that would automatically be considered or triggered during future crises; and</summary>
+        <summary eId="sum_151">— such a framework should recognise that the State cannot prevent global crises from occurring, but can ensure that Irish citizens and businesses are not left without clarity as to how Government will respond when such events arise;</summary>
+        <summary eId="sum_152">recognises that:</summary>
+        <summary eId="sum_153">— certainty and predictability are essential for sustainable household budgeting, business continuity, employment retention and investment planning;</summary>
+        <summary eId="sum_154">— businesses and industries require advance visibility regarding the potential activation of supports, reductions or temporary relief measures during periods of severe inflation or supply disruption;</summary>
+        <summary eId="sum_155">— a transparent, trigger-based system would strengthen confidence in the Irish economy and reduce the uncertainty caused by improvised and delayed policy responses; and</summary>
+        <summary eId="sum_156">— fiscal planning must move beyond crisis reaction and towards structured preparedness; and</summary>
+        <summary eId="sum_157">calls on the Government to:</summary>
+        <summary eId="sum_158">— develop and publish a "Fiscal Planning for Economic Certainty Framework", setting out predetermined economic support measures and response mechanisms, to be considered or activated during major international economic shocks;</summary>
+        <summary eId="sum_159">— establish transparent trigger points, linked to measurable economic indicators including, but not limited to:</summary>
+        <summary eId="sum_160">— fuel and energy price increases;</summary>
+        <summary eId="sum_161">— inflation thresholds;</summary>
+        <summary eId="sum_162">— supply chain disruptions;</summary>
+        <summary eId="sum_163">— agricultural input cost spikes;</summary>
+        <summary eId="sum_164">— international trade restrictions; and</summary>
+        <summary eId="sum_165">— exceptional transport and logistics cost increases;</summary>
+        <summary eId="sum_166">— outline, in advance, the range of temporary relief measures that may be introduced when such trigger points are reached, including:</summary>
+        <summary eId="sum_167">— temporary reductions in excise duties on fuels;</summary>
+        <summary eId="sum_168">— temporary reductions in Value Added Tax rates;</summary>
+        <summary eId="sum_169">— targeted reliefs for the transport, farming, fisheries and small business sectors;</summary>
+        <summary eId="sum_170">— temporary reductions or waivers in commercial rates;</summary>
+        <summary eId="sum_171">— home heating oil and household energy supports;</summary>
+        <summary eId="sum_172">— supports for low- and middle-income households facing exceptional cost-of-living pressures; and</summary>
+        <summary eId="sum_173">— emergency liquidity and working capital supports for vulnerable industries;</summary>
+        <summary eId="sum_174">— ensure that any framework introduced provides sector-specific certainty for strategic domestic industries, including agriculture, fisheries, haulage, tourism, retail and construction;</summary>
+        <summary eId="sum_175">— provide for annual review and updating of the framework by the Department of Finance and the Department of Enterprise, Trade and Employment, in consultation with representative bodies, trade unions, SMEs, farming and fisheries organisations;</summary>
+        <summary eId="sum_176">— prepare and publish annual stress-testing assessments, examining the resilience of the Irish economy to future international shocks and price surges; and</summary>
+        <summary eId="sum_177">— report to Dáil Éireann within six months, on the establishment and implementation of this framework.</summary>
+        <summary eId="sum_178"> Debate resumed on amendment No. 1:</summary>
+        <summary eId="sum_179">To delete all words after "Dáil Éireann" and substitute the following:</summary>
+        <summary eId="sum_180">"notes that:</summary>
+        <summary eId="sum_181">— the conflict in the Middle East has, once again, exposed the vulnerability of the Irish economy, and Irish society more generally, to imported fossil fuels;</summary>
+        <summary eId="sum_182">— these strategic dependencies have major macroeconomic implications, the risks to macroeconomic and fiscal stability cannot be ignored;</summary>
+        <summary eId="sum_183">— at a minimum, the large upward shift in energy prices is likely to impart a stagflationary impulse to the global economy, a combination of lower levels of economic activity alongside higher inflation;</summary>
+        <summary eId="sum_184">— in response, the Government has taken appropriate and timely action to provide relief for households and businesses;</summary>
+        <summary eId="sum_185">— the total budgetary cost of these support measures is of the order of €750 million this year, this is one the largest interventions of any country in the European Union, these measures reduce the annual rate of inflation in April, May, June and July by about 0.6 percentage points;</summary>
+        <summary eId="sum_186">— these measures have cut Excise Duty on diesel by 32 cent per litre, and 27 cent on petrol, including the reduction in the National Oil Reserves Agency levy, reduced Excise Duty on green diesel by 7.4 cent per litre, increased repayments under the Diesel Rebate Scheme, and extended the Fuel Allowance to the end of April;</summary>
+        <summary eId="sum_187">— the Government has also agreed to delay the increase in carbon tax to later in the year, and is introducing support schemes for the transportation and agricultural sectors, in total, these measures represent a significant investment of financial resources to support households and businesses, and will remain in place until 31st July, 2026; and</summary>
+        <summary eId="sum_188">— the Government published its Medium-Term Fiscal and Structural Plan (MTP) in December 2025, setting out a medium-term fiscal strategy based on three core pillars, sustainability, resilience and readiness;</summary>
+        <summary eId="sum_189">recognises that:</summary>
+        <summary eId="sum_190">— a package worth €750 million of supports has been introduced by the Government within the framework of the Government's MTP;</summary>
+        <summary eId="sum_191">— the MTP provides an appropriate fiscal framework that allows for the achievement of the Government's overarching aim to improve people's lives in a sustainable way;</summary>
+        <summary eId="sum_192">— by setting an overall medium-term expenditure path, the design of this framework provides Government with the flexibility to respond to challenges, such as, the impact of the conflict in the Middle East on households and businesses, in a timely and proportionate manner, alongside the operation of automatic stabilisers;</summary>
+        <summary eId="sum_193">— it sets out the Government's commitment to a balanced and sustainable approach to overall fiscal policy, ensuring we continue to target budget surpluses over the medium-term, and set aside some of the windfall to prepare for the future;</summary>
+        <summary eId="sum_194">— the MTP supports progress on implementing the key social and economic priorities, while delivering on our commitment to sustainable public finances;</summary>
+        <summary eId="sum_195">— it demonstrates the Government's commitment to using the resources of the State to improve people's lives in a sustainable way, it will act as the framework within which Government decisions will be taken during its term in office, it focuses on delivery, and allows for significant public resources to be directed at improving public services over a five-year period;</summary>
+        <summary eId="sum_196">— it ensures that we have had the agility to respond, swiftly and forcefully, to help households, firms and sectors when necessary;</summary>
+        <summary eId="sum_197">— consideration of any trigger points must be balanced in certain instances against the time lag inherent in economic data, which could delay timely Government responses;</summary>
+        <summary eId="sum_198">— the Irish economy is facing its second fossil fuel shock in less than five years;</summary>
+        <summary eId="sum_199">— fossil fuel dependence, especially imported fossil fuels, is a major economic vulnerability;</summary>
+        <summary eId="sum_200">— analytical work will be undertaken by the Department of Finance to set out the key macroeconomic principles that should guide the medium-term transition to manage Ireland's strategic import dependencies; and</summary>
+        <summary eId="sum_201">— the Government has also established the National Energy Affordability Taskforce to identify, assess and implement measures that will enhance energy affordability for households and businesses while delivering key renewable commitments and protecting security of supply and economic stability; and</summary>
+        <summary eId="sum_202">acknowledges that:</summary>
+        <summary eId="sum_203">— the geopolitical and economic outlook continues to be highly uncertain;</summary>
+        <summary eId="sum_204">— in the Department of Finance's reference scenario, set out in the Annual Progress Report inflation is projected to average 3.3 per cent this year, 1.5 percentage points higher than assumed at budget time but still significantly lower than the 8.1 per cent rate recorded in 2022, after the last energy price shock;</summary>
+        <summary eId="sum_205">— the economy is still expected to grow this year, albeit at a slower pace than previously forecast, and Government has committed to a range of temporary measures to mitigate the impact of increases in energy prices on households and businesses;</summary>
+        <summary eId="sum_206">— the overall approach to budgetary policy must remain balanced and sustainable over the medium-term; and</summary>
+        <summary eId="sum_207">— the Government will consider the continued impact of the energy shock on households, and make proportionate decisions in the forthcoming Budget within the parameters of the appropriate fiscal strategy set out in the MTP."</summary>
+        <summary eId="sum_208">	(Minister of State at the Department of Culture, Communications and Sport, Deputy McConalogue)</summary>
+        <speech by="#VeronaMurphy" eId="spk_351">
+          <from> An Ceann Comhairle<recordedTime time="2026-05-27T20:20:00+01:00"/></from>
+          <p eId="para_1740">I must now deal with a postponed division relating to the fiscal planning framework for economic certainty. On Wednesday, 27 May 2026, on the question, "That the amendment to the motion be agreed to", a division was claimed and in accordance with Standing Order 85(2), that division must be taken now.</p>
+        </speech>
+        <debateSection name="division" eId="dbsect_48">
+          <summary eId="sum_209">Amendment put: </summary>
+          <summary title="division" eId="sum_210">The Dáil divided: Tá, <quantity refersTo="#ta" normalized="80" eId="qty_16">80</quantity>; Níl, <quantity refersTo="#nil" normalized="64" eId="qty_17">64</quantity>; Staon, <quantity refersTo="#staon" normalized="0" eId="qty_18">0</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_49">
+            <p eId="para_1741">Tá</p>
+            <p eId="para_1742">
+              <person refersTo="#WilliamAird">Aird, William.</person>
+            </p>
+            <p eId="para_1743">
+              <person refersTo="#CatherineArdagh">Ardagh, Catherine.</person>
+            </p>
+            <p eId="para_1744">
+              <person refersTo="#GraceBoland">Boland, Grace.</person>
+            </p>
+            <p eId="para_1745">
+              <person refersTo="#TomBrabazon">Brabazon, Tom.</person>
+            </p>
+            <p eId="para_1746">
+              <person refersTo="#BrianBrennan">Brennan, Brian.</person>
+            </p>
+            <p eId="para_1747">
+              <person refersTo="#ShayBrennan">Brennan, Shay.</person>
+            </p>
+            <p eId="para_1748">
+              <person refersTo="#ColmBrophy">Brophy, Colm.</person>
+            </p>
+            <p eId="para_1749">
+              <person refersTo="#JamesBrowne">Browne, James.</person>
+            </p>
+            <p eId="para_1750">
+              <person refersTo="#ColmBurke">Burke, Colm.</person>
+            </p>
+            <p eId="para_1751">
+              <person refersTo="#MaryButler">Butler, Mary.</person>
+            </p>
+            <p eId="para_1752">
+              <person refersTo="#JerryButtimer">Buttimer, Jerry.</person>
+            </p>
+            <p eId="para_1753">
+              <person refersTo="#MalcolmByrne">Byrne, Malcolm.</person>
+            </p>
+            <p eId="para_1754">
+              <person refersTo="#MichaelCahill">Cahill, Michael.</person>
+            </p>
+            <p eId="para_1755">
+              <person refersTo="#CatherineCallaghan">Callaghan, Catherine.</person>
+            </p>
+            <p eId="para_1756">
+              <person refersTo="#DaraCalleary">Calleary, Dara.</person>
+            </p>
+            <p eId="para_1757">
+              <person refersTo="#SeanCanney">Canney, Seán.</person>
+            </p>
+            <p eId="para_1758">
+              <person refersTo="#MichealCarrigy">Carrigy, Micheál.</person>
+            </p>
+            <p eId="para_1759">
+              <person refersTo="#JenniferCarrollMacNeill">Carroll MacNeill, Jennifer.</person>
+            </p>
+            <p eId="para_1760">
+              <person refersTo="#PeterChapCleere">Cleere, Peter 'Chap'.</person>
+            </p>
+            <p eId="para_1761">
+              <person refersTo="#JohnClendennen">Clendennen, John.</person>
+            </p>
+            <p eId="para_1762">
+              <person refersTo="#NiallCollins">Collins, Niall.</person>
+            </p>
+            <p eId="para_1763">
+              <person refersTo="#JohnConnolly">Connolly, John.</person>
+            </p>
+            <p eId="para_1764">
+              <person refersTo="#JoeCooney">Cooney, Joe.</person>
+            </p>
+            <p eId="para_1765">
+              <person refersTo="#CathalCrowe">Crowe, Cathal.</person>
+            </p>
+            <p eId="para_1766">
+              <person refersTo="#JohnCummins">Cummins, John.</person>
+            </p>
+            <p eId="para_1767">
+              <person refersTo="#EmerCurrie">Currie, Emer.</person>
+            </p>
+            <p eId="para_1768">
+              <person refersTo="#MartinDaly">Daly, Martin.</person>
+            </p>
+            <p eId="para_1769">
+              <person refersTo="#AislingDempsey">Dempsey, Aisling.</person>
+            </p>
+            <p eId="para_1770">
+              <person refersTo="#CormacDevlin">Devlin, Cormac.</person>
+            </p>
+            <p eId="para_1771">
+              <person refersTo="#AlanDillon">Dillon, Alan.</person>
+            </p>
+            <p eId="para_1772">
+              <person refersTo="#AlbertDolan">Dolan, Albert.</person>
+            </p>
+            <p eId="para_1773">
+              <person refersTo="#TimDooley">Dooley, Timmy.</person>
+            </p>
+            <p eId="para_1774">
+              <person refersTo="#FrankFeighan">Feighan, Frankie.</person>
+            </p>
+            <p eId="para_1775">
+              <person refersTo="#SeanFleming">Fleming, Sean.</person>
+            </p>
+            <p eId="para_1776">
+              <person refersTo="#NormaFoley">Foley, Norma.</person>
+            </p>
+            <p eId="para_1777">
+              <person refersTo="#JamesGeogheganFG">Geoghegan, James.</person>
+            </p>
+            <p eId="para_1778">
+              <person refersTo="#NoelGrealishPD">Grealish, Noel.</person>
+            </p>
+            <p eId="para_1779">
+              <person refersTo="#MarianHarkinIND">Harkin, Marian.</person>
+            </p>
+            <p eId="para_1780">
+              <person refersTo="#BarryHeneghan">Heneghan, Barry.</person>
+            </p>
+            <p eId="para_1781">
+              <person refersTo="#MartinHeydon">Heydon, Martin.</person>
+            </p>
+            <p eId="para_1782">
+              <person refersTo="#EmerHiggins">Higgins, Emer.</person>
+            </p>
+            <p eId="para_1783">
+              <person refersTo="#KeiraKeogh">Keogh, Keira.</person>
+            </p>
+            <p eId="para_1784">
+              <person refersTo="#SeanKyne">Kyne, Seán.</person>
+            </p>
+            <p eId="para_1785">
+              <person refersTo="#JohnLahart">Lahart, John.</person>
+            </p>
+            <p eId="para_1786">
+              <person refersTo="#JamesLawless">Lawless, James.</person>
+            </p>
+            <p eId="para_1787">
+              <person refersTo="#MichaelLowry">Lowry, Michael.</person>
+            </p>
+            <p eId="para_1788">
+              <person refersTo="#DavidMaxwell">Maxwell, David.</person>
+            </p>
+            <p eId="para_1789">
+              <person refersTo="#PaulMcAuliffe">McAuliffe, Paul.</person>
+            </p>
+            <p eId="para_1790">
+              <person refersTo="#NoelMcCarthy">McCarthy, Noel.</person>
+            </p>
+            <p eId="para_1791">
+              <person refersTo="#CharlieMcConalogue">McConalogue, Charlie.</person>
+            </p>
+            <p eId="para_1792">
+              <person refersTo="#TonyMcCormack">McCormack, Tony.</person>
+            </p>
+            <p eId="para_1793">
+              <person refersTo="#SeamusMcGrath">McGrath, Séamus.</person>
+            </p>
+            <p eId="para_1794">
+              <person refersTo="#ErinMcGreehan">McGreehan, Erin.</person>
+            </p>
+            <p eId="para_1795">
+              <person refersTo="#KevinBoxerMoran">Moran, Kevin Boxer.</person>
+            </p>
+            <p eId="para_1796">
+              <person refersTo="#AindriasMoynihan">Moynihan, Aindrias.</person>
+            </p>
+            <p eId="para_1797">
+              <person refersTo="#MichaelMoynihan">Moynihan, Michael.</person>
+            </p>
+            <p eId="para_1798">
+              <person refersTo="#ShaneMoynihan">Moynihan, Shane.</person>
+            </p>
+            <p eId="para_1799">
+              <person refersTo="#JenniferMurnaneOConnor">Murnane O'Connor, Jennifer.</person>
+            </p>
+            <p eId="para_1800">
+              <person refersTo="#MichaelMurphy">Murphy, Michael.</person>
+            </p>
+            <p eId="para_1801">
+              <person refersTo="#HildegardeNaughton">Naughton, Hildegarde.</person>
+            </p>
+            <p eId="para_1802">
+              <person refersTo="#JoeNeville">Neville, Joe.</person>
+            </p>
+            <p eId="para_1803">
+              <person refersTo="#DarraghOBrien">O'Brien, Darragh.</person>
+            </p>
+            <p eId="para_1804">
+              <person refersTo="#JimOCallaghan">O'Callaghan, Jim.</person>
+            </p>
+            <p eId="para_1805">
+              <person refersTo="#JamesOConnor">O'Connor, James.</person>
+            </p>
+            <p eId="para_1806">
+              <person refersTo="#KieranODonnell">O'Donnell, Kieran.</person>
+            </p>
+            <p eId="para_1807">
+              <person refersTo="#PatrickODonovan">O'Donovan, Patrick.</person>
+            </p>
+            <p eId="para_1808">
+              <person refersTo="#RyanOMeara">O'Meara, Ryan.</person>
+            </p>
+            <p eId="para_1809">
+              <person refersTo="#JohnPaulOShea">O'Shea, John Paul.</person>
+            </p>
+            <p eId="para_1810">
+              <person refersTo="#ChristopherOsullivan">O'Sullivan, Christopher.</person>
+            </p>
+            <p eId="para_1811">
+              <person refersTo="#PadraigOSullivan">O'Sullivan, Pádraig.</person>
+            </p>
+            <p eId="para_1812">
+              <person refersTo="#NaoiseOCearuil">Ó Cearúil, Naoise.</person>
+            </p>
+            <p eId="para_1813">
+              <person refersTo="#SeanOFearghaillFF">Ó Fearghaíl, Seán.</person>
+            </p>
+            <p eId="para_1814">
+              <person refersTo="#NaoiseOMuiri">Ó Muirí, Naoise.</person>
+            </p>
+            <p eId="para_1815">
+              <person refersTo="#PeterRoche">Roche, Peter.</person>
+            </p>
+            <p eId="para_1816">
+              <person refersTo="#BrendanSmith">Smith, Brendan.</person>
+            </p>
+            <p eId="para_1817">
+              <person refersTo="#NiamhSmyth">Smyth, Niamh.</person>
+            </p>
+            <p eId="para_1818">
+              <person refersTo="#EdwardTimmins">Timmins, Edward.</person>
+            </p>
+            <p eId="para_1819">
+              <person refersTo="#GillianToole">Toole, Gillian.</person>
+            </p>
+            <p eId="para_1820">
+              <person refersTo="#RobertTroy">Troy, Robert.</person>
+            </p>
+            <p eId="para_1821">
+              <person refersTo="#BarryWard">Ward, Barry.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_50">
+            <p eId="para_1822">Níl</p>
+            <p eId="para_1823">
+              <person refersTo="#IvanaBacik">Bacik, Ivana.</person>
+            </p>
+            <p eId="para_1824">
+              <person refersTo="#CathyBennett">Bennett, Cathy.</person>
+            </p>
+            <p eId="para_1825">
+              <person refersTo="#RichardBoydBarrett">Boyd Barrett, Richard.</person>
+            </p>
+            <p eId="para_1826">
+              <person refersTo="#JohnBrady">Brady, John.</person>
+            </p>
+            <p eId="para_1827">
+              <person refersTo="#PatBuckley">Buckley, Pat.</person>
+            </p>
+            <p eId="para_1828">
+              <person refersTo="#JoannaByrne">Byrne, Joanna.</person>
+            </p>
+            <p eId="para_1829">
+              <person refersTo="#SorcaClarke">Clarke, Sorca.</person>
+            </p>
+            <p eId="para_1830">
+              <person refersTo="#RoseConwayWalsh">Conway-Walsh, Rose.</person>
+            </p>
+            <p eId="para_1831">
+              <person refersTo="#RuthCoppinger">Coppinger, Ruth.</person>
+            </p>
+            <p eId="para_1832">
+              <person refersTo="#ReadaCronin">Cronin, Réada.</person>
+            </p>
+            <p eId="para_1833">
+              <person refersTo="#SeanCroweSF">Crowe, Seán.</person>
+            </p>
+            <p eId="para_1834">
+              <person refersTo="#DavidCullinane">Cullinane, David.</person>
+            </p>
+            <p eId="para_1835">
+              <person refersTo="#JenCummins">Cummins, Jen.</person>
+            </p>
+            <p eId="para_1836">
+              <person refersTo="#PaDaly">Daly, Pa.</person>
+            </p>
+            <p eId="para_1837">
+              <person refersTo="#MaireDevine">Devine, Máire.</person>
+            </p>
+            <p eId="para_1838">
+              <person refersTo="#PearseDoherty">Doherty, Pearse.</person>
+            </p>
+            <p eId="para_1839">
+              <person refersTo="#PaulDonnelly">Donnelly, Paul.</person>
+            </p>
+            <p eId="para_1840">
+              <person refersTo="#DessieEllis">Ellis, Dessie.</person>
+            </p>
+            <p eId="para_1841">
+              <person refersTo="#DanielEnnis">Ennis, Daniel.</person>
+            </p>
+            <p eId="para_1842">
+              <person refersTo="#AidanFarrelly">Farrelly, Aidan.</person>
+            </p>
+            <p eId="para_1843">
+              <person refersTo="#MaireadFarrell">Farrell, Mairéad.</person>
+            </p>
+            <p eId="para_1844">
+              <person refersTo="#GaryGannon">Gannon, Gary.</person>
+            </p>
+            <p eId="para_1845">
+              <person refersTo="#SineadGibney">Gibney, Sinéad.</person>
+            </p>
+            <p eId="para_1846">
+              <person refersTo="#PaulNicholasGogartyGP">Gogarty, Paul Nicholas.</person>
+            </p>
+            <p eId="para_1847">
+              <person refersTo="#JohnnyGuirke">Guirke, Johnny.</person>
+            </p>
+            <p eId="para_1848">
+              <person refersTo="#EoinHayes">Hayes, Eoin.</person>
+            </p>
+            <p eId="para_1849">
+              <person refersTo="#RoryHearne">Hearne, Rory.</person>
+            </p>
+            <p eId="para_1850">
+              <person refersTo="#EoghanKenny">Kenny, Eoghan.</person>
+            </p>
+            <p eId="para_1851">
+              <person refersTo="#MartinKenny">Kenny, Martin.</person>
+            </p>
+            <p eId="para_1852">
+              <person refersTo="#ClaireKerrane">Kerrane, Claire.</person>
+            </p>
+            <p eId="para_1853">
+              <person refersTo="#PaulLawless">Lawless, Paul.</person>
+            </p>
+            <p eId="para_1854">
+              <person refersTo="#GeorgeLawlor">Lawlor, George.</person>
+            </p>
+            <p eId="para_1855">
+              <person refersTo="#PadraigMacLochlainn">Mac Lochlainn, Pádraig.</person>
+            </p>
+            <p eId="para_1856">
+              <person refersTo="#DonnaMcGettigan">McGettigan, Donna.</person>
+            </p>
+            <p eId="para_1857">
+              <person refersTo="#ConorDMcGuinness">McGuinness, Conor D.</person>
+            </p>
+            <p eId="para_1858">
+              <person refersTo="#DeniseMitchell">Mitchell, Denise.</person>
+            </p>
+            <p eId="para_1859">
+              <person refersTo="#PaulMurphy">Murphy, Paul.</person>
+            </p>
+            <p eId="para_1860">
+              <person refersTo="#JohnnyMythen">Mythen, Johnny.</person>
+            </p>
+            <p eId="para_1861">
+              <person refersTo="#GeraldNash">Nash, Ged.</person>
+            </p>
+            <p eId="para_1862">
+              <person refersTo="#NatashaNewsomeDrennan">Newsome Drennan, Natasha.</person>
+            </p>
+            <p eId="para_1863">
+              <person refersTo="#ShonaghNiRaghallaigh">Ní Raghallaigh, Shónagh.</person>
+            </p>
+            <p eId="para_1864">
+              <person refersTo="#CarolNolan">Nolan, Carol.</person>
+            </p>
+            <p eId="para_1865">
+              <person refersTo="#CianOCallaghan">O'Callaghan, Cian.</person>
+            </p>
+            <p eId="para_1866">
+              <person refersTo="#RichardODonoghue">O'Donoghue, Richard.</person>
+            </p>
+            <p eId="para_1867">
+              <person refersTo="#RobertODonoghue">O'Donoghue, Robert.</person>
+            </p>
+            <p eId="para_1868">
+              <person refersTo="#KenOFlynn">O'Flynn, Ken.</person>
+            </p>
+            <p eId="para_1869">
+              <person refersTo="#RodericOGorman">O'Gorman, Roderic.</person>
+            </p>
+            <p eId="para_1870">
+              <person refersTo="#LouisOHara">O'Hara, Louis.</person>
+            </p>
+            <p eId="para_1871">
+              <person refersTo="#LouiseOReilly">O'Reilly, Louise.</person>
+            </p>
+            <p eId="para_1872">
+              <person refersTo="#DarrenORourke">O'Rourke, Darren.</person>
+            </p>
+            <p eId="para_1873">
+              <person refersTo="#EoinOBroin">Ó Broin, Eoin.</person>
+            </p>
+            <p eId="para_1874">
+              <person refersTo="#DonnchadhOLaoghaire">Ó Laoghaire, Donnchadh.</person>
+            </p>
+            <p eId="para_1875">
+              <person refersTo="#RuairiOmurchu">Ó Murchú, Ruairí.</person>
+            </p>
+            <p eId="para_1876">
+              <person refersTo="#FionntanOSuilleabhain">Ó Súilleabháin, Fionntán.</person>
+            </p>
+            <p eId="para_1877">
+              <person refersTo="#LiamQuaide">Quaide, Liam.</person>
+            </p>
+            <p eId="para_1878">
+              <person refersTo="#MauriceQuinlivan">Quinlivan, Maurice.</person>
+            </p>
+            <p eId="para_1879">
+              <person refersTo="#PadraigRice">Rice, Pádraig.</person>
+            </p>
+            <p eId="para_1880">
+              <person refersTo="#ConorSheehan">Sheehan, Conor.</person>
+            </p>
+            <p eId="para_1881">
+              <person refersTo="#MarieSherlock">Sherlock, Marie.</person>
+            </p>
+            <p eId="para_1882">
+              <person refersTo="#DuncanSmith">Smith, Duncan.</person>
+            </p>
+            <p eId="para_1883">
+              <person refersTo="#BrianStanley">Stanley, Brian.</person>
+            </p>
+            <p eId="para_1884">
+              <person refersTo="#MarkWall">Wall, Mark.</person>
+            </p>
+            <p eId="para_1885">
+              <person refersTo="#MarkWard">Ward, Mark.</person>
+            </p>
+            <p eId="para_1886">
+              <person refersTo="#JenniferWhitmore">Whitmore, Jennifer.</person>
+            </p>
+          </debateSection>
+          <debateSection name="staon" eId="dbsect_51">
+            <p eId="para_1887">Staon</p>
+            <p eId="para_1888">
+              <person refersTo="#"/>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_211">Tellers: Tá, Deputies Mary Butler and Emer Currie; Níl, Deputies Richard O'Donoghue and Ken O'Flynn.</summary>
+          <summary title="decision" refersTo="#carried" eId="sum_212">Amendment declared carried.</summary>
+        </debateSection>
+        <debateSection name="division" eId="dbsect_52">
+          <summary eId="sum_213">Question put: "That the motion, as amended, be agreed to"</summary>
+          <summary title="division" eId="sum_214">The Dáil divided: Tá, <quantity refersTo="#ta" normalized="80" eId="qty_19">80</quantity>; Níl, <quantity refersTo="#nil" normalized="64" eId="qty_20">64</quantity>; Staon, <quantity refersTo="#staon" normalized="0" eId="qty_21">0</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_53">
+            <p eId="para_1889">Tá</p>
+            <p eId="para_1890">
+              <person refersTo="#WilliamAird">Aird, William.</person>
+            </p>
+            <p eId="para_1891">
+              <person refersTo="#CatherineArdagh">Ardagh, Catherine.</person>
+            </p>
+            <p eId="para_1892">
+              <person refersTo="#GraceBoland">Boland, Grace.</person>
+            </p>
+            <p eId="para_1893">
+              <person refersTo="#TomBrabazon">Brabazon, Tom.</person>
+            </p>
+            <p eId="para_1894">
+              <person refersTo="#BrianBrennan">Brennan, Brian.</person>
+            </p>
+            <p eId="para_1895">
+              <person refersTo="#ShayBrennan">Brennan, Shay.</person>
+            </p>
+            <p eId="para_1896">
+              <person refersTo="#ColmBrophy">Brophy, Colm.</person>
+            </p>
+            <p eId="para_1897">
+              <person refersTo="#JamesBrowne">Browne, James.</person>
+            </p>
+            <p eId="para_1898">
+              <person refersTo="#ColmBurke">Burke, Colm.</person>
+            </p>
+            <p eId="para_1899">
+              <person refersTo="#MaryButler">Butler, Mary.</person>
+            </p>
+            <p eId="para_1900">
+              <person refersTo="#JerryButtimer">Buttimer, Jerry.</person>
+            </p>
+            <p eId="para_1901">
+              <person refersTo="#MalcolmByrne">Byrne, Malcolm.</person>
+            </p>
+            <p eId="para_1902">
+              <person refersTo="#MichaelCahill">Cahill, Michael.</person>
+            </p>
+            <p eId="para_1903">
+              <person refersTo="#CatherineCallaghan">Callaghan, Catherine.</person>
+            </p>
+            <p eId="para_1904">
+              <person refersTo="#DaraCalleary">Calleary, Dara.</person>
+            </p>
+            <p eId="para_1905">
+              <person refersTo="#SeanCanney">Canney, Seán.</person>
+            </p>
+            <p eId="para_1906">
+              <person refersTo="#MichealCarrigy">Carrigy, Micheál.</person>
+            </p>
+            <p eId="para_1907">
+              <person refersTo="#JenniferCarrollMacNeill">Carroll MacNeill, Jennifer.</person>
+            </p>
+            <p eId="para_1908">
+              <person refersTo="#PeterChapCleere">Cleere, Peter 'Chap'.</person>
+            </p>
+            <p eId="para_1909">
+              <person refersTo="#JohnClendennen">Clendennen, John.</person>
+            </p>
+            <p eId="para_1910">
+              <person refersTo="#NiallCollins">Collins, Niall.</person>
+            </p>
+            <p eId="para_1911">
+              <person refersTo="#JohnConnolly">Connolly, John.</person>
+            </p>
+            <p eId="para_1912">
+              <person refersTo="#JoeCooney">Cooney, Joe.</person>
+            </p>
+            <p eId="para_1913">
+              <person refersTo="#CathalCrowe">Crowe, Cathal.</person>
+            </p>
+            <p eId="para_1914">
+              <person refersTo="#JohnCummins">Cummins, John.</person>
+            </p>
+            <p eId="para_1915">
+              <person refersTo="#EmerCurrie">Currie, Emer.</person>
+            </p>
+            <p eId="para_1916">
+              <person refersTo="#MartinDaly">Daly, Martin.</person>
+            </p>
+            <p eId="para_1917">
+              <person refersTo="#AislingDempsey">Dempsey, Aisling.</person>
+            </p>
+            <p eId="para_1918">
+              <person refersTo="#CormacDevlin">Devlin, Cormac.</person>
+            </p>
+            <p eId="para_1919">
+              <person refersTo="#AlanDillon">Dillon, Alan.</person>
+            </p>
+            <p eId="para_1920">
+              <person refersTo="#AlbertDolan">Dolan, Albert.</person>
+            </p>
+            <p eId="para_1921">
+              <person refersTo="#TimDooley">Dooley, Timmy.</person>
+            </p>
+            <p eId="para_1922">
+              <person refersTo="#FrankFeighan">Feighan, Frankie.</person>
+            </p>
+            <p eId="para_1923">
+              <person refersTo="#SeanFleming">Fleming, Sean.</person>
+            </p>
+            <p eId="para_1924">
+              <person refersTo="#NormaFoley">Foley, Norma.</person>
+            </p>
+            <p eId="para_1925">
+              <person refersTo="#JamesGeogheganFG">Geoghegan, James.</person>
+            </p>
+            <p eId="para_1926">
+              <person refersTo="#NoelGrealishPD">Grealish, Noel.</person>
+            </p>
+            <p eId="para_1927">
+              <person refersTo="#MarianHarkinIND">Harkin, Marian.</person>
+            </p>
+            <p eId="para_1928">
+              <person refersTo="#BarryHeneghan">Heneghan, Barry.</person>
+            </p>
+            <p eId="para_1929">
+              <person refersTo="#MartinHeydon">Heydon, Martin.</person>
+            </p>
+            <p eId="para_1930">
+              <person refersTo="#EmerHiggins">Higgins, Emer.</person>
+            </p>
+            <p eId="para_1931">
+              <person refersTo="#KeiraKeogh">Keogh, Keira.</person>
+            </p>
+            <p eId="para_1932">
+              <person refersTo="#SeanKyne">Kyne, Seán.</person>
+            </p>
+            <p eId="para_1933">
+              <person refersTo="#JohnLahart">Lahart, John.</person>
+            </p>
+            <p eId="para_1934">
+              <person refersTo="#JamesLawless">Lawless, James.</person>
+            </p>
+            <p eId="para_1935">
+              <person refersTo="#MichaelLowry">Lowry, Michael.</person>
+            </p>
+            <p eId="para_1936">
+              <person refersTo="#DavidMaxwell">Maxwell, David.</person>
+            </p>
+            <p eId="para_1937">
+              <person refersTo="#PaulMcAuliffe">McAuliffe, Paul.</person>
+            </p>
+            <p eId="para_1938">
+              <person refersTo="#NoelMcCarthy">McCarthy, Noel.</person>
+            </p>
+            <p eId="para_1939">
+              <person refersTo="#CharlieMcConalogue">McConalogue, Charlie.</person>
+            </p>
+            <p eId="para_1940">
+              <person refersTo="#TonyMcCormack">McCormack, Tony.</person>
+            </p>
+            <p eId="para_1941">
+              <person refersTo="#SeamusMcGrath">McGrath, Séamus.</person>
+            </p>
+            <p eId="para_1942">
+              <person refersTo="#ErinMcGreehan">McGreehan, Erin.</person>
+            </p>
+            <p eId="para_1943">
+              <person refersTo="#KevinBoxerMoran">Moran, Kevin Boxer.</person>
+            </p>
+            <p eId="para_1944">
+              <person refersTo="#AindriasMoynihan">Moynihan, Aindrias.</person>
+            </p>
+            <p eId="para_1945">
+              <person refersTo="#MichaelMoynihan">Moynihan, Michael.</person>
+            </p>
+            <p eId="para_1946">
+              <person refersTo="#ShaneMoynihan">Moynihan, Shane.</person>
+            </p>
+            <p eId="para_1947">
+              <person refersTo="#JenniferMurnaneOConnor">Murnane O'Connor, Jennifer.</person>
+            </p>
+            <p eId="para_1948">
+              <person refersTo="#MichaelMurphy">Murphy, Michael.</person>
+            </p>
+            <p eId="para_1949">
+              <person refersTo="#HildegardeNaughton">Naughton, Hildegarde.</person>
+            </p>
+            <p eId="para_1950">
+              <person refersTo="#JoeNeville">Neville, Joe.</person>
+            </p>
+            <p eId="para_1951">
+              <person refersTo="#DarraghOBrien">O'Brien, Darragh.</person>
+            </p>
+            <p eId="para_1952">
+              <person refersTo="#JimOCallaghan">O'Callaghan, Jim.</person>
+            </p>
+            <p eId="para_1953">
+              <person refersTo="#JamesOConnor">O'Connor, James.</person>
+            </p>
+            <p eId="para_1954">
+              <person refersTo="#KieranODonnell">O'Donnell, Kieran.</person>
+            </p>
+            <p eId="para_1955">
+              <person refersTo="#PatrickODonovan">O'Donovan, Patrick.</person>
+            </p>
+            <p eId="para_1956">
+              <person refersTo="#RyanOMeara">O'Meara, Ryan.</person>
+            </p>
+            <p eId="para_1957">
+              <person refersTo="#JohnPaulOShea">O'Shea, John Paul.</person>
+            </p>
+            <p eId="para_1958">
+              <person refersTo="#ChristopherOsullivan">O'Sullivan, Christopher.</person>
+            </p>
+            <p eId="para_1959">
+              <person refersTo="#PadraigOSullivan">O'Sullivan, Pádraig.</person>
+            </p>
+            <p eId="para_1960">
+              <person refersTo="#NaoiseOCearuil">Ó Cearúil, Naoise.</person>
+            </p>
+            <p eId="para_1961">
+              <person refersTo="#SeanOFearghaillFF">Ó Fearghaíl, Seán.</person>
+            </p>
+            <p eId="para_1962">
+              <person refersTo="#NaoiseOMuiri">Ó Muirí, Naoise.</person>
+            </p>
+            <p eId="para_1963">
+              <person refersTo="#PeterRoche">Roche, Peter.</person>
+            </p>
+            <p eId="para_1964">
+              <person refersTo="#BrendanSmith">Smith, Brendan.</person>
+            </p>
+            <p eId="para_1965">
+              <person refersTo="#NiamhSmyth">Smyth, Niamh.</person>
+            </p>
+            <p eId="para_1966">
+              <person refersTo="#EdwardTimmins">Timmins, Edward.</person>
+            </p>
+            <p eId="para_1967">
+              <person refersTo="#GillianToole">Toole, Gillian.</person>
+            </p>
+            <p eId="para_1968">
+              <person refersTo="#RobertTroy">Troy, Robert.</person>
+            </p>
+            <p eId="para_1969">
+              <person refersTo="#BarryWard">Ward, Barry.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_54">
+            <p eId="para_1970">Níl</p>
+            <p eId="para_1971">
+              <person refersTo="#IvanaBacik">Bacik, Ivana.</person>
+            </p>
+            <p eId="para_1972">
+              <person refersTo="#CathyBennett">Bennett, Cathy.</person>
+            </p>
+            <p eId="para_1973">
+              <person refersTo="#RichardBoydBarrett">Boyd Barrett, Richard.</person>
+            </p>
+            <p eId="para_1974">
+              <person refersTo="#JohnBrady">Brady, John.</person>
+            </p>
+            <p eId="para_1975">
+              <person refersTo="#PatBuckley">Buckley, Pat.</person>
+            </p>
+            <p eId="para_1976">
+              <person refersTo="#JoannaByrne">Byrne, Joanna.</person>
+            </p>
+            <p eId="para_1977">
+              <person refersTo="#SorcaClarke">Clarke, Sorca.</person>
+            </p>
+            <p eId="para_1978">
+              <person refersTo="#RoseConwayWalsh">Conway-Walsh, Rose.</person>
+            </p>
+            <p eId="para_1979">
+              <person refersTo="#RuthCoppinger">Coppinger, Ruth.</person>
+            </p>
+            <p eId="para_1980">
+              <person refersTo="#ReadaCronin">Cronin, Réada.</person>
+            </p>
+            <p eId="para_1981">
+              <person refersTo="#SeanCroweSF">Crowe, Seán.</person>
+            </p>
+            <p eId="para_1982">
+              <person refersTo="#DavidCullinane">Cullinane, David.</person>
+            </p>
+            <p eId="para_1983">
+              <person refersTo="#JenCummins">Cummins, Jen.</person>
+            </p>
+            <p eId="para_1984">
+              <person refersTo="#PaDaly">Daly, Pa.</person>
+            </p>
+            <p eId="para_1985">
+              <person refersTo="#MaireDevine">Devine, Máire.</person>
+            </p>
+            <p eId="para_1986">
+              <person refersTo="#PearseDoherty">Doherty, Pearse.</person>
+            </p>
+            <p eId="para_1987">
+              <person refersTo="#PaulDonnelly">Donnelly, Paul.</person>
+            </p>
+            <p eId="para_1988">
+              <person refersTo="#DessieEllis">Ellis, Dessie.</person>
+            </p>
+            <p eId="para_1989">
+              <person refersTo="#DanielEnnis">Ennis, Daniel.</person>
+            </p>
+            <p eId="para_1990">
+              <person refersTo="#AidanFarrelly">Farrelly, Aidan.</person>
+            </p>
+            <p eId="para_1991">
+              <person refersTo="#MaireadFarrell">Farrell, Mairéad.</person>
+            </p>
+            <p eId="para_1992">
+              <person refersTo="#GaryGannon">Gannon, Gary.</person>
+            </p>
+            <p eId="para_1993">
+              <person refersTo="#SineadGibney">Gibney, Sinéad.</person>
+            </p>
+            <p eId="para_1994">
+              <person refersTo="#PaulNicholasGogartyGP">Gogarty, Paul Nicholas.</person>
+            </p>
+            <p eId="para_1995">
+              <person refersTo="#JohnnyGuirke">Guirke, Johnny.</person>
+            </p>
+            <p eId="para_1996">
+              <person refersTo="#EoinHayes">Hayes, Eoin.</person>
+            </p>
+            <p eId="para_1997">
+              <person refersTo="#RoryHearne">Hearne, Rory.</person>
+            </p>
+            <p eId="para_1998">
+              <person refersTo="#EoghanKenny">Kenny, Eoghan.</person>
+            </p>
+            <p eId="para_1999">
+              <person refersTo="#MartinKenny">Kenny, Martin.</person>
+            </p>
+            <p eId="para_2000">
+              <person refersTo="#ClaireKerrane">Kerrane, Claire.</person>
+            </p>
+            <p eId="para_2001">
+              <person refersTo="#PaulLawless">Lawless, Paul.</person>
+            </p>
+            <p eId="para_2002">
+              <person refersTo="#GeorgeLawlor">Lawlor, George.</person>
+            </p>
+            <p eId="para_2003">
+              <person refersTo="#PadraigMacLochlainn">Mac Lochlainn, Pádraig.</person>
+            </p>
+            <p eId="para_2004">
+              <person refersTo="#DonnaMcGettigan">McGettigan, Donna.</person>
+            </p>
+            <p eId="para_2005">
+              <person refersTo="#ConorDMcGuinness">McGuinness, Conor D.</person>
+            </p>
+            <p eId="para_2006">
+              <person refersTo="#DeniseMitchell">Mitchell, Denise.</person>
+            </p>
+            <p eId="para_2007">
+              <person refersTo="#PaulMurphy">Murphy, Paul.</person>
+            </p>
+            <p eId="para_2008">
+              <person refersTo="#JohnnyMythen">Mythen, Johnny.</person>
+            </p>
+            <p eId="para_2009">
+              <person refersTo="#GeraldNash">Nash, Ged.</person>
+            </p>
+            <p eId="para_2010">
+              <person refersTo="#NatashaNewsomeDrennan">Newsome Drennan, Natasha.</person>
+            </p>
+            <p eId="para_2011">
+              <person refersTo="#ShonaghNiRaghallaigh">Ní Raghallaigh, Shónagh.</person>
+            </p>
+            <p eId="para_2012">
+              <person refersTo="#CarolNolan">Nolan, Carol.</person>
+            </p>
+            <p eId="para_2013">
+              <person refersTo="#CianOCallaghan">O'Callaghan, Cian.</person>
+            </p>
+            <p eId="para_2014">
+              <person refersTo="#RichardODonoghue">O'Donoghue, Richard.</person>
+            </p>
+            <p eId="para_2015">
+              <person refersTo="#RobertODonoghue">O'Donoghue, Robert.</person>
+            </p>
+            <p eId="para_2016">
+              <person refersTo="#KenOFlynn">O'Flynn, Ken.</person>
+            </p>
+            <p eId="para_2017">
+              <person refersTo="#RodericOGorman">O'Gorman, Roderic.</person>
+            </p>
+            <p eId="para_2018">
+              <person refersTo="#LouisOHara">O'Hara, Louis.</person>
+            </p>
+            <p eId="para_2019">
+              <person refersTo="#LouiseOReilly">O'Reilly, Louise.</person>
+            </p>
+            <p eId="para_2020">
+              <person refersTo="#DarrenORourke">O'Rourke, Darren.</person>
+            </p>
+            <p eId="para_2021">
+              <person refersTo="#EoinOBroin">Ó Broin, Eoin.</person>
+            </p>
+            <p eId="para_2022">
+              <person refersTo="#DonnchadhOLaoghaire">Ó Laoghaire, Donnchadh.</person>
+            </p>
+            <p eId="para_2023">
+              <person refersTo="#RuairiOmurchu">Ó Murchú, Ruairí.</person>
+            </p>
+            <p eId="para_2024">
+              <person refersTo="#FionntanOSuilleabhain">Ó Súilleabháin, Fionntán.</person>
+            </p>
+            <p eId="para_2025">
+              <person refersTo="#LiamQuaide">Quaide, Liam.</person>
+            </p>
+            <p eId="para_2026">
+              <person refersTo="#MauriceQuinlivan">Quinlivan, Maurice.</person>
+            </p>
+            <p eId="para_2027">
+              <person refersTo="#PadraigRice">Rice, Pádraig.</person>
+            </p>
+            <p eId="para_2028">
+              <person refersTo="#ConorSheehan">Sheehan, Conor.</person>
+            </p>
+            <p eId="para_2029">
+              <person refersTo="#MarieSherlock">Sherlock, Marie.</person>
+            </p>
+            <p eId="para_2030">
+              <person refersTo="#DuncanSmith">Smith, Duncan.</person>
+            </p>
+            <p eId="para_2031">
+              <person refersTo="#BrianStanley">Stanley, Brian.</person>
+            </p>
+            <p eId="para_2032">
+              <person refersTo="#MarkWall">Wall, Mark.</person>
+            </p>
+            <p eId="para_2033">
+              <person refersTo="#MarkWard">Ward, Mark.</person>
+            </p>
+            <p eId="para_2034">
+              <person refersTo="#JenniferWhitmore">Whitmore, Jennifer.</person>
+            </p>
+          </debateSection>
+          <debateSection name="staon" eId="dbsect_55">
+            <p eId="para_2035">Staon</p>
+            <p eId="para_2036">
+              <person refersTo="#"/>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_215">Tellers: Tá, Deputies Mary Butler and Emer Currie; Níl, Deputies Richard O'Donoghue and Ken O'Flynn.</summary>
+          <summary title="decision" refersTo="#carried" eId="sum_216">Question declared carried.</summary>
+        </debateSection>
+        <summary eId="sum_217">Cuireadh an Dáil ar athló ar 8.46 p.m. go dtí 8.47 a.m., Déardaoin, an 28 Bealtaine 2026.</summary>
+        <summary eId="sum_218"> The Dáil adjourned at 8.46 p.m. until 8.47 a.m. on Thursday, 28 May 2026.</summary>
+        <summary eId="sum_219">
+				</summary>
+      </debateSection>
+      </debateBody>
+  </debate>
+</akomaNtoso>
+`;export{e as default};

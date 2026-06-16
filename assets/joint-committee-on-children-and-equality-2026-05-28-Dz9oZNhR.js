@@ -1,0 +1,1340 @@
+var e=`<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_children_and_equality/2026-05-28/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_children_and_equality/2026-05-28/debate"/>
+          <FRBRdate date="2026-05-28" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/committee/dail/34/joint_committee_on_children_and_equality"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_children_and_equality/2026-05-28/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_children_and_equality/2026-05-28/debate/mul@"/>
+          <FRBRdate date="2026-05-28" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_children_and_equality/2026-05-28/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_children_and_equality/2026-05-28/debate/mul@.akn"/>
+          <FRBRdate date="2026-06-06" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#debates">
+        <TLCPerson eId="AidanFarrelly" href="/ie/oireachtas/member/id/Aidan-Farrelly.D.2024-11-29" showAs="Aidan Farrelly"/>
+        <TLCPerson eId="AislingDempsey" href="/ie/oireachtas/member/id/Aisling-Dempsey.D.2024-11-29" showAs="Aisling Dempsey"/>
+        <TLCPerson eId="ClaireKerrane" href="/ie/oireachtas/member/id/Claire-Kerrane.D.2020-02-08" showAs="Claire Kerrane"/>
+        <TLCPerson eId="GraceBoland" href="/ie/oireachtas/member/id/Grace-Boland.D.2024-11-29" showAs="Grace Boland"/>
+        <TLCPerson eId="JohnConnolly" href="/ie/oireachtas/member/id/John-Connolly.D.2024-11-29" showAs="John Connolly"/>
+        <TLCPerson eId="KeiraKeogh" href="/ie/oireachtas/member/id/Keira-Keogh.D.2024-11-29" showAs="Keira Keogh"/>
+        <TLCPerson eId="MargaretMurphyOMahony" href="/ie/oireachtas/member/id/Margaret-Murphy-O'Mahony.D.2016-10-03" showAs="Margaret Murphy O'Mahony"/>
+        <TLCPerson eId="NessaCosgrove" href="/ie/oireachtas/member/id/Nessa-Cosgrove.S.2025-01-29" showAs="Nessa Cosgrove"/>
+        <TLCPerson eId="RuairiOmurchu" href="/ie/oireachtas/member/id/Ruairí-Ó-Murchú.D.2020-02-08" showAs="Ruairí Ó Murchú"/>
+        <TLCPerson eId="SharonKeogan" href="/ie/oireachtas/member/id/Sharon-Keogan.S.2020-03-30" showAs="Sharon Keogan"/>
+        <TLCRole href="role/chair" showAs="Chair" eId="Chair"/>
+        <TLCRole href="role/vice_chairman" showAs="Vice Chairman" eId="Vice_Chairman"/>
+        <TLCRole href="role/author" showAs="author" eId="author"/>
+        <TLCRole href="role/editor" showAs="editor" eId="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>AN COMHCHOISTE UM LEANAÍ AGUS COMHIONANNAS</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>Joint Committee on Children and Equality</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2026-05-28">Déardaoin, 28 Bealtaine 2026</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2026-05-28">Thursday, 28 May 2026</docDate>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">Tháinig an Comhchoiste le chéile ag 09:30 a.m.</summary>
+        <summary class="Center" eId="sum_2">The Joint Committee met at 09:30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_3">Comhaltaí a bhí i láthair / Members present:</summary>
+          <table>
+            <tr>
+              <th>
+                <p eId="para_1">Teachtaí Dála / Deputies</p>
+              </th>
+              <th>
+                <p eId="para_2">Seanadóirí / Senators</p>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#GraceBoland">Grace Boland</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#NessaCosgrove">Nessa Cosgrove</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#JohnConnolly">John Connolly</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#MikeKennelly">Mike Kennelly</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#AislingDempsey">Aisling Dempsey</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#SharonKeogan">Sharon Keogan</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#AidanFarrelly">Aidan Farrelly</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#MargaretMurphyOMahony">Margaret Murphy O'Mahony.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#ClaireKerrane">Claire Kerrane.</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#KeiraKeogh">Teachta / Deputy Keira Keogh sa Chathaoir / in the Chair.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Joint Committee<recordedTime time="2026-05-28T09:30:00+01:00"/></heading>
+        <speech by="#KeiraKeogh" eId="spk_1">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T09:30:00+01:00"/></from>
+          <p eId="para_12">Apologies have been received from Senator Nikki Bradley. I propose that we go into private session to deal with housekeeping matters. Is that agreed? Agreed.</p>
+        </speech>
+        <summary eId="sum_5"> The joint committee went into private session at 9.32 a.m., suspended at 9.42 a.m., resumed in private session at 9.46 a.m. and went into public session at 9.46 a.m.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Strategic Priorities Identified by the Chairpersons of the Boards of Tusla and the Adoption Authority of Ireland: Discussion<recordedTime time="2026-05-28T09:40:00+01:00"/></heading>
+        <speech by="#KeiraKeogh" eId="spk_2">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T09:40:00+01:00"/></from>
+          <p eId="para_13">We are joined by Ms Madeleine Clarke, chairperson of the board of Tusla, who is accompanied by Ms Kate Duggan, chief executive. Mr. John McDaid, chairperson of the Adoption Authority of Ireland, is joined Mr. Ross Higgins, principal officer in the information services and records unit, and Mr. Mark Kirwan, administrative officer in the domestic adoption unit. They are all welcome to the meeting, and I congratulate both chairpersons on their new positions. I wish them every success.</p>
+          <p eId="para_14"> In accordance with Dáil Standing Order 104 (7) and Seanad Standing Order 87, an Oireachtas committee has the power to engage in public session with the chairperson designates of State boards or agencies under its remit, and to discuss with them their strategic priorities for their role as chairperson. While the committee is aware that both chairpersons before the committee this morning have already been appointed to their roles, in order to be compliant with the stated Standing Orders of both Houses, they have been invited to appear before the committee this morning.</p>
+          <p eId="para_15"> Before we begin, there are a few housekeeping matters I am obliged to go through. Any members on Microsoft Teams should only use the chat function to make the team on site aware of any technical issues or urgent matters. It should not be used to make general comments during the meeting. </p>
+          <p eId="para_16"> In advance of inviting our witnesses to deliver their opening statements, I want to advise them of the following in relation to parliamentary privilege: they are protected by absolute privilege in respect of the presentation they make to the committee. This means they have an absolute defence against any defamation action for anything they say at the meeting. However, they are expected not to abuse this privilege. It is my duty as Cathaoirleach to ensure that this privilege is not abused. Therefore, if their statements are potentially defamatory in relation to an identifiable person or entity, they will be directed to discontinue their remarks. It is imperative that they comply with any such direction.</p>
+          <p eId="para_17"> Witnesses will be allocated three minutes' speaking time to deliver their opening statements. The opening statements will be followed by a questions and answers session with our members. I will call Ms Clarke first and then Mr. McDaid.</p>
+          <p eId="para_18"> I invite Ms Clarke to give her opening statement.</p>
+        </speech>
+        <speech by="#" eId="spk_3">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T09:40:00+01:00"/></from>
+          <p eId="para_19">I thank the members for the invitation to appear before the committee. I look forward to the meeting and hope that we can have a full and frank discussion. I will answer all of the members' questions as fully as possible.</p>
+          <p eId="para_20"> I have been appointed to the role of chairperson for three years. It is a privilege to be asked to serve. I am in the role since January and am already enjoying working with other board members - Mr. McDaid, who also chairs the adoption board, is one of them - and with the members of management team, colleagues in the Department of Children, Disability and Equality and all of the other statutory and non-statutory agencies that Tusla has to work with.</p>
+          <p eId="para_21"> One of my priorities for the next three years is to see the agency through the third year of the corporate plan, which was developed in 2024 and runs to the end of 2026. It is one of my priorities to support it to do that. I will touch on the priority areas for the agency.</p>
+          <p eId="para_22"> One of the areas is enhancing foster care and supports. For children whose families are challenged by adversity, it has long been the agency's policy to place as many as possible with foster carers who can provide alternative care or additional care to the child's own family. As many as possible are being placed with foster carers and they need to be supported. Some 85% of the children currently in State care are with foster carers and that amounts to 5,078 children and young people.</p>
+          <p eId="para_23"> The second priority area is early support and intervention.</p>
+          <p eId="para_24">This includes targeted and universal parenting and family supports, therapeutic services and, of course, the expansion of the family resource centre programme. As members know, early support is critical to prevent problems emerging and avoid exacerbating problems that could otherwise be resolved. It is not just about supporting parents and families in the community. Support is also being provided to foster carers who need it at times and to residential units and staff. Children coming out of State care and being reunited with their families also need support. All of that support provision is the second priority.</p>
+          <p eId="para_25"> Another priority is increasing social work and social care staffing levels, which is probably the issue members hear about most often. Social workers are at the coalface of Tusla's child protection service. Increasing the number employed is critical if we are to make a timely and appropriate response to referrals. Last year, we had 106,444 referrals on top of the existing case load. We increased the number of whole-time equivalent social workers by 40, taking the total to 1,728. It is a constant challenge to recruit and retain social work staff, which we must continue to do. Two years ago, in the face of that recruitment challenge, the agency launched its first social work apprenticeship scheme. A total of 48 apprentices will graduate from that programme on 19 June. Social care workers are critical to the delivery of residential care, special care and early support services. The agency currently has nearly 1,400 social care workers and we need to increase that number.</p>
+          <p eId="para_26"> Another priority area is alternative care. Currently, there are more than 600 children in alternative care in residential units as opposed to foster care. It is within alternative care that we are particularly challenged to meet the needs of very distressed and troubled children who need special care. That is probably the best-known challenge facing the agency.</p>
+          <p eId="para_27"> Separated children seeking international protection, including children coming from Ukraine, are another priority. During 2025, over 1,200 children were accommodated, which necessitated immediate responses.</p>
+          <p eId="para_28"> Some members may be aware that Tusla is undergoing a very extensive integrated reform programme, the implementation of which is our final priority. Following a lot of consultation and planning, the programme went live in January. There is a great deal of nervousness to ensure it goes well. Behind the scenes, it is a complex programme-----</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_4">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T09:50:00+01:00"/></from>
+          <p eId="para_29">I ask that the rest of Ms Clarke's statement be taken as read. We must move on but she will have an opportunity to say more in response to members' questions.</p>
+        </speech>
+        <speech by="#" eId="spk_5">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T09:50:00+01:00"/></from>
+          <p eId="para_30">That is fine.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_6">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T09:50:00+01:00"/></from>
+          <p eId="para_31">I now invite Mr. McDaid to make his opening statement.</p>
+        </speech>
+        <speech by="#" eId="spk_7">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T09:50:00+01:00"/></from>
+          <p eId="para_32">I welcome the opportunity to appear before the committee today. I was honoured to be appointed chairperson of the Adoption Authority of Ireland by the Minister for Children, Disability and Equality, Deputy Foley, on 4 December 2025. The functions of the AAI, which are largely set out by statute, are of both an operational and quasi-judicial nature in relation to the adoption process. The AAI is also the central authority on foot of the 1993 Hague Convention. The Birth Information and Tracing Act 2022 has added to our work in terms of providing for a full and clear right of access to birth and early life information for many. Much of our operational work is shared with Tusla. The AAI also accredits three bodies to carry out certain functions.</p>
+          <p eId="para_33"> I am a solicitor by profession and I spent most of my career working with the Legal Aid Board, initially in its law centres providing advice and representation in family law, childcare, international protection and other civil cases. I was the chief executive of the organisation for a number of years. I have served on the board of Oberstown Children Detention Campus. As Ms Clarke indicated, I am also a board member of Tusla. I acknowledge the work of my predecessor, Ms Orlaith Traynor, the previous board, the leadership team in place at the AAI, and the collective experience and commitment of my fellow board members, all of whom except one are also newly appointed. It is clear to me that the depth of knowledge and experience among our approximately 60 staff is serving the organisation well. I am currently working with the Public Appointments Service and the Department on the appointment of a new CEO for a five-year term. A periodic critical review of the AAI has recently been completed, mapping out certain actions that I believe will help to develop our governance and strengthen the organisation.</p>
+          <p eId="para_34"> Much of the new board's focus to date has been on deepening our understanding of adoption law and practice and on the issues pertaining to birth information and tracing. When we have gained more experience, we will start looking at operational and policy issues. I have not come to the role with fixed views, save that our absolute guiding principle should be to do what is in the best interests of the child. It is evident that the adoption landscape has changed over the years. The AAI will need to remain an agile organisation.</p>
+          <p eId="para_35"> I will now outline some of the relatively early thoughts that occur to me on a number of issues within the AAI's remit. An EU-funded and UNICEF-led exercise is ongoing to develop a best practice framework and a roadmap to strengthen the domestic adoption system in Ireland. Its recommendations will need to be carefully considered. At a recent webinar, a speaker from the Flanders region of Belgium noted the intention to have a much closer alignment between adoption and foster care assessments in that jurisdiction on the basis that both are on a continuum of services for children in need. I have no doubt that this has been reflected upon previously and may feature in UNICEF's work.</p>
+          <p eId="para_36"> The level of intercountry adoption has dropped considerably and several receiving countries are discontinuing adoption arrangements with certain sending countries because of concerns about the process. This is a matter we will need to reflect on very carefully.</p>
+          <p eId="para_37"> A statutory review of the Birth Information and Tracing Act is ongoing and its outcome clearly will have some relevance to us. There are significant numbers of people in Ireland who were adopted from countries with which we are now less connected. Some of those countries are members of the Hague Convention while others are not. Many of the children in question are now young adults and are likely to become more interested in their own backgrounds. We will need to reflect on how we can assist that cohort.</p>
+          <p eId="para_38"> In making these observations I am conscious that it is the Minister who has policy responsibility, that the Department has an adoption policy unit and that Tusla is a very significant player. I thank the committee for the opportunity to present this statement. I look forward to addressing any questions members may have.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_8">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T09:50:00+01:00"/></from>
+          <p eId="para_39">I thank Mr. McDaid. Is it agreed to publish the opening statements to the Oireachtas website? Agreed.</p>
+          <p eId="para_40"> I remind members that they will be allocated seven minutes each. Witnesses are advised that I am very strict on speaking time in the first round because I want to respect everybody's position on the rota. The allocation of seven minutes for each member must include witnesses' responses. If time permits, I will allow a second round of questioning. I ask members to adhere to the agenda under consideration in their contributions and to direct their questions to the relevant board chairperson. In accordance with the circulated speaking rota, and noting that the Senator participating online is in the Seanad, I call Deputy Connolly.</p>
+        </speech>
+        <speech by="#JohnConnolly" eId="spk_9">
+          <from>Deputy John Connolly<recordedTime time="2026-05-28T09:50:00+01:00"/></from>
+          <p eId="para_41">All the witnesses are very welcome. I thank Ms Clarke and Mr. McDaid for their opening statements. I wish them both well in their roles. Ms Clarke has taken on a role in which she is overseeing the policy of the State organisation responsible for some of our most vulnerable and marginalised people. I sincerely wish her well and hope she has a successful term as chairperson of Tusla.</p>
+          <p eId="para_42"> I have a few general queries regarding the day-to-day management and running of Tusla, as well as a couple from a policy perspective. Regarding the therapeutic services the agency provides, am I interpreting Ms Clarke's statement correctly in saying they are provided solely for children in care and not also for children and their families in a pre-care context?</p>
+        </speech>
+        <speech by="#" eId="spk_10">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T09:50:00+01:00"/></from>
+          <p eId="para_43">Therapeutic services are not just for children in care. They are also provided for children in the community.</p>
+        </speech>
+        <speech by="#JohnConnolly" eId="spk_11">
+          <from>Deputy John Connolly<recordedTime time="2026-05-28T09:50:00+01:00"/></from>
+          <p eId="para_44">Are resources scarce in terms of the provision that can be afforded to those children?</p>
+        </speech>
+        <speech by="#" eId="spk_12">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T09:50:00+01:00"/></from>
+          <p eId="para_45">It is fair to say that resources are scarce generally. There is always more need than we can meet. Having said that, we were rated in third place last year for this year's budget and we received much more of an increase percentage-wise than many other agencies. We were delighted with that but, certainly, resources are scarce.</p>
+        </speech>
+        <speech by="#JohnConnolly" eId="spk_13">
+          <from>Deputy John Connolly<recordedTime time="2026-05-28T09:50:00+01:00"/></from>
+          <p eId="para_46">Is any of that scarcity related to the lack of suitably qualified personnel to undertake the roles?</p>
+        </speech>
+        <speech by="#" eId="spk_14">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T09:50:00+01:00"/></from>
+          <p eId="para_47">Sometimes it is related. There are not enough qualified people coming through and they have a number of employment options. We have done a couple of things in the face of that challenge of not being able to attract enough personnel. In two of the professional grades, namely, social work and social care, Tusla decided to initiate an apprenticeship programme at UCC to allow for an additional route into those professions. It is very important not to be confined to the traditional routes through which people come to us. Another factor is that in my original profession of psychology, for instance, the number of people who opt for private practice as opposed to public agency employment is quite stark. I am sure the same is true of other professions.</p>
+          <p eId="para_48">Another point I would make is that, sometimes, the reporting or portrayal of Tusla can be very focused on the difficulties and challenges we are struggling with. That is completely appropriate, and we need to be clear and transparent about those challenges, but that picture can sometimes be incomplete and lack balance. As an agency, we probably have some work to do to improve our public image so that professionals will want to come to work within Tusla, which in my experience so far has been a very good and supportive environment.</p>
+          <p eId="para_49"> It is complex and there are several issues there.</p>
+        </speech>
+        <speech by="#JohnConnolly" eId="spk_15">
+          <from>Deputy John Connolly<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_50">That is very honest.</p>
+          <p eId="para_51"> Regarding Ms Clarke's point on support being needed to increase opportunities for children to be reunited with families, what is the nature of that support? Is it social work support?</p>
+        </speech>
+        <speech by="#" eId="spk_16">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_52">It could be social work or social care. For example, I visited the family support services in the Deputy's own county a couple of weeks ago and I asked if they were mainly involved with early intervention and prevention of problems in the community. They assured me that they were. They run a kind of emergency service, so if a placement is breaking down, for example, where a young person who has been quite settled in a placement hits teenage years and several things are going on, the support can be varied. In the group I was talking to, they had everything from a social care worker driving a child to school every morning. They generally roll up their sleeves and do what is needed to support.</p>
+          <p eId="para_53"> For reunification, we find many children go back to original families where that is at all possible. Rather than leaving them to their own devices and only providing support to residential care staff, there is also a commitment to provide to the families of origin.</p>
+        </speech>
+        <speech by="#JohnConnolly" eId="spk_17">
+          <from>Deputy John Connolly<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_54">On that issue of the availability of social work teams and social workers, in the context of the number of referrals last year and the initial triage of those referrals, does Ms Clarke have any idea what proportion might not have been afforded a social worker?</p>
+        </speech>
+        <speech by="#" eId="spk_18">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_55">That is a good question, to which I do not have the exact answer. Can my colleague assist?</p>
+        </speech>
+        <speech by="#" eId="spk_19">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_56">We had over 106,000 referrals last year, which was a 10% increase. Already this year in quarter 1, we saw another 10% increase in referrals.</p>
+          <p eId="para_57"> A very important part of the reform programme we are undertaking is that, up until December 2025, every referral had to come through a social work initial assessment or screening. For many families who wanted family support, early support or early intervention, they did not need the intervention of a social worker or the child protection system. A huge part of our reform is the introduction of a new portal for referrals, whereby people in the community can now refer for family support services and do not have to go through a child protection service. It also means that every child is being screened by a multidisciplinary team so that if their needs are more appropriate to family support or early intervention, they can be supported in that way much earlier than would be the case if they needed a child protection service. This allows for more timely access to the most appropriate service for young people, but it is also makes sure that we are using our social work professional resource in the way it needs to be used. We need to make sure that all of those children who need a social worker in terms of child protection have a social worker allocated to them.</p>
+        </speech>
+        <speech by="#JohnConnolly" eId="spk_20">
+          <from>Deputy John Connolly<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_58">That is a very in-depth answer, and I will have to reflect on it at some point. What number have not gone through that initial part?</p>
+        </speech>
+        <speech by="#" eId="spk_21">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_59">Currently, 72% of our cases are allocated to a social worker. With the reform, we are hoping that that will go up to 100% because social workers will no longer have to do work that is better left to a family support worker or a social care worker.</p>
+        </speech>
+        <speech by="#JohnConnolly" eId="spk_22">
+          <from>Deputy John Connolly<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_60">The time has gone very quickly and I have questions for the AAI as well, but does Tusla have any comment on the educational provision within the alternative care locations?</p>
+        </speech>
+        <speech by="#" eId="spk_23">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_61">I cannot comment just yet, other than on the special care units. I have been to the three special care units - twice to one of them - as well as to the schools. They are well provided for and full of very dedicated people. However, in terms of general residential care, I have only been to the accommodation side since I started in February, so I cannot particularly comment on that.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_24">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_62">The witnesses are very welcome. I congratulate Ms Clarke and wish her the very best of luck in her role at Tusla. It holds a huge burden of responsibility for some very vulnerable people in our society. I am very happy to work constructively with Tusla and to support Ms Clarke.</p>
+          <p eId="para_63"> I met one of Ms Duggan's social workers in north County Dublin this week, and I cannot speak highly enough of her. Some of the stories she relayed to me were deeply disturbing and we have a huge amount of work to do in the system, but I wanted to put on the record that I was very impressed with her.</p>
+          <p eId="para_64"> I congratulate Mr. McDaid on his appointment. What are the AAI's strategic priorities? As it happens, I received a letter yesterday from someone who had been born in a mother and baby home and was asking how he would go about trying to contact his mother. Mr. McDaid might speak to how easy that is or how the system has moved on in that regard.</p>
+        </speech>
+        <speech by="#" eId="spk_25">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_65">I thank the Deputy. As regards the strategic priorities, most of the board members are newly appointed and we are a quasi-judicial body as well as a policy and governance body. Therefore, much of our time has been spent on dealing with cases and, in many ways, learning how to figure out what the issues that are popping up are when we deal with case work. There are already issues that are apparent to us. The maximum age for adoptive parents is one that has cropped up in the case work. The appropriateness of adoption in post-divorce situations is also something that has appeared before us. Those are issues that-----</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_26">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_66">What about single parents? Can a single person apply for adoption?</p>
+        </speech>
+        <speech by="#" eId="spk_27">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_67">Yes, they can. We have provided some numbers on couples and single parents who have applied. Of the 112, there are around 12 to 15 single parents who applied last year, and they were processed in the normal way.</p>
+          <p eId="para_68"> Some of the broader policy issues that will need to be dealt with include intercountry adoption. Clearly, the figures we have given show a huge drop in the number of children who have been adopted from abroad over the years. Last year, there were three countries we received children from. We network with other receiving countries on good practice and policy. We are learning from this. There are countries that we have previously adopted from that we do not take children from any more. The landscape is constantly changing, and there are issues there that we will certainly need to reflect on. I flagged to-----</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_28">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_69">In respect of the trend in adoption numbers, where are we now versus ten years ago and where does Mr. McDaid think the trend is going?</p>
+        </speech>
+        <speech by="#" eId="spk_29">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_70">We are way down in terms of intercountry adoptions. The figures suggest we had literally thousands 20 years ago. Last year, we had 14. However, the figures for domestic adoptions are relatively stable. Again, there is some information in the briefing document. We had 1,400 domestic adoptions 50 or 60 years ago. It was 101 last year and 131 the year before. Approximately half of those were step-parent adoptions. Of the 101, approximately 30 to 35 were long-term foster care to adoption. There was a relatively small number of infant adoptions.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_30">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_71">How easy is the process now as regards mother and baby homes?</p>
+        </speech>
+        <speech by="#" eId="spk_31">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_72">I might pass that question to my colleague, Mr. Higgins.</p>
+        </speech>
+        <speech by="#" eId="spk_32">
+          <from> Mr. Ross Higgins<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_73">If the Deputy wishes to supply the details of her constituent afterwards, we can follow up with them.</p>
+          <p eId="para_74"> Depending on the institution, there are a suite of avenues. There are three services that have been implemented under birth information and tracing that might be relevant. The first is the right to access records. If the person goes to <i>birthinfo.ie</i>, they will be directed to us or Tusla, whomever may hold the records, and this is provided access. There may be information from the institution that gives origin information.</p>
+          <p eId="para_75"> The second service that has been introduced is the contact preference register, which for all intents and purposes is a matching point for birth parents and adoptees or other people seeking contact with their relatives. If we find a match, we then offer mediation services delivered by our social work team to facilitate contact. If, for example, there is nothing there, the third option is to apply for a tracing service, which is a statutory service to help people locate family relatives, obviously with priority for parents and children.</p>
+          <p eId="para_76">However, we often locate siblings so they have those three options and <i>birthinfo.ie</i> is the key one-stop shop for us and Tusla delivering both of those services. It will probably depend on the specific circumstances but we will obviously assist any service user referred to us.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_33">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_77">I appreciate that. The work of the Adoption Authority of Ireland has reduced significantly over the years. What is the future of the organisation?</p>
+        </speech>
+        <speech by="#" eId="spk_34">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_78">That is a hard one to answer. There are policy issues that I think will evolve over time. Clearly, the fall off in intercountry adoptions may well continue. The numbers are very small and could become smaller. In terms of foster care to adoption, I think there is potential for those numbers to grow. The number of infant adoptions is small. I think the number was six or seven last year. I do not see that number increasing. </p>
+          <p eId="para_79"> Regarding the birth information and tracing side of things, immediately after the legislation was introduced in 2022, there was huge demand for the service. I think that has tapered off to some extent and that may well continue to taper off but there are still identity issues. Approximately 5,000 children were adopted from abroad over the past 25 years or thereabouts. I think it is going to be a major issue. A lot of them are now maturing and becoming adults. I think the average age when an adult becomes interested or starts actively searching for his or her personal history is 35 so we would anticipate that over the next few years, a lot of people will be trying to find out more about their birth circumstances from countries with which we may no longer have a close relationship. There will be a lot of challenges there. </p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_35">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_80">I congratulate the witnesses on their roles and offer my best wishes for the time ahead. As I have said on the record of the Dáil, far too often, it is very easy to point the finger at Tusla with regard to a number of matters. I have reminded the Minister that there is an entire Department and we cannot afford a hands-off approach when it comes to the welfare and the care of children in our State. While it may be easy to point the finger at Tusla, we have to remember that we are all responsible and we have an entire Department, Government and Minister who are responsible as well. I wished to make that point before commenting or asking my questions.</p>
+          <p eId="para_81"> Regarding Tusla's opening statement about building capacity, improving residential care capacity and increased recruitment for the delivery of residential and special care services, the strategic plan from 2022 to 2025 for residential care services spoke about increasing capacity during that period. How have we built capacity? Commitments were made specifically for voluntary residential services. How many additional beds do we have in voluntary residential services? </p>
+        </speech>
+        <speech by="#" eId="spk_36">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_82">Do we have that number to hand? </p>
+        </speech>
+        <speech by="#" eId="spk_37">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_83">I think the Deputy referenced this strategic plan that we wrote back in 2022. In that strategic plan, we identified that we would deliver 110 additional residential beds. None of us could have predicted the significant demand that would have come as a result of global movement and separated children seeking international protection so in fact, we opened about 60 beds within our mainstream services and we had to open 71 registered centres. Over 1,100 separated children seeking international protection were in the care of or had been accommodated by Tusla so the scaling of the capacity had been through mainly our statutory and our private provision. The community and voluntary sector had very clearly articulated to me back in 2022 that there were three significant factors preventing them from scaling. The first involved issues around sustainability. With the support of the Minister and the Government, in 2024, we were able to get an additional €5 million in funding for the community and voluntary sector to be able to support it with sustainability issues. The second issue related to staffing. The sector was struggling to recruit staff in the same way we were. The third issue was capital. The sector did not have the ability to invest in infrastructure in terms of opening residential units. The first step we took was to work in a hybrid way with one community and voluntary provider where we own the building and it ran it. Unfortunately, the answer is that the community and voluntary sector has been unable to provide one additional bed for us in terms of residential capacity over that three-year period. </p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_38">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_84">Of course, given that they are voluntary and not-for-profit, these residential services are not going to be in a position to increase capacity themselves. Unless they are given a building or given money in terms of capital, that is impossible. What really galls me is the fact that we have a decreasing number of voluntary services. The ones I have met have actually been able to retain their staff. They have workers who have been there for 20 or 30 years with a wealth of experience. My concern is we have residential services that are regulated to the hilt and rightly so, they account for every red cent and return money where it is not spent and they are fundraising to keep their doors open because they do not have enough money to just run week to week yet they are providing an incredible service. I have been in them. I have visited them. Compare this to millions and millions that are there on hand for unregulated private for-profit companies in terms of special emergency arrangements. There is something very wrong there. A crisis is expensive and that is part of the problem. I absolutely take that point but I think we really need to push the Minister ahead of the budget for more funding for our residential services. We should be looking at not-for-profit when it comes to care of the most vulnerable children in our State. With regard to residential care, we need to be really clear. It is not really a case that they could not build or they could not provide X,Y or Z. They are not-for-profit and voluntary. They do a really good job but if they do not have the capital or the buildings, they will not be able to do that. That is it. They will look for more money to stand still but they do not receive enough to stand still so it is important to make that point. </p>
+          <p eId="para_85"> In the new grade, how does someone become a special care worker? </p>
+        </speech>
+        <speech by="#" eId="spk_39">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_86">How does one apply? </p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_40">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_87">Yes. How does someone qualify? </p>
+        </speech>
+        <speech by="#" eId="spk_41">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_88">There is an expanded list of qualifications where you can apply to become a special care worker such as social care, psychology or youth worker.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_42">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_89">Could the Deputy put her question to the chairperson? </p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_43">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_90">I am but whoever wants to reply can reply. </p>
+        </speech>
+        <speech by="#" eId="spk_44">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_91">I am happy to answer that. I welcome Deputy Kerrane's opening remarks. We could not agree more. It is an objective of the organisation to increase reliance on the community and voluntary sector, particularly in the residential care area. We have been talking about how we can be creative and innovative in supporting the sector to take a bigger share of responsibility because as that would be the preference of the agency, that is being actively looked at. The Deputy rightly points to that as a challenge that we need to meet. </p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_45">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_92">But unless Tusla gives it the money, and I take the point that it cannot happen unless the Minister gives Tusla the money to give the money, it cannot expand. To me, it is the best case in terms of residential services but it can do nothing. The services are struggling to keep their doors open. Five of them in particular are nearly gone, which is really concerning given the crisis. Regarding the special care grade, how does one become a special care worker? </p>
+        </speech>
+        <speech by="#" eId="spk_46">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_93">As the CEO has said, one applies for the job and looks at the criteria. A person needs to meet certain criteria to get through so it is a range of qualifications and experience. One could also register interest in training Tesla is providing. In order to increase the number of special care workers and not receiving a satisfactory response to the advertisement, Tusla has been looking to see whether it could become involved in training and bringing people who have potential to really make a great contribution in that area. We have a number of people who have-----</p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_47">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_94">It is a six-month course. I will come back. </p>
+        </speech>
+        <speech by="#AislingDempsey" eId="spk_48">
+          <from>Deputy Aisling Dempsey<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_95">I thank all the witnesses for being here today. </p>
+          <p eId="para_96">I want to speak to Mr. McDaid about domestic adoptions and the parents who adopt in this country and who then try to adopt a second child. These parents find the process extremely long, sometimes as long as when they first sought permission to adopt. I want to focus on this a little, if we can. I do not have the numbers in front of me, but I assume that because people are having children older in this day and age, fertility issues and the like are being identified later. Therefore, people putting themselves forward to adopt children are probably already in the older age group. For those who are lucky enough to have adopted for the first time, it seems the process is too long if they want to adopt a second child. In my experience, this is putting couples off adopting a second child. Is that a priority for the witness to examine?</p>
+        </speech>
+        <speech by="#" eId="spk_49">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_97">It is something we can keep in mind. The circumstances in which that would happen are most likely to relate to children in long-term foster care, maybe where the proposed adoptive parents or adoptive parents have more than one child in long-term foster care. There is a process for securing declarations of eligibility and suitability, and those declarations are time-bound. If the declaration of eligibility and suitability has expired after the first adoption, a new declaration of eligibility and suitability will need to be sought in respect of the second child.</p>
+          <p eId="para_98"> I can hear the Deputy’s point, which I hope I am paraphrasing correctly, that if a person has been through the process once and the adoption is working, the process should be more efficient the second time around. I will certainly take that on board. If there are individual cases of inefficiency causing concern, I would welcome them being brought to our attention. Mr. Kirwan is the manager of the domestic adoption unit. He might want to comment.</p>
+        </speech>
+        <speech by="#" eId="spk_50">
+          <from> Mr. Mark Kirwan<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_99">I guess from the context that this might refer more to infant adoption by couples. The issue in this regard is that the number of infants is far lower than the number of couples seeking to adopt. The average, as we have mentioned, is about five infants per year being placed for adoption, whereas at any given time upwards of 30 couples are approved and awaiting a match with an infant. It is simply a case of there being far fewer infants available to be placed than there are families.</p>
+          <p eId="para_100"> If someone has adopted already, the process can be fine-tuned and shortened because the information is already on hand. However, the issue is more that if a person has been lucky enough to have had an infant placed with them once, the odds are far greater the next time because there are so many families looking for a child these days. I see it as a positive that there are so few infants in this situation. There is never any wait to get an infant into a home because there are so many families available.</p>
+        </speech>
+        <speech by="#AislingDempsey" eId="spk_51">
+          <from>Deputy Aisling Dempsey<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_101">When an infant is placed, or the adoptive parents are identified, there is a six-month wait where the child is in foster care before he or she can be placed with the chosen parents. I had questions over that but, when I spoke to some people involved, they explained to me that even though they wanted to get the child into their home as quickly as possible, they understood the reason for the six-month timeframe, which relates to considerations regarding the birth parents and all of the decisions they have to make.</p>
+          <p eId="para_102"> The next six-month period – it can be up to that – in which the paperwork is finally signed is a real killer for the adoptive parents. They are still in limbo and the child is still not theirs. They feel – the witness will tell me whether this is true – that there is still the opportunity for the parent to change his or her mind. It seems like a very long period of time. Could that be made a priority?</p>
+        </speech>
+        <speech by="#" eId="spk_52">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_103">Sure. We will take that on board and reflect on it in terms of the timeline and the broader point in terms of trying to do things as quickly as possible while respecting everybody’s rights, including the rights of the birth parents and particularly the rights of the birth parents of very young infants who may be asked for their consent at times when they are very vulnerable, and the precautions that need to be taken around that. We will certainly take the broader point on board.</p>
+        </speech>
+        <speech by="#AislingDempsey" eId="spk_53">
+          <from>Deputy Aisling Dempsey<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_104">I thank Mr. McDaid. What is the maximum age at which a parent can adopt?</p>
+        </speech>
+        <speech by="#" eId="spk_54">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_105">There is none officially or unofficially. Cases present where the applicant is of a certain age and that the board has been considering fairly carefully. There are a couple of those ongoing. Health checks are done on applicants. The objective is that the proposed adoptive parent will be able to, and be present, to see the child through to adulthood. The answer is that there is no definitive age.</p>
+        </speech>
+        <speech by="#AislingDempsey" eId="spk_55">
+          <from>Deputy Aisling Dempsey<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_106">That is good because, if there were, it would be discriminatory. However, health and all such considerations are completely understandable.</p>
+          <p eId="para_107"> My final question is also for Mr. McDaid. I understand why we try to keep children in foster care and eventually reunite them with their families, but there is such a low level of adoption in this country. Of the 101, 50% were, for want of a better phrase, an administrative tidy-up exercise before the children became adults. Fifty is a really low number. Are we keeping children in foster care too long with no chance of them ever being returned to the parents? Is that a matter Mr. McDaid is considering?</p>
+        </speech>
+        <speech by="#" eId="spk_56">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_108">That is a matter that we, certainly as a board, have not really reflected on yet. The Deputy can see from the briefing document that the highest percentages of children adopted are between the ages of 16 and 18. Adoption of a child can take place only before their 18th birthday. That is a policy issue we will get to and it is one that we need to work very closely with Tusla on. In my opening remarks, I made some comments around the continuum of care and the potential to examine closer connection between foster care services and adoption services. I am speaking from the Adoption Authority’s perspective rather than Tusla’s necessarily.</p>
+        </speech>
+        <speech by="#AislingDempsey" eId="spk_57">
+          <from>Deputy Aisling Dempsey<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_109">I thank Mr. McDaid.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_58">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_110">Cuirim fáilte roimh gach duine. Comhghairdeas.</p>
+          <p eId="para_111"> I caveat my remarks because you cannot underestimate the complexity of the issues Tusla deals with, and even some of the issues that come to me as a constituency TD. They are not always straightforward. However, we need to make sure we provide the best support for some of our most vulnerable children. From that point of view, it is about ensuring we have enough staff to do what needs to be done.</p>
+          <p eId="para_112"> On the basis of the witnesses’ statement and the information we received previously, there are about 1,397 social care workers and 1,728 social workers. Obviously, there will be agency staff in addition, but the numbers do not seem to have moved in the past while. Tusla representatives have been before this committee a number of times and I was told that, based on the numbers given, Tusla is about 300 short, at least, for social workers, and at least 100 short for social care workers. Is that the case? If it is, Tusla cannot provide the service it wants to provide. How do we address it? There is not much point talking about apprenticeship models or whatever unless we can see staff <i>in situ</i> and able to deal with cases in front of them.</p>
+        </speech>
+        <speech by="#" eId="spk_59">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_113">I do not have the exact numbers but the Deputy is definitely right in identifying the shortage. The main challenge facing the agency is capacity. My sense at this point, just from the short time in which I have been in my role, is that the staff are extremely dedicated and extremely committed, and sometimes dealing with very challenging situations.</p>
+          <p eId="para_114">We have some control over the capacity issue but not total control. The issue is not that we do not have the finance to fill the vacancies. We have the support of the Minister to fill the vacancies.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_60">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_115">The people are not there and we do not have a sufficient amount of throughput.</p>
+        </speech>
+        <speech by="#" eId="spk_61">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_116">That is right.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_62">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_117">That falls on the Government. There is no point in saying it does not. If that is the case, we are destined to continue with an element of failure.</p>
+          <p eId="para_118"> I will throw something else out. I am aware that the caseload weighting system is not always applied. If my understanding of this is correct, the system takes into account the complexity of issues to ensure those who work with these cases are not bogged down in difficult circumstances without the resources to carry out the work. If that system is not in operation, it can only be on the basis that all cases need to be assigned to someone and it is probably the case that people will not have the capacity to follow through with what is necessary. That puts staff under pressure and does not deal with whatever resources are required by the children.</p>
+        </speech>
+        <speech by="#" eId="spk_63">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_119">The Deputy is quite right. The agency is under pressure and does not have enough staff. What is within our remit to do is to be as innovative as possible about attracting people to the agency. That can be in an atmosphere where people have quite a negative view of the agency so that is a challenge.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_64">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_120">I get that, but would it also-----</p>
+        </speech>
+        <speech by="#" eId="spk_65">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_121">We can also be as creative as possible with regard to creating new grades, like special care, for example. We can be creative in training up people and supporting them, but the Deputy is quite right that there are challenges and difficulties because of the lack of capacity. One of the most important things to deliver under the reform programme is having a more rational distribution of scarce resources across the country. That means some people have gained in their caseloads. Other people may have reduced their caseloads.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_66">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_122">What I would be worried about in that is if we were to do it on the basis of population numbers, the areas that have the more complex issues, such as areas of extreme deprivation, would have reduced resources.</p>
+        </speech>
+        <speech by="#" eId="spk_67">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_123">Actually that is not the case. The rationalisation is based on a more nuanced set of metrics and takes deprivation and disadvantage into account. It is important to know that.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_68">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_124">That is necessary. Does Tusla have any intention in the near future to put the caseload weighting system back in operation?</p>
+        </speech>
+        <speech by="#" eId="spk_69">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_125">That is an operational matter.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_70">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_126">Can someone come back to me about it?</p>
+        </speech>
+        <speech by="#" eId="spk_71">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_127">We have a caseload weighting system in operation. If I can just------</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_72">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_128">I did not just take this from nowhere. I was told by some in particular areas------</p>
+        </speech>
+        <speech by="#" eId="spk_73">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_129">It is challenging to implement.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_74">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_130">-----that it is not being operated because there is not the capacity in the system to operate it.</p>
+        </speech>
+        <speech by="#" eId="spk_75">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_131">The chair has reflected that capacity is an issue and that we need more staff on the front line. However, in December in the 17 areas, the smallest number of cases open to a social worker in an area was approximately 1,500 cases and the largest number was 3,000 cases. Since January, the largest number open to a social worker in an area is 1,200. Therefore, the number of cases open to a social worker has been halved in some areas because we have been able to redistribute the caseloads and the workers. It is the same for children in care. One of the benefits of the reform programme is that we now know where the greatest demand is and we are trying to put the most resources into areas of deprivation but we also know where, when we get additional resources, where it will be best to put those staff in order to meet the needs of an area.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_76">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_132">That is while accepting it is far from perfect and we do not have enough.</p>
+        </speech>
+        <speech by="#" eId="spk_77">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_133">We do not have enough.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_78">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_134">Has Tusla been given anything by the Government to lead it to believe we will have enough in the near future?</p>
+        </speech>
+        <speech by="#" eId="spk_79">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_135">We got a 14% increase last year, but that is in the context of seeing a 10% increase in demand last year and another increase of 10% this year. The chair referenced-----</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_80">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_136">Am I correct about the 300 and 100 or what numbers are required?</p>
+        </speech>
+        <speech by="#" eId="spk_81">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_137">It is about that.</p>
+        </speech>
+        <speech by="#MargaretMurphyOMahony" eId="spk_82">
+          <from>Senator Margaret Murphy O'Mahony<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_138">I welcome all the witnesses. I apologise for running late. It has been one of those mornings when I had to be at 100 things at the same time. If these questions have been covered, please let me know and I can watch the video.</p>
+          <p eId="para_139"> My first question is for the Adoption Authority of Ireland. Can I get the numbers of foreign and Irish adoptions in the past year? Is the assessment the same for both? If a couple is being assessed for a local Irish adoption, can they be put on the list for a foreign adoption and <i>vice versa</i>?</p>
+        </speech>
+        <speech by="#" eId="spk_83">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_140">In the last calendar year, we had 14 intercountry adoptions involving adoptive parents who were resident in Ireland and we had 101 domestic adoptions, where both the adoptive parents and the child were resident in Ireland.</p>
+          <p eId="para_141"> What was the second part of the Senator's question?</p>
+        </speech>
+        <speech by="#MargaretMurphyOMahony" eId="spk_84">
+          <from>Senator Margaret Murphy O'Mahony<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_142">Is the assessment across both types?</p>
+        </speech>
+        <speech by="#" eId="spk_85">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_143">All applicants are required to obtain from us a declaration of eligibility and suitability. They specifically apply for a declaration on the basis they intend to pursue a domestic adoption or an intercountry adoption. Are the processes treated completely separately? I will pass to my colleague Mr. Kirwan to answer that.</p>
+        </speech>
+        <speech by="#" eId="spk_86">
+          <from> Mr. Mark Kirwan<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_144">The process of assessment and the ideals behind a declaration of eligibility and suitability are based on the requirements of the Hague Convention. It is an international or intercountry approach that we have applied to the domestic side since 2010. They are equivalent and we have cases where one type will be switched to the other because of the circumstances. The couple might decide they wish to change approach and switch from domestic to intercountry or <i>vice versa</i> or sometimes there can be a specific need. The complications in infant cases these days often involve infants with significant special needs, so although, as I mentioned previously, we have upwards of 30 couples who are eligible and suitable, there is also their capacity to accommodate additional needs in a child. Sometimes, we have gone from one system to another to identify a couple who has a declaration for a different jurisdiction but is needed to meet the needs of a child in Ireland who has become available.</p>
+        </speech>
+        <speech by="#MargaretMurphyOMahony" eId="spk_87">
+          <from>Senator Margaret Murphy O'Mahony<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_145">I thank Mr. Kirwan.</p>
+          <p eId="para_146"> My next question is for Tusla. What evidence is there that current early intervention and family support measures are effectively reducing placement breakdowns and improving reunification outcomes?</p>
+        </speech>
+        <speech by="#" eId="spk_88">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_147">As the chair referenced in her opening address, one of the absolute strategic priorities for Tusla is to expand, grow and promote the work we do in early intervention and support. We do that because we know the outcomes are better. We know when children receive early intervention and early family support, we can mitigate against families reaching a point of crisis where children have to be taken into care. It is important to say that early support is not just from Tusla because often it is the birth parents who need support, for example, from adult mental health services or addiction services.</p>
+          <p eId="para_148"> This year, we increased our funding. We are funding 136 family resource centres. As part of our reform programme, we are currently setting up 90 new early intervention and family support teams. That means across our 30 areas, three family support and early intervention teams will be in place. We are doing that because at least 60% of our 106,000 referrals last year were looking for family support and early intervention. That is what they needed rather than child protection. Therefore, for the first time, new dedicated family support and early intervention teams will be able to provide more timely access to services. We are also funding more than 450 community and voluntary sector agencies. That is a core part of how we deliver our services. We also support where there is a risk of breakdown in foster care services or residential services. We put supports around those young people to try to prevent that placement breaking down. Certainly, it is a huge part of our work.</p>
+        </speech>
+        <speech by="#" eId="spk_89">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_149">I will add to that as the Senator was looking for hard evidence? To get hard evidence of to what extent an intervention creates an effect means controlling a lot of variables.</p>
+          <p eId="para_150">As the Senator will be aware, in the social area it is not really ethical to set up control and experimental groups in that way. We notice that since the reform programme data has come through, in areas where there is more investment in family support, there is less reliance on residential care. Correlation does not prove the cause but we are now thinking that our impressionistic sense that early intervention can divert people away from residential care works. However, looking at the causative connection is quite an extensive and expensive piece of work to do. I think it is safe to say that the impression is probably true.</p>
+          <p eId="para_151"> We tend to look at residential care as the final option when things are really completely broken down but not all countries look at residential care for children in that way. Some countries see it as part of a continuum of support where perhaps the children come in and provide a family with respite while gathering their strengths and building their capacity. It is not necessarily the end of the line. There is definitely an interplay but the hard evidence is more difficult to categorically state. It is more of an interesting correlation at this point, to be fair.</p>
+        </speech>
+        <speech by="#MargaretMurphyOMahony" eId="spk_90">
+          <from>Senator Margaret Murphy O'Mahony<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_152">I thank the Chair. I will not get a chance until the next round.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_91">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_153">The Senator had 15 seconds for a second question. We will go now to Senator Sharon Keogan.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_92">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_154">The witnesses are all very welcome. I will start by stating that there are many social workers and people involved in Tusla who do a wonderful job day in, day out. I have nothing but admiration for them. However, I still have concerns. Last June, the District Court in Dublin ordered a review of the Child and Family Agency. It was discovered that there were 859 directions included in care orders relating to 471 children that were not complied with, and these cases were never re-entered before the court. The court concluded that the agency had failed in its statutory duty to each one of those 471 children and that the agency systems in place across all levels to manage, monitor, record and oversee care orders and court directions were not fit for purpose. What has Tusla done to improve that, the quality of the Tusla services, and trust in the organisation in relation to that judgment?</p>
+        </speech>
+        <speech by="#" eId="spk_93">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_155">That is a fair question. I am only in this role since February of this year so this is a situation that precedes my time in the role but is continuing. I think it is fair to say that when I was coming into the role I felt that there were real difficulties here, that the agency was facing particular challenges, and that we were definitely challenged in these respects. My sense is that we have to respond better. We have to be innovative and resourceful. I think the range of actions in trying to attract capacity and build capacity from within is our best response to that situation. Nobody wants to be in that situation. Nobody wants that distressing set of data. In terms of the detail, it was before my time. I will hand over to Ms Duggan.</p>
+        </speech>
+        <speech by="#" eId="spk_94">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_156">I want to reassure Senator Keogan that this was a very challenging circumstance which was going back ten years. As the Senator said, the right systems and processes were not there. It was about the fact that if there was a court direction to have a social worker allocated, that was not possible. That is now completely fixed.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_95">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_157">That is fixed. Okay.</p>
+        </speech>
+        <speech by="#" eId="spk_96">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_158">Everything has been re-entered to the court. Where there is a breach of court direction, the court is notified and we have an IT system now that tracks this. It can produce monthly reports to show us there are no breaches in front of the court.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_97">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_159">In relation to care orders and new-born removals from birth, what are the figures on that at this moment in time with the child protection notification system? I refer to the newborn removals following birth. What are the numbers in relation to that or does Tusla have any of those numbers?</p>
+        </speech>
+        <speech by="#" eId="spk_98">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_160">I do not have them to hand-----</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_99">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_161">Tusla does not have that.</p>
+        </speech>
+        <speech by="#" eId="spk_100">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_162">-----but I can get them to the Senator later on.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_101">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_163">How many would it be, roughly, each year?</p>
+        </speech>
+        <speech by="#" eId="spk_102">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_164">I think it may be around 100 a year.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_103">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_165">The adoption statistics seem to be growing every year. They are about 100, 101 or 102 or whatever it is. How many people apply for adoption per year? With those children who are coming out through the system here, do the organisations speak to each other in relation to those babies who are removed following their birth?</p>
+        </speech>
+        <speech by="#" eId="spk_104">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_166">I will come back to the numbers. The number of infants who were available for adoption is very small. I think it was about six last year or thereabouts. On the number of applicants, I think we granted about 117 declarations of eligibility and suitability to people applying for domestic adoption last year.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_105">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_167">The children who are removed from their parents at birth go into the foster care system. How many of them, on average, end up for adoption? Do the witnesses have any idea?</p>
+        </speech>
+        <speech by="#" eId="spk_106">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_168">I want to assure the Deputy, in case I give an approximate figure that is wrong, that I will get that figure back to her this afternoon and put it on the record correctly. There is also variance. A child may be taken from his or her birth parents and fostered for two, three or four months before going back to the birth parents. There is variance in that regard. From the figures we have, there were 38 applications from fostering to adoption. I would not have the breakdown for the ages in those figures for 2025.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_107">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_169">What supports does Tusla put in place for the birth mothers in relation to reunification?</p>
+        </speech>
+        <speech by="#" eId="spk_108">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_170">That varies across the country in terms of services. We fund a support group for birth parents through Barnardos. It is very important that this is an independent function. Our absolute priority is around promoting permanency planning for young children. When we talk about permanency planning, the first part is reunification. How do we seek to reunify children safely with their birth parents? If we think this is not going to be possible or a potential, the second part is around looking at fostering and then fostering to adoption for those young people. The stability for them is critical.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_109">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_171">Is that birth mother given a social worker from Tusla?</p>
+        </speech>
+        <speech by="#" eId="spk_110">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_172">Yes, an allocated social worker-----</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_111">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_173">So the birth mother has got a social worker.</p>
+        </speech>
+        <speech by="#" eId="spk_112">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_174">It would depend-----</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_113">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_175">Is a social worker allocated to a birth mother?</p>
+        </speech>
+        <speech by="#" eId="spk_114">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_176">It would depend on the circumstance.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_115">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_177">Why?</p>
+        </speech>
+        <speech by="#" eId="spk_116">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_178">They would not always-----</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_117">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_179">Why would a person not be given-----</p>
+        </speech>
+        <speech by="#" eId="spk_118">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_180">They may be-----</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_119">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_181">I remind you that we here to engage with the chairpersons. Perhaps the Senator will try to direct her questions-----</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_120">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_182">Sorry. I understand that. I am just trying to get down to the nitty-gritty here. If a baby is taken off a birth mother, what supports are given to that birth mother for care after that child is removed from her?</p>
+        </speech>
+        <speech by="#" eId="spk_121">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_183">I think part of the challenge here is that I am the chairperson and I am new in the role. The meeting is more about that.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_122">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_184">I want you to do a great job. Let me be very clear with that. It is important that Ms Clarke hears from the people who are around this table-----</p>
+        </speech>
+        <speech by="#" eId="spk_123">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_185">Sure.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_124">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_186">-----of their experiences in relation to that so that she can get out there and do the best job she can for the children of Ireland.</p>
+        </speech>
+        <speech by="#" eId="spk_125">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_187">Absolutely. All of the questions are completely legitimate. Some of them are very operational, and I would not have that information to hand. Within the number of young women who are having children who go into care straight away, there are various circumstances. For example, I met a young woman in a unit who is a child herself. She not only has a social worker, but she has a whole multidisciplinary team around her. It does depend on the circumstances. Some of these young people are already themselves in the care of the agency-----</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_126">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_188">Yes, I know that.</p>
+        </speech>
+        <speech by="#" eId="spk_127">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_189">-----and they have many professionals allocated to them. It is not just a matter of being out there and having some fragile connection with the agency through a social worker. It is what is required. If somebody is regarded as maybe not being in a position to provide all of the care an infant is going to need, it could be to do with a disability or it could be through a range of issues-----</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_128">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_190">I get that.</p>
+        </speech>
+        <speech by="#" eId="spk_129">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_191">It is not just about social work. It is a more complex issue than that.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_130">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_192">I thank the witnesses.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_131">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_193">Everybody's questions are extremely valid and the issues are really important. I am just trying to keep us to the agenda item, which is engagement with our two new chairpersons, who could have come on their own. Their accompanying guests are to clarify operational matters. Essentially, it is engaging with the chairpersons.</p>
+          <p eId="para_194">I know we all have important and serious questions. We will do our best. I call Deputy Farrelly.</p>
+        </speech>
+        <speech by="#AidanFarrelly" eId="spk_132">
+          <from>Deputy Aidan Farrelly<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_195">I thank the Chair and ask her to stop me if I stray from that purpose. The witnesses are very welcome. I congratulate Ms Clarke and Mr. McDaid on being appointed to their very important jobs. I wish them and the organisations they are here to represent the ultimate success during their terms.</p>
+          <p eId="para_196"> We saw in May that one in five complaints made to the Ombudsman for Children last year regarded the organisation of which Ms Clarke is now the chairperson. There has been a litany of concerning news articles about the organisation. Her predecessor stated in the 2024 annual report that the organisation had never been better placed to deal with the onrushing challenges facing it. In light of the concerns we are now seeing consistently, can Ms Clarke share that optimism?</p>
+        </speech>
+        <speech by="#" eId="spk_133">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_197">I thank the Deputy for the question and good wishes. We are definitely better placed. A point was made earlier about having more numbers. We welcomed 14 new social workers into the agency last year. However, we are still falling short of capacity there. We are better placed. That is the highest number of social workers we have ever employed in the agency. Nevertheless, in 2025, 106,444 referrals came in. In 2024, looking forward, it may have seemed as if we were extremely well placed and best placed, but who was to predict the number of children seeking international protection? Who was to predict the increase in and complexity of problems that families are facing? We must remember that many families are committing the care of their children to Tusla on a voluntary basis. They are saying they cannot manage because they are coping with too much adversity. I am optimistic but realistic. The way I would like at it is that there are significant challenges and distressing circumstances for which we are responsible. To a point that Deputy Kerrane made earlier, we can do all we can within the resources we have, and we are fully responsible for that. However, some of what needs to happen does involve other agencies. We cannot provide all the mental health and disability services and all the other things. It is our job to co-operate as creatively as possible with the other agencies.</p>
+          <p eId="para_198"> As I said in the statement, I anticipate that the pressure on our services will increase. Tusla needs as much support as possible. As somebody who has come in to oversee the governance and strategic direction of the organisation, the most important thing from my point of view is that if there is a challenge or problem, we are clear and transparent about it. We may be uncomfortable with some of the actions we have to take in the short term, and some of that involves private provision at very high cost or not being able to respond to very troubled children as we would want, but we need to be sure that in the medium and longer term we are putting plans in place to consider not just how we manage this on an ongoing and crisis basis but how we move in the right direction in a strategic way. As a board, we have confidence that this is an Executive looking creatively and thinking outside the box. The reform programme is arguably the most ambitious change management programme in the public service at the moment. We need to be allowed to make progress while being held accountable for the very difficult situations that are our responsibility to resolve.</p>
+        </speech>
+        <summary eId="sum_6">
+          <i>Deputy Aisling Dempsey took the Chair.</i>
+        </summary>
+        <speech by="#AidanFarrelly" eId="spk_134">
+          <from>Deputy Aidan Farrelly<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_199">I fully accept that I am a significant step removed from the day-to-day work of the organisation, but my concern is that Tusla's is the most valuable work of any State organisation. I take every opportunity to celebrate the silent wins and successes that represent the vast majority of its work. We often hear of failures and criticism but do not get to celebrate the good days, as social workers or social care workers. We often take those in our stride as part of the job. I sincerely and completely accept that the vast majority of the work is of the highest competence and standard. My concern from a strategic perspective is what I am hearing from social workers and social care workers, which is that the reform programme did some damage. There was some reporting that a quality review might be undertaken by Tusla to evaluate the impact of that and ensure there have been no mistakes and that no cases have fallen through the cracks. If that review is not under way, I ask Ms Clarke to consider it as part of that strategic undertaking. For me to have absolute faith in the organisation, which I will hold my hands up and say I do not right now, we need to put all of our cards on the table. We are saying that the commentary about Tusla is unbalanced. We are also saying that resources are not an issue but that the recruitment and retention of staff is the issue. Ultimately, there are too many failures in pockets of the organisation that can only lead us to think it is time for a review. It is now time for that periodic critical review. Would Ms Clarke be open to that? Would she see it as a pillar of her term to lead the organisation through that review to identify those gaps and areas of deficit, and to face them head-on?</p>
+        </speech>
+        <speech by="#" eId="spk_135">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_200">The organisation has come out with its hands up on many occasions. There is an acknowledgement that there are gaps. The data that have been collected through the new process are doing exactly what the Deputy is saying on a real-time basis. Instead of waiting to implement a reform programme and then wondering whether it has worked, which seems logical and rational, the agency is not waiting. It is collecting data all the time, as the CEO has said, and acknowledging that we do not have enough in some areas and identifying areas of real difficulty. If we recognise that we have a little more elsewhere, we can flex resources a bit better because we have better data. We have no problem with scrutiny. It is a public agency and I and my colleagues on the board, in the management team and in the Department feel the same way.</p>
+          <p eId="para_201"> It is important to realise that we do not pretend that we can fix things quickly when they cannot be fixed quickly. We need to do as much as possible as quickly as possible to fix those things. I feel that the reform programme is leading to better rationalisation. The lens that is going to be the most important is whether it is working for children and families. Whatever about the rest of us in the staff or on the board, are the children and families finding that it is better when they go to the single front door instead of trying to find their way through a labyrinth of services and can they be directed to what most meets their needs as quickly as possible? It is the service user, if you like, to use that term, who will be the litmus test for us. I would be very open to considering how we might pick up information from them.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_136">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_202">The witnesses are welcome. I congratulate Ms Clarke and Mr. McDaid on their new posts and wish them the best of luck. They have their work cut out. I worked for many years in a Tusla-funded organisation. Many of my closest friends work for Tusla. I have huge faith in the reform, particularly the single front door system, which is a good idea. I look forward to seeing how it is implemented on the ground.</p>
+          <p eId="para_203"> I want to ask about the recruitment of staff. If you have a social science background, for example, you cannot apply for certain jobs. I wanted to apply for jobs as a social care worker but could not because I have a degree in social science and not social care. Is Tusla missing people? I also have a master's degree in youth work and still was not eligible to apply for a job in social care because I did not have a social care degree. Is Tusla missing a lot of people within the broader area of family support? That was one matter I was asked to ask about.</p>
+          <p eId="para_204"> There are discrepancies. I am always talking about these issues. I would love to hear the figures for Tusla's reliance on agency staff. Are there still a lot of section 56 workers leaving to become agency staff because they are paid better and get increments and State pensions? I know there is auto enrolment and the 9.25% pay increase for section 56 workers. However, they are still leaving the sector to do agency work because they are paid more. Not having an incremental pay scale for section 56 workers is insulting. I was a section 56 worker. I would love to hear more about that.</p>
+        </speech>
+        <speech by="#" eId="spk_137">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_205">I will defer to Ms Duggan on the operational detail. I really welcome those remarks and can only speak from a personal point of view, so I am not speaking for the agency. It has long been my belief that the agency, like many other agencies and other parts of the HSE, misses people because of particular regulation around criteria. We only have to ask ourselves and look back at where things have been really difficult and where there have been exposés on difficult situations across services. We find that some of the best services in the country are offered by those with certain professional qualifications but some of the worst services can also be offered by people with identical qualifications. At a personal level I think we need to be looking much more in the round and much more resourcefully. For some of our young people in special care, it is not enough to have a particular qualification. It is a whole blend of experience, attitude to life, right mindset and a whole lot of intangible soft skills that are needed. Contacts and connections in the community can be absolutely important.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_138">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_206">Would you see that as changing? I think even to get on the recruitment portal, you are struck down straight away if you do not have a social care degree. </p>
+        </speech>
+        <speech by="#" eId="spk_139">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_207">We have now introduced a new expanded list of qualifications, in consultation with trade union partners and with staff. There was a reference in Deputy Kerrane's question to special care workers. That is a new grade that was provided to Tusla over 18 months ago to recognise the work within special care being different, and has a new pay scale and new governance structure. All of those special care workers have to have CORU registration or have to be a social care worker with CORU registration, or can have one of the expanded qualifications in social science or youth work. They have to have a level 7 qualification.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_140">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_208">Does that apply the same for social care workers or social care leaders?</p>
+        </speech>
+        <speech by="#" eId="spk_141">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_209">Social care is now a protected CORU-registered profession. That is important to recognise. Social work is a CORU-registered profession and social care is now registered since the end of last year. The title of social care worker is registered. It is in the expanded qualifications that we will be able to employ people with different backgrounds and different degrees, which is really important.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_142">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_210">I think you are still missing a trick there.</p>
+        </speech>
+        <speech by="#" eId="spk_143">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_211">They can be employed as their own profession working in the services.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_144">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_212">For example, youth work, within the sector, but they cannot be employed in social care.</p>
+        </speech>
+        <speech by="#" eId="spk_145">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_213">They cannot be called a social care worker if it is CORU-registered.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_146">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_214">I also wanted to ask about pensions for foster parents. They are still not entitled to a contributory pension. That has been raised over and over. In my previous job-----</p>
+        </speech>
+        <speech by="#AislingDempsey" eId="spk_147">
+          <from> An Leas-Chathaoirleach<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_215">The Senator is straying away from our policy discussion with the chairperson. If she could frame it differently, it could be okay.</p>
+        </speech>
+        <speech by="#" eId="spk_148">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_216">Colleagues in the Department of Social Protection are looking at this. It is an issue that has been raised several times, as the Senator says. I do not think there is lack of support or agreement around the issue; it is about moving it. They are actively engaging on this at the moment and we are hoping for a positive outcome.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_149">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_217">Going back to the reliance on agency staff, do we see that people are being removed from the front-line services and are going to agency staff because of better pay?</p>
+        </speech>
+        <speech by="#" eId="spk_150">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_218">It is strategic in terms of us and our workforce. It is really important to say, as the chair said, that we have never had as many social workers within the agency. Our retention has gone up by 1.5% so now we are up to 95% or 96% of staff staying within Tusla, a significant increase over the last three years.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_151">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_219">How long would they stay for?</p>
+        </speech>
+        <speech by="#" eId="spk_152">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_220">Different periods. We have blocks. In terms of the overall retention figure, we are able to break it down by age range and career type but it is a good news story. In terms of agency, we set ourselves a limit for agency usage that we would never employ more than 250 people through agency in a year. We really have never gone over 210 to 220 over the last three years. Our reliance on agency is reducing. There is an ongoing recruitment campaign to convert our agency staff but some people choose to work agency because of the flexibility in hours or different services.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_153">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_221">Broadly, what does Ms Clarke see as the biggest positive impact for the new system, for children and for their families?</p>
+        </speech>
+        <speech by="#" eId="spk_154">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_222">That is always the best way to look at it; it is the best lens. It is a question of being able to meet somebody and not have to work out yourself where to start based on your particular issue or situation. The single front door policy will be the biggest impact initially. Longer term, it is about the direction and balancing of resources so we can look at those issues. For example, it seems fairly clear that where we have better early intervention and better family support investment, we have less reliance on crisis. It will inform investment and policy decisions as it goes along. For children and families, I will be hoping that they get a better, quicker and cleaner response and a better fit.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_155">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_223">That is what I was thinking, a better fit. Thank you.</p>
+        </speech>
+        <speech by="#AislingDempsey" eId="spk_156">
+          <from> An Leas-Chathaoirleach<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_224">That concludes the first round of questioning. We have time for a second. Each of our speakers will have five minutes, starting with Deputy Connolly.</p>
+        </speech>
+        <speech by="#JohnConnolly" eId="spk_157">
+          <from>Deputy John Connolly<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_225">In the opening statement, Mr. McDaid outlined some of the thoughts that occurred to him in his role. He mentioned the webinar from the representative in Flanders and noted that their intentions are to have much closer alignment between adoption and foster care assessment, on the basis that both are a continual service for children in need, and said he felt it merited consideration. In the briefing document provided to us, the numbers are quite high for that type of adoption as it is. They are relatively high and in terms of the overall numbers they are certainly reasonably high. What change would he foresee as being necessary?</p>
+        </speech>
+        <speech by="#" eId="spk_158">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_226">The numbers are relatively high but it is still a relatively small number. This is touching on a point that was made earlier on. The figures indicate that the age profile is quite high as well. Maybe some of the changes could be earlier consideration of children moving from foster care to adoption. Just in terms of the comment that was made about good news stories, one of our really positive experiences on the board of the Adoption Authority is families presenting before us when the final orders are made to adopt from long-term foster care, and the joy that families experience, both the kids and the adoptive parents. Is there an opportunity to make that happen earlier? I am making those comments on behalf of the Adoption Authority. Clearly, Tusla is just important a player in that process and decision-making. There are issues I referenced in terms of considering them. On the consideration of suitability, I have mentioned the declarations of eligibility and suitability for adoption. There are processes in terms of considering suitability for adoption and there are processes in terms of considering suitability for foster care. Again, this may be more for Tusla, but there may be scope to examine the extent to which those processes are integrated.</p>
+        </speech>
+        <speech by="#JohnConnolly" eId="spk_159">
+          <from>Deputy John Connolly<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_227">I might just put the question to Tusla as well. I think Mr. McDaid is right. It would be a policy direction for Tusla as well if it were to consider any intention for closer alignment between adoption and foster care and how we might arrive at those joyous occasions sooner. Would Tusla have a perspective on that?</p>
+        </speech>
+        <speech by="#" eId="spk_160">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_228">I am sure there is a perspective on this. It is important to say that policy is really set by the Department of Children, Disability and Equality. Tusla is there to implement that policy. That is not to say that Tusla cannot influence that and in fact there is a very close working relationship between colleagues in both, and the opinions and practice that is being accumulated in Tusla obviously influences the policy that is being developed. I think it is something that we could reflect on, certainly.</p>
+        </speech>
+        <speech by="#JohnConnolly" eId="spk_161">
+          <from>Deputy John Connolly<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_229">From Mr. McDaid's knowledge and experience, would it require a change in law?</p>
+        </speech>
+        <speech by="#" eId="spk_162">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_230">I do not think so. It does not occur to me that it would necessarily require a change in law.</p>
+        </speech>
+        <summary eId="sum_7">
+          <i>Deputy Keira Keogh resumed the Chair.</i>
+        </summary>
+        <speech by="#JohnConnolly" eId="spk_163">
+          <from>Deputy John Connolly<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_231">I finished my last round of questioning by asking about the education provision within State provided care and State centres. Is that provided at primary and secondary level? In some residential settings, it might only provide educational provision at one level.</p>
+        </speech>
+        <speech by="#" eId="spk_164">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_232">I do not have the detail but it is the overall policy to place children who need alternative care with foster carers so they are in the regular system for primary and second level. Many of the young people in residential care would tend to be older. Within the special care units, there can be a range but not under 11 years of age. It is more a second level provision. However, the programmes are very individualised because so many of the youngsters have missed educational opportunities. A very child- or young person-centred programme of education has to be devised rather than putting people straightforwardly through the curriculum.</p>
+          <p eId="para_233"> I was looking recently at the figures on young people who come through State care achieving the junior certificate and leaving certificate. I do not have them to hand but I was really impressed by the number of children coping with that level of adversity and difficulty in their earlier lives who have come through so well. I have been delighted to meet some of the people who have come through the aftercare services who are studying in college, etc.</p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_165">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_234">My time is short. I have a number of questions remaining for Tusla and I want to try to get to the Adoption Authority of Ireland as well, so I ask that the witnesses be brief with their responses. There are a number of references, as I have mentioned, to building capacity in residential services. Is capital funding available now that is ring-fenced to build capacity in residential services?</p>
+        </speech>
+        <speech by="#" eId="spk_166">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_235">Yes.</p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_167">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_236">Is that available to the voluntary sector?</p>
+        </speech>
+        <speech by="#" eId="spk_168">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_237">At the moment we have it earmarked for Tusla for statutory provision in terms of opening our own services. However, we are engaging with them around a hybrid model of support and working to see how we can use that total resource to best effect in terms of strengthening statutory provision and community and voluntary.</p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_169">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_238">I presume that will mean a meeting with the likes of the Children’s Residential and Aftercare Voluntary Association, CRAVA, in terms of the community and voluntary sector?</p>
+        </speech>
+        <speech by="#" eId="spk_170">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_239">We meet them all the time.</p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_171">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_240">I mean specifically in terms of them building capacity and what they need from Tusla, via Government, to do that.</p>
+        </speech>
+        <speech by="#" eId="spk_172">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_241">Those conversations are ongoing.</p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_173">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_242">I want to raise a point given where we are at in the care system right now and the need for us to make sure children are protected. Where a child cannot be in their own home, the single best place for them is a foster home. After that there are the residential services and all of that, which are necessary. I have seen emails involving companies and individuals overseas who are looking at Ireland as a place to make profit on the back of our care system, which is concerning. Coming back to Ms Clarke's comments relating to building capacity in residential services as an example, is she concerned that if the Government and Minister do not invest in building that capacity that, we will see people making profit on the back of our care system?</p>
+        </speech>
+        <speech by="#" eId="spk_174">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_243">Like any other area, it is a real cause for concern if private operators come in for the sole purpose or main purpose of making profit. We have to be realistic here. The responsibility of people in private organisations is to their shareholders. It is a completely different dynamic. That is not to say that some of the best services cannot be provided. Part of Tusla's own inspection agency is holding those to account to the HIQA standards and some really impressive work is being done. It is important to say that it is a mix. However, it would be of concern and that is why we are discussing within the organisation with the management team the need to have a really smart strategy on how we build capacity in the community and voluntary sector and Tusla's own capacity to provide. That is absolutely important and the objective is to move the dial towards that.</p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_175">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_244">That is good. I am glad to hear that and I am glad Ms Clarke is alive to it because nobody should be making profit on the back of children in care. The idea of people overseas looking at Ireland as a way to make easy money on the back of children in care is disgusting and something we have to avoid and make sure does not take hold in our State.</p>
+          <p eId="para_245"> In relation to the reform, social care workers and social workers, the fact is that a child will not be guaranteed to be allocated a social worker. It will be a social worker or another professional and there will be oversight from a social worker. Again, that concerns me. I have had issues flagged with me around special care, the impact of reforms on special care and lots of issues there. As chair and as CEO, are Ms Clarke and Ms Duggan willing to sit down with Social Care Ireland and the Irish Association of Social Workers on the issues they feel are important, given they are on the front line?</p>
+        </speech>
+        <speech by="#" eId="spk_176">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_246">I would be delighted to. In fact, I was at the launch of the ombudsman's report looking at children in care that was referred to earlier. The social work professional body approached me and asked if would I meet with them. I said I would be absolutely delighted to. It is really important. Where there are competing agendas with regard to different professional groups, different resource issues, etc., our sense is that all decisions need to be guided by the best interest of the child. Is it in the best interest of a child who cannot have social worker because of the capacity issues to have nobody or somebody that can support them?</p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_177">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_247">I appreciate that.</p>
+        </speech>
+        <speech by="#" eId="spk_178">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_248">Obviously, that is the question we address. We are not in the business of undermining professional bodies or professional approaches.</p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_179">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_249">The most important thing out of all of that is both Ms Clarke and Ms Duggan are willing to sit down with the Irish Association of Social Workers and Social Care Ireland because my understanding is that they have not met the CEO.</p>
+          <p eId="para_250"> I have a point to make rather than a question. The foster care allowance is the first thing Government looks at. That is important. However, the therapeutic support services for the child in that family are so important. There was an attempt to pull play therapy services in the South. I am glad that has been half resolved but the supports around foster carers are just as important as the money and allowance they are paid. I just wanted to make that point.</p>
+        </speech>
+        <speech by="#" eId="spk_180">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_251">The Deputy is quite right. The first priority I mentioned when I opened was foster care and supports.</p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_181">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_252">Yes, and I noted that.</p>
+        </speech>
+        <speech by="#" eId="spk_182">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_253">That is absolutely right. They are wonderful people and they need the support.</p>
+        </speech>
+        <speech by="#AislingDempsey" eId="spk_183">
+          <from>Deputy Aisling Dempsey<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_254">I want to return to the point of the foster carers. I was really glad to see that upfront in the opening statement. What are the key policy changes we need to support our foster carers? I believe most foster carers in this country are doing it out of a vocation.</p>
+        </speech>
+        <speech by="#" eId="spk_184">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_255">I cannot actually hear the Deputy.</p>
+        </speech>
+        <speech by="#AislingDempsey" eId="spk_185">
+          <from>Deputy Aisling Dempsey<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_256">I was saying that foster carers do it for the love of it and for the vocation they feel and not necessarily the remuneration or the recognition. That should be our focus in supporting them. We talk about the payment they receive, the pension they should be able to access and not means-testing various supports. What are Tusla's focuses? What is Tusla going to lobby the Government on in this budget and in future budgets? Does Tusla provide counselling for foster carers? Is that open to them? I know foster carers who have really been left reeling, especially after the first few children go through their doors and then leave them. Does Tusla provide that kind of care for foster carers?</p>
+        </speech>
+        <speech by="#" eId="spk_186">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_257">For the specifics regarding what is actually provided, I will defer to Ms Duggan. Many years ago when I became involved in the children's area, it certainly was not the case that we had quite the enormous number of young people placed in foster care. It is a great achievement that we have the majority of people who need State care with foster carers. I completely agree that foster carers need support. There is no doubt about that. They are taking children who sometimes have come from very fractious situations and who are quite upset and can continue to be upset in placement, along with all of the usual things that happen in families. It is not good enough to say we are depending on goodwill. The most amazing thing for me is that in the current situation where in most families both parents are out working and both parents are very busy, we continue to have applicants and people who want to do this. My general sense is they need to be supported.</p>
+          <p eId="para_258"> Having just hit the ground running as fast as I could in February, my initial focus has been on special care and looking at special care units and getting really under the bonnet, looking at all of the issues there and talking to the front-line staff, the professional staff, the management and looking at alternatives. Foster care is not an area I have had a chance to focus on yet. On the specifics on what is being offered and planned, Ms Duggan is better placed to answer that.</p>
+        </speech>
+        <speech by="#" eId="spk_187">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_259">Linked to that piece, I have met hundreds of foster carers over the past ten or 12 weeks. I have travelled all over the country. I did likewise nearly three years ago when our last strategic plan was being compiled.</p>
+          <p eId="para_260"> First, it is important to mention that, for the first time this year, we are seeing an increase in the number of foster carers coming on board. However, we must focus on keeping the foster carers we have. If we lobby based on what they are telling us they want, it is around that sense of partnership with the professional staff within Tusla. We need to be much better in our approach to partnership, communication and engagement and allow foster carers to have a role in influencing our practice and policy.</p>
+          <p eId="para_261"> The issue around pensions is a significant factor for foster carers. The allowance is less of an issue because, as the Deputy said, this is almost vocational. They recognise, however, the inflationary increase and the increase in the cost of living. It is certainly a factor.</p>
+          <p eId="para_262"> The most important issue they talk about is access to the services the children in care need. We welcome that the programme for Government identified the need for a whole-of-government approach to alternative care. We certainly have been linking with our colleagues in the Department to try to influence that policy that is being written. We want to see that whole-of-government approach where all of the different Departments, whether it is housing, health or social protection, prioritise children in care, including children in the care of the State and the foster carers who working with them. They should have priority access to therapeutic services within the health service and the children's disability network teams. Some children may need housing adaptation supports from the Department of housing. Children in foster care may have a disability and need some supports for their housing. The biggest level of influence is in that whole-of-government and alternative care policy. It is the first time we are going to have this approach, at least that I have seen. Delivering that well and having a whole-of-government commitment is the best thing we can do for foster carers.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_188">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_263">We all agree that early intervention and supports for families are the best-case situation. No one is going to have a particular difficulty in that being operated. In respect of foster carers, I understand the point about the need for partnerships but the issue around being able to get those ancillary supports for those children still exists. Issues such as pensions and allowances must be looked after.</p>
+          <p eId="para_264"> Am I correct that there has been an increase in the number of foster carers? What numbers are we talking about? Roughly how many do we need? I fear that, in some cases, given the pressure we are under and the complexity of issues, the threshold for foster parents has probably got a bit tighter.</p>
+        </speech>
+        <speech by="#" eId="spk_189">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_265">I will answer the second part of the Deputy’s question first. When it comes to the need, 85% of the children are in foster care. We then have 611 children in residential units or houses in the community. For some of those children, that is actually a good option for them.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_190">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_266">I accept that. How many foster carers do we have and how many do we recommend?</p>
+        </speech>
+        <speech by="#" eId="spk_191">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_267">If our policy is to have as many as possible in foster care, potentially some of the over 600 who are in residential units could be go into foster care. In addition, we have a number of people waiting on residential care for whom we do not have beds to offer. That number is around 200. It varies. That is the need for more foster carers.</p>
+          <p eId="para_268"> In terms of the increase, maybe-----</p>
+        </speech>
+        <speech by="#" eId="spk_192">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_269">We have 3,147 foster carers today. We have 39 more in quarter 1 2026 compared with quarter 4 2025. That is important. In the context of the reform programme, the focus on the front door, integrated teams and early intervention, we also have a huge pillar of work in increasing our foster care capacity under way as part of that reform programme. There are two elements to it. It is trying to increase relative foster care capacity because we know that is a good outlook. We also have a target – I can add up the figures and provide them to the Deputy – of approximately 70 to 80 foster carers per region. That is what we estimate we need when we forecast what we are doing. That is approximately an extra 400 foster carers to meet demand currently.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_193">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_270">Yes, I thought it would be around 400 or 500. That is an absolute necessity.</p>
+          <p eId="para_271"> Let us talk about special emergency accommodation. I received figures in April that showed that there were 170 accommodations last year. A couple of months ago, it stood at 70.</p>
+        </speech>
+        <speech by="#" eId="spk_194">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_272">It is 67.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_195">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_273">It is 67 at the minute. What is the plan in relation to-----</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_196">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_274">Is the Deputy addressing his questions through the Chair?</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_197">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_275">Of course, I am. I was telling with where my eyes were going.</p>
+        </speech>
+        <speech by="#" eId="spk_198">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_276">The plan is to have as few children in special emergency arrangements as possible. It is not a situation that everyone, certainly not us, is comfortable with. The plan is to register the special emergency arrangements and work with them to bring them up to the required standard. Those that will not------</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_199">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_277">Is there a rough timeline on that?</p>
+        </speech>
+        <speech by="#" eId="spk_200">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_278">Yes. By the end of June, when we talk about 67 placements and the providers, we expect 20 of those centres to have achieved registration. They will be inspected and monitored by our alternative care service. We expect that 19 centres will not achieve registration. They have been notified to HIQA and we have taken them in under the governance of HIQA. HIQA started the inspections of those centres, as of last week. That leaves around 30 centres that are in the process of becoming registered. It is a legal requirement. When a centre is being set up, it has 45 days to become registered. We expect that, by the end of June, we will have eliminated special emergency arrangements from the system, as they were once known.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_201">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_279">I have one final question. It is regarding the special care facilities run by Tusla. I have heard about some of them where there are ongoing HR issues and whatever else, but there are also concerns about the ratio of staff to young people. At times, it is not what it should be. Is that something the agency is looking to rectify? I would like to think so.</p>
+        </speech>
+        <speech by="#" eId="spk_202">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_280">The issue of ratios has come under focus. It is important that Tusla has resources to employ staff, but it is also important that we are accountable for using the resources we have to best effect. One of the most important things we need to do is take a child-centred approach to this. Having standardised ratios is important in making sure there are a number of people a staff member can call on, but the reality is that young people coming into a situation like that may be in a state of chaos and distress. They may be very troubled. They need a lot of support. Young people who are on the way out of care services need to be supported to take more responsibility for themselves, and that needs to be a different situation. We definitely want to make sure that there is the right number of staff, but the right number of staff has to be decided based on the particular needs of each individual child and where they are at. We need to be able to flex up and down in that regard.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_203">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_281">We are not there yet.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_204">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_282">It is going to fall to me next. Senators might be back in a couple of minutes. As the witnesses can see from the screen, they are voting. I will direct the same question to both chairpersons. Both of them are on the board of Tusla, as well as being chairpersons on separate boards. What motivated them to go on the boards, especially given the difficulty and challenges Tusla is facing? We have all mentioned the great work that Tusla is doing. Sometimes, the press can be very bad. That can be warranted in many ways but there is always a lot of extremely good work being done all around the country by Tusla staff at all levels. What motivated them to become chairpersons of their respective boards? In their roles, while they are not responsible for day-to-day operations, what is the biggest difference they think they can make?</p>
+        </speech>
+        <speech by="#" eId="spk_205">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_283">I hope that I have experience and skills that serve the AAI. It was a requirement for the chairperson to have practised as a solicitor for ten years.</p>
+          <p eId="para_284">My understanding is that there was a governance need as well. As the chief executive of the Legal Aid Board for over eight years, I have considerable insight and experience of governance. We always want to make a positive difference. I have always worked in the area. I have worked in legal aid for most of my career. It is about serving the community or people who might be on the margins or in need. I hope that I would continue to be motivated by doing that and this will give me an opportunity.</p>
+        </speech>
+        <speech by="#" eId="spk_206">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_285">I share Mr. McDaid's motivation to make a difference. That is the critical thing. At the end of 2023, I stepped away from Genio, the organisation that I had set up and was leading. We were working in the service improvement area and managing funds, which were a mixture of philanthropic and State funding, to work on service improvement. When I stepped away, I thought I was going to take break for the first year and then see. I was looking for a project where I could make a difference or work with people who wanted to make a difference.</p>
+          <p eId="para_286"> I felt that I had the skills and experience. I have worked in the children's sector for many years. I worked as a psychologist, in management in Barnardos and as a consultant. As a consultant, I had been commissioned to track some quite troubled children in the eastern region. I had a close-in view and met social workers on the front line, young people, etc. I could see what was challenging. I subsequently had some governance experience with chairing groups here and on the Continent. I thought that I had the combination of experience whereby I might be able to make a difference or contribute.</p>
+          <p eId="para_287"> The reaction earlier about taking on all this responsibility for a difficult and challenging agency was interesting. That was the aspect that I had to give most thought to. If you are going to do something like this and take it seriously, you have to be able to live with sometimes very harrowing and difficult situations for which responsibility is shared but is ultimately yours. My sense overall is that these situations are happening anyway. Regardless of whether I get in and work alongside other people to try to make a difference, they are going to happen anyway. I am hoping that I can make a contribution over the next three years to build on the work that other people have been doing and are doing to make a difference to those young people.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_207">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_288">I thank both witnesses. I will go back to Mr. McDaid. The strategic plan includes a strategic goal to hear the views and acknowledge the interests of the child and young person in the adoption matters. I ask Mr. McDaid to talk to that point. How is he going to ensure that takes place?</p>
+        </speech>
+        <speech by="#" eId="spk_208">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_289">One of the strategic goals is to establish a children advisory board. We have not got that going just yet. Certainly, that would be one of the things that I would like to get cracking on sooner rather than later. My colleagues will correct me if I have picked that up wrong, but I think I am correct on that.</p>
+          <p eId="para_290"> Hearing the voice of the child is important. I have been on the board of Oberstown. It did that particularly well in terms of the level of engagement at board level with children and children's representatives and hearing what their concerns and wishes were. That shaped aspects of Oberstown policy in a very positive way. We have quite a strong research facility at the moment. Even beyond the research piece, the engagement piece with people who have lived experience of what we deal with is something that we can improve on. The children are the most important people who have the lived experience, so that is an opportunity.</p>
+          <p eId="para_291"> There were questions to Ms Clarke on foster carers. They are some of the most inspiring people that I have ever come across in terms of what they have taken on in certain circumstances and-----</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_209">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_292">Does Mr. McDaid think the fact that he has sat on both boards will offer him a unique perspective? When we look at the age that people are adopted, with the final age being 17, does Mr. McDaid think he can foster more engagement between both agencies?</p>
+        </speech>
+        <speech by="#" eId="spk_210">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_293">That is a very good question. I would hope so. Before taking up the role in the AAI, I carefully considered whether it was a conflict or an opportunity. I hope that it is an opportunity. I certainly have not experienced any situation yet where I have felt conflicted in both roles.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_211">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_294">Mr. McDaid mentioned that the board was new and that he was new. Does he have any concerns? I am also a new TD, so there is a new energy and all of that, but does he have concerns that he is missing any experience on the board and does he have any plans to fill that gap?</p>
+        </speech>
+        <speech by="#" eId="spk_212">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_295">I mentioned the periodic critical review that was done. There are a number of recommendations, some of them long term. The board make-up is prescribed by statute. It requires people to have certain experiences. To be honest, there is an opportunity for more governance experience on the board. I do not think any existing member would necessarily dispute that. We have a significant learning curve on the governance side. We have already had the Institute of Public Administration, IPA, in to work with us on that one.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_213">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_296">I thank Mr. McDaid. I am strict on myself as well with time. We will now go to Senator Keogan.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_214">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_297">I wish Ms Clarke the best of luck,but I have serious issues with Tusla. Ms Duggan will be familiar with some of the stuff that I have brought up over the years. There is one particular case that I have been working on for well over a year. It has to do with unaccompanied minors. I want the agency to be better at what it does. There was a case in May 2022. With the war in Ukraine, we had a charity that took in 113 adults and 59 unaccompanied children. They just landed into the airport. Tusla had no idea that they were coming. On the spot, guardianship was given to some of the adults who were on the same flight as those children. There was no involvement by Tusla in relation to the vetting. None of these children was looked after by Tusla at all. It seemed to have washed its hands clean of it. There was no vetting of the families that the children went to. Should that happen again and unaccompanied children land in large numbers - even if six or eight unaccompanied minors come in on a given day - how is the agency going to handle that in the future?</p>
+        </speech>
+        <speech by="#" eId="spk_215">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_298">I cannot comment on the particular case.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_216">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_299">Does Ms Clarke think that is right? Does she think that on-the-spot guardianship should be given in respect of unaccompanied minors who arrive in? Should that be the way things run?</p>
+        </speech>
+        <speech by="#" eId="spk_217">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_300">I am very familiar with the case. We were actually here in the Oireachtas at the time. When we came out, we got the phone call about it. That only happened once, if we are referring to the same issue.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_218">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_301">Right, but it could happen again.</p>
+        </speech>
+        <speech by="#" eId="spk_219">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_302">It could, but my understanding is that nobody knew across government that this was happening. This was a private arrangement. The individual parents of those children gave permission for the adults in the group to be the guardians for their children. It was a time of significant crisis in Ukraine. As I understand it-----</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_220">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_303">That is not what happened.</p>
+        </speech>
+        <speech by="#" eId="spk_221">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_304">It was never referred to Tusla. I am very happy to deal with that particular issue, but my recollection of the event was that parents wanted to get their children out of Ukraine and there was an opportunity through this mission. They had already made private arrangements with families in the particular part of the country in terms of respite and a holiday break. I am not familiar with a particular case, but I would be delighted to talk with the Senator offline about it.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_222">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_305">Some of those children were moved on then to homes in Mayo and outside of Mayo. They did not stay with the guardians who were appointed at the airport.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_223">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_306">Senator Keogan, you know they are not going to be able to talk about specific cases in particular counties.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_224">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_307">I know that, but this is really concerning. It is going to happen again.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_225">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_308">I ask Senator Keogan to keep it to the broad overall topic.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_226">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_309">We are dealing with war throughout the world.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_227">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_310">Senator Keogan, you know that they cannot talk about specific cases.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_228">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_311">I understand that, but in the future, should that happen again-----</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_229">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_312">You can ask broad questions, but not specific questions.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_230">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_313">Tusla did not get involved after that. After that day, there was nothing really that Tusla did in relation to duty of care to those individual children who came-----</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_231">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_314">The Senator is still talking about a specific case.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_232">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_315">I know.</p>
+          <p eId="para_316">Should it happen again, will Tusla take a more active role in unaccompanied minors coming into the State in large numbers?</p>
+        </speech>
+        <speech by="#" eId="spk_233">
+          <from> Ms Kate Duggan<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_317">Tusla takes a completely active role in terms of unaccompanied minors coming into the State. We receive referrals from the International Protection Office in the Department of Justice, Home Affairs and Migration. Where a young person arrives unaccompanied, it is up to the Department of justice to complete the age assessment for that young person. Should they believe them to be a minor, it then refers them to Tusla. When we get a referral, we act on that referral and that is around determining their safety, to determine are they with an adult, and to determine if they need to come into the care of the State. We have about 130 unaccompanied minors currently who are in the care of the State. It was deemed that they needed to come into care. The others were of an appropriate age - almost 17 and almost 18 - and are being accommodated by us under section 5 of the Act. Where Tusla receives a referral, that referral is made and we act on that referral, in terms of the information available to us, to know is support needed or if there is any risk to the child's safety.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_234">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_318">Those children were let down very badly.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_235">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_319">Do members want two minutes for a third round of questions?</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_236">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_320">Yes, of course.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_237">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_321">I have added two minutes to the clock and Deputy Connolly is first.</p>
+        </speech>
+        <speech by="#JohnConnolly" eId="spk_238">
+          <from>Deputy John Connolly<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_322">Did Ms Clarke's appointment coincide with the reform programme? Has it commenced before her appointment? </p>
+        </speech>
+        <speech by="#" eId="spk_239">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_323">The programme has been years in the making. A reform programme like that does not land out of the blue. A lot preparation, planning and consultation had been done beforehand. The date of my formal appointment was 4 February but I had received the call on, I think, 10 January. The programme went live on 1 January so it more or less did coincide.</p>
+        </speech>
+        <speech by="#JohnConnolly" eId="spk_240">
+          <from>Deputy John Connolly<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_324">Was Ms Clarke aware of its journey before her appointment? </p>
+        </speech>
+        <speech by="#" eId="spk_241">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_325">I was aware of it. In fact, the programme was one of the reasons that attracted me to the role. Public service agencies are often accused of lack of innovation and a lack of change. A systems change is often something that is more aspirational than a reality. Here was an agency needing a chair that had already committed to a really extensive systemic-change programme. Yes, I was aware of it.</p>
+        </speech>
+        <speech by="#JohnConnolly" eId="spk_242">
+          <from>Deputy John Connolly<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_326">Ms Clarke has described the reform programme as "the most ambitious change" effort currently being undertaken in the public service.</p>
+        </speech>
+        <speech by="#" eId="spk_243">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_327">Arguably. I am not in an out of every Department and I am sure there may be officials who will say to me that they are doing this, that and the other. Of course, a lot of innovation goes under the radar but the programme is a total system-wide change in redrawing boundaries and resetting. It is not just a change in the practicalities of referrals and how children and families are met. It is also a more equitable distribution of resources. There has been a change in mindset. I visited Limerick where I talked to some of the people who have been newly appointed to management positions and it was really interesting to hear them say that they do not know how to solve something but they will have a go. Change is not easy for everybody and I know that. It is definitely not easy for everybody.</p>
+        </speech>
+        <speech by="#JohnConnolly" eId="spk_244">
+          <from>Deputy John Connolly<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_328">Will there be a conclusion date for the reform effort?</p>
+        </speech>
+        <speech by="#" eId="spk_245">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_329">It will be ongoing. It is in now. It is a matter of implementing the programme and coping with the various challenges that there will be, no doubt.</p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_246">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_330">I have some questions for the Adoption Authority of Ireland as it is equally important. Earlier it was mentioned that the EU-funded and UNICEF-led exercise is ongoing. What level of engagement has there been on that? Where is it at in terms of a timeframe? It would be an important piece of work for us domestically, in particular.</p>
+        </speech>
+        <speech by="#" eId="spk_247">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_331">In terms of engagement, there is a steering group and my colleague Mr. Kirwan is part of that. In terms of a timeline, it is anticipated that there might be a draft document in October-November or thereabouts.</p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_248">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_332">Does the AAI rely on that exercise to provide a roadmap for domestic adoption?</p>
+        </speech>
+        <speech by="#" eId="spk_249">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_333">Potentially, that has long-term implications for domestic adoption in terms of the processes and the relationship between the AAI and Tusla. I anticipate that it will be end user-focused and seek to put in place or improve the processes from the perspective of adoptive parents and, most importantly, the children.</p>
+        </speech>
+        <speech by="#ClaireKerrane" eId="spk_250">
+          <from>Deputy Claire Kerrane<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_334">As Mr. McDaid said in his opening statement, there has been a considerable drop in intercountry adoptions. Has that considerable drop been examined in any great detail to discover the reasons for that? </p>
+        </speech>
+        <speech by="#" eId="spk_251">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_335">Some of the reasons are to do with us signing up to the Hague Convention 1993. I cannot remember exactly what year we signed up to it but it was around the time of the Adoption Act 2010 or thereabouts. Since then, we have only received children from countries that are Hague Convention compliant or other countries that have signed up to the convention. That would have a lot to do with the drop. In the briefing document there are figures in terms of countries of origin. For example, Russia is the highest. We do not receive children from Russia anymore and have not done so for a number of years. Vietnam is fairly high and we continue to receive children from there. However, there are issues and I do not think they are issues that it is appropriate for me to go into today because they have not been properly considered.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_252">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_336">I ask Ms Clarke for an absolute guarantee that the caseload weighting system is in operation across the board. I am taken with the idea of getting rid of special emergency accommodation and wanting special care facilities to be up and running. However, there is an issue of residential care places not being available for those who need them. What happens then?</p>
+        </speech>
+        <speech by="#" eId="spk_253">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_337">The overall objective is to ensure that all care being provided is regulated and is of the standard that is expected, and that we move away altogether from providers who are reluctant to meet those standards. It is looking to build the capacity of what is there and of those who are willing to improve and not having the inappropriate----</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_254">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_338">I get that, and we are in an imperfect position. However, what do we do about people who are in need of residential care when no residential care is available? I assume that Tusla is not looking to use special emergency accommodation.</p>
+        </speech>
+        <speech by="#" eId="spk_255">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_339">That is why we are not saying categorically that we will have no children who need residential care so that we will be to respond to that demand always.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_256">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_340">The reality is we just need to speed up the process.</p>
+        </speech>
+        <speech by="#" eId="spk_257">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_341">It is moving very fast now. We are talking about the next month that we are moving into.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_258">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_342">I know.</p>
+        </speech>
+        <speech by="#" eId="spk_259">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_343">Hopefully, by the end of the year, we are not going to have any of those arrangements that-----</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_260">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_344">It is about making sure we have alternatives. If they are in compliance now, that is sound.</p>
+          <p eId="para_345"> What is the plan to deal with the ongoing issues in special care facilities? I get that there is a HR framework.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_261">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_346">A ten-second answer, please. The Deputy knows he has to give witnesses time to respond.</p>
+        </speech>
+        <speech by="#" eId="spk_262">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_347">I cannot give one in ten seconds because there is no silver bullet to this. Our priorities are the care and comfort of, and therapeutic intervention with, the young people in question. They have to come before anyone else’s needs. We are committed to the facilitation that is ongoing as regards those issues. I have been there myself a couple of occasions and I am very familiar with all of the issues but it is a complex problem that is not going to be resolved quickly. However, I would be happy to talk to the Deputy about it again.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_263">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_348">My questions are for Mr. McDaid. Regarding the freedom of information, FOI, disclosure log for 2025, access was denied multiple times to historical records relating to mother and baby homes. What legitimate reasons can the AAI provide for declining requests from the public for records like those?</p>
+        </speech>
+        <speech by="#" eId="spk_264">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_349">I will ask my colleague Mr. Higgins to take that question, if that is all right.</p>
+        </speech>
+        <speech by="#" eId="spk_265">
+          <from> Mr. Ross Higgins<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_350">I thank the Senator. The authority is a partially included agency under the FOI Act. The making of an adoption order or the recognition of an intercountry adoption is excluded. All of those requests would have been redirected to apply under the Birth Information and Tracing Act..</p>
+          <p eId="para_351">The only way you can release background details or origin information for the birth name or the birth parents' names is through the Birth Information and Tracing Act. We are constitutionally required to do a balancing test with the parents' privacy rights where a birth mother or birth father has requested privacy. In those situations, they have to be <i>pro forma</i> declined under FOI but are directed that they absolutely have an entitlement to that origin information via the Birth Information and Tracing Act. The two pieces of legislation have different emphasis on that. They are not eligible to apply under the FOI Act but they are eligible to apply under the Birth Information and Tracing Act and they will all have been advised of that.</p>
+        </speech>
+        <speech by="#SharonKeogan" eId="spk_266">
+          <from>Senator Sharon Keogan<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_352">I thank Mr. Higgins. I will ask Tusla a question in the few seconds I have left. On the use of security staff in residential placements, particularly where there are teenagers, is that still the model Tusla is using with regard to these particular environments where there are teenagers who may have antisocial behavioural difficulties? Does Tusla still use them and if so, how often are they used?</p>
+        </speech>
+        <speech by="#" eId="spk_267">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_353">It is important to say the children and young people are the priority but, of course, we have to be mindful of staff safety as well. They are very rare occasions but there are occasions where they need the comfort and help of a security agency. They are reluctant to call on this. It is not a lever that is very easily or quickly pulled. We do need access to that kind of back-up where it is needed, but it is not common.</p>
+        </speech>
+        <speech by="#RuairiOmurchu" eId="spk_268">
+          <from>Deputy Ruairí Ó Murchú<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_354">They would not have the skill set.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_269">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_355">The last question is from me. I will ask Mr. McDaid and Ms Clarke a similar question and if they could answer it in a minute each, that would be great. In Tusla's opening statement, the need for more public awareness of the successes of the organisation was mentioned. I met the regional team in my area and they also talked about the need for more public awareness of the need for foster carers. The Adoption Authority representatives also mentioned that one of its strategic goals is improved public communications and public information. How do Mr. McDaid and Ms Clarke feel that they will assist in those public information campaigns in their roles as chairperson?</p>
+        </speech>
+        <speech by="#" eId="spk_270">
+          <from> Mr. John McDaid<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_356">We need to focus on a communications strategy to figure out how we will make people more aware. We have recently revamped and relaunched our website. We hope it is now more user friendly and there is a lot of information there that can help people. Obviously, we are not as politically sensitive as Tusla so we are not always on the front-line of news stories. That is probably a good thing but it puts a responsibility on us to figure out how we can get positive stories and better awareness out there, particularly for people who have a specific interest in what we do.</p>
+        </speech>
+        <speech by="#" eId="spk_271">
+          <from> Ms Madeleine Clarke<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_357">Even in the opening statement, I made this point. Some excellent reporting has been done on the difficulties we are facing and on the fact we are not meeting the targets we want to meet. Engaging interest in good news stories is nearly too ambitious. I would hope to advocate for engagement and interest in progress. You can see there are people working furiously, speedily and innovatively here. In the few months since I have come in, I have been very impressed with what is happening in the agency. I am saddened by the fact that when you say something outside, most people ask how you are attracted to an agency like that. We want more complete stories. It is not that we do not want the challenges to be focused on, but we want a more complete story that reinforces better some of the efforts staff are making on a day-to-day basis.</p>
+        </speech>
+        <speech by="#KeiraKeogh" eId="spk_272">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_358">Go raibh maith agat. I propose that the committee correspond with the Minister, Deputy Foley, advising that members of the joint committee have concluded their engagement with the chairperson of the board of Tusla and the chairperson of the board of the Adoption Authority of Ireland. Members welcome their appointments and wish them every success in their respective roles. Is that agreed? Agreed.</p>
+          <p eId="para_359"> I thank all of the witnesses for coming in today for this robust engagement. I wish both chairpersons every success in their very important roles. We look forward to working constructively with them.</p>
+        </speech>
+        <summary eId="sum_8"> The joint committee adjourned at 11.55 a.m. <i>sine die</i>.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>
+`;export{e as default};

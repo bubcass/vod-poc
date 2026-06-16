@@ -1,0 +1,1762 @@
+var e=`<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_transport/2026-05-27/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_transport/2026-05-27/debate"/>
+          <FRBRdate date="2026-05-27" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/committee/dail/34/joint_committee_on_transport"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_transport/2026-05-27/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_transport/2026-05-27/debate/mul@"/>
+          <FRBRdate date="2026-05-27" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_transport/2026-05-27/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_transport/2026-05-27/debate/mul@.akn"/>
+          <FRBRdate date="2026-06-04" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#debates">
+        <TLCPerson eId="CathalCrowe" href="/ie/oireachtas/member/id/Cathal-Crowe.D.2020-02-08" showAs="Cathal Crowe"/>
+        <TLCPerson eId="EmerCurrie" href="/ie/oireachtas/member/id/Emer-Currie.S.2020-06-29" showAs="Emer Currie"/>
+        <TLCPerson eId="EoghanKenny" href="/ie/oireachtas/member/id/Eoghan-Kenny.D.2024-11-29" showAs="Eoghan Kenny"/>
+        <TLCPerson eId="GraceBoland" href="/ie/oireachtas/member/id/Grace-Boland.D.2024-11-29" showAs="Grace Boland"/>
+        <TLCPerson eId="JoanneCollins" href="/ie/oireachtas/member/id/Joanne-Collins.S.2025-01-29" showAs="Joanne Collins"/>
+        <TLCPerson eId="LouisOHara" href="/ie/oireachtas/member/id/Louis-O'Hara.D.2024-11-29" showAs="Louis O'Hara"/>
+        <TLCPerson eId="MarkDuffy" href="/ie/oireachtas/member/id/Mark-Duffy.S.2025-01-29" showAs="Mark Duffy"/>
+        <TLCPerson eId="MichaelCollins2016" href="/ie/oireachtas/member/id/Michael-Collins.D.2016-10-03" showAs="Michael Collins"/>
+        <TLCPerson eId="MichaelHealyRae" href="/ie/oireachtas/member/id/Michael-Healy-Rae.D.2011-03-09" showAs="Michael Healy-Rae"/>
+        <TLCPerson eId="MichaelMurphy" href="/ie/oireachtas/member/id/Michael-Murphy.D.2024-11-29" showAs="Michael Murphy"/>
+        <TLCPerson eId="NessaCosgrove" href="/ie/oireachtas/member/id/Nessa-Cosgrove.S.2025-01-29" showAs="Nessa Cosgrove"/>
+        <TLCPerson eId="RodericOGorman" href="/ie/oireachtas/member/id/Roderic-O'Gorman.D.2020-02-08" showAs="Roderic O'Gorman"/>
+        <TLCPerson eId="ShaneMoynihan" href="/ie/oireachtas/member/id/Shane-Moynihan.D.2024-11-29" showAs="Shane Moynihan"/>
+        <TLCRole href="role/chair" showAs="Chair" eId="Chair"/>
+        <TLCRole href="role/vice_chairman" showAs="Vice Chairman" eId="Vice_Chairman"/>
+        <TLCRole href="role/author" showAs="author" eId="author"/>
+        <TLCRole href="role/editor" showAs="editor" eId="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>AN COMHCHOISTE UM IOMPAR</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>Joint Committee on Transport</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2026-05-27">Dé Céadaoin, 27 Bealtaine 2026</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2026-05-27">Wednesday, 27 May 2026</docDate>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">Tháinig an Comhchoiste le chéile ag 09:30 a.m.</summary>
+        <summary class="Center" eId="sum_2">The Joint Committee met at 09:30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_3">Comhaltaí a bhí i láthair / Members present:</summary>
+          <table>
+            <tr>
+              <th>
+                <p eId="para_1">Teachtaí Dála / Deputies</p>
+              </th>
+              <th>
+                <p eId="para_2">Seanadóirí / Senators</p>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#GraceBoland">Grace Boland</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#LorraineCliffordLee">Lorraine Clifford-Lee</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MichaelCollins2016">Michael Collins</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#JoanneCollins">Joanne Collins</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#CathalCrowe">Cathal Crowe</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#NessaCosgrove">Nessa Cosgrove</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#EmerCurrie">Emer Currie</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#MarkDuffy">Mark Duffy.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#ShaneMoynihan">Shane Moynihan</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#RodericOGorman">Roderic O'Gorman</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#LouisOHara">Louis O'Hara.</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_4">I láthair / In attendance: Deputies Michael Healy-Rae and Eoghan Kenny.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#MichaelMurphy">Teachta / Deputy Michael Murphy sa Chathaoir / in the Chair.</person>
+          </summary>
+        </rollCall>
+        <summary eId="sum_6">
+          <i> The joint committee met in private session until 9.41 a.m.</i>
+        </summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>The Remit of Transport Infrastructure Ireland: Transport Infrastructure Ireland<recordedTime time="2026-05-27T09:30:00+01:00"/></heading>
+        <speech by="#MichaelMurphy" eId="spk_1">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T09:40:00+01:00"/></from>
+          <p eId="para_14">The purpose of today's meeting is to engage with Transport Infrastructure Ireland on all areas within its remit. On behalf of the committee, I am pleased to welcome from TII Mr. Lorcan O'Connor, chief executive; Ms Geraldine Fitzpatrick, head of roads and greenways capital programme; Mr. Pat Maher, director of network management; and Dr. Suzanne Meade, senior engineer on roads and tunnel safety. You are all very welcome.</p>
+          <p eId="para_15"> The format of the meeting is that we will hear TII's opening statement followed by a question-and-answer session with members of the committee. I ask members to be concise in their questions to allow the witnesses the opportunity to participate.</p>
+          <p eId="para_16"> I will read out some notes on privilege for our witnesses. You are reminded of the long-standing parliamentary practice that you should not criticise or make charges against any person or entity by name or in such a way as to make him, her or it identifiable or otherwise engage in speech that might be regarded as damaging to the good name of that person or entity. Therefore, if your statements are potentially defamatory in relation to an identifiable person or entity, you will be directed to discontinue your remarks. It is imperative that you comply with any such direction.</p>
+          <p eId="para_17"> For the members, I remind you of the long-standing parliamentary practice to the effect that you should not comment on, criticise or make charges against a person outside the Houses or an official either by name or in such a way as to make him or her identifiable.</p>
+          <p eId="para_18"> I now ask Mr. O'Connor to make his opening statement on behalf of Transport Infrastructure Ireland.</p>
+        </speech>
+        <speech by="#" eId="spk_2">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T09:40:00+01:00"/></from>
+          <p eId="para_19">I thank the Chair, Deputies and Senators for the opportunity to appear before the committee. As you mentioned, Chair, I am joined by my colleagues Ms Geraldine Fitzpatrick, head of roads and greenways capital programme; Mr. Pat Maher, director of network management; and Dr. Suzanne Meade, senior engineer, roads and tunnel safety. Given that we were before the committee relatively recently, I know members are familiar with TII and, therefore, I propose to provide only a brief update on some of our activities. We have also provided an appendix with some project-specific updates as part of our submission of the opening statement.</p>
+          <p eId="para_20"> First, I will speak to capital delivery and new projects, which are a key area of TII's responsibilities.</p>
+          <p eId="para_21"> Turning to roads first, we have three major national road projects under construction: the N5 Ballaghaderreen to Scramoge, the N21 Adare bypass and the M28 Cork to Ringaskiddy, all on time and on schedule. The Adare bypass is due for completion by July 2027, which demonstrates what can be achieved through innovation and inter-agency collaboration.</p>
+          <p eId="para_22"> The N2 Slane bypass was granted planning approval by An Coimisiún Pleanála in July 2025 but is currently in a judicial review process. Members will be aware that the Galway city ring road was approved by An Coimisiún Pleanála in April 2026. There is currently a standstill period until mid-June in relation to that project. The Donegal TEN-T planning application was submitted to An Coimisiún Pleanála and published on 14 May, which is a significant milestone for the delivery of national road improvements in County Donegal and the north west.</p>
+          <p eId="para_23"> Other projects in the pipeline which will proceed to gate 1 approval this year include the N4 Carrick-on-Shannon bypass, the N21 Newcastle West bypass and the Mallow relief road. In 2026 TII reactivated a significant number of projects following the NDP review in 2025.</p>
+          <p eId="para_24"> Turning to light rail, the Luas Finglas railway order has been granted, and the Luas Cork preferred route has been published and is out for public consultation until mid-June. We are working on the emerging preferred routes for Luas Lucan and Luas Poolbeg and expect to bring Lucan to an initial public consultation later this year and Poolbeg early next year. We look forward to commencing planning on further Luas lines as prioritised by the NTA and fulfilling the vision of the NTA's greater Dublin area transport strategy.</p>
+          <p eId="para_25"> Turning to MetroLink, the programme achieved a landmark milestone in January of this year with the receipt of the operational railway order, granting full planning approval for the entire scheme. Following this, MetroLink commenced into full procurement for all major infrastructure packages, starting with the launch of the contract notices for the M400 heavy civil engineering packages in February. This was quickly followed by the launch of the M500 contract notice for the design, build, finance, operate, and maintain package covering station fit-out and railway systems, the depot for the fleet, the rolling stock itself and tunnel and station fit-outs. That happened in April. TII recently completed and submitted the revised business case for the project to the NTA as part of the approval gate 2 process.</p>
+          <p eId="para_26"> I will now touch on accelerating infrastructure, which is a key feature of the current Government's priorities but also, in light of the overall infrastructure deficit, so important across the board. TII acknowledges improvements in several areas, supported by the accelerating infrastructure task force and the Department of public expenditure's infrastructure division. We welcome the Government's Critical Infrastructure Bill, which we consider an important step in supporting the delivery of strategically significant infrastructure.</p>
+          <p eId="para_27"> We acknowledge from recent experience that An Coimisiún Pleanála is achieving its target timelines, and the courts system has reduced the delays associated with the judicial review process. The measures proposed have the potential to enhance certainty and efficiency in the planning and approval process, which is critical to meeting the State's transport, climate, housing and economic objectives, while improving the effectiveness and efficiency of public participation and judicial supervision. TII is committed to working in collaboration with Government Departments, State agencies and stakeholders to assist in delivering on the Government's strategic investment objectives.</p>
+          <p eId="para_28"> Turning to day-to-day operations, traffic volumes increased across the national road network in 2025. Taking the M50 as an example, we have seen an increase of an average of 2%. Cumulatively, since the end of the Covid pandemic, M50 traffic volumes have increased by approximately 10%. Some 65% of TII's annual roads budget is allocated to the operation, improvement and maintenance of the national roads network. This funding is targeted at maintaining the asset value, improving efficiency and safety, and supporting connectivity. The level of funding available is challenging. The various programmes are therefore prioritised based on safety surveys and a condition assessment across the network. Currently, as we approach the 20th anniversary of the completion of the major inter-urban motorway network, funding levels are insufficient to undertake essential life-cycle asset renewals for ageing infrastructure and to maintain the asset value of that network, conservatively estimated at €31 billion. Additional funding is required to continue to effectively maintain the network and address the challenges of resilience and climate change.</p>
+          <p eId="para_29"> On the light rail side, Luas patronage has grown by almost 60% over the past decade and it continues to grow. TII expects the Luas will carry approximately 60 million passengers this year, making it the busiest railway in the country. A new timetable was introduced last year, providing much-needed extra capacity on both lines, and further enhancements are planned for next year. In terms of the asset base, TII has been actively strengthening our capability and capacity to deliver a step change in asset investment, which is necessary to protect the performance and reliability of the network, which is now over 20 years old.</p>
+          <p eId="para_30">TII is working with the NTA to agree increased multi-annual funding and to streamline approval processes for the asset renewal works. There are many benefits, including reduced costs and improved value for money, consequent on evolving to a multi-annual planning and delivery approach for asset management, much like what is in place at the moment for the heavy rail side. </p>
+          <p eId="para_31"> The light rail asset base is valued at approximately €2 billion. TII is currently spending about €115 million per annum to provide services and maintain the network. Ticketing revenue in 2026 will be in the region of €60 million. TII also invests a further €20 million of capital funding on asset investment and asset renewal works. Longer term projections undertaken in 2025 highlight the need for approximately €1.8 billion over the next 20 years in asset life-cycle investment, which equates to about €90 million per annum over the next number of years. </p>
+          <p eId="para_32"> I will touch briefly on the national development plan, NDP, and investment in infrastructure. TII looks forward to the future mid-term review of the NDP because it will provide an important opportunity to align infrastructure investment with evolving national priorities, including population growth, regional development, climate objectives and economic competitiveness. TII looks forward to engaging constructively in that process to help ensure that future investment is targeted, sustainable and delivers maximum value for the State. A combination of factors, including ageing infrastructure, increasing congestion, the need for more transport-orientated development, climate adaptation and inflation, point to the mid-term review of the NDP requiring important investment decisions to be made for transport infrastructure to meet the above-mentioned national priorities. A key consideration for investment is the need to put operations, maintenance and asset renewal of transport infrastructure on a sustainable funding basis. The motorway network, the light rail network and other national primary and secondary roads need steady and reasonable investment to be kept in a safe and useable condition. </p>
+          <p eId="para_33"> TII acknowledges the level of concern around the delivery of the greenway programme and is actively engaging to address these concerns in conjunction with the Department of Transport. The Department is progressing a review of the greenway strategy which will include consultation with stakeholders, including local authorities and interest groups. Separately, TII will review the code of practice for greenways. Through this process key areas such as route selection, safety standards, accessibility, environmental stewardship and user experience will be considered. The objective is to ensure high-quality, consistent delivery across the network, while also facilitating efficient project development and public confidence in greenway projects. </p>
+          <p eId="para_34"> The road safety programme remains a central priority for TII, aligned with the Government’s Road Safety Strategy 2021–2030. We have continued to scale up delivery of low-cost remedial safety schemes which are a highly effective means of addressing collision risks on the national road network. Over 210 road safety schemes have been delivered and we will continue to deliver more schemes as funding is made available as part of the ongoing road safety programme. These schemes include measures such as improved road markings, enhanced signage, speed management interventions, junction visibility improvements and traffic calming features. Importantly, these interventions are data led, with investment targeted at locations with identified collision histories or risk profiles. Delivery is undertaken in close collaboration with local authorities, and the programme is benefiting from streamlined design and approval processes, enabling more rapid rollout. While small in scale individually, collectively these measures are delivering meaningful reductions in collision risks and supporting safer outcomes for all road users. </p>
+          <p eId="para_35"> The national safety camera strategy was published by the Department of Transport in April. The strategy confirms TII's role through participation in the camera enforcement oversight group and in advancing key elements of the strategy. In the short term, TII will lead the update of the safety camera handbook and will develop a TII roadmap for delivering its expanded role in the delivery and management of speed cameras. </p>
+          <p eId="para_36"> Finally, I will turn to Zero Emission Vehicles Ireland, ZEVI. I am conscious that only this morning the EPA issued an analysis of the country's emissions reductions targets and the challenges in the transport sector in particular. In that context, the work of the ZEVI team is all the more important. The Department of Transport has recently published a draft electric vehicle charging infrastructure strategy, running to 2028, for consultation. The draft strategy reaffirms the Government’s commitment to expanding and modernising Ireland’s EV charging network. This strategy is a key enabler of our transition to zero-emission transport and supports our national target of having 30% of the private car fleet switched to electric vehicles by 2030. As Ireland continues to decarbonise its transport sector, demand for EVs is growing steadily. There are approximately a quarter of a million EVs in Ireland. In the last year alone, EVs grew by over 63,000 and there is a notable uptick in EV penetration in parallel with recent global events and the impact on the fuels industry. With the recent transition of ZEVI into TII, we are continuing to expand the infrastructure delivery phase of the strategy with plans across the national road network and at regional and local destinations and neighbourhoods. The transition reflects confidence in TII’s ability to delivery complex national programmes and strengthens TII’s role in supporting Ireland’s climate transition. </p>
+          <p eId="para_37"> TII’s priority is around accelerating delivery of new infrastructure and the protection of our existing assets, which are so important to both the economy and society. TII remains committed to working collaboratively with this committee, the Department of Transport, the NTA, local authorities and all key stakeholders to ensure effective and timely delivery across all our programmes. We are happy to take any questions members may have. </p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_3">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_38">I thank Mr. O'Connor for his opening statement which reflects the scale of TII's remit. I will move immediately to members for questions. They have seven minutes each initially. We may have an opportunity for a follow-up three-minute question and answer session.</p>
+        </speech>
+        <speech by="#LouisOHara" eId="spk_4">
+          <from>Deputy Louis O'Hara<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_39">I thank all the witnesses for their time today. I will start with road safety. One issue I have raised repeatedly with TII is the stop-go system on the N65 at Heathlawn. We had a meeting back in March in relation to that. It is almost two years since that system was put in place and there is still no sign of repair works starting on the road. When we met back in March, the timeline given was that the design process would be finished around the end of May, it would go to tender afterwards and that tender process would take one to two months, with construction beginning in late summer. I ask for an update on that. Are we still on track to meet that timeline?</p>
+        </speech>
+        <speech by="#" eId="spk_5">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_40">That is a specific question that I will pass to my colleague, Ms Fitzpatrick.</p>
+        </speech>
+        <speech by="#" eId="spk_6">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_41">There are two aspects to this. The consultants are in place and are doing the design. It is quite a complex situation in that it is a sensitive river and a culvert has collapsed. In parallel, in order to try to relieve the position, we have been engaging with the county council, which will put temporary measures in place while the procurement is ongoing to allow for the removal of the traffic lights. That is to happen next month. The local authority will put a temporary measure in place so that the stop-go system can be removed. Meanwhile, the full procurement is ongoing. The design should be completed and the procurement will happen in September, with a view to the construction of the ultimate solution later in the year.</p>
+        </speech>
+        <speech by="#LouisOHara" eId="spk_7">
+          <from>Deputy Louis O'Hara<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_42">What are those temporary measures that are going to be put in place?</p>
+        </speech>
+        <speech by="#" eId="spk_8">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_43">It is some kind of temporary culvert, providing support for the culvert, so that the protection that is there can be removed to allow two-way movement. I do not have the ins and outs of the actual construction, but we have been engaging with the county council because we acknowledge that this is taking a long time. There is pressure to open up the road better for the people out there. The council, as late as yesterday, said that it has something it can put in place that will relieve the pressure there.</p>
+        </speech>
+        <speech by="#LouisOHara" eId="spk_9">
+          <from>Deputy Louis O'Hara<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_44">Will those lights be gone from next month and not be coming back?</p>
+        </speech>
+        <speech by="#" eId="spk_10">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_45">I do not know exactly how long the temporary measures will take but they are temporary. Ultimately, it will have to come back with a contract to the end of the year in order to put in the final solution and make sure it is actually robust and the right solution. In the meantime, a temporary solution is being designed.</p>
+        </speech>
+        <speech by="#LouisOHara" eId="spk_11">
+          <from>Deputy Louis O'Hara<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_46">That is perfect. I will move on to greenways and TII's role, on which the committee has had hearings previously. It is my understanding that the review of the code of practice has not started yet. Is that correct? If so, why has it not started yet and what is the timeline for it?</p>
+        </speech>
+        <speech by="#" eId="spk_12">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_47">There are a couple of issues at play here. We have an existing code of practice that we work to in progressing various greenway projects currently. Within that code there is an annual review. The most recent review was undertaken in the springtime of this year but it was done in a broader context whereby in June, the Department of Transport will undertake a broader strategic review of the overall greenway programme. It is envisaged that there will be further enhancements around the approach to greenways over the next number of months as a result of that Department's strategic review. We, together with various other stakeholders, will take an active part in that. However, regarding the code we operate currently, which we spoke about a good deal at our last meeting, its annual review was undertaken in the springtime, in the knowledge that there was to be a broader review undertaken this summer.</p>
+        </speech>
+        <speech by="#LouisOHara" eId="spk_13">
+          <from>Deputy Louis O'Hara<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_48">Is that review starting next month? How long is that process expected to take?</p>
+        </speech>
+        <speech by="#" eId="spk_14">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_49">I think it will be in the next two or three months.</p>
+        </speech>
+        <speech by="#" eId="spk_15">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_50">It is a matter of months. The engagement has already commenced. A number of people have already been notified that this is going to take place.</p>
+        </speech>
+        <speech by="#LouisOHara" eId="spk_16">
+          <from>Deputy Louis O'Hara<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_51">Who has been notified specifically? I have had complaints from landowners in my constituency that they have not been involved in this review process at all. I would argue that the landowners are probably the most important stakeholder in all of this. It is very important that they are brought on board. How is that managed?</p>
+        </speech>
+        <speech by="#" eId="spk_17">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_52">It has only commenced. The technical advisers or consultants had to be taken on board to carry out the review because there needs to be an external review by another party. They have commenced and, as of yesterday, a number of people were notified by email of potential contact from the consultants to engage in the process. It will be phased and it will take a period of time. There are a number of different sectors being targeted, such as delivery partners, policymakers, the representatives of the landowners and action groups. There will be an invitation to everybody during the next number of months.</p>
+        </speech>
+        <speech by="#LouisOHara" eId="spk_18">
+          <from>Deputy Louis O'Hara<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_53">When Ms Fitzpatrick says "everybody", does she mean every affected landowner will have an opportunity to take part?</p>
+        </speech>
+        <speech by="#" eId="spk_19">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_54">No, it will be representative bodies. That happens first. Then the strategy will be looked at. A draft strategy will be published and then there will be another opportunity to feed into that. There are going to be two opportunities in the process. It does not mean contacting individual landowners.</p>
+        </speech>
+        <speech by="#LouisOHara" eId="spk_20">
+          <from>Deputy Louis O'Hara<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_55">Will there be no public consultation?</p>
+        </speech>
+        <speech by="#" eId="spk_21">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_56">There will be public consultation on the draft strategy following all of the engagement initially.</p>
+        </speech>
+        <speech by="#LouisOHara" eId="spk_22">
+          <from>Deputy Louis O'Hara<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_57">I have only a short time left. The Galway city ring road was mentioned in the capital programme update. Will the witnesses outline TII's role in that project and, all going well, the timeline for it?</p>
+        </speech>
+        <speech by="#" eId="spk_23">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_58">Ultimately, it is a Galway council project. We will obviously be working closely with it but we need to observe the current standstill period through to the middle of June and then look, in terms of funding thereafter, at what can be done with that project.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_24">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_59">I will go to Senator Cosgrove and then come back to Deputy O'Gorman.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_25">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_60">I thank the witnesses for coming in. They are very welcome. I have only a few points I want to raise, so I will ask some quick questions. Who has the responsibility for the allocation of bus stops? Is it TII or is it local authorities?</p>
+        </speech>
+        <speech by="#" eId="spk_26">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_61">It is not TII, other than in terms of assessing particular locations from a road safety perspective.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_27">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_62">How does that work? This comes up a lot. It seems to go back to TII or it goes back to the local authorities. If there is a request for a bus stop in an area, who makes the final decision on that? Is it the local authority or is it TII?</p>
+        </speech>
+        <speech by="#" eId="spk_28">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_63">It would be the local authority.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_29">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_64">I live in the north west. The route of the Sligo, Leitrim and Northern Counties Railway, SLNCR, is one of the potential greenways being looked at. I have met lots of different people, both individual and groups, on this and there is a lot of concern. Even when people meet the project liaison officers, the PLOs seem to fob them off. The landowners feel as if they are not being listened to, despite engaging with the local PLOs. They want to engage and want to have some negotiation on this. If the old railway is not working, they are very willing to have other parcels of their land used. They feel frustrated that they are not being listened to. A lot of the landowners I have met said they have become disconnected and fed up with it. In the review could there be a full, structured, budget-led approach? There is an awful lot of stress being caused and an awful lot of worry. They are looking at the estimates for the whole 60 greenways and they do not seem to be syncing. Are the budgets realistic for what is being planned for the greenways overall?</p>
+          <p eId="para_65"> What is TII's opinion of its level of engagement? Is its level of flexibility with landowners adequate? Everyone wants to see greenways in the west, particularly in our area where we could badly do with the tourism and also for cross-Border relationships. It seems there is an unnecessary lack of flexibility. I do not know whether that is from Arup. It also seems the PLOs are not engaging as they should be.</p>
+        </speech>
+        <speech by="#" eId="spk_30">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_66">That flexibility the Senator is talking about is exactly what the overall review will, hopefully, identify over the next while. Ultimately, these projects are local authority-led and I would like to think there is open engagement with landowners and there is a fair assessment of various sections.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_31">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_67">Landowners are saying this goes back to Arup. They say the PLOs are engaging with them but they do not seem to take responsibility because they say it goes back to Arup. Is it realistic to believe these greenways will be delivered within the budgets?</p>
+        </speech>
+        <speech by="#" eId="spk_32">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_68">We have about €60 million a year for greenways. If we look at every potential greenway project in the country, €60 million a year is going to take a long time to-----</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_33">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_69">It is a drop in the ocean.</p>
+        </speech>
+        <speech by="#" eId="spk_34">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_70">-----eat into that. Having said that, there are a number of projects that merit progressing through to construction. We have to manage the budget as we would under any other area of activity across TII, in terms of prioritising those projects that present-----</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_35">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_71">I apologise for cutting across Mr. O'Connor. Are there landowners going through unnecessary stress given that these greenways may not be delivered at all?</p>
+        </speech>
+        <speech by="#" eId="spk_36">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_72">When we are talking about individual land parcels that is very personal, and I could not deny that it would cause some stress. However, where we are coming up with a potential preferred route and narrowing down further, there is a greater clarity around what sort of land take might be required. The precise timing of that can be difficult to estimate early on in the process but we certainly try to be as open and transparent as we can be in progressing those projects. When I say "we" that means the local authority.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_37">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_73">Are the budgets that have been allocated for greenways unrealistic given the scale of the ambition?</p>
+        </speech>
+        <speech by="#" eId="spk_38">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_74">That will be considered as part of the strategy review as well. We believe there are lessons to come out of all of this. The strategy is looking at those and at the whole programme. There is an opportunity, through the strategy review, to look at the way things are delivered.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_39">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_75">To get the structural budget.</p>
+        </speech>
+        <speech by="#" eId="spk_40">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_76">Yes. That is happening at the moment.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_41">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_77">When is the review due to be published?</p>
+        </speech>
+        <speech by="#" eId="spk_42">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_78">The initial publication is towards the end of the year. It takes time to have that engagement-----</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_43">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_79">Of course, yes.</p>
+        </speech>
+        <speech by="#" eId="spk_44">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_80">-----and to give people the opportunity to feed into the process.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_45">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_81">There is other very positive engagement. I am just focusing on some of the concerns that have been brought up with me.</p>
+        </speech>
+        <speech by="#" eId="spk_46">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_82">It will take time. There are a lot of things to look at.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_47">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_83">Does Ms Fitzpatrick expect the review to be finished by the end of the year?</p>
+        </speech>
+        <speech by="#" eId="spk_48">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_84">It will include looking at the overall programme, among other things.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_49">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_85">It should also look at realistic budgets.</p>
+        </speech>
+        <speech by="#" eId="spk_50">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_86">It may be necessary to break down schemes and things like that. There are a number of issues to examine. It is going to happen and we will look at all of that.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_51">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_87">I thank Ms Fitzpatrick. I have only one minute left. The witnesses probably saw the "Prime Time" programme last night about road safety, which showed that even with the ambitious plan for camera provision set out in the strategy, it will go nowhere near meeting what is needed. I am interested in the witnesses' views on that report. Did they see it?</p>
+        </speech>
+        <speech by="#" eId="spk_52">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_88">I did not see the programme. As we mentioned in our introductory statement, a new national camera road safety strategy was published in April. We are part of an implementation group with the National Transport Authority that is looking at advancing that strategy as best as possible. As the Senator noted, we need roll-out of a critical mass of cameras to drive a change in motorist behaviour.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_53">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_89">Is the strategy ambitious enough?</p>
+        </speech>
+        <speech by="#" eId="spk_54">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_90">In terms of where it wants to get to, yes, but we need to start moving quickly to make it visible.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_55">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_91">I thank Mr. O'Connor.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_56">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_92">The national camera safety strategy is something I have been calling for. Its publication, which happened earlier this month, was delayed for quite a long time. I understand TII was very involved in its drafting. What happens next with that strategy? There is good stuff in it but I was alarmed to see no clarity as to timelines. There are a lot of recommendations as to decisions that will have to be taken by the Government and State agencies, but there is no clear setting out of what will happen next. Mr. O'Connor said he is on the implementation body. How often has that body met so far? Does he have a timeline for the delivery of the critical mass of safety cameras at junctions and speeding points around the country?</p>
+        </speech>
+        <speech by="#" eId="spk_57">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_93">That group has just been established, with Ms Anne Shaw, CEO of the NTA-----</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_58">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_94">Has it met yet?</p>
+        </speech>
+        <speech by="#" eId="spk_59">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_95">No. The strategy has just been published. Ms Shaw, who will chair the group, has a lot of experience of road safety measures from her prior role. Other bodies represented on the group include An Garda Síochána and the Courts Service. We will meet in the next couple of weeks with a view to putting in place an implementation plan over the next number of months and years. I agree with the Deputy that we need to start rolling out the strategy.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_60">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_96">Will Departments be represented on the body?</p>
+        </speech>
+        <speech by="#" eId="spk_61">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_97">They will not be represented but we expect to report back regularly to the two main Departments, which are Transport and justice.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_62">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_98">One of the recommendations in the strategy is the creation of a new public body to run the new network of cameras. That will require quite a significant decision by the Government. It is hard to see how it can be carried forward by the group on which Mr. O'Connor sits if Government representatives are not present.</p>
+        </speech>
+        <speech by="#" eId="spk_63">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_99">As I see it, there are two main areas within the strategy. One is the road safety speeding camera initiative, with TII responsible for the deployment and maintenance of those cameras and An Garda Síochána responsible for enforcement. The other is the NTA side, whereby it will manage the process throughout in terms of the urban environment, including enforcement of bus lanes and other factors. They are the two main areas envisaged and they are the main areas in which we can make progress in the shortest time, which would serve everybody well.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_64">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_100">Is the recommendation to establish a new public body not being carried forward?</p>
+        </speech>
+        <speech by="#" eId="spk_65">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_101">Unless I am mistaken, I am not aware of that recommendation being within the latest strategy. Certainly, the two main elements are, as I have said.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_66">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_102">Chapter 5.7 of the strategy, which sets out the working group's assessment conclusion, recommends such a body as a measure for addressing the long-term operation of cameras.</p>
+        </speech>
+        <speech by="#" eId="spk_67">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_103">Perhaps that will be done in the long term but what we are really focused on is trying to make as much progress as we can on the road safety elements of camera enforcement. I have described the two areas in which we can make the greatest impact in the shortest time.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_68">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_104">Will Mr. O'Connor's group be setting out a timetable for the achievement of the various elements, and if so, will that be a publicly available document?</p>
+        </speech>
+        <speech by="#" eId="spk_69">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_105">I do not think the group would have any issue with making it public.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_70">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_106">This relates to accountability. I am sure everyone in the group is committed to the delivery of the strategy but if it does not include a timetable, concerns arise. If the group starts meeting with its members but no one else knows the timetable, does Mr. O'Connor agree it will be hard to achieve that element of accountability?</p>
+        </speech>
+        <speech by="#" eId="spk_71">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_107">For sure we need to have a timetable with actions and target deadlines.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_72">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_108">Is that something Mr. O'Connor expects to come out of the initial meeting?</p>
+        </speech>
+        <speech by="#" eId="spk_73">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_109">I do not know whether it will come out of the initial meeting but it would be one of the first deliverables we would expect to come out of the group.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_74">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_110">The Department of Transport's sectoral plan, which was published late last year, refers to the Luas extension to Finglas commencing construction in 2029. I find that hard to understand given the planning permission has been granted and the judicial review resolved. Why must we wait another two and a half years for construction to commence?</p>
+        </speech>
+        <speech by="#" eId="spk_75">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_111">It is fantastic that we now have an operational railway order and no more judicial reviews. I thank the parties involved that helped us to get to this point. We are now working, together with the National Transport Authority, on progressing the business case in terms of approval gate 2. Should funding become available, we believe we will be able to accelerate the overall timeline for the project.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_76">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_112">To clarify, TII is preparing the business case to the Government seeking the funding to deliver the Finglas Luas.</p>
+        </speech>
+        <speech by="#" eId="spk_77">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_113">That is correct.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_78">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_114">If the Government were to bring forward an early decision on funding, does Mr. O'Connor believe TII could go earlier?</p>
+        </speech>
+        <speech by="#" eId="spk_79">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_115">Correct.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_80">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_116">When will that business case be submitted to the Government?</p>
+        </speech>
+        <speech by="#" eId="spk_81">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_117">It is currently with the National Transport Authority.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_82">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_118">Does the NTA need to complete the business case?</p>
+        </speech>
+        <speech by="#" eId="spk_83">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_119">We are the sponsoring authority for the project. The NTA is the approving authority. Following its approval, the business case will go to the Department.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_84">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_120">Does Mr. O'Connor have any sense from the NTA as to when the business case will go forward?</p>
+        </speech>
+        <speech by="#" eId="spk_85">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_121">I expect to be in a position towards the end of the year where that process or assessment will be completed.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_86">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_122">How long will the procurement take?</p>
+        </speech>
+        <speech by="#" eId="spk_87">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_123">We are looking at the best part of a year between the two-phase procurement process and, ultimately, contractual negotiations with the preferred bidder. What we could be saying is that 2027 has the potential to be the year of procurement, with construction potentially starting the following year.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_88">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_124">Construction could start in 2028. The date could come forward but it is dependent on a Government decision on the provision of funding.</p>
+          <p eId="para_125"> I understand a pre-feasibility study was done on the Luas extension to Poolbeg. How is that impacting on the further development of that Luas project?</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_89">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_126">I ask Mr. O'Connor to be very brief in his response.</p>
+        </speech>
+        <speech by="#" eId="spk_90">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_127">Sure. We are working on preferred routes for both Lucan and Poolbeg. We hope to publish a potential route for Lucan before the end of this year and for Poolbeg by early next year.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_91">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_128">I thank Mr. O'Connor.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_92">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_129">Senator Duffy is down for the next slot. He has communicated to me that he wants to switch with Deputy Boland. I will allow it because he is in the room.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_93">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_130">This committee is stricter on speaking rights than the Committee of Public Accounts. I have a question about the M1. Balbriggan, which I represent, is very strategically located on that very important economic corridor. I expect the witnesses will agree with me that junctions 5 and 6 are not fit for purpose in serving the current number of residents and in the context of the planned residential and commercial growth. I would like to gain an understanding from Mr. O'Connor of what we can do to move things forward, including what needs to happen with the local authority. Will he commit to working with me and the local authority to make sure those junctions are upgraded such that they are fit for purpose and will serve the economic and residential needs of this significantly growing area?</p>
+        </speech>
+        <speech by="#" eId="spk_94">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_131">Certainly our commitment is to work with all stakeholders, including Fingal County Council, on the requirements in that area. Overall, the National Transport Authority is responsible for the transport strategy in the greater Dublin area and as you would expect that is focused on public transport and active travel. It does not envisage any significant roads infrastructure within the GDA at this stage. As for any specific projects or enhancements to the existing network, we are open to considering those. I ask my colleagues to speak to what we are currently dealing with in terms of Fingal County Council.</p>
+        </speech>
+        <speech by="#" eId="spk_95">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_132">We have a regional management structure, so there is a senior engineering inspector who deals specifically with the country council. I understand there has been engagement on changes to junctions 5 and 6. That kind of interface is ongoing. We are happy at any point to engage in that process, but it will come first from the local authority to us and then we engage from there. That is happening.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_96">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_133">I appreciate that. What I would like to see is a very constructive engagement. The town of Balbriggan has grown by over 200% in 30 years. I appreciate what Mr. O'Connor is saying but we cannot leave hugely growing residential and commercial areas behind by having them relying on what are outdated, essentially rural, layouts that are not fit for purpose as the main arteries into a growing town and its surrounding area. There is also the commercial imperative to deliver the appropriate infrastructure to market Balbriggan as a very attractive entity, not just in Ireland but compared with its European peers. I would like to see TII work with Fingal County Council very constructively.</p>
+          <p eId="para_134"> I always wonder about the value of State agencies putting in planning objections to other State entities' planning permissions. I would prefer if things were resolved before we got to that stage. Even from a funding perspective, funding litigation is expensive. As a lawyer, I can tell the witnesses the only ones who make money out of these things are lawyers. It is better if we do it constructively. I really appreciate TII's commitment to work constructively and to work with Fingal County Council. I thank the officials for pointing out the NTA. I will also follow up with it on ensuring we are all aligned in delivering the infrastructure that is very badly needed for Balbriggan.</p>
+          <p eId="para_135"> Turning to the metro, what is the status of the dedicated operating company?</p>
+        </speech>
+        <speech by="#" eId="spk_97">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_136">That would probably be what we are calling the M500. What we did at the end of April was issue a contract notice, which is the first stage of the procurement process, looking for consortia to express an interest in operating the metro for the first 25 years of its life. It is not just the operation of the metro but also the fit-out of the stations, the supply of the rolling stock and all the other bits and pieces that would go with that. That contract notice issued at the end of April. We hope that will result in a shortlist of consortia that would then be invited to bid for the full-on tender, which would commence in the autumn.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_98">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_137">That company will not only do the fit-out, etc. but will also be the operating entity.</p>
+        </speech>
+        <speech by="#" eId="spk_99">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_138">Correct.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_100">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_139">Will that be the company that is working on delivering the metro until we get to the operation of the metro?</p>
+        </speech>
+        <speech by="#" eId="spk_101">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_140">Correct.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_102">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_141">On the procurement process, which State entity will be entering into the agreement with the consortium?</p>
+        </speech>
+        <speech by="#" eId="spk_103">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_142">That will be Transport Infrastructure Ireland. The Government has stated there is an intention in due course to set up a special delivery body reflective of the scale of MetroLink. If and when that is established, various contracts are likely to be novated across to that entity but for now the contracting entity is Transport Infrastructure Ireland.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_104">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_143">I noted Mr. O'Connor said funding is "challenging". How is that worked out with the Department? Is it the Department that allocates funding to TII? Does TII essentially go in and plead its case on a yearly basis? Is that how it works?</p>
+        </speech>
+        <speech by="#" eId="spk_105">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_144">Yes. That reflects, I suspect, the way it operates all across government. We identify on an annual basis what our requirements are. Obviously, there is a finite amount of money available but equally we are looking at our longer term requirements. Hence in my opening statement I talked about the need for asset renewal and maintenance. Climate adaptation is another area where we have done a lot of work and Mr. Maher's team has recently published a paper setting out the requirements for climate adaptation over the next number of years. What we are calling out is that while there are various new projects we are very proud to be progressing, with the rest of the business there is a need to maintain the asset and ensure we protect it for the taxpayer and users.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_106">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_145">It is also the upgrades. If I want the upgrades of junctions 5 and 6 I need to be advocating for the funding.</p>
+        </speech>
+        <speech by="#" eId="spk_107">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_146">Yes, those too.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_108">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_147">I thank Mr. O'Connor.</p>
+        </speech>
+        <speech by="#JoanneCollins" eId="spk_109">
+          <from>Senator Joanne Collins<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_148">I have a couple of questions about the proposed Limerick to Cork motorway. I was on the call in 2025 where the layout of the road was outlined, as well as the route that had been picked. There was also mention of the tolls and how a toll at every junction was being considered. Is that still the case or will it be just one toll on the route?</p>
+        </speech>
+        <speech by="#" eId="spk_110">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_149">I ask Ms Fitzpatrick to give the Senator a more specific update on the project overall, but demand management would be an essential element of the overall project.</p>
+        </speech>
+        <speech by="#" eId="spk_111">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_150">On the tolling, what is proposed is called multipoint tolling. It is not necessarily a tollbooth on each junction. It is a number of payments depending on the amount you travel. There would be multiple points where there would be a payment associated with it. The reason we are looking at tolling is we have to look at demand management in terms of other priorities. It may not necessarily be tollbooths at junctions. It will relate to the distance you travel on the road itself.</p>
+        </speech>
+        <speech by="#JoanneCollins" eId="spk_112">
+          <from>Senator Joanne Collins<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_151">I was just thinking about how I can go all the way from Limerick to Dublin and just hit one toll of €3.20 for the car. If you were to go the entire way from Limerick to Cork on the proposed M20 would the different tolls be equivalent to that or multiples of it?</p>
+        </speech>
+        <speech by="#" eId="spk_113">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_152">It will have to be proportional. It will not be excessive because if it is people will not use the road. We want people to use the facility and we want them to travel on it because it will be a much safer road. We have not got to the point of determining the actual amount but the objective is to get people to use the road as a better facility.</p>
+        </speech>
+        <speech by="#JoanneCollins" eId="spk_114">
+          <from>Senator Joanne Collins<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_153">Yes. I am just conscious that if it was going to be multiples of a toll cost-----</p>
+        </speech>
+        <speech by="#" eId="spk_115">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_154">That is not the intention.</p>
+        </speech>
+        <speech by="#JoanneCollins" eId="spk_116">
+          <from>Senator Joanne Collins<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_155">-----we are going to end up putting people back on the N20, which has some of the most dangerous junctions in the country. It is really important. People have been waiting over 20 years to get this road done. It will be fantastic when it is. Do we have an ETA? I am being very ambitious today.</p>
+        </speech>
+        <speech by="#" eId="spk_117">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_156">It is complex. We are hoping the business case will be submitted next year rather than this year. Then it will have to go for Government approval for the funding to submit it to An Coimisiún Pleanála.</p>
+        </speech>
+        <speech by="#JoanneCollins" eId="spk_118">
+          <from>Senator Joanne Collins<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_157">Okay. It will be another while.</p>
+        </speech>
+        <speech by="#" eId="spk_119">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_158">Yes, but a lot of work has been done, as the Senator can appreciate. A full business case has been prepared for next year for that approval.</p>
+        </speech>
+        <speech by="#JoanneCollins" eId="spk_120">
+          <from>Senator Joanne Collins<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_159">Perfect. I am going to stick to that road. TII has a project at O'Rourke’s Cross. Is that the roundabout people were hoping would be put in there?</p>
+        </speech>
+        <speech by="#" eId="spk_121">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_160">I will have to just check the notes.</p>
+        </speech>
+        <speech by="#JoanneCollins" eId="spk_122">
+          <from>Senator Joanne Collins<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_161">I have thrown a spanner in the works now. It is on the N20. O'Rourke's Cross is probably the most dangerous junction on that road. It was proposed to have a roundabout and then it went-----</p>
+        </speech>
+        <speech by="#" eId="spk_123">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_162">I am sorry. There are issues. There has been a judicial review in relation to it-----</p>
+        </speech>
+        <speech by="#JoanneCollins" eId="spk_124">
+          <from>Senator Joanne Collins<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_163">Yes.</p>
+        </speech>
+        <speech by="#" eId="spk_125">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_164">-----so it is held up until we can come out of that process.</p>
+        </speech>
+        <speech by="#JoanneCollins" eId="spk_126">
+          <from>Senator Joanne Collins<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_165">Is that still in process? It is not finished.</p>
+        </speech>
+        <speech by="#" eId="spk_127">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_166">That is still in a process, yes. It is ongoing.</p>
+        </speech>
+        <speech by="#JoanneCollins" eId="spk_128">
+          <from>Senator Joanne Collins<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_167">Okay.</p>
+          <p eId="para_168">Again, I am just looking for an update on the new Newcastle West and Abbeyfeale bypasses. I know routes have been chosen.</p>
+        </speech>
+        <speech by="#" eId="spk_129">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_169">Preferred routes for both of those are in place. Both will have to go for approval to publish them. One is slightly ahead of the other. I think Abbeyfeale will go for business case approval this year, while the other one, Newcastle West, will go next year. They are going well and are on track. I am not aware of any immediate issues with them so, hopefully, we will see progress towards the end of the year.</p>
+        </speech>
+        <speech by="#JoanneCollins" eId="spk_130">
+          <from>Senator Joanne Collins<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_170">That is great.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_131">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_171">I have a lot of questions about greenways, walkways and roads. The witnesses spoke about light rail, which is fantastic if you are lucky to have it. Where I live, Mizen Head, is 126 km from light rail and there is nothing between that and light rail but the road. It is 131 km to Ardgroom and 118 km to Sheep's Head. That is fine if there is a proper road structure. There is no point in saying we will get light rail. Light rail came within 3 km of me 100 years ago. That tells us how far we had progressed at that time but that is not the case now. There is no point in TII saying it is going to bring light rail to Schull, Skibbereen or Bandon. It is not going to happen. What is TII's vision for people in that situation, not me personally but the tens of thousands of others? Where is its vision of providing funding for bypasses in Innishannon, in Bandon, both north and south, and in Bantry, along with passing bays because drivers can be stuck behind a tractor for half an hour sometimes, especially during silage season? What is TII's vision for west Cork. I am being very parochial about it.</p>
+        </speech>
+        <summary eId="sum_7">
+          <i> Senator Nessa Cosgrove took the Chair.</i>
+        </summary>
+        <speech by="#" eId="spk_132">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_172">I will answer that in two or three different ways. In terms of our short- to medium-term vision, it involves the various projects listed in the sectoral plan. Beyond that, we will be certainly working very closely with Cork County Council to understand medium to longer term requirements. The third element of that is around public transport provision to encourage modal shift. That talks to the Connecting Ireland programme from the NTA and trying to ensure there are viable options for people, whether that is to complete their entire journey by bus or to shift to rail at an appropriate opportunity. Those are the three elements to the overall assessment.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_133">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_173">I am not being in any way rude but none of those are happening. I realise that Local Link might be an opportunity to bus people to a train station, which would be a fantastic place to start. It is now putting out tenders for routes. I spoke on that in the Dáil yesterday. I cannot understand why TII has not yet spoken to Cork County Council. West Cork is part of Ireland. I am pleading with TII to look at the N71 and have passing bays there. Why should somebody spend half an hour behind a vehicle? It is the height of danger to spend half an hour behind a tractor or lorry when there are simple open bays to the left and right like there are in every other country. I am pleading with TII to look at that.</p>
+        </speech>
+        <speech by="#" eId="spk_134">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_174">I assure the Deputy that we have regular engagement with Cork County Council. In Mr. Maher's area of roads maintenance, there has been a significant increase in funding to the entire county this year. I am conscious that County Cork has a huge share of the overall regional and national road network in the country, so it is particularly important. There has been a significant increase.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_135">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_175">Yes, but to me it is pothole repair. I am looking for a vision of a road on which people can travel in safety and can travel 80, 100 or 120 km without going 20 km/h behind a tractor for half and hour or 45 minutes. That is the real story. I know it. I have lived through. It is hair-pulling stuff. I would appreciate it if TII would consider roads in west Cork for a special study. I cannot understand how Cork County Council is not communicating with TII already. I am astounded that this has not been delivered on or that there has not been at least some movement on it.</p>
+          <p eId="para_176"> Regarding greenways, TII is saying that it is starting to engage with people, that the review of the code of practice is under way and that it is communicating that with people. The National Greenway Action Association did not get any communication from TII.</p>
+        </speech>
+        <summary eId="sum_8">
+          <i> Deputy Michael Murphy resumed the Chair.</i>
+        </summary>
+        <speech by="#" eId="spk_136">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_177">It is only starting. It is going to happen over the next number of months. The technical advisers are only just in place.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_137">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_178">Will the National Greenway Action Association be included?</p>
+        </speech>
+        <speech by="#" eId="spk_138">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_179">It will be contacted to feed into the process.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_139">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_180">I appreciate that. Regarding the greenway projects TII has in mind, how much will they cost and will TII be able to complete all those projects?</p>
+        </speech>
+        <speech by="#" eId="spk_140">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_181">As I mentioned to a member earlier, we have approximately €60 million a year for greenways. That is part of a much wider active travel budget the Government has that the NTA would largely deliver upon. That is €60 million a year. It will take a long time to work through the various projects we are looking at. Obviously, there are certain projects that were not being accelerated ahead of others. That is the budget we have in any given year.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_141">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_182">Is TII going to get through 20%, 50% or 80% of its projects?</p>
+        </speech>
+        <speech by="#" eId="spk_142">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_183">At the moment, we have a number of live projects ahead. In our annual report, we talked about the number of kilometres already provided. There are certain opportunities for certain routes that can try to source grant funding from other sources, which will obviously help. We have a number of projects in construction.</p>
+        </speech>
+        <speech by="#" eId="spk_143">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_184">There are about five that are priority and under construction. We accept that it is quite a big programme and we are looking at that in terms of the amount of money we have.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_144">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_185">As an option, compulsory purchase orders, CPOs, still stand.</p>
+        </speech>
+        <speech by="#" eId="spk_145">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_186">As a last resort.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_146">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_187">CPOs have been pushed ahead as the main resort from what many people have told me. That is causing serious stress to a lot of landowners. Did TII ever walk the Sheep's Head Way, look at it and see how that was done? A CPO was not used there and it is a fantastic walk up into the Beara Way. There were no CPOs used. I completely oppose CPOs given the stress they cause. I am getting emails from landowners who may have their farms split in two, with massive roadways of tar going through them. It is not acceptable. It can never be acceptable to use a CPO for recreational purposes. Maybe they can be used for serious infrastructure such as roads.</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_147">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_188">I welcome the witnesses. I raise the chronic traffic issues in Ballina, which I have raised in the committee previously. Unfortunately, the problem has got worse since I last raised it. Ballina relies on two bridges built in the mid-1850s. Since then, no other road bridge has been built over the River Moy in north Mayo. It is an area that serves over 30,000 people, from west Sligo all the way into north Mayo, and congestion in the town is at a chronic level. What will amplify that pressure in the coming months is the fact that works are being carried out on one of the relief roads, which was a back road called Bunnafinglas Road. The works are being carried out by EirGrid to lay a new 110 kVA cable from Ballaghaderreen into Ballina. This is going to amplify traffic issues and choke the town. The local council has made some minor attempts to improve safety at junctions on Kevin Barry Street, which have caused huge tailbacks beyond the train station.</p>
+          <p eId="para_189"> I cannot reiterate enough how much we need TII's intervention to move forward with phase 2 of the Ballina bypass, which involves an eastern bypass over the River Moy. I am conscious of and welcome the progress on phase 1, from Foxford Road on to Crossmolina Road, which will allow some partial relief. The last time TII attended the committee, I asked for intervention specifically on the eastern bypass. I would like an update on that.</p>
+        </speech>
+        <speech by="#" eId="spk_148">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_190">I will ask my colleague to go into some of the detail for the Senator in a moment, but I understood clearly the issues he raised the last time around, and he set them out there again. There is some progress on phase 1 but ultimately it is a funding issue and it does come to-----</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_149">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_191">Has TII requested funding from the Department for phase 2?</p>
+        </speech>
+        <speech by="#" eId="spk_150">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_192">We would be equally reliant on the county council to come to us with a proposal or assessment, as such, that could then go into the system to deal with that. Perhaps Ms Fitzpatrick could add to that.</p>
+        </speech>
+        <speech by="#" eId="spk_151">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_193">As Senator Duffy acknowledged, the first phase of the Ballina bypass is going for planning approval this year. That project is delivered under what we call a "minors" programme. We have about €60 million a year for that programme. The bypass is competing against a multitude of other projects around the country.</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_152">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_194">We are competing against generations of lack of investment in that area. I understand that there are competing projects across the country. I am specifically talking about phase 2, which is the River Moy crossing. First, the town is choked on a daily basis and, second, if we want to have any prosperity or economic future, especially when we are trying to develop industrial and commercial lands on the Sligo Road side of town, that cannot be realised properly and effectively without the eastern bypass. This is a generational investment that should have been done long ago. I do not know why it has not been on the table. I am in the Oireachtas 18 months. Obviously, I have raised the matter at this committee previously and in my time as a councillor, along with all councillors locally. What I am asking for is urgent intervention from TII to assess it. This is not something that should be a gradual process. I know there are protocols but this has gone beyond a joke at this stage.</p>
+        </speech>
+        <speech by="#" eId="spk_153">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_195">I committed the last time to engage with the regional design office, RDO. I have been on to the RDO, but at the moment it is getting the first phase through. Once that goes to planning, it will be in a position to look at the other side of the town – the eastern bypass element. It is a matter of trying to build it into a programme where there are competing demands. We must also look at the resources and the ability of the county council to deliver it.</p>
+          <p eId="para_196"> We have to do things in steps. The first step is to go to planning, and once that happens, we will look at the other side of the bypass. It is a matter of planning, funding and resources. The council has committed to do what it can once the other application goes in.</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_154">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_197">Going back to the chronic traffic issues in the town, we had a local transport plan when I was a councillor and I had great hopes for it but it was poorly executed. Hundreds of thousands of euro were spent on a consultant who engaged very poorly and not so constructively. Some interventions and recommendations were made but none of them has been funded. One of them was a cantilever on the lower bridge, which would change the two-way flow on the lower bridge. That would have given some relief. It is something that is being sought by residents in the town to help commuters coming from the Sligo Road. Is someone in TII actively looking at Ballina and thinking about what tweaks and changes could be made even in the short term? It just feels like no one is listening to us.</p>
+        </speech>
+        <speech by="#" eId="spk_155">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_198">We do the work through the local authorities, so we are relying on their input.</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_156">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_199">In Ms Fitzpatrick's opinion, are the local authorities failing to address or intervene?</p>
+        </speech>
+        <speech by="#" eId="spk_157">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_200">No, I am not saying that. I am saying-----</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_158">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_201">The local authority would say it is not being funded by TII. Where is the gap?</p>
+        </speech>
+        <speech by="#" eId="spk_159">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_202">There is definitely a funding issue, in that we have a certain amount of money for all of the roads projects around the country. We have enough to move forward with one element of the project.</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_160">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_203">Is it the Minister who is refusing to fund the project in Ballina?</p>
+        </speech>
+        <speech by="#" eId="spk_161">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_204">It is not specifically for Ballina; it is for work-----</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_162">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_205">I want to focus specifically on Ballina because it is a chronic issue that is getting worse. It will get worse in the coming months. No one is paying too much attention to it. It has been generationally pushed down the line and ignored. It is not even a feeling - that is the reality. What hope can we give to people in Ballina and north Mayo? Ballina relies on two 19th century bridges, so even though it is a small rural town, if you want to get from one side of town to the other, it could take half an hour at times. Some people have to go up to Foxford and come in the Church Road-Bunnafinglas Road just to get to the other side of town. Access to the Bunnafinglas Road is now going to be restricted because of works by EirGrid.</p>
+        </speech>
+        <speech by="#" eId="spk_163">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_206">As we said, it ultimately comes down to resources and capacity, that is, money and experts within the county council and so on. It is a pragmatic approach to look at phase 1 first and try to get it going and then to look at phase 2. The reality is that there are limited resources.</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_164">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_207">Could an external contractor or consultants do the work? There are examples of where there was engagement with an external contractor to carry out work where there was not capacity within the authority.</p>
+        </speech>
+        <speech by="#" eId="spk_165">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_208">It would still have to be managed internally by the local authority to do that because a local presence and oversight are needed.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_166">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_209">I will take my own slot and then go to Deputy Moynihan, and thereafter to other members.</p>
+          <p eId="para_210"> I want to focus on the policy that was issued last year by TII on roadside memorials. I am not too sure when it was issued as there is no date on it. Will the witnesses clarify that? It was a policy that generated significant media attention at national level after it was issued. Roadside memorials are deeply emotional markers for bereaved families. They are not just roadside features; they are expressions of grief and remembrance by families who have lost loved ones on our public roads.</p>
+          <p eId="para_211"> I have quite a number of questions, so I ask the witnesses to be brief in their answers. What level of consultation took place in advance of this policy being issued? To what extent did TII engage with bereaved families, other stakeholders and elected members? The first time I became aware of the policy was when I saw it on the front page of a national newspaper. I imagine it was the same for elected Members at national level and those at a local level. What level of consultation took place in advance of this policy? I accept that there may be a road safety issue. The question for me is whether the policy strikes the right balance between safety, local discretion and compassion. There were existing policies in place in my local authority in Tipperary. Families had to engage with and meet the district engineer.</p>
+        </speech>
+        <speech by="#" eId="spk_167">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_212">I will ask my colleague, Dr. Meade, to comment in a moment. As the Chair says, it is a particularly sensitive subject because, as we were just talking about, we have had to respond to very tragic situations. Our motive is purely road safety. The Department of Transport policy is reflective of the fact that there is a risk associated with roadside memorials.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_168">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_213">Is it Department of Transport policy or TII policy?</p>
+        </speech>
+        <speech by="#" eId="spk_169">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_214">It is a Department of Transport policy. Unfortunately, we have had examples where roadside memorials in and of themselves have generated accidents and fatalities. It is a very difficult-----</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_170">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_215">On this policy document, there is a Department of Transport heading and a TII heading. Did the Department draft the policy and was it then issued as a joint policy? I want to get clarity on that.</p>
+        </speech>
+        <speech by="#" eId="spk_171">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_216">It is a Department of Transport circular. I do not know the exact date it was published in 2025 but we can get back to the Chair on the exact month.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_172">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_217">Did the Department draft the policy or did TII draft it?</p>
+        </speech>
+        <speech by="#" eId="spk_173">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_218">It is a Department of Transport policy and TII, as a stakeholder, fed into that policy, in particular because the policy dealt with high-speed roads.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_174">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_219">It is the case that the vast majority - 90% to 95% - of our public road network is composed of roads with speeds greater than 60 km/h.</p>
+        </speech>
+        <speech by="#" eId="spk_175">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_220">Exactly. The policy recommends that local authorities have their own policy for roadside memorials. The Chair mentioned his own county of Tipperary. That policy paper acknowledges that there are existing policies. It is part of the policy that TII or local authorities would not remove them, out of respect. It recommends that local authorities would develop their own policies to take into account local needs and opinions. It recommends that it should be looked at on a local level. That will form part of the road safety plan for each county. As the Chair said, some have done that.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_176">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_221">Is the policy statutory, advisory or guidance only?</p>
+        </speech>
+        <speech by="#" eId="spk_177">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_222">I think it is guidance, but we will have to get back to the Chair for clarification on that point.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_178">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_223">It is guidance only so there is no statutory obligation on local authorities to adopt or transcribe this policy into their existing policies or update their existing ones. I know Tipperary has since updated its existing policy.</p>
+        </speech>
+        <speech by="#" eId="spk_179">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_224">Yes.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_180">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_225">My time is limited. Does it apply to existing road memorials on roadsides?</p>
+        </speech>
+        <speech by="#" eId="spk_181">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_226">No, it does not. It is stated in the policy that it is not a policy that TII would request, want or advise other parties to move those out of respect for those and it does state-----</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_182">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_227">In terms of proportionality, how is this policy consistent with policy around roadside advertisements?</p>
+        </speech>
+        <speech by="#" eId="spk_183">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_228">It is not similar. It comes from a completely different place. I will explain what the safety risk is. The rationale for bringing out this guidance document is that we would advise people of the risks associated with this because it may cause risks for all road users. One risk is, if you are parking across from a roadside memorial you will have to cross a high speed road. That has an inherent risk and we have seen collisions caused by that action. The other risk would be, parking on the side of a high speed road or transient parking creates a hazard on the side of the road. What we are trying to achieve here are safe roads and road use and safe roadsides. A vehicle on the side of an operating high speed road is a hazard in itself and obviously if the occupants exit the vehicle they are vulnerable.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_184">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_229">I am sure Dr. Meade is aware of the media attention at the time this policy appeared on the front page. Why was there no consultation with stakeholders like bereaved families and the elected representatives at local or national level?</p>
+        </speech>
+        <speech by="#" eId="spk_185">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_230">I am not sure what consultation was done on this but we can come back to the Chair on that.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_186">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_231">I just want to be clear as well, can local authorities depart from this policy?</p>
+        </speech>
+        <speech by="#" eId="spk_187">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_232">What is recommended in that policy is that local authorities might look to find an appropriate public space that is not on a high speed road, with those risks associated with it, so that memorials could continue to be erected or put into place for bereaved families.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_188">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_233">In the event that a bereaved family operates outside of this policy, or policy at the local level, and erects a roadside memorial, who is the decision maker in the removal of that roadside memorial?</p>
+        </speech>
+        <speech by="#" eId="spk_189">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_234">The local authority, as far as I understand it. That would be a-----</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_190">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_235">Is it compulsory that the local authority has to remove it? Is there a statutory obligation on it to remove the memorial?</p>
+        </speech>
+        <speech by="#" eId="spk_191">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_236">Not as I understand it. </p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_192">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_237">In the event a bereaved family departs from this policy, or a policy at local level, there is no statutory obligation on the local authority to remove it.</p>
+        </speech>
+        <speech by="#" eId="spk_193">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_238">We would have to give the Chair clarification on that because that would fall with the planning authority.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_194">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_239">Road safety is a key focus of this committee, but as Chair of this committee I am acutely aware of the distress that was generated when this appeared on the front page of a national newspaper. There was a lack of consultation, and confusion as to whether it applied to existing road memorials. I am glad Dr. Meade has clarified that, categorically, it does not apply to existing roadside memorial and, as I said-----</p>
+        </speech>
+        <speech by="#" eId="spk_195">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_240">It is stated in that policy the Chair has there. It is stated in that policy document they would not be touched.</p>
+        </speech>
+        <speech by="#ShaneMoynihan" eId="spk_196">
+          <from>Deputy Shane Moynihan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_241">Go raibh maith agat a Chathaoirligh agus go raibh míle maith agaibh ar fad as ucht teacht isteach ar maidin. First ,I pay tribute to TII for its work on the Grand Canal greenway. I met Mr. O'Connor there. It is great scheme and a very effective one. I hope what it will do to unlock access to Shannonbridge will be transformative. The overwhelming feedback I have got from constituents so far is that it is a very well received scheme so I thank TII for its collaboration with South Dublin County Council on that.</p>
+          <p eId="para_242"> I want to move to one immediate safety concern that was raised. We discussed it last November. It is in regard to the closure of the Boot Road junction onto the N7. At that time, the discussion we had centered on the fact it was TII policy to close direct access onto the national roads network and that TII was of a view this exit had to be closed. South Dublin County Council holds a different view. The feedback I am getting from residents in that immediate area is that the closure of that road will force the traffic onto an already stretched and creaking local road network, for example, from Boot Road right back onto the Fonthill Road. There are alternatives that we can put in place here. I want to get any considerations or thoughts TII has had in that intervening period because I know from the correspondence we have had with TII and the county council is there is still consideration ongoing but there does not seem to be any movement since we discussed this last November. I will start with that please.</p>
+        </speech>
+        <speech by="#" eId="spk_197">
+          <from> Mr. Pat Maher<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_243">Colleagues of mine have engaged technical advisers so the issue is being looked at in terms of what the best solution is having regard to the views of the local authority and our own issues and concerns about that. I cannot give the Deputy a definitive position on it at the moment but can come back to him on it. It is actively being considered at the moment.</p>
+        </speech>
+        <speech by="#ShaneMoynihan" eId="spk_198">
+          <from>Deputy Shane Moynihan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_244">Will that take into account the views of residents about the impact that closure will have on local traffic volumes as well?</p>
+        </speech>
+        <speech by="#" eId="spk_199">
+          <from> Mr. Pat Maher<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_245">Yes.</p>
+        </speech>
+        <speech by="#ShaneMoynihan" eId="spk_200">
+          <from>Deputy Shane Moynihan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_246">Great. What sort of timeframe does Mr. Maher think we are looking at for a decision on that issue?</p>
+        </speech>
+        <speech by="#" eId="spk_201">
+          <from> Mr. Pat Maher<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_247">Possibly by the end of the summer but I will have to come back to the Deputy on that. I have not been briefed on that issue specifically.</p>
+        </speech>
+        <speech by="#ShaneMoynihan" eId="spk_202">
+          <from>Deputy Shane Moynihan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_248">It will be good to have clarity on Boot Road by the end of the summer, if we can.</p>
+          <p eId="para_249"> When we were here last we discussed the placing of toll gates on the M50. I know Deputy Currie is well aware of this issue as well, particularly for people in my constituency who live in Lucan where, effectively the village is used as a rat run for people who want to avoid the toll given its location there. We discussed the principle of putting the tolls, and proportionate tolling, at the exits and entrances to the M50 to make it fairer and also to remove that overall impact. Mr. O'Connor said we were coming to the point where contracts were ending and where reflecting on this could be a possibility. What sort of progress has been made in that regard thus far?</p>
+        </speech>
+        <speech by="#" eId="spk_203">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_250">The M50 brings with it a whole host of issues. As we know, it is largely operating at capacity and we have at the moment a toll at a specific point, as the Deputy has described. That does give rise to issues around equity or equality in that you could be using a good portion of the M50 and not paying a toll, or a short portion and paying the full toll. What we are looking at there is, the NTA is working on a broader demand management strategy but also a working group is being established to look at tolling more generally, together with the Department of Transport. That is being looked at over the next while, conscious that various PPP tolling contracts, of which the M50 is not one, are coming to the end of their contract lives in the next number of years, or over the next decade.</p>
+        </speech>
+        <speech by="#ShaneMoynihan" eId="spk_204">
+          <from>Deputy Shane Moynihan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_251">When will the window for that sort of consideration for the M50 be optimal?</p>
+        </speech>
+        <speech by="#" eId="spk_205">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_252">In terms of an overall demand management review and strategy, trying to bring as much clarity to that as possible over the next year to two years would be important.</p>
+        </speech>
+        <speech by="#ShaneMoynihan" eId="spk_206">
+          <from>Deputy Shane Moynihan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_253">What we are saying is that, by the end of this decade we would have clarity on that demand strategy and we would be seeing infrastructural modifications where tolls are in place? Would that be fair?</p>
+        </speech>
+        <speech by="#" eId="spk_207">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_254">That is certainly an option, yes.</p>
+        </speech>
+        <speech by="#ShaneMoynihan" eId="spk_208">
+          <from>Deputy Shane Moynihan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_255">Is it a likely option?</p>
+        </speech>
+        <speech by="#" eId="spk_209">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_256">We would have to see where the overall NTA demand management strategy comes down and it will feed into that, certainly.</p>
+        </speech>
+        <speech by="#ShaneMoynihan" eId="spk_210">
+          <from>Deputy Shane Moynihan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_257">I should have mentioned at the outset that I thank TII for its work with South Dublin County Council on the Brittas village traffic calming scheme that is in place as well. It is very welcome and long overdue. I know it is out to consultation at the moment. I was struck by something Mr. O'Connor said earlier that it seems to be a policy that no new major road infrastructure is being planned for the greater Dublin area, GDA, over the coming years. That is interesting in the context of the fact that I know South Dublin County Council is looking at a traffic management study for the western part of its county as well. While the council has not explicitly said it, it was always my view, and in the county development plan, that an orbital route on the western side of the county would be explored for areas that are rapidly growing like Rathcoole, Saggart and Newcastle, that need that sort of relief road infrastructure. Am I picking up what Mr. O'Connor said correctly that it would not include that or could it still be an option?</p>
+        </speech>
+        <speech by="#" eId="spk_211">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_258">You have to look at that in the round. If that is part of an overall strategy of which modal shift is envisaged then that may well be justified. There are certain roads projects that are being done but they are largely public transport or active travel orientated, or that is the main driver. In terms of the overall GDA transport strategy, that is an opening assumption in what needs to be done over the next number of years, albeit that strategy is to be reviewed in the relatively near future.</p>
+        </speech>
+        <speech by="#ShaneMoynihan" eId="spk_212">
+          <from>Deputy Shane Moynihan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_259">Would roads like the Clonburris south link street that has an active travel and public transport lane but also has a private car lane fall under the description Mr. O'Connor just gave there?</p>
+        </speech>
+        <speech by="#" eId="spk_213">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_260">No. That type of project may well proceed.</p>
+        </speech>
+        <speech by="#ShaneMoynihan" eId="spk_214">
+          <from>Deputy Shane Moynihan<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_261">I welcome the fact that the Lucan Luas preferred route will be published later on this year. Will Mr. O'Connor give me a more specific time as to when he thinks we will see that?</p>
+        </speech>
+        <speech by="#" eId="spk_215">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_262">Hopefully, before December. I cannot really say more than that, but in the same way we are now at the preferred route status in Cork, that in itself is a very significant milestone because all of a sudden, people can visualise what that might mean - broadly speaking, the journey time into the city centre and the connections it creates. We have found, certainly in that initial emerging route consultation, very helpful feedback to allows us to tweak or make changes to enhance the overall project.</p>
+        </speech>
+        <speech by="#ShaneMoynihan" eId="spk_216">
+          <from>Deputy Shane Moynihan<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_263">Are we satisfied that it is compatible with the Lucan core bus corridor option B set out under BusConnects?</p>
+        </speech>
+        <speech by="#" eId="spk_217">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_264">We are working very closely with the NTA to ensure that all those touch points are met.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_218">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_265">I must stick with the members before I go to Deputy Healy-Rae. I call Deputy Currie.</p>
+        </speech>
+        <speech by="#EmerCurrie" eId="spk_219">
+          <from>Deputy Emer Currie<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_266">The witnesses are very welcome back. My first question is in relation to the emerging preferred option and the public consultation that was run for the N3-M50. It closed on 18 May. It involved bus priority and enhanced active travel. What communication was provided to the public on that non-statutory consultation? I found a lot of people along the M3 corridor did not actually know about it.</p>
+        </speech>
+        <speech by="#" eId="spk_220">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_267">As I understand it, that is largely an NTA project.</p>
+        </speech>
+        <speech by="#" eId="spk_221">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_268">It is being funded by TII but in the case of these projects, we rely on the local authority to do the engagement with the public. I understand there is a lot of concern over what I think is a footbridge on that scheme.</p>
+        </speech>
+        <speech by="#EmerCurrie" eId="spk_222">
+          <from>Deputy Emer Currie<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_269">Yes.</p>
+        </speech>
+        <speech by="#" eId="spk_223">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_270">That will be looked at in regard to the final solution. I cannot say what that will be. At the moment, I understand the consultation consisted of engagement with the elected representatives in the county council and that there was public engagement. I cannot recall the actual ins and outs but I am happy to come back on it. It is delivered. In the case of all of these projects, they are delivered through the local authority and we rely on that interface to do the engagement with the public.</p>
+        </speech>
+        <speech by="#EmerCurrie" eId="spk_224">
+          <from>Deputy Emer Currie<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_271">I was quite taken aback by the lack of awareness of the consultation in this instance. It was not helped by the material, which was very top level. We were being asked for opinions on changes to the road structure of our junctions around Blanchardstown, Littlepace and Mulhuddart. It was very difficult to explain to people what those changes actually were because we were following lines on a map rather than having clarity, especially for a project that has been talked about for many years. There seems to have been a policy change in relation to it a couple of years ago. For many people, there was an expectation that there would also be changes to the bridge at Littlepace and that it might become a two-way bridge. At the moment, it is one-way and you have to go via Clonee to cross the M3. There was an expectation that there would be more information on how we had arrived at the proposal that was presented to the public.</p>
+        </speech>
+        <speech by="#" eId="spk_225">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_272">I accept there has been confusion out there, including the confusion in the context of there having been a bigger scheme originally that looked at a lot of interventions along the road, whereas this is an element of that project. It is purely looking at bus corridors and active travel. It is a subset of the larger scheme and I think that has caused confusion.</p>
+        </speech>
+        <speech by="#EmerCurrie" eId="spk_226">
+          <from>Deputy Emer Currie<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_273">There is a bigger scheme-----</p>
+        </speech>
+        <speech by="#" eId="spk_227">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_274">There is a bigger scheme but we do not have the money to progress it. There was also an interface with BusConnects as you approached the M50. Due to that interface, the scheme proposed is only looking at bus corridors and active travel at the moment. Ultimately, though, there is a bigger scheme with more involved in it. I accept that there has been confusion and there is a need to maybe clarify the position. We have gone back to Fingal County Council but I do not know the ins and outs of what is proposed now. I do accept there has been confusion out there.</p>
+        </speech>
+        <speech by="#EmerCurrie" eId="spk_228">
+          <from>Deputy Emer Currie<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_275">Yes, because there have been changes.</p>
+        </speech>
+        <speech by="#" eId="spk_229">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_276">Yes. I think the original was the big scheme whereas this is simply an element of that, and it has changed.</p>
+        </speech>
+        <speech by="#EmerCurrie" eId="spk_230">
+          <from>Deputy Emer Currie<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_277">It is important that the bigger picture be communicated to the public so it knows what it is actually giving its views on. There are two active travel bridges in the proposals. This is not a cheap scheme because I asked TII for the approximate cost. Overall, we are looking at approximately €70 million for the overall scheme and then €5.5 million for the bridge at Bramblefield and €3.3 million for the active bridge at Littlepace. I support the enhanced active travel provisions in general and the active travel bridge at Littlepace but at Bramblefield there are severe concerns coming from the community about the positioning of the bridge in what is a quiet residential area. I wonder where it came from and what the basis or rationale was for that bridge. I spotted it on the greater Dublin area cycle network plan. Was there consultation on that previously?</p>
+        </speech>
+        <speech by="#" eId="spk_231">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_278">Unfortunately, I do not know the ins and outs. I would have to come back to the Deputy on that. My understanding is that it was related to the provision of a bus stop. However, I can look into it further and come back to the Deputy on it. I accept that there is a need to look at that and there are alternatives that can be looked at, which is going to happen as well. That is all I can say at the moment but I accept that the consultation should have been clearer, and also that there is a need to revisit that bridge position.</p>
+        </speech>
+        <speech by="#EmerCurrie" eId="spk_232">
+          <from>Deputy Emer Currie<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_279">This feeds into another local issue, namely, the potential loss of the 70 bus route, which currently services what we call the Littlepace loop. That service under BusConnects is due to become a peak-only route, which would give direct access to town. The positioning of this bridge feels like a confirmation that that route would be deprioritised in favour of a link onto the N3. What the community wants is to retain the 70 route along the Littlepace loop as a full-day service. I think it is really important that TII and Fingal County Council engage with the community and communicate clearly about what their intentions are.</p>
+        </speech>
+        <speech by="#CathalCrowe" eId="spk_233">
+          <from>Deputy Cathal Crowe<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_280">Apologies; I have missed some of the meeting. I am trying to juggle this committee and the health committee this morning.</p>
+          <p eId="para_281"> I thank the witnesses for their opening statements. There are a few points I want to raise. We had the Minister, Deputy Darragh O'Brien, down in the mid-west recently. He cut the ribbon on the new Coonagh-Knockalisheen-Moyross dual carriageway system, the northern distributor road in Limerick. Of course, phase 2 of that cannot proceed because, outrageously, the former Minister in the previous Dáil and Government, Eamon Ryan, put a memo on the front of that file saying it was not to proceed. I have never seen the likes of it before, where a Minister would unilaterally guillotine a project and stop it from progressing in any fashion - not design, environmental impact assessment, nothing. I have had problems with that road in the past with regard to the route line but we have won and lost some battles, and now there is an overwhelming desire in that area that this road should happen.</p>
+          <p eId="para_282">It is incessantly congested. It is needed in Clare, Limerick and the mid-west region. Given that the current Government has no desire to block this project any further or to follow the wishes of the previous Minister, what has TII been doing to ensure that the next phase can happen?</p>
+        </speech>
+        <speech by="#" eId="spk_234">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_283">First of all, it is not a national road so it does not fall under our remit. It is a matter for the Department of Transport, which is the funder of the non-national roads network. We are not in a position to comment on that because we solely look after the national roads.</p>
+        </speech>
+        <speech by="#CathalCrowe" eId="spk_235">
+          <from>Deputy Cathal Crowe<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_284">The second phase or the docking point has a national designation.</p>
+        </speech>
+        <speech by="#" eId="spk_236">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_285">We have contributed funding for the junction where it hits the national road. We gave money this year for a study of the operation of the junction but, beyond that, we do not really have a role in relation to the delivery-----</p>
+        </speech>
+        <speech by="#CathalCrowe" eId="spk_237">
+          <from>Deputy Cathal Crowe<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_286">TII is going to proceed with its own studies. Is that correct?</p>
+        </speech>
+        <speech by="#" eId="spk_238">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_287">We are contributing. We are giving a capped allocation as part of an overall study of the junction on the N7.</p>
+        </speech>
+        <speech by="#CathalCrowe" eId="spk_239">
+          <from>Deputy Cathal Crowe<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_288">That is good to hear.</p>
+          <p eId="para_289"> Under the Roads Act 2004, local authority members have a reserved function for setting speed limits. Many of us here were councillors in the past and know that it can be a source of major frustration when national roads are going through a county and when councillors pass resolutions at meetings but TII effectively has a veto. It is not called that in legislation but the decision has to have the consent of TII. I am aware of a total chicken and egg situation in the west Clare area at the moment. There have been four fatalities on a very small stretch of the N68 leaving Ennis. It is in the locality of Darragh. Councillors are continuously trying to deal with this. A delegation came to Dublin to meet with the Minister of State, Deputy Canney. It has been raised at various council meetings. A submission was put forward by the council. We recognise that it takes time to design a safety scheme and it takes money to build one. It could take a year and a half to two years to complete the scheme and the community understands that. However, in the interim, there is an onus on those in elected office to use their reserved powers to lower the speed limit. That is the minimum they could do but every time they try to do it, they are told TII is blocking it. I ask the witnesses to provide a justification for that.</p>
+        </speech>
+        <speech by="#" eId="spk_240">
+          <from> Mr. Pat Maher<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_290">I thank the Deputy. I am not familiar with the particular circumstances at Darragh. As the Deputy said, it is a reserved function of the elected members. In my experience such applications come through from the local authority to us in TII and in the vast majority of cases, there is never an issue. Usually, there is prior consultation between the officials in the local authority and my colleagues in TII. Unfortunately, I cannot comment on the specific circumstances at that location on the N68 but I am very happy to take the question away and come back to the Deputy on it.</p>
+        </speech>
+        <speech by="#CathalCrowe" eId="spk_241">
+          <from>Deputy Cathal Crowe<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_291">That would be really appreciated.</p>
+        </speech>
+        <speech by="#" eId="spk_242">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_292">The scheme that the Deputy is talking about falls under the road safety improvement programme. The local authority would be seeking funding to do something at that location. There are some issues with the location related to roadside activity exacerbating or interacting with the national road. TII has engaged with the local authority a lot on this. TII is waiting for the local authority to submit a proposal for road safety changes or mitigation that could be implemented there. We have not received that proposal yet. A proposal has to be made by the local authority in the first instance. The authority needs to cost that and to provide a business case showing that whatever it is doing equals a safety improvement for the particular problem. The local authority is working on that. We are aware, at the local level, that the authority has been discussing this with our engineers and we await the submission of the proposal. That is where it is at currently and that is the process that is involved.</p>
+        </speech>
+        <speech by="#CathalCrowe" eId="spk_243">
+          <from>Deputy Cathal Crowe<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_293">I appreciate that. It is a very good, comprehensive response. The submission may have been made quite recently so if it can be looked at, that would be appreciated. If TII would engage with me on this after the meeting, I would be very grateful. As public representatives, we have all gone into public meetings where someone at the back of the hall asks whether it will take someone to die to do something with the roads. Unfortunately, that is part of policy. There is an analysis done of accidents and fatalities, and it is part of policy. In this case, there have been four fatalities and councillors have their hands tied, in many ways. One of the powers they do have is to lower speed limits but what they are being told incessantly is that they cannot do so until the infrastructure is in place. I disagree with that. The infrastructure will come but it could take two years. In the meantime, there is an onus on councillors, both morally and from a public health and safety perspective, to follow through on that. I ask that, when the next resolution from the west Clare municipal district is passed, TII accede to it, give its consent and not block it.</p>
+          <p eId="para_294"> In that same west and north Clare area, two major events are due to happen in the next 12 months. The Irish Open is being hosted at Doonbeg and the Walker Cup is being hosted at Lahinch. On top of that, there are 1.5 million visitors to the iconic Cliffs of Moher every year but the national road network in the area is twisted and convoluted. Does TII have any plans, in light of all of the things happening in the area, to do something major to upgrade the road standards? I sense there is good news coming.</p>
+        </speech>
+        <speech by="#" eId="spk_244">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_295">We can get back to the Deputy on that. Obviously, we are also conscious of the other golf project in the general region-----</p>
+        </speech>
+        <speech by="#CathalCrowe" eId="spk_245">
+          <from>Deputy Cathal Crowe<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_296">That is the richer project.</p>
+        </speech>
+        <speech by="#" eId="spk_246">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_297">-----with the Adare bypass and so on. We will be happy to come back with a status update on that area for the Deputy.</p>
+        </speech>
+        <speech by="#MichaelHealyRae" eId="spk_247">
+          <from>Deputy Michael Healy-Rae<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_298">I will be very precise and to the point and I ask the witnesses to keep their answers short and precise so that I can get through all my questions. What is TII's policy when it comes to people seeking to build a one-off dwelling off a national primary or secondary road?</p>
+        </speech>
+        <speech by="#" eId="spk_248">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_299">We do not have a direct policy as such, but we would look at those kinds of developments through a road safety lens. That assessment basically is that on any stretch of road the variables are: how many cars are typically using it, what is the speed and what is the number of entrances onto and off that road. It is about trying to get the balance right in that situation. There can be instances where additional entrances onto a busy, high-speed road, for example, present a particular road safety issue.</p>
+        </speech>
+        <speech by="#MichaelHealyRae" eId="spk_249">
+          <from>Deputy Michael Healy-Rae<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_300">I will tell Mr. O'Connor about the situation on the ground. We have what I would call standard objections, but which TII would call observations, and they are negatively impacting on many young people's planning applications. How many planning applications for a one-off, single dwelling located on our national road network has TII objected to in the last number of years?</p>
+        </speech>
+        <speech by="#" eId="spk_250">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_301">It would be a low number. I do not have it off the top of my head but I am happy to supply it to the Deputy later.</p>
+        </speech>
+        <speech by="#MichaelHealyRae" eId="spk_251">
+          <from>Deputy Michael Healy-Rae<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_302">Can I ask Mr. O'Connor to do one thing, with the Chairman's permission? If TII is supplying this data to me, will it also supply it to the Chairman and the other committee members? It is very important for them in the context of their work as well.</p>
+        </speech>
+        <speech by="#" eId="spk_252">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_303">I am very happy to do that.</p>
+        </speech>
+        <speech by="#MichaelHealyRae" eId="spk_253">
+          <from>Deputy Michael Healy-Rae<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_304">How many applications has TII objected to where it was proposed to use an existing entrance? That would be a separate statistic.</p>
+        </speech>
+        <speech by="#" eId="spk_254">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_305">That would be an intensification.</p>
+        </speech>
+        <speech by="#MichaelHealyRae" eId="spk_255">
+          <from>Deputy Michael Healy-Rae<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_306">In other words, a farmer's son or daughter decided that he or she was going to live on the farm and connect into the original entrance. TII still objected, even though a new entrance was not being created.</p>
+        </speech>
+        <speech by="#" eId="spk_256">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_307">I am happy to respond to that via the Chairman and the committee.</p>
+        </speech>
+        <speech by="#MichaelHealyRae" eId="spk_257">
+          <from>Deputy Michael Healy-Rae<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_308">Kerry has 435 km of a national road network, with the Ring of Kerry being one of the longest, continuous national primary roads in the country. The N70 is 179 km long and other national roads, such as the N86, Tralee to Dingle, and the N69, Tralee to Tarbert, are examples of rural areas that have been sterilised when it comes to planning. I speak to planners on a regular basis. I deal with area planners and senior planners and this is a big problem. I cannot speak for anywhere else except County Kerry. I can talk in particular about the Ring of Kerry road, the N86 and the N69. All of these roads are virtually sterilised because of TII. Again, if the witnesses want to study that further and then contradict or agree with me, could they please do so through the Chair, for forwarding to committee members, because that is very important information.</p>
+          <p eId="para_309"> On the N71 Kenmare to Glengarriff road through Bonane, we are trying to stop heavy goods vehicles going up to the tunnel because they continuously get caught and the roads get blocked. We are engaging with TII on putting up a very sensible thing which is like a make-believe tunnel, way back from the actual location of the tunnel. It is a plastic barrier and if one hits it, it will not be the end of the world. It will be located at a place away from the tunnel so that if a bus or a lorry has gone wrong, it will be able to turn around. At the moment, if a vehicle goes so far as to actually meet the tunnel, it has to back up for miles.</p>
+          <p eId="para_310">The guards are called, the road is blocked, it is chaos, it is all over Radio Kerry and it is a mess. What we want on that road is a plastic make-believe tunnel on both the Cork side and the Kerry side. It is an early warning of the height restriction. Can we get an update on that? I do not expect answers now.</p>
+        </speech>
+        <speech by="#" eId="spk_258">
+          <from> Mr. Pat Maher<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_311">We are happy to do that. I am not aware of the proposal but it seems to make a lot of sense.</p>
+        </speech>
+        <speech by="#MichaelHealyRae" eId="spk_259">
+          <from>Deputy Michael Healy-Rae<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_312">It is a very sensible proposal, yes. I made it; it makes sense.</p>
+          <p eId="para_313"> On that road, we have tunnels as well. There were stones falling down off those tunnels and a mesh was put around them. The local community is very active and proactive in seeking all these things. The mesh was put up but because of strikes - in other words, things getting stuck in it - the mesh is falling down and creating a problem. We are anxious to get those repaired.</p>
+          <p eId="para_314"> Then there is the surface underneath the tunnels. Because the heavier paving stuff can work outside but cannot work in the restricted height area, we want to get those jobs tended to. We would be grateful for that.</p>
+          <p eId="para_315"> The next one is very important. The south Kerry greenway was not eligible to receive the greenway sustainability payment A, GSP A, for early sign-on. In 2022, TII sought clarification from the Department of Transport on the eligibility for payments of the greenway. It was advised by the Department that only GSP B is eligible for payment. The current land acquisition budget has been formulated on the basis that the Department of Transport is only agreeable to paying GSP B on the south Kerry greenway. IFA Kerry, led by Jason Fleming, is looking to have the GSP A payment made on the greenway - that is, the early sign-on payment. This would be paid retrospectively on the basis the High Court case prevented the south Kerry greenway having its statutory consent in a timely manner. The south Kerry greenway is exceptional in that it has an approved EIA, AA and CPO predating the code of practice but did not have effective approval until after the code was introduced. I recommend TII and the Department make GSP A payable to all landowners who have signed land agreements with Kerry County Council by the end of this year. This initiative will have positive effects and will build further confidence in the code of practice without setting a precedent. I do not expect the witnesses to be able to answer that right now but I hope they will think about it, reflect on it and help us with it.</p>
+          <p eId="para_316"> Farranfore village is the only place in Ireland I know where buses have to stop and block a lane of traffic to let people on or off. My son, Jackie Healy-Rae, has been highlighting this for a long time. If there is anything that could be done about it, I would appreciate it. It is ridiculous.</p>
+        </speech>
+        <speech by="#EoghanKenny" eId="spk_260">
+          <from>Deputy Eoghan Kenny<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_317">I thank the witnesses for attending. Are they aware of the Mallow relief road project? It started before I was born. I recently spoke to a publican in Mallow who owns a bit of land just outside Mallow town. In 1973, he was refused planning permission for six houses because it was on the route of the Mallow relief road. We are now in 2026 and that relief road still is not built. I fully appreciate this is the furthest we have ever been along in the project. The amount of funding over the last number of years has been, in retrospect, positive enough. How confident is TII about having shovels in the ground by the end of the decade?</p>
+        </speech>
+        <speech by="#" eId="spk_261">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_318">I want Ms Fitzpatrick to answer specifically but looking at the broader transport strategy for the Cork region and the additional services Irish Rail envisages from Mallow to Cork and so on, there is a lot that can be done in Mallow to make the usage of heavy rail easier, including additional access points to the train station. I know it is all part of that.</p>
+        </speech>
+        <speech by="#" eId="spk_262">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_319">We are on track to get a planning application submission this year. We cannot give any guarantees about how it will work out once it goes in for planning approval. Subject to that approval, we have built in a requirement to have funding to go to construction on the project.</p>
+        </speech>
+        <speech by="#EoghanKenny" eId="spk_263">
+          <from>Deputy Eoghan Kenny<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_320">The funding is there to go to construction.</p>
+        </speech>
+        <speech by="#" eId="spk_264">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_321">Yes, provided we get through the planning process.</p>
+        </speech>
+        <speech by="#EoghanKenny" eId="spk_265">
+          <from>Deputy Eoghan Kenny<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_322">The director of services for roads and transportation, Padraig Barrett, in Cork County Council has been excellent on this and has communicated strongly with the people of Mallow on it. So we are saying that if we can get through planning, which may take eight, nine or ten months, we have the money available to go immediately to construction.</p>
+        </speech>
+        <speech by="#" eId="spk_266">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_323">Yes. It is a project we are committed to delivering. After whatever time it takes to get through planning, procurement will happen and then we will go to construction.</p>
+        </speech>
+        <speech by="#EoghanKenny" eId="spk_267">
+          <from>Deputy Eoghan Kenny<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_324">To get a timeline on this, how long does Ms Fitzpatrick think it will take to get approval for planning if everything is in order? How long will the procurement process take? Will Ms Fitzpatrick provide an estimation based on similar projects that have been built? When we have gone through the procurement and planning stages, we will be ready for the construction stage. How long does TII envisage construction of the relief road taking?</p>
+        </speech>
+        <speech by="#" eId="spk_268">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_325">It is a fairly small project in terms of the overall programme. We anticipate it will take about a year to get through planning, provided there is not a judicial review, and a further year for analysis and procurement. Construction would take up to about two and a half years.</p>
+        </speech>
+        <speech by="#EoghanKenny" eId="spk_269">
+          <from>Deputy Eoghan Kenny<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_326">So within two years, we could see shovels in the ground on the Mallow relief road.</p>
+        </speech>
+        <speech by="#" eId="spk_270">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_327">Yes, provided, as I keep saying, we get a clean planning approval.</p>
+        </speech>
+        <speech by="#EoghanKenny" eId="spk_271">
+          <from>Deputy Eoghan Kenny<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_328">How confident is TII that it will get through planning without a judicial review? A lot of work by TII and Cork County Council has gone into the process to get it through to this stage, eventually. This is the furthest the Mallow relief road has ever been. Those involved have to be commended on that.</p>
+          <p eId="para_329"> The N20 Cork to Limerick road is in dire straits and needs to be funded appropriately to fix parts of the road, particularly in and around Mourne Abbey turn-off.</p>
+        </speech>
+        <speech by="#" eId="spk_272">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_330">We are engaging with the council on that.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_273">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_331">At the start of May, TII put out a procurement package for part of MetroLink. I understand MetroLink is divided into a couple of procurement packages; this one was for design and operation. What is the expected timeline for a decision on that procurement package?</p>
+        </speech>
+        <speech by="#" eId="spk_274">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_332">That commenced at the end of April. We are in the pre-qualification or contract notice phase. That phase should conclude in the autumn and then consortiums will be invited to bid for the full-on tender documentation. To get to a preferred bidder, it will be about 18 months from there, so it is the end of 2027. That is because there is a huge amount in those contracts. It is not just the fit-out of the stations and the supply of the fleet; it is everything in between, together with the operation of those services for 25 years, the financing around that and so on. There is a lot involved in that tender.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_275">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_333">So it is the end of 2027 for that tender to be resolved.</p>
+        </speech>
+        <speech by="#" eId="spk_276">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_334">That would be the working assumption.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_277">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_335">Looking at the timelines set out in the Government's transport sectoral plan, it refers to commencing building of MetroLink by 2027. If we only complete procurement by the end of 2027, it is likely that timeline will be pushed back.</p>
+        </speech>
+        <speech by="#" eId="spk_278">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_336">There are so many different elements, let us say, to the MetroLink project. We are ahead of what we have just been talking about in terms of the core civil works and tunnelling works. That is what we are calling the M400. That is close to issuing invitation to tender. In other words, the pre-qualification stage is coming to a conclusion. We will actually see some initial enabling works, such as movement of utilities and so on, by the end of the year and there is potential acceleration of work on site-specific areas such as Dublin Airport soon as well. It will be a few years before output is at full tilt but we will see a gradual build-up over the next while.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_279">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_337">In terms of the significant works, such as the tunnelling and so on, Mr. O'Connor does not see that happening in 2027 at this stage.</p>
+        </speech>
+        <speech by="#" eId="spk_280">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_338">No, but we will see an increasing amount of work commencing .</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_281">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_339">In terms of the replacement for Mr. Seán Sweeney, where is that process? </p>
+        </speech>
+        <speech by="#" eId="spk_282">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_340">At the moment, we are business as usual. We are very much focused on the procurements about which we have just been talking. Mr. Michael Flynn, as interim director, is ensuring that the programme progresses and we are working with Government now around recruitment for a replacement.</p>
+        </speech>
+        <speech by="#RodericOGorman" eId="spk_283">
+          <from>Deputy Roderic O'Gorman<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_341">Do we have a timeline for that?</p>
+        </speech>
+        <speech by="#" eId="spk_284">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_342">We do not have a precise timeline for that at this stage, no.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_285">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_343">I thank the witnesses for giving us such a broad outline of where the developments of all the different projects are. I am going to concentrate on the three that are in my local area. Our local Ministers have given assurances that these are committed to under the programme for Government. They are the Carrick-on-Shannon bypass, the N17 Knock to Collooney project and the Eastern Garvoge Bridge. I will ask about the first one. Is the bypass on track? The Northern and Western Regional Assembly said it was not sure whether it was on track. Is it true that procurement will be in 2027 with commencement in 2028? Based on TII's notes, I am just wondering why there is not an internal Department of public expenditure timeline for it.</p>
+        </speech>
+        <speech by="#" eId="spk_286">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_344">We are on track and it is due to go in for planning approval. We have got the initial documentation into us and we are reviewing that before it goes out. It is subthreshold, as far as I know, so the decision on approval to go to planning will not require Government approval. We are on track to get the gate approval done this year and apply for planning.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_287">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_345">When does Ms Fitzpatrick think it is likely to commence?</p>
+        </speech>
+        <speech by="#" eId="spk_288">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_346">Again, it is a planning application for next year.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_289">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_347">In 2027.</p>
+        </speech>
+        <speech by="#" eId="spk_290">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_348">That process will take about one year to one year and a half, followed by procurement again for the construction. However, it is all contingent on getting through the various gates and the approval process through the board. </p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_291">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_349">Okay. That is in the pipeline. Our local Ministers said it has been put in under the programme for Government.</p>
+        </speech>
+        <speech by="#" eId="spk_292">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_350">It is, yes.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_293">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_351">The Eastern Garvoge Bridge in Sligo is due to start. What is the status of that?</p>
+        </speech>
+        <speech by="#" eId="spk_294">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_352">I do not think that is ours.</p>
+        </speech>
+        <speech by="#" eId="spk_295">
+          <from> Mr. Pat Maher<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_353">That is non-national.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_296">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_354">Okay, I am sorry about that. The other one is the N17.</p>
+        </speech>
+        <speech by="#" eId="spk_297">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_355">Sligo County Council is procuring consultants to fully develop the design on that. An emerging preferred route has been identified, so the next step is more detailed design on the route option that has been selected.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_298">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_356">How many years have we been looking at that, between all the stages?</p>
+        </speech>
+        <speech by="#" eId="spk_299">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_357">These schemes take a long time to get through. A lot of surveying work has to be done. It is going to take a number of years. The environmental survey is going to take two years minimum anyway.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_300">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_358">However, the money has been ring-fenced for this project, has it not? It is in the programme for Government.</p>
+        </speech>
+        <speech by="#" eId="spk_301">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_359">Yes, it is a confirmed scheme. It is under the NDP. It will take a length of time to get it to the point where it will be ready to apply for planning.</p>
+        </speech>
+        <speech by="#NessaCosgrove" eId="spk_302">
+          <from>Senator Nessa Cosgrove<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_360">Is there any way that could be fast-tracked? Given that the western rail corridor is not coming up far as Sligo, could there be any consideration that that would go ahead of it?</p>
+        </speech>
+        <speech by="#" eId="spk_303">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_361">It will be delivered as quickly as they are able to deliver it and tick all the boxes on it.</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_304">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_362">Going back to the local transport plan recommendations for Ballina, does Mr. O'Connor have any concerns about the fact that hundreds of thousands of euro were spent on the plan but nothing has been delivered? It has been going on since maybe 2021 or 2022.</p>
+        </speech>
+        <speech by="#" eId="spk_305">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_363">I would not profess to be completely familiar with that but, ultimately, it would be a county council-driven report-----</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_306">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_364">It is funded by TII. This is the thing; TII cannot keep separating the two. If it cares enough, it can have detailed intervention to say, okay, let us solve some problems here. It just appears that the county council will blame TII and TII will blame the county council and then nothing happens.</p>
+        </speech>
+        <speech by="#" eId="spk_307">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_365">We are a funder of local authorities on so many different levels, but we need local authorities with the local knowledge to come up with the best designs and strategies. We will give our expertise and input into that process. It would be wrong for TII to try to influence local traffic strategies and transportation strategies when people in the local authority are best placed to do that. We are there to support them in that case.</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_308">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_366">However, the public representatives, the members of the council, have been pleading for intervention and support and financing of projects. They are the most senior members of the local authority, democratically elected, and they are the ones who are not finding the delivery. If there is an issue, it needs intervention.</p>
+        </speech>
+        <speech by="#" eId="spk_309">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_367">In relation to phase 1 of the bypass, which we spoke about earlier, we are supportive of that. I do not know whether we have much of a broader view than that.</p>
+        </speech>
+        <speech by="#" eId="spk_310">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_368">We do work with the local authority. We rely on the local authority. There is a regional design office, RDO, in-----</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_311">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_369">They are great people.</p>
+        </speech>
+        <speech by="#" eId="spk_312">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_370">That interface is well established. We have a very good working relationship and we engage all the time. It is just that there is only so much we can do with the level of resources we have internally in terms of money. We have to accept that phase 1 is good and is going ahead, and phase 2 will follow. We cannot cover everything at the same time.</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_313">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_371">Phase 1 is very positive. I am not saying it is all negative, but I am focusing on things that need urgent attention. Does Ms Fitzpatrick know when phase 1 is estimated to actually have diggers on the ground developing that, and the same for the N26 Ballina to Foxford project?</p>
+        </speech>
+        <speech by="#" eId="spk_314">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_372">Again, phase 1 of the Ballina bypass should go to planning this year. Then, provided it does get through the planning process, we are talking about trying to get it under construction within two to three years. The Foxford bypass scheme is at a very early stage.</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_315">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_373">No, the N26 Ballina to Foxford project.</p>
+        </speech>
+        <speech by="#" eId="spk_316">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_374">There is a preferred route identified on that, which has to be published. The concern about that, though, is that the level of intervention and cost of the proposed measures are very high. It is completely offline because of the number of junctions along the route. It is not possible, therefore, to-----</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_317">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_375">Finally, on the cost and the concern about cost, I cannot reiterate enough how little investment there has been generationally in terms of road infrastructure in north Mayo. It is one of the reasons I got into politics. I raised this the previous time. In Tipperary, between Ballina and Killaloe, €88 million was spent between two settlements on both sides with a population of under 4,000. Ballina is the capital of north Mayo. It serves tens of thousands of people and is relying on two 19th-century bridges. How can the funding be available for certain areas and not for Ballina?</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_318">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_376">I thank the Senator.</p>
+        </speech>
+        <speech by="#MarkDuffy" eId="spk_319">
+          <from>Senator Mark Duffy<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_377">Just finally, Chair.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_320">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_378">Mr. O'Connor might please respond briefly.</p>
+        </speech>
+        <speech by="#" eId="spk_321">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_379">Ultimately, we are driven by the resources that are provided to us. There is the major projects within the national development plan and a further list of projects within the sectoral plan. We work to try to deliver those as quickly and efficiently as possible, but there is that reality on a day-to-day basis of resources being constrained overall. That is why we are focusing right now on that phase 1 in Ballina to ensure we get that in place.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_322">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_380">I have a few more questions. In relation to the review of the greenways, when are the terms of reference going to be published?</p>
+        </speech>
+        <speech by="#" eId="spk_323">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_381">The terms of reference are available and they can be provided. I am sorry; the Deputy is talking about the strategy review. It is being delivered by the Department. The terms are there but the project will be driven by the Department as opposed to us.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_324">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_382">How do we get them?</p>
+        </speech>
+        <speech by="#" eId="spk_325">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_383">I am sure they can be provided.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_326">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_384">I thank Ms Fitzpatrick. I will go back to roads. With the TII, RSA, NTA and, Lord God, councils and so many other bodies, bejaysus you would want a Bible here to figure out who is doing what. There are two roads in west Cork I wish to refer to. One of them, in Allihies, has collapsed. There is a massive sink hole over a mine and the road is closed. In the Ahiohill direction, by Caherconway and Letter, a bridge over the Argideen River collapsed, so the road is closed. There was no repair. The authorities just walked away. Is that happening throughout the country, or is it just an issue with County Cork or a matter of no funding? How can roads leading from one community to another collapse, with the authorities just putting a yellow tape around the sites and walking away? Local residents want their roads opened and we are trying to respond, but we are told repeatedly by the council that there is no money. If the money was available 100 years ago, why can there not be money today? Is it a matter of geography? How come moneys are allocated for certain areas and not others? There is no point in TII saying it has done a lot.</p>
+          <p eId="para_385"> I want to talk about the N71 and the bypasses for Innishannon, Bandon, north and south, and Bantry. I would love to know when a shovel will hit the ground. We are sick of talk about reports and statements that people will be reporting in six months, after which there will be other reports, sometimes with those concerned making a couple of hundred thousand euro each. There is nothing happening and people want to see a shovel on the ground in west Cork. I am only venting the frustration of the people. We have collapsed roads that are never repaired. The people of Allihies are left in a mess, as are the people in Ahiohill. Could the witnesses tell me when there will be a shovel in the ground in relation to the bypasses in west Cork?</p>
+        </speech>
+        <speech by="#" eId="spk_327">
+          <from> Mr. Pat Maher<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_386">To pick up on the bridge collapses or failures, both of the roads are non-national roads, so I am afraid we cannot really comment on them. The national road does not go out to the Beara Peninsula.</p>
+          <p eId="para_387"> Ms Fitzpatrick will answer the second part of the question.</p>
+        </speech>
+        <speech by="#" eId="spk_328">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_388">Funding was provided this year for a Bandon bypass, a Bantry bypass and an Innishannon bypass. They all have to go through a planning process, which will take time. The most advanced one is the Bandon bypass. Phase 2 of that will be completed at the end of this year, and then there will be route selection. It will take a number of years to get it through to planning approval.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_329">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_389">So, Ms Fitzpatrick cannot tell me when a shovel will hit the ground. That is all people want to hear. They do not want to hear about another tranche of funding for another report or whatever. All we are asking is when a shovel will hit the ground. It is a straight question. It is 30 years since we have had an advanced scheme. The only one I can remember, and I remember it only vaguely, was the Skibbereen bypass. It was fantastic. It was a massive job. All we are looking for is to be brought into the same league as every other county, which is not happening.</p>
+        </speech>
+        <speech by="#" eId="spk_330">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_390">What I can say is that once projects receive initial funding – they do have funding this year – we will continue with them year on year.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_331">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_391">But we are looking at years.</p>
+        </speech>
+        <speech by="#" eId="spk_332">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_392">The process of getting planning approval takes up to five years.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_333">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_393">I was on the council 12 years ago and we were talking about planning then.</p>
+        </speech>
+        <speech by="#" eId="spk_334">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_394">I acknowledge it can be incredibly frustrating but the more general point is that when a project has reached the planning permission stage, it is then within our control, subject to funding, to move it on to construction and completion. We can be far more accurate in estimating timelines once planning has been secured. You then have just procurement and construction left.</p>
+        </speech>
+        <speech by="#MichaelCollins2016" eId="spk_335">
+          <from>Deputy Michael Collins<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_395">I thank the witnesses. If I wanted to build ten houses in west Cork, I would have the planning approval in less than two months. What is taking the TII all this time to get planning permission? It is talking about ten or 12 years.</p>
+        </speech>
+        <speech by="#" eId="spk_336">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_396">For roads projects, greenway projects and others, the planning process takes much longer.</p>
+        </speech>
+        <speech by="#EmerCurrie" eId="spk_337">
+          <from>Deputy Emer Currie<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_397">I am coming back to the M50, which we discussed on the last occasion. When I read the witnesses' submission, I was struck by their concerns around funding.</p>
+          <p eId="para_398"> Obviously, we are coming in here today with concerns about our constituencies, but it feels as though the witnesses have a message for us today on funding. They might touch on that very quickly.</p>
+        </speech>
+        <speech by="#" eId="spk_338">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_399">It is more of an acknowledgement that we have a very significant asset, namely, the motorway and national road network. It has a crucial role, whether in contributing to the economy or connecting people in society more generally. The recent fuel protests brought into greater focus our reliance on the network. When you build a new motorway network, as we did 20-odd years ago, you have almost a honeymoon period for the first while in that it does not require much maintenance. However, as the asset gets older, there is a need to get into a rhythm of maintaining it to avoid significant interventions.</p>
+          <p eId="para_400"> What we are highlighting, and the same point could be made regarding the light rail network, which is also around 20 years old, is that we are at a point where the amount of money to be allocated for asset renewal, maintenance and so on needs to increase. We have identified a required increase of approximately 50% over existing levels. If we do not get that this year, will the whole thing fall apart? No. However, it is needed for medium-term planning to ensure the asset remains at the expected level of quality and serviceability.</p>
+        </speech>
+        <speech by="#EmerCurrie" eId="spk_339">
+          <from>Deputy Emer Currie<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_401">Where does Mr. O’Connor see that funding coming from?</p>
+        </speech>
+        <speech by="#" eId="spk_340">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_402">Sorry, but the other element I would add to that is climate adaptation. That is a relatively new phenomenon. We have only to recall the floods in January and February to note the kinds of issues we are having to deal with. This requires additional expenditure, which is not currently funded. However, we have published a climate adaptation strategy and we are working with the Department, particularly as part of the national development plan review process, to ensure funding is secured.</p>
+        </speech>
+        <speech by="#EmerCurrie" eId="spk_341">
+          <from>Deputy Emer Currie<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_403">Where do the witnesses envisage the funding coming from? Will it be direct Exchequer funding, or are other revenue-raising measures being considered?</p>
+        </speech>
+        <speech by="#" eId="spk_342">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_404">Ninety-nine percent of that funding for that would ultimately be from the Exchequer. We currently have additional funding sources, such as through PPP contracts and M50 tolling, but that revenue is already reinvested immediately in the various activities we are involved in.</p>
+        </speech>
+        <speech by="#EmerCurrie" eId="spk_343">
+          <from>Deputy Emer Currie<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_405">I am sure Mr. O’Connor does not remember what we spoke about the last time, but I do. We spoke about the M50. I asked many questions about the intake from the M50 and how we can address what is a flat toll rate. It is the same regardless of the time of week or day. Does Mr. O’Connor accept that there are ways to reform the tolling system or reduce the toll at specific times of the day or week?</p>
+        </speech>
+        <speech by="#" eId="spk_344">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_406">There could be. I would be more than happy to examine all of those options. What I would say is that, early in June, we will be publishing our key performance indicators for 2025 across the road network. That publication will also include a lot of analysis of the M50. There are obviously absolute peaks in terms of congestion and demand, but pretty much from 6 o’clock in the morning to 7 p.m. or 8 p.m., the route is largely operating at capacity and remains busy in the shoulders. There are certainly opportunities to examine how the toll is charged, including whether a charge can be based on distance rather than a single point. However, the income is critical to ensuring the M50 is maintained and allowing us to respond to accidents and other incidents. That revenue stream is very important to our overall financial stability.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_345">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_407">I thank Mr. O’Connor. In my last intervention, I will focus on roadside memorials. I have some questions relevant to Tipperary. First, could I have an update on the N24, specifically the section from Cahir to Limerick, and also on the Cahir–Waterford section?</p>
+        </speech>
+        <speech by="#" eId="spk_346">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_408">On the section from Cahir to Limerick Junction, the business case is under preparation. That will be submitted for gate approval to apply for planning.</p>
+          <p eId="para_409">We would hope to have that in for approval to go to planning at the beginning of next year.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_347">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_410">Are we saying the first quarter of next year at the latest?</p>
+        </speech>
+        <speech by="#" eId="spk_348">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_411">Yes. It will have to go through-----</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_349">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_412">It will not go in for planning before the end of this year.</p>
+        </speech>
+        <speech by="#" eId="spk_350">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_413">No, because the business case will have to be reviewed. Government approval will also be required to apply for planning. All of that will have to take place. The other scheme was reactivated this year. A re-procurement process is to take place for consultants, and we will bring that forward. There is a preferred route but there is a need to develop the design and go through the process. It is probably a year and a half to two years behind the other section.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_351">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_414">At what stage can we expect consultants to be procured to look at the preferred route and then to develop that route?</p>
+        </speech>
+        <speech by="#" eId="spk_352">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_415">We are getting ready to go out for the procurement of consultants. We would want to allow three months for that process to take place.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_353">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_416">In the context of that project, and I know there are different elements, Clonmel is the real pressure-----</p>
+        </speech>
+        <speech by="#" eId="spk_354">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_417">As part of its work, the commission will look again at the traffic surveys and studies that were done. The route has been picked, but it will look at Clonmel in the context of revisiting the traffic study as part of that.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_355">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_418">Is there any update on the Suir Island infrastructure links bridge project, which is a wonderful project? In the context of those types of projects, my concern is that we focus too much on kilometres, as we talked about earlier. There was mentioned of kilometres in the opening statement. Where are we with that project?</p>
+        </speech>
+        <speech by="#" eId="spk_356">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_419">It is a fantastic project but it is extremely expensive. In the context of the €60 million, we had €47 million this year for greenways and will have €60 million next year. The cost of the bridges and the plaza involved in that project is not within our-----</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_357">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_420">Has there been any engagement with the local authority in terms of looking at elements of the project? Could we establish a meeting between TII and the local authority to explore progressing elements of the project?</p>
+        </speech>
+        <speech by="#" eId="spk_358">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_421">To be honest, while it connects to the greenway, it does not form part of a continuous link. It is very difficult to fund it under the greenways programme as it stands.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_359">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_422">Yes, but-----</p>
+        </speech>
+        <speech by="#" eId="spk_360">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_423">I will be saying the same to the local authorities.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_361">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_424">Is it a greenways project or an active travel project?</p>
+        </speech>
+        <speech by="#" eId="spk_362">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_425">We have even less money for active travel projects. A €15 million-----</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_363">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_426">Were we not looking at €360 million annually each year for the next five years under the national development plan review?</p>
+        </speech>
+        <speech by="#" eId="spk_364">
+          <from> Ms Geraldine Fitzpatrick<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_427">No, that is not ours. It is NTA funding. We had a total €15 million for active travel for the country this year. If a project will cost €20 million or €30 million when we have an available fund of €15 million, it is not viable for us to fund it.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_365">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_428">We have five minutes left. I will focus on road safety. The committee is doing a lot of work in respect of road safety. Of course, that work intersects with many Departments, including the Department for justice, from an enforcement point of view, the Department of Transport and the Department of Health, from the point of view of emergency response. Local authorities and the Garda are also involved. We are engaging with all the different stakeholders. We are due to meet the Minister on 24 June. We will also consult the RSA, and will conclude with the Garda Commissioner and the assistant commissioner before we break into the summer recess. We are looking at so many different areas, including legislative reform and enforcement. We have not talked greatly about infrastructure. I am a big fan of the low-cost safety improvement schemes. They make a real difference. The allocation in 2026 is €14 million for approximately 280 projects. Does that sound right? On average, that is perhaps €50,000 per project. What was the total number of applications? Tipperary County Council may have submitted 16 to 18 applications, of which only two were successful. I am not 100% sure about that. Perhaps the witnesses cannot provide the information today, but I want to know the total number of applications by local authorities for each of the past three years.</p>
+          <p eId="para_429"> I also want to know to what extent we have mapped unsuccessful applications over recent years. Have those locations since been subject to fatal or near fatal collisions? Do we do any of that kind of work within TII?</p>
+        </speech>
+        <speech by="#" eId="spk_366">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_430">The Cathaoirleach is talking about the road safety improvement scheme programme. He raised what is going on in Tipperary and the impact of the scheme. I have a report here that we produced in March of this year. It is published on our website. It gives the detail of what the Cathaoirleach described as successful projects and what I would describe as the projects approved for funding by TII. To go back to the Cathaoirleach's question about how many applications are unsuccessful, it is a very small number.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_367">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_431">Could I get the information for the past three years broken down by county?</p>
+        </speech>
+        <speech by="#" eId="spk_368">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_432">Yes.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_369">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_433">Does TII map the unsuccessful applications? Where an area applied unsuccessfully in 2024, does TII track whether it has been a location where a fatal or near fatal accident has occurred since? Does TII do any of that sort of mapping?</p>
+        </speech>
+        <speech by="#" eId="spk_370">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_434">We do not specifically or directly do it like that. We do continuous analysis of the network.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_371">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_435">Yes, I think-----</p>
+        </speech>
+        <speech by="#" eId="spk_372">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_436">We take every three years.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_373">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_437">-----that would be useful to see. Whether €14 million is enough in the overall context, I am sure TII wishes it had more money.</p>
+        </speech>
+        <speech by="#" eId="spk_374">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_438">This year I think we had €41 million but on average, we get approximately €26 million.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_375">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_439">My figure of €14 million might be incorrect.</p>
+        </speech>
+        <speech by="#" eId="spk_376">
+          <from> Dr. Suzanne Meade<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_440">It is €41 million.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_377">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_441">We are doing a bit of work on horse-drawn vehicles on our national roads and, indeed, all public roads. We focused just to TII's remit and particularly the racing of horse-drawn vehicles, or sulkies, on national roads. Section 74 of the Road Traffic Act 1993 allows for the racing of horse-drawn vehicles, or sulkies, on national roads in certain circumstances whereby permission has been sought from An Garda Síochána and the organiser of the event has sought a road opening licence from the local authority. We know that does not happen. I can say categorically that a road opening licence or the permission of the Garda has never been sought. However, we see on social media the regular racing of horse-drawn vehicles on national roads. Do the witnesses have a view? The heads of the upcoming road traffic Bill should be presented to the Government before the summer recess. It is included in the legislative programme for the second half of this year. Would the witnesses agree that any suggestion that you can race horse-drawn vehicles on national roads should be removed?</p>
+        </speech>
+        <speech by="#" eId="spk_378">
+          <from> Mr. Lorcan O'Connor<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_442">It is hard to understand in this day and age, with the level of traffic we have, how it could be done safely. In fairness to Dr. Meade and the road safety team back at TII, all of their work is data driven and so on. If there is anything we can provide in that regard, we will.</p>
+        </speech>
+        <speech by="#MichaelMurphy" eId="spk_379">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_443">I will bring the meeting to a conclusion. I should have offered the witnesses a break at 11 a.m. It was an intense engagement and we covered a lot, which reflects the scale of the remit of TII. I also acknowledge that the witnesses came in at short notice. I appreciate that. We like to engage with TII, the NTA and Irish Rail at least twice a year, and perhaps four times a year. We look forward to further engagement towards the end of this year. I thank the witnesses.</p>
+        </speech>
+        <summary eId="sum_9"> The joint committee adjourned at 11.58 a.m. until 9.30 a.m. on Wednesday, 10 June 2026.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>
+`;export{e as default};

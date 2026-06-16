@@ -1,0 +1,2217 @@
+var e=`<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/committee_of_public_accounts/2026-05-28/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/committee_of_public_accounts/2026-05-28/debate"/>
+          <FRBRdate date="2026-05-28" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/committee/dail/34/committee_of_public_accounts"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/committee_of_public_accounts/2026-05-28/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/committee_of_public_accounts/2026-05-28/debate/mul@"/>
+          <FRBRdate date="2026-05-28" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/committee_of_public_accounts/2026-05-28/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/committee_of_public_accounts/2026-05-28/debate/mul@.akn"/>
+          <FRBRdate date="2026-05-30" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#debates">
+        <TLCPerson eId="AidanFarrelly" href="/ie/oireachtas/member/id/Aidan-Farrelly.D.2024-11-29" showAs="Aidan Farrelly"/>
+        <TLCPerson eId="AlbertDolan" href="/ie/oireachtas/member/id/Albert-Dolan.D.2024-11-29" showAs="Albert Dolan"/>
+        <TLCPerson eId="CathyBennett" href="/ie/oireachtas/member/id/Cathy-Bennett.D.2024-11-29" showAs="Cathy Bennett"/>
+        <TLCPerson eId="GraceBoland" href="/ie/oireachtas/member/id/Grace-Boland.D.2024-11-29" showAs="Grace Boland"/>
+        <TLCPerson eId="JamesGeogheganFG" href="/ie/oireachtas/member/id/James-Geoghegan.D.2024-11-29" showAs="James Geoghegan"/>
+        <TLCPerson eId="JoannaByrne" href="/ie/oireachtas/member/id/Joanna-Byrne.D.2024-11-29" showAs="Joanna Byrne"/>
+        <TLCPerson eId="JoeNeville" href="/ie/oireachtas/member/id/Joe-Neville.D.2024-11-29" showAs="Joe Neville"/>
+        <TLCPerson eId="JohnBrady" href="/ie/oireachtas/member/id/John-Brady.D.2016-10-03" showAs="John Brady"/>
+        <TLCPerson eId="PaulMcAuliffe" href="/ie/oireachtas/member/id/Paul-McAuliffe.D.2020-02-08" showAs="Paul McAuliffe"/>
+        <TLCPerson eId="SeamusMcGrath" href="/ie/oireachtas/member/id/Séamus-McGrath.D.2024-11-29" showAs="Séamus McGrath"/>
+        <TLCRole href="role/chair" showAs="Chair" eId="Chair"/>
+        <TLCRole href="role/vice_chairman" showAs="Vice Chairman" eId="Vice_Chairman"/>
+        <TLCRole href="role/author" showAs="author" eId="author"/>
+        <TLCRole href="role/editor" showAs="editor" eId="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COISTE UM CHUNTAIS PHOIBLÍ</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>COMMITTEE OF PUBLIC ACCOUNTS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2026-05-28">Déardaoin, 28 Bealtaine 2026</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2026-05-28">Thursday, 28 May 2026</docDate>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">The Committee met at 09:30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS  PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#CathyBennett">Deputy Cathy Bennett</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#JamesGeogheganFG">Deputy James Geoghegan</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#GraceBoland">Deputy Grace Boland</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#EoghanKenny">Deputy Eoghan Kenny</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#JoannaByrne">Deputy Joanna Byrne</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#PaulMcAuliffe">Deputy Paul McAuliffe</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#AlbertDolan">Deputy Albert Dolan</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#SeamusMcGrath">Deputy Séamus McGrath</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#AidanFarrelly">Deputy Aidan Farrelly</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#JoeNeville">Deputy Joe Neville</person>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <summary eId="sum_3">
+            <person as="#Chair" refersTo="#JohnBrady">DEPUTY JOHN BRADY IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+        <summary eId="sum_4"><b> Ms Colette Drinan</b> (<i>Secretary and Director of Audit, Oifig an Ard Reachtaire Cuntas agus Ciste</i>) called and examined.</summary>
+        <summary eId="sum_5">
+          <i>The committee met in private session until 10.03 a.m. </i>
+        </summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Committee<recordedTime time="2026-05-28T10:00:00+01:00"/></heading>
+        <speech by="#JohnBrady" eId="spk_1">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_11">Everyone is welcome to today's meeting. We have received apologies from Deputy Paul Murphy.</p>
+          <p eId="para_12"> Before we proceed, I have a few housekeeping matters to go through. Members are reminded of the provisions of Standing Order 226, whereby the committee shall refrain from inquiring into the merits of a policy or policies of the Government or a Minister of the Government, or the merits of the objectives of such policies. Members are also reminded of the long-standing parliamentary practice that they should not comment on, criticise or make charges against a person outside the Houses or an official either by name or in such a way as to make him or her identifiable. I remind members of the constitutional requirement that in order to participate in public meetings, members must be physically present within the confines of the Leinster House complex. Members of the committee attending remotely must do so from within the precincts of Leinster House.</p>
+          <p eId="para_13"> The agenda for today is to discuss the minutes, accounts and statements, correspondence and upcoming meetings. We will then suspend and begin our engagement with officials from the Competition and Consumer Protection Commission at 10.30 a.m.</p>
+          <p eId="para_14"> The minutes of the meeting of 21 May 2026 were agreed by the committee in its private session. They will be published on the committee's website in due course.</p>
+          <p eId="para_15"> One set of accounts and financial statements was laid between 18 and 22 May 2026. It is due to be considered today. We are joined by the secretary and director of audit, Ms Colette Drinan, representing the Comptroller and Auditor General, who is a permanent witness to the committee. I ask Ms Drinan to address this matter before opening the floor to members.</p>
+        </speech>
+        <speech by="#" eId="spk_2">
+          <from> Ms Colette Drinan<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_16">The set of accounts laid is in respect of the National Asset Management Agency for the financial year ending December 2025. It was certified on 30 March 2026 and received a clear audit opinion.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_3">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_17">Do members want to raise any issues? No. Do members agree to note the listing of accounts and financial statements? Is that agreed? Agreed.</p>
+          <p eId="para_18"> I will move to correspondence. There are a number of B items of correspondence to consider. These have been received by Departments and public bodies. The first is No. R2026/0258. It is correspondence received from Ms Kate Duggan, the chief executive of the Child and Family Agency, Tusla, in response to the committee's request for further information regarding the organisation's financial guidance and operational procedures for aftercare services. It is dated 15 May 2026. Do members wish to discuss anything in relation to that? No. Is it agreed to note and publish the item? Agreed.</p>
+          <p eId="para_19"> No. R2026/0260 is correspondence received from Mr. Colm O'Reardon, Secretary General of the Department of Further and Higher Education, Research, Innovation and Science, in response to the committee's request for further information, dated 18 May 2026. Do members wish to raise any issues or points? No. Is it agreed to note and publish the item? Agreed.</p>
+          <p eId="para_20"> No. R2026/0266 is correspondence received from Mr. Ian Drennan, chairperson of the Corporate Enforcement Authority, CEA, in response to the committee's request for further information regarding HR consultancy arrangements, dated 19 May 2026.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_4">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_21">I will come in on that. It is very positive to see that the consultancy arrangement for human resources has been very constructive. I think that is with the Garda Representative Association, GRA. Could we write to the GRA to see if it has been happy with the consultancy that has happened and the toxic work culture that was described in the letter previously before the consultancy arrangements?</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_5">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_22">Is that agreed? Agreed. Is it agreed to note and publish the item, along with the proposed action? Agreed.</p>
+          <p eId="para_23"> The next item is-----</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_6">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_24">We were given some information around the additional appointment of commissioners. I presume at some point we will be doing a report about the hearings at the competition authority. It would be useful for us to have some clarity from the Department about that recruitment process for additional commissioners. There was some concern among members that the commission was one person. I would like us to write to the relevant Department or to the CEA and ask how that competition or recruitment process for the appointment of additional commissioners is going.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_7">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_25">We can do that. Is that agreed? Agreed.</p>
+          <p eId="para_26"> No. R2026/0267 is correspondence received from Mr. David Moloney, Secretary General of the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitisation, responding to the committee's request for further information, dated 19 May 2026. Do members wish to discuss?</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_8">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_27">I previously asked at this committee about €19 million and where it was coming from. This letter does not seem to give me the response I was looking for. I am not satisfied with it and would like to write again to ask for a breakdown of where the money is coming from. There was no budget. I would also like to see, going forward, if money being added to accounts will be sought.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_9">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_28">Does the Deputy mean a Supplementary Estimate?</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_10">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_29">Yes. I would like to write again and ask Mr. Moloney if he could give me a detailed breakdown of where the €19 million came from. That would be fantastic.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_11">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:00:00+01:00"/></from>
+          <p eId="para_30">Do any other members wish to comment? No. Is it agreed that we follow up with the Department and try to get further clarification?</p>
+          <p eId="para_31">The departmental officials will be before us at the next meeting on 11 June.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_12">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_32">We might hold that question until then.</p>
+        </speech>
+        <speech by="#JoannaByrne" eId="spk_13">
+          <from>Deputy Joanna Byrne<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_33">I suggest that we proceed and do not hold the question. The issue dominated a lot of the conversation at the previous meeting.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_14">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_34">Yes.</p>
+        </speech>
+        <speech by="#JoannaByrne" eId="spk_15">
+          <from>Deputy Joanna Byrne<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_35">The officials will know in advance that it may rear its head again next week.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_16">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_36">We can write to them in advance of our engagement asking that they have that information to hand.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_17">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_37">Yes, so that they are aware of it. I thank the Cathaoirleach.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_18">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_38">Is it agreed to note and publish the item along with the agreed action? Agreed.</p>
+          <p eId="para_39"> Next is No. R2026/0268, which is correspondence received from Dr. Eamonn Kelly, chief executive officer of Inland Fisheries Ireland, IFI, responding to the committee's request dated 19 May 2026 for further information on expenditure on media training. Do members wish to raise any issues regarding that correspondence?</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_19">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_40">Does such the media training arise right across the board? I wonder whether the Department of public expenditure has any guidelines on the use of public moneys in this regard for all bodies. We might put that question to the Department in advance of the next meeting. It seems like a lot of money to be spending on media training before people come into this committee. I would like to know whether other organisations or Government bodies, right across the board, are doing the same. It seems to me an incredible waste of taxpayers' money. All people have to do when they come in here is tell us the truth.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_20">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_41">That was agreed previously by members. We have written to the Department of public expenditure seeking clarification on it but have not yet received a response. We will return to the issue. The clerk is checking that. The question I have concerns the figure of €53,000-odd for media training. There is a line in the correspondence stating that half that figure was for media training, which kind of conflicts with previous information we were given. It is a little confusing and not quite clear. If training expenditure constituted less than half of the overall expenditure, I am not sure whether the figure of €53,933 is the total legal bill, including training expenditure. We might write back seeking clarification on that figure. There were some concerns regarding the first performance of the IFI representatives at the committee. As I recall, they indicated the cost of the first media training given was just over €1,000. I propose that we seek a little more information, breaking down how that figure was arrived at and who availed of what training.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_21">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_42">It might be worth flagging with the Department of public expenditure Deputy Bennett's question on the previous occasion as to whether there is centralised training available through the public system on preparation for participation in Oireachtas committees and media. Employees in every walk of life are entitled to training and such engagement is not a normal part of their work. What we are flagging here is something different, which is the use of multiple so-called training sessions to prepare for specific information being provided at this committee. That is not training. There is a key difference. There should be centralised training for all Government bodies and guidelines in this area; that should be available to people. However, that is very different from using an outside agency to construct information that is being put before us. We are trying to get to the bottom of that.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_22">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_43">Is it agreed that we should seek further clarification on those costs? Even if the media training only accounted for half of the sum of nearly €54,000, it is still a huge amount of money and, it seems to me, an unusual way of going about securing media training. If it was felt such training was needed, it should have been done through an existing legal agreement. There are still concerns in this regard. Mr. Barry Fox had five sessions in advance of his meeting with us, during which he spoke for less than two minutes in totality. The way this was done seems very strange and unusual.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_23">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_44">Perhaps the advice was to say nothing.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_24">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_45">Yes, maybe that was the basis of the training.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_25">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_46">I apologise if I missed this but I understood we had agreed to write to the Department of public expenditure about training in general, seeking any guidance on that and asking whether the training provision might be increased if it was considered not to be appropriate. Did we receive a response to that?</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_26">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_47">We have just been discussing that. We have written to the Department raising that specific issue and the clerk has confirmed we have not received any response.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_27">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_48">It is important that there be a consistent approach in order that we do not have to deal with issues like this.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_28">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_49">We will follow up on that again with the Department. Is it agreed to note and publish that particular correspondence? Agreed.</p>
+          <p eId="para_50"> The next matter for discussion is No. R2026/0270, which is correspondence received from Mr. Doncha O'Sullivan, Secretary General of the Department of Justice, Home Affairs and Migration, responding to the committee's request, dated 20 May 2026, for further information regarding international protection accommodation services, IPAS, accommodation and deportation flights. Deputies Geoghegan and McGrath are indicating they wish to comment.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_29">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_51">We probably have reached the end of the road in terms of questioning the Department about its understanding versus how the Dublin Region Homeless Executive, DRHE, views the situation. Sometimes, correspondence reads more tersely than the reality but I find it a source of frustration that the Department is still, to some extent, half questioning and not necessarily fully accepting the DRHE's statistics on the people who enter homelessness in the services it provides. It is not in the DRHE's interest to put forward facts that are not accurate and correct. Having served as a Dublin city councillor, I am very familiar with the services the executive operates, provides and supports. All it is trying to do is ensure there is joined-up thinking in terms of how the Department of justice manages the flow of exit of refugees who have been granted status in this country and their entry into secure long-term accommodation. It is in nobody's interest that families would leave an IPAS centre and then present themselves six months later to the DRHE.</p>
+          <p eId="para_52"> All I can hope for is that through our questioning and deliberations, the Department is taking this issue seriously and a more joined-up approach will be arrived at between IPAS and the DRHE to reduce or eliminate this issue. The expenditure is all public money, whether it is coming from the Department of justice's Vote or the Vote of the Department of housing. It all goes to support these families. What we want is to have a much better situation in terms of the flow of people such that when refugees are granted status, they do not then go on to increase the numbers entering homelessness.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_30">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_53">The point I want to raise is not on that particular issue. Is that okay?</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_31">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_54">Yes, the Deputy may raise any issue to do with the correspondence.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_32">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_55">The details we received on the deportation flights are missing some significant information. We have details on eight flights, including the cost of chartering the plane and the number of gardaí attending in each case. We do not have information on how many deportees were on each flight or the associated costs, including gardaí attendance, medical services, interpreters and so on. The information provided is quite limited. I propose that we ask for more details. If I do a quick totting up, the expenditure amounts to approximately €2 million alone on chartering eight flights. Critically, we do not have information on how many deportees were involved in each flight. With the agreement of the committee, we need to ask that question as well as seeking out the costs associated with the flights, including for gardaí attendance, medical provision, interpretation services, etc.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_33">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T10:10:00+01:00"/></from>
+          <p eId="para_56">Deputy Geoghegan is probably right that we have come to the end of being able to go back and forth between the DRHE and the Department of justice.</p>
+          <p eId="para_57">I think it was I who introduced the DRHE figures to that meeting. At that meeting the Department representatives pushed back heavily on that data. In their correspondence to us I note that they have not rejected the data that has been put to them. They talk about having better data sharing and so on. From my assessment, the most solid data that is before this committee is that of the DRHE and not that of the Department of justice. Our report should reflect that. The reason is that there has been a growing discussion on the impact of migration and emergency accommodation provision. It is really important that the facts of this are reflected in any report because they do have an interplay with the priority we give to people in emergency accommodation, particularly for family homelessness because we are trying to end family homelessness. There is a priority for people in some local authorities. It is really important when we are deciding between these two streams of correspondence that we come down on the side of the one that is the most factual and the most solid. To me that is the figures from the DRHE. I believe the Department has not successfully challenged them, either in person or in correspondence.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_34">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_58">On this issue and to follow up on what Deputy McGrath mentioned about deportation flights, this is something I have been trying to get some information on. I share some of the concerns about the limited information we have received here. In my view we still have not got an explanation but some of the numbers of gardaí on the flights seem excessive. A lot of the information is publicly available and I have done a brief search as to how many deportees were on each of the flights. On the South African flight, which cost €719,642, there were 133 gardaí. It has been reported publicly that there were only 63 individuals on that particular flight. It may also have included children. Another flight to Poland and Lithuania cost €150,871 and there were 113 gardaí on that flight. It has been reported publicly that 33 people were being deported on that particular flight. The figures go right through. The flight to Georgia in November 2025 cost €230,000 with 117 gardaí on it, with 52 people being deported and seven children reported on that flight as well. Obviously, security on any flight is paramount but I do not think we have been given a rationale as to how those figures are arrived at. The Department says that any security costs are borne by An Garda Síochána through Eurostat, I think, but we need to get those figures because there are legitimate concerns when communities are crying out for gardaí in their communities and then we see huge numbers on some of these flights. We we need to get the full data. Some of these flights are one way, with a huge number of people travelling out, but the gardaí have to make their way back and those costs are not included in this. I think there are three or four flights there that are one way. We need to get the total cost for the Garda and the other agencies involved, such as medical, interpreters and human rights. I am not saying that they are not needed but just to ensure we get a line of sight of that. If there was overtime involved for the gardaí, how long did the gardaí stay out there before returning? It is of interest and concern but we need more insight on this information. Again, it is not questioning the essential need for security on any flight, or indeed the necessity for deportation flights when everything else has failed. It is a case of trying to ensure there is value for money and fully transparent processes and procedures in that.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_35">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_59">I do not want the message going out from here that we are against these flights. People might have their own opinions but, ultimately, we need to do these flights. There were not enough of these flights done for years. I would welcome deportation flights if there are criminals on board and people on board who should not have been here. If people failed the due process, they should have left the country themselves. They should be sent out of the country. I do not think anybody should question that if they are not entitled to be here. We should be careful of the message going out.</p>
+          <p eId="para_60"> While we can question the specifics, as a group we also have to be consistent with what we question operationally and how we question individual groups. I have no problem if we have been given the information that we can question but I think it is a question for ourselves as a committee. We can ask about the basis and what are the parameters, but ultimately if we are going to be sitting here questioning how many gardaí per person were on flights and how many dangerous criminals might have been on board, would members want a friend or family member going with a dangerous criminal if there was one garda per two dangerous criminals and if something happened? For us to be sitting here questioning that over a piece in the newspaper, I think we have to be very careful as a group that we do not question the basis. We can question €2.3 billion being spent on a hospital. We can question €400,000 being spent on a shed, but if we sit here questioning how many individual people were on a flight with gardaí, then we have to be conscious of what we are discussing with the level of knowledge we have. As a committee we have an important job to do and we can ask what are the parameters and the rules around it, and we can question some of those elements with the Garda, but going into specifics on individual flights risks sending the wrong message from the committee about the level of work we are doing and whether we are just looking for attention.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_36">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_61">We are obviously not here to examine the merits of the flights as a policy but we should be following the money. We should get a breakdown of all associated costs, some of which the Chair has itemised there. All we have is the cost of the charter plane, but they clearly do not bring the gardaí back on a charter plane as that would be a total waste of money. What is the cost of flying 133 gardaí back and are there accommodation costs associated with that? We can only truly assess the cost of this policy if we get all of those costs. We should seek those costs and get a breakdown.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_37">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_62">If we are seeking those costs, can we also get the cost of keeping those potential criminals, or some of those people, in the country as well? We could then weigh one off the other. One must be careful of looking at something in isolation.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_38">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_63">I do not think anyone here is questioning the merits or otherwise, and we are looking for a breakdown-----</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_39">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_64">But if we only look at one set of information to compare-----</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_40">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_65">I would imagine that some are not criminals on those flights-----</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_41">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_66">There are.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_42">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_67">Unless the Deputy is questioning whether we ask for that information, I do not think anyone is questioning the status-----</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_43">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_68">I just think if we are going to ask for a breakdown-----</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_44">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_69">-----other than these are individuals who have failed to get status here within the State. It is very much not questioning the policy; it is questioning the costs associated to ensure there is value for money for the taxpayers.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_45">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_70">Then let us also look for the cost of keeping them in the country and then we can match one set of figures off against the other, and then we will have the proper discussion.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_46">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_71">Okay. Are we happy to move on? Are we agreed to follow up with the course of action and get some clarity on some of those issues? Agreed. Is it agreed to note and publish this item of correspondence? Agreed.</p>
+          <p eId="para_72"> No. R2026/0274 is correspondence dated 22 May 2026, received from Ms Vivienne Flood, head of public affairs at RTÉ, responding to the committee's request for information on RTÉ's expenditure and governance arrangements relating to transport services. Do members wish to raise any issues concerning this correspondence?</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_47">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_73">We live in hope that RTÉ will be taken under the control of the Comptroller and Auditor General very soon. It is one story after another and they seem to be a law unto themselves. This is just the latest debacle, so the sooner that happens the better.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_48">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:20:00+01:00"/></from>
+          <p eId="para_74">I will make a couple of points from my own perspective. Unfortunately, it is a drip-feed of information coming from RTÉ, with extravagant expenditure on limousines in this case on top of other recent issues of concern within RTÉ. We have agreed to bring RTÉ in before us before the summer recess. I am sure there will be a lot of questions at that point. This is along with the necessary legislation going through the House, and it is hoped that will be sooner rather than later.</p>
+          <p eId="para_75">There are a number of questions stemming from this because in RTÉ’s communication with us, it cites that the people using the limousine services were VIPs attending shows, etc, dignitaries and other people. It does not go into detail on that. It has been stated publicly that some presenters also availed of these limousine services. That is an issue of concern for me given the two-tier structures within RTÉ in relation to some presenters getting perks and Mercs such as in this case, it appears, while others were very much second tier. We should write back to RTÉ and see can we get a full breakdown. It states between 2021 and 2026 there were 1,100 plus limousine journeys. We should ask for a breakdown as to who availed of that service on what basis, who made the decisions, and ultimately, what structure was in place to authorise the use of the limousine, and a breakdown on cost per journey.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_49">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_76">We could ask whether there was a policy around whether a person was a limousine-qualified celebrity or whether like us, we got a taxi. Either which way there should have been a policy. It should not have been a subjective thing. </p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_50">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_77">Is the Deputy making an argument that she should get a limousine?</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_51">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_78">I have no interest in a limousine; I am very happy with the taxi.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_52">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_79">I agree. Is it agreed that we ask what the policy is, who makes the decision, what is the clearing mechanism for it and when that particular contract that expires? RTÉ gave a timeframe that it has been extended by two years, and the current status of that particular-----</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_53">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_80">In anticipation of the fact that there may not be a policy, we should ask what is the timeline to introduce a policy to bring clarity to this area.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_54">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_81">Is that course of action agreed? Agreed. We will follow up with RTÉ. Is it agreed to note and publish that item of correspondence? Agreed. That concludes the B items for discussion today.</p>
+          <p eId="para_82"> We move on to our work programme. On 11 June, the committee is due to engage with officials from the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitisation.</p>
+          <p eId="para_83"> Aon Ghnó Eile? Are there any other items which members wish to raise at this point?</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_55">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_84">Over the past two years my colleague Deputy Ward has been trying to bring legislation before the Dáil to regulate the use of nitrous oxide canister. That did not happen, but it has now been highlighted that Fingal County Council, for example, spent almost €100,000 on the disposal of these gas canisters, €4,900 in 2024 and €4,000 in 2025. It has also been brought to my attention that the Government has committed €3 million to spend on waste management of the nitrous oxide canisters which are seized by customs, whereas had it used Deputy Ward's constructive idea and actually regulated the system, we would not be in this place now where we need to dispose of these canisters. I would like to write to the Minister and ask why this amount is being committed by the Government, that is, €3,000 to dispose of gas canisters, when it should have regulated the system in the first instance so the gas canisters were not there. We should write to the Departments of environment or justice to ask why they have decided to commit €3 million for waste disposal of nitrous oxide canisters seized by customs when this could have been irrelevant. That money would not have needed to be committed if the idea and legislation had been worked on and committed to to provide regulation in this regard It is a health matter of. I am outraged that the Government will not commit to regulating the use of nitrous oxide canisters. </p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_56">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_85">Do any other members wish to come in?</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_57">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_86">I recall that was a topic of discussion with Revenue. We could ask Revenue if it has any updated information, statistics or findings, just to tie it up. There was a huge increase in the numbers in 2023 or 2024. We could bring representatives in to add a bit of colour for us.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_58">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_87">There was also a proposed working group at the time. I am not too sure if that has happened either. We could ask about that.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_59">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_88">We can ask the relevant Department for a briefing on it because it is an issue of concern in all communities. Disposed nitrous oxide canisters are visible. I have had reports in my constituency of kids under the age of 12 using these canisters, and we know the health implications. Deputy Neville is correct. When we had Revenue representatives before us, they gave us statistics. Huge volumes of nitrous oxide are being brought into the country, and not for the intended purpose, which is the catering industry. I cited some websites that are readily available for anyone to access. It is clear for anyone to see who they are actually targeting and it is not the catering industry; it is households, kids and young people. </p>
+          <p eId="para_89"> We can ask for a briefing note from the Department detailing which actions, if any, are being taken to address this. There is also a concern in terms of local authorities. Some local authorities have policies in place for collection and disposal of canisters. My own, for example, in County Wicklow will not accept nitrous oxide canisters because it does not know how or where it can dispose of them. We should ask, from a Department perspective, what memo is going out to local authorities, and if €3 million is being allocated, whether it is going to be dispersed among all local authorities and what plan is in place. It is an issue of huge concern. Is it agreed we follow up with the relevant Departments in on that? Agreed.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_60">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_90">Are we adding to our work programme some work on nitrous oxide?</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_61">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:30:00+01:00"/></from>
+          <p eId="para_91">No. We are just looking for some clarification around this. We are not adding anything to our work programme. Revenue voluntarily disclosed that information to us. There are huge volumes of canisters.</p>
+          <p eId="para_92"> Unless there is any other business, that concludes this session. We will suspend for five minutes.</p>
+        </speech>
+        <summary eId="sum_6"><i> Sitting suspended at 10.38 a.m. and resumed at 10.41 a.m</i>.</summary>
+      </debateSection>
+      <debateSection name="statement" eId="dbsect_3">
+        <heading>Competition and Consumer Protection Commission – Financial Statements 2024<recordedTime time="2026-05-28T10:40:00+01:00"/></heading>
+        <summary eId="sum_7"><b>Mr. Brian McHugh</b> (<i>Chairperson, Competition and Consumer Protection Commission</i>) called and examined.</summary>
+        <speech by="#JohnBrady" eId="spk_62">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_93">This morning, we will engage with the Competition and Consumer Protection Commission, CCPC, to examine its financial statements for 2024. On behalf of the committee, I welcome officials from the commission: Mr. Brian McHugh, chairperson; Ms Úna Butler, commission member; Mr. Geoffrey Gray, commission member; Ms Emily Barry, director of corporate services; and Mr. Enda Duffy, head of finance. We are also joined by officials from the Department of Enterprise, Tourism and Employment, who are attending in a representative capacity: Mr. Colm Forde, assistant secretary general, and Ms Renée O’Reilly, principal officer. We are also joined by officials from the Office of the Comptroller and Auditor General: Ms Colette Drinan, secretary and director of audit, representing the Comptroller and Auditor General, who is a permanent witness to the committee; and Mr. Mark Brady, deputy director of audit. They are all very welcome here this morning.</p>
+          <p eId="para_94"> Before we begin, I wish to explain some limitations to parliamentary privilege and the practice of the Houses as regards references made to other persons in evidence. The evidence of witnesses physically present, or who give evidence from within the parliamentary precincts, is protected pursuant to both the Constitution and statute by absolute privilege. This means that witnesses have an absolute defence against any defamation action for anything they may say at the meeting. However, they are expected not to abuse this privilege, and it is my duty as Cathaoirleach to ensure it is not abused. Therefore, if statements are potentially defamatory in relation to an identifiable person or entity, witnesses will be directed to discontinue their remarks. It is imperative that they comply with any such direction.</p>
+          <p eId="para_95"> Witnesses are also reminded of the long-standing parliamentary practice that they should not criticise or make charges against any person or entity by name, or in such a way as to make him, her or it identifiable, or otherwise engage in speech that might be regarded as damaging to the good name of a person or entity.</p>
+          <p eId="para_96"> I invite Ms Drinan to make an opening statement on behalf of the Comptroller and Auditor General.</p>
+        </speech>
+        <speech by="#" eId="spk_63">
+          <from> Ms Colette Drinan<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_97">I thank the Chair. The CCPC was established in 2014 through the amalgamation of the Competition Authority and the National Consumer Agency. The commission’s principal statutory function is to promote compliance with, and to enforce, competition and consumer protection laws. It has specific responsibilities in respect of certain sectors, including the grocery sector, financial services, cross-border shopping and, more recently, digital and data markets. It also provides policy advice to the Department of Enterprise, Tourism and Employment in respect of market competitiveness.</p>
+          <p eId="para_98"> The commission’s financial statements record total income of €30 million in 2024. Of this, €22.7 million was in the form of grants from Vote 32, Enterprise, Tourism and Employment. Just under €4.5 million, or 15% of the commission’s income in 2024, was derived from an annual levy on financial services firms regulated by the Central Bank of Ireland.</p>
+          <p eId="para_99"> In addition, the commission received application fees totalling €1.3 million for the issuing of broker licences, merger fees, fixed payment notices and some costs awarded by the courts. However, these receipts are transferred in full to Vote 32, Enterprise, Tourism and Employment and are not available for use by the commission.</p>
+          <p eId="para_100"> The commission’s total expenditure during 2024 was €29.5 million, 62% of which related to staff costs. The commission’s operational expenses amounted to €11.1 million in 2024, an increase of 23% from 2023. Expenditure on marketing, promotion and consumer awareness activities was €3.4 million, up 29% year on year, while expenditure on call service centres totalled €1.4 million, up 73%. Spending on legal fees totalled just under €1.3 million in 2024, an increase from €402,000 in 2023.</p>
+          <p eId="para_101"> The 2024 financial statements of the commission were certified on 31 October 2025 and received a clear audit opinion. I thank the committee.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_64">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_102">I ask the chairperson, Mr. McHugh, to deliver the opening statement on behalf of the CCPC. As set out in the letter of invitation, he has five minutes in which to do so.</p>
+        </speech>
+        <speech by="#" eId="spk_65">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T10:40:00+01:00"/></from>
+          <p eId="para_103">I thank the Cathaoirleach and members of the committee. We welcome the opportunity to appear before the committee to discuss the CCPC’s financial statements for 2024.</p>
+          <p eId="para_104"> The CCPC is the statutory body responsible for enforcing and promoting compliance with competition, consumer protection and product safety law. We also have important and expanding roles in relation to digital markets and data.</p>
+          <p eId="para_105"> The CCPC was established under the Competition and Consumer Protection Act 2014, which sets out our role and powers. It was formed through the amalgamation of two agencies, the National Consumer Agency and the Competition Authority. This brought under one roof the consumer regimes of consumer enforcement, product safety, consumer information, financial education and consumer advocacy, and the competition regimes of cartels, antitrust, mergers and competition advocacy.</p>
+          <p eId="para_106"> The decision to establish the commission acknowledged the important synergies between competition and consumer protection. It also delivered significant corporate efficiencies. The same commissioner structure used in the Competition Authority was tasked with overseeing the combined agency.</p>
+          <p eId="para_107"> The amalgamation has been a real success and we continue to see powerful benefits from the combination of consumer and competition functions. In the more than a decade since we were established, our functions, powers and mandate have expanded significantly. Examples include acting as the national co-ordinator for the EU Data Act; new supervision and enforcement responsibilities under the Digital Services Act, DSA; a new administrative adjudication regime for breaches of competition law; responsibility for the European Consumer Centre; enhanced surveillance powers for investigating serious breaches of competition law; responsibilities for products under the EU Accessibility Act; and new powers under the Artificial Intelligence Act, including powers to address safety risks associated with products using artificial intelligence.</p>
+          <p eId="para_108"> We understand that further responsibilities may be assigned to the CCPC in the coming months. While some of these new functions strengthen our competition and consumer powers, a number of them expand our mandate into new areas, which brings additional challenges.</p>
+          <p eId="para_109"> When the CCPC was first established, the commission consisted of one chairperson and four commission members overseeing 75 staff working across nine specialist divisions. Our expanded mandate has required the addition of multiple new divisions over the past decade. Our sanctioned headcount has grown to 275 posts and we have seen our overall budget increase from €12.5 million to €35.8 million, although we note that the commission received no significant additional Exchequer funding in 2026. While the increase in resources is welcome, real pressure remains in managing the expanding mandate. In particular, we note that all of the new functions have been added without significant changes to the most senior management structure. We welcome recent positive engagement with the Department. Addressing this matter remains the most urgent priority for the commission in managing our risks.</p>
+          <p eId="para_110"> I mentioned already that the creation of the CCPC has been a success, and our work in recent years highlights this. This includes uncovering cartel activity that harms taxpayers.</p>
+          <p eId="para_111">In December, following a CCPC investigation, five school transport operators were found guilty of rigging bids in a public tender competition. We have opened investigations into suspected breaches of competition law in multiple sectors. They include household electric appliances, healthcare software, port services and betting. We have successfully blocked the sale of a car park near Dublin Airport to DAA due to serious competition concerns. Today, thanks to our decision, consumers parking at the airport have more choice and lower prices. We have prosecuted several major retailers for breaches of consumer law, including Boots, Brown Thomas, Tesco, Lifestyle Sports, DID Electrical and Rathwood, and most recently we prosecuted Quills Woollen Market in Kerry for misleading consumers, mostly tourists, by mislabelling products as being made in Ireland. We have prevented over 276,000 unsafe products from reaching the Irish market in 2025, including the recall of over 10,000 unsafe baby soothers.</p>
+          <p eId="para_112"> As well as specific cases, we have published a high-level review of our impact in competition and consumer interventions. This peer-reviewed analysis showed that for every €1 spent on the CCPC, it gives a consumer benefit of €21. The commission is governed by a commission structure which consists of a chairperson and, currently, three members, all of whom are appointed by the Minister for Enterprise, Tourism and Employment. The chairperson and members form a collegiate decision-making commission for statutory decisions in addition to having whole-time executive responsibilities. </p>
+          <p eId="para_113"> While the funding model of the CCPC has become more complex since 2024, there is a strong system of internal financial controls and effective governance arrangements in place including a robust risk management framework, internal audit function and oversight by its audit and risk committee, ARC. The commission has well-established external accountability and reporting responsibilities with the Oireachtas and the Department. </p>
+          <p eId="para_114"> Looking to the future, we welcome the proposed consumer protection, competition and enforcement Bill 2026, which is set to include new powers for the CCPC to screen public tender data for signs of bid-rigging. Cartels can increase prices by 20% to 30%. With the State committing €275 billion of public capital investment over the next ten years under the national development plan, it is essential the commission has access to public tender data so we can protect the public purse from cartels. The Bill will also enable the CCPC to impose more impactful financial sanctions for breaches of consumer law. This will allow us to impose fines that reflect the seriousness of the breach and act as a more effective deterrent.</p>
+          <p eId="para_115"> In terms of identifying and advocating for change in markets to boost Ireland’s competitiveness and improve consumers’ lives, we have recently looked at the taxi sector, home-buying and the legal sectors. We pledge to continue that work. </p>
+          <p eId="para_116"> Promoting competitive markets and protecting consumers go hand-in-hand. The CCPC will continue to engage constructively to ensure appropriate structures are in place to manage our expanded functions and maintain an efficient and well-governed organisation. As chairperson, I am hugely proud of the CCPC’s team, its work and the positive impact it has on Irish businesses and consumers.</p>
+          <p eId="para_117"> We look forward to our engagement with the committee and we are happy to answer any questions.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_66">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_118">I thank Mr. McHugh for that. We will suspend the meeting at about 12 noon for about ten or 15 minutes for a short break and then resume.</p>
+          <p eId="para_119"> I will open the floor up to members. Our first speaker is not present yet so I will open it up to our second speaker, Deputy Neville, who has ten minutes. All other members have ten minutes. When our lead speaker comes in, they will get the normal 15 minutes. On conclusion of all of that, and if time permits, we will allow members back in for a short supplementary round of questioning.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_67">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_120">I thank the witnesses for coming in today. I will ask questions but if I interrupt, it is not because I am being rude; it is because I want to move on through topics. I am conscious of my time.</p>
+          <p eId="para_121"> The Competition and Consumer Protection Commission representatives were asked to come in here, as some colleagues proposed, in view of the price increases for oil. That is what really got attention. What is the view on the pricing that happened when oil prices increased? Did the commission see evidence of cartels at work that was increasing the price? Mr. McHugh has used that word quite a lot.</p>
+        </speech>
+        <speech by="#" eId="spk_68">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_122">We have published a report on our view of what happened on the back of the fuel increases we all saw in March. We also received over 1,000 complaints, so it is a really key issue for consumers. Our conclusion in the report, briefly, was that we did not see evidence of significant competition issues in the market. The prices and the real pain consumers suffered and are suffering from was driven by the increase in wholesale prices.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_69">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_123">Were there complaints made about prices increased over the weekend where stocks might have been held already? Did the CCPC actually look at individual companies or outlets and where the prices might have changed? Was there no evidence at all where there might have been a mark-up in prices?</p>
+        </speech>
+        <speech by="#" eId="spk_70">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_124">A number of years ago we looked at individual companies. We took a huge data set to look at hourly price changes across thousands of companies. That concluded at the time that there were not significant increases in profits, for example. When we look hour by hour and day by day, we do see certain issues but, generally, we did not see big problems. This year we decided to do much quicker analysis given the urgency of the situation. We looked at the market at a broader level to do it more quickly. Our conclusion was that we did not see significant problems. That is not to say that in individual cases, there may not have been issues. We never say any market is perfectly clean and does not have any cartels. Cartels are secret. However, generally, this market is performing reasonably well.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_71">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_125">Where prices went up online, it was quite transparent. We all saw evidence, especially with the home heating oil, where prices went up over a weekend. Did the CCPC not see any issue there?</p>
+        </speech>
+        <speech by="#" eId="spk_72">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_126">The only evidence we saw was those price increases being driven by wholesale prices, not increases in profits.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_73">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_127">In general, what is Mr. McHugh's view on dynamic pricing and how it is impacting areas like hotels and concert tickets?</p>
+        </speech>
+        <speech by="#" eId="spk_74">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_128">Dynamic pricing is used in multiple markets, for example, hotels and flights. It serves a purpose. It can lead to a more efficient market. Our view is that it must be absolutely clear in terms of the information consumers get on how the prices are set and what the price is before they pay for any product or any service. That, for us, is the key issue. Trying to intervene in terms of dynamic pricing to tell particular industries exactly how to price can have unintended consequences. We are quite cautious in terms of interventions.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_75">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_129">What consequences? For generations of people, they went in knowing a ticket for a concert was €100. It might be different for seated versus standing. People are now clicking into a site and the price can escalate quite quickly from what the guide price was. The ranges have become obscene.</p>
+        </speech>
+        <speech by="#" eId="spk_76">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_130">Yes.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_77">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_131">Surely the CCPC cannot say it is happy with that situation and that it is giving clarity to the consumer, because I do not see any clarity in that.</p>
+        </speech>
+        <speech by="#" eId="spk_78">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_132">My first answer relates to the principle of dynamic pricing. It can be fine and work very well in markets.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_79">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_133">Is what I said not exactly what happens?</p>
+        </speech>
+        <speech by="#" eId="spk_80">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_134">I do not want to say too much about ticketing because we have an ongoing investigation.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_81">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_135">Who is the commission investigating?</p>
+        </speech>
+        <speech by="#" eId="spk_82">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_136">Investigating into ticketing and the events around the Oasis concert. Given it is a potential enforcement action-----</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_83">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_137">That is fine. I am not asking for Mr. McHugh to talk specifically about Oasis.</p>
+        </speech>
+        <speech by="#" eId="spk_84">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_138">Generally, in ticketing we have made a submission on the Digital Fairness Act, which is a broadly European Act around consumer law and how it might be improved. We think there are issues around some events such as transparency and making sure the consumer journey is a fair and reasonable one, meaning consumers have the appropriate information and the right information before they make decisions.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_85">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_139">Ultimately, consumers are hunting down and are brought to a cusp with prices in front of them. They are under internal pressure or there is pressure around them to buy a ticket. That does not seem fair because they have entered into something half an hour before and have been waiting with an idea of a price and are presented with something else. That is not transparent and it is not right.</p>
+        </speech>
+        <speech by="#" eId="spk_86">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_140">We are getting very close to a case we are currently looking at in terms of decisions we have to make so I do not want to say too much about what might be fair or not.</p>
+        </speech>
+        <speech by="#" eId="spk_87">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_141">Mr. McHugh mentioned the Digital Fairness Act, which is upcoming from the European Commission. That will be launched during the Irish Presidency of the EU Council. We are hosting a consumer summit in Dublin on 19 November where we expect that Act to be launched. That is under the remit of the Commissioner, Michael McGrath and he has indicated that he wants to address the issue of dynamic pricing for tickets publicly.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_88">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T10:50:00+01:00"/></from>
+          <p eId="para_142">Does that mean that exact issue I have been talking about, with someone being brought to the cusp with a price in mind and then being presented with a different price?</p>
+        </speech>
+        <speech by="#" eId="spk_89">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_143">What Commissioner McGrath has said publicly is exactly the issue the Deputy has highlighted around how many tickets will be available at whatever price and whether they are for standing, seating, etc. We will wait and see what will be in that in November.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_90">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_144">I thank Mr. Forde. Is the CCPC conscious of any other anticompetitive practices online outside of the ticket space by large distributors?</p>
+        </speech>
+        <speech by="#" eId="spk_91">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_145">We have a number of ongoing investigations into a variety of markets. Like all markets, some elements are online. Again, I will not say too much about the investigations we have ongoing. I have mentioned some in terms of the sectors around betting, ports, IT and healthcare. Some of them will touch on the online market. We are very much of the opinion that there are significant breaches of competition law occurring. Particularly in cartels, it can be very difficult to uncover them. They are secret by their nature. We have no doubt today that cartels exist in Ireland and consumers suffer significant harm.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_92">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_146">What areas or industries does the CCPC have concerns about in relation to cartels? The officials have used that term quite a lot and it is concerning.</p>
+        </speech>
+        <speech by="#" eId="spk_93">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_147">Cartels can occur in any market but the market we have mentioned today is public procurement. There is a huge amount being spent in public procurement. We know in those markets internationally a number of cartels in nearly all countries have been uncovered. What those countries had was a very different competition regime which has very recently been brought to Ireland which we really welcome. That means we now have leniency because we have the ability now in the CCPC to levy fines-----</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_94">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_148">Mr. McHugh said public procurement. Can he be more specific?</p>
+        </speech>
+        <speech by="#" eId="spk_95">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_149">It is quite a broad-----</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_96">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_150">Is he talking about building and development?</p>
+        </speech>
+        <speech by="#" eId="spk_97">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_151">It can be, yes.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_98">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_152">Or medical?</p>
+        </speech>
+        <speech by="#" eId="spk_99">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_153">It can be right across but it is an area where you do see multiple cartels.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_100">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_154">Is Mr. McHugh talking about any specific area where there is an industry where people have a specific skillset? It might only be the same five or six people competing in a specific area. The HSE, for example, may be looking for something from the same five or six bodies. It could be Irish Rail. Let us say that it is the same public bodies. Is that what Mr. McHugh is talking about? The same issue follows across the board.</p>
+        </speech>
+        <speech by="#" eId="spk_101">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_155">The same incentives exist across the board.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_102">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_156">But different companies are at it.</p>
+        </speech>
+        <speech by="#" eId="spk_103">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_157">Yes.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_104">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_158">That is what I want to clarify.</p>
+        </speech>
+        <speech by="#" eId="spk_105">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_159">The recent conviction we had at the Central Criminal Court was around school bus transport. It is just one example where a jury convicted a number of parties of bid rigging in a public tender but we believe there are many other practices out there. You do not want to pick on any industry but you do see internationally huge cartels in the construction industry, for example. Where it has been a problem in other countries, it has been uncovered and punished and that is what we are looking to do.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_106">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_160">Mr. McHugh said that the CCPC has stopped a lot of unsafe products coming in. Where are they primarily coming from?</p>
+        </speech>
+        <speech by="#" eId="spk_107">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_161">They can come from absolutely anywhere.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_108">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_162">Primarily, though, do we have location sources?</p>
+        </speech>
+        <speech by="#" eId="spk_109">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_163">No, I am not aware of a particular area that would be one problem.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_110">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_164">Would it be Europe, UK, China or America?</p>
+        </speech>
+        <speech by="#" eId="spk_111">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_165">All of those can be potential problems. We have done various sweeps including of some of the newer platforms such as those from China.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_112">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_166">The likes of Temu and those-----</p>
+        </speech>
+        <speech by="#" eId="spk_113">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_167">Yes. We have done safety sweeps, not just for Ireland but also with our European colleagues. We have found really significant product safety issues from those platforms.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_114">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_168">I have one last question. I am conscious of time. The CCPC mentioned the taxi industry in its opening statement. It has advocated for Uber and Hailo to be used before. It has referenced the opportunity I suppose. What is Mr. McHugh’s view on the taxi industry and its current status?</p>
+        </speech>
+        <speech by="#" eId="spk_115">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_169">The taxi industry is not working for consumers. We have looked for ride hailing to be made available for the market to be opened up in Ireland. We do not care which company is successful. Irish people use those ride-hailing apps when they go abroad. They like them. Consumers enjoy that choice and it is not available in Ireland. Every time we have a meeting, we have international people arrive from the airport. They all ask why the ride-hailing app does not work in Ireland.</p>
+        </speech>
+        <speech by="#JoeNeville" eId="spk_116">
+          <from>Deputy Joe Neville<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_170">Thank you.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_117">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_171">Everyone is very welcome. I will go back to price gouging and the cartels. The witnesses said there is no law in place at the moment and there will be something introduced. Is that correct?</p>
+        </speech>
+        <speech by="#" eId="spk_118">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_172">On the new laws that are coming, there are two key elements in the proposed legislation. One is around giving us access to public tender information so we can screen it for potential cartel activity. The second is around giving us the ability to levy fines for breaches of consumer law. That is something we currently have for competition law but we do not have for consumer law. Nearly all the retail cases I mentioned resulted in guilty pleas and a €1,000 contribution to charity. Some of these had a huge impact on consumers. We would like to see laws in place so that if someone does break the law, the punishment can fit the crime.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_119">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_173">There is no law in place at the moment. The CCPC has never fined any hotels or anything for price gouging or increasing prices when a concert is on.</p>
+        </speech>
+        <speech by="#" eId="spk_120">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_174">There is no law against price gouging, increasing prices or having higher profits generally.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_121">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_175">This new law will mean more enforcement then, or will it not?</p>
+        </speech>
+        <speech by="#" eId="spk_122">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_176">The new law will allow penalties to be put in place for breaches of consumer law. Having higher prices is not a breach of consumer law.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_123">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_177">If someone breaches the price increase, what will be the fine?</p>
+        </speech>
+        <speech by="#" eId="spk_124">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_178">We would publish guidance, as we have done in competition, for how that would be calculated. Effectively the goal is that the fine should match whatever the breach of the law was. Where a huge amount of consumers suffered, and where the detriment that they suffered was significant, the fine would be proportionate to that.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_125">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_179">Mr. McHugh said there was a €1,000 fine.</p>
+        </speech>
+        <speech by="#" eId="spk_126">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_180">A contribution to charity.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_127">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_181">That is insignificant. It is not going to affect any of those companies because they are huge. I think Boots was mentioned as well as a few others. It is a laugh to think €1,000 will do anything. What will a typical fine be going forward under the new laws?</p>
+        </speech>
+        <speech by="#" eId="spk_128">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_182">We have seen fines in other jurisdictions of tens of millions. They have to be proportionate. It will depend on the case. It will depend on the detriment cost to consumers. It would all be subject to appeal and due process. Rules will have to be followed. It would be proportionate to the harm that the consumer suffered.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_129">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_183">Commissioner McGrath will introduce that new law in November. Is that correct?</p>
+        </speech>
+        <speech by="#" eId="spk_130">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_184">No.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_131">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_185">It is a different one.</p>
+        </speech>
+        <speech by="#" eId="spk_132">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_186">Yes. This is a law that is being proposed by the Department-----</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_133">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_187">Okay. When is that happening? Do we know?</p>
+        </speech>
+        <speech by="#" eId="spk_134">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_188">The Minister, Deputy Burke, intends to bring a memo to the Government before the summer break outlining the heads of Bill about how to address greater access to data which would enable the commission to screen for bid rigging and, equally, to be able to have consumer fines on a more proportionate scale. For example, the ability the commission has for breaches of competition law is equal to 10% of the company’s turnover or €10 million, whichever is greater. That gives a sense of the scale, which is obviously not comparable with a €1,000 contribution to charity.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_135">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_189">Can someone tell me about the ECN+ directive? What is that? Is that already in place or are there no powers associated with it?</p>
+        </speech>
+        <speech by="#" eId="spk_136">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_190">The ECN+ directive was transposed in Ireland by the Competition (Amendment) Act 2022. It has been in force since 2023. It provides for those fines that Mr. McHugh and Mr. Forde have both mentioned for breaches of competition law. For breaches of competition law, the CCPC, through independent adjudication officers, can impose those fines of €10 million or 10% of turnover, whichever is the greater.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_137">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_191">But that is not happening.</p>
+        </speech>
+        <speech by="#" eId="spk_138">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_192">That regime is just up and running. We have established it-----</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_139">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_193">How long has this organisation been established?</p>
+        </speech>
+        <speech by="#" eId="spk_140">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_194">The CCPC?</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_141">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_195">Yes.</p>
+        </speech>
+        <speech by="#" eId="spk_142">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_196">Since 2014.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_143">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_197">It is not using that law or that legislation.</p>
+        </speech>
+        <speech by="#" eId="spk_144">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_198">It came into force in September 2023.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_145">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_199">Okay.</p>
+        </speech>
+        <speech by="#" eId="spk_146">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_200">We have opened a number of investigations under that new regime and we are hoping to see some of those-----</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_147">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_201">Has it charged anybody or fined anybody?</p>
+        </speech>
+        <speech by="#" eId="spk_148">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_202">No. We are well advanced in quite a number of investigations at this stage. We are hoping to be taking the next steps.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_149">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:00:00+01:00"/></from>
+          <p eId="para_203">So this legislation has not been used to date.</p>
+        </speech>
+        <speech by="#" eId="spk_150">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_204">No fines have been imposed. Although investigations have been opened, other investigation powers have been used.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_151">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_205">An awful lot of taxpayers' money seems to be going into this, but there have been no finds under this legislation. There is nothing that, as Mr. McHugh said, reflects what has actually happened. Fines of €1,000 are not reflective of the situation. We also have this ECN directive which went through the Houses in 2023 or 2024, and it has not been used either. Why did that happen?</p>
+          <p eId="para_206"> Many constituents call me about the increase in their electricity bills. Do the witnesses deal with that at all?</p>
+        </speech>
+        <speech by="#" eId="spk_152">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_207">There is an energy regulator, the Commission for Regulation of Utilities, which is responsible for overseeing the electricity market. It recently published a report on competition in the electricity market, particularly around the concerns about increases in electricity bills. We have engaged with it about its report. The conclusion of that was that the market was working reasonably well with regard to competition. We looked at that and would agree with their conclusions. The electricity market works well for people who switch. There are questions-----</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_153">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_208">Does Mr. McHugh think it is fair that people have to switch to get the decrease in their electricity prices?</p>
+        </speech>
+        <speech by="#" eId="spk_154">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_209">That is a really good question and further work is needed.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_155">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_210">This has been ongoing for as long as I know. Has anything happened in relation to that?</p>
+        </speech>
+        <speech by="#" eId="spk_156">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_211">A lot of work has been done in the electricity industry over the years to bring in competition and to have auctions, for example, which have been quite successful, but we are now committed to doing work to understand consumers' experience with switching or not switching. The Deputy asked if it is right and fair if people pay a certain price if they do not switch and whether that needs further analysis. We are committed to doing that.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_157">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_212">It is fantastic that the witnesses are committed, but why has something not happened already? This has been ongoing for years, which is my worry. My greater worry relates to data centres at the moment, and the increased costs that consumers are being charged due to data centres. A report was released today that says that in 2021, consumers had a 14% increase in their electricity bills because of data centres. In 2023, there was a 21% increase. That will continue to rise. Has the CCPC done a report about the energy drain of data centres and what additional amount consumers are being charged in their electricity bills because of data centres? Reports are good and well but I want to know where the reports are leading. Are they actually helping consumers?</p>
+        </speech>
+        <speech by="#" eId="spk_158">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_213">I noted the report about data centres this morning. We do not have expertise in the analysis of data centres, the charges they pay, and how they connect.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_159">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_214">Should this not be the CCPC's work?</p>
+        </speech>
+        <speech by="#" eId="spk_160">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_215">The CRU, which is the energy regulator, sets connection policies, for example, and certain charges that an industry like data centres would pay, so it would absolutely have the expertise. One of the things we have worked on and engaged with both relevant Ministers about is not to duplicate the work. We will focus on the switching experience of consumers in the market and whether that is working or not. As we always do, where we see a problem, we will look to make recommendations. Where we see that change can benefit consumers, we will make those recommendations, as we have done in the taxi market, where we think there are changes that can be made that will bring real benefit to consumers.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_161">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_216">When I see "consumer protection", I automatically assume the commission is there to protect the consumer. If the consumer is paying all these excessive charges for electricity because of data centres, I believe the commission has a part to play in ensuring that does not happen, because it is not fair on the consumer.</p>
+          <p eId="para_217"> Is there any competition or consumer law relating to production of food, farmers, and their costs?</p>
+        </speech>
+        <speech by="#" eId="spk_162">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_218">Competition and consumer law apply generally to all markets. We have taken previous action.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_163">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_219">What was that?</p>
+        </speech>
+        <speech by="#" eId="spk_164">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_220">There was a case involving the beef industry quite a number of years ago, under competition law, to do with a cartel. I believe it went through the courts to the Supreme Court, to prevent certain interventions in the beef industry that we felt were anti-competitive.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_165">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_221">What were they? Do the witnesses remember off-hand?</p>
+        </speech>
+        <speech by="#" eId="spk_166">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_222">I think they were an agreement between beef processors about restricting output. They were agreeing between each other and it was found that that was in breach of competition law.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_167">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_223">At the moment, are there any cuts to beef output in Ireland?</p>
+        </speech>
+        <speech by="#" eId="spk_168">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_224">Not that we are aware of, although issues relating to the beef sector do come to our attention from time to time.</p>
+        </speech>
+        <speech by="#CathyBennett" eId="spk_169">
+          <from>Deputy Cathy Bennett<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_225">And there was nothing related to Mercosur?</p>
+        </speech>
+        <speech by="#" eId="spk_170">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_226">No, I am not aware of any issue relating to Mercosur.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_171">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_227">I thank the witnesses for being here today. As previous speakers said, one reason we wanted to speak to the commission is the issue of fuel prices. We were also interested, in the context of our discussion with the Corporate Enforcement Authority, of the structure of the commission. I might ask a number of questions regarding that. They are really for our report on those hearings as opposed to being specifically about the witnesses. The witnesses have a three-person commission with a chairperson. When they are making decisions about which areas to investigate or about proceeding with investigations, are those made individually by each commissioner or are they made collectively as a commission?</p>
+        </speech>
+        <speech by="#" eId="spk_172">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_228">The commission has the chair and three members, so there are four on the commission. Decisions to open investigations are delegated below the commission level. We do not get involved in that level of detail in all circumstances, so there is quite a lot of delegation. We do empower our staff. We have a role in making decisions on certain steps of investigations, for example, to prosecute. We have a role, as the investigation progresses and where teams want to discuss prioritisation, where the commission would be involved in those discussions.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_173">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_229">So the witnesses are responding to the delegated responsibility that they have applied to the staff in the commission?</p>
+        </speech>
+        <speech by="#" eId="spk_174">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_230">That is correct.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_175">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_231">If there is a significant public interest around a certain industry or area, is that something the commission would recommend to the staff? I am using the word commission interchangeably, but Mr. McHugh knows the point I am making.</p>
+        </speech>
+        <speech by="#" eId="spk_176">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_232">There would be quite an open conversation within the organisation. If there is a big public issue, the team will know about it too, and there may well be a discussion on some form of intervention. I should add, to be clear, that each member also oversees certain divisions, so they would be closer to those conversations.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_177">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_233">There is a clear responsibility within an organisational chart.</p>
+        </speech>
+        <speech by="#" eId="spk_178">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_234">Yes, absolutely.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_179">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_235">Is there a director of legal, for example?</p>
+        </speech>
+        <speech by="#" eId="spk_180">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_236">Yes. There are actually two divisions. One is focused on the competition legal issues and one is focused on consumer and corporate legal issues.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_181">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_237">There are what you might call HR or operational decisions about pay, staffing and so on. Do those come to the commission?</p>
+        </speech>
+        <speech by="#" eId="spk_182">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_238">No. We follow the public and Civil Service guidance on pay and conditions. We do not set any-----</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_183">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_239">What of the appointment of particular individuals or the creation or deletion of particular posts within the organisation?</p>
+        </speech>
+        <speech by="#" eId="spk_184">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_240">We have a strategic workforce plan, which is a three-year plan which is signed off by the commission. We also then have annual plans. As the Deputy describes, if there is a budget it is a question of what posts should be sanctioned or prioritised and what changes should be made. While the chair, under the legislation, has a role in running the organisation and its staff, the commission will always be part of those discussions about staffing.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_185">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_241">Mr. McHugh consults the commission rather than a senior management team.</p>
+        </speech>
+        <speech by="#" eId="spk_186">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_242">No. In the strategic workforce plan, every division produces its own views and thoughts on what it thinks should be done. That would then be escalated up and discussed with divisions, then with the commission, before a final decision is made.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_187">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:10:00+01:00"/></from>
+          <p eId="para_243">That is a useful comparison. We might come back to Mr. McHugh to ask other operational questions. I turn to the issue of fuel pricing. The witnesses indicated that there were more than 1,000 fuel-related complaints and that they concluded that the vast majority did not fall into the category of price-gouging.</p>
+          <p eId="para_244">Could Mr. McHugh talk to us about the specific evidence that was gathered? I am talking about the purchase of the fuel, the decision to increase or decrease fuel prices, the day of sale and that sort of stuff.</p>
+        </speech>
+        <speech by="#" eId="spk_188">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_245">Speaking generally, although it absolutely applies to these callers to our helpline, when someone calls in with a complaint and it is a potential breach of the law, we will look for evidence as part of their complaint so we can understand whether it is a breach of the law and what the evidence is. Our investigation teams will then engage more with those consumers to get into more detail about what the evidence might be. That is how we will generally treat our callers. Most of the cases we have and that you see prosecutions for started with someone calling in. Some of the prosecutions we have require the consumer to take the stand in court, for example, and give evidence. It is a prosecution in court. They will all be different but we would have applied the same approach to the complaints in relation to the fuel sector.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_189">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_246">Mr. McHugh is saying that fewer than 5% of complaints raised specific consumer protection concerns. Is that correct?</p>
+        </speech>
+        <speech by="#" eId="spk_190">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_247">That is correct, yes.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_191">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_248">Is the CCPC continuing to process those complaints?</p>
+        </speech>
+        <speech by="#" eId="spk_192">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_249">We have been looking at them and working through them. I do not want to say too much. In the context of our enforcement powers, we just do not comment on where things are. We did not see a lot of serious, obvious breaches of the law. We saw very real issues, particularly in the heating oil sector, in terms of how consumers were communicated with, and how prices were set and then withdrawn. We wrote to the heating oil sector and all the big companies to remind them of consumer law and their responsibilities to consumers.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_193">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_250">Would it be fair to say that investigation is continuing or that there are continuing investigations in that sector?</p>
+        </speech>
+        <speech by="#" eId="spk_194">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_251">It is a key sector for us, yes, so we are continuing to look at it but I would not want to give the impression that there were some significant, widespread consumer law problems. A lot of the issues that we saw were down to what the contract was between the company and the consumer, which can get into more technical questions of contract law.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_195">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_252">I think the Minister for enterprise has indicated that he may ask the CCPC to examine a report of three or four petrol stations on the one road all having a specific increase on a litre of diesel. I appreciate it is hard for Mr. McHugh to comment, but is the CCPC carrying out investigations that examine that potential for a breach of competition law?</p>
+        </speech>
+        <speech by="#" eId="spk_196">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_253">Speaking very generally, we would. It is an area we would look at closely. We did get a lot of complaints - less so beyond March and April - about specific petrol stations. We do a lot of inspections of petrol stations because as well as the competition law, there are requirements in regard to display and what display must be available at petrol stations. It is an area we would spend a significant amount of time on.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_197">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_254">One concern might be that the CCPC initially started the investigations around school transport in 2017.</p>
+        </speech>
+        <speech by="#" eId="spk_198">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_255">It was in 2016.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_199">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_256">Okay, that is worse. The prosecution was in 2025. We would not like to see the outcome of some complaints being made now being dealt with in 2035.</p>
+        </speech>
+        <speech by="#" eId="spk_200">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_257">We strongly agree and for us, it is one of the significant benefits of the new administrative regime. There is, understandably, a lot of due process. In these cases, there are significant potential outcomes for companies and individuals in what we do. There are a lot of steps that we need to take, but we strongly agree that ten years to bring a case to conclusion is not quick. I will say that the file went to the Director of Public Prosecutions, DPP, in 2019. From that point on, we were not in control.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_201">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_258">Non-compliant procurement is something that comes up constantly here, and we see issues around procurement. I am concerned with the comments made in the Oireachtas committee on enterprise where someone - I think it was Mr. McHugh or someone from the commission - said they fully believed there were cartels operating within Ireland in the public procurement spend. Am I summarising that correctly?</p>
+        </speech>
+        <speech by="#" eId="spk_202">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_259">Yes.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_203">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_260">I am also concerned about the impact that is having on the price of housing. The State is now the largest actor in the housing market. The cost of the construction of housing has significantly increased. Mr. McHugh has mentioned construction specifically. If he is willing to say he fully believes there are cartels operating in public procurement, does he believe that is also operating in public procurement with regard to housing?</p>
+        </speech>
+        <speech by="#" eId="spk_204">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_261">I would not go that far because it is a bit too narrow a statement, but we do see cartels internationally, in nearly all countries. One of the big sources of uncovering those cartels is the leniency regime whereby, when an agency can fine a company, what you get is one of the companies says, "I'm in this cartel. Here's all the evidence. Just don't give me a fine". That is how they are uncovered in a lot of cases. We have never had that in Ireland and, therefore, we have not had that channel, but we now do.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_205">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_262">For the benefit of a member of the public looking on and wondering what a cartel is, Mr. McHugh is essentially indicating that for public procurement, often there is a very limited number of people. One of the reasons we do not have enough competition and better pricing is that if a limited number of people submitting bids for an e-tender were in some way acting as a cartel, they would be co-ordinating with each other both the price and the terms of the contract they were willing to deliver.</p>
+        </speech>
+        <speech by="#" eId="spk_206">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_263">Yes.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_207">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_264">Mr. McHugh believes that is happening in Ireland, within the public procurement process.</p>
+        </speech>
+        <speech by="#" eId="spk_208">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_265">Yes. That was what the conviction last December was about. In public tenders, a number of individuals and companies got together to collude to the detriment, ultimately, of the taxpayer.</p>
+        </speech>
+        <speech by="#PaulMcAuliffe" eId="spk_209">
+          <from>Deputy Paul McAuliffe<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_266">That leads me to my final question. I know the CCPC is waiting on the Act to be implemented. It will obviously need resources to respond to that. The question might be for the Department. Given the fairly strong statement that has been made here by the commission, is the Department now ready to step in and support it in trying to eliminate that cartel-type operation?</p>
+        </speech>
+        <speech by="#" eId="spk_210">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_267">I thank the Deputy. The Department is very supportive of the work of the commission and its expanded remit over the last couple of years. As the Deputy will see from the opening statement from the chairperson and the briefing document the commission has supplied, its overall budget allocation has more than doubled in the past four to five years. Its overall sanctioned headcount has more than doubled as well. I think that illustrates the level of commitment given by the Department and Ministers to the budget and allocation for the CCPC to undertake the remit. That will obviously be a function of future budgets for the Estimates for 2027 and onwards.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_211">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_268">I thank everyone for being here. I will start off on the subject of public procurement as well, if I may. I do not want to misquote Mr. McHugh but I think he said that he fully believes there are cartels operating in public procurement. There is a value of approximately €20 billion in public procurement. I think that statement alone should set off alarm bells in regard to how seriously that potentially is. Even if 1% of that €20 billion was effectively wasted or misused, it is €200 million. What are we doing to address this issue?</p>
+        </speech>
+        <speech by="#" eId="spk_212">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_269">The first thing that has been done is the legislation is now in place to give us the powers to sanction breaches of competition law, including cartels. That means we now have leniency. We have a leniency phone line where companies can and do come forward with evidence. As I have said publicly, the phone does ring, so that is a really positive step.</p>
+          <p eId="para_270"> The next thing that is planned, which we think will make a difference, is screening the tenders and giving us access to that data. We do a huge amount of confidential data every day. Other countries already have this and it is being proposed. We strongly support it. If we have access to that data, we will screen it for potential-----</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_213">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_271">How long, in the commission's view, have these cartels been operating in public procurement? How long has the commission held this view?</p>
+        </speech>
+        <speech by="#" eId="spk_214">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_272">We have held this view since the Competition Authority days - for many decades.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_215">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_273">For many decades.</p>
+        </speech>
+        <speech by="#" eId="spk_216">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:20:00+01:00"/></from>
+          <p eId="para_274">Yes. We have looked for these administrative sanctions for many decades, so we really welcome the fact they are in place.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_217">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_275">Mr. McHugh's concerns are not being acted upon.</p>
+        </speech>
+        <speech by="#" eId="spk_218">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_276">No, the legislation for the sanctions is now in place. We really welcome that. </p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_219">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_277">It is decades later.</p>
+        </speech>
+        <speech by="#" eId="spk_220">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_278">Yes, it took a very long time. The conviction in December was a very big thing. An Irish jury unanimously found-----</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_221">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_279">That was in relation to school transport. What value were we talking about in that case? Can Mr. McHugh put a monetary value on it?</p>
+        </speech>
+        <speech by="#" eId="spk_222">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_280">We will have to come back to the Deputy with the figures.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_223">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_281">That is the only success so far with regard to public procurement.</p>
+        </speech>
+        <speech by="#" eId="spk_224">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_282">We had another case a few years previously but it was about procurement in the private sector. That related to commercial flooring for office buildings in Dublin.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_225">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_283">It was not related to public procurement. How many staff in the commission are examining this issue of public procurement right now?</p>
+        </speech>
+        <speech by="#" eId="spk_226">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_284">Does Ms Butler want to talk about the cartels?</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_227">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_285">What level of resources is the commission putting into this issue? The scale of this is potentially huge. How is the commission directing resources towards addressing this issue, in line with the support it is getting from the Department by way of enhanced powers and so on?</p>
+        </speech>
+        <speech by="#" eId="spk_228">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_286">As Mr. Forde said, there has been a big increase in the CCPC's headcount. Part of that has gone towards our cartels function. We have 15 or 20 people working in our cartels division. We have a designated competition legal team that supports our cartels division. We have a forensic technology and data analytics division. That division works really hard on our cartels investigations. It analyses data we seize during search operations. Once we have these screening powers in respect of bid rigging in public procurement, it will also be working very closely on that.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_229">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_287">To clarify, how many staff does the commission have? Was it 275 posts?</p>
+        </speech>
+        <speech by="#" eId="spk_230">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_288">We have 275 sanctioned posts.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_231">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_289">Are they filled?</p>
+        </speech>
+        <speech by="#" eId="spk_232">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_290">I believe 258 are currently filled.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_233">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_291">Of that number, 20 people are working in the area of cartels. Is that correct?</p>
+        </speech>
+        <speech by="#" eId="spk_234">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_292">There are 18 people working specifically in the cartels division. We also have a legal division working on cartels. That has about ten people. There are also five people in our forensic technology division.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_235">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_293">It sounds as if there may be scope to redirect some staff into this area.</p>
+        </speech>
+        <speech by="#" eId="spk_236">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_294">One of our big issues is that we have a very broad mandate. We have talked about breaches of consumer law and the work we are going to do on switching electricity and gas suppliers. We understand the bigger picture in terms of budgets but, as we always say, if we have more staff, we will take on more cases.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_237">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_295">Are there open investigations into public procurement at present?</p>
+        </speech>
+        <speech by="#" eId="spk_238">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_296">Yes, there are.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_239">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_297">Are there multiple open investigations?</p>
+        </speech>
+        <speech by="#" eId="spk_240">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_298">There are a number of investigations. Obviously, as-----</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_241">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_299">They are across different areas.</p>
+        </speech>
+        <speech by="#" eId="spk_242">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_300">They are. I cannot speak about them in any more detail.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_243">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_301">I am not asking Ms Butler to get into them but does she hope for some of these to conclude this year? </p>
+        </speech>
+        <speech by="#" eId="spk_244">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_302">I do not think we will see a conclusion to any of those investigations. It is important to note that competitions investigations typically take several years. That is the same whether they are undertaken by ourselves, the European Commission or other competition agencies.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_245">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_303">On the fuel sector, I am not convinced that the issue is at the retail level. I think it might be at the wholesale level. There is choice in relation to fuel stations. There are options open to people but that is not necessarily the case in respect of wholesalers. What really frustrates people is that, when the price of oil increases on international markets, that is reflected at the pumps instantly, but when there is a decrease, there is always a delay. Has the commission examined the specific issue of that delay in reducing prices?</p>
+        </speech>
+        <speech by="#" eId="spk_246">
+          <from> Mr. Geoffrey Gray<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_304">We looked at the time it takes to pass price reductions on to consumers in 2022. We found that there was a lag. In that case, it was about the time it took to pass on the cut in excise duty to consumers. In our recent analysis, we found that there was also a lag in passing price increases on to consumers. There was a benefit when prices went up but it also took time for decreases to be passed on. To give the Deputy a sense of the scale of the increases, the wholesale price of petrol increased by 70% and the price of diesel more than doubled. Over the period we looked at, from the start of the year, the increase in the price of petrol was 6% to 10% and the increase in the price of diesel was 12% to 20%, depending on the metric used. We saw that retailers did not pass on even nearly the full extent of the wholesale price increases to the customers.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_247">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_305">The commission does not see an issue in respect of that timing. It feels that, when international or wholesale prices change, increases and decreases are treated equally.</p>
+        </speech>
+        <speech by="#" eId="spk_248">
+          <from> Mr. Geoffrey Gray<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_306">Yes. The other thing to note is that there might be individual instances where some retailers pass on the cost immediately and others do not because they all have different hedging relationships and different amounts of storage within their forecourts.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_249">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_307">I understand that. The commission has not seen anything of real concern in that area.</p>
+        </speech>
+        <speech by="#" eId="spk_250">
+          <from> Mr. Geoffrey Gray<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_308">We have seen nothing of concern at a systematic level, no.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_251">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_309">Financial services fall under the commission's remit. I am talking about banking, insurance and so on. That is an area in which many people feel there is a lack of competition. Does the commission have an opinion on the financial services sector?</p>
+        </speech>
+        <speech by="#" eId="spk_252">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_310">We agree. There is a lack of competition in banking, particularly with the exit of KBC and Ulster Bank, on which we did quite a bit of work. We share those concerns. We also provided our views to the retail banking review that was previously carried out. New entrants are absolutely essential. We have all seen some green shoots, particularly with regard to fintech, which has grown hugely. Literally millions of Irish people have signed up with a few companies through their phones. It is clear that where consumers are offered a product they like, can use and benefit from, they will switch and they will sign up. There are significant regulatory barriers. That is only right. We all want prudential regulation. One of the key questions is whether the balance is right between having really good prudential barriers and making sure that the barriers are not so high as to prevent entry. It is really important that those who have entered the market have the ability to expand into other markets. We hope to see that. For example, a company that is in the payments market might get into deposits and mortgages. This also affects SMEs. That lack of competition we are talking about very much applies for SMEs as well.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_253">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_311">The banking sector is very much on the commission's radar as regards competition. Does it have a similar view on the insurance sector?</p>
+        </speech>
+        <speech by="#" eId="spk_254">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_312">Yes. We have done a number of investigations into the insurance sector over the years. We keep an active eye on it. Again, entry is really important. One of the areas we worked on, led by the European Commission, was making sure that the data held by Insurance Ireland was made available to new entrants. That was one of the outcomes of that investigation. We really welcomed that. One of the metrics we always look at in markets is entry because it makes a big difference. It brings in new business models and new innovation. When you do not see entry for a long time, the market suffers.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_255">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_313">Were there any prosecutions in relation to either the banking or insurance sector in terms of malpractice?</p>
+        </speech>
+        <speech by="#" eId="spk_256">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_314">We do not have a role outside of competition law. We previously had a case relating to motor insurance. We investigated whether motor insurance companies were signalling price increases to one another. We concluded that investigation with commitments from a significant number of motor insurance companies that they would change their behaviour. They signed those commitments and are bound by them. That occurred before competition law was changed. Before competition law was changed, the CCPC had no ability to fine companies for breaking competition law. At that time, that option was not there. I am not saying that is what would have happened in that case but it was a very different time in terms of the powers available to the CCPC.</p>
+        </speech>
+        <speech by="#SeamusMcGrath" eId="spk_257">
+          <from>Deputy Séamus McGrath<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_315">How many investigations does the commission have open right now across both the consumer and competition streams?</p>
+        </speech>
+        <speech by="#" eId="spk_258">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:30:00+01:00"/></from>
+          <p eId="para_316">For operational reasons, I would prefer not to comment but we have had a significant and much-increased number of competition investigations since we got the new powers in 2023. There is a lot already in the public domain about searches we have done since 2023. We have spoken publicly about some other investigations on the competition side. For operational reasons, there are other investigations we do not talk about.</p>
+        </speech>
+        <speech by="#" eId="spk_259">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_317">We have more investigations open than ever before.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_260">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_318">We have heard that the CCPC's budget and head count have doubled. Has its output doubled?</p>
+        </speech>
+        <speech by="#" eId="spk_261">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_319">We have significantly increased our output in terms of prosecutions right across-----</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_262">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_320">Would they have doubled? Could Mr. McHugh give me a rough estimate?</p>
+        </speech>
+        <speech by="#" eId="spk_263">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_321">In terms of how one calculates the impact, we recently published an impact assessment that has been peer reviewed. It follows the OECD guidance on impact assessments for competition and consumer bodies, so for every €1 we spend, the benefits-----</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_264">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_322">I read that. It is a big claim. It is a very big claim, yet the perception is that the CCPC lacks public credibility. People are seeing huge price increases, consumers are seeing real issues and yet the CCPC repeatedly comes out and says everything is fine. On the one hand, the public, unfortunately, really doubts its credibility while, on the other, the CCPC is saying it is returning €21 for every €1 invested. Are these real savings or are they theoretical? Where are consumers seeing this in their weekly shop and weekly bills?</p>
+        </speech>
+        <speech by="#" eId="spk_265">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_323">We believe they are real and that we do make a difference.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_266">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_324">Can Mr. McHugh give me an example? In terms of being able to back up the CCPC's credibility, and that is a really bold claim, Mr. McHugh needs to give examples. The fact that it is peer reviewed is a bit wishy-washy, I am afraid.</p>
+        </speech>
+        <speech by="#" eId="spk_267">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_325">We have increased the number of prosecutions we carry out.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_268">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_326">By how much? What is the percentage year on year? What are we seeing?</p>
+        </speech>
+        <speech by="#" eId="spk_269">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_327">We are up to about ten prosecutions in terms of consumer issues every year. It depends year by year.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_270">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_328">What was the total number of prosecutions last year?</p>
+        </speech>
+        <speech by="#" eId="spk_271">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_329">I believe the number was eight. </p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_272">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_330">Eight in total for the whole year.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_273">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_331">I know I am pushing Mr. McHugh but, genuinely, people ask me what the value is. If Mr. McHugh comes out with a statement like that, he needs to be giving us credible examples. Telling me the CCPC undertook ten prosecutions last year is not convincing me, so how am I supposed to convince my constituents?</p>
+        </speech>
+        <speech by="#" eId="spk_274">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_332">The prosecutions that we have taken against Tesco affect millions of Irish consumers who purchase billions of euro worth of product from Tesco. It has changed its pricing practices on the back of that. We have taken prosecutions relating to Black Friday sales and price indications.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_275">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_333">Regarding the work the CCPC puts into those versus the fines and the costs that are awarded, while I see absolutely see the value of trying to deter, that is not a deterrent. The fines are lower than my family's monthly grocery bills. We need to see the Department stepping up and bringing forward real enforcement fines and penalties to make it much easier for the CCPC to do its job and try to rebuild some of the confidence in the CCPC.</p>
+          <p eId="para_334"> I saw Mr. Forde nodding when Deputy McGrath asked him about the scale of cartels. Can he put a figure on the exposure to the State?</p>
+        </speech>
+        <speech by="#" eId="spk_276">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_335">The honest answer is that I cannot. That would be more to do with the expertise of Mr. McHugh but I know that he has stated previously that, based on international research and evidence, cartels do exist. We would be naive to think they do not exist. Where they exist, one can see price premiums of something like 20% to 30%. That is an academic figure. Again, we would be naive to think that they are not here in Ireland so it is important that we have the powers and ability to identify those cartels if they exist and then to prosecute them. Again, the experts in this field would be my colleagues behind me.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_277">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_336">In terms of bid screening, could we see that cost increase? A figure of 20% to 30% is huge when it comes to a cost to the State. Would bid screening help?</p>
+        </speech>
+        <speech by="#" eId="spk_278">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_337">Yes, it would.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_279">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_338">When is it going to happen?</p>
+        </speech>
+        <speech by="#" eId="spk_280">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_339">It is on the legislative timetable for the Oireachtas and we would hope to have this in the Oireachtas in the second half of the year. The ambition is to bring a memo to Government setting out the policy ambitions before the summer break. That would involve the bid screening piece for competition and also an administrative sanctions regime for consumers. The Deputy is absolutely right that bringing a case to court demands huge resources from the CCPC, and where the outcome is €1,000, it does not seem proportionate. The ability to have an administrative sanction regime that would be more proportionate would provide more of a deterrent-----</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_281">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_340">On the ability of the CCPC to recoup more of its legal costs and internal costs, there has to be something in there because it is a huge cost to the State. It is a necessary one in terms of deterring wider behaviour, but big players like Tesco, Ticketmaster, etc., should not be getting away with it. There is no deterrent. We should see that legislation before us----- </p>
+        </speech>
+        <speech by="#" eId="spk_282">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_341">The ambition is for a memo this side of the summer break. It is on the Oireachtas legislative timetable to have drafting in the second half of the year.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_283">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_342">Why was it not done before now? This is not a new issue.</p>
+        </speech>
+        <speech by="#" eId="spk_284">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_343">All I can say is that the programme for Government contains a commitment to strengthen the powers of the CCPC in terms of its competition mandate and consumer protection mandate. That is what is being delivered by the Minister, Deputy Burke, as part of the programme for Government.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_285">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_344">Has the CCPC been raising the issues around procurement and cartels for some time now? If so, could Mr. McHugh indicate for how long?</p>
+        </speech>
+        <speech by="#" eId="spk_286">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_345">The fundamental issue of cartels in Ireland and the need to have proper punishments goes back decades. The Competition Authority, as it was then, would have been looking for those. That culminated in the recent legislation we have been talking about and we now have those powers. Regarding the request in terms of screening for bid rigging, it goes back a number of years, but not as long. We really welcome this legislation.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_287">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_346">Roughly.</p>
+        </speech>
+        <speech by="#" eId="spk_288">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_347">We made submissions to the Hamilton review group in relation to screening for bid rigging. It was included in the report of that group, which I think was published around 2020. That report recommended that we be given the power to screen for bid rigging.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_289">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_348">I would like to see the Department maybe move more swiftly when it comes to things like this, particularly if we have been paying a premium of 20% to 30% for the six or seven years since the CCPC highlighted the issue.</p>
+          <p eId="para_349"> I will move on to dynamic pricing. This is not a new phenomenon. Since the Oasis case, we saw the take-off of dynamic pricing after the ticket touting legislation was introduced in 2021. I heard commentary on radio this morning. We are seeing artists and ticketing platforms moving into the same space as those increased ticket touting prices, where they are actually now benefiting from these hugely inflated prices. Has the CCPC looked at the system in the UK? Why have we not proposed introducing some of the protections the UK is introducing?</p>
+        </speech>
+        <speech by="#" eId="spk_290">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_350">I am not aware of the detail of the Bill introduced in the UK. There are protections in Ireland, which are around the reselling of tickets, and they are enforced by An Garda Síochána. From our point of view, in terms of consumer protection there are laws already in place. We are looking at a particular case, so I will not say too much more.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_291">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_351">What the UK is doing is warning customers in advance. If the pricing is variable, the companies in question have to specify the price ranges, update customers if they are in a queue, tell them the cheaper tickets have sold out and avoid using these misleading labels. I see it all the time. They talk about premium tickets and you literally get a standing ticket and maybe a different colour wristband or whatever. There is no premium and no value added. Again, the UK is saying that companies have to be very clear what the added value is and cannot use misleading labels. There is a fine of up to 10% of global turnover and enforcement is administrative and fast and it is not necessary to resort to the courts. All of that seems very practical to my mind. We should look to introduce similar types of protections and I would have thought that the CCPC might have looked at what was happening in other areas.</p>
+        </speech>
+        <speech by="#" eId="spk_292">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_352">I am not going to say anything about ticketing in the context of an ongoing investigation we have around whether consumers were misled.</p>
+        </speech>
+        <speech by="#GraceBoland" eId="spk_293">
+          <from>Deputy Grace Boland<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_353">I encourage the CCPC to look at what we can do in terms of protecting customers.</p>
+        </speech>
+        <speech by="#JoannaByrne" eId="spk_294">
+          <from>Deputy Joanna Byrne<recordedTime time="2026-05-28T11:40:00+01:00"/></from>
+          <p eId="para_354">I will try not to go over what has been covered, but I have some follow-on questions arising from some of the earlier discussions about cartels.</p>
+          <p eId="para_355">Ms Butler stated the CCPC has multiple investigations in this regard, but out of curiosity, could she put an indicative number, rather than a precise one, on how many cartels the organisation has flagged where no action was taken against them?</p>
+        </speech>
+        <speech by="#" eId="spk_295">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_356">What does the Deputy mean?</p>
+        </speech>
+        <speech by="#JoannaByrne" eId="spk_296">
+          <from>Deputy Joanna Byrne<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_357">Obviously, the CCPC has got to a point where there are investigations into cartels and it has the enhanced legislation and other things to allow it to move. However, during that period when it did not have the powers to act on cartels, is there an indicative number of how many concerns the CCPC might have had that it was not in a position to move on?</p>
+        </speech>
+        <speech by="#" eId="spk_297">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_358">In order to go against cartels, we had a criminal enforcement regime we operated under, which came with a very high standard of evidence we had to reach. Inevitably, there would have been some cases we might have looked at and investigated but were not able to get evidence to the required standard to proceed. </p>
+        </speech>
+        <speech by="#JoannaByrne" eId="spk_298">
+          <from>Deputy Joanna Byrne<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_359">As it currently stands, is Ms Butler of the belief that the CCPC has sufficient powers to act, or is there anything further needed?</p>
+        </speech>
+        <speech by="#" eId="spk_299">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_360">We certainly think we have sufficient investigation powers. We have got surveillance powers and a really strong new enforcement regime. The one gap we have identified on that cartel side is the power to screen public procurement data for signs or red flags of bid-rigging. That would be an extremely impactful detection tool, if we were to get it. </p>
+        </speech>
+        <speech by="#JoannaByrne" eId="spk_300">
+          <from>Deputy Joanna Byrne<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_361">That is on its way. </p>
+        </speech>
+        <speech by="#" eId="spk_301">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_362">Yes.</p>
+        </speech>
+        <speech by="#JoannaByrne" eId="spk_302">
+          <from>Deputy Joanna Byrne<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_363">Correct me if I am wrong on this, but it is my understanding that dynamic pricing is not currently defined under Irish or EU consumer protection legislation, and in most cases it is not actually prohibited. Is that correct?</p>
+        </speech>
+        <speech by="#" eId="spk_303">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_364">Yes, that is correct. </p>
+        </speech>
+        <speech by="#JoannaByrne" eId="spk_304">
+          <from>Deputy Joanna Byrne<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_365">We have concerts like Bruce Springsteen and Oasis, where we have seen Irish consumers furious and absolutely outraged at the price hikes of tickets, hotels and transport in real time. We also have the FIFA World Cup in the USA, which has the same challenges and difficulties at present.</p>
+          <p eId="para_366"> Has the CCPC engaged with Government to define dynamic pricing as illegal in cases like those I have mentioned, or is that something that needs to be recommended to Government at this stage? </p>
+        </speech>
+        <speech by="#" eId="spk_305">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_367">We would not recommend to Government in any way that dynamic pricing as a concept be made illegal. Dynamic pricing can make markets very efficient. It can serve consumers very well, particularly in the long run. At times, consumers really like dynamic pricing, such as when Irish consumers go abroad and they use a ride-hailing app, which can give different prices at different times. However, we also fully understand that at other times consumers are very frustrated by dynamic pricing, and that is very real.</p>
+          <p eId="para_368"> In respect of the concerts we have talked about, it is often not dynamic pricing; the price is just very high. There is a very real question of whether consumers are misled. Obviously, misleading consumers is a breach of consumer law. However, often the very high prices are set by the ticketing company and artists, and it is not actually dynamic pricing.</p>
+        </speech>
+        <speech by="#JoannaByrne" eId="spk_306">
+          <from>Deputy Joanna Byrne<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_369">That is a fair point. </p>
+          <p eId="para_370"> We have spoken a bit about construction throughout this hearing. Everybody is aware of BAM and the ongoing saga there, as well as the fact it does not publicly disclose the real-time total of its live contracts. It is one of the largest construction firms in the country and is actively managing a huge portfolio of up to ten to 20 concurrent major contracts in both the public and private sectors. Does the CCPC have a role in protecting the Irish taxpayer from companies like this - not BAM specifically, which still has not given us the most expensive hospital in the world, but companies like it - to deter them from getting any future State contracts? Do the witnesses have a role in that or a view on it? </p>
+        </speech>
+        <speech by="#" eId="spk_307">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_371">We absolutely have a role in protecting the taxpayer from all companies that breach competition or consumer law. In our view, all companies that take part in public bids should have absolutely nothing to fear from the competition authority being able to see those bids. Where there is confidential information, that is not an issue; we look at confidential information every day. We are perfectly capable of protecting it, so I would be concerned if any company taking part in public tenders did not want the competition authority to see their bids.</p>
+        </speech>
+        <speech by="#JoannaByrne" eId="spk_308">
+          <from>Deputy Joanna Byrne<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_372">We spoke a bit about the successful prosecutions the CCPC has had. In one of the prosecutions regarding Boots Ireland admitting to misleading price practices during Black Friday sales, the Dublin District Court gave the company a €1,000 fine, which was very bizarre - it was a charitable donation and to cover the CCPC's costs.</p>
+          <p eId="para_373"> The CCPC previously called for stronger enforcement powers, including the ability to give direct fines to businesses, based on their turnover. Is it any closer to being able to levy fines as a statutory body, similar to what Coimisiún na Meán does?</p>
+        </speech>
+        <speech by="#" eId="spk_309">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_374">Yes, we are. The Government is currently working on a Bill to give us the powers to sanction those companies directly.</p>
+        </speech>
+        <speech by="#JoannaByrne" eId="spk_310">
+          <from>Deputy Joanna Byrne<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_375">It would be direct sanctions; that is good.</p>
+          <p eId="para_376"> Regarding the over 40,000 complaints the CCPC received last year, Ryanair, Rathwood and Currys seemed to be the most complained-about companies. Does the CCPC collate data on repeat offenders? Are there increased sanctions year-on-year if it sees trends of repeat offenders?</p>
+        </speech>
+        <speech by="#" eId="spk_311">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_377">Again, the contacts might not be offenders, but we do publish the contacts and they are very useful for looking at where we prioritise our work, to see if there are issues. Some of those would have led to prosecutions and ongoing issues. </p>
+          <p eId="para_378"> The Deputy mentioned Rathwood, for example. We prosecuted Rathwood and have taken further enforcement action against it. There is very much a link between what we get from consumers and the actions we take. We talked about fining regimes and how companies might be fined for breaches of consumer law. One of the elements of calculating the fine would be repeat offenders. It is relatively standard in the guidelines for fines that where it is a repeat offender, the sanction will be higher.</p>
+        </speech>
+        <speech by="#JoannaByrne" eId="spk_312">
+          <from>Deputy Joanna Byrne<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_379">We tend to point out the negatives in this committee and tease out the things that are not working well, but is there an example of a company the CCPC took action against which went on to receive no complaints the following year? Are there any positives in that regard?</p>
+        </speech>
+        <speech by="#" eId="spk_313">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_380">Yes. We carried out several inspections last week right across the country in various types of stores, and we saw an improvement in compliance that is very welcome. In particular, compliance levels had improved in some of the smaller stores we went into, which was great.</p>
+          <p eId="para_381"> The other important thing is that for our Black Friday investigations we scan the websites of some of the biggest companies to look for compliance with the law. Some of the big companies are 100% compliant; their systems are built to comply with consumer law. Since we started our campaign, and we continue to look at those potential breaches every year, we have seen huge increases in compliance. The important thing for us to note is companies can get 100% compliance. All companies should have systems in place to comply with the law, and we believe our enforcement actions have prompted that. </p>
+        </speech>
+        <speech by="#JoannaByrne" eId="spk_314">
+          <from>Deputy Joanna Byrne<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_382">Are there provisions in place from the perspective of the CCPC regarding tackling online influencers? Does it have a role in that, and if it does, how often does it review that process or what is it?</p>
+        </speech>
+        <speech by="#" eId="spk_315">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_383">Online influencers are one of our priorities as it is such a big market. I do not follow a lot of influencers online-----</p>
+        </speech>
+        <speech by="#JoannaByrne" eId="spk_316">
+          <from>Deputy Joanna Byrne<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_384">Me neither.</p>
+        </speech>
+        <speech by="#" eId="spk_317">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T11:50:00+01:00"/></from>
+          <p eId="para_385">-----but apparently lots of people do. Importantly, many people buy products as a result of the person they follow, so one of our priorities has been to ensure those influencers follow the consumer law and tell people this is an advertisement and they are being paid for the promotion. That is consumer law. We have taken several enforcement actions against individuals, some of whom are very well known, in order for them to comply with consumer law.</p>
+          <p eId="para_386">It continues to be an area of focus for us.</p>
+        </speech>
+        <speech by="#JoannaByrne" eId="spk_318">
+          <from>Deputy Joanna Byrne<recordedTime time="2026-05-28T12:00:00+01:00"/></from>
+          <p eId="para_387">It is an ever-evolving market, I would imagine. I thank Mr. Hugh for that.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_319">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T12:00:00+01:00"/></from>
+          <p eId="para_388">We are now going to take a short break for about ten or 15 minutes. The meeting is now suspended.</p>
+        </speech>
+        <summary eId="sum_8">
+          <i> Sitting suspended at 12 noon and resumed at 12.19 p.m.</i>
+        </summary>
+        <speech by="#JamesGeogheganFG" eId="spk_320">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:10:00+01:00"/></from>
+          <p eId="para_389">I thank the witnesses for coming before the committee and for all of their answers so far. It has been an interesting hearing.</p>
+          <p eId="para_390"> I will start with legal fees for enforcement.</p>
+          <p eId="para_391">I have a particular reason for asking these questions. Legal fees for enforcement, if my figures are correct, totalled €882,000 in 2024 but in 2023, they were €88,000. What is the explanation for that big jump in legal fees?</p>
+        </speech>
+        <speech by="#" eId="spk_321">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_392">There was one particular big case that caused the majority of that increase in 2024. I will ask Ms Butler to speak to it, if she wishes.</p>
+        </speech>
+        <speech by="#" eId="spk_322">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_393">Certainly. Roughly 75% of those enforcement costs in 2024 related to a High Court action that Ryanair took against the CCPC arising from a search operation that we did in March 2024 on behalf of the Italian competition authority. That case, that one High Court action, generated fees of in and around €565,000 in 2024.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_323">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_394">Was Ryanair successful in that High Court application?</p>
+        </speech>
+        <speech by="#" eId="spk_324">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_395">It is still ongoing. The case has been ongoing since 2024, with no cost orders to date.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_325">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_396">Could some of the costs that have been incurred by the CCPC be recoverable?</p>
+        </speech>
+        <speech by="#" eId="spk_326">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_397">Potentially, yes, at the outcome of the proceedings.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_327">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_398">In terms of the prosecutions the CCPC has taken, I had a quick perusal of those. In fairness, the CCPC puts them all up on its website and they are clear for everyone to see. The sanctions in a lot of those prosecutions are quite low and, in some cases, <i>de minimis</i>. There was mention of the Tesco case. Am I correct in saying that was effectively a gift to the poor box?</p>
+        </speech>
+        <speech by="#" eId="spk_328">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_399">Yes.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_329">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_400">How much did the Tesco investigation that led to that prosecution cost the Competition and Consumer Protection Commission?</p>
+        </speech>
+        <speech by="#" eId="spk_330">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_401">I would not have an exact figure.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_331">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_402">In terms of resourcing, how many people were involved in that case file? It was investigated and the CCPC probably had to instruct a solicitor and barrister. I do not know how many days the hearing lasted. Can Mr. McHugh give us a flavour of it?</p>
+        </speech>
+        <speech by="#" eId="spk_332">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_403">We have a team that would go out and do regular inspections and collect the evidence, as we did last week across the country. We then put the evidence together and present it to the other side, in this case, Tesco. We prepare an evidence file for the court and get prepared and ready to go to court. We have the relevant staff ready to give evidence and the relevant teams to make sure evidence is appropriately prepared for court. We then attend court and have the prosecution ready.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_333">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_404">When it comes to resourcing cases and deciding to pursue a particular line of inquiry, the CCPC has, as Mr. McHugh said, multiple investigations, phone calls, tip-offs and so on. Who makes the decisions on which of those to proceed with? For example, the Tesco case, which Mr. McHugh highlighted, resulted in Tesco making a contribution to the poor box of €1,000. It was not even a fine. Would Mr. McHugh see that now as money well spent and good resourcing with a positive outcome? Would he do it again, if I can put it that way?</p>
+        </speech>
+        <speech by="#" eId="spk_334">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_405">Absolutely. We talked about the need for the punishment to fit the crime and for there to be a proper deterrent effect, but in terms of the impact that case had on consumers, it affects millions of consumers who use Tesco and spend billions of euro. In that particular case, it was around pricing and per-unit rates. We know that when consumers shop, they compare the per-unit rates before making their buying decision. In that particular case, those were not available for the Clubcard prices, which are very prominent in Tesco. Those were not available and that has a huge effect.</p>
+          <p eId="para_406"> In terms of our prioritisation principles, which we publish, they are around the consumer harm, the potential for us to have an impact and the resources. We prioritise on that basis.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_335">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_407">Going forward, will prosecutions be a metric of success for Mr. McHugh's organisation?</p>
+        </speech>
+        <speech by="#" eId="spk_336">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_408">They are one of the metrics we track, yes. They are an important metric.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_337">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_409">They are relatively low, are they not? Mr. McHugh referred to ten or 11 prosecutions being taken in a calendar year. That is a fairly low number.</p>
+        </speech>
+        <speech by="#" eId="spk_338">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_410">It is, but those are the ones that we bring to court. We have multiple other enforcement outcomes. We have fixed payment notices, which are much speedier.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_339">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_411">That is why I mentioned prosecutions in terms of a metric. I was specific on that. In terms of going through the motions of bringing people to court if they do not comply, perhaps because the fixed penalty notice is not applicable, or whatever the reason may be, is that a metric of success? Does Mr. McHugh envisage the CCPC taking an awful lot more people to court in the years ahead?</p>
+        </speech>
+        <speech by="#" eId="spk_340">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_412">We have already built up the number of cases that we take to get to ten. We have already speeded up the time it takes to get those cases to court. As we said, if we have more resources, we will take more cases.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_341">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_413">Obviously, there is a world of difference between prosecuting a case against Tesco for a Clubcard breach that results in a €1,000 donation to a poor box and defending a case against Ryanair because of a seizure by the CCPC that cost it €889,000. One of the things that we probed with the Director of Corporate Enforcement was how it gets most of the knitting right, in terms of what could be described as the lesser offences when it is prosecuting, but then when it comes to the big cases, problems very often arise and costs grow and elevate, impacting its ability to carry out its full functions. Is that a similar problem for Mr. McHugh's organisation?</p>
+        </speech>
+        <speech by="#" eId="spk_342">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_414">One of the big differences is when the companies want to fight. In a lot of the cases we have talked about today, there were guilty pleas. Speaking generally, when you want to take enforcement action against a large company that is well resourced and, for whatever reason, it wants to fight the action - sometimes it affects its business model so it will not plead guilty and will want to fight - it can, in those circumstances, use all the processes that are available in terms of due process. It can challenge elements, not only the fundamentals of the case but also process elements along the way, so we can spend a lot of time and money in court.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_343">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_415">Does the CCPC have gardaí seconded to it guiding it on these major cases? If so, how many gardaí are seconded to Mr. McHugh's organisation?</p>
+        </speech>
+        <speech by="#" eId="spk_344">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_416">We have one garda seconded to the CCPC. However, we have a huge amount of experience of taking these cases.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_345">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_417">Has the CCPC always only had one garda? Has that been the case since the beginning or for the past couple of years?</p>
+        </speech>
+        <speech by="#" eId="spk_346">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_418">Yes.</p>
+        </speech>
+        <speech by="#" eId="spk_347">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_419">At one point several years ago, there may have been two, but for as long as I have been there, there has been one. That is since 2015.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_348">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_420">For example, if the CCPC is getting a warrant and carrying out a raid, that is bread-and-butter stuff for the Garda. How does the CCPC do that?</p>
+        </speech>
+        <speech by="#" eId="spk_349">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_421">One thing worth noting is that our cartels division has a number of staff members who are former members of An Garda Síochána and have worked in the Garda National Economic Crime Bureau, for example. We do have staff ourselves who have a lot of expertise in undertaking search operations. Typically, when we undertake a search operation, we get assistance from the Garda National Economic Crime Bureau, GNECB, and maybe local Garda detective units who can assist us in those searches. We have staff ourselves who are skilled in carrying out those operations.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_350">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_422">For the major searches, the CCPC would avail of the Garda.</p>
+          <p eId="para_423"> The CCPC had a fairly high-profile success in the school transport bid rigging case, with Central Criminal Court convictions. In a case such as that, is it the CCPC doing the prosecution or is there a referral to the Director of Public Prosecutions? What level of Garda involvement is there in that or what is the interplay there?</p>
+        </speech>
+        <speech by="#" eId="spk_351">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_424">That is quite a good case study. That investigation opened in 2016. We conducted a large number of searches as part of that investigation in 2016 and in subsequent years. We got assistance from members of An Garda Síochána and our seconded garda during the investigation stage. We then referred a file to the Director of Public Prosecutions in 2019. It has been with the DPP since then, who then directed charges against a number of individuals and companies.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_352">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_425">How many files has the CCPC referred to the DPP in the past three years?</p>
+        </speech>
+        <speech by="#" eId="spk_353">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_426">In terms of competition offences, the last file that we referred was in 2019. Since then, we have investing a lot of our efforts and time in establishing our new administrative enforcement regime. Since 2023, arising from the legislation that came into effect then, we have also had, in parallel with our criminal enforcement regime, an administrative enforcement regime for competition law. We have really increased the number of investigations since then. We have been very active in that space.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_354">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T12:20:00+01:00"/></from>
+          <p eId="para_427">The CCPC has made a virtue of the bid rigging in procurement and the laws that are going to come in.</p>
+          <p eId="para_428">Is that going to be sufficient to effect change in that area, or does the CCPC need to go down the road it took with the bid-rigging that took place in school transport, which, to my mind, was a very significant and successful case? How does the CCPC marry those two between the administrative side of the house and having the teeth to go full-on in with a DPP referral and full prosecution? How are we going to effect change here?</p>
+        </speech>
+        <speech by="#" eId="spk_355">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_429">We have a choice of enforcement regime, as the Deputy is aware, between criminal and administrative for these cartel cases. We have published a guidance note on how we exercise that choice. The legislation allows us to make a choice between those two at any point. It really depends on a number of factors: the nature of the case, the evidence we might have, or what enforcement route we might choose. We are certainly very keen to use that administrative enforcement regime, given the large financial penalties that are available under it.</p>
+        </speech>
+        <speech by="#AidanFarrelly" eId="spk_356">
+          <from>Deputy Aidan Farrelly<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_430">I thank all the witnesses for being here and staying with us. Building on Deputy Geoghegan's contribution, is there ever a problem with regard to those cartel investigations, for example, in public procurement? Does the CCPC have access to all the information it needs to investigate that? I am thinking of the GDPR, potentially, or any sorts of ways in which the CCPC might not be able to access that. It seems like relatively low-hanging fruit in terms of prosecutions, given that it would be publicly available information or information that, through different levers of the State, the CCPC would be able to access.</p>
+        </speech>
+        <speech by="#" eId="spk_357">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_431">There are a number of ways in which we try to drive detection. As we have said, detection is key when it comes to bid-rigging in public procurement in all types of cartel activity because, by its nature, it is hidden. The participants in it try to hide their behaviour. We have a number of detection tools we use. We have an immunity regime and a leniency regime, where people can confess their involvement in the wrongdoing and come to us and get a reduction in fines as a result of that. We also have a confidential anonymous whistleblower platform where people can come as whistleblowers confidentially and anonymously and give us tip-offs. We do a lot of outreach and give training to public procurement officials, alerting them as to the kinds of red flags, if you like, that they should be looking out for. That is also extremely effective, I think.</p>
+        </speech>
+        <speech by="#AidanFarrelly" eId="spk_358">
+          <from>Deputy Aidan Farrelly<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_432">Similar tender briefs or similar responses-----</p>
+        </speech>
+        <speech by="#" eId="spk_359">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_433">Yes. We have published guidance documents and we give this specialised training to procurement officials about these types of things. As the Deputy said, it could be red flags in terms of language used or patterns in terms of tender behaviour. Those are really important tools that we have in terms of detection. Then, obviously, we think our toolkit would really be complete if we also had the power to screen large data sets of public procurement data to spot any further red flags of bid-rigging.</p>
+        </speech>
+        <speech by="#AidanFarrelly" eId="spk_360">
+          <from>Deputy Aidan Farrelly<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_434">In particular with regard to the important prosecution before Christmas of last year, I know sentencing was due to happen in March. Has that happened? What does the CCPC expect to be the outcome from that prosecution in terms of sentencing?</p>
+        </speech>
+        <speech by="#" eId="spk_361">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_435">Sentencing in that case, as far as I am aware, has been set for early June, so we are still awaiting sentencing in the case. There is a second group of defendants who are also awaiting trial in relation to the same matter that was under investigation there, so for that reason, obviously, we do not want to comment on it.</p>
+        </speech>
+        <speech by="#AidanFarrelly" eId="spk_362">
+          <from>Deputy Aidan Farrelly<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_436">I understand. I apologise.</p>
+          <p eId="para_437"> With regard to the 2024 financial statements, it was really interesting to see that the CCPC's research spend was down but its media buy was up. In addition, its financial education was up. Do the witnesses want to take a minute or two to summarise why there has been a change? Is it just that in the course of that year priorities maybe shifted a little?</p>
+        </speech>
+        <speech by="#" eId="spk_363">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_438">Certainly in terms of the media and the financial education, we ran a number of programmes. We have been really building up our role and our work in financial education. We are running a number of programmes with schools around adult literacy. We have put quite a bit of investment into those. In addition, 2024 included the beginnings of our work on the national financial literacy strategy. It includes work we have done with the OECD in the build-up to the launch of the strategy. One of the other key elements in terms of media is the sponsorship we did of "The Complaints Bureau", an RTÉ programme about consumers making complaints and working through how they get resolution. That is again very much on the back of our requirement to empower consumers and to give them information on how when something goes wrong they have rights and can take action. That was really successful in terms of the reach we got from that programme.</p>
+        </speech>
+        <speech by="#AidanFarrelly" eId="spk_364">
+          <from>Deputy Aidan Farrelly<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_439">How many live investigations are ongoing with regard to social media influencers?</p>
+        </speech>
+        <speech by="#" eId="spk_365">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_440">It is an area we track regularly. I would not describe it particularly as a live investigation. I do not have a number for any live investigation. We monitor regularly right across a number of influencers. That is something we just track all the time. We also will take and have taken enforcement action where we engage with those influencers, whatever the action might be. It may be a compliance-----</p>
+        </speech>
+        <speech by="#AidanFarrelly" eId="spk_366">
+          <from>Deputy Aidan Farrelly<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_441">I understand that this year, a number of high-profile people had letters issued to them.</p>
+        </speech>
+        <speech by="#" eId="spk_367">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_442">Yes. They have had compliance notices issued to them as an enforcement action to comply with the law. It is an area that is relatively new. We have done and continue to do a lot of information work. A number of influencers did not know what the consumer law was. We worked with the ASA on guidance in order that it was very clear what they needed to do. We followed that by monitoring, then we moved into enforcement, and we will look to take stronger enforcement action if we see continuous breaches of consumer law. We are out there monitoring, and part of that is and will be looking at parties who have previously got enforcement actions. We will nearly always, right across the work we do, follow up with anyone to make sure they are now compliant with the law.</p>
+        </speech>
+        <speech by="#AidanFarrelly" eId="spk_368">
+          <from>Deputy Aidan Farrelly<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_443">Were any of the notices that were sent out this year contested at all?</p>
+        </speech>
+        <speech by="#" eId="spk_369">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_444">I do not believe any of them were contested.</p>
+        </speech>
+        <speech by="#AidanFarrelly" eId="spk_370">
+          <from>Deputy Aidan Farrelly<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_445">What is the threshold for issuing that? Is it one post and someone knows? Does the CCPC send a letter? Does the CCPC have an internal threshold whereby it looks at behavioural trends as opposed to one-offs?</p>
+        </speech>
+        <speech by="#" eId="spk_371">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_446">Yes. Speaking just generally, as to how we go about our work, it will depend on what might be one-off. It is case by case but, generally, with something like that, you are looking for more of a regular pattern, more continuous and multiple issues and problems where, in terms of influencers, the posts have not complied with consumer law. Generally, we look for either more egregious breaches or a pattern of breaches.</p>
+        </speech>
+        <speech by="#AidanFarrelly" eId="spk_372">
+          <from>Deputy Aidan Farrelly<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_447">I have a bee in my bonnet about supermarket loyalty schemes. The gap seems to be, anecdotally, from my experience, widening significantly between the standard cost of a unit versus the membership cost. Is the CCPC monitoring that in real time and is it noticing anything in terms of trends by supermarkets?</p>
+        </speech>
+        <speech by="#" eId="spk_373">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_448">It is something we look at. Again, it such a massive market and it has such an impact on consumers that we will always look at it. We have seen this change in business models. I do not want to pick out any particular supermarket, but we all know that if you go into certain supermarkets and you do not have the card, you are paying a radically different price from the price with the card and, therefore, you must have the card. That is relatively new and it has grown. It is something we have considered with a lens as to what might happen. I mentioned the Tesco case. That prosecution was about Clubcard pricing. It is something we continue to monitor. Again, businesses are free to set their prices and to think of new business models. We have seen how the introduction of discount stores into Ireland 20 years ago had a massive positive impact on pricing in terms of food inflation, so we are always keen to encourage business models. There may be a point where we think that the balance in terms of the consumer experience is no longer the right balance and we may consider whether some form of intervention is needed, but we have not got to that point.</p>
+        </speech>
+        <speech by="#AidanFarrelly" eId="spk_374">
+          <from>Deputy Aidan Farrelly<recordedTime time="2026-05-28T12:30:00+01:00"/></from>
+          <p eId="para_449">I am just curious about this. Again, I am no expert but I think where such loyalty cards started, in terms of their purpose, and the purpose they are serving now are two very different things.</p>
+          <p eId="para_450">While we feel we might benefit from getting the cheaper alternative, I am not sure that we are in most cases. It is the inflated price that is the standard price. What we are paying is the normal market price, but we are under the perception that we are getting a great deal. I know the commission cannot be concerned with ethical nature of that, but I question the ethics of such schemes. It is worth monitoring into the future.</p>
+          <p eId="para_451"> I just got a reply to a parliamentary question back from the Department this week regarding Passwork. I thank the officials for that. Who is Passwork and what does the commission use that company for?</p>
+        </speech>
+        <speech by="#" eId="spk_375">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_452">I apologise, I will have to come back to the Deputy on that.</p>
+        </speech>
+        <speech by="#AidanFarrelly" eId="spk_376">
+          <from>Deputy Aidan Farrelly<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_453">That is fine. I thank Mr. McHugh.</p>
+        </speech>
+        <speech by="#" eId="spk_377">
+          <from> Ms Emily Barry<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_454">This is probably no more than we submitted in the response, but it is used to store secure passwords, basically. I think it is primarily used by the IT function.</p>
+        </speech>
+        <speech by="#AidanFarrelly" eId="spk_378">
+          <from>Deputy Aidan Farrelly<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_455">It stores-----</p>
+        </speech>
+        <speech by="#" eId="spk_379">
+          <from> Ms Emily Barry<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_456">It is a bit like something the Deputy might use himself, BitLocker. It is a secure password storage.</p>
+        </speech>
+        <speech by="#AidanFarrelly" eId="spk_380">
+          <from>Deputy Aidan Farrelly<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_457">I understand.</p>
+        </speech>
+        <speech by="#AlbertDolan" eId="spk_381">
+          <from>Deputy Albert Dolan<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_458">I thank everyone from the CCPC and the Department for being with us. I appreciate their recent engagement with the enterprise committee, where I had an opportunity to engage with them. Today, we are specifically focused on the 2024 financial statements. A question that I ask a lot of bodies is around their purchase orders and the publishing of same. I note from the CCPC's website that it publishes them in a PDF format. Is it possible to publish them in a machine-readable format? This is something that the Minister, Deputy Chambers, would have written to all entities and Departments on in April reminding them of their obligation to comply with the EU open data directive. Is that something that the CCPC has been considering?</p>
+        </speech>
+        <speech by="#" eId="spk_382">
+          <from> Ms Emily Barry<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_459">We do have some data on an open data portal. We have viewed and considered some further options to publish data. Some of these-----</p>
+        </speech>
+        <speech by="#AlbertDolan" eId="spk_383">
+          <from>Deputy Albert Dolan<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_460">It is currently published as a PDF. Essentially, if it was published in as an Excel document, it would be much easier for somebody to work with and understand how the CCPC is procuring, who it is employing and what it is spending money on. I noticed from its website that it publishes contracts as well.</p>
+        </speech>
+        <speech by="#" eId="spk_384">
+          <from> Ms Emily Barry<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_461">Yes, contracts over €50,000 and purchase orders over €20,000.</p>
+        </speech>
+        <speech by="#AlbertDolan" eId="spk_385">
+          <from>Deputy Albert Dolan<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_462">Is that for its contract award notices or does the commission publish the detail of the contract?</p>
+        </speech>
+        <speech by="#" eId="spk_386">
+          <from> Ms Emily Barry<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_463">It is just the detail of the contract. We publish contract award notices as well.</p>
+        </speech>
+        <speech by="#AlbertDolan" eId="spk_387">
+          <from>Deputy Albert Dolan<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_464">Not everyone does that. That is good to see. Would the witnesses see any value in linking the purchase orders that get published back to the original contracts? Right now, when I see a purchase order report, I can see who was paid, when they were paid and how much they were paid, but I cannot see for what. I do not know which contract any individual payment links back to.</p>
+        </speech>
+        <speech by="#" eId="spk_388">
+          <from> Ms Emily Barry<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_465">Usually the purchase order listing would contain some reference to the services that were provided.</p>
+        </speech>
+        <speech by="#AlbertDolan" eId="spk_389">
+          <from>Deputy Albert Dolan<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_466">It can be quite vague.</p>
+        </speech>
+        <speech by="#" eId="spk_390">
+          <from> Ms Emily Barry<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_467">I know we do it internally. If the Deputy is asking whether there would be a benefit to publishing it externally, I am not entirely sure. It depends on what the Deputy is looking for. If he was trying to trace a purchase order back to a contract, it would be difficult at the moment based on the information that is provided. For our purchase orders that are published, he would have to look at the list and identity the supplier, then go to our contract list.</p>
+        </speech>
+        <speech by="#AlbertDolan" eId="spk_391">
+          <from>Deputy Albert Dolan<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_468">It might not be pertinent for the CCPC, but for larger departments that might engage consultancy where I can see hundreds of payments made to, for example, a consultant, company or whatever, they might be operating under multiple contracts but I cannot tell how much was paid under any given contract. I cannot tell if something was on, under or over budget. As a result, that is a frustration that I have. I would welcome engagement with the CCPC to see purchase orders published in machine-readable format if that was possible.</p>
+          <p eId="para_469"> Over the past few years, the CCPC's budgets have growing significantly. In 2020, grant income was €10.8 million. It was up to €22.7 million in 2024. What has driven the significant increase in expenditure at the CCPC? Regarding value for money, what benefits have been realised by spending more money on the CCPC?</p>
+        </speech>
+        <speech by="#" eId="spk_392">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_470">The increase in resources and staff is driven by the increase in the mandate. We have multiple new divisions across data, digital and market surveillance. We are now responsible for European Consumer Centre Ireland. We have new surveillance powers and a new surveillance team. The increase in resources is driven by the legislation and by the increase in the mandate.</p>
+          <p eId="para_471"> In terms of the benefit, we publish an impact assessment, which is peer reviewed. That calculates that for every €1 we spend, consumers get €21 in value. We do believe, therefore, that we have a strong impact. On the mergers that we carry out, we have given the example that we blocked the merger at Dublin Airport with the car park. The DAA wanted to buy. There is now competition, and consumers have choice and lower prices. We have published a piece on that to compare the prices.</p>
+          <p eId="para_472"> On consumer enforcement, we have talked a bit today about the Tesco case. That breach of consumer law has now been fixed. That affects millions of consumers. In terms of competition enforcement, we have had the change in practices and commitments from the motor insurance companies. Again, we have not seen the issues that caused us to investigate there. They have changed their approach. We have set all of those out and published the impact assessment. One thing that is not in the impact assessment is the deterrent effect that we have. One of the examples is that we are very much focused on Black Friday as an issue, whereby companies were offering discounts that were not real discounts whatsoever. In fact, often where it had been €200 and was reduced to €100, it had been for sale for €80 a few weeks before that. We have punished those companies - if you consider a €1,000 contribution to charity a punishment.</p>
+        </speech>
+        <speech by="#AlbertDolan" eId="spk_393">
+          <from>Deputy Albert Dolan<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_473">How many companies were caught in that activity relating to Black Friday?</p>
+        </speech>
+        <speech by="#" eId="spk_394">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_474">Those activities included Boots and DID Electrical. There were a number of them over time, and they continued. Brown Thomas was a recent one. It was not just one batch. It is ongoing every year. What is important for us, and again, it is not included in our impact assessment, is that as we scrape those websites and we do continuously, we have seen companies that have totally changed practices and are now 100% compliant. Consumers get a benefit from that. It is hard to calculate it, but it is real.</p>
+        </speech>
+        <speech by="#AlbertDolan" eId="spk_395">
+          <from>Deputy Albert Dolan<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_475">Yes, I appreciate that. There are a lot of practices out there that need to be reined in, and I hope the CCPC succeeds in doing that. We discussed this in the enterprise committee, but I have massive concerns about the potential presence of cartels. I am hopeful that the work the CCPC does there will be fruitful and will find what it is looking for.</p>
+          <p eId="para_476"> Regarding the CCPC's consultancy costs, it had a consultancy spend in 2023 of €301,913. In 2024, that almost doubled to €533,916. In note 6, the CCPC disclosed other consultancy fees of €828,000. I know that includes legal fees, but what else does that €828,000 relate to? Why was it disclosed separately from the consultancy costs breakdown?</p>
+        </speech>
+        <speech by="#" eId="spk_396">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:40:00+01:00"/></from>
+          <p eId="para_477">Regarding the first question as to what drives the increase, there are two big drivers for that. They are both similar. It is driven very much by the big mergers that we had in 2024 and the advice and support that we had externally on those. There were a few.</p>
+          <p eId="para_478">To give examples, we had the Phoenix-Cellnex merger in 2024 and we had the Lloyds Pharmacy-McCabes pharmacy merger, both of which resulted in divestments. They were very big phase 2 cases. Again we are talking about cases that involve transactions of up to €1 billion. It was a huge effort.</p>
+        </speech>
+        <speech by="#AlbertDolan" eId="spk_397">
+          <from>Deputy Albert Dolan<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_479">When the CCPC gets consultants to advise on that or firms to provide advisory services on that, does it carry out an independence check to ensure there is no crossover between the people who are subjects of the mergers and also the consultants advising it?</p>
+        </speech>
+        <speech by="#" eId="spk_398">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_480">Absolutely, yes. There are stringent conflict of interest requirements built into all of our procurement and contracts with advisers.</p>
+        </speech>
+        <speech by="#AlbertDolan" eId="spk_399">
+          <from>Deputy Albert Dolan<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_481">Going back, I know that extra €828,000 includes the legal fees, but that is disclosed separately in note 6. Why is that the case?</p>
+        </speech>
+        <speech by="#" eId="spk_400">
+          <from> Ms Emily Barry<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_482">Those consultancy costs are a subset of the consultancy costs that would appear later in the document. The figure of €828,000 includes some of the ones that are summarised on page 7. It is kind of a distinction between, as per the sentence under the heading on page 7, the cost of external advice to management versus outsourced business-as-usual type functions. These are management consultancy that was provided to the commission or various units. A lot of the other €800,000 relates to what we call business-as-usual activities, for example expert analysis of complex mergers, which is our day-to-day job.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_401">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_483">I have a number of questions. I will first touch on the whole issue of cartels, which obviously is an area of huge concern. You alluded to research internationally where the average overcharge detected in cartel cases is in the order of 20% or 30%. I do not know whether it is stated here but on average, it seems some of those cartels have been operating for between four and seven years. Given some of the measures that are in place in other European countries and internationally, in my view it appears we are laggards in having the ability to crack down on them. Do you think those percentage figures are conservative in comparison with the potential risks we are exposed to within this State because of the failure to have the necessary protections and safeguards in place?</p>
+        </speech>
+        <speech by="#" eId="spk_402">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_484">I am not sure if those figures would be conservative. Because for years the powers were not in place - we are now in a better place - to uncover cartels and to punish them, the concern we have is because there was no deterrent, we may have more cartels in Ireland than there are internationally.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_403">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_485">You mentioned those calls were going back as far as 2016. One of his predecessors had been calling for these powers and that is ten years ago. If we multiply the potential loss to the State annually, we are looking at billions over that short timeframe of ten years. The Hamilton report of 2020 was mentioned and this was one of its main recommendations. From a departmental perspective, why has there been foot dragging on this for so long given the serious loss to the public purse of billions, and we know it far exceeds that, over a ten-year period? Why have there been consistent failures to move on this?</p>
+        </speech>
+        <speech by="#" eId="spk_404">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_486">I am conscious we are probably getting into policy issues so I refer to my previous comment that it is in the programme for Government to give these powers following the Hamilton review of the CCPC and that the legislation is being developed with heads to go to Government at the moment. Ms O'Reilly might want to add to this. It might be helpful.</p>
+        </speech>
+        <speech by="#" eId="spk_405">
+          <from> Ms Renée O'Reilly<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_487">The powers for bid rigging are already transposed so it is really the screening for bid rigging that we are implementing now.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_406">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_488">Was it the European Court of Auditors that forced the Department to belatedly move on this issue? I think it published a report in 2023 and called for member states to close the gaps in the public procurement data collection. That was a serious recommendation coming from the European Court of Auditors. Was it that which sparked the belated move by the Department on this issue?</p>
+        </speech>
+        <speech by="#" eId="spk_407">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_489">Not that I am aware of, and again I will just refer to the programme for Government, which the Minister, Deputy Burke, is acting upon.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_408">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_490">I will look at some of the international cases. I know there were huge investigations in Austria in 2022. In Spain there were six Spanish construction firms fined €200 million by the Spanish regulator for colluding on bids for public construction contracts. A number of those companies were actually banned from participating in the public procurement process in Spain. It is widely reported that a number of those companies that were banned in Spain came to this State and were successful in obtaining very lucrative contracts. A number of those companies that were banned in Spain put in bids for the children's hospital as well. Would the CCPC have concerns about companies like this that are banned in other countries, whether it be European ones or elsewhere, successfully bidding for contracts here? Was there a specific piece of work looking at those examples or any concerns raised?</p>
+        </speech>
+        <speech by="#" eId="spk_409">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_491">It is a matter of procurement law about whether companies are allowed to participate. There are provisions in the EU procurement directives that give contracting authorities some discretion that they are allowed to maybe preclude certain companies from participating. Obviously, the legal issues are relatively complex. Sometimes you might find one legal entity has been sanctioned in a certain jurisdiction and might be operating through another legal entity in our jurisdiction. It is not something that is directly within the CCPC's remit.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_410">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_492">In examples such as that, where a company has been banned in another EU country, should that be a European-wide ban?</p>
+        </speech>
+        <speech by="#" eId="spk_411">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_493">There are a number of factors at play here. What we have heard is that in some markets there may be a very limited number of companies that are actually capable of bidding for certain work. There are factors that have to be weighed up because, if a certain company were banned Europe-wide, it might take a very significant player out of the market and mean there would be less competition in tender processes in future. There are factors that have to be weighed up in different markets.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_412">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_494">I want to touch on the European Consumer Centre Ireland, ECCI, a company that was limited by guarantee with non-profit status. It was designated until the end of 2023 by the then Department of Enterprise, Trade and Employment to provide European consumer centre services here in this State. It was jointly funded by the European Commission and the Department. The funding was administered through the CCPC. Why was the ECCI dedesignated at the end of 2023?</p>
+        </speech>
+        <speech by="#" eId="spk_413">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_495">In terms of the issues of designation and dedesignation, I will leave that to the Department to respond.</p>
+        </speech>
+        <speech by="#" eId="spk_414">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_496">A number of internal industrial relations issues became evident during the course of late 2022 and 2023. The Department was aware of these, as were the CCPC and European Commission, and it was at a decision point as to what would be the designated entity for the period of 2024 to 2028. In those circumstances, where there were considerable IR challenges within the ECCI, it was considered it was no longer a suitable entity to designate for those cross-European consumer functions. That designation was then moved to the CCPC, effective from 1 January 2024.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_415">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_497">Will you give further information on some of those issues that arose, obviously without identifying any individuals?</p>
+        </speech>
+        <speech by="#" eId="spk_416">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_498">I am conscious there was correspondence between the Department and the CCPC with this committee in June 2023 which did set some of these issues out, so I am happy to speak to them.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_417">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_499">That was the previous committee, so we do not have line of sight of that.</p>
+        </speech>
+        <speech by="#" eId="spk_418">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T12:50:00+01:00"/></from>
+          <p eId="para_500">Okay. That correspondence did set out there were a high number of resignations within the ECCI at both staff and director level.</p>
+          <p eId="para_501">Therefore, the corporate knowledge to undertake their functions was not as strong as it could be.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_419">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_502">Why was there such a high level of resignations? Was there a review or was an investigation carried out or what was the basis of those resignations? </p>
+        </speech>
+        <speech by="#" eId="spk_420">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_503">That was an independent company limited by guarantee. It had its own governance structures and its own directors. When the Department became aware of these issues, in the first instance we undertook to procure a governance review of the organisation to understand what those issues were and whether it would be feasible for them to continue undertaking those services. However, as the Department had considered undertaking that governance review, the number of executives and directors who resigned got to a point where it was no longer feasible for that organisation to carry on any functions. It expedited that decision about who to designate for those activities from-----</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_421">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_504">What kind of a timeframe was there for the governance issues? </p>
+        </speech>
+        <speech by="#" eId="spk_422">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_505">The Department, the CCPC and the Commission were made aware of these issues in late 2022. Then the deadline for designating the authority to carry out these functions for the period 2024 to 2028 had to be made by 15 May 2023. Between that period of late 2022 and May 2023, it became clear that the ECCI, as it was at that point, could no longer carry out those functions on behalf of the State. </p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_423">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_506">How much funding was that organisation in receipt of? </p>
+        </speech>
+        <speech by="#" eId="spk_424">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_507">I understand its annual running costs were in the region of €400,000. That was split 50:50 between the Department, which was administered through the CCPC, and then the balance of the other approximately €210,000 was derived from EISMEA, which is an executive agency of the European Commission. </p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_425">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_508">Mr. Forde might furnish us with all of those details.</p>
+        </speech>
+        <speech by="#" eId="spk_426">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_509">I will be happy to provide a note on that. I can reissue the note that would have gone in June of 2023 for the committee's benefit too. </p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_427">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_510">I want to move on quickly. I note today that the EU has fined Temu a substantial sum of €200 million for illegal products, dangerous toys and defective chargers. Obviously, Temu is widely popular here in Ireland. It is deeply concerning that there appears to be a number of failures in relation to this. It is a considerable fine. If the EU has done this, has there been serious failings in this State to identify those products if they have been coming onto the Irish market via online purchases? Is there a failure from the perspective of the CCPC or had it any involvement in this investigation? </p>
+        </speech>
+        <speech by="#" eId="spk_428">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_511">Yes. It is an issue of real concern for us. It is something we have been working on. Temu have been included in some of the sweeps we have done with our European colleagues to identify potential issues of product safety. We did find - and this is all in the public domain - over 70% non-compliance in those sweeps. It was not just Temu but it was one of the companies included. </p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_429">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_512">There was over 70% of non-compliance? </p>
+        </speech>
+        <speech by="#" eId="spk_430">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_513">That was not all just product safety. </p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_431">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_514">That was across a range of different products. </p>
+        </speech>
+        <speech by="#" eId="spk_432">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_515">It was different products and different companies. Not all were in non-compliance around product safety but there was a significant product safety issue. It is absolutely a problem. We have worked with our European colleagues. That will be part of the understanding of the problem right across Europe. In terms of the Digital Services Act, under which this fine has been levied, the responsibility for looking at system problems lies with the European Commission. What we would all recognise as unsatisfactory is where you identify an unsafe product, a platform will take it down and you have a whack-a-mole problem where organisations like the CCPC identify unsafe products, they get taken down but there is a continuous stream. The question is that surely a platform must have systems in place in order to prevent them in the first place.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_433">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_516">In the checks that the CCPC has done it was 70%. That is a huge volume. We see public announcements nearly on a weekly basis where products are being recalled by different outlets. I have yet to see any products being recalled by Temu or any other outlet. That is hugely concerning. It has been highlighted that there were dangerous toys and defective chargers and we know the serious impact that has. That is deeply concerning and I have yet to see any product recalls or any enforcement action other than that welcome action at EU level. What action is being taken in this State by the CCPC in the here and now in relation to those extremely dangerous products? That it is 70% is hugely concerning. </p>
+        </speech>
+        <speech by="#" eId="spk_434">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_517">I strongly agree with that. We do take action and we do get products taken down but we need to nip this in the bud. It needs to be solved at source. </p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_435">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_518">Nipping the bud was three or four years ago when these really took off. </p>
+        </speech>
+        <speech by="#" eId="spk_436">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_519">I agree. One of the biggest issues, and partly why the Digital Services Act was brought in, is the question of whether some companies are happy to have a business model that may not comply with the law but they will look for forgiveness after the event. We have seen and have been active in ensuring unsafe products are taken down. What we need and what we now have is a tool whereby the actual company, which does not have proper systems in place, can be fined. That was decided and we would agree with it to be done on a European basis. This is an issue right throughout Europe. Rather than having 27 countries take action we have the European Commission take action. We have talked today about deterrents. Hopefully, we will now see far fewer unsafe products on those platforms, and any platform that continues systemic issues with unsafe products will be punished even more in the future. </p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_437">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_520">We hope that is so. That €200 million speaks volumes to the failure here in this State where the maximum fine is €1,000. I hope it does have the desired outcome for all of those reasons. </p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_438">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_521">I have a few supplementary questions, if that is okay. There may only be so much Ms Butler can say about it but I will go back to try to understand. She mentioned that the €800,000 legal costs were associated with a seizure the CCPC undertook at the direction of the Italian competition authority. What can she say about that? Why did the Irish competition authority have to carry out an investigation at the behest of the Italian competition authority? If we play this the whole way through and Ryanair are ultimately successful in whatever challenges it has taken - God knows they could take the CCPC all the way to the Supreme Court and beyond, and probably will - €800,000 is a huge amount versus €80,000 the previous year. The costs are going to keep rising and rising. In response to my question, Ms Butler said they could potentially be recoverable against Ryanair if it were to lose. Has CCPC any recoverability from the Italian competition authority in relation to those costs? </p>
+        </speech>
+        <speech by="#" eId="spk_439">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_522">I thank the Deputy. Just to explain, it is not a CCPC investigation. It is an Italian competition authority investigation but under the European competition network that we have between competition agencies in Europe, we can carry out what are called fact-finding measures on behalf of each other. It is reciprocal; it works both ways. We sometimes carry out operations like this on behalf of other agencies and in other cases they do the same for us. For example, recently the German competition authority conducted a search on our behalf in the context of one of our investigations. It is very much a reciprocal regime. What we have seen here is a litigant that is willing to fight every issue all the way. In fact, some aspects of that and some motions are on appeal to the Court of Appeal at the moment. There is also extensive litigation in Italy in relation to the same investigation. That is a particular instance where we are faced with a litigant that is willing to use all the legal avenues that are open to it. </p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_440">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_523">However, the challenge for the Irish taxpayer is that it is on the Exchequer. How are we going to square that? Is this a new issue? It seems like a new issue in the sense of the costs this year versus last year. Could Ms Butler give me examples of previous years where there was such a jump in legal costs like we have seen from 2024? I presume there are more costs for 2025 of which we are not aware that she might give us now. </p>
+        </speech>
+        <speech by="#" eId="spk_441">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_524">To correct what I said earlier, the costs for us in 2024 for the Ryanair litigation were around €612,000. In 2025, they were €565,000, and the total litigation costs from 2024 up to date in 2026 are around €1.2 million. That is the total cost of that particular piece of litigation. I would say it is-----</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_442">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_525">What budget does the CCPC get from the Department on an annual basis? What did it get, let us say, last year? </p>
+        </speech>
+        <speech by="#" eId="spk_443">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_526">Our current budget is around €35 million in total. </p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_444">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T13:00:00+01:00"/></from>
+          <p eId="para_527">So, €1 million of €35 million has gone towards these legal costs. </p>
+        </speech>
+        <speech by="#" eId="spk_445">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_528">Yes, over three years since 2024. The question the Deputy was asking is whether it is unusual. Yes, it is. The only equivalent would be if a merger decision were appealed to the High Court and then potentially an appeal went on to the Supreme Court. That is the type of case that would generate for us these types of large fees. It is fairly atypical. We have had previous incidences where we have conducted operations in Ireland on behalf of other agencies that have not resulted in challenges such as this.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_446">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_529">Are the cost implications for competition authorities of this particular litigant or other litigants the subject of discussion at a European level?</p>
+        </speech>
+        <speech by="#" eId="spk_447">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_530">They are, but I would highlight it is even more of a discussion point in Ireland across other regulators such as the Data Protection Commission and Coimisiún na Meán, which take on big companies that want to challenge. Where you take enforcement action against a large company that is well resourced and that wants to challenge, as is their right, within the Irish system, you will spend a lot of time in court and you will rack up very large bills.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_448">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_531">Does Mr. McHugh think this challenge in terms of legal costs is somewhat unique to the Irish legal system?</p>
+        </speech>
+        <speech by="#" eId="spk_449">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_532">Yes.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_450">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_533">Has he made recommendations on how to fix these problems, and what are they?</p>
+        </speech>
+        <speech by="#" eId="spk_451">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_534">As regards the legal sector generally, we have made recommendations specifically on the work that has happened on legal costs in Ireland-----</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_452">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_535">I am not talking about the legal sector and the legal cost, because they are separate to the actual challenge. It is not the cost associated with the challenge; I presume it is the challenge Mr. McHugh is talking about. The ability of the litigant to challenge every single action is the point he is making.</p>
+        </speech>
+        <speech by="#" eId="spk_453">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_536">Yes.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_454">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_537">So has he made recommendations in respect of that issue?</p>
+        </speech>
+        <speech by="#" eId="spk_455">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_538">What we are dealing with here is a litigant with deep pockets. We are not suggesting that anything this litigant has done is problematic <i>per se</i>. They are just using every available means they have and they are very well resourced.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_456">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_539">Mr. McHugh is making the point that this is somewhat unique to the jurisdiction of Ireland and not comparable to other European jurisdictions, such as Germany, where Ms Butler mentioned parallel investigations might be carried out. The issue of a huge mounting legal cost being imposed on this competition authority, is, Mr. McHugh said, unique to this jurisdiction, unless I took him up wrong there.</p>
+        </speech>
+        <speech by="#" eId="spk_457">
+          <from> Ms Úna Butler<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_540">I think the point probably is that, in Italy, for example, there are a lot of legal challenges arising from the same investigation but they are probably dealt with more swiftly by the Italian courts, and probably in a manner that does not enable such an accumulation of-----</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_458">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_541">Mr. Forde, like a kid at the back of the class, is dying to jump in here. He should go on.</p>
+        </speech>
+        <speech by="#" eId="spk_459">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_542">The Deputy has me pegged. To reference more broadly, the Minister, Deputy O'Callaghan, is bringing through reforms on justice and, separately, the Minister, Deputy Burke, had a group called the cost of business advisory forum which was looking at different aspects which add costs at every layer for Irish business and regulators. There were sections of that related to legal costs. It would look at it at a more holistic level than just, say, directly related to the CCPC's functions.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_460">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_543">I do think the things - legal costs versus actual processes - are separate, but in any event it is obviously a mounting issue of concern.</p>
+          <p eId="para_544"> I will conclude on this, just as Mr. Forde is here. He will remember the last time he was before the committee with the ODCE, he indicated that the <i>publicjobs.ie</i> was advertising for two appointments to the commission. Has that been completed yet or have they been appointed?</p>
+        </speech>
+        <speech by="#" eId="spk_461">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_545">The recruitment process has finalised. The contracts are now just going through checks with the Department of public expenditure and reform. I am hoping that commissioners will be appointed in a short period of time.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_462">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_546">Related to the ODCE, now the Corporate Enforcement Authority, CEA, it is a matter of public record that the agency spent €333,851 on a WRC case against one single employee. Rightly or wrongly it is now a matter of public information reported in <i>The Irish Times</i> that there has been a settlement in those WRC proceedings and that this settlement is awaiting sanction from the Department of Enterprise, Tourism and Employment and from the Department of public expenditure and reform. What can Mr. Forde say in relation to that?</p>
+        </speech>
+        <speech by="#" eId="spk_463">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_547">There are established procedures for how those decisions are taken and the information that needs to be considered by both Departments, and that process is ongoing.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_464">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_548">On the costs associated with this WRC proceedings against one individual, and we were talking about legal costs in terms of the High Court and the Court of Appeal, would Mr. Forde agree with me that, at a WRC level, that is a very elevated cost? That is only the figure to date. We are not even getting into settlement costs and associated costs post settlement, etc.</p>
+        </speech>
+        <speech by="#" eId="spk_465">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_549">That is an issue for the Corporate Enforcement Authority, which is independent in its functions and is answerable to this committee and other committees about its spending of public moneys.</p>
+        </speech>
+        <speech by="#JamesGeogheganFG" eId="spk_466">
+          <from>Deputy James Geoghegan<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_550">Do the costs associated with this concern Mr. Forde at all? In fairness to the Italian competition authority, it was bound into carrying out an investigation against Ryanair. Whatever actions were taken in relation to these WRC proceedings, whatever legal advice it took on it or whatever approach it adopted was purely an executive function of the ODCE. Does Mr. Forde have any comment to make in respect of that?</p>
+        </speech>
+        <speech by="#" eId="spk_467">
+          <from> Mr. Colm Forde<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_551">I can repeat what I have said. The CEA is an independent body. It is at its discretion about the moneys it spends as it sees fit and as it determines is appropriate. That is what it has spent on that case, as the Deputy has stated.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_468">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_552">I have a few concluding questions. Going back to the issue of Temu and that whole area, I am deeply concerned that 70% of the companies on which the CCPC carried out checks were non-compliant. Will the CCPC outline some of those cases where compliance with necessary standards was not met? Will it give us some examples of what it discovered in those checks?</p>
+        </speech>
+        <speech by="#" eId="spk_469">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_553">Speaking generally, we would have various tests that we carry out on products, whether they are from platforms or within stores. With some products, such as toys, for example, we would check whether there were potential choking hazards and do various tests for those. Regarding electrical appliances, which the Cathaoirleach mentioned, it is a real problem. Again, there are standard safety requirements for electrical appliances and they need to meet those standards. Often, products off those platforms do not.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_470">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_554">Mr. McHugh mentioned that the CCPC has been successful in getting some products taken down. Some does not mean all. There are obviously products still for sale that people are buying being brought into this State that are non-compliant and that pose risks. That is concerning. Of the products that have been removed, what recourse is there for the consumer in terms of a product? Have any of these people been informed in the first instance that non-compliance has been assessed and determined? What role, if any, is there for the CCPC or for one of these bodies selling the products to inform the consumer that they have purchased a product that is non-compliant with whatever regulations? What rights does the consumer have to return the product and get a full refund?</p>
+        </speech>
+        <speech by="#" eId="spk_471">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_555">There are clear rules, responsibilities and rights in place for the company in question, when a product is recalled, to make every effort to-----</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_472">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_556">Regarding the products that have been removed, have they been recalled?</p>
+        </speech>
+        <speech by="#" eId="spk_473">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_557">As regards anything that would have been sold in Ireland to a consumer, it is the responsibility of the seller, in respect of products that have been identified as unsafe, to make every effort to identify the consumer and refund them, and to recall the products. We also publish information on those-----</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_474">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_558">Have you published in relation to the products you have identified for sale by some of those companies?</p>
+        </speech>
+        <speech by="#" eId="spk_475">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_559">There is a huge amount of recalls on our website. This week we have launched an upgraded website, which has been a great success. One of the goals of our website is to connect with consumers, and safety recalls is one of the big ones. We want consumers to know what the products are.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_476">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_560">If I go on the CCPC's website now, there are products on it from Temu and some of these other-----</p>
+        </speech>
+        <speech by="#" eId="spk_477">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_561">There are. There are lots of product recalls. Lots of consumers are not going to read the CCPC website, so it is a responsibility of the company-----</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_478">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:10:00+01:00"/></from>
+          <p eId="para_562">That is a concern, that there are people out there in the here and now with products they purchased in good faith that are high-risk. That is really concerning. The CCPC could perhaps look at its own messaging because that messaging is not going out to the public. It might look at whether it is sufficient just to put it on its website given the severity of the concerns there.</p>
+          <p eId="para_563"> I want to touch on another area of concern, which is the misleading packaging of food that is sold in our shops and supermarkets. On many products you will see a guaranteed Irish label on it with the Irish flag, etc.</p>
+          <p eId="para_564">If we dig down into it we will find that the beef could have originated in Brazil or the fish could have been caught in the North Sea and it is being sold as Irish because it is processed here in some way. What role, if any, does the Competition and Consumer Protection Commission, CCPC, have in the regulation, monitoring and enforcement around that?</p>
+        </speech>
+        <speech by="#" eId="spk_479">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:20:00+01:00"/></from>
+          <p eId="para_565">We do not have a responsibility in relation to food.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_480">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:20:00+01:00"/></from>
+          <p eId="para_566">None whatsoever in relation to consumer protection.</p>
+        </speech>
+        <speech by="#" eId="spk_481">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:20:00+01:00"/></from>
+          <p eId="para_567">In terms of pricing, and we have talked about pricing, and the labelling of food and the many issues around that, we do not have responsibility.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_482">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:20:00+01:00"/></from>
+          <p eId="para_568">Okay. I want to touch on the whole issue of price gouging, which is twofold. I will speak in a moment about the fuel industry, but first I will touch on hotels and tickets. A number of examples have been given here by members. As was widely reported, my colleague Deputy Pearse Doherty raised the price gouging with Oasis tickets. Deputy Doherty was able to go online and get tickets for Oasis in Italy and hotel accommodation and it was working out €200 cheaper at that stage. There are huge volumes of price gouging. There is another dimension that was widely reported when Taylor Swift was playing here back in 2023. A number of people who had made bookings with hotel providers in the State before the announcement of her dates had their accommodation cancelled and then readvertised afterwards for triple and quadruple the original price. Is that an area of concern? Did the commission carry out any investigations? It was widely reported at the time and I am sure there are other examples like that. Has the commission carried out any investigations around allegations of that nature?</p>
+        </speech>
+        <speech by="#" eId="spk_483">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:20:00+01:00"/></from>
+          <p eId="para_569">We have received, and do receive, many complaints in that space; for example, where bookings are cancelled. It raises huge ethical questions. From a consumer law point of view, it brings up the question of what was the contractual arrangement and what was the right. Obviously, there are rights to cancel contracts. We get calls about these scenarios because they drive consumers demented. They feel it is really unfair, and as we touched on earlier-----</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_484">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:20:00+01:00"/></from>
+          <p eId="para_570">As well as it being unethical, what has been done to ensure that breaches of contract are dealt with?</p>
+        </speech>
+        <speech by="#" eId="spk_485">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:20:00+01:00"/></from>
+          <p eId="para_571">We look at them. Often it comes down to a question of contractual law. Often the party legally has the right to cancel a contract. All of us might find these specific scenarios unfair, and the general public will feel the same, but we may not necessarily be able to take it to law-----</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_486">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:20:00+01:00"/></from>
+          <p eId="para_572">We are not able to take any enforcement because-----</p>
+        </speech>
+        <speech by="#" eId="spk_487">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:20:00+01:00"/></from>
+          <p eId="para_573">It is contractual and it is not a misleading breach of the law. It may be within their contractual right to do so. On the other hand, consumers have certain rights in certain circumstances to cancel under the contract so it can be a complicated issue in terms of consumer law while it is very clear in terms of the broader view on it.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_488">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:20:00+01:00"/></from>
+          <p eId="para_574">I will move on to fuel. I listened to what Mr. McHugh's colleague, Mr. Gray, had to say about some of the reporting and the investigations the commission carried out. Basically, the commission is saying that there is nothing to see here, that we need to move on, that there is no issue here, and that it all balances out when it goes up and comes down. I want to talk about the real experience of consumers out there. I have seen it on budget day in previous budgets when an increase in excise was supposed to kick in at midnight but, on forecourts along the N11, the prices increased immediately in line with the excise increase. The real experience for people watching prices on a daily basis certainly contradicts what the witnesses are saying here. I do not know how the commission can stand over that piece of work, given the real experiences of people such as the real example I have given around excise increases kicking in. Sometimes the prices go up on forecourts immediately after the budget is announced in here. That is gouging and profiteering.</p>
+        </speech>
+        <speech by="#" eId="spk_489">
+          <from> Mr. Brian McHugh<recordedTime time="2026-05-28T13:20:00+01:00"/></from>
+          <p eId="para_575">We hear this from consumers on our helpline and personally when we are out and about. There is huge anger around it. In 2022 with the excise cut, we looked at a huge number of fuel stations. We demanded their data for hourly price changes. It took a month. This was a massive study and took a huge amount of our resources because we felt it was so important. Day by day, one sees certain things happening with individual petrol stations but in the big picture are there significant increases in profits? We did not see any. We understand and we hear the very real complaints and anger but when we look at the market in great detail with hourly data, we do not see big increases in profits. One of the things we know, and we can see it in the numbers, is that when you are the cheapest petrol station in an area, your volumes increase significantly and consumers switch to you. That is what we see and that is why the market is relatively competitive. It is not perfect and we are not saying there are no issues. Sometimes as a consumer body it is really great to have a really strong story; for example, where we want the taxi industry to change. When we want change to happen, or when there is a problem, it is great when we have a solution that can bring about consumer benefits. It is tougher when we are saying to people "Actually we have looked at it and there is not a big problem".</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_490">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:20:00+01:00"/></from>
+          <p eId="para_576">The difficulty that people face is that there are no alternatives in some places. Some petrol stations have a monopoly. In my view, there is a cartel in some areas. There might be three or four garages in close proximity and they all increase their petrol prices at the same time, even though they might be different brands or companies. This is definitely concerning. I do not know whether that has been looked at locally or from a national perspective. Mr. McHugh mentioned excise coming down. When excise is going up, however, that increase is applied immediately and in many cases before the 12 o'clock implementation point on budget night. Has that been looked at?</p>
+        </speech>
+        <speech by="#" eId="spk_491">
+          <from> Mr. Geoffrey Gray<recordedTime time="2026-05-28T13:20:00+01:00"/></from>
+          <p eId="para_577">We did a general look at the market. Mr. McHugh has spoken about some of the research in 2022. We have also looked at the margins of the largest fuel service providers in the State. They are between 2% and 4%, which is quite low in relative terms. The Cathaoirleach is right that competition does vary in the sector by local area. Some local areas have fewer competitors than others. In those areas one might see them competing less vigorously on price. It is one of the things that we take really seriously as part of our mergers function as well. Last year in the Circle K and Pelco merger we required divestments of local service area stations in order to ensure that competition within those markets was maintained. It is something we take very seriously in all fuel services mergers that we look at.</p>
+        </speech>
+        <speech by="#JohnBrady" eId="spk_492">
+          <from> An Cathaoirleach<recordedTime time="2026-05-28T13:20:00+01:00"/></from>
+          <p eId="para_578">Okay. That concludes my questions. I do not think what we have heard will change the views of people on the ground. Unfortunately, this position is the real-life experience of a lot of people. That concludes our engagement for today. I thank the chairman and his officials from the Competition and Consumer Protection Commission for attending here today. I also thank the officials from the Department of Enterprise, Tourism and Employment, along with the Office of the Comptroller and Auditor General, for their attendance once again. We will follow up any agreed actions that members raised during the course of the meeting. The committee will next meet on Thursday, 11 June, with the Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation.</p>
+        </speech>
+        <summary eId="sum_9"> The committee adjourned at 1.29 p.m. until 9.30 a.m. on Thursday, 11 June 2026.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>
+`;export{e as default};
