@@ -1,0 +1,1489 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_health/2026-05-27/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_health/2026-05-27/debate"/>
+          <FRBRdate date="2026-05-27" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/committee/dail/34/joint_committee_on_health"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_health/2026-05-27/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_health/2026-05-27/debate/mul@"/>
+          <FRBRdate date="2026-05-27" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_health/2026-05-27/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_health/2026-05-27/debate/mul@.akn"/>
+          <FRBRdate date="2026-06-04" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#debates">
+        <TLCPerson eId="CathalCrowe" href="/ie/oireachtas/member/id/Cathal-Crowe.D.2020-02-08" showAs="Cathal Crowe"/>
+        <TLCPerson eId="ColmBurke" href="/ie/oireachtas/member/id/Colm-Burke.S.2011-05-25" showAs="Colm Burke"/>
+        <TLCPerson eId="DavidCullinane" href="/ie/oireachtas/member/id/David-Cullinane.S.2011-05-25" showAs="David Cullinane"/>
+        <TLCPerson eId="ManusBoyle" href="/ie/oireachtas/member/id/Manus-Boyle.S.2025-01-29" showAs="Manus Boyle"/>
+        <TLCPerson eId="MarieSherlock" href="/ie/oireachtas/member/id/Marie-Sherlock.S.2020-03-30" showAs="Marie Sherlock"/>
+        <TLCPerson eId="MartinConway" href="/ie/oireachtas/member/id/Martin-Conway.S.2011-05-25" showAs="Martin Conway"/>
+        <TLCPerson eId="MartinDaly" href="/ie/oireachtas/member/id/Martin-Daly.D.2024-11-29" showAs="Martin Daly"/>
+        <TLCPerson eId="MichaelCahill" href="/ie/oireachtas/member/id/Michael-Cahill.D.2024-11-29" showAs="Michael Cahill"/>
+        <TLCPerson eId="PadraigRice" href="/ie/oireachtas/member/id/Pádraig-Rice.D.2024-11-29" showAs="Pádraig Rice"/>
+        <TLCPerson eId="PeterRoche" href="/ie/oireachtas/member/id/Peter-Roche.D.2024-11-29" showAs="Peter Roche"/>
+        <TLCPerson eId="SorcaClarke" href="/ie/oireachtas/member/id/Sorca-Clarke.D.2020-02-08" showAs="Sorca Clarke"/>
+        <TLCPerson eId="TeresaCostello" href="/ie/oireachtas/member/id/Teresa-Costello.S.2025-01-29" showAs="Teresa Costello"/>
+        <TLCRole href="role/chair" showAs="Chair" eId="Chair"/>
+        <TLCRole href="role/vice_chairman" showAs="Vice Chairman" eId="Vice_Chairman"/>
+        <TLCRole href="role/author" showAs="author" eId="author"/>
+        <TLCRole href="role/editor" showAs="editor" eId="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>AN COMHCHOISTE UM SHLÁINTE</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>Joint Committee on Health</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2026-05-27">Dé Céadaoin, 27 Bealtaine 2026</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2026-05-27">Wednesday, 27 May 2026</docDate>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">Tháinig an Comhchoiste le chéile ag 09:30 a.m.</summary>
+        <summary class="Center" eId="sum_2">The Joint Committee met at 09:30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_3">Comhaltaí a bhí i láthair / Members present:</summary>
+          <table>
+            <tr>
+              <th>
+                <p eId="para_1">Teachtaí Dála / Deputies</p>
+              </th>
+              <th>
+                <p eId="para_2">Seanadóirí / Senators</p>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#ColmBurke">Colm Burke</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#ManusBoyle">Manus Boyle</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MichaelCahill">Michael Cahill</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#MariaByrne">Maria Byrne</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#SorcaClarke">Sorca Clarke</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#TeresaCostello">Teresa Costello.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#DavidCullinane">David Cullinane</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#MartinDaly">Martin Daly</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#PeterRoche">Peter Roche</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#MarieSherlock">Marie Sherlock.</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_4">I láthair / In attendance: Deputy Cathal Crowe and Senator Martin Conway.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#PadraigRice">Teachta / Deputy Pádraig Rice sa Chathaoir / in the Chair.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Joint Committee<recordedTime time="2026-05-27T09:30:00+01:00"/></heading>
+        <speech by="#PadraigRice" eId="spk_1">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T09:30:00+01:00"/></from>
+          <p eId="para_13">Apologies have been received from Senator Nicole Ryan, who is on maternity leave.</p>
+          <p eId="para_14"> I remind members of the constitutional requirement that they must be physically present within the confines of the Leinster House complex in order to participate in public meetings. I will not permit members to participate if they are not adhering to this constitutional requirement. Therefore, members who attempt to participate from outside the precincts will be asked to leave the meeting. In this regard, I also ask members participating via MS Teams that prior to making their contribution to the meeting they confirm they are on the grounds of the Leinster House complex.</p>
+          <p eId="para_15"> The minutes of the meetings of 19 and 20 May have been circulated. Are they agreed? Agreed.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>National Maternity Strategy 2016-2026: Discussion (Resumed)<recordedTime time="2026-05-27T09:30:00+01:00"/></heading>
+        <speech by="#PadraigRice" eId="spk_2">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T09:30:00+01:00"/></from>
+          <p eId="para_16">Today, the committee will continue its consideration of maternity services, in particular the national maternity strategy and the co-location of maternity services with other adult services. Co-location, as we know, received a lot of attention earlier this year, in particular in relation to the issues around the Rotunda and future expansion. That placed an important focus on maternity services and maternity care and the need for them to be prioritised. The current national maternity strategy is coming to an end this year. No doubt there have been positive changes under that strategy but more needs to be done. We need a more proactive approach instead of a reactive approach. We need a new model of care, including midwife-led services and improved infrastructure across the country. The State must do better in terms of care for infants, mothers and staff who work in these services. The new strategy due this year provides us with an opportunity to do just that to prioritise maternity care and deliver on political commitments. I look forward to this morning's discussion on the national strategy and co-location.</p>
+          <p eId="para_17"> To assist the committee in this matter, I welcome from the HSE's national women and infants health programme, NWIHP, Mr. Kilian McGrane, director, Dr. Clíona Murphy, clinical director, Ms Angela Dunne, national lead midwife, Ms Mellany McLoone, integrated health area manager for Dublin North City and West, Mr. Tony Canavan, regional executive officer, REO, HSE West and North West, and Ms Sandra Broderick, regional executive officer HSE Mid West; and from the Rotunda, Professor Sean Daly, master, Ms Fiona Hanrahan, director of midwifery and nursing and Mr. Jim Hussey, secretary manager. The committee also invited the master of the Coombe Hospital to the meeting but, unfortunately, he was unable to attend.</p>
+          <p eId="para_18"> Witnesses are reminded of the long-standing parliamentary practice that they should not criticise or make charges against a person or entity by name or in such a way as to make him, her or it identifiable or otherwise engage in speech that may be damaging to the good name of a person or entity. Therefore, if their statements are potentially defamatory in relation to an identifiable person or entity, they will be directed to discontinue their remarks. It is imperative they comply with any such direction.</p>
+          <p eId="para_19"> Members are reminded of the long-standing parliamentary practice to the effect that they should not criticise, comment on or make charges against a person outside the Houses or an official either by name or in such a way as to make him or her identifiable.</p>
+          <p eId="para_20"> I invite the HSE to make its opening statement.</p>
+        </speech>
+        <speech by="#" eId="spk_3">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T09:30:00+01:00"/></from>
+          <p eId="para_21">I am joined by my colleagues Mr. Tony Canavan, REO of HSE West and North West; Ms Sandra Broderick, REO of HSE Mid West; Ms Mellany McLoone, integrated healthcare area manager for HSE Dublin North City and West; Dr. Clíona Murphy, clinical director, NWIHP, and a consultant obstetrician-gynaecologist; and Ms Angela Dunne, lead midwife of the national women and infants health programme.</p>
+          <p eId="para_22"> The committee asked a number of questions of the HSE in relation to maternity services. The HSE's senior leadership team directed that a consolidated response issue from the HSE, which has been submitted to the committee. However, I acknowledge the committee also received some submissions directly. As we advised the committee in February, the 2016 national maternity strategy is now substantially complete. The HSE has been evaluating the implementation, with a specific focus on the impact that the strategy has had on women, their babies and their families. The evaluation process began late last summer and will be completed by the end of June. Once it has been approved by the HSE, the evaluation will be submitted to the Department of Health.</p>
+          <p eId="para_23"> The evaluation process is assessing what has been delivered, the evolution of maternity services during the past ten and half years, the impact of the strategy and the key learnings for the successor to the national maternity strategy. The approach the HSE has adopted has two components. First, a detailed review of the implementation of each recommendation, which has involved an internal review of individual actions, working groups, posts allocated and developments since 2017 and, second, an independent design-led evaluation incorporating interviews with senior leadership, surveys of front-line staff, and the experiences of women who have used the services, through the national maternity experience survey. The independent evaluation involved interviewing 25 senior leaders across maternity services, evaluating 154 responses received from an online survey and the 3,354 responses to the maternity experience survey.</p>
+          <p eId="para_24"> The evaluation report found that there has been meaningful progress since 2016, indicating that the strategy has had a positive impact on maternity services. The evaluation is very balanced, drawing attention to the significant progress that has been made, but also highlighting areas that require further attention.</p>
+          <p eId="para_25">Some of those highlights include: an additional investment of €80 million since 2016; 567 additional posts; 63% of births now recorded on a full electronic health record; six maternity networks established and operational; the model of care implemented, comprising three care pathways; nine postnatal hubs established, with four more in development; and 31 clinical guidelines in place.</p>
+          <p eId="para_26"> While the evaluation makes clear substantial progress has been made, it also highlights areas where there has been less progress or where circumstances have changed and created additional pressure. The evaluation report's findings are very closely aligned with the feedback from the 19 maternity services included in the summary report the HSE sent to the joint committee. The main themes that have emerged from both the independent evaluation of the strategy and the feedback from the maternity services focus on three main areas: the changing pregnant population, workforce challenges, including recruitment and retention, and infrastructure.</p>
+          <p eId="para_27"> The Irish population has changed substantially in recent years. Across all the services within the HSE, there is a higher level of complexity. This is particularly true in maternity services, which tend to see population changes earlier than other parts of the health system. The changes are reflected in the activity data, with increased rates of interventions such as induction of labour and Caesarean sections. They are also reflected in the evaluation process and the feedback from the maternity services to the joint committee.</p>
+          <p eId="para_28"> The HSE's national health service improvement team for public health has worked with the NWIHP to review the population that uses maternity services. The public health team used data from multiple sources, including the Central Statistics Office, CSO, to profile the population. The findings support the view that the pregnant population has changed significantly. Some of the key changes include: a 6% increase in obesity rates; growth of 4% in the proportion of first-time mothers; an increase of 5.5% in the percentage of mothers who gave birth over the age of 35; an increase of 3% in the proportion of women over 40 giving birth; an increase of 6.5% in the proportion of mothers whose place of birth was outside Ireland; growth of 0.8% in the prevalence of pre-eclampsia; a more than doubling of gestational diabetes rates; a rise of 5% in postpartum haemorrhage rates; an increase of over 8.5% in Caesarean section rates; an increase of 1% in the proportion of preterm births; and an increase from 0.9% in 2015 to 2.6% in 2023 in the proportion of unbooked pregnancies.</p>
+          <p eId="para_29"> These population changes are a major cause of additional pressure on the maternity system. The additional complexity of presentations leads to longer appointment times, additional requirements for maternal medicine assessments and higher rates of intervention resulting in increased lengths of stay, which puts additional pressure on both beds and staffing. Notwithstanding the significant investment in staff over the past decade, there are considerable staffing pressures throughout the maternity system. The additional demands I referred to result in greater demands on staff time. The focus of investment since 2016 has been on the specific recommendations within the national maternity strategy, but there is also a need to address the impact that changing complexity has had on the delivery system. Maternity and sick leave are pressure points, with maternity leave a particular challenge in a young, predominantly female workforce. The rate of temporary leave can be as high as 15% in some units, which creates real pressure in areas like midwifery. The high rates of leave result in a dependency on agency staff, locums and overtime to bridge deficits. This is strongly reflected in the feedback from the maternity services.</p>
+          <p eId="para_30"> Outdated infrastructure is a constant theme in both the maternity strategy review and the feedback from the maternity units. The newest maternity hospital in Ireland is Cork University Maternity Hospital, CUMH, which was designed in the 1990s and opened in 2007. Only five of the 19 maternity services met the HIQA standards in the 2020 review. There are four stand-alone maternity hospitals, one of which is co-located, and 14 regional hospitals with maternity units. There are well-advanced plans for both the National Maternity Hospital and the Rotunda. University Maternity Hospital Limerick, UMHL, will form part of the new Limerick hospital development, with a project board due to be established in due course. The Coombe Hospital has plans for significant capital investment in advance of a planned relocation with St James's Hospital.</p>
+          <p eId="para_31"> The challenges with the regional hospitals are also significant. Maternity units do not have sufficient space for the range of services that need to be provided. Antenatal clinics are often shared with general outpatient clinics, which puts further discomfort on pregnant women. The fact the units are located within large and busy regional hospitals makes it difficult to reconfigure the environment to create the space and privacy women deserve.</p>
+          <p eId="para_32"> Solid foundations have been laid with the implementation of the maternity strategy. The evaluation and feedback highlight that its successor must be designed around the needs and preferences of today's maternity population and equipped to respond to the increasing complexity now presenting across services. The model of care has been well-established and supported. However, greater flexibility will be required to balance the level of complexity and address the growth in Caesarean sections. While the HSE has addressed the staffing requirements of implementing the maternity strategy, there now needs to be an assessment of what additional complexity means in terms of staffing and skills mix across the 19 maternity services. The HSE looks forward to continuing to work with our colleagues in the Department of Health and supporting them in developing the successor to the national maternity strategy.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_4">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T09:40:00+01:00"/></from>
+          <p eId="para_33">I thank Mr. McGrane. I now invite Professor Daly of the Rotunda Hospital to make his opening remarks.</p>
+        </speech>
+        <speech by="#" eId="spk_5">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T09:40:00+01:00"/></from>
+          <p eId="para_34">I thank the committee for the opportunity to present to it. Accompanying me are Mr. Jim Hussey, secretary and general manager, and Ms Fiona Hanrahan, director of midwifery. The Rotunda is the oldest continually operating maternity hospital in the world. It was incorporated by a royal charter from King George II in 1756 and has been at its current site on Parnell Square since 1757. Next year, the 270th year at our current campus, a woman will give birth to the millionth baby born at the Rotunda. We continue to care for approximately 10,000 pregnant women a year, not just from north Dublin but from all corners of Ireland.</p>
+          <p eId="para_35"> Governments, with which we have a long and very important relationship, have been our main funder since Ireland gained independence in 1921. Currently, the Rotunda Hospital is substantially funded for health services through a service level agreement with the HSE. It is a voluntary hospital that employs more than 1,300 people. As a voluntary hospital, we also generate our own funds, which are reinvested in the hospital.</p>
+          <p eId="para_36"> Last year, the Rotunda delivered more than 8,600 babies to women from over 130 countries. We remain the busiest maternity hospital in Ireland and, indeed, in northern Europe. Many women who choose the Rotunda for maternity care are well and healthy. However, we also care for many women who come from marginalised and disadvantaged communities. Social deprivation significantly worsens health outcomes. In 2025, we had 725 women who were either at risk for or actually experiencing homelessness. We believe this is a smaller number than the actual total of such women.</p>
+          <p eId="para_37"> Pregnancy provides healthcare services with a unique opportunity to engage with women and build trust and a lifelong relationship through health and well-being. At the Rotunda, we aim to provide respectful care in our local communities through our community midwifery clinics and the provision of postnatal hubs in six locations across north Dublin. We have a multidisciplinary inclusion team, which cares for particular groups of women and families at high risk due to their social circumstances. The Rotunda and its board are very supportive of Sláintecare. In many ways, maternity services are Sláintecare in action. We have been bringing our care and services out to our local communities for the past 20 years. There is no waiting list for pregnant women. We follow the principle of clinical need as the main driver of access to our service.</p>
+          <p eId="para_38"> The key performance indicators of maternity care for many years have been objective ones, including numbers of births, Caesarean section rates, etc. While these indicators of care are hugely important, the Rotunda is now focusing on the experience of the women and families who access our service. We are developing a five-year strategy, to begin next year, with the central principle of trying to improve the experience and care women and families receive. We firmly believe that the essence of care is kindness and that this should be embedded in all our interactions with people. While not relevant to the national maternity strategy, we are applying a similar focus to women with benign gynaecological symptoms and moving away from the analysis of waiting lists as the primary indicator of an efficient and effective service.</p>
+          <p eId="para_39"> Co-location of services is clearly a critical issue. It has been suggested that the large maternity units in Dublin and Cork should be co-located with a level 4 hospital. The Rotunda certainly agrees with that. The current maternity strategy suggests that the Rotunda would move to the site of Connolly Hospital Blanchardstown but that is currently a level 3 hospital, with no plans to upgrade it. Following on from the Minister's very helpful intervention regarding our proposed critical care wing, my view is that the future of the Rotunda has been clarified.</p>
+          <p eId="para_40"> We firmly believe that the Rotunda is, in effect, co-located with the Mater hospital by virtue of the well-developed clinical pathways that have existed for more than 30 years. We have numerous shared consultant posts across multiple disciplines and there is a blue light corridor from the Rotunda to the Mater. This co-operation has ensured that no woman has died in the Rotunda for more than 20 years. During that time, we have cared for more than 200,000 women. It is worth noting, however, that complications that require transfer to other medical institutions frequently occur in pregnancies that are deemed normal risk and could therefore occur in any maternity unit in the country.</p>
+          <p eId="para_41">Where women are identified as high-risk then their care is managed by a multidisciplinary team. We have women who would deliver by Caesarean section in the Mater, for example, and our neonatal team would go there to take care of the baby.</p>
+          <p eId="para_42"> The provision of care and, in particular, continuity of care has been identified as very important to women in the recent national maternity survey. In that regard, we believe that the establishment of midwifery teams within the community and alongside birthing units, such as is planned for our new critical care wing, will give women the opportunity to have their babies in conditions that are similar to them with low intervention rates. If intervention is required then because it is an alongside the birthing unit, they can easily access regional anaesthesia or Caesarean section delivery.</p>
+          <p eId="para_43"> It is an accepted fact that maternity care is becoming more complex. In 2025, the diabetic service within the Rotunda Hospital cared for over 1,700 women, which is 20% of our population. We believe that the new national maternity strategy has to take this into account. From our point of view, the majority of these women could be cared for primarily by midwives within a multidisciplinary team where that team is supported by experts in pregnancy diabetes and foetal assessment.</p>
+          <p eId="para_44"> There is no doubt that the demand for services within the Rotunda Hospital continues to increase. The reasons for this are complex. Nationally, the birth rate is falling. However, the Rotunda has experienced year-on-year increases in the demand for our service. As part of a new maternity strategy, we would firmly believe that all units are not the same and would add that funding and head count is predicated not only on activity but on acuity.</p>
+          <p eId="para_45"> The Rotunda has the largest foetal medicine service in the country and is well-advanced in developing a foetal surgery service with the help of Mellany McLoone and her colleagues. These services, which are obviously national, should be supported within any new maternity strategy. A key aspect of this would be an all-Ireland approach. We have had positive engagement from our foetal medicine colleagues in Belfast and, potentially, would be able to offer service to the 20,000 births that occur annually in Northern Ireland. The inclusion of neonatal care in any maternity strategy is clearly vital. It is referenced in the old strategy but we believe it needs a more in-depth analysis in any new strategy. Our critical care wing, which has been the focus of much attention in the past few months, including within this committee, is now being revised and we are hoping to meet An Coimisiún Pleanála over the next two months. The importance of the critical care wing in terms of national infrastructure is evidenced by the fact that while there are four tertiary referral neonatal facilities, the Rotunda actually cared for 32% of all neonates transferred in 2025. This new neonatal intensive care unit will actually expand the capacity for very premature or sick babies and is de facto national infrastructure. I thank the committee once again for giving me the chance to outline some of the issues from the Rotunda's viewpoint.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_6">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_46">I thank Professor Daly. We will move to questions from members. Each member will have nine minutes to ask questions. We will move on an agreed rota by party size. We will take a break around halfway through. Members will direct to their questions to the witnesses they choose. We will start with Fianna Fáil. I call Deputy Daly.</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_7">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_47">I thank all the witnesses for coming here today; it is appreciated. I note from the HSE report that the birth rate is going down, but the complexity of pregnancy care is increasing. I also note that only five of the 19 units meet HIQA standards, which is unfortunate, and that only 63% of women who look for maternity care have an electronic health record. That is obviously better than a lot of the rest of the health service but it is still not acceptable in this day and age - it should be 100%. I also note Professor Daly's comment about kindness and the need to speak about that kindness. I would hope that is not a newly found value and that it has been part of all of our services for years. It is nice that it is reiterated but it should not need to be said. We should have kindness in our health service and especially for women who are delivering babies.</p>
+          <p eId="para_48"> I would like to spend a moment on co-location. If I cut across, it is not out of rudeness, it is because I am on limited time. Coming back to Professor Daly, the Rotunda would firmly believe it is essentially co-located with the Mater hospital. What does "essentially" mean?</p>
+        </speech>
+        <speech by="#" eId="spk_8">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_49">From a practical point of view, I think that we have very well-developed clinical pathways. The challenge with co-location is that nobody has defined it and we urgently need to define what co-location means.</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_9">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_50">Was it not defined in the in the first priority that it would be co-location with a level 4 hospital?</p>
+        </speech>
+        <speech by="#" eId="spk_10">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_51">Yes, but what does "co-location" actually mean?</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_11">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_52">Does it mean physically co-located on the same campus?</p>
+        </speech>
+        <speech by="#" eId="spk_12">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_53">No. I do not think that is necessary, to be honest, as long as we have established clinical pathways. We are 600 m from the Mater. There are many campuses in Ireland that are larger than 600 m. We have developed care pathways-----</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_13">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_54">Would co-location mean that on the same campus, physically, in the same buildings, there is access to emergency teams who are disciplines other than obstetric care?</p>
+        </speech>
+        <speech by="#" eId="spk_14">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_55">That is physical co-location, but I am talking about something I believe is much more important than that, which is clinical co-location.</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_15">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_56">I accept that. Then, it seems there is a different view around this. Professor Daly stated that: "It is also worth noting that many of the complications, which require transfer of women to other medical institutions, occur in pregnancies that are deemed normal risk and, therefore, could occur in any unit in the country." I get a sense of a softening towards his view on co-location in that statement from the Rotunda Hospital, so it is not really fully committed to it.</p>
+        </speech>
+        <speech by="#" eId="spk_16">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_57">We are absolutely 200% committed to co-location. We are 200% committed to the safe delivery of service. We are 200% committed to maternal health. The evidence from the Rotunda is that no woman has died there in 20 years despite giving care to more than 200,000 women, so it is absolutely wrong to consider that we are not totally committed to co-location.</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_17">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_58">Again, coming back quickly to it, I have to ask this question because it has been put to me privately. Is the institution of the Rotunda, as Professor Daly is quite rightly proud of, more important than an accessible modern service? We have noted that the infrastructure is not good. It is a very old building with old facilities. I actually trained there as an undergraduate and not much has changed in the old buildings physically. Therefore, is the long-term view that this will be adequate for women's health? By the way, I am supportive; I am sorry about the critical care unit. I regret that An Bord Pleanála turned it down. Professor Daly may go ahead, please.</p>
+        </speech>
+        <speech by="#" eId="spk_18">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_59">The Deputy is absolutely right; the building is old. I think HIQA called this out on every inspection. However-----</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_19">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_60">Therefore, is that a place where women in a modern Ireland should be delivering their babies?</p>
+        </speech>
+        <speech by="#" eId="spk_20">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_61">However-----</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_21">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_62">Should we have a long-term plan for a modern, fit-for-purpose hospital co-located physically with-----</p>
+        </speech>
+        <speech by="#" eId="spk_22">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_63">The long-term plan is for a new critical-----</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_23">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_64">The question is, is the institution more important than the idea of co-location? It is a "Yes" or "No" answer.</p>
+        </speech>
+        <speech by="#" eId="spk_24">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_65">I honestly do not think that is the question. I think the question is-----</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_25">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_66">No, it is the question. I am just asking does Professor Daly believe - it is a "Yes" or "No" answer - that the institution of the Rotunda Hospital staying on a site that has been there nearly 300 years is more important than developing in the long-term a modern, new, co-located maternity hospital?</p>
+        </speech>
+        <speech by="#" eId="spk_26">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_67">That is our plan on the site of the Rotunda, to develop a modern facility-----</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_27">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_68">I accept that Professor Daly's view is that co-location is the Mater-----</p>
+        </speech>
+        <speech by="#" eId="spk_28">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_69">-----and that co-location, from a clinical and safety point of view, is-----</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_29">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_70">Okay. I accept Professor Daly's answer.</p>
+          <p eId="para_71"> Moving on, I would like to ask about the HSE's view on co-location. My understanding from the last time representatives from the HSE appeared before the committee was that co-location was a physical co-location with a level 4 hospital. Would that be accepted?</p>
+        </speech>
+        <speech by="#" eId="spk_30">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_72">As Professor Daly set out, there is not a definition. It is not defined in the national maternity strategy. My understanding is that it is predicated on a 2008 report by KPMG around maternity services. From our perspective, co-location is an eminently clinically responsible way to go. Professor Daly set that out very clearly. From the HSE perspective, therefore, it is what works. There has been a change made to facilitate the critical care wing in the Rotunda, which is really good. Whether that is the end for the Rotunda or not I do not think has been defined. We are very supportive of co-location, but we are also supportive of making sure that women can deliver in safe environments too.</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_31">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_73">That is good. I wish to ask about the electronic health record and why we are not making progress in a really short period of time in a country that is supposed to be the centre of information technology in Europe and the world. Every day, people are banking, doing all their business with Revenue and all of their other interactions and we have a situation where we still have electronic health records in the HSE being one of the worst in Europe. In fact, it is the worst in Europe.</p>
+          <p eId="para_74">What progress is going to be made? A figure of 63% is a failure in this day and age.</p>
+        </speech>
+        <speech by="#" eId="spk_32">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_75">At the moment, six maternity hospitals have a full electronic health record. There are four more in development, which, by this time next year, will hopefully be either fully on board or well advanced. The challenge is that the national electronic health record, which is hospital wide or healthcare wide, is being rolled out at the same time. We therefore have to sequence what comes after the ten sites. By this time next year, or by the end of 2027, there should be ten hospitals on board, which will bring us to more than 70%. Whether the national electronic health record then takes over, or whether we continue with MN-CMS, remains to be determined.</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_33">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_76">I thank Mr. McGrane for that.</p>
+          <p eId="para_77"> Recruitment and retention is a recurring theme in the HSE. How long does it take to replace someone? Is there planning? It seems to me, and to many people working in or looking in at the system, that there is no adequate planning. The recruitment process starts when someone retires rather than well in advance of that, which would allow for planning. Maternity leave is something we live with every day, so that should be planned for also. The current position is very difficult. A short answer will suffice.</p>
+        </speech>
+        <speech by="#" eId="spk_34">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_78">Insofar as we can, we do plan in advance. Of course, it is different for different grades of staff. Replacing a consultant, or recruitment to a new consultant post, for example, typically takes considerably longer than recruitment in other areas.</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_35">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_79">Does that start in advance of the person retiring? My impression is that it does not. In primary care in east Galway and Roscommon, there is no one to replace physiotherapists who go on maternity leave. The process did not start in time, nor did the planning. It is a genuine difficulty.</p>
+        </speech>
+        <speech by="#" eId="spk_36">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_80">Being honest, it does not always start in time, particularly across all grades of staff. Also, being honest, we do not replace all staff on maternity leave as a matter of routine, although we do replace many of them. Over the past two years, we have tried to shorten the timeframe. We have encouraged, in our operational services, the giving of as much advance notice as possible of maternity leave and other absences so we can make a decision on approval.</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_37">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_81">I thank Mr. Canavan.</p>
+          <p eId="para_82"> I have a final question. Is HSE West and North West committed to fully implementing the Walker report recommendations and any recommendations made by Dr. Sam Coulter-Smith on the maternity unit at Portiuncula hospital? As the former CEO of the HSE, Mr. Bernard Gloster, reflected, the Walker report was not fully implemented.</p>
+        </speech>
+        <speech by="#" eId="spk_38">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_83">We are absolutely committed. We have been working on implementing the recommendations for some years. Of course, the team-----</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_39">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_84">Is there also a commitment to the maternity services at Portiuncula?</p>
+        </speech>
+        <speech by="#" eId="spk_40">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_85">We continue to implement-----</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_41">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_86">I thank Mr. Canavan.</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_42">
+          <from>Deputy David Cullinane<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_87">I welcome all our witnesses. I pass on my congratulations to all the staff in maternity hospitals. A tremendous job is done by them and the quality of care women receive is to be noted. I realise there are always instances of failures in care, and we have dealt with those in this committee, but staff do a very difficult job. We have heard about staffing issues and shortages, yet staff working in the hospitals do a fantastic job.</p>
+          <p eId="para_88"> I will start with Professor Daly on the Rotunda Hospital. He has rightly set out the difference between physical staff and clinical co-location. From my perspective, the arrangement, if you want to call it that, with the Mater hospital is the best for women and for both hospitals, particularly the Rotunda. I am fully on board with that. It is a decision that should have been made a long time ago, but I am grateful that a decision has now been made. We have had some robust exchanges on this at meetings of this committee over the years, including very recently. The decision is a weight off the back of the hospital in respect of uncertainty about policy and so on. Now that we have it, attention must turn to development. I am aware that there is a master plan for the hospital and a very good vision.</p>
+          <p eId="para_89"> On the critical care wing, Professor Daly said in his opening statement that the next step is a fresh application to An Coimisiún Pleanála, and potentially a meeting. What are the potential difficulties or hurdles that he envisages he will have to get over and that we can help with, if possible?</p>
+        </speech>
+        <speech by="#" eId="spk_43">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_90">I thank the Deputy for the question. The first part of this is to get the new development accepted as a strategic development initiative. That means it has to have more than 100 beds. The new plan, which includes a sexual assault treatment unit, will have 122 beds. We are hoping to meet An Coimisiún Pleanála within the next six to eight weeks. Following on from that, we would hope that it would give us some kind of feedback about the design. Essentially, what we have done is remove virtually all of the plant from the top of the building. We have created a second basement layer, so when you look at the building it appears to be one floor smaller. Owing to the fact that we have to include a sexual assault treatment unit, the footprint of the building will not have significantly changed, but the practicality of moving into a second basement layer will result in a perceived difference.</p>
+          <p eId="para_91"> We are very conscious of the conservation concerns around the Rotunda Hospital, but we fully believe that in order to provide 21st-century care, this development, alongside the birthing unit, which is critical in offering women choice as to how they have their babies, should be incorporated.</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_44">
+          <from>Deputy David Cullinane<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_92">I wish the professor well and hope he gets the planning application over the line. I cannot even countenance it not happening. It is important for inner-city Dublin, women and families that it happen.</p>
+        </speech>
+        <speech by="#" eId="spk_45">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_93">Absolutely.</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_46">
+          <from>Deputy David Cullinane<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_94">On wider services, it struck me when we were talking about the Rotunda and other maternity hospitals that they provide much more than maternity services for women. Could Professor Daly touch on some of the other issues that affect women in respect of the totality of care the hospital provides?</p>
+          <p eId="para_95"> A secondary and related issue is endometriosis. I have met Professor Daly privately on this in the past, as have my party leader and others. Other colleagues from the constituency have also been meeting him on various issues. On the issue of endometriosis, could he set out what changes and advances are being made between his hospital and others? I believe Beaumont hospital might have some arrangement as well. I refer to the totality of care provided beyond maternity services.</p>
+        </speech>
+        <speech by="#" eId="spk_47">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_96">We see ourselves very much as a women's hospital. Obviously, we are a very busy maternity unit, but we would see ourselves as a women's hospital. We have created the north Dublin women's health initiative, so all electronic referrals from primary healthcare now come to the Rotunda and are reviewed there. There are seven different care pathways along which women can then be directed. That will result in a significant reduction in waiting times for women. We anticipate that Beaumont and Connolly hospitals will be in a position to take referrals over the coming months. We are working closely with Ms McLoone, our integrated healthcare area manager, to ensure we have capacity because we currently receive about 1,200 referrals every month for women across north Dublin.</p>
+          <p eId="para_97"> On endometriosis, we are working on a regional approach. Only yesterday I met Ms McLoone and we are looking at an approach for endometriosis across the whole region, to include Cavan and Drogheda. The opening of the surgical hub in Swords will give us increased surgical capacity and, with the addition of posts agreed, we will be able to provide a much more comprehensive service. One of the challenges now is making the diagnosis of endometriosis prior to surgery. We need expert radiology colleagues to help us with that. We have a multidisciplinary meeting on endometriosis, we have increased our outpatient capacity specifically for endometriosis, and we are very conscious of the morbidity that is associated with it.</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_48">
+          <from>Deputy David Cullinane<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_98">Diagnosis prior to surgery is very important.</p>
+        </speech>
+        <speech by="#" eId="spk_49">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_99">Yes.</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_50">
+          <from>Deputy David Cullinane<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_100">It has been raised an awful lot by women who have endometriosis. I thank Professor Daly for that.</p>
+          <p eId="para_101"> I want to turn to Mr. McGrane on the Coombe hospital. He mentioned co-location with St. James's Hospital. How realistic is that?</p>
+        </speech>
+        <speech by="#" eId="spk_51">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_102">I do not think there is an imminent plan for it, to be perfectly frank.</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_52">
+          <from>Deputy David Cullinane<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_103">That is an understatement. We had a very fraught discussion before about the Rotunda Hospital and what was real and what was not. We had a very staunch defence from the Department at a recent health committee meeting to the effect that there was no turning on this and that it was happening. Then, a week later, it was scrapped. There has to be a level of realism here. I do not want to see a repeat of what happened with the Rotunda, whereby a policy on paper can potentially hold back a hospital, deferring it to ten, 20 or 50 years down the road, until, in fact, it never happens. When Mr. McGrane says it is not imminent, is there any timeframe at all for it?</p>
+        </speech>
+        <speech by="#" eId="spk_53">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_104">Not that we are aware of. The HSE has not got an imminent plan for the Coombe hospital.</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_54">
+          <from>Deputy David Cullinane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_105">It is not going to happen within the next 20 years, is it?</p>
+        </speech>
+        <speech by="#" eId="spk_55">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_106">That I cannot say, but it needs to form part-----</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_56">
+          <from>Deputy David Cullinane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_107">But there is no plan. With respect, it takes a long time for these things to happen, does it not?</p>
+        </speech>
+        <speech by="#" eId="spk_57">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_108">Yes, absolutely.</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_58">
+          <from>Deputy David Cullinane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_109">So, it is reasonable to assume that if there is no plan, it will not be in the next ten years.</p>
+        </speech>
+        <speech by="#" eId="spk_59">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_110">That is correct. I would say-----</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_60">
+          <from>Deputy David Cullinane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_111">Because of that, will that not hold back development in the Coombe hospital? When Mr. McGrane talked about capital infrastructure and the Coombe, he talked about St. James's, which is on the never-never, down the road, may never happen. What are the plans currently for the Coombe site in terms of capital infrastructure?</p>
+        </speech>
+        <speech by="#" eId="spk_61">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_112">What I set out in my opening statement was that the Coombe has submitted plans to the HSE for a significant development on the campus including new theatres. I am not sure of the exact price but that is going through the HSE process at the moment.</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_62">
+          <from>Deputy David Cullinane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_113">Can I just ask that this will not be complicated by the policy of co-location and that it will be judged fairly on the basis of the existing site?</p>
+        </speech>
+        <speech by="#" eId="spk_63">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_114">The HSE will be very strongly supportive of investing in sites now, notwithstanding the fact there is a broader policy position, because women have to get the care they need today and not in the future.</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_64">
+          <from>Deputy David Cullinane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_115">I thank Mr. McGrane for that. He talked about staffing pressures and referred to an analysis being done on workforce planning, projected need, population growth and so on. He is talking about current pressures. I know he talked about people being out sick, maternity cover and so on. Does he have a headcount for the deficit or staffing shortage, or the number of staff who are needed to provide a safe service as opposed to what we have?</p>
+        </speech>
+        <speech by="#" eId="spk_65">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_116">Within the HSE, Birthrate Plus is the midwifery staffing model developed in 2016. That is still extant. However, what we set out in the opening statement is that the environment has changed very substantially and that model does not account for those changes.</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_66">
+          <from>Deputy David Cullinane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_117">Is there a figure for the number of additions?</p>
+        </speech>
+        <speech by="#" eId="spk_67">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_118">We can do it against the Birthrate Plus model but what I am saying is that is not really relevant. My colleague Ms Dunne can speak to this, but every year we review midwifery-----</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_68">
+          <from>Deputy David Cullinane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_119">My time is up, unfortunately. If there are figures or information, could they be given to me? I thank the witnesses for coming in.</p>
+        </speech>
+        <speech by="#" eId="spk_69">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_120">We will come back to the Deputy.</p>
+        </speech>
+        <speech by="#PeterRoche" eId="spk_70">
+          <from>Deputy Peter Roche<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_121">I thank the Chair. The witnesses are most welcome. It is nice to have an insight into how things are operating out there. When Professor Daly read out the history of the Rotunda Hospital and the length of time it has been there for, it beggars belief that it is operating so successfully in a building that is so old. I am a little bit peeved then when I understand the urgency of the need for the critical care centre, which is compelling. Anything and everything that can be done to make sure the pathway is clear to allow for that development should be done. I support Deputy Daly for suggesting it behoves everyone to make sure that in regard to whatever support An Coimisiún Pleanála and the hospital need to get it over the line, they get it. That is critical.</p>
+          <p eId="para_122"> Last week, we had representatives of Fórsa and SIPTU before this committee and I left the meeting thinking we are sort of in a crisis when it comes to staffing and workforce challenges within the system, such as retention and the capacity to recruit. I am really at a loss to understand why that is the case. Where are the issues with recruitment and what are the obstacles to finding people who want to take up that profession? I do not know who I am directing that question to. Anyone can answer it.</p>
+        </speech>
+        <speech by="#" eId="spk_71">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_123">Will Ms Broderick answer?</p>
+        </speech>
+        <speech by="#" eId="spk_72">
+          <from> Ms Sandra Broderick<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_124">Overall, retention is not terribly bad across the HSE compared with other jurisdictions. I want to acknowledge all of the staff who work across the entire HSE; they do a fabulous job. Most people who interact with the health service have a very good experience, as evidenced in lots of different surveys. We have much to do, however, as a management team to make sure staff who come to work for us feel valued for the work they do and that we create opportunities for them such that they want to stay with us. There are plenty of opportunities for them in the private sector so we have an awful lot to do in terms of strategy for the retention of staff. </p>
+          <p eId="para_125"> We also have to work on a strategy for developing more healthcare professionals into the future as our population changes and demand continues to grow. We have an awful lot of work to do on that and something we are bringing forward as a senior management team is how we would actually do that. Work is ongoing to try to get people to come back home from Australia and places like that to come and work for us. </p>
+          <p eId="para_126"> We do not automatically get a consultant within a couple of years so the timeline for getting someone trained up to that standard is quite lengthy, as the Deputy will appreciate. We are working on a strategy to make sure we retain as many staff as we can but we do have work to do. I need to acknowledge we certainly have work to do with our workforce. The unions expressed that very clearly to the committee members last week.</p>
+        </speech>
+        <speech by="#PeterRoche" eId="spk_73">
+          <from>Deputy Peter Roche<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_127">It is fair to assume that where you have staff under pressure, and very often run off their feet, kindness might sometimes be difficult. Where personnel are absent through sick leave or maternity leave and there is nobody to fill that space, we can only imagine that the person who is carrying out the role of the person who is at home will be under more pressure. It will be a bigger ask of that person to demonstrate kindness when they are under severe pressure. That is just a comment. This is probably a repeat of Deputy Daly's question, but can we look at a situation in the future where maternity leave is predictable and we know we can find someone who will pop into that role? If I remember the figures from last week, the agency costs were something like €80 million per month. I thought that was phenomenal expenditure. Could we look at a model whereby, when somebody is going on maternity leave, we would instantly know that person will be replaced? </p>
+        </speech>
+        <speech by="#" eId="spk_74">
+          <from> Ms Sandra Broderick<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_128">I do not think that is possible and I will try to explain why. On average, across the entire HSE, maternity leave accounts for about 5% of the workforce at any given time. However, in particular units, as Mr. McGrane has explained, that could be as high as 15% at times so it is impossible to predict when people will go on maternity leave. Even if funding was not a major issue or anything like that, it c an be difficult to actually find someone to slip into that role because it might be that of a senior physiotherapist, for example, and you may only have juniors on your team who do not necessarily have that experience to be able to act up. It is not as straightforward as predicting how many women in each service will go on maternity leave at any given time. We simply cannot. </p>
+          <p eId="para_129"> We are all working towards converting agency people to make sure we give permanent, pensionable employment to people who want it who are working for us through an agency. There is an awful lot of work going on in that area to make sure we give people permanent jobs in the HSE. That has been really successful across the regions and that work is ongoing to reduce the number of people reliant on agency.</p>
+          <p eId="para_130"> However, some people elect to work on agency because it works for them with childcare or family commitments, etc. It offers a flexibility that perhaps we cannot offer to our workforce right now.</p>
+        </speech>
+        <speech by="#PeterRoche" eId="spk_75">
+          <from>Deputy Peter Roche<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_131">I will bring this closer to home and direct this question to Mr. Canavan. I know it is a very loaded question, but when can we anticipate normal services resuming in Portiuncula maternity services, with high-risk cases being managed there again?</p>
+        </speech>
+        <speech by="#" eId="spk_76">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_132">The external management team are continuing to work in Portiuncula and are doing very well in what they have been asked to do. We originally asked that they would go in for 12 months and we are now at 18 months. We are actively looking at the exit plan for the external management team as part of that. They have done well in implementing the recommendations from the seven reviews we have at hand and there is still a small number of reviews outstanding. We are hopeful that most or maybe even all of those reviews will be complete before the external team exit. The progress has been good but I have to be very clear when I say, as I did the last time I was here before the committee, that our planning is towards the transfer of those high-risk cases into Galway. It is not towards the transfer of them back to Portiuncula.</p>
+        </speech>
+        <speech by="#PeterRoche" eId="spk_77">
+          <from>Deputy Peter Roche<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_133">My next question would be too long and the clock would beat me. Go raibh maith agaibh.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_78">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_134">I thank the Deputy. I have some questions at this point. I think this is a really important session. It is a real priority for the committee so we are going to have more engagement on this issue around maternity services more broadly.</p>
+          <p eId="para_135"> I would like to start with co-location. I am quite struck that there is not an agreed definition of what co-location is, given that it is a policy priority. Is this issue going to be ironed out in advance of the next strategy? Will we have an agreed definition of what co-location is going into the next national maternity strategy from the HSE?</p>
+        </speech>
+        <speech by="#" eId="spk_79">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_136">I would hope that as part of the process for developing the successor, that will be one of the issues that will be addressed. What we are doing, as I set out in the opening statement, is reviewing the implementation and also looking at what the issues that will need to be addressed in the future are. Infrastructure is right up there as one of those core elements that need to be addressed. It is about how we address maternal medicine in a complex environment where, as we said, the presentations are getting more complex. The committee has heard that from the HSE nationally and also from the Rotunda as the busiest unit in the country. We need to be able to make sure we can meet the needs of women as they arise. As Deputy Cullinane mentioned, it could be ten to 20 years before co-location for an individual site is achieved so we have to come up with a way of addressing that. I cannot tell the Chair what that looks like at the moment; it will be a policy matter.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_80">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_137">Would Mr. McGrane have a different opinion on what the definition of co-location is compared to what Professor Daly set out?</p>
+        </speech>
+        <speech by="#" eId="spk_81">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_138">I do not. Our absolute priority is that women get the right care in the right place at the right time. The physical co-location obviously offers huge benefits but, as Professor Daly has said in regard to a 600 m corridor, large campuses in the US could be four times that and have ambulance transfers on site. It is not a case of one size fits all but what we want is better infrastructure.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_82">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_139">It would be important to have an agreed definition that we move forward with and are on the same page in regard to what co-location is and what it is not, particularly as we are planning on investing a significant amount of funding into our maternity services in the decades ahead.</p>
+          <p eId="para_140"> On the Rotunda, prior to the controversy around overturning the Rotunda's planning permission earlier this year, was the national women and infants health programme still of the view that the Rotunda would eventually co-locate with Connolly Hospital? Dr. Murphy might take it.</p>
+        </speech>
+        <speech by="#" eId="spk_83">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_141">I think the Chair is directing the question at us. I beg your pardon.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_84">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_142">Yes, I was. Sorry. It was for the national women and infants programme. Was that the view of the programme?</p>
+        </speech>
+        <speech by="#" eId="spk_85">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_143">The issue around co-location has always been the fact that the partner for the Rotunda was a model 3 hospital. Going back even before Professor Daly became master and to his predecessor, it has been an issue that a working group was established in the Rotunda - I think it was 2017 or 2018 - to look at what would be required on the Connolly site to make it a model 4. The answer to that was a very significant investment that was not planned. What has happened since then is there has been a need to invest on the Rotunda site because the option of co-location to Connolly has not been feasible in that timeframe because it is a model 3 hospital. The core of what we are talking about here is ensuring that women get access to the appropriate maternal medicine care in the right location. If a woman was on the Connolly site, they would have to be relocated to the Mater or-----</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_86">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_144">I was just trying to figure out when exactly it was decided.</p>
+        </speech>
+        <speech by="#" eId="spk_87">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_145">It is not a HSE decision around-----</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_88">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_146">The policy.</p>
+        </speech>
+        <speech by="#" eId="spk_89">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_147">-----the co-location policy. What we have done is looked at what the requirements are for the Rotunda. We would have looked very closely with Professor Daly and colleagues around what that looks like and what it means. We were very supportive of the critical care proposal before the issue of co-location became topical because it did not rule out co-location; it just said there needs to be investment now. We are still very supportive of that.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_90">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_148">We are hearing potentially 20 years for co-location of the St. James's site. The committee visited the children's hospital recently. We were there, looking out the window. We were told, "Look out the window here and this is where the maternity hospital will be" but we are hearing a very different story today. I think that could be a very long time away. Is it a similar picture in Limerick? What are the plans for the co-location of Limerick maternity hospital with University Hospital Limerick, UHL? Is that also a very long-term plan or what is the current timeline?</p>
+        </speech>
+        <speech by="#" eId="spk_91">
+          <from> Ms Sandra Broderick<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_149">I do not have a timeline. It is obviously not my decision to have a timeline for the Chair but we are absolutely committed to co-location in the mid-west. Our geography is very different from the centre of Dublin in respect of what we can do in Limerick. We cover three counties in Limerick so, for us, it is about making sure that we get our maternity services on because we are diluting anaesthetics across two sites at the moment. For us, the picture is a little bit different in regard to our ability to staff our unit. It would make absolute sense for us to co-locate.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_92">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_150">Will physical co-location for Limerick be in the new national maternity strategy?</p>
+        </speech>
+        <speech by="#" eId="spk_93">
+          <from> Ms Sandra Broderick<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_151">I do not know what the new national maternity strategy is going to say. I am not trying to be evasive with the Chair. I do not know. As far as I understand, the co-location of the maternity in Limerick is planned for in that next national-----</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_94">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_152">Okay, so there is still lots of uncertainty and lack of clarity even around what co-location is. There is no clarity in regard to long-term plans. It all sounds very vague and I think we need greater clarity. Hopefully, by the time the strategy is published, we will have that.</p>
+          <p eId="para_153"> I want to go to the Rotunda with a question in relation to public-only contracts at the Rotunda. Is the Rotunda allowing consultants on the Sláintecare public-only contracts to carry out private work in the hospital?</p>
+        </speech>
+        <speech by="#" eId="spk_95">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_154">Yes.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_96">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_155">Does Professor Daly not believe this goes against the aim of Sláintecare that public-only contracts remove all private healthcare from public hospitals over time?</p>
+        </speech>
+        <speech by="#" eId="spk_97">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_156">There is no private option for women. That is the reason. The only private care that is being allowed in the Rotunda for public-only contract holders is in pregnancy-related care. That is because the Rotunda has long believed that women should have choice. The national maternity strategy that is currently coming to an end emphasised the importance of choice for women and because there is not choice for women within the private system, it is being allowed by the Rotunda.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_98">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_157">It is not a matter for the State to subsidise or fund private healthcare. If there is a market for private healthcare and people want it, then the private market should provide that and not the State. Private healthcare is only available to those who can afford it and, therefore, it is not a right. Everybody in the public system should be treated equally. Did Professor Daly engage with the Minister and the HSE about the use of this exemption?</p>
+        </speech>
+        <speech by="#" eId="spk_99">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_158">I explained it to the Minister when she came to the Rotunda last year. Suffice to say, she was not happy. The issue for the board of the Rotunda is about women's choice. That is why the board of the Rotunda made that decision. It is primarily about safety for women and women's choice.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_100">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_159">The Rotunda did not get agreement from the Department of Health or the HSE about doing this.</p>
+        </speech>
+        <speech by="#" eId="spk_101">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_160">No.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_102">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_161">This is going against State policy and agreed cross-party support here for Sláintecare.</p>
+        </speech>
+        <speech by="#" eId="spk_103">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_162">The Rotunda would be very supportive of Sláintecare.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_104">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_163">The core of Sláintecare is removing private healthcare from public hospitals, delivering public-only contracts and moving to a universal healthcare public model but the Rotunda is now diverting from what is agreed State policy with cross-party support for that policy because Professor Daly does not think that is the right approach.</p>
+        </speech>
+        <speech by="#" eId="spk_105">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_164">No. We stand for women. We stand for choice. Choice has been embedded in the maternity strategy. Women are allowed choose to have their babies wherever they wish and the Rotunda would be supportive of that. They have also been allowed to opt for whatever healthcare provider they wish. Women are allowed to deliver at home-----</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_106">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_165">I am absolutely supportive of that but not in relation to the private element. What is the HSE's response to this?</p>
+        </speech>
+        <speech by="#" eId="spk_107">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_166">As the Chair has already pointed out, the Rotunda did not seek the approval of the HSE. Professor Daly said he spoke to the Minister about it. Public-only contracts are Government policy. I suppose we do not have another view outside of that.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_108">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_167">What is the HSE going to do about it?</p>
+        </speech>
+        <speech by="#" eId="spk_109">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_168">On the enforcement bit, that would be an area for Ms McLoone and the integrated health area, IHA.</p>
+        </speech>
+        <speech by="#" eId="spk_110">
+          <from> Ms Mellany McLoone<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_169">At the outset, it is probably important to say that the level of uptake on a public-only consultant contract across maternity services is substantially low. We are aware and in discussions with Professor Daly but I think what would be important for the committee to understand is the number of births involved in this.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_111">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_170">I want to know what is going to happen in relation to this and I only have 20 seconds left.</p>
+        </speech>
+        <speech by="#" eId="spk_112">
+          <from> Ms Mellany McLoone<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_171">It is an ongoing discussion between ourselves and the Rotunda that is also-----</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_113">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_172">When are these discussions going to conclude and when are we going to get an update on an outcome?</p>
+        </speech>
+        <speech by="#" eId="spk_114">
+          <from> Ms Mellany McLoone<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_173">There are some legal issues that are being considered at the moment, so that is part of it.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_115">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_174">I expect we will get an update on that as a matter of urgency. We will be raising it with the Minister as well.</p>
+        </speech>
+        <speech by="#" eId="spk_116">
+          <from> Ms Mellany McLoone<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_175">Yes.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_117">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_176">The next slot is for the Labour Party and Deputy Sherlock.</p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_118">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_177">I wish to say a sincere "thank you" to the national women and infants health programme, NWIHP, the HSE and the Rotunda for attending here this morning. Having been a patient in two out of the three maternity hospitals in Dublin, I want to pay a heartfelt tribute to everybody working in maternity services across this country. I know there are fantastic outcomes achieved across many units. Deputy Daly spoke earlier about the number of units that have yet to meet HIQA standards, so I wish to pay tribute to the staff out there.</p>
+          <p eId="para_178"> The last time this committee considered maternity services, a huge amount of our time was taken up with the Rotunda's challenge with regard to the co-location policy hanging over it.</p>
+          <p eId="para_179">I am relieved now that there has been clarification and the political green light for the critical care wing. It obviously has to go through planning, but hopefully that will play out.</p>
+          <p eId="para_180"> Regarding the Coombe, notwithstanding what McGrane said, I have a huge concern that with the development of Elm Park and the significant cost there, and the infrastructural development that is happening at the Rotunda, which is desperately needed, the Coombe could become the poor relation in all of this. I hear what the witnesses are saying about there being a commitment to the funding. However, for as long as that ambiguity exists with regard to its future location, then it is going to end up in the same difficulty. It is important to put that on the record.</p>
+          <p eId="para_181"> The current national maternity strategy is coming to an end. One of the key comments or critiques that I frequently hear is that we have a good strategy but that the issue is the implementation of the strategy. I wish to ask about the alongside birth centres. We all recognise that there is a significant appetite for choice across maternity services. Women want to retain a significant element of decision-making and autonomy with regard to the care they receive. There was a commitment that every maternity network would prepare a plan in the national maternity strategy regarding alongside birth centres. My questions are to Dr. Murphy and Mr. McGrane. Does every network have a plan? How many networks have alongside birth centres at this time?</p>
+        </speech>
+        <speech by="#" eId="spk_119">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_182">The challenge with the alongside birthing unit from the outset when we looked at it was the capital requirements on very busy regional hospital sites. As I said at the outset, 14 of our maternity units are units within regional hospitals. Each of those hospitals has a development control plan in place which did not include an alongside birthing unit. We were stumped at the very start about how we would go about this process. We changed approach and went for home-from-home rooms. They are exactly the same as an alongside birthing unit except they take one of the delivery suites in a hospital and convert it into an environment that is as non-clinical as possible. My colleague Ms. Dunne might talk about this in a moment. Everything that should be there is there, including the pool and lighting, and all the clinical equipment is behind panelling in the wall, so in the event of an emergency it can be taken out as quickly as possible. Of the 19 units, 14 have a home-from-home room in place at the moment.</p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_120">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_183">It is not at the scale that was envisaged in the original strategy.</p>
+        </speech>
+        <speech by="#" eId="spk_121">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_184">What does Ms Dunne think?</p>
+        </speech>
+        <speech by="#" eId="spk_122">
+          <from> Ms Angela Dunne<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_185">The home-from-home rooms are very similar to the alongside birth units. The key aspect is that when an emergency happens and care is escalated, the woman can transferred as quickly as possible.</p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_123">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_186">Inpatient perinatal mental health beds were another commitment in the strategy. We do not have any inpatient perinatal mental health beds in the country. Why is that the case?</p>
+        </speech>
+        <speech by="#" eId="spk_124">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_187">The plan for the development of the mother and baby unit on the St. Vincent's campus is still progressing. It has not progressed over the lifetime of the strategy, which is a frustration, but as the Deputy can imagine, that site is incredibly busy with the national maternity hospital moving on site at the same time. There has been a real challenge. Our latest update from our colleague who leads the perinatal mental health programme is that they have agreement now on a new site on the St. Vincent's campus and they can then move it forward.</p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_125">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_188">Is that the only location?</p>
+        </speech>
+        <speech by="#" eId="spk_126">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_189">At the moment. The plan was that there would be one mother and baby unit starting in St. Vincent's and then they would look to see what goes beyond that.</p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_127">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_190">The pace is unforgivably slow in terms of women in very serious situations and being separated from their babies.</p>
+          <p eId="para_191"> Regarding genetics, like most parts of healthcare, money opens the doors to testing, including chromosomal testing. It is not available within the public maternity service at the moment. Should it be? As for genetic consultants, do we have the full complement? The Rotunda was supposed to have one but does not have any. What is happening?</p>
+        </speech>
+        <speech by="#" eId="spk_128">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_192">The plan for perinatal genetics was set out in 2022. It was originally supposed to be two consultants and a team of seven genetic counsellors. The genetics and genomic strategy was developed just after that. We have been working in collaboration with them. At the moment, there is only one perinatal geneticist in place and that is in the National Maternity Hospital. On the approval for two more, we have gone backwards and forwards a number of times. We have not got them through the consultant appointments committee, believe it or not, because-----</p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_129">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_193">Were positions not funded and then decommissioned?</p>
+        </speech>
+        <speech by="#" eId="spk_130">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_194">We will get that resolved. We have had that commitment from the CEO.</p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_131">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_195">Is it the case, however, that they were there and they are gone?</p>
+        </speech>
+        <speech by="#" eId="spk_132">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_196">They were not in place at the end of 2023. Technically, those posts cease to exist. We got a commitment-----</p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_133">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_197">It is the pay and numbers strategy, therefore.</p>
+        </speech>
+        <speech by="#" eId="spk_134">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_198">-----from the CEO that they would be continued. That is not the issue. For us, the issue is that the model that we had put forward involved two networks across the six tertiary sites and two consultants working across those. The consultant appointments committee did not like the configuration of those posts. We have had real difficulty in getting them agreed to date. That is problematic.</p>
+          <p eId="para_199"> The Deputy raised a question about genetic testing and the non-invasive prenatal screening programme. There was a recommendation in a review done under section 11 of the termination of pregnancy Act that it would be introduced. We have developed a proposal on that. That proposal has gone to the Department of Health as part of our ongoing negotiations with it. We do not have agreement on it yet.</p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_135">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_200">How long has it been with the Department?</p>
+        </speech>
+        <speech by="#" eId="spk_136">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_201">We sent a revised version to it in the past two months. It has not been sitting in there for a long time. We have had discussions with the Department back and forth for a period of time.</p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_137">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_202">I am very conscious that I have loads of questions but not much time. I wish to ask about the pressure on staffing in the Rotunda. The other part of it is that the hospital serves the most deprived part of Dublin, and indeed, the country. Ms Hanrahan might describe the challenges particularly in terms of women who end up in the hospital having not gone through a GP because of the sheer lack of GPs in the community.</p>
+        </speech>
+        <speech by="#" eId="spk_138">
+          <from> Ms Fiona Hanrahan<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_203">Staffing is a challenge across the country, but particularly in Dublin because of staff trying to get housing and everything else. We have very loyal staff in the hospital. We are very lucky. Our retention rates are good. We keep our students, which is a real mark of a service. There simply are not midwives out there to recruit. We need to increase the undergraduate numbers coming through. We need to have different pathways getting staff into our services. From an inclusion perspective, we set up an inclusion service and got funding for a midwifery post and a social work post. When you build it, they will come, and you realise how big that need actually is. Looking at what an inclusion service can do for women in pregnancy and how that can impact them going forward in their lives, looking at the inclusion requirements is something we need build on nationally.</p>
+          <p eId="para_204"> I am a north Dubliner myself. It is a great part of the country but there are areas where families live in deep need, as the Deputy knows well. The challenges they face when there is a pregnancy and a new life is coming into the world are significant. We know from the Growing Up in Ireland study and the Pobal maps that the impact of poverty on families is significant, including physically, mentally, emotionally and psychologically. There is not a marker that is not downwards for woman who are facing these issues. The hospital's ethos is caring for the poor lying-in women of Dublin and we certainly do that. Women from all over the world come to us and we do the best we can for them.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_139">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_205">I thank Ms Hanrahan very much. I suggest we take a quick break and resume in five minutes.</p>
+        </speech>
+        <summary eId="sum_6">
+          <i>Sitting suspended at 10.39 a.m. and resumed at 10.45 a.m.</i>
+        </summary>
+        <speech by="#PadraigRice" eId="spk_140">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_206">The committee will now continue its consideration of the future of maternity services nationally, including the national maternity strategy and the co-location of maternity services with other services. Next on our list is Fianna Fáil's Senator Costello.</p>
+        </speech>
+        <speech by="#TeresaCostello" eId="spk_141">
+          <from>Senator Teresa Costello<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_207">I thank the witnesses for being here. I may have missed what was said. I was in the Seanad, so I apologise if I repeat anything that has been said. I have received calls about Portiuncula. There seem to be many concerns around it. I am told it raises national questions about the future governance and oversight of rural maternity services and whether a clear national framework exists for smaller maternity units. What evidence thresholds apply? How are rural geography and travel access considered? What independent scrutiny is required? What restoration pathways exist if services are reduced?</p>
+          <p eId="para_208"> The Rotunda has developed community midwifery clinics, home visits and post-natal hubs. What would be needed to expand that model? </p>
+          <p eId="para_209"> The witnesses have outlined significant increases in complexity, including gestational diabetes, pre-eclampsia, Caesarean section and older mothers. Is the current staffing model keeping pace with this increased complexity?</p>
+        </speech>
+        <speech by="#" eId="spk_142">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_210">I will start on the Portiuncula question and broaden it out to our learning across the west and north west from the last ten years of the implementation of the maternity strategy, which is directly relevant to Portiuncula as well. One of the key provisions in the national maternity strategy was the development of networks of care across the country. I guess "proactive" might be the best way to describe our disposition towards the development of a network of care because we only had statutory hospitals and were a clearly defined geographical patch. It was perhaps easier for us to develop a cohesive network of care across the west and north west. We did that and it has been in place for some time. It is led by a clinical director with a regional director of midwifery, who is now regional director of nursing and midwifery. The focus of the network has been on the quality of care provided and the strategic development of our services. We have managed to knit - if that is the correct term - our five maternity units together, particularly in the context of the quality of care they provide. Key performance indicators that indicate whether there are issues of concern are in place and are monitored and reported on regularly across all our units. They are reviewed by the clinical director and then they form a reporting line right up-----</p>
+        </speech>
+        <speech by="#TeresaCostello" eId="spk_143">
+          <from>Senator Teresa Costello<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_211">Who is responsible for putting the data in the KPIs that are being reviewed? What would be included in the KPIs?</p>
+        </speech>
+        <speech by="#" eId="spk_144">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_212">We use mainly the maternity indicators which are used across the country and published on the HSE website. They are used by all maternity units. We have adopted those for use in ours. The difference is that our network is directly involved with each of our maternity units in examining those KPIs monthly and reporting on them within the region. It is also directly involved in any incidents that arise. Incidents do arise in maternity units and the network is involved in the assessment of and response to those incidents.</p>
+          <p eId="para_213">In this instance, the response is quite significant. We have mentioned Portiuncula hospital. It is a good example but there are often other incidents as well. There is then the learning from those incidents that we try to extend across all of our maternity units. It is about trying to do that in a systematic way. That is a very long way to answer the Senator's question. The key to all of that has been the establishment of our network of care which, as I said, is a key provision of the national maternity strategy.</p>
+        </speech>
+        <speech by="#TeresaCostello" eId="spk_145">
+          <from>Senator Teresa Costello<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_214">It is the network of care. What focus has been placed on rural maternity access?</p>
+        </speech>
+        <speech by="#" eId="spk_146">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_215">That is an important question to ask. In a way, there is a contrast between our experience and the context in which we deliver maternity services and, for example, the Rotunda Hospital. Ms Broderick referred to the difference between the mid-west and Dublin city centre. We have five maternity units and the total number of deliveries across those five units might come close to what the Rotunda delivers in a single year. That does not mean the maternity unit in Letterkenny is any less important than the one in Dublin city centre, however. It is important to people who live in Donegal and those who live far beyond Letterkenny as well. Physical access to maternity services is important.</p>
+          <p eId="para_216"> The difficulty with having a number of small maternity units with small numbers of deliveries is dealing with the challenges of recruitment and ensuring the quality of care provided is consistent and always improving. Again-----</p>
+        </speech>
+        <speech by="#TeresaCostello" eId="spk_147">
+          <from>Senator Teresa Costello<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_217">How is that done?</p>
+        </speech>
+        <speech by="#" eId="spk_148">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_218">The challenges in relation to workforce are ongoing. We see that as a repeated feature in many of the incidents that we have dealt with over the years. Workforce remains an ongoing challenge, particularly for model 3 hospitals and co-located maternity services in model 3 hospitals. There is no question about that. The answer to the other half of it is, again, the network of care and not leaving those units in isolation. In our case, across the region, we make them part of a collective.</p>
+        </speech>
+        <speech by="#TeresaCostello" eId="spk_149">
+          <from>Senator Teresa Costello<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_219">I have a question about the Rotunda Hospital and the community midwifery clinics and home visits. What would be needed to expand that model further? Is it planned to be expanded further?</p>
+        </speech>
+        <speech by="#" eId="spk_150">
+          <from> Ms Fiona Hanrahan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_220">We just recently opened our post-natal hubs, in January. They are kindly funded by the national women and infants health programme, NWIHP. It is a way of providing extended post-natal care for women for up to six weeks. We are going to build on that this year and into next year. We are well established and have been working in the communities of north Dublin for 20 years. It would be lovely to provide that care for women who go to give birth in the Coombe hospital or Holles Street hospital and work with a Dublin-based approach to expand access to midwifery across Dublin, rather than just for those women who book into the Rotunda Hospital. That is a huge challenge, however. It would require staffing and looking at the skills mix in the community.</p>
+          <p eId="para_221"> Certainly, although the post-natal hubs have only started since January, we are already seeing an increased need. We have a physiotherapist, two midwives and a care assistant but we are now doing a needs assessment as well because women are asking why they cannot get perinatal mental health support in the community. As we do something new, we see the need. We are doing an ongoing assessment in that regard, and then we will build a business case for more resourcing in the community.</p>
+        </speech>
+        <speech by="#TeresaCostello" eId="spk_151">
+          <from>Senator Teresa Costello<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_222">The Rotunda is getting good feedback in this regard.</p>
+        </speech>
+        <speech by="#" eId="spk_152">
+          <from> Ms Fiona Hanrahan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_223">We are getting phenomenal feedback. You would wonder why it was not available before. It is phenomenal.</p>
+        </speech>
+        <speech by="#TeresaCostello" eId="spk_153">
+          <from>Senator Teresa Costello<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_224">I am thinking back to 18 years ago when I had my son. It would have been nice to have something like that in place.</p>
+        </speech>
+        <speech by="#" eId="spk_154">
+          <from> Ms Fiona Hanrahan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_225">We are trying to build social networks for the women as well. For example, in Blanchardstown, a group of women who came through the post-natal hub meet every Monday for coffee. That is separate from the hubs. Their babies are now five months old. They would not have known each other before the hub, but they have developed a social network. Part of our remit is to discharge them to each other. They come and-----</p>
+        </speech>
+        <speech by="#TeresaCostello" eId="spk_155">
+          <from>Senator Teresa Costello<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_226">They learn off one another and support one another.</p>
+        </speech>
+        <speech by="#" eId="spk_156">
+          <from> Ms Fiona Hanrahan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_227">Exactly.</p>
+        </speech>
+        <speech by="#TeresaCostello" eId="spk_157">
+          <from>Senator Teresa Costello<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_228">I am not fully familiar with the scheme. Do the nurses look at the babies? Do the mothers bring their babies with them?</p>
+        </speech>
+        <speech by="#" eId="spk_158">
+          <from> Ms Fiona Hanrahan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_229">Yes. The midwives provide welfare checks, breastfeeding support, womb checks and blood pressure tests. Anything that does not need hospital care is done in the hub.</p>
+        </speech>
+        <speech by="#TeresaCostello" eId="spk_159">
+          <from>Senator Teresa Costello<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_230">That is brilliant. I will look into that further.</p>
+        </speech>
+        <speech by="#" eId="spk_160">
+          <from> Ms Fiona Hanrahan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_231">The Senator is welcome to visit any time.</p>
+        </speech>
+        <speech by="#TeresaCostello" eId="spk_161">
+          <from>Senator Teresa Costello<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_232">I would like that because aftercare support is important. It keeps the mothers strong.</p>
+          <p eId="para_233"> When it comes to gestational diabetes, is the current staffing model keeping pace with the increase in complexity, given that the birth rate is down?</p>
+        </speech>
+        <speech by="#" eId="spk_162">
+          <from> Dr. Clíona Murphy<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_234">With the maternity strategy, we had three pathways to support, namely, supported, assisted and specialised care. Given the increased complexity, we have to look at what we need to plan for the future. We are in the process of finishing a piece of work that looks at a baseline assessment of maternal medicine across the country. My colleague, Professor Regan, has led out on that. It is looking at what is available across all units and the links with specialisms, such as cardiology, gastroenterology, etc, as well as the needs of people with underlying medical disorders. With diabetes having increased so much in the past ten years, the needs have grown, as have the clinics. It is about having that network. While not all facilities may be available on the one site, it is about where one escalates care. It is important to build the midwifery model into that. It is not just about a doctor but, rather, a multidisciplinary team. Those jobs are attractive for people if we get them in there. That covers pre-term birth, obesity, medical disorders, etc.</p>
+        </speech>
+        <speech by="#SorcaClarke" eId="spk_163">
+          <from>Deputy Sorca Clarke<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_235">I thank the witnesses for coming in this morning. I will start with a comment. I have no doubt Professor Daly is familiar with some of the reports that come into Oireachtas committees. I was pleasantly struck by the sentence in the Rotunda Hospital’s opening statement that said, "We firmly believe that the essence of care is kindness". This committee deals with health, but we deal with people. It is reassuring to see kindness mentioned in an opening statement. It is one of the most underrated qualities in the health profession.</p>
+          <p eId="para_236"> I will follow up on something else from that opening statement. It is around the foetal medicine unit and the foetal surgery service that is provided through the Rotunda Hospital. The statement notes that they should be supported in any new maternity strategy. Will Professor Daly outline to the committee the impact if they are not included in a new maternity strategy?</p>
+        </speech>
+        <speech by="#" eId="spk_164">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_237">For example, the foetal surgery service we are proposing is currently provided in Leuven, Belgium. It is a huge challenge for women to go over there in order for their baby who has a congenital abnormality to get treated. The timeline for that can be six to eight weeks by the time treatment happens. Those women can then repatriate to Ireland. At the foetal surgery meeting we held in the Rotunda, we were very struck by the experience of a mother whose baby was affected. She went to Belgium and she outlined all the social challenges she faced during that time. Obviously, the cost of the procedure and everything was covered by the treatment abroad scheme, but the social cost of finding accommodation and feeling safe in that environment was huge.</p>
+        </speech>
+        <speech by="#SorcaClarke" eId="spk_165">
+          <from>Deputy Sorca Clarke<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_238">She was removed from her support network at a time when support was most critical.</p>
+        </speech>
+        <speech by="#" eId="spk_166">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_239">Absolutely. We are fortunate that Professor Deprest, who leads that service in Belgium, has committed to come to the Rotund for a day and a half from quarter 4 of this year. This has been supported by the integrated health area manager, Ms McLoone. We are excited about that development.</p>
+        </speech>
+        <speech by="#SorcaClarke" eId="spk_167">
+          <from>Deputy Sorca Clarke<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_240">I will follow up on a response Professor Daly gave to my colleague, Deputy Cullinane, around endometriosis and the regional treatment aspect. He mentioned two areas in Louth. What exact areas are covered under that regionalisation?</p>
+        </speech>
+        <speech by="#" eId="spk_168">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_241">We are part of the Dublin north-east region. That is our responsibility. The main healthcare providers in that region include Cavan and Drogheda hospitals, the Rotunda Hospital, Beaumont Hospital and Connolly hospital.</p>
+        </speech>
+        <speech by="#SorcaClarke" eId="spk_169">
+          <from>Deputy Sorca Clarke<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_242">I will tell Professor Daly exactly what I am getting at. How are Longford and Westmeath fitting into that regional plan? Are they fitting in? The witnesses are saying that Longford is not fitting into that plan. Disappointingly, that is what I thought.</p>
+          <p eId="para_243"> Turning to Ms Hanrahan, there was talk earlier about perinatal inpatient units. In the context of community services, the site for St. Vincent's University Hospital has been chosen. It has taken an inordinate amount of time, but the site has been picked. When looking at the community level of care, how is the mental health of new mothers within that community structure being managed?</p>
+        </speech>
+        <speech by="#" eId="spk_170">
+          <from> Ms Fiona Hanrahan<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_244">Mental health is a huge issue within maternity services. Primary care does a lot of the work. The GPs are phenomenal in caring for women with mild mental health conditions. We are fortunate that we have a specialist, multidisciplinary perinatal mental health team fully established. It is out the door with work, however.</p>
+          <p eId="para_245">Luckily, a new psychiatry post has been assigned to us. We hope to get a second team. You should have one full team for every 4,000 births. That is what the standard should be. We have one team for over 8,000 births. We are looking to improve that. It is certainly about upskilling people, for example, upskilling midwives with perinatal mental health qualifications, dealing with the lower level of distress among midwifery nursing, and then moving up through psychology, occupational therapy and on to psychiatry. It is a complex area that includes all of us, plus primary care partners.</p>
+        </speech>
+        <speech by="#SorcaClarke" eId="spk_171">
+          <from>Deputy Sorca Clarke<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_246">I will move to Mr. McGrane from the HSE. There is a vast difference between his opening statement and the last time this committee had a discussion of the maternity strategy only a number of weeks ago. Obesity rates are rising, as are the proportion of first-time mothers who suffer postpartum haemorrhage and unbooked pregnancies. That information is contained in other work that the HSE and the Department do. With the changes in demographics and in the person presenting for maternity care, is ten years too long for a maternity strategy?</p>
+        </speech>
+        <speech by="#" eId="spk_172">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_247">If the Deputy is asking for a personal opinion,-----</p>
+        </speech>
+        <speech by="#SorcaClarke" eId="spk_173">
+          <from>Deputy Sorca Clarke<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_248">I am.</p>
+        </speech>
+        <speech by="#" eId="spk_174">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_249">-----I would say that it is. The timeframe of five years is probably more reasonable. Ten years was picked because the lack of prioritisation of maternity in the past meant that there were a lot of building blocks to be put in place to facilitate it. The data we have from public health, with those changes in the population that we serve, and sometimes underserve, is relatively new. The piece of work was done earlier this year. It reinforces the message that has come back to us from the maternity service over the past four or five years, which is that the population's needs have increased significantly.</p>
+        </speech>
+        <speech by="#SorcaClarke" eId="spk_175">
+          <from>Deputy Sorca Clarke<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_250">They have changed dramatically in some cases.</p>
+        </speech>
+        <speech by="#" eId="spk_176">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_251">That is exactly right.</p>
+        </speech>
+        <speech by="#SorcaClarke" eId="spk_177">
+          <from>Deputy Sorca Clarke<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_252">When Mr. McGrane says that 98% of the national maternity strategy actions are complete or in progress, does the remaining 2% relate to operational or structural work?</p>
+        </speech>
+        <speech by="#" eId="spk_178">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_253">The biggest outstanding issue is a review of the maternity and infant care scheme. It has been tied up with a review of general practice that has been going on in the Department. A lot of preparatory work has been done. There are no major recommendations that we feel are still outstanding. The changes I spoke about in the opening statement were changes that had happened but were not reflected in the maternity strategy. These are additional pressures that the committee has heard my colleagues from the Rotunda set out clearly from the perspective of an individual hospital and we are reflecting them at a national level.</p>
+        </speech>
+        <speech by="#SorcaClarke" eId="spk_179">
+          <from>Deputy Sorca Clarke<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_254">Would the changes that were not included in the first strategy have been captured if the strategy had been five years in length as opposed to ten?</p>
+        </speech>
+        <speech by="#" eId="spk_180">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_255">It would be speculation on my part to say so, but I think we would have a better handle on it. My colleague, Dr. Murphy, mentioned earlier that we must be able to flex the models that we have in place better than we do at the moment. It was important that we were able to get the model of care in the first strategy with the three pathways in place. We now have to work out how to move between them more seamlessly and meet the needs of women where they are as opposed to-----</p>
+        </speech>
+        <speech by="#SorcaClarke" eId="spk_181">
+          <from>Deputy Sorca Clarke<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_256">As opposed to where you would like them to be. I will move on to postnatal hubs. Nine hubs are operational and four are under development. Only 13 or 19 areas are actually covered. When will every maternity service have access to a postnatal support hub?</p>
+        </speech>
+        <speech by="#" eId="spk_182">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_257">We will include the next tranche in the Estimates for 2027. There are six areas that will not have a hub when the additional four come on. We will be optimistic of getting that support. The hubs are a fantastic initiative. The first five have been up and running since 2023. They are highly effective. As Ms Hanrahan set out, the hub in the Rotunda works very well. We recommended an innovative all-of-Dublin approach in terms of how maternity care works in Dublin.</p>
+        </speech>
+        <speech by="#SorcaClarke" eId="spk_183">
+          <from>Deputy Sorca Clarke<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_258">One third of the maternity units are still outside the coverage of the hubs.</p>
+        </speech>
+        <speech by="#" eId="spk_184">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_259">That is still the case. Part of the reason is that when we went out with expressions of interest, and we did not hand-pick them, it was those who were in a position to get them up and running that we went with first. In other words, we wanted to build success. The first five we had were terrific in getting it up and running and we have learned a lot.</p>
+        </speech>
+        <speech by="#SorcaClarke" eId="spk_185">
+          <from>Deputy Sorca Clarke<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_260">I have one eye on the clock so I am not going to get to ask this question in its totality, but could Mr. McGrane please come back to the committee with the breastfeeding rates, information about lactation consultants, the level of staff across the 19 units, the ratio of specialists to births, the availability of out-of-office hours in the evenings and at weekends, the regional access breakdown and, more importantly, the breastfeeding initiation rates per maternity unit and the continuation in maternity units?</p>
+        </speech>
+        <speech by="#" eId="spk_186">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_261">Will do.</p>
+        </speech>
+        <speech by="#ColmBurke" eId="spk_187">
+          <from>Deputy Colm Burke<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_262">I thank the witnesses from the Rotunda, and, indeed, all the maternity hospitals across the country, for the work that is being done in the hospitals and the care that is being provided. I will go first to Professor Daly in the Rotunda. He spoke about the meeting with the planning commission. That whole process is now going back to the drawing board. It is, I imagine, going to take somewhere around four years between trying to get through a new planning proposal and going through to development. In the meantime, does the Rotunda require immediate funding for work that needs to be done to improve services? I was there recently and was shocked by the conditions in which staff had to work while at the same time providing the best quality care for the babies and their mothers. There must be challenges there that need immediate attention. Where are we with getting access to funding to do that work immediately?</p>
+        </speech>
+        <speech by="#" eId="spk_188">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_263">A comprehensive plan has been put in place around the Rotunda. The first part of that was the opening of Hampson House by the Taoiseach at the start of last year. That has allowed us to deliver excellent outpatient care.</p>
+          <p eId="para_264"> The Deputy is right that we need support. The main challenge for us and the main issue identified on our risk register is the neonatal intensive care unit. I do not think there is a realistic solution before the critical care wing. We are in a situation whereby we have a good and busy neonatal facility. We take, as I said previously, 32% of all the transfers around the country into our facility. However, the structure of the facility is not consistent with 21st century care.</p>
+        </speech>
+        <speech by="#ColmBurke" eId="spk_189">
+          <from>Deputy Colm Burke<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_265">I looked at the figures for the Rotunda. In 2009, when we had one of the highest birth rates, we had 75,000 births and 7,500 of those were in the Rotunda. We are now down to 54,000 births. The 7,500 births in 2009 were 10% of the total. We are now at 54,000 births per annum and the Rotunda is at 8,600, which is approximately 16% of all births.</p>
+          <p eId="para_266"> My next question for the HSE is about the number of units that have fewer than 1,500 deliveries per annum and the challenge for those units as regards the critical skills of the consultants. I have raised the issue previously. In one maternity hospital, there was a 73% Caesarean section rate of first-time mothers in one month. How are we now dealing with the critical skills issue in the context of consultants in smaller hospitals? At one stage, the smaller hospitals had two consultants who were dealing with 1,000 or 1,200 births per year. Now, something like six consultants are dealing with something like 1,200 births. How are we going to deal with that into the future?</p>
+        </speech>
+        <speech by="#" eId="spk_190">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_267">The plan to get to six was important. One of the biggest issues that our regional maternity units - and both regional executive officers, REOs, have spoken about the specific challenges they have - have is an over-reliance on locum cover. When there are only two consultants, as the Deputy outlined, you are on a one-in-two call rota, which is not sustainable.</p>
+        </speech>
+        <speech by="#ColmBurke" eId="spk_191">
+          <from>Deputy Colm Burke<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_268">That has gone now. We now have approximately six consultants for the smaller units. How many units have fewer than 1,5000 deliveries per year?</p>
+        </speech>
+        <speech by="#" eId="spk_192">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_269">I do not have the exact figure, but I think that more than 50% have fewer than 1,500 births per annum. We find that when we go to the units, nobody says they are underemployed or are not keeping their skills up to pace. We also have the issue that, where possible, we use the maternity networks to ensure that the level of complexity moves to the higher level units <i>in utero</i> if at all possible so that the tertiary-----</p>
+        </speech>
+        <speech by="#ColmBurke" eId="spk_193">
+          <from>Deputy Colm Burke<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_270">Is there any programme where people who work in the smaller units work some days of the month in the larger units, where there is expertise, in order that they can keep themselves up to date?</p>
+        </speech>
+        <speech by="#" eId="spk_194">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_271">I might ask Mr. Canavan to come in.</p>
+        </speech>
+        <speech by="#" eId="spk_195">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_272">There is an example in our region where we have a shared consultant post between Galway and Ballinasloe. It is not always straightforward.</p>
+          <p eId="para_273">It does work and it has some benefits, but it can be complex to operationalise. Travel distances are important. For example, the distance between Galway and Ballinasloe could probably be covered in about an hour comfortably but our other units are much farther apart.</p>
+        </speech>
+        <speech by="#ColmBurke" eId="spk_196">
+          <from>Deputy Colm Burke<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_274">I will go back to another issue. The health committee has received a letter about a study done in France on foetal alcohol syndrome and where there are adverse effects due to people taking drugs or drink while pregnant. Do we believe that we have an adequate education programme on that at the moment for advising on the risks of taking drugs or drinking while pregnant? Could a lot more could be done on that from the HSE's point of view? We have challenges in that area. Is enough being done on it?</p>
+        </speech>
+        <speech by="#" eId="spk_197">
+          <from> Ms Mellany McLoone<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_275">There is always more that we could do, but there has been a huge amount of progress in the development of what we refer to as our social inclusion services. We have been in front of the committee previously regarding the new drug addiction strategy. What has also changed over the last number of years is our societal attitude to alcohol. There is more work being done on understanding what addiction means, particularly in terms-----</p>
+        </speech>
+        <speech by="#ColmBurke" eId="spk_198">
+          <from>Deputy Colm Burke<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_276">What about drugs, for instance? There is a far higher incidence of drugs now.</p>
+        </speech>
+        <speech by="#" eId="spk_199">
+          <from> Ms Mellany McLoone<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_277">We absolutely do. As we have said here previously, there is probably no family in the country that has not been impacted by either drugs or alcohol over the last years. It is also important to say that it is not something that exists in just vulnerable communities. Rather, it is spread right across society. There is a huge amount of work being done. It is also important that there is a large amount of work being done through our-----</p>
+        </speech>
+        <speech by="#ColmBurke" eId="spk_200">
+          <from>Deputy Colm Burke<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_278">Does Ms McLoone think there should be more education?</p>
+        </speech>
+        <speech by="#" eId="spk_201">
+          <from> Ms Mellany McLoone<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_279">Absolutely, but there is a large amount of work being done with students and colleges. There are lots of examples throughout the country with our health and well-being staff, and there is even a HSE presence at music festivals and stuff like that. This is all going towards a change in attitudes.</p>
+        </speech>
+        <speech by="#ColmBurke" eId="spk_202">
+          <from>Deputy Colm Burke<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_280">On average per annum, in how many of the Rotunda's 8,600 deliveries would the hospital be dealing with an adverse outcome as a result of parents being on drugs or drink?</p>
+        </speech>
+        <speech by="#" eId="spk_203">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_281">We have a clinic called the DOVE Clinic, which cares for women who have alcohol and drug dependency. There would be approximately 200 women at that clinic. It also deals with women who have infectious complications of pregnancy. Twenty years ago, there was a relatively huge number of women with HIV. That has become really smaller over the years. The DOVE Clinic is our clinical team that deals with those complications.</p>
+        </speech>
+        <speech by="#ColmBurke" eId="spk_204">
+          <from>Deputy Colm Burke<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_282">Is Professor Daly saying that we have an adequate structure for dealing with it now right across the country or is it specifically the Rotunda that is dealing with this issue?</p>
+        </speech>
+        <speech by="#" eId="spk_205">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_283">It is well catered for in the Rotunda. I cannot speak for other units across the country, but the Rotunda has a dedicated team to deal with these issues.</p>
+        </speech>
+        <speech by="#ColmBurke" eId="spk_206">
+          <from>Deputy Colm Burke<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_284">What are the supports for the parents once the baby is born? Is Professor Daly satisfied that there are adequate supports for them after they have left the hospital?</p>
+        </speech>
+        <speech by="#" eId="spk_207">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_285">Obviously, there are huge social issues that are associated with drug and alcohol abuse. While I am happy that they are well cared for in the Rotunda and well supported postnatally, and we would encourage women to come back to our postnatal hubs, for example, to have ongoing care, the wider societal issues are more complex.</p>
+        </speech>
+        <speech by="#ColmBurke" eId="spk_208">
+          <from>Deputy Colm Burke<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_286">I thank the witnesses.</p>
+        </speech>
+        <speech by="#MichaelCahill" eId="spk_209">
+          <from>Deputy Michael Cahill<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_287">I would like to raise again the proposed new maternity unit at University Hospital Kerry. The existing maternity unit is at a distance from the surgical theatre. Others and I have received complaints in the past about the safety of mothers and babies. I was informed that the new maternity unit was at reappraisal stage and that it would be situated closer to theatre. This is very welcome. I was also informed that there would be a dedicated lift for obstetric patients for the safe transfer of patients when required. How soon will we see a new maternity unit at University Hospital Kerry? How long more will we have to wait to ensure that Kerry mothers are catered for in a safe environment? Do we have any update on the staffing levels in the existing maternity unit?</p>
+        </speech>
+        <speech by="#" eId="spk_210">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_288">I cannot give an update on the planned timeline. I will have to check with the regional executive officer for the south west. It has just come back on the plan. I know that there are plans for the new unit. As the Deputy said, the issue of proximity to surgery is the key element. There is a dedicated lift in place. I have been there, as have my colleagues. It might sound a little bit antiquated but there is a key that is only available to maternity staff to ensure that they have emergency access. This followed the HIQA review and has been in place for a number of years.</p>
+          <p eId="para_289"> Does Ms Dunne know about the staffing levels off the top of her head?</p>
+        </speech>
+        <speech by="#" eId="spk_211">
+          <from> Ms Angela Dunne<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_290">I was talking to the director of midwifery yesterday. Basically, her issue is with recruitment to fill the vacant posts. There are challenges. The hospital got a midwife from Wales. Graduates from Wales are finding it difficult to get employment and it is an opportunity for us to recruit from Wales.</p>
+          <p eId="para_291"> I visited the new postnatal hub and the ambulatory gynae in Kerry yesterday. It is a lovely piece of work. We have given the hospital additional staff to run that service. There is great excitement. That will help with the recruitment and retention of staff.</p>
+        </speech>
+        <speech by="#MichaelCahill" eId="spk_212">
+          <from>Deputy Michael Cahill<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_292">I ask that the witnesses revert to me with timelines when they have that information because this is very important to us.</p>
+        </speech>
+        <speech by="#ManusBoyle" eId="spk_213">
+          <from>Senator Manus Boyle<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_293">I thank everyone for coming in. I also thank all the nurses, doctors and staff all over this country who keep our units working well. They put in a great shift and need to be complimented.</p>
+          <p eId="para_294"> Professor Daly said that gestational diabetes had increased and we now we had over 1,700 appearing with us. Why do we see the massive rise at this end of it?</p>
+        </speech>
+        <speech by="#" eId="spk_214">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_295">There are a couple of aspects to that. The women are getting older, obesity levels are going up and we are dealing with more women who come from countries where diabetes is much more common. That has resulted in 1,700 women being cared for through our gestational diabetes service. That is a huge number. Half of the maternity units in Ireland would not deliver 1,700 births. We need to look at new and innovative ways to care for those women. I believe that midwifery is central to these care provision plans.</p>
+        </speech>
+        <speech by="#ManusBoyle" eId="spk_215">
+          <from>Senator Manus Boyle<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_296">It seems to be a massive rise. Would cases be higher in some parts of the country than others?</p>
+        </speech>
+        <speech by="#" eId="spk_216">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T11:10:00+01:00"/></from>
+          <p eId="para_297">I am not sure. Wherever the population is ageing or obesity rates are going up, that is always going to factor in.</p>
+          <p eId="para_298">The other thing that has been factored in from a clinical point of view is that the diagnostic criteria have dropped. When I started looking after diabetic women in the Coombe 20 years ago, the levels at which we would make the diagnosis were much higher. Now, the threshold for making that diagnosis has dropped as a result of clinical factors and outcomes. For very practical reasons, the threshold has dropped, but, obviously, this has increased the number of people who end up getting that diagnosis.</p>
+        </speech>
+        <speech by="#ManusBoyle" eId="spk_217">
+          <from>Senator Manus Boyle<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_299">Professor Daly also referred to an all-Ireland approach here. How would he see that being rolled out?</p>
+        </speech>
+        <speech by="#" eId="spk_218">
+          <from> Professor Sean Daly<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_300">This is around the foetal surgery unit. We held a very successful foetal surgery meeting in the Rotunda, which the Minister kindly attended. This service would be required for relatively few women. Primarily, there are two foetal abnormalities that could be managed. There is a congenital diaphragmatic hernia where the diaphragm does not develop and the abdominal contents end up in the baby's chest. We can make that diagnosis by means of ultrasound. Much more commonly in Ireland, we would have spina bifida. That is now possible to manage before the baby is born. Both of those interventions where we manage the congested diaphragmatic hernias and close the neuro tube defect can now be managed during pregnancy.</p>
+        </speech>
+        <speech by="#ManusBoyle" eId="spk_219">
+          <from>Senator Manus Boyle<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_301">I thank Professor Daly. I will move to Mr. Canavan. I was glad that he mentioned Letterkenny on a couple of occasions. What is the long-term plan for the maternity units in the north-west region and specifically Letterkenny?</p>
+        </speech>
+        <speech by="#" eId="spk_220">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_302">Maybe I will start with Letterkenny and the north. We were developing a new development control plan for the whole campus, which will obviously incorporate the requirement for maternity services on the campus as well. Our long-term plan is that it continues to be so. Co-location is a topic that has been discussed but for our hospitals, that is not even something we would consider. All of our units are going to continue to be co-located. It is as simple as that. Letterkenny is no exception either. I think that Letterkenny but also all the hospitals and maternity units in the west and north west have benefited from the networked approach, so being linked to the other maternity units is really important. It helps with the skills issue that was described earlier. It helps with recruitment issues. It helps with quality and patient safety. It helps us to manage instances as they arise. It also helps with the quality of care we are providing overall, so Letterkenny being part of that is part of our strategic development.</p>
+        </speech>
+        <speech by="#ManusBoyle" eId="spk_221">
+          <from>Senator Manus Boyle<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_303">What are the current staffing vacancies in the maternity service in the north west, including consultants, midwives and neonatal staff?</p>
+        </speech>
+        <speech by="#" eId="spk_222">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_304">I will not even hazard a guess at it, but I will certainly come back to the Senator with the information. Obviously, it is something that changes day to day. I will come back to the Senator with detailed information on vacancies.</p>
+        </speech>
+        <speech by="#ManusBoyle" eId="spk_223">
+          <from>Senator Manus Boyle<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_305">Are we doing a cross-Border service between Letterkenny and, say, Altnagelvin or is there anything in place there?</p>
+        </speech>
+        <speech by="#" eId="spk_224">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_306">Is that in respect of maternity services?</p>
+        </speech>
+        <speech by="#ManusBoyle" eId="spk_225">
+          <from>Senator Manus Boyle<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_307">Yes.</p>
+        </speech>
+        <speech by="#" eId="spk_226">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_308">No. There are no specific initiatives that come to mind. We obviously have a number of other connections such as, for instance, radiotherapy, renal dialysis, the National Ambulance Service and cardiology services. There are a number of services that are connected. I do not think I am mistaken. In case I am, I will come back to the Senator.</p>
+        </speech>
+        <speech by="#ManusBoyle" eId="spk_227">
+          <from>Senator Manus Boyle<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_309">I thank Mr. Canavan. I have a question for Ms Broderick. We heard last week that staff feel undervalued in hospitals and that they are worn out. How can we stop experienced staff leaving and going to the private sector? Ms Broderick did mention that earlier. How can we boost the morale of our staff that are there?</p>
+        </speech>
+        <speech by="#" eId="spk_228">
+          <from> Ms Sandra Broderick<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_310">All of us here are staff members of the health service. The staff tell us that they feel overburdened and undervalued. If we pick any emergency department, we can walk in and see some of the behaviours from members of the general public towards our staff. That is very difficult to go into day in, day out. Society has changed an awful lot in terms of people's expectation of the health service. There is more complexity involved right across all services, not just maternity services. There is huge expectation on our workforce, so we have to develop the opportunities for them to be able to get enhanced training, make sure we give them rosters that work for them so we can retain them and provide further educational and promotional opportunities. Our staff tell us that housing is one of the biggest things for them as well. These are things that affect wider society, whether it is in education or the workforce. Everything that affects other sectors affects the health service. It is also the stress. They are dealing with life and death situations all the time, so we need to make sure that we are offering support to our staff anytime something goes wrong and that we look systemically at things when they go wrong, not just at individuals, in terms of how we approach healthcare and improve the safety of healthcare in our services. Again, however, I want to acknowledge, and I think everyone here is acknowledging, the enormous efforts being made by our workforce in the health service. It is phenomenal. We might look at the average age expectancy in Ireland. That did not fall out of the sky. There has been a huge effort from everyone in the health service and I want to acknowledge it again today as well.</p>
+        </speech>
+        <speech by="#ManusBoyle" eId="spk_229">
+          <from>Senator Manus Boyle<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_311">Do the witnesses think perhaps more favourable shift patterns could work or that something could be put together that could make life easier and staff would want to stay? What we heard was that there is not as much stress if they go into the private sector.</p>
+        </speech>
+        <speech by="#" eId="spk_230">
+          <from> Ms Mellany McLoone<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_312">I might come in if that is okay. What there will always be tension with is that the health services are required to provide services 24-7. That is a fact. If we even look at during Covid, we were probably some of the few people who still had to turn up to work every day and that is a reality. There is always a tension. We would love if everybody worked five days per week and only worked eight hours per day, but that is not the reality. That is not what the public require of us. One area of improvement we are looking at is how we can rotate staff through those high-pressure services. There will always be a requirement for staff to work 24-7 in emergency departments. We are looking now at doing extended days in terms of longer working hours and at how all aspects of our health services are working seven days per week. That requires a huge cultural change. Within that balance, however, we, of as leaders within the health services, cannot lose sight of the fact that the public require us to be available 24-7 and we have to balance, if you like, the requirements of staff within that. Equally-----</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_231">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_313">We are over time. I thank Ms McLoone very much. We are coming to the end of our first round. We have two additional speakers who are not committee members who have indicated that they want to come in. I will take indications from committee members if they have additional questions and want to come back in. What we might do is take five minutes each for everybody in order that we will be done by 12 noon. We will start with Senator Conway.</p>
+        </speech>
+        <speech by="#MartinConway" eId="spk_232">
+          <from>Senator Martin Conway<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_314">I thank everyone very much. I commend them on the work they do. I have been listening to them all morning. Despite the challenges and difficulties, they do a remarkable job. One of the things that stood out is the fact that in spite of the difficulties in the Rotunda, no woman has lost her life in 20 years, which is just fantastic. I am delighted to hear that.</p>
+          <p eId="para_315"> I want to expand on the line of questioning my colleague Senator Byrne pursued with Ms Broderick regarding the situation in Limerick. It is accepted by everybody and it is planned that there will be a new maternity hospital in Limerick. I would like to hear more about the planned expansion of services and also about the new development board that has been appointed. Is the remit for that going to be a new maternity hospital co-located with the new hospital that is being proposed? That is what is accepted, and that is needed. Sadly, and maybe I am wrong and stand to be corrected on this, but I would like to think that the same statistic for the Rotunda is applicable to Limerick. Maybe Ms Broderick could also talk to us about the blue light arrangements that are in place between the current maternity hospital and UHL at this moment.</p>
+        </speech>
+        <speech by="#" eId="spk_233">
+          <from> Ms Sandra Broderick<recordedTime time="2026-05-27T11:20:00+01:00"/></from>
+          <p eId="para_316">We produce our maternity safety statement on a monthly basis. We are within confidence intervals in terms of the safety of the services we provide. HIQA carried out an inspection of our maternity services not that long ago. There are obviously things that we need to improve upon, and we have an improvement plan around that.</p>
+          <p eId="para_317">We certainly have challenges with our infrastructure in that current unit. Within the current maternity strategy, the replacement of the maternity unit is planned for Limerick. A decision needs to be made on the co-location piece and where that is going to be. On the development-----</p>
+        </speech>
+        <speech by="#MartinConway" eId="spk_234">
+          <from>Senator Martin Conway<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_318">Is there scope to build a new maternity hospital on the site that has been procured?</p>
+        </speech>
+        <speech by="#" eId="spk_235">
+          <from> Ms Sandra Broderick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_319">I do not have an answer for that. I am not trying to be evasive with the Senator but I do not have an answer. It is a 45-acre site. I have not seen the terms of reference for the development board. I am sure all of that will be contained within that. I assume so.</p>
+        </speech>
+        <speech by="#MartinConway" eId="spk_236">
+          <from>Senator Martin Conway<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_320">Okay, sorry for interrupting. In terms of the expansion of maternity services, since I entered politics 23 years ago, the same day as Deputy Crowe, there has been talk of a new maternity hospital. It seems that we might have a couple of baby steps taken in that direction but we are talking about a minimum of ten years before we are going to see anything significant. The terms of reference for the development board are important but between then and now, what are the proposals or plans for expanding maternity services over the next two to five years?</p>
+        </speech>
+        <speech by="#" eId="spk_237">
+          <from> Ms Sandra Broderick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_321">We have an exceptional perinatal mental health service in the mid-west that was grown over the last number of years. That is the first thing in terms of new services that we have. We are going to have the first gynaecology proctor in Ireland in the mid-west region. That is for doing endometriosis surgery so there is expansion of our services there. Going back to the infrastructural piece, we have to maintain the building that we have. Our focus is on trying to make that building as safe as we possibly can to deliver the services we need for the babies being born there today, tomorrow, next week and next year. In the meantime, we have to keep maintaining the building until such time as decisions are made in terms of where that maternity hospital will go.</p>
+        </speech>
+        <speech by="#MartinConway" eId="spk_238">
+          <from>Senator Martin Conway<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_322">It is then over to Government and the terms of reference. There is really no clear expansion. We are in a maintenance phase at the moment and any expansion of services is very much contingent on the terms of reference for the development board.</p>
+        </speech>
+        <speech by="#" eId="spk_239">
+          <from> Ms Sandra Broderick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_323">Absolutely. I have to absolutely acknowledge the level of investment that has come in to the mid-west region over the last number of years and that is planned for. It is enormous. I do know that we are on that strategy.</p>
+        </speech>
+        <speech by="#MartinConway" eId="spk_240">
+          <from>Senator Martin Conway<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_324">I commend Ms Broderick and her team on the fantastic work they do under very difficult circumstances. It does not go unrecognised or unacknowledged.</p>
+        </speech>
+        <speech by="#CathalCrowe" eId="spk_241">
+          <from>Deputy Cathal Crowe<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_325">I thank the Cathaoirleach for facilitating me. I am not a member of this committee ordinarily, although I was in the previous Dáil. In the past, the committee was quite critical of some of the leadership structures in the mid-west. That has changed and I commend our REO here today, Ms Broderick, and her team for leadership and communication with elected representatives, the Minister, the HSE and patient advocacy groups. It is appreciated. </p>
+          <p eId="para_326"> On 18 and 25 February, this committee also examined access to maternity care and the National Maternity Strategy 2016-2026. The co-location of the Limerick maternity hospital is within that. Since it is quite topical at the moment, is there space at the Dooradoyle site for that? If the Minister says in the morning it has to be co-located now, is there space on site for that?</p>
+        </speech>
+        <speech by="#" eId="spk_242">
+          <from> Ms Sandra Broderick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_327">There is competing priority for space on what the Deputy knows is a very congested site. He frequently writes to me in relation to people getting access to the site. There is one route into our hospital at Dooradoyle in terms of getting in and egress from the site. Is there physical space for a maternity hospital? Yes, at the front on the left hand side where the old nurses' home is. That is where it was always intended to be, or where it was envisaged that it would go, if the decision was that it would go onto the UHL site. As we know, the site is very heavily congested. It is not a decision for me. I am not an engineer or anything like that. That was certainly where it was intended to go when the old maternity strategy was in existence.</p>
+        </speech>
+        <speech by="#CathalCrowe" eId="spk_243">
+          <from>Deputy Cathal Crowe<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_328">That was my understanding also, but a lot has changed in the past decade or so. The congestion has increased significantly. The amount of things that have to be shoehorned into Dooradoyle is just overwhelming. There has been a new 42-acre site chosen nearby in Raheen. As Senator Conway noted, my understanding is that the board of that new development site, the new development board, is the body that will decide where and how this maternity hospital will be co-located, whether it is shoehorned into Dooradoyle or developed on the new site. Is that the case and has there been any movement on the constitution of that board?</p>
+        </speech>
+        <speech by="#" eId="spk_244">
+          <from> Ms Sandra Broderick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_329">I have not seen any terms of reference. I know the Minister is very committed to ensuring that board is stood up as soon as possible. The membership of the board needs to be decided on and the expertise needed to make the decisions. Where that maternity hospital is situated is a highly significant decision for lots of obvious reasons. The construct of that board is not just about sitting loads of people onto it. People are going to have to have very specific skill sets in order to advise whoever chairs that board in terms of the ongoing strategy in the mid-west region.</p>
+        </speech>
+        <speech by="#CathalCrowe" eId="spk_245">
+          <from>Deputy Cathal Crowe<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_330">It is the Minister who will constitute that board and populate it.</p>
+        </speech>
+        <speech by="#" eId="spk_246">
+          <from> Ms Sandra Broderick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_331">That is what the Minister has indicated.</p>
+        </speech>
+        <speech by="#CathalCrowe" eId="spk_247">
+          <from>Deputy Cathal Crowe<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_332">I wish to note that patient advocacy groups need to be within that too. I have met the best and brightest people, from nurses to doctors - some of them unionised and some not - and consultants, but the patient voice needs to be there. People like Angela Coll in the region, who have led things on, could be instrumental in that. </p>
+          <p eId="para_333"> It is a few years since we had our last child; our youngest is now seven. I remember in the middle of the night driving for the hospital - staying within the speed limit. Blood tests have to be taken when you arrive. It is fine during the day in Limerick maternity hospital where there is a laboratory. Bloods can be taken and tested and results are brought upstairs to the delivery room and the labour ward. Not so at night-time. A taxi has to take the samples of blood to the UHL campus in Dooradoyle and back. It seems very cumbersome. If things are going well, it is fine. No one worries about the next day because their baby is born and there are balloons in the room, but it is if things go wrong. There are rhesus factor tests to be taken, HIV screening, routine admissions and rapid infectious disease screening. It seems to be rather cumbersome and outdated. If we cannot do the ten-year co-location thing, surely we should be fast-tracking a 24-7 functioning lab in the hospital. Could Ms Broderick respond to that?</p>
+        </speech>
+        <speech by="#" eId="spk_248">
+          <from> Ms Sandra Broderick<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_334">We would love to have a 24-hour lab in maternity but again you are diluting things across two sites. The ability to attract people to come to the region, to actually get your hands on that level of expertise to run something like that 24-7, is very difficult. I do not see that changing in the short term. It is another reason co-location is really important, as the Deputy will appreciate. I also pay tribute to the Friends of Ennis Hospital and the mid-west patient and service user council chaired by John Wall. Their work is phenomenal and that patient voice piece has been so empowering in the mid-west. I thank all elected representatives as well in the mid-west for working with the patient and service users.</p>
+        </speech>
+        <speech by="#CathalCrowe" eId="spk_249">
+          <from>Deputy Cathal Crowe<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_335">I should have mentioned Mr. Wall as well, who is outstanding. I thank Ms Broderick for the good work. We will keep working on this together.</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_250">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T11:30:00+01:00"/></from>
+          <p eId="para_336">I reiterate the thanks to all the witnesses for coming here today. Sometimes we are short of time when we ask questions, but I also recognise the work that is done in very difficult circumstances around the country by professionals in women's health services, particularly in obstetrics. I fully support the development of the critical care unit at the Rotunda. It is a secondary referral hospital. It is critical that we have a specialist referral hospital for many parts of the country, as Professor Daly outlined. It is a vital service and it needs to be developed. If there is anything we can do at this committee to support that, I would be very happy to be associated with it. </p>
+          <p eId="para_337"> In a more general sense, we were talking about the maternity strategy. One of the big challenges is recruitment and retention of specialist staff, especially in rural units or units that are outside the major centres. That has to be balanced against access for women. Many of those towns can have pockets of deprivation with people who find it very difficult to get to centres. Ballinasloe is one. There is serious deprivation, intergenerational unemployment and a lot of issues there defined by Pobal and DEIS plus status for the schools there. Is that going to be considered? There is a balance there. I note Professor Daly said that the money should go where the most complexity is, but that has to be balanced with access to services.</p>
+          <p eId="para_338">Do the witnesses have any views on that? Again, it is not a trick question; it is a general conversation. They are very suspicious of me.</p>
+        </speech>
+        <speech by="#" eId="spk_251">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_339">I can offer my view, which has been informed by experience over several years. I have been involved in maternity services in the west and north west for a long time. We face this issue all the time, not just in respect of maternity services, but also in many clinical services. It is a balance between locating and giving access to people close to where they are living, and the need to maintain quality standards. Looking at what we are able to deliver as healthcare improves and develops, this becomes an even greater challenge because it is not possible to provide that level of quality or service at every hospital site. It is a challenge for sure.</p>
+          <p eId="para_340"> I am convinced, probably after my years of working in the west and north west, and particularly for services like maternity services, that it is important these are available in places in like Letterkenny, Castlebar, Sligo and throughout the region. We have talked about units that have fewer than 500 deliveries. Three of the units in our region had fewer than 500 deliveries last year, and probably four next year with the way the numbers are going. It absolutely is an issue, but I do not think the solution to it is the removal of those services from those locations. They have to remain there, so we have to find other solutions and continue to work to ensure those units do not become isolated.</p>
+        </speech>
+        <speech by="#MartinDaly" eId="spk_252">
+          <from>Deputy Martin Daly<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_341">Do we need to think outside the medical box, with additional supports for people from deprived communities and those who do not have the resources to travel for services? </p>
+          <p eId="para_342"> Sometimes, I would have had patients in a rural area who were deprived and simply did not make a journey into wherever because they could not afford to or they did not see the value in it, for whatever reason. I am not judging them; I have not lived in that position, so I cannot judge anyone else.</p>
+        </speech>
+        <speech by="#" eId="spk_253">
+          <from> Ms Sandra Broderick<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_343">It is impossible to judge it Dr. Daly, but for us, and the Deputy makes a very important point, deprivation and inequality is massive. In rural Ireland, it is often not spoken about or not really recognised as much as in urban areas. We are starting a project in the mid-west, particularly in Limerick city, around health inequity. Healthcare determines maybe 10% of your outcomes, and the rest is made up by other factors, such as education, housing, food and all the rest. We are very encouraging of a whole-of-government approach to tackling health inequality, because there is only so much we can do. If we look at the demand and complexity presenting to us, there is a genuine need to look more widely than the health service to respond to some of the stuff we see coming into us. We have no control over it. We have some patients who are frequent fliers, not because they want to be in hospital, but because of the situations in which they live. There is an opportunity for us to do something wider than healthcare to support the most vulnerable and marginalised in our society. It is very important that the Deputy has raised this because in order for us to manage some of those demands, we need to manage the piece that is getting them to us in the first place. </p>
+        </speech>
+        <speech by="#SorcaClarke" eId="spk_254">
+          <from>Deputy Sorca Clarke<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_344">I want to come back to the issue of staffing and the difficulties this is presenting across the health service, not just in maternity care but with that specific focus. </p>
+          <p eId="para_345"> Last week, this committee heard from a non-consultant hospital doctor that a colleague of theirs had returned after having a miscarriage within 24 hours. Is there anybody on the other side of the room who thinks that is acceptable? With that in mind, and accepting the previous statement that society has a role to play for the front-facing staff in its accident and emergency rooms, what is the HSE doing to leverage all options available, specifically the international recruitment and relocation packages? How many people working in our maternity services in a front-line role have returned to Ireland under the international recruitment and relocation package?</p>
+        </speech>
+        <speech by="#" eId="spk_255">
+          <from> Ms Sandra Broderick<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_346">I do not have those details.</p>
+        </speech>
+        <speech by="#" eId="spk_256">
+          <from> Ms Mellany McLoone<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_347">We can get those figures for the Deputy.</p>
+        </speech>
+        <speech by="#SorcaClarke" eId="spk_257">
+          <from>Deputy Sorca Clarke<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_348">I have been asking this question for the entirety of this year. Nobody in the HSE has been able to come back and tell me how many people across any department and in any hospital, to any degree, have come back under this package scheme. It is there and there is a budget allocated for it. This needs to be leveraged. If there are people in Australia, Dubai - I do not mind where they are - and they want to come back to work here, there is a scheme to help them to do so but, to my mind, it does not seem to be utilised as it could be to bring people back to provide medical care here.</p>
+        </speech>
+        <speech by="#" eId="spk_258">
+          <from> Dr. Clíona Murphy<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_349">I will come in regarding consultant recruitment. In the past year or so, we have seen the impact of the POCC 2023, which seems to have increased recruitment for consultant positions. We have had several model 3 hospitals where there have been 12, 14 and even 20 applicants who are well qualified. That is going to bear fruit with people wanting to come to hospitals and stay there. We have been very encouraged with posts in the past while. I can only comment on consultant obstetrician gynaecologists, but I think that is a positive sign. In the future, we will probably have to look at some reconfiguration whereby some larger hospitals might do more obstetrics while others do more gynaecology. However, in the smaller units, there will be a need for a robust consultant who is able to cover both. That is a positive step regarding recruitment and retention.</p>
+        </speech>
+        <speech by="#SorcaClarke" eId="spk_259">
+          <from>Deputy Sorca Clarke<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_350">Absolutely. Every additional staff member in every single hospital, or whether it is a hub or a primary care centre, is absolutely welcome. There are schemes in place to return to this country people who are working in healthcare systems abroad, but I can find no evidence of those schemes being leveraged. It is a wasted opportunity and it needs to be leveraged.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_260">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_351">I have a long list of potential questions. I will give the witnesses a few of them. They might follow up in writing on some of the other issues afterwards. The maternity and infant care scheme provides free GP and hospital care to all expectant mothers in Ireland, including routine checkups and post-natal checkups in the first six weeks. It has not been updated since 1997. A review was recommended under the national maternity strategy, including consideration of expanding consultations and post-natal coverage. When will that review be complete?</p>
+        </speech>
+        <speech by="#" eId="spk_261">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_352">We expect that will happen by the end of the year. The strategy finishes in December 2026, after 11 years. Our plan is to have that review complete. All the preparatory work is done. There is some engagement between our colleagues in primary care. We will have to talk to the INMO about a survey that is to go out to GPs, and then we will come back with a working group that will bring forward recommendations as to what changes are appropriate for it.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_262">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_353">I understand that was meant to be done by 2023.</p>
+        </speech>
+        <speech by="#" eId="spk_263">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_354">We started the process in early 2023, I think. As I mentioned earlier, a strategic review of GP care was undertaken in the Department. That has been our hamstring.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_264">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_355">That is what held it up.</p>
+        </speech>
+        <speech by="#" eId="spk_265">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_356">It has hamstrung us.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_266">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_357">Does Mr. McGrane have an idea of when the strategic review of GP care will be published?</p>
+        </speech>
+        <speech by="#" eId="spk_267">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_358">We have been told recently that it will not impede us proceeding with the review of the maternity and infant care scheme. We were told last month that it is no longer an impediment.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_268">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_359">Do we know when the review of GP care will be concluded?</p>
+        </speech>
+        <speech by="#" eId="spk_269">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_360">Sorry, I do not.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_270">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_361">If that is an impediment to what the HSE needs to do, we need to know what that is based on.</p>
+        </speech>
+        <speech by="#" eId="spk_271">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_362">When we contacted colleagues in the Department, we were told that it is no longer an impediment to us starting the process. We are moving ahead with that.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_272">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_363">Does that mean the GP review is done?</p>
+        </speech>
+        <speech by="#" eId="spk_273">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_364">I cannot tell the Chair that, because I do not know. The two do not run in parallel for me because we only see one side of it. We have just been told it is no longer an impediment.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_274">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_365">Mr. McGrane expects that to be done before the strategy is-----</p>
+        </speech>
+        <speech by="#" eId="spk_275">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_366">Before the end of the year.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_276">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_367">Staffing rates came up last week. Another colleague mentioned this issue in relation to maternity cover. A very good point was made last week that in education, we can provide maternity cover. Principals, teachers and SNAs go out, and those posts can be covered. I think everybody here agrees that a similar approach should apply in the health services. There should be maternity cover for staff. I do not think that the current approach is acceptable.</p>
+          <p eId="para_368"> With regard to staffing rates more generally, according to the INMO, the accepted midwife-to-birth ratio is one midwife to 29.5 births. In February, the INMO told the committee that in some units, such as Mullingar, the ratio over a year ago was one midwife to 80 births. What is the current national average?</p>
+        </speech>
+        <speech by="#" eId="spk_277">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_369">I am not sure. Ms Dunne might take that.</p>
+        </speech>
+        <speech by="#" eId="spk_278">
+          <from> Ms Angela Dunne<recordedTime time="2026-05-27T11:40:00+01:00"/></from>
+          <p eId="para_370">In 2016, our birth rate methodology was run, and from that report, the larger hospitals were given a birth ratio of 1:35, the medium-sized units were given a ratio of 1:40, and a ratio of 1:29 was given to Portlaoise because it was going through difficulties at the time following the CMO report. We do a baseline exercise on a yearly basis with regard to the maternity units, and Mullingar came out as an outlier.</p>
+          <p eId="para_371">Following that, it was escalated and Mullingar got an additional 11 staff to bring the staff ratio up to 1:35.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_279">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_372">Have any of the maternity units reached the ratios that were set out in the workforce planning project report?</p>
+        </speech>
+        <speech by="#" eId="spk_280">
+          <from> Ms Angela Dunne<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_373">The majority of the units are either a little bit above or below. We monitor it and escalate if we see an outlier. There were some concerns. Ten of the units were a little bit out, as outliers, but that was due to vacancies more so. If they had a funded post filled then they would be within the correct ratio. The problem is vacancies; not the actual funded post. </p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_281">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_374">Is Birthrate Plus being used to determine midwifery staffing in maternity units or is the budget the main determinant of staffing levels?</p>
+        </speech>
+        <speech by="#" eId="spk_282">
+          <from> Ms Angela Dunne<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_375">With regard to Birthrate Plus, that exercise was carried out in 2016. That workforce tool is the only tool that is used in maternity services. It needs to be rerun again. The expert review body made recommendations and its sixth recommendation is for the HSE to continue to implement Birthrate Plus and evaluate it, and that process is in place.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_283">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_376">When will that evaluation be done? </p>
+        </speech>
+        <speech by="#" eId="spk_284">
+          <from> Ms Angela Dunne<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_377">There are two arms to it. At the moment today, the CNO office is conducting an evaluation of Birthrate Plus and NWIHP has been charged with doing an international scoping review.</p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_285">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_378">Is there a timeline for the evaluation?</p>
+        </speech>
+        <speech by="#" eId="spk_286">
+          <from> Ms Angela Dunne<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_379">We have our part done. We will meet then, with the Department, and a plan will be put in place as to what next. </p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_287">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_380">I thank Ms Dunne. </p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_288">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_381">I want to clarify the workforce planning. Has research been undertaken as to staffing projections in respect of requirements in maternity and women's healthcare over future years? Has that research been undertaken? </p>
+        </speech>
+        <speech by="#" eId="spk_289">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_382">Not specifically. What we referred to before was midwifery specifically. We also did a similar piece of work for obstetric consultants, which is where we came up with a model of a minimum of six. There was a much broader piece that we set out in our opening statement to the effect that the changing population that we serve requires a different staffing model and a different skill mix, and, as has been mentioned a few times by colleagues, it is a multidisciplinary approach to how we do it. We would expect that they form an important part of the success of the maternity strategy and that we will have to look at this differently from how we looked at it before. </p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_290">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_383">Will we have the strategy first and then the HSE will look to the workforce projections? I am trying to get my head around the timing of it.</p>
+        </speech>
+        <speech by="#" eId="spk_291">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_384">For the last strategy, Birthrate Plus was done before the strategy and then they recommended in the strategy that we look at the new model of care and what impact that was going to have on the staffing levels, which is a piece of work that we did. Here there is a much broader demand right across women's health that will completely change how we look at it. As has been mentioned by colleagues in the Rotunda a couple of times, it is not just the maternity hospitals. The Rotunda is obviously a hugely important maternity hospital but it is all of women's health. Thankfully, women's health services are starting to see prioritisation now that there was not before. I expect that what will come out of the strategy, whether it is maternity specific or women's health, will be a change in approach. Earlier reference was made to the Tralee hub. It is a women's health hub and is exactly the kind of thing that we need.</p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_292">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_385">Yes. </p>
+        </speech>
+        <speech by="#" eId="spk_293">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_386">We would hope to see that replicated in the future. </p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_294">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_387">My next question is for Ms McLoone and Mr. Canavan. What impact will the HSE funding issue have on resources for funded posts? In 2023, posts were decommissioned. I am looking across endometriosis, staffing levels within maternity care and posts that are funded but yet unfilled. What will happen those posts this year? Will the current HSE initiative with regards the deficit have an impact on those posts in either area?</p>
+        </speech>
+        <speech by="#" eId="spk_295">
+          <from> Ms Mellany McLoone<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_388">For the Rotunda the short answer is "No, it will not.". What probably distinguishes maternity services from other services is clinical safety and there is a real issue if Ms Hanrahan does not enough midwives to delivery the volume of births. As the IHA manager I have a particular view of the Rotunda, as its birth rate is considerably higher and is growing at a rate when compared to the others and, therefore, the Rotunda cannot be viewed through the same lens. We are continuing to support the Rotunda in terms of additional development. Professor Daly has mentioned Hampson House. There is also a development happening in Dominick Street which will further things. Again, the critical care wing and the additional staff required with that would be an additional requirement.</p>
+          <p eId="para_389"> We are doing some work in relation to endometriosis. Professor Daly wants to do lots of things that I am not in a position to fund completely at the moment but we will work our way through that. There is also the suggestion we have about a HSE Dublin and North-East health region service will support in terms of how we provide that. We meet on a monthly basis to discuss stuff that relates to staffing and, in particular, through the lens of patient safety, which is critically important and is the overriding decision rather than money.</p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_296">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_390">To be clear, the unfilled funded posts will not be decommissioned.</p>
+        </speech>
+        <speech by="#" eId="spk_297">
+          <from> Ms Mellany McLoone<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_391">No. </p>
+        </speech>
+        <speech by="#" eId="spk_298">
+          <from> Mr. Tony Canavan<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_392">All of what Ms McLoone has said is the same across the country, and the same across the west and north west. The scale of the financial challenge is very significant and we are obliged to work within our allocated resources. None of us are trying to shy away from that. We are addressing this earlier in the year and earlier than we would have in previous years. In previous years we would have come at this in September and October and we would have had to apply the brakes very hard. We have been at this now since March. It means that we do have to slow down spend in some areas, particularly the spend around agency and some of our non-pay areas. We must apply the brakes but in a responsible way. As McLoone has pointed out, the timing allows us to do this through it in a way that keeps an eye on the quality of the care that we are providing as well. </p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_299">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_393">My last question is on the postnatal community hubs. Ms Hanrahan and the representatives of NWIHP might have a view on this. To what extent is the six weeks is clinically indicated or just been the historical norm, and should it be longer?</p>
+        </speech>
+        <speech by="#" eId="spk_300">
+          <from> Ms Fiona Hanrahan<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_394">That is a really good and timely question as I was talking about this yesterday. We looked at the scope of a midwife's role within the care of women and our scope stops at six weeks but there is a clause, within our scope of practice, where that can be adjusted. I personally would love to see it rolled out to eight weeks. We have 170 births a week and the volume alone would mean that women must be moved on but lots of women do not get to the hub until later postnatally because they have had a Caesarian section and cannot drive. We are finding that women reach us later and deserve to stay on a bit longer. We are certainly going to start looking at a separate way of doing that. In my ideal world it would be eight weeks. I think we could it, yes. </p>
+        </speech>
+        <speech by="#" eId="spk_301">
+          <from> Mr. Kilian McGrane<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_395">We would be very supportive. Obviously we must be conscious of the scope of practice for a midwife. On the physiotherapy aspects and others, ideally we would have no time limit. What we really do not want is a woman post partum eight to 12 weeks having to queue to get into a hospital service when physiotherapy then can make a fundamental change to the quality of her life, and that is our key objective.</p>
+        </speech>
+        <speech by="#" eId="spk_302">
+          <from> Ms Mellany McLoone<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_396">I want to acknowledge the important role of public health nursing and community nursing in terms of supporting women, and at home as well. It would be remiss of me not to acknowledge that they do huge work.</p>
+        </speech>
+        <speech by="#MarieSherlock" eId="spk_303">
+          <from>Deputy Marie Sherlock<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_397">We have less of them now than we did in 2020 so we need more of them.</p>
+        </speech>
+        <speech by="#" eId="spk_304">
+          <from> Ms Mellany McLoone<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_398">That would be brilliant. Yes. </p>
+        </speech>
+        <speech by="#PadraigRice" eId="spk_305">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:50:00+01:00"/></from>
+          <p eId="para_399">That concludes our questions. I thank the representatives of the HSE and the Rotunda Hospital for their assistance this morning. As they have seen, this is an area in which the committee has a keen interest. It is an area we will discuss again and look at in more detail. There are some outstanding questions about which we might write to the witnesses. The clerk has noted a few questions and we have some additional questions. I ask the witnesses to write back with their comments. </p>
+          <p eId="para_400"> I thank everyone for engaging. The meeting is adjourned until we meet in private session on Tuesday, 9 June at 3.30 p.m.</p>
+        </speech>
+        <summary eId="sum_7"> The joint committee adjourned at 11.58 a.m. until 9.30 a.m. on Wednesday, 10 June 2026.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

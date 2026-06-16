@@ -12,6 +12,7 @@ import {
   tvFeatured,
   tvShelves,
 } from "../data/oireachtasTv";
+import { buildVodHolderHref, buildVodHubHref } from "../utils/vodNavigation";
 
 const FULL_SCHEDULE_URL = "https://www.oireachtas.ie/en/detailed-schedule/";
 const SAVED_VIDEOS_STORAGE_KEY = "vod-poc:saved-videos";
@@ -71,6 +72,15 @@ type LibraryVideo = {
   summary?: string;
 };
 
+function parseInitialMode(): Mode {
+  const view = new URLSearchParams(window.location.search).get("view");
+
+  if (view === "demand") return "DEMAND";
+  if (view === "tv") return "TV";
+  if (view === "my") return "MY";
+  return "NOW";
+}
+
 const MOCK_LIVE_DATE = "Tuesday, 9 June 2026";
 
 function getVodStorageKey(id: string): string {
@@ -126,7 +136,7 @@ function toLibraryVideoFromVod(item: VodItem): LibraryVideo {
     source: "VOD",
     id: item.id,
     title: item.title,
-    href: item.href,
+    href: buildVodHolderHref(item.id),
     thumb: item.thumb,
     meta:
       [item.date, stripDurationFromMeta(item.meta, item.duration)]
@@ -965,7 +975,11 @@ function FeaturedLiveStage({
 }
 
 export default function VodPage() {
-  const [mode, setMode] = useState<Mode>("NOW");
+  const [mode, setMode] = useState<Mode>(() => parseInitialMode());
+  const tabShellRef = useRef<HTMLElement | null>(null);
+  const tabHeaderRef = useRef<HTMLElement | null>(null);
+  const [tabsFloating, setTabsFloating] = useState(false);
+  const [tabShellHeight, setTabShellHeight] = useState<number | null>(null);
   const [selectedDemandForums, setSelectedDemandForums] =
     useState<DemandForum[]>(ALL_DEMAND_FORUMS);
   const [searchOpen, setSearchOpen] = useState(false);
@@ -1018,6 +1032,22 @@ export default function VodPage() {
 
   useEffect(() => {
     if (mode === "NOW") setSearchOpen(false);
+  }, [mode]);
+
+  useEffect(() => {
+    const search = new URLSearchParams(window.location.search);
+
+    if (mode === "NOW") {
+      search.delete("view");
+    } else {
+      search.set("view", mode.toLowerCase());
+    }
+
+    search.delete("prototype");
+    search.delete("item");
+    const nextQuery = search.toString();
+    const nextUrl = `${window.location.pathname}${nextQuery ? `?${nextQuery}` : ""}`;
+    window.history.replaceState({}, "", nextUrl);
   }, [mode]);
 
   const demandSource = useMemo(() => {
@@ -1159,6 +1189,39 @@ export default function VodPage() {
     writeStoredKeys(RECENT_VIDEOS_STORAGE_KEY, recentVideoKeys);
   }, [recentVideoKeys]);
 
+  useEffect(() => {
+    const shell = tabShellRef.current;
+    const header = tabHeaderRef.current;
+
+    if (!shell || !header || typeof window === "undefined") return;
+
+    let frame = 0;
+
+    const syncFloating = () => {
+      frame = 0;
+      const shouldFloat = shell.getBoundingClientRect().top <= 0;
+      setTabsFloating((current) =>
+        current === shouldFloat ? current : shouldFloat,
+      );
+      setTabShellHeight(shouldFloat ? header.offsetHeight : null);
+    };
+
+    const requestSync = () => {
+      if (frame) return;
+      frame = window.requestAnimationFrame(syncFloating);
+    };
+
+    requestSync();
+    window.addEventListener("scroll", requestSync, { passive: true });
+    window.addEventListener("resize", requestSync);
+
+    return () => {
+      if (frame) window.cancelAnimationFrame(frame);
+      window.removeEventListener("scroll", requestSync);
+      window.removeEventListener("resize", requestSync);
+    };
+  }, [mode, searchOpen]);
+
   const toggleSavedVideo = (key: string) => {
     setSavedVideoKeys((current) =>
       current.includes(key)
@@ -1185,99 +1248,118 @@ export default function VodPage() {
           : "bg-brand-cream text-brand-gray-700",
       ].join(" ")}
     >
-      <header className={mode === "TV" ? "border-b border-white/10" : ""}>
-        <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6">
-          <div
-            className={
-              mode === "TV" ? "subtle-tablist tv-tablist" : "subtle-tablist"
-            }
-          >
+      <header
+        ref={tabShellRef}
+        className={[
+          "vod-tab-shell",
+          tabsFloating ? "vod-tab-shell-floating" : "",
+        ].join(" ")}
+        style={tabShellHeight ? { height: `${tabShellHeight}px` } : undefined}
+      >
+        <div
+          ref={tabHeaderRef}
+          className={[
+            "vod-tab-header",
+            mode === "TV" ? "vod-tab-header-tv" : "vod-tab-header-light",
+            mode === "TV" ? "border-b border-white/10" : "",
+            tabsFloating ? "vod-tab-header-floating" : "",
+          ].join(" ")}
+        >
+          <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6">
             <div
-              className="tab-cluster tab-cluster-related"
-              role="tablist"
-              aria-label="Browse video hub"
+              className={
+                mode === "TV" ? "subtle-tablist tv-tablist" : "subtle-tablist"
+              }
             >
-              <button
-                type="button"
-                role="tab"
-                aria-selected={mode === "NOW"}
-                onClick={() => setMode("NOW")}
-                className={[
-                  "subtle-tab",
-                  mode === "NOW" ? "subtle-tab-active" : "",
-                ].join(" ")}
+              <div
+                className="tab-cluster tab-cluster-related"
+                role="tablist"
+                aria-label="Browse video hub"
               >
-                Parliament in session
-              </button>
-              <button
-                type="button"
-                role="tab"
-                aria-selected={mode === "DEMAND"}
-                onClick={() => setMode("DEMAND")}
-                className={[
-                  "subtle-tab",
-                  mode === "DEMAND" ? "subtle-tab-active" : "",
-                ].join(" ")}
-              >
-                On demand
-              </button>
-            </div>
-            <div className="tab-cluster">
-              <button
-                type="button"
-                onClick={() => setMode("TV")}
-                className={[
-                  "subtle-tab",
-                  "tv-tab",
-                  mode === "TV" ? "subtle-tab-active" : "",
-                ].join(" ")}
-              >
-                Oireachtas Player
-              </button>
-              <button
-                type="button"
-                onClick={() => setMode("MY")}
-                className={[
-                  "subtle-tab",
-                  "my-parliament-tab",
-                  mode === "MY" ? "subtle-tab-active" : "",
-                ].join(" ")}
-              >
-                <span className="my-parliament-tab-icon" aria-hidden="true">
-                  <MyParliamentGlyph />
-                </span>
-                <span>My videos</span>
-              </button>
-              <button
-                type="button"
-                onClick={() =>
-                  mode !== "NOW" &&
-                  mode !== "MY" &&
-                  setSearchOpen((value) => !value)
-                }
-                disabled={mode === "NOW" || mode === "MY"}
-                className={[
-                  "subtle-tab",
-                  "search-tab",
-                  searchOpen ? "subtle-tab-active" : "",
-                  mode === "NOW" || mode === "MY" ? "subtle-tab-disabled" : "",
-                ].join(" ")}
-                aria-label="Refine search"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  aria-hidden
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2.2"
+                <a
+                  href={buildVodHubHref("NOW")}
+                  role="tab"
+                  aria-selected={mode === "NOW"}
+                  onClick={() => setMode("NOW")}
+                  className={[
+                    "subtle-tab",
+                    mode === "NOW" ? "subtle-tab-active" : "",
+                  ].join(" ")}
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z"
-                  />
-                </svg>
-              </button>
+                  Parliament in session
+                </a>
+                <a
+                  href={buildVodHubHref("DEMAND")}
+                  role="tab"
+                  aria-selected={mode === "DEMAND"}
+                  onClick={() => setMode("DEMAND")}
+                  className={[
+                    "subtle-tab",
+                    mode === "DEMAND" ? "subtle-tab-active" : "",
+                  ].join(" ")}
+                >
+                  Parliament on demand
+                </a>
+              </div>
+              <div className="tab-cluster">
+                <a
+                  href={buildVodHubHref("TV")}
+                  onClick={() => setMode("TV")}
+                  className={[
+                    "subtle-tab",
+                    "tv-tab",
+                    mode === "TV" ? "subtle-tab-active" : "",
+                  ].join(" ")}
+                >
+                  Oireachtas TV+
+                </a>
+                <a
+                  href={buildVodHubHref("MY")}
+                  onClick={() => setMode("MY")}
+                  className={[
+                    "subtle-tab",
+                    "my-parliament-tab",
+                    mode === "MY" ? "subtle-tab-active" : "",
+                  ].join(" ")}
+                >
+                  <span className="my-parliament-tab-icon" aria-hidden="true">
+                    <MyParliamentGlyph />
+                  </span>
+                  <span>My videos</span>
+                </a>
+                <button
+                  type="button"
+                  onClick={() =>
+                    mode !== "NOW" &&
+                    mode !== "MY" &&
+                    setSearchOpen((value) => !value)
+                  }
+                  disabled={mode === "NOW" || mode === "MY"}
+                  className={[
+                    "subtle-tab",
+                    "search-tab",
+                    searchOpen ? "subtle-tab-active" : "",
+                    mode === "NOW" || mode === "MY"
+                      ? "subtle-tab-disabled"
+                      : "",
+                  ].join(" ")}
+                  aria-label="Refine search"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    aria-hidden
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2.2"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z"
+                    />
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -1733,6 +1815,7 @@ function FeaturedDemandShowcase({
   const [activeId, setActiveId] = useState(items[0]?.id ?? "");
   const active = items.find((item) => item.id === activeId) ?? items[0];
   const supporting = items.filter((item) => item.id !== active?.id).slice(0, 3);
+  const activeHref = active ? buildVodHolderHref(active.id) : undefined;
 
   if (!active) return null;
 
@@ -1782,7 +1865,7 @@ function FeaturedDemandShowcase({
                   </div>
                   <div className="mt-5 flex items-center gap-3 pointer-events-auto">
                     <a
-                      href={active.href}
+                      href={activeHref}
                       onClick={() =>
                         onMarkVideoWatched(getVodStorageKey(active.id))
                       }
@@ -2559,11 +2642,12 @@ function DemandCard({
       : committeeItem
         ? item.topic
         : undefined;
+  const holderHref = buildVodHolderHref(item.id);
 
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-sm bg-white transition hover:bg-[#fffefb]">
       <div className="relative bg-brand-gray-100">
-        <a href={item.href} onClick={onMarkWatched} className="block">
+        <a href={holderHref} onClick={onMarkWatched} className="block">
           <HoverPreview
             thumb={item.thumb}
             title={item.title}
@@ -2579,7 +2663,7 @@ function DemandCard({
       </div>
 
       <div className="flex flex-1 flex-col p-4">
-        <a href={item.href} onClick={onMarkWatched} className="block">
+        <a href={holderHref} onClick={onMarkWatched} className="block">
           <h4 className="card-title-clamp-3 text-lg font-semibold leading-snug text-brand-gray-700">
             {displayTitle}
           </h4>

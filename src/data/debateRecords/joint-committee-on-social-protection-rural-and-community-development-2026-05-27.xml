@@ -1,0 +1,663 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_social_protection_rural_and_community_development/2026-05-27/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_social_protection_rural_and_community_development/2026-05-27/debate"/>
+          <FRBRdate date="2026-05-27" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/committee/dail/34/joint_committee_on_social_protection_rural_and_community_development"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_social_protection_rural_and_community_development/2026-05-27/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_social_protection_rural_and_community_development/2026-05-27/debate/mul@"/>
+          <FRBRdate date="2026-05-27" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_social_protection_rural_and_community_development/2026-05-27/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_social_protection_rural_and_community_development/2026-05-27/debate/mul@.akn"/>
+          <FRBRdate date="2026-06-03" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#debates">
+        <TLCPerson eId="AnneRabbitte" href="/ie/oireachtas/member/id/Anne-Rabbitte.D.2016-10-03" showAs="Anne Rabbitte"/>
+        <TLCPerson eId="EoinHayes" href="/ie/oireachtas/member/id/Eoin-Hayes.D.2024-11-29" showAs="Eoin Hayes"/>
+        <TLCPerson eId="JohnPaulOShea" href="/ie/oireachtas/member/id/John-Paul-O'Shea.D.2024-11-29" showAs="John Paul O'Shea"/>
+        <TLCPerson eId="LouiseOReilly" href="/ie/oireachtas/member/id/Louise-O'Reilly.D.2016-10-03" showAs="Louise O'Reilly"/>
+        <TLCPerson eId="PeterRoche" href="/ie/oireachtas/member/id/Peter-Roche.D.2024-11-29" showAs="Peter Roche"/>
+        <TLCPerson eId="WilliamAird" href="/ie/oireachtas/member/id/William-Aird.D.2024-11-29" showAs="William Aird"/>
+        <TLCRole href="role/chair" showAs="Chair" eId="Chair"/>
+        <TLCRole href="role/vice_chairman" showAs="Vice Chairman" eId="Vice_Chairman"/>
+        <TLCRole href="role/author" showAs="author" eId="author"/>
+        <TLCRole href="role/editor" showAs="editor" eId="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>AN COMHCHOISTE UM CHOIMIRCE SHÓISIALACH, FORBAIRT TUAITHE AGUS POBAIL</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>Joint Committee on Social Protection, Rural and Community Development</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2026-05-27">Dé Céadaoin, 27 Bealtaine 2026</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2026-05-27">Wednesday, 27 May 2026</docDate>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">Tháinig an Comhchoiste le chéile ag 09:30 a.m.</summary>
+        <summary class="Center" eId="sum_2">The Joint Committee met at 09:30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_3">Comhaltaí a bhí i láthair / Members present:</summary>
+          <table>
+            <tr>
+              <th>
+                <p eId="para_1">Teachtaí Dála / Deputies</p>
+              </th>
+              <th>
+                <p eId="para_2">Seanadóirí / Senators</p>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#WilliamAird">William Aird</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#NoelODonovan">Noel O'Donovan</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#EoinHayes">Eoin Hayes</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#AnneRabbitte">Anne Rabbitte.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#LouiseOReilly">Louise O'Reilly</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#PeterRoche">Peter Roche</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#MarkWall">Mark Wall.</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_4">I láthair / In attendance: Senator Manus Boyle.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#JohnPaulOShea">Teachta / Deputy John Paul O'Shea sa Chathaoir / in the Chair.</person>
+          </summary>
+        </rollCall>
+        <summary eId="sum_6">
+          <i>The joint committee met in private session until 9.40 a.m. </i>
+        </summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>General Scheme of the Social Welfare and Other Matters Bill 2026: Discussion (Resumed)<recordedTime time="2026-05-27T09:40:00+01:00"/></heading>
+        <speech by="#JohnPaulOShea" eId="spk_1">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T09:40:00+01:00"/></from>
+          <p eId="para_10">Good morning. I will read a note on privilege and housekeeping matters before we begin. Witnesses and members are reminded of the long-standing parliamentary practice that they should not criticise or make charges against any person or entity by name or in such a way as to make him, her or it identifiable, or otherwise in speech that might be regarded as damaging of the good name of the person or entity. Therefore, if their statements are potentially defamatory in relation to an identifiable person or entity, they will be directed to discontinue their remarks. It is imperative that they comply with any such directions I might make.</p>
+          <p eId="para_11"> Members attending remotely are reminded of the constitutional requirement that to participate in public meetings, members must be physically present within the confines of the Leinster House complex. This is due to the constitutional requirement that to participate in public meetings, members must be physically present in the confines or place where Parliament has chosen to sit. In this regard, I ask members participating via Microsoft Teams to confirm they are on the grounds of the Leinster House complex if they wish to contribute to the meeting. I remind all those in attendance to make sure their mobile phones are switched off or put on silent mode.</p>
+          <p eId="para_12"> The purpose of this meeting is to resume pre-legislative scrutiny of the general scheme of the social welfare and other matters Bill 2026. The general scheme provides the miscellaneous amendments to the Social Welfare Consolidation Act 2005 and the Civil Registration Act 2004. It also makes amendments to the Charities Act 2009. Today, we are joined by representatives from Age Action Ireland, Digital Rights Ireland and the Irish Council for Civil Liberties. I reiterate that what we are undertaking here today is pre-legislative scrutiny. No legislation has been published yet and the purpose of the pre-legislative scrutiny is to examine the general scheme draft heads and feed into the process of shaping the legislation, which will be published in due course. I remind everyone that the focus of the discussion is on the general scheme draft heads, which have been referred to the committee.</p>
+          <p eId="para_13"> From Age Action Ireland, I welcome Ms Camille Loftus, head of advocacy and social affairs, and Ms Jennifer Brown, policy and public affairs officer. From the Irish Council for Civil Liberties, I welcome Ms Olga Cronin, senior policy affairs officer. I invite Ms Loftus to make her opening remarks.</p>
+        </speech>
+        <speech by="#" eId="spk_2">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T09:40:00+01:00"/></from>
+          <p eId="para_14">I thank the Cathaoirleach and members. We are grateful for the opportunity to speak to the committee today. We will focus our remarks on the issue of retirement. Age Action supports the repeal of the pre-retirement allowance. It is a legacy of a time of high unemployment when ageism towards older workers was perhaps more accepted than, we hope, it is today. We oppose mandatory retirement and support the goals of the roadmap for pension reform, and argue that better supports are needed to enable longer working lives.</p>
+          <p eId="para_15"> We can see that more older people want longer working lives. Over 135,000 people aged 65 or older were working at the end of 2025. This number has more than doubled in the past decade. The trend is driven by both the growth in the older population and increased appetite among the older population for longer working lives. Nearly 16% of older people are labour market active, that is, they are either working or actively seeking work. That is an increase of 55% over the last decade. Participation is higher among older men than women but is increasing much faster among women than men. It should also be noted that workers in the 55-plus age group have the lowest rate of health-related work absences.</p>
+          <p eId="para_16"> At Age Action, we receive a growing volume of queries from older people who want to keep working. Some want to keep working because they need the income and fear their pension will be inadequate. Some want to keep working to earn sufficient social insurance contributions to qualify for a State pension, and others because they enjoy work and feel they can still make a valuable contribution in the workplace. The 2017 code of practice on longer working provides guidance on principles and best practices for workplace engagement in the run-up to retirement, recognising that age-positive workplaces can deliver the greatest value to businesses. However, although the code has been in place for nearly ten years, many older people report to us that they feel their strong work performance is not valued in the workplace.</p>
+          <p eId="para_17"> Compulsory contractual retirement ages must be capable of objective justification, both by a legitimate aim and with evidence of appropriate and necessary means of achieving that aim. However, the code’s criteria for a legitimate aim can be perceived as ageist. For example, compulsory retirement to create opportunities for younger workers or to create a balanced age structure appears outdated in the context of a tight labour market in which employee churn is comparatively high. Similarly, many older workers have no capability issues and where these arise, they can be addressed via normal supervision and employee management processes.</p>
+          <p eId="para_18"> The code aims to ensure employees can make informed choices about retirement and recommends that employers ensure workers are aware of the company’s retirement procedures, sets out recommended a process to manage retirement and suggests best practices to support employees in planning for retirement. However, in our experience, many older people are unaware of their company’s retirement procedures and the practices set out in the code. Those procedures can be difficult for employees to negotiate, most particularly for lower skilled or lower paid employees who do not have access to representation. For example, judging by the queries Age Action receives, workers have often not been advised of retirement procedures within six to 12 months of their retirement date. They are not offered face-to-face meetings to explore retirement options. They do not know that requests to work past retirement age should be submitted at least three months prior their compulsory retirement date.</p>
+          <p eId="para_19"> Many older workers are simply informed that there is a compulsory retirement age without serious consideration of how longer working lives could be facilitated, leaving workers feeling unvalued and depriving workplaces of developed skills and experience. What constitutes objective justification is often not clear to employers either, and some may apply a compulsory retirement age to protect themselves from the risk of discrimination cases. Age Action supports longer working lives for those who want them and believes the code is long overdue a review and update in light of changed labour market conditions and evolving case law.</p>
+          <p eId="para_20"> Older workers who pursue alternative employment, having been retired from their workplace, can find the modern job search experience very different from the last time they looked for a job, particularly if they retired after long service. There is nowhere for them to turn for advice or support in staying in the labour market. Age Action also recommends, therefore, that a tailored service for older workers, including access to training where appropriate, should be developed to support those who want it to achieve longer working lives.</p>
+        </speech>
+        <speech by="#JohnPaulOShea" eId="spk_3">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T09:40:00+01:00"/></from>
+          <p eId="para_21">I thank Ms Loftus. I also welcome Dr. T.J. McIntyre, chair of Digital Rights Ireland and associate professor from the school of law in UCD. I thank him for joining us today. I invite Ms Olga Cronin to deliver joint opening remarks for the Irish Council for Civil Liberties and Digital Rights Ireland.</p>
+        </speech>
+        <speech by="#" eId="spk_4">
+          <from> Ms Olga Cronin<recordedTime time="2026-05-27T09:40:00+01:00"/></from>
+          <p eId="para_22">The Irish Council for Civil Liberties and Digital Rights Ireland thank the committee for inviting us today. The story of the public services card, PSC, is one littered with poor decisions, legal uncertainty and negative findings by the Data Protection Commission, DPC, against the Department of Social Protection in respect of its handling of the card. If head 7 in the general scheme of the social welfare and other matters Bill 2026 is passed, we are likely to see this history repeated.</p>
+          <p eId="para_23"> The idea of the State rolling out a public services card to modernise public service delivery was first identified in 2004. In 2009, the Department of Social Protection signed a €19.7 million contract to produce 3 million cards by the end of 2013. However, from the beginning, the beleaguered project had no business case, no transparent framework and no clear legal authority to justify collecting biometric facial data, and there was no meaningful public debate about the challenges of creating a national ID in a manner that does not undermine legality, people’s privacy and data protection rights, and public trust. Following the banking crisis and austerity policies from 2011, the PSC was reframed as an anti-fraud measure.</p>
+          <p eId="para_24"> By the end of 2011, 4,000 cards had been issued. In 2012, the Department awarded a €213,000 contract for facial recognition software, ushering in the biometric dimension of the scheme. That same year, late-night amendments to the Social Welfare Consolidation Act 2005 were introduced in the Dáil, with some 23 pages of amendments being delivered to TDs only hours before the debate. However, even these changes did not clearly authorise biometric processing. As the DPC would note some 13 years later in 2025, the legislation did not provide a clear, precise or foreseeable legal basis for the use of biometric processing to authenticate people’s identities. </p>
+          <p eId="para_25"> By the end of 2012, 100,000 people had been registered. In 2013 and 2014, the Department confirmed that facial matching software was in use, despite the absence of a clear legal basis.</p>
+          <p eId="para_26">By 2025, over 1.7 million cards were in circulation and, within a few years, the scope of the card has expanded beyond social welfare without full parliamentary scrutiny or debate. In 2016, the Comptroller and Auditor General found there had been no proper business case for the PSC. Nevertheless, there was a discussion of extending its use to passports and driving licences.</p>
+          <p eId="para_27"> By mid-2016, over 2 million cards had been issued, though 42% had not been activated. By 2017, stories began to emerge as people pushed back against having to undergo unlawful biometric registration. <i>The Irish Times</i> reported about a pensioner whose payment was stopped after she refused to register for the PSC, despite offering alternative identification. <i>The Journal</i> reported that a 29-year-old man with Down's syndrome was instructed to register for a PSC to replace his travel pass. The following day, the Minister for Social Protection told Newstalk the PSC was not compulsory but was mandatory to claim social welfare payments.</p>
+          <p eId="para_28"> In 2017, the DPC launched a formal inquiry into the PSC. The Irish Council for Civil Liberties and Digital Rights Ireland appeared before an Oireachtas committee in 2018 arguing that the PSC failed the tests of legality, necessity and proportionality. We insisted it lacked transparency, operated under shifting legal justifications and disproportionately harmed people dependent on welfare. Our concerns were soon vindicated when, in 2019, the DPC confirmed that there was no lawful basis to require people to have a PSC for identity authentication beyond welfare, that the indefinite retention of documents related to 3.2 million PSC applicants breached data protection law and that people were not being properly informed about how their data was being used. Although the Department initially appealed the DPC's 2019 decision, it ultimately abandoned the case in 2021, acknowledging that public sector bodies, other than the Department of Social Protection, could not compel individuals to get a PSC as a precondition to access public services and that alternative means to provide proof of identity must be accepted.</p>
+          <p eId="para_29"> In 2021, the DPC began examining the biometric aspects of the card, while, at the same time, the Department renewed contracts for its unlawful use of facial recognition technology. A data protection impact assessment, later obtained by the Irish Council for Civil Liberties and Digital Rights Ireland through a freedom of information, FOI, request, confirmed that individuals had not been properly informed about the biometric processing, nor was there a proper legal basis established under GDPR. Despite this, the expansion continued. In 2023, the Department of Education was attempting to tie teachers' payslips to the PSC.</p>
+          <p eId="para_30"> In June 2025, the DPC found that the Department had unlawfully collected the biometric data of approximately 70% of the population over almost 15 years, affecting over 3.4 million individuals, including over 13,000 children. Echoing our calls in 2019, the DPC found failures in legality, transparency and proportionality, with the total number of fraud convictions standing at just 48. That decision is now under appeal and the matter is before the High Court. The DPC initially ordered the Department to stop the unlawful processing but later reversed that position after the Department argued that such a move would disrupt the State's social protection infrastructure. In effect, the unlawful project had become too big to fail.</p>
+          <p eId="para_31"> That brings us to 2026 and today’s Bill. Head 7 would allow any person or entity to accept the PSC as proof of identity or age, permit optional inclusion of date of birth and significantly expand the use of the card and PPSN without clear technical or organisational safeguards. Head 7 fails to address the issues raised by the DPC's decision of June 2025, most significantly by failing to provide a legal basis for the biometric processing. Today, there is a real risk of history repeating itself yet again. Instead of addressing the issues identified by the DPC, or pausing and having an actual national conversation about what it means to create and have a national ID card, this Bill, at the flick of a pen, would simply vastly expand the unlawful biometric processing underpinning the card's use in Irish society and potentially even extend its use into the digital sphere, in light of the stated plans to potentially connect social media use to MyGovID, which is inextricably linked to the PSC. The Bill is a demonstration of the continuous unlawful function creep embattling this project for almost 15 years. We urge the committee to make the correct decision this time and recommend head 7 be removed. I thank the committee.</p>
+        </speech>
+        <speech by="#JohnPaulOShea" eId="spk_5">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_32">I thank Ms Cronin for her opening statement. I invite members to discuss. I remind members participating remotely to use the raised hand feature and cancel it when they have spoken.</p>
+        </speech>
+        <speech by="#LouiseOReilly" eId="spk_6">
+          <from>Deputy Louise O'Reilly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_33">I thank the witnesses for being with us this morning. We are discussing two very different things so I am going to hop from one to the other, if that is okay. I will start with Ms Loftus. For the avoidance of any doubt, Sinn Féin supports the abolition of mandatory retirement. We believe it is wrong. I and my colleagues have brought legislation to the floor of the Dáil on many occasions. We agree with Ms Loftus in that regard. I want to talk specifically about the period of time in advance of a person retiring. I have two specific questions. I know from having represented workers in the public service that there are pre-retirement courses. I have some idea that such a thing does not exist in the private service outside giant companies that nearly operate like the public service. The one unifying factor we see every time is that there is a trade union agreement. That is nearly uniform. Does Ms Loftus see it as the role of the Department of Social Protection or where would she see that being offered? It is valuable and the take-up rate for these courses is huge. That piece is missing for older people. Whose job should it be? If we all agree it should be done, we must have a collective understanding of who should be doing it.</p>
+        </speech>
+        <speech by="#" eId="spk_7">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_34">It might be the Department of Social Protection or the Department of enterprise, trade and employment. I might have the name of that latter Department wrong.</p>
+        </speech>
+        <speech by="#LouiseOReilly" eId="spk_8">
+          <from>Deputy Louise O'Reilly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_35">It is the Department of Enterprise, Tourism and Employment.</p>
+        </speech>
+        <speech by="#" eId="spk_9">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_36">I am showing my age by going back to the old name, but that is the Department I mean. It has responsibility for the code itself. We would argue that we should be thinking about retirement way back. A good ten years out from retirement would be a sensible window in which to think about it. Our experience when people contact us is that they are often only told about this in the months prior to their retirement. There is very little you can do to prepare for your retirement within that kind of window. When older people contact us, we do not even have an information service any more because we do not have the resources to do it. They come to us because there is nowhere else they can go.</p>
+        </speech>
+        <speech by="#LouiseOReilly" eId="spk_10">
+          <from>Deputy Louise O'Reilly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_37">There is clearly a gap there.</p>
+        </speech>
+        <speech by="#" eId="spk_11">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_38">There is a huge gap there. They do not know what their own procedures are. Very frequently, employers have not taken the kinds of steps that are set out in the code. They do not know how to walk through this. I recently spoke to a gentleman who is a delivery driver. He wanted to continue driving, not forever, but for the next couple of years. He has a good employment history with no problems with his employer. However, that man felt uncomfortable drafting an email to his own HR department and was looking for me to provide some help in that regard. He had no idea what was in the code. He had no idea about retirement training. That was only being offered to him in the months before retirement. At least the company was offering it. In many instances, companies do not. The position of the company was that he had reached the age and was leaving. It had nothing to do with his work performance or capability to continue doing his job. Older people find this frustrating. We are told that the Government is all for longer working lives for those who want them, but the experience that people have in that space is very different and if you read that code, as I am sure the Deputy has-----</p>
+        </speech>
+        <speech by="#LouiseOReilly" eId="spk_12">
+          <from>Deputy Louise O'Reilly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_39">I am very familiar with it, yes.</p>
+        </speech>
+        <speech by="#" eId="spk_13">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_40">-----it says, "Look, Camille, I am afraid your work performance is great, we have no problems with you but we are going to retire you now because we want to bring in people who have less experience and fewer skills than you do." That is not considered age discrimination. Obviously, the appetite is there, for many different reasons. That is not true of everybody. From her background, the Deputy will know that people who are doing physically demanding jobs-----</p>
+        </speech>
+        <speech by="#LouiseOReilly" eId="spk_14">
+          <from>Deputy Louise O'Reilly<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_41">They cannot continue.</p>
+        </speech>
+        <speech by="#" eId="spk_15">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T09:50:00+01:00"/></from>
+          <p eId="para_42">-----often cannot continue. It is not physically possible for them to continue. For those who can, however, we are supporting them to continue in any way. We have a tight labour market now. If there was ever a time to sit down and ask whether our structures and systems are fit for purpose to make best use of the labour market resources we have, this is it. However, we are not doing so. It was January 2014 when retirement age was raised to 66. It was December 2025 before contractual retirement age was moved up in alignment with that. It took 12 years.</p>
+        </speech>
+        <speech by="#LouiseOReilly" eId="spk_16">
+          <from>Deputy Louise O'Reilly<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_43">It left people in extreme poverty as well. If the Chair does not mind, I will come in on the second round with the other witnesses. It left people in extreme poverty. I saw that myself. What is funny is that the Minister for enterprise and tourism has acknowledged that the retirement age is and should be 65. That has been the Sinn Féin position for a long time. Does Ms Loftus have any understanding of the extent to which poverty is driving people to work longer? The reason I say that is because we know the auto-enrolment pension legislation came about as a bit of a knee-jerk reaction to a report given to the Minister for Social Protection at the time which showed that older people were heading into retirement without capacity to pay rents, which, as we all know, are rising out of control. Is it Ms Loftus's understanding that poverty is a factor? Certainly, when I talk about the abolition of mandatory retirement, it is for people who can and want to. It is unfortunate, though, that there are a lot of people heading into what we would consider the retirement phase of their lives without a choice.</p>
+        </speech>
+        <speech by="#" eId="spk_17">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_44">I would say that, specifically, there is no data to indicate that but I will tell the Deputy what our experience is. Those who are working and want to continue working for financial reasons break into two categories. One comprises the people who are really worried about their retirement income and the provision in that regard. What we saw from the most recent set of poverty data, is that older people who live alone now have the highest rate of income poverty of any group in the country. That is a very new development in Ireland. While poverty remained broadly stable or fell for some groups last year, for older people it rose, and it rose specifically and very dramatically for older people who are living alone. For them, that is a problem.</p>
+          <p eId="para_45"> The Deputy mentioned housing costs. The last census showed us that 43% of people in the private rental sector are over 40. Those people are not going to get a mortgage so they are going to reach older age without the security of owning a home, and probably without the security of social housing because the proportion of people on the social housing list who are older is also rising. A lot of our income policies for older age work on the assumption that by the time you get to older age, you will own a home and no longer be paying a mortgage because you will have paid it. That is increasingly also not going to be true because people are getting into mortgages later. Now, however, we know that a growing share of those in the older age group will be in the private rented sector, a very insecure sector where it is very difficult to get the kinds of adaptations in a home to allow people to age in place. That is a real problem.</p>
+          <p eId="para_46"> The other group I would highlight are those people, predominantly women, who had to take periods out of the labour market in order to provide care. Some of them are continuing in the labour market because they are trying to earn enough social insurance contributions to allow them to qualify for a full State pension.</p>
+          <p eId="para_47"> I will mention quickly that I know the Department has brought in a revised caring credit scheme but it caps that at 20 years, even if the care has to continue beyond that. Those are two very live concerns in relation to that dynamic.</p>
+        </speech>
+        <speech by="#EoinHayes" eId="spk_18">
+          <from>Deputy Eoin Hayes<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_48">I thank both organisations for coming in and all four witnesses for being here. I am going to try and keep it short on the Age Action side and spend some time on the public services card. I want to be clear that an unfortunate narrative has been established that older people do not have so much to contribute to our society, even past the age of retirement. That is actually part of the problem - this cultural misalignment on the fact that these people are usually wiser, a lot more experienced, more skilled and play a very valuable role in our workplaces.</p>
+          <p eId="para_49"> One of the things I think about sometimes on this and the question of transitioning into retirement or being around retirement age is the statutory rights people have. What are the obligations on employers and on us as the Oireachtas in regard to what should be provided for these people? Are they sufficient to give people the information, choices and freedom to do what they want to do, regardless of the circumstance? They may need to take off because they have been in manual labour for 40 years and they need to have a different way of living, or they are somebody who has those cost pressures, needs to earn something and wants to stay. Even further to that, are we sure we are not pushing people into staying in employment if it is something they do not want to do? I would love to hear about that question of statutory rights.</p>
+        </speech>
+        <speech by="#" eId="spk_19">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_50">Really, there are not any. That is the short answer to that question. Your retirement age is governed by your employment contract if you are in the private sector. Whatever that says is the rule. The code of practice is a set of recommendations around best practice. There are no obligations on either party in that regard to address the very questions the Deputy is raising here.</p>
+          <p eId="para_51"> The OECD brought out a publication the other day about developing more age-friendly workplaces. There is a challenge here in two places. One of the things we say to employers is that they should really start having this conversation with employees at least a year out. That is not happening, in our experience. A lot of this is too late into the game for people to make reasonable provisions. What happens an awful lot of the time is that employers say, "You know what? I do not want to get into negotiations with individuals." It is a difficult area for them to negotiate because the case law is changing. Previously, the case law said that you need to be able to justify each individual decision. Then, last year, there was a case that said it is actually okay to set a numerical retirement age and say everybody has to go at this age. I do not think that is a sensible or prudent way to go about it for the reasons that have been articulated already. The length of working life we are looking at is guided by a lot of individual circumstances and it would be better to make those decisions on a case-by-case basis.</p>
+          <p eId="para_52"> What has happened with the gent I spoke to recently is that he has been let go by the people he has worked for for the past 25 years and he will now work for an employment agency. His employment rights will now be lesser because of those circumstances and I think his employer largely said, "It is the same for everybody. We are not making a difference between one person and another." For employers, that can be a challenging situation because they do not know whether they might be opening themselves to a discrimination case or not. They do not want to be in the Workplace Relations Commission, WRC. From an employee's perspective, the length of time to get a case heard in the WRC is such that they will probably hit the retirement age they wanted to retire at in the first place by the time the WRC makes a determination.</p>
+          <p eId="para_53"> We do not have hard rights in this space. We have some guidance. Our experience is that it is more honoured in the breach than the observance. We could do a lot to work with employers, employees and employee representatives to better resource workplaces and make the best use of the skills that we have. I checked; we churn through employees in Ireland pretty quickly in comparison with other countries. We have a very tight labour market. We get calls from employers who are finding it really difficult to recruit and ask us for advice on how they can retain their older staff and attract older staff. The employers know that older staff bring that experience into the workplace and it would be to their benefit. There is a need out there and our policy and procedures are behind that need. We have not caught up with that yet. That is why one of the things we have suggested here is that a review of the code be done. I do not really think it is fit for purpose any longer.</p>
+          <p eId="para_54"> I will give the committee another example. I spoke to a woman who had worked for a large pharmaceutical company for the past 35 years. She was going to be compulsorily retired. Her skill set was really impressive but job searches 35 years ago and now are fundamentally different. As I was talking through these issues with her, I realised there was nowhere I could tell her to go for advice and support on how to learn about this and manage it. If we are going to say we support longer working lives, we need to actually start supporting them.</p>
+        </speech>
+        <speech by="#EoinHayes" eId="spk_20">
+          <from>Deputy Eoin Hayes<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_55">One hundred percent.</p>
+        </speech>
+        <speech by="#" eId="spk_21">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_56">We need clarity for employers so they understand what their situation is. We need supports for them in regard to retaining those staff and we need supports for employees to remain active in the labour market.</p>
+        </speech>
+        <speech by="#EoinHayes" eId="spk_22">
+          <from>Deputy Eoin Hayes<recordedTime time="2026-05-27T10:00:00+01:00"/></from>
+          <p eId="para_57">I thank Ms Loftus. I am going to move on to the public services card. This has been quite a saga, as was outlined, and it is a really worrying one. We might take a step back here. It was stated that this is a programme commissioned by the Government that has no statutory basis and no business case.</p>
+          <p eId="para_58">It is collecting 70% of the population's biometric data and it is with the courts. It seems as if the Department has never evaluated in any way or conceded that anything is wrong with that. Is that a fair assessment?</p>
+        </speech>
+        <speech by="#" eId="spk_23">
+          <from> Ms Olga Cronin<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_59">Yes, I think so. There is a legal basis for the public services card in respect of social welfare but-----</p>
+        </speech>
+        <speech by="#EoinHayes" eId="spk_24">
+          <from>Deputy Eoin Hayes<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_60">The collection of the data is on a statutory basis.</p>
+        </speech>
+        <speech by="#" eId="spk_25">
+          <from> Ms Olga Cronin<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_61">Yes, the collection of data and all of that. Again and again we have had these findings from the Data Protection Commission. It seems like an odd impulse, in light of that very serious finding last June, that instead of addressing those issues we would, at the flick of this amendment, allow any organisation or person to accept that as an ID. That brings a whole bunch of issues that do not seem to have been considered. That is without touching the actual issue that is facing them since last June. It is before the courts.</p>
+        </speech>
+        <speech by="#EoinHayes" eId="spk_26">
+          <from>Deputy Eoin Hayes<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_62">It is totally shocking to me. If this was most other European countries it would be a major issue, like with riots on the streets. Imagine doing this is Germany. I took a picture of a man once in Frankfurt through a window because I was trying to take a picture of the city and he absolutely lost it because I had taken his image without his consent, which was totally fair. This is along the same lines with people being effectively forced to give their image and biometric data to the State without any assurances whatsoever around how it is going to be used. I have one further question.</p>
+        </speech>
+        <speech by="#JohnPaulOShea" eId="spk_27">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_63">Deputy Hayes is out of time so he will have to come back to it again. The next speaker is Senator Rabbitte.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_28">
+          <from>Senator Anne Rabbitte<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_64">I will continue on from where Deputy Hayes was but on a slightly different tack. Last week we had representatives before the committee. What was staggering is the number of people who are choosing to have a public service card. It is not that it is being forced upon them. They are actually choosing to have a public service card. It is predominantly young people, believe it or not, because they are using it as a form of age verification. In addition, they are using it, as was said, to allow them to open bank accounts or credit union accounts. What is the witnesses' response to people choosing to have a public service card as opposed to being forced?</p>
+        </speech>
+        <speech by="#" eId="spk_29">
+          <from> Dr. T.J. McIntyre<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_65">This goes back to a point Deputy Hayes made earlier. We have a system here that was not very well thought out to begin with. This was developed at haste in the austerity era when there was perhaps an easier time railroading through a lot of these measures without quite as much scrutiny, in light of the pressures exerted by the troika and so on. The public services card was adopted as a tool for accessing public services. It was not adopted as a tool for verification across the wider private sector and, indeed, we were told at the time it would not be used for that.</p>
+          <p eId="para_66"> When we start looking at what a public services card does versus what an identity card does, these are two very different things. For example, identity in an Irish context means very different things for different people. It is very common for people to go by names other than the names on their birth certificate, be that the Irish-language version or otherwise. T.J. McIntyre, for example, does not appear on any piece of documentation but it appears on quite a lot of my ID but not all.</p>
+          <p eId="para_67"> Identification is not necessarily what one wants to establish. Usually one wants to establish an attribute rather than identification or a name. In the case of an age card, that means the need to establish age, not date of birth. What that means in practice is that a card which contains date of birth is unnecessary for the purpose of demonstrating age. In countries that have thought this issue through, where identity cards are issued for the purposes of verifying age, the date of birth would not be put on it because we know date of birth is a sensitive identifier that can be misused in conjunction with other data, such as name and PPS number, for fraud purposes. Instead you will see cards issued that say that the holder of the card is above 18 years of age, along with a photograph, or that the holder of the card is above the age of 21 if a jurisdiction has that as the age for driving or drinking. The point is, you do not necessarily inscribe age by way of date of birth because that carries with it other risks.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_30">
+          <from>Senator Anne Rabbitte<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_68">I think the Garda age ID actually does carry that. I am referring to the age ID An Garda Síochána issues to children when they want to access public houses. It actually has their full date of birth on it. Young people nowadays are choosing to use the public service card because it has all forms of ID on it. It can be used for age identification purposes and also for opening a bank account because it has the PPS number on it. It has a dual function from a young person's point of view. As the mother of three teenagers, they see the value of a public service card in the fact that they only need to have one card to be able to do multiple functions other than just access public services. I believe the age ID card from An Garda Síochána has their full date on it.</p>
+        </speech>
+        <speech by="#" eId="spk_31">
+          <from> Dr. T.J. McIntyre<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_69">There is a similar situation in the US where driver licences have become a de facto national ID card because the US does not have a national ID card. For example, in the US you have to present a driver licence to go into a bar even if you are very clearly over 21 years of age, as unfortunately I am. Then, in many bars in the United States, they will scan that data and you may find it being used for other purposes later, such as marketing. Sometimes it is abused, for example by a bouncer using it to stalk a woman who goes into the bar.</p>
+          <p eId="para_70"> The point I am making is that a properly thought-out identity system does not reveal more information than is necessary for the particular transaction. To the point as to the need to verify these additional details, that can be done ideally if there is a secure back end, in the sense of there being a system behind the physical card.</p>
+          <p eId="para_71"> Obviously, inscribing material on the face of a physical card is not a particularly secure way of doing things but that is not something this system does as it stands. If we are just replacing a piece of paper with a piece of plastic with this information inscribed on it, that is not really making us any more secure and does not address the point Senator Rabbitte makes around providing verification in a secure way. We should bear in mind that there is no provision in law for third parties to authenticate public service cards that are presented to them. If we want to migrate toward using this as private sector ID, then the private sector element needs to be able to ask, if it is unsure about a physical card because anybody can print a card nowadays, how it can verify that the details on it are correct. At the moment we have no system, much less any legislative basis, to do that.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_32">
+          <from>Senator Anne Rabbitte<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_72">In response to that, the hologram that is on it the card that has the symbol of the harp is what our banks and our credit unions look to. It is the same as with notes and currency. It is the hologram or the silver strip that is on it. That is how one identifies that it is authentic. Would Dr. McIntyre agree?</p>
+        </speech>
+        <speech by="#" eId="spk_33">
+          <from> Dr. T.J. McIntyre<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_73">The fact that a card may have an authentic protector on it does not necessarily mean the information on the card is authentic or unchanged.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_34">
+          <from>Senator Anne Rabbitte<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_74">Then we are down to lying around the production of it and that we do not believe that the production of the public services card or that the production of currency notes is actually correct. Whereas, in actual fact we must have the stability that we do believe it when there is a hologram on something because that is done to such a high standard. They are not being replicated. We know the difference in a fraud note.</p>
+        </speech>
+        <speech by="#" eId="spk_35">
+          <from> Dr. T.J. McIntyre<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_75">I entirely take the Senator's point, and there may well be a situation where there is a perfectly valid card being used by somebody who looks like the person pictured on the card who is not that person. In that case there is no correspondence between the two. Identity verification is a multi-layered thing. In banking, for example, it is not the case that a bank will take a public services card on its own. It will be layered with proof of address and other factors and that is then combined with correspondence typically going to the people's home, as well.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_36">
+          <from>Senator Anne Rabbitte<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_76">That is part of the money laundering Act of 1995. The fact is that the public service card has become adapted or had a part brought into it. My point last week was in relation to the ML10 form. We have an awful lot of people who cannot actually have forms of ID and they rely on an ML10 form where one must go to the local Garda station to get it validated or verified. In an awful lot of cases it is people who are living alone or have a disability who may not have any of those cards. An ML10 form is only used on that one-off basis whereas a public services card gives that person actual identity they are able to use.</p>
+        </speech>
+        <speech by="#" eId="spk_37">
+          <from> Dr. T.J. McIntyre<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_77">While it may well be the case that expanding something in an <i>ad hoc</i> way has that desirable side effect the Senator mentioned-----</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_38">
+          <from>Senator Anne Rabbitte<recordedTime time="2026-05-27T10:10:00+01:00"/></from>
+          <p eId="para_78">That is what people have become comfortable with, to be honest, in the last 14 years. There is an alternative choice.</p>
+          <p eId="para_79">That goes back to the initial part of my question. People are choosing it as opposed to having it forced upon them as a mechanism. Would Dr. McIntyre agree that people are comfortable with it?</p>
+        </speech>
+        <speech by="#" eId="spk_39">
+          <from> Dr. T.J. McIntyre<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_80">In relation to being comfortable with it, I got an email from a former colleague of mine last week, a barrister who retired recently. She was very aggrieved that she found she had to get a public services card to avail of the free travel scheme. Unfortunately, it may well be the case that many people are, but when there is compulsion in a lot of social welfare systems to have the card to access entitlements, I do not think it is necessarily fair to say that the majority of people are happy with that.</p>
+        </speech>
+        <speech by="#JohnPaulOShea" eId="spk_40">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_81">Regarding what Ms Loftus and Ms Brown said to Deputies O'Reilly and Hayes, have they made any submission to the Government about improving the situation with people being forced to retire or not receiving information ahead of retirement?</p>
+        </speech>
+        <speech by="#" eId="spk_41">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_82">In the context of the Employment (Contractual Retirement Ages) Act, which was passed last year, we made specific representations around the legislation and how it might be enhanced, particularly to provide better security for employees; to remove the burden from them to be aware of these procedures, because most of them simply are not; to point out the ageism that we think is in the code; and, more broadly, to focus on the issue of entitlement to pensions and financial incentives in that regard. One of the challenges in this space is the issue that Deputy O'Reilly raised, which is that responsibility sits across a number of different Government Departments.</p>
+          <p eId="para_83"> We in Age Action have called for a new national strategy on ageing and older people. The last strategy dates to 2013. It was a very different place. We were coming out of a bail-out. We now need a strategy that cuts across all these different Government Departments, particularly because many of these issues involve integration across different Departments, in order to start to take the steps that we should be taking now to prepare ourselves for the inevitability that a much larger share of our population will be over 65. We have done this, and we will continue to do so.</p>
+        </speech>
+        <speech by="#JohnPaulOShea" eId="spk_42">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_84">If Ms Loftus could forward the previous submission to the clerk, it might be of use to the committee.</p>
+        </speech>
+        <speech by="#" eId="spk_43">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_85">I am happy to do that.</p>
+        </speech>
+        <speech by="#WilliamAird" eId="spk_44">
+          <from>Deputy William Aird<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_86">I have a couple of questions. Does Age Action believe this Bill contains any genuinely transformative measures for older people, or is it largely administrative and technical in nature?</p>
+        </speech>
+        <speech by="#" eId="spk_45">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_87">It is largely technical. The scheme has been closed to new entrants since 2007. It does not change anything for older people.</p>
+        </speech>
+        <speech by="#WilliamAird" eId="spk_46">
+          <from>Deputy William Aird<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_88">Is Ms Loftus concerned that increasing reliance on digital identification, verification and online engagement with the Department risks excluding older people from accessing entitlements?</p>
+        </speech>
+        <speech by="#" eId="spk_47">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_89">Yes, and not only in the public sector. I would also draw the committee's attention to the kinds of services which we all need but which we have to access via the private sector. Many of our transport services are provided by the private sector. Phone, broadband and TV services are all provided by private sector bodies. People will frequently find that there is a price penalty unless they do their business online. If they do not pay by direct debit or get their bills digitally rather than in hard copy, they will pay more for their services.</p>
+        </speech>
+        <speech by="#WilliamAird" eId="spk_48">
+          <from>Deputy William Aird<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_90">It is unfair.</p>
+        </speech>
+        <speech by="#" eId="spk_49">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_91">It is unfair. I am not a privacy expert, so I will defer to colleagues here, but there is a concern among older people, and not just older people-----</p>
+        </speech>
+        <speech by="#WilliamAird" eId="spk_50">
+          <from>Deputy William Aird<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_92">There might be leaks.</p>
+        </speech>
+        <speech by="#" eId="spk_51">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_93">The data is there and it is not clear who has it, what purpose they can use it for, and what broad risks they are exposing themselves to in that regard. Age Action provides the Getting Started programme, which does one-to-one digital skills training with older people. This area is evolving so fast and being led largely by the tech companies themselves rather than by the public sector saying that these are the things the companies have to do, these are the standards they have to meet, and these are the protections that need to be in place.</p>
+        </speech>
+        <speech by="#WilliamAird" eId="spk_52">
+          <from>Deputy William Aird<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_94">The answer was "yes".</p>
+        </speech>
+        <speech by="#" eId="spk_53">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_95">Correct.</p>
+        </speech>
+        <speech by="#WilliamAird" eId="spk_54">
+          <from>Deputy William Aird<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_96">In the view of Ms Loftus, has Government policy kept pace with the real increase in living costs facing pensioners, particularly in relation to energy, housing and healthcare?</p>
+        </speech>
+        <speech by="#" eId="spk_55">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_97">No. That is evidenced in the poverty data.</p>
+        </speech>
+        <speech by="#WilliamAird" eId="spk_56">
+          <from>Deputy William Aird<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_98">Does Age Action believe that the State pension system as currently structured is financially adequate to prevent poverty and social isolation among older people?</p>
+        </speech>
+        <speech by="#" eId="spk_57">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_99">No.</p>
+        </speech>
+        <speech by="#WilliamAird" eId="spk_58">
+          <from>Deputy William Aird<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_100">Would Ms Loftus elaborate?</p>
+        </speech>
+        <speech by="#" eId="spk_59">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_101">We can see already that poverty is growing among older people, so it is not adequate.</p>
+        </speech>
+        <speech by="#WilliamAird" eId="spk_60">
+          <from>Deputy William Aird<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_102">What specific provisions are missing from this Bill that Age Action believes are necessary to prepare Ireland for a rapidly ageing population?</p>
+        </speech>
+        <speech by="#" eId="spk_61">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_103">The Pensions Commission said that we should benchmark our State pension rate to 34% of average earnings. We should move on and do that legislatively without further delay, as most other rich countries do. We have introduced auto-enrolment to say that everybody must invest in a supplementary pension. The Pensions Commission said that people who are compelled to do this should know what their entitlement to a State pension will be. They should have some certainty in that regard. That is another reason we should be doing benchmarking. We would also say that the financial incentive - the tax relief - should be focused on the people who are most excluded from supplementary pensions, which it is not. You get more if you are a higher earner.</p>
+        </speech>
+        <speech by="#WilliamAird" eId="spk_62">
+          <from>Deputy William Aird<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_104">I asked the Taoiseach a question in the Dáil yesterday about the free fuel allowance. People are allowed to rent out a room for up to €14,000 tax-free, but if one of their family comes back into the family home with their elderly parent, which I came across, with a 47-year-old person who was married going back to live with his mother, the first thing is that the free fuel allowance is cut off. I think that is very unfair. Given what Age Action has spoken about on numerous occasions here this morning, one can see the poverty trap that older people are in. There is not excess income from this person, because he is supporting his children. He cannot make a contribution to his mother's home because his dad is dead, and she was cut off from the fuel allowance. That is totally unfair.</p>
+        </speech>
+        <speech by="#" eId="spk_63">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_105">I agree entirely. It will be part of our budget submission to the Department this year. Only three in ten older people get access to the fuel allowance. People think all older people get it, but it is only three in ten.</p>
+        </speech>
+        <speech by="#WilliamAird" eId="spk_64">
+          <from>Deputy William Aird<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_106">That is the perception. So it is three out of ten.</p>
+        </speech>
+        <speech by="#" eId="spk_65">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_107">It is the perception indeed. On the means-tested State pension, only 56% of people get fuel allowance. The factor the Deputy has identified is very live in that regard, particularly in the context of a housing crisis, where we have the adult sons and daughters of people, who often might be living with-----</p>
+        </speech>
+        <speech by="#WilliamAird" eId="spk_66">
+          <from>Deputy William Aird<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_108">I meant to correct what I said. When people rent out a room for €14,000, the income of the person who takes that is not taken into anything, but if the parents' son or daughter comes home to live with them, his or her income is taken into consideration. That is totally unfair.</p>
+        </speech>
+        <speech by="#" eId="spk_67">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_109">Even where that son or daughter may be providing really useful support to an older person, he or she is penalised by loss of fuel allowance in that regard. In the context of the next budget, we will argue strongly that we should not just focus on increasing the fuel allowance payment, which is not adequate to the scale of costs, but we should also ensure that the people who need to get it actually get it. That is one of our problems.</p>
+        </speech>
+        <speech by="#WilliamAird" eId="spk_68">
+          <from>Deputy William Aird<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_110">I had another case where a son came home to look after his mother. He is working but he will have to take early retirement to look after his mum, and she will not be entitled to anything because he is doing that at home.</p>
+        </speech>
+        <speech by="#" eId="spk_69">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_111">It is counterproductive.</p>
+        </speech>
+        <speech by="#WilliamAird" eId="spk_70">
+          <from>Deputy William Aird<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_112">It is counterproductive and just not right.</p>
+        </speech>
+        <speech by="#" eId="spk_71">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_113">It is not right.</p>
+        </speech>
+        <speech by="#PeterRoche" eId="spk_72">
+          <from>Deputy Peter Roche<recordedTime time="2026-05-27T10:20:00+01:00"/></from>
+          <p eId="para_114">I welcome the witnesses. My apologies. I was at the health committee next door. Notwithstanding that, I have a huge interest in this debate. A bit like Deputy Aird, I came across a situation recently in my constituency office where a young gentleman in his 40s came back to live with his parents. He wanted to do further education.</p>
+          <p eId="para_115">He did not qualify for the Student Universal Support Ireland, SUSI, grant, because the whole house was means-tested. That discourages people from wanting to better themselves, so to speak. There may be some changes on the way in that regard, but I am not sure they will come quickly enough for that applicant.</p>
+          <p eId="para_116"> How does the Bill support older workers who wish and need to remain in employment beyond retirement age?</p>
+        </speech>
+        <speech by="#" eId="spk_73">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_117">Not at all, in the Bill under consideration here. What this Bill does is close off a payment that is a legacy of a period of very high unemployment, one which signalled to older people that they can get a pre-retirement allowance, a means-tested payment, where we will not require them to seek work, but they can take themselves more or less out of the labour market to free up those jobs for younger people coming behind them. That scheme has not been open for applications since 2007. We understand from the briefing that there are no applicants currently in receipt of it. This is largely a technical amendment. In terms of advancing the goal of supporting longer working lives, this particular Bill does nothing in that regard.</p>
+        </speech>
+        <speech by="#PeterRoche" eId="spk_74">
+          <from>Deputy Peter Roche<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_118">I am always taken by the issues that present to older people when it comes to online applications and digitalisation. I became aware recently of a gentleman who was applying for a payment, and because he and his wife were not able to do it digitally and did not have access to a son or daughter to do it for them, the civil servant said there was surely a neighbour or somebody like that who could do it. I thought that was gammy, if I can put it that way, in the context of GDPR. Why is that encouraged? Why would anyone do or advise such a thing?</p>
+        </speech>
+        <speech by="#" eId="spk_75">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_119">I agree entirely, and we have flagged on numerous occasions that that particular response to digital exclusion is opening up a very big financial safeguarding risk. I supported my father in the latter years of his life in terms of doing some of those things online, and it occurred to me while I was doing this, sitting there with the laptop saying, "Dad, you are okay with this", that I knew all of his information. I knew all the information we are all told not to disclose to anybody else. I was not going to scam my father but I realised I had all the information I would need if I wanted to.</p>
+        </speech>
+        <speech by="#PeterRoche" eId="spk_76">
+          <from>Deputy Peter Roche<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_120">That is the point I was making.</p>
+        </speech>
+        <speech by="#" eId="spk_77">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_121">It is not okay to implement digitalisation in that context and say if people find this difficult, they should put themselves at financial risk by disclosing the information that we are telling them all of the time they should not disclose to anybody else but keep private. Because they are old, however, we will say that is okay. It is not okay because unfortunately we do hear stories where people hear, "Well, it is probably a matter of weeks or months for Camille now, at this stage she does not have long", and suddenly Camille's bank account gets cleared out because somebody knows he or she is not mentioned in the will. People should not be exposed to those kinds of risks, and certainly a lot of older people's experience in relation to digitalisation is that they feel few benefits from it.</p>
+          <p eId="para_122"> It is not as if when people apply for the State pension, for example, the Department reaches out to tell them they might be qualified for fuel allowance or a living alone allowance. There are no benefits delivered to the citizen in that regard but there are a lot of risks. Age Action was in before the Joint Committee on Artificial Intelligence in autumn last year. One of the questions the Chair asked us was whether we could be making better use of these technologies to enhance the rights of citizens. We are not doing so, but we are putting citizens at risk in that regard. We raised this matter with the Department of Public Expenditure and Infrastructure and Digitalisation - that big long title - but we think, particularly in the context of the development of safeguarding legislation, this is something that needs to be considered a very live risk.</p>
+          <p eId="para_123"> I used to think this was a problem that would age out because we would all be more familiar with digital technology, but of course digital technology is changing so fast that people can be outpaced by it all the time. I used to think I would be fine, but I will not be. I am already finding myself struggling to adapt to changes in technology. We are all going to face those challenges so we need to ensure that people for whom that is a challenge are protected and safeguarded.</p>
+        </speech>
+        <speech by="#PeterRoche" eId="spk_78">
+          <from>Deputy Peter Roche<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_124">There is a perception that it is just older people who are clumsy around IT. There will always be a cohort of people who are not digitally adept.</p>
+        </speech>
+        <speech by="#" eId="spk_79">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_125">There is a very strong correlation between digital skills and level of formal education. People with a university education are much more likely to be digital savvy. That is a particular issue for the older population, many of whom never got the opportunity even to finish secondary school, never mind go to third level. A very high proportion of the younger population go to college now but not everybody does. Those who do not are in the same boat, largely.</p>
+        </speech>
+        <speech by="#PeterRoche" eId="spk_80">
+          <from>Deputy Peter Roche<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_126">Is the clock beating me, Chair?</p>
+        </speech>
+        <speech by="#JohnPaulOShea" eId="spk_81">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_127">The Deputy may ask one more question.</p>
+        </speech>
+        <speech by="#PeterRoche" eId="spk_82">
+          <from>Deputy Peter Roche<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_128">I am a glutton for punishment when it comes to this issue. We are failing quite a lot of people by not having paper applications and communications. It is a disservice, and it threatens an awful lot of people. It puts the fear of God into them because it may ultimately mean that their application will be unsuccessful because it may not be processed properly.</p>
+        </speech>
+        <speech by="#" eId="spk_83">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_129">That is right.</p>
+        </speech>
+        <speech by="#PeterRoche" eId="spk_84">
+          <from>Deputy Peter Roche<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_130">There is then an appeal, and the whole thing gets very complex.</p>
+        </speech>
+        <speech by="#" eId="spk_85">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_131">That is right.</p>
+        </speech>
+        <speech by="#PeterRoche" eId="spk_86">
+          <from>Deputy Peter Roche<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_132">We have a body of work to do to convince the powers that be that there must be some caveat, some provision put in place, to facilitate that.</p>
+        </speech>
+        <speech by="#" eId="spk_87">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_133">The other thing I would add is what often happens with digitalisation is not only does the paper form get withdrawn or harder to get, but people cannot call anybody. When I started doing welfare rights 30 years ago, I could call somebody in the Department and say an issue has arisen and ask how we should manage it and what is the guidance on it. There is nobody to talk to now. We get calls in Age Action all the time where somebody tells us they are online and looking at the form but they do not know what something means or what information is being sough, and there is nobody except Age Action that they can ask.</p>
+        </speech>
+        <speech by="#JohnPaulOShea" eId="spk_88">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_134">We will now take supplementary questions. Contributions will be limited to five minutes. </p>
+        </speech>
+        <speech by="#LouiseOReilly" eId="spk_89">
+          <from>Deputy Louise O'Reilly<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_135">My question is in relation to digital rights. I have an observation as well. I read the overview and it was incredibly interesting. I note the reference to six TDs or former TDs, namely, the former Minister, Joan Burton, Fianna Fáil’s Sean Fleming, the former Social Democrats TD, Catherine Murphy, the Minister, Deputy O'Donovan, the former Minister, Regina Doherty, and "a Sinn Féin TD", which I thought was a bit weird. I am sure there is a very good explanation for it. </p>
+          <p eId="para_136"> In June 2025, the Data Protection Commission found the Department had unlawfully collected biometric data for approximately 70% of the population over 15 years. That affects more than 3.4 million individuals, including, disturbingly, 13,000 children. Given that ruling is currently under appeal - and I am not asking the witnesses to pre-empt the outcome because we cannot - is it wise for us to press ahead at this stage with legislation which, in the initial look at it, regardless of what happens with the appeal, raised really serious concerns with the Data Protection Commission? Does what we are doing here feed into the assertion that, in effect, this unlawful project has become too big to fail, and the more we pile into it, the more it has to do, and the less likely it is it can be stopped because it is, in effect, doing too much?</p>
+        </speech>
+        <speech by="#" eId="spk_90">
+          <from> Ms Olga Cronin<recordedTime time="2026-05-27T10:30:00+01:00"/></from>
+          <p eId="para_137">In a nutshell, yes, that is correct. As I said in my opening statement, by virtue of this head, we are probably going to repeat history and it will be back before the Data Protection Commission again. It is interesting that it is clear from the 2025 report that the feeling was that the project had become too big to fail.</p>
+          <p eId="para_138">It is a really odd impulse not to address the legal issues that have been laid bare at the Department's feet and to instead make the card a de facto, general-purpose national identity for everyone to use and to make the project even bigger to fail. It is an odd impulse.</p>
+        </speech>
+        <speech by="#LouiseOReilly" eId="spk_91">
+          <from>Deputy Louise O'Reilly<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_139">In Ms Cronin's opinion, is that effectively what is being done? Is it the introduction by another name of a national identity card with biometric data?</p>
+        </speech>
+        <speech by="#" eId="spk_92">
+          <from> Ms Olga Cronin<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_140">That is what head 7 will allow. It will allow for any organisation or person to accept it as a form of identification, whereas before that was not allowed. That is the difference and that is what stands between the card being a public services card for a specific purpose and being a general-purpose national identity card. We have warned for years that this function creep was happening, and so here are.</p>
+        </speech>
+        <speech by="#LouiseOReilly" eId="spk_93">
+          <from>Deputy Louise O'Reilly<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_141">Did the council directly warn Ministers about that? We all had a bit of a giggle over mandatory versus compulsory, but it is very serious. Although she is not a Minister any more, a Government Minister was incapable of providing any sort of assurance at all and said something as silly as it is mandatory but not compulsory. How does that work in relation to the free travel pass? Is it the case that people will just have to decide that they do not want one? In that instance, would the witnesses consider it to be compulsory? How would they describe it?</p>
+        </speech>
+        <speech by="#" eId="spk_94">
+          <from> Dr. T.J. McIntyre<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_142">My understanding is that without getting a personal services card, PSC, a person will not get a free travel pass. </p>
+        </speech>
+        <speech by="#LouiseOReilly" eId="spk_95">
+          <from>Deputy Louise O'Reilly<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_143">So, it is effectively compulsory if someone wants a free travel pass, which they probably worked all of their life for and paid taxes for. That is worrying.</p>
+          <p eId="para_144"> In terms of what we can do as a committee, this is pre-legislative scrutiny and we have a chance to consider and discuss this in advance of the legislation. Would it be wise for us to hold off until the appeal is concluded and we have broader information? I feel like we are doing more and more that cannot be undone. I am not asking the witnesses to comment on what way the appeal might go because I know they cannot, but what are their views on that?</p>
+        </speech>
+        <speech by="#" eId="spk_96">
+          <from> Ms Olga Cronin<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_145">As I said before, when representatives of the Data Protection Commission was before the committee a couple of weeks ago, they said they would welcome a review of the legislation underpinning this whole system. That would be the first step as opposed to, at the flick of a pen, stretching this card out to every context.</p>
+          <p eId="para_146"> In the 2019 report, the Data Protection Commission asked the Department for a consolidation of all the social welfare legislation that underpinned the card, and it amounted to 561 pages and over 2,000 footnotes. This is not the time to be pushing an unlawful project out further. It is the time to review what we have and what we want to do, as well as having a conversation about what it means to have a national ID because that is a very big conversation. </p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_97">
+          <from>Senator Anne Rabbitte<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_147">This time, I am going to focus my time on Age Action. I thank the organisation for its continued advocacy for people. Deputy Roche and everybody else went to the space about financial literacy and safeguarding. I was delighted to hear people use that word because that is what we are facing into. I believe that financial safeguarding begins at the age of 50 because of the way the pension laws, people's entitlements and everything else have changed. It starts way before we hit the age of 65 and some people do not realise that the rules for the approved retirement fund, ARF, and the approved minimum retirement fund, AMRF, for the self-employed have changed. PAYE workers also do not realise that they could be making more contributions through it and then all of a sudden they arrive at the age of 65 and say that if they had known then what they know now, they would possibly have made far better choices. Back in the day when a person had one job for life, they started, signed in and then they got to the end, but they may not have realised they had choices along the way that they could have made different provisions on. That sort of communication does not come along the way.</p>
+          <p eId="para_148"> There is a wider scope of work than just landing at the age of 65 and looking at what we can do for people. This scope of work has to start at the age of 50 when it comes to those changes. Deputy Hayes has a financial background, so he understands exactly where I am coming from and that people have to be made more aware, whether that is in the public sector, the private sector or the banking sector, which sold the pension products to people. There have to be red flags put along the way. I want to hear the witnesses' thoughts on that. Have I gone too far back? Have the witnesses thought that through?</p>
+        </speech>
+        <speech by="#" eId="spk_98">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_149">Before I started working for Age Action, I was one of those people. I was one of those people who did not realise this. I would agree 100%, and it is not only in relation to finances. People want to be thinking about their future healthcare decisions. They want to be thinking about where they are going to live should their mobility be constrained or should they have care needs. I am 57 now. The time to be thinking about this is before now. That is one of the things. </p>
+          <p eId="para_150"> These decisions are often made in the context of a crisis when a person is sick, or when their house is no longer suitable for them and they cannot get upstairs any more. All those kinds of decisions are made in the context of a crisis. If someone is losing the capacity to manage their own finances, decisions are made in the context of crisis. A lot of those decisions are quite complex, and people need access to trustworthy and accurate information. A lot of the time people are in a situation where they are getting that information for someone who is trying to sell them a service. That is not optimal. </p>
+          <p eId="para_151"> In relation to healthcare decisions, it is very hard to get any advice on what is the best way to go about doing these things. Families and older people themselves often do not want to approach that because it almost feels like they are bringing the date of this thing forward but, in fact, we should all be making those decisions early in our 50s or should at least be thinking about them, so that we are prepared and that everybody around us understands what our preferences are. For example, we often get calls in Age Action about tension between siblings. One sibling may think another is not looking after their mother well or may not have confidence in the person in control of their father's finances. Those decisions then have to get managed in the context of much bigger demands around ensuring that the care is there and the right services are put in place.</p>
+          <p eId="para_152"> We are starting to do some planning work on this to try to begin to develop some resources, but it is a very big project. The Department of Social Protection has started doing some work on life events. It contacted us recently about the life event of bereavement, which, again, is one of those things that people are not prepared for until it is on top of them, but the life of event of retirement is one that we really should be thinking about. I agree entirely with the Senator. We should be thinking about these things well in advance of retirement across a range of domains.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_99">
+          <from>Senator Anne Rabbitte<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_153">Absolutely. In addition, people who are in public service jobs find it quite difficult to get information on what they will receive when they retire. I am 64 now and am a year out from planning my retirement. I cannot get a breakdown of my entitlements. People need to know that because they are making decisions based on whether they can afford to retire. There is a host of cross-departmental issues but there is also a private sector piece in there. It is right across the board. It would be very welcome if the Department of Social Protection produced information on life events and could step people through those life choices and advise them on what they should be considering at different stages, that is, not what they have to do but what should be considering.</p>
+        </speech>
+        <speech by="#" eId="spk_100">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_154">It should advise them on the questions they need to ask.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_101">
+          <from>Senator Anne Rabbitte<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_155">Yes, which questions you need to ask yourself before it is too late for you to answer for yourself.</p>
+        </speech>
+        <speech by="#" eId="spk_102">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_156">This was broadly the point the Pensions Commission made about the State pension not being all that a person may rely on in older age, particularly in the context of saying to people that they are auto-enrolled into a supplementary pension now and they should know what their entitlements will be, whether it is via an occupational pension or the State pension. If we want people to take on responsibility for planning for their own finances in older age, we need to tell them what they are entitled to.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_103">
+          <from>Senator Anne Rabbitte<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_157">I completely agree.</p>
+        </speech>
+        <speech by="#EoinHayes" eId="spk_104">
+          <from>Deputy Eoin Hayes<recordedTime time="2026-05-27T10:40:00+01:00"/></from>
+          <p eId="para_158">I am afraid that I am going to spend a bit more time on the public services card but just before I get there, I want to echo the critical importance of in-person interaction for older people, and not just older people.</p>
+          <p eId="para_159">I actually hate my phone. I much prefer interacting with people like this and having real-life conversations. I have met many older people who are really struggling, not just with how public services have transitioned online but also how private and, in particular, banking services are disproportionately now online. It is not possible to access in person a lot of those services that one needs. That is particularly important for people who are living alone. As was said, they are now one of the most impoverished populations in the country, with a consistent poverty rate of about 10% and 30% at risk of poverty. They are found predominantly in rural areas when one looks at the geographical spread. It is important that we work on that.</p>
+          <p eId="para_160"> Regarding the public services card, one of the things that was mentioned was the question of revealing more information than is necessary. One of the things I have struggled with through the whole saga of the public services card is the fact that every single person in this room has a unique identifier. We all have a PPSN and that PPSN could have solved a lot of these problems in terms of translation between different services and people being able to access different services but we went a little bit further. We went into how we capture date of birth and biometric information. I ask the witnesses to give me some sense of things as regards two points? First, why did it somehow become the view of the Department that it needed to collect far more information and reveal far more information than was required, beyond the unique identifier we all get at birth or when we enter the country? Second, what is the witnesses' sense of the security around this information? Whenever information like this is held somewhere,regardless of how much security provision you have - it could be Fort Knox - there is always a risk that it will be accessed by somebody who should not have it?</p>
+        </speech>
+        <speech by="#" eId="spk_105">
+          <from> Dr. T.J. McIntyre<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_161">Regarding this history, it is important to put it into the context of the austerity programme at the time, in particular the aim, on the one hand, to detect fraud and, on the other hand, to save money by digitising public services. The two fed into each other to produce a project that in the end became too big fail, notwithstanding the concerns others had about it. There was a sense that this is "our" project and others' criticisms would not really be taken into account to derail that.</p>
+          <p eId="para_162"> On the question of security, excessive collection of information and so on, in fairness, there is an underlying complexity in that, in many cases, the unique identifier of the PPSN does not necessarily work. Some members probably know that historically, women often did not have separate PPSNs but had their husband's number with a "W" placed at the end of it later in the day. Of course, there will be people in the social welfare system in one way or another who do not necessarily have PPSN because, for example, they are coming from another jurisdiction. In that sense, it is a bit difficult to tie everything just to the PPSN.</p>
+          <p eId="para_163"> With regard to the question of how the information is obtained and managed, the Deputy made a very important point about security. We have seen prosecutions of individuals within the Department of Social Protection for selling this information or revealing it to third parties. We have seen prosecutions of private investigators in some cases who have obtained information and revealed it to third parties. This is very valuable if one is acting for a bank or an insurance company defending a personal injury claim. There will always be unscrupulous people on the far side who see access to this information as being very valuable to defend against legal actions in some cases. Quite a lot of money can be spent on getting access to that information, so these kinds of insider threats are very common.</p>
+          <p eId="para_164"> In terms of how we manage against that, one of the points that came up concerned the necessity for particular types of information versus the verification of attributes. Again, someone does not need to give out the date of birth if we only need it to verify somebody's age and they do not need to give out the full status of their employment history if all we want to do is establish whether or not they are eligible for a benefit. The card that the public transport operator sees does not need to have someone's date of birth on it. It does not need even need to have a name and address on it if they can identify the holder based on a photograph, if that is the identifier that is needed. </p>
+          <p eId="para_165"> All of these go to the question of the design of a wider identity system. Here we come back to the point made by the Deputy about how this was devised. It was devised explicitly as a tool for accessing public services. It was not designed with the question of wider identity verification or attribute verification in mind. It was not designed with use outside this relatively narrow context in mind and if we were designing it for that purpose, it would be designed in a very different manner and would probably end up looking more like identity systems in other jurisdictions.</p>
+          <p eId="para_166"> One further point I should make is that this came from within the Department of Social Protection and the Department of Public Expenditure and Reform, as was, to become an all-in-one public identification database, whereas in other jurisdictions, even where they have ID cards, one sees sharded approaches where there is not necessarily a database, all of which is viewable by everybody and every government department. Particular aspects of that data are viewable, with other aspects being viewable only elsewhere, and one needs special permissions and to tie that together to create a 360 degree view of the individual. The problem is that, as things stand, the underlying database of the public services card does not reflect that. It is essentially a 360 degree view of the individual which contains all this information and does not have these more granular access controls in place regarding who can see what and which, if it is expanded for identity verification or age verification in other contexts, will unnecessarily leak information in those other contacts as well. There are fraud risks associated with giving out too much of this data.</p>
+        </speech>
+        <speech by="#EoinHayes" eId="spk_106">
+          <from>Deputy Eoin Hayes<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_167">Notwithstanding the fact that this matter is with the courts, the role of the Oireachtas is to enact law and the role of the courts is to interpret the law and make sure its application has been lawful. Our job here is to evaluate whether this is actually a route that, from a policy perspective, the State should go down. It is important for this committee to consider the ownership of imagery and biometric data, the security of it and ensuring that it will not be used for the wrong purposes, especially if there have been prosecutions for it being used for various purposes, the design criteria have not been met, the business case does not exist and we have not been very clear about the uses of it. I am really concerned about this side of the Bill and about the programme in general. I thank Dr. McIntyre for his contribution because it is critical.</p>
+        </speech>
+        <speech by="#JohnPaulOShea" eId="spk_107">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_168">I have one other further question about the public services card for older people. What is the view of Age Action Ireland about having it as an alternative to a driver's licence or a passport?</p>
+        </speech>
+        <speech by="#" eId="spk_108">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_169">Broadly, we support the comments our colleagues have made. I do not think anybody should be compelled into a situation where he or she is required to divulge this information or to have this information displayed on the card in order to access his or her own entitlements.</p>
+        </speech>
+        <speech by="#JohnPaulOShea" eId="spk_109">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_170">The measures in the proposed Bill are voluntary. If people want to change their public services card to add their date of birth, that is a voluntary decision. What is the view of Age Action regarding having it as an alternative to a driver's licence or passport? Many older people do not have driver's licences.</p>
+        </speech>
+        <speech by="#" eId="spk_110">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_171">There are very few situations in which older people need to prove their age. That is much more of a concern for younger people. In all honesty, the issue being raised with us by older people about the travel pass is that they are increasingly required to pay a booking fee to get a seat on the method of transport they are using. They are saying it is not a free travel pass any more but a pass where they now have to pay if they want to sit down. That is a much more prominent concern in their heads in that regard. More broadly, they are uncomfortable, suspicious and wary of the requirement for them to engage in a digital arena to do things that they have spent most of their lives doing outside of that arena.</p>
+        </speech>
+        <speech by="#PeterRoche" eId="spk_111">
+          <from>Deputy Peter Roche<recordedTime time="2026-05-27T10:50:00+01:00"/></from>
+          <p eId="para_172">One bugbear of mine is disadvantaging older people, who are more likely to struggle with digitalisation.</p>
+          <p eId="para_173">Convenience in terms of fraud control is admirable, but social protection should not mean the exclusion of people who might not be as IT savvy or older people. Considerable thought should be given to the challenges people face. It is difficult enough, and sometimes embarrassing, for people to submit an application without having to expose themselves financially and in every other way. Humanity should come into it.</p>
+        </speech>
+        <speech by="#" eId="spk_112">
+          <from> Ms Camille Loftus<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_174">It can be a very disempowering experience. For example, when Ryanair introduced the requirement for people to scan an app in order to board a plane, people suddenly found they would have to be accompanied by someone else. There is no reason a QR code on a piece of paper cannot be scanned. </p>
+          <p eId="para_175"> It strikes me that the framework of digital rights does not include a right to opt out. You are required to opt in to these things. The digital rights framework states that we need to ensure people have access to broadband, training and all of the other things. It is not stated that people have a right not to engage with this if they do not want to. All European states are required to collect data on digital skills. In my 35 years of working in public policy, I do not think I have ever seen in any other datasets that we are not required to collect data on the digital skills of people aged over 75. Let us think about the implications of that. We have said that we are assuming people cannot do something and are writing them off. That indicates to me a mindset around how we are approach digitalisation which is not healthy, whether you are older or just hope to get to be older at some point.</p>
+        </speech>
+        <speech by="#JohnPaulOShea" eId="spk_113">
+          <from> An Cathaoirleach<recordedTime time="2026-05-27T11:00:00+01:00"/></from>
+          <p eId="para_176">Thank you very much. That is a very good way to finish our discussion. I thank Dr. McIntyre, Ms Cronin, Ms Loftus and Ms Brown for joining us for conversations on the Bill and proposed pre-legislative scrutiny. I thank them for sending their briefing materials in advance, which was very useful for the committee. It has been a fruitful discussion for everyone involved. We look forward to continuing that into the future.</p>
+        </speech>
+        <summary eId="sum_7"> The joint committee adjourned at 11.03 a.m. until 9.30 a.m. on Wednesday, 10 June 2026.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>
