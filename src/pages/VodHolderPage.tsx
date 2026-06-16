@@ -73,7 +73,29 @@ type DebateSectionRecord = {
   speakerIds: string[];
   speeches: DebateSpeechRecord[];
   division?: DebateDivisionRecord;
+  orderedContent: DebateSectionContentRecord[];
 };
+
+type DebateSectionContentRecord =
+  | {
+      type: "summary";
+      summary: DebateParagraphRecord;
+    }
+  | {
+      type: "question";
+      question: DebateQuestionRecord;
+    }
+  | {
+      type: "speech";
+      speech: DebateSpeechRecord;
+    }
+  | {
+      type: "division";
+    }
+  | {
+      type: "childSection";
+      sectionId: string;
+    };
 
 type DebateDivisionRecord = {
   ta: string[];
@@ -829,6 +851,10 @@ function extractSpecificBusinessTitle(title: string) {
     .trim();
 }
 
+function getBusinessMatchTitle(item: BusinessItem) {
+  return item.navigationTitle || item.title;
+}
+
 function countMatchingTokens(tokens: string[], heading: string) {
   return tokens.reduce((count, token) => count + Number(heading.includes(token)), 0);
 }
@@ -958,7 +984,9 @@ function parseDebateRecord(xmlText: string) {
       const speeches: DebateSpeechRecord[] = [];
       const summaries: DebateParagraphRecord[] = [];
       const questions: DebateQuestionRecord[] = [];
+      const orderedContent: DebateSectionContentRecord[] = [];
       let division: DebateDivisionRecord | undefined;
+      let insertedDivisionContent = false;
 
       const buildDivisionVoteList = (voteName: "ta" | "nil" | "staon") => {
         const voteSection = Array.from(sectionNode.children).find(
@@ -984,19 +1012,43 @@ function parseDebateRecord(xmlText: string) {
         if (childNode.localName === "summary") {
           const summaryText = textContentWithoutRecordedTime(childNode);
           if (summaryText) {
-            summaries.push({
+            const summaryRecord = {
               eId: childNode.getAttribute("eId") || `${heading}-summary-${summaries.length + 1}`,
               text: summaryText,
               html: serializeInlineContent(childNode),
               className: childNode.getAttribute("class") || undefined,
               titleAttr: childNode.getAttribute("title") || undefined,
               refersTo: childNode.getAttribute("refersTo") || undefined,
+            } satisfies DebateParagraphRecord;
+            summaries.push(summaryRecord);
+            orderedContent.push({
+              type: "summary",
+              summary: summaryRecord,
             });
           }
           continue;
         }
 
         if (sectionName === "division" && childNode.localName === "debateSection") {
+          if (!insertedDivisionContent) {
+            orderedContent.push({ type: "division" });
+            insertedDivisionContent = true;
+          }
+          continue;
+        }
+
+        if (childNode.localName === "debateSection") {
+          const childSectionId =
+            childNode.getAttribute("eId") ||
+            textContentWithoutRecordedTime(
+              Array.from(childNode.children).find((child) => child.localName === "heading") ||
+                childNode,
+            ) ||
+            `${heading}-section-${orderedContent.length + 1}`;
+          orderedContent.push({
+            type: "childSection",
+            sectionId: childSectionId,
+          });
           continue;
         }
 
@@ -1010,7 +1062,7 @@ function parseDebateRecord(xmlText: string) {
             const questionFromNode = Array.from(childNode.children).find(
               (child) => child.localName === "from",
             );
-            questions.push({
+            const questionRecord = {
               eId: childNode.getAttribute("eId") || `${heading}-question-${questions.length + 1}`,
               speakerId: questionSpeakerId,
               speakerName: questionSpeakerId
@@ -1026,6 +1078,11 @@ function parseDebateRecord(xmlText: string) {
                 : undefined,
               spokenMinute: startMinute,
               paragraphs,
+            } satisfies DebateQuestionRecord;
+            questions.push(questionRecord);
+            orderedContent.push({
+              type: "question",
+              question: questionRecord,
             });
           }
           continue;
@@ -1041,7 +1098,7 @@ function parseDebateRecord(xmlText: string) {
         const paragraphs = paragraphRecordsWithoutRecordedTime(paragraphNodes);
         const fallbackName = fromNode ? textContentWithoutRecordedTime(fromNode) : "Speaker";
 
-        speeches.push({
+        const speechRecord = {
           eId: childNode.getAttribute("eId") || fallbackName,
           speakerId: by,
           speakerName: references.get(by || "")?.name || fallbackName,
@@ -1049,6 +1106,12 @@ function parseDebateRecord(xmlText: string) {
           role: by ? speakerRoles.get(by) ?? inferSpeakerRole(fallbackName) : inferSpeakerRole(fallbackName),
           spokenMinute: extractRecordedMinuteFromElement(fromNode) ?? startMinute,
           paragraphs,
+        } satisfies DebateSpeechRecord;
+
+        speeches.push(speechRecord);
+        orderedContent.push({
+          type: "speech",
+          speech: speechRecord,
         });
 
         if (!by || !references.has(by) || seenSpeakerIds.has(by)) continue;
@@ -1081,6 +1144,7 @@ function parseDebateRecord(xmlText: string) {
         speakerIds,
         speeches,
         division,
+        orderedContent,
       });
 
       if (sectionName === "division") continue;
@@ -1097,7 +1161,9 @@ function scoreSectionForItem(item: BusinessItem, section: DebateSectionRecord) {
   const topic = normalizeHeadingText(item.navigationTitle);
   const title = normalizeHeadingText(item.title);
   const heading = section.normalizedHeading;
-  const specificTitle = normalizeHeadingText(extractSpecificBusinessTitle(item.title));
+  const specificTitle = normalizeHeadingText(
+    extractSpecificBusinessTitle(getBusinessMatchTitle(item)),
+  );
   const titleTokens = splitMeaningfulTokens(title);
   const specificTitleTokens = splitMeaningfulTokens(specificTitle);
   let score = 0;
@@ -1240,7 +1306,9 @@ function buildContextualRelatedLinks(
   sections: DebateSectionRecord[],
   events: Map<string, DebateEventReference>,
 ) {
-  const specificTitle = normalizeHeadingText(extractSpecificBusinessTitle(item.title));
+  const specificTitle = normalizeHeadingText(
+    extractSpecificBusinessTitle(getBusinessMatchTitle(item)),
+  );
   const specificTitleTokens = splitMeaningfulTokens(specificTitle);
   const billLinks = sections
     .filter((section) => {
@@ -1336,10 +1404,45 @@ function selectSectionsForItem(item: BusinessItem, sections: DebateSectionRecord
     .map((section) => section.topLevelEid);
 
   if (overlappingTopLevelEids.length > 0) {
-    return sections.filter((section) => overlappingTopLevelEids.includes(section.topLevelEid));
+    const overlappingSections = sections.filter((section) =>
+      overlappingTopLevelEids.includes(section.topLevelEid),
+    );
+
+    const overlappingTopLevelSections = topLevelSections
+      .filter((section) => overlappingTopLevelEids.includes(section.topLevelEid))
+      .map((section) => ({
+        section,
+        score: scoreSectionForItem(item, section),
+      }))
+      .sort((a, b) => {
+        if (b.score !== a.score) return b.score - a.score;
+        return (
+          (a.section.topLevelStartMinute ?? Number.POSITIVE_INFINITY) -
+          (b.section.topLevelStartMinute ?? Number.POSITIVE_INFINITY)
+        );
+      });
+
+    if (overlappingTopLevelSections.length > 0 && overlappingTopLevelSections[0].score > 0) {
+      const minimumScore = Math.max(4, overlappingTopLevelSections[0].score - 2);
+      const preferredTopLevelEids = overlappingTopLevelSections
+        .filter(({ score }) => score >= minimumScore)
+        .map(({ section }) => section.topLevelEid);
+
+      if (preferredTopLevelEids.length === 0) {
+        return overlappingSections;
+      }
+
+      return overlappingSections.filter((section) =>
+        preferredTopLevelEids.includes(section.topLevelEid),
+      );
+    }
+
+    return overlappingSections;
   }
 
-  const specificTitle = normalizeHeadingText(extractSpecificBusinessTitle(item.title));
+  const specificTitle = normalizeHeadingText(
+    extractSpecificBusinessTitle(getBusinessMatchTitle(item)),
+  );
   const specificTitleTokens = splitMeaningfulTokens(specificTitle);
   const candidateSections = sections.filter(
     (section) => {
@@ -1387,7 +1490,13 @@ function selectSectionsForItem(item: BusinessItem, sections: DebateSectionRecord
       allSections.findIndex((candidate) => candidate.eId === section.eId) === index,
   );
 
-  return combinedSections;
+  const selectedTopLevelEids = combinedSections.map((section) => section.topLevelEid);
+
+  if (selectedTopLevelEids.length === 0) {
+    return combinedSections;
+  }
+
+  return sections.filter((section) => selectedTopLevelEids.includes(section.topLevelEid));
 }
 
 function attachDebateContexts(
@@ -2301,10 +2410,18 @@ function OfficialReportAccordion({
 }) {
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
   const activeSectionIds = new Set(activeSections.map((section) => section.eId));
+  const topLevelSections = useMemo(
+    () => sections.filter((section) => section.depth === 0),
+    [sections],
+  );
+  const sectionById = useMemo(
+    () => new Map(sections.map((section) => [section.eId, section])),
+    [sections],
+  );
   const officialReportLink = activeItem.relatedLinks.find(
     (link) => link.label === "Official Report",
   );
-  const currentSectionHeading = activeItem.title;
+  const currentSectionHeading = activeItem.navigationTitle;
 
   useEffect(() => {
     if (!isOpen || activeSections.length === 0) return;
@@ -2383,12 +2500,14 @@ function OfficialReportAccordion({
                 ref={scrollContainerRef}
                 className="max-h-[42rem] overflow-y-auto pr-2 sm:pr-3"
               >
-                <div className="official-report-reader">
-                  {sections.map((section) => (
+                <div className="official-report-reader reader">
+                  {topLevelSections.map((section) => (
                     <OfficialReportSection
                       key={section.eId}
                       section={section}
                       highlighted={activeSectionIds.has(section.eId)}
+                      activeSectionIds={activeSectionIds}
+                      sectionById={sectionById}
                     />
                   ))}
                 </div>
@@ -2404,9 +2523,13 @@ function OfficialReportAccordion({
 function OfficialReportSection({
   section,
   highlighted,
+  activeSectionIds,
+  sectionById,
 }: {
   section: DebateSectionRecord;
   highlighted: boolean;
+  activeSectionIds: Set<string>;
+  sectionById: Map<string, DebateSectionRecord>;
 }) {
   const summaryClassName = (summary: DebateParagraphRecord) => {
     const rawClass = (summary.className || "").toLowerCase();
@@ -2452,10 +2575,78 @@ function OfficialReportSection({
       }))
     : [];
 
+  const renderQuestion = (question: DebateQuestionRecord) => (
+    <div key={question.eId} className="official-report-question question space-y-2">
+      {question.paragraphs.map((paragraph, index) => (
+        <p
+          key={paragraph.eId || `${question.eId}-${index}`}
+          className="official-report-question__p question__p font-serif text-[1.02rem] leading-8 text-brand-gray-700"
+          dangerouslySetInnerHTML={{ __html: paragraph.html }}
+        />
+      ))}
+    </div>
+  );
+
+  const renderSpeech = (speech: DebateSpeechRecord) => (
+    <article
+      key={speech.eId}
+      className="official-report-speech speech"
+      data-speaker={speech.speakerName || undefined}
+    >
+      {speech.paragraphs.map((paragraph, index) => (
+        <p
+          key={paragraph.eId || `${speech.eId}-${index}`}
+          className={[
+            "official-report-speech__p font-serif text-[1.02rem] leading-8 text-brand-gray-700",
+            index === 0 ? "official-report-speech__p--first" : "",
+            paragraph.className || "",
+          ]
+            .filter(Boolean)
+            .join(" ")}
+        >
+          {index === 0 ? (
+            <>
+              <span className="official-report-speaker speaker font-sans font-semibold text-brand-gray-800">
+                {speech.speakerDisplayName}:
+              </span>{" "}
+              <span dangerouslySetInnerHTML={{ __html: paragraph.html }} />
+            </>
+          ) : (
+            <span dangerouslySetInnerHTML={{ __html: paragraph.html }} />
+          )}
+        </p>
+      ))}
+    </article>
+  );
+
+  const renderDivision = () =>
+    section.division ? (
+      <div key={`${section.eId}-division`} className="mt-4">
+        <table className="official-report-division-table division__table">
+          <thead>
+            <tr>
+              <th scope="col">Tá</th>
+              <th scope="col">Níl</th>
+              <th scope="col">Staon</th>
+            </tr>
+          </thead>
+          <tbody>
+            {divisionRows.map((row, index) => (
+              <tr key={`${section.eId}-division-row-${index}`}>
+                <td>{row.ta}</td>
+                <td>{row.nil}</td>
+                <td>{row.staon}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    ) : null;
+
   return (
     <section
       id={`report-${section.eId}`}
-      className={`official-report-section scroll-mt-28 border-t border-brand-gray-300/10 px-3 py-5 transition first:border-t-0 ${
+      className={`official-report-section section scroll-mt-28 border-t border-brand-gray-300/10 px-3 py-5 transition first:border-t-0 ${
         section.sectionName === "division" ? "official-report-section--division" : ""
       } ${
         highlighted ? "bg-brand-gray-50/40 ring-1 ring-brand-gray-300/12" : ""
@@ -2465,7 +2656,7 @@ function OfficialReportSection({
       {section.heading ? (
         <div className="flex flex-col items-center gap-y-1 text-center">
           <h3
-            className={`official-report-section__heading font-serif text-[1.08rem] leading-7 text-brand-gray-800 ${
+            className={`official-report-section__heading section__heading font-serif text-[1.08rem] leading-7 text-brand-gray-800 ${
               section.depth === 0 ? "font-semibold" : "font-medium"
             }`}
           >
@@ -2479,90 +2670,48 @@ function OfficialReportSection({
         </div>
       ) : null}
 
-      {section.summaries.length > 0 ? (
-        <div className="mt-3 space-y-2">
-          {section.summaries.map((summary, index) => (
-            <p
-              key={summary.eId || `${section.eId}-summary-${index}`}
-              className={summaryClassName(summary)}
-              dangerouslySetInnerHTML={{ __html: summary.html }}
-            />
-          ))}
-        </div>
-      ) : null}
-
-      {section.division ? (
-        <div className="mt-4">
-          <table className="official-report-division-table">
-            <thead>
-              <tr>
-                <th scope="col">Tá</th>
-                <th scope="col">Níl</th>
-                <th scope="col">Staon</th>
-              </tr>
-            </thead>
-            <tbody>
-              {divisionRows.map((row, index) => (
-                <tr key={`${section.eId}-division-row-${index}`}>
-                  <td>{row.ta}</td>
-                  <td>{row.nil}</td>
-                  <td>{row.staon}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      ) : null}
-
-      {section.questions.length > 0 ? (
-        <div className="mt-4 space-y-3">
-          {section.questions.map((question) => (
-            <div key={question.eId} className="official-report-question space-y-2">
-              {question.paragraphs.map((paragraph, index) => (
+      {section.orderedContent.length > 0 ? (
+        <div className="mt-3 space-y-4">
+          {section.orderedContent.map((content, index) => {
+            if (content.type === "summary") {
+              return (
                 <p
-                  key={paragraph.eId || `${question.eId}-${index}`}
-                  className="official-report-question__p font-serif text-[1.02rem] leading-8 text-brand-gray-700"
-                  dangerouslySetInnerHTML={{ __html: paragraph.html }}
+                  key={content.summary.eId || `${section.eId}-summary-${index}`}
+                  className={`${summaryClassName(content.summary)} summary`}
+                  dangerouslySetInnerHTML={{ __html: content.summary.html }}
                 />
-              ))}
-            </div>
-          ))}
-        </div>
-      ) : null}
+              );
+            }
 
-      {section.speeches.length > 0 ? (
-        <div className="mt-4 space-y-4">
-          {section.speeches.map((speech) => (
-            <article
-              key={speech.eId}
-              className="official-report-speech"
-              data-speaker={speech.speakerName || undefined}
-            >
-              {speech.paragraphs.map((paragraph, index) => (
-                <p
-                  key={paragraph.eId || `${speech.eId}-${index}`}
-                  className={[
-                    "official-report-speech__p font-serif text-[1.02rem] leading-8 text-brand-gray-700",
-                    index === 0 ? "official-report-speech__p--first" : "",
-                    paragraph.className || "",
-                  ]
-                    .filter(Boolean)
-                    .join(" ")}
-                >
-                  {index === 0 ? (
-                    <>
-                      <span className="official-report-speaker font-sans font-semibold text-brand-gray-800">
-                        {speech.speakerDisplayName}:
-                      </span>{" "}
-                      <span dangerouslySetInnerHTML={{ __html: paragraph.html }} />
-                    </>
-                  ) : (
-                    <span dangerouslySetInnerHTML={{ __html: paragraph.html }} />
-                  )}
-                </p>
-              ))}
-            </article>
-          ))}
+            if (content.type === "question") {
+              return renderQuestion(content.question);
+            }
+
+            if (content.type === "speech") {
+              return renderSpeech(content.speech);
+            }
+
+            if (content.type === "division") {
+              return renderDivision();
+            }
+
+            if (content.type === "childSection") {
+              const childSection = sectionById.get(content.sectionId);
+              if (!childSection) return null;
+
+              return (
+                <OfficialReportSection
+                  key={childSection.eId}
+                  section={childSection}
+                  highlighted={activeSectionIds.has(childSection.eId)}
+                  activeSectionIds={activeSectionIds}
+                  sectionById={sectionById}
+                />
+              );
+            }
+
+            return null;
+          })}
         </div>
       ) : null}
     </section>

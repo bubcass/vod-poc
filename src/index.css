@@ -1344,15 +1344,19 @@ a:focus-visible {
 
   .official-report-sheet {
     position: relative;
+    --report-hairline: rgba(0, 0, 0, 0.18);
+    --report-measure: 78ch;
+    --report-para-indent: 1.6em;
   }
 
   .official-report-title {
     letter-spacing: -0.01em;
+    margin: 0;
   }
 
   .official-report-reader {
     margin: 0 auto;
-    max-width: 78ch;
+    max-width: var(--report-measure);
   }
 
   .official-report-section {
@@ -1374,15 +1378,16 @@ a:focus-visible {
 
   .official-report-section__time {
     letter-spacing: 0.08em;
+    margin-top: 0.15rem;
   }
 
   .official-report-summary {
-    color: #5f5a50;
+    color: #4d473e;
     font-family: "Times New Roman", Times, serif;
     font-size: 1rem;
     font-style: normal;
-    line-height: 1.8;
-    margin: 0 0 0.55rem;
+    line-height: 1.75;
+    margin: 0.7rem 0 1rem;
   }
 
   .official-report-summary--italic {
@@ -1398,7 +1403,7 @@ a:focus-visible {
   }
 
   .official-report-summary--meta {
-    color: #666156;
+    color: #5f5a50;
     font-size: 0.96rem;
     margin-top: 0.9rem;
   }
@@ -1411,7 +1416,8 @@ a:focus-visible {
   .official-report-question__p {
     font-family: "Times New Roman", Times, serif;
     hyphens: auto;
-    margin: 0 0 0.8rem;
+    line-height: 1.75;
+    margin: 0 0 0.95rem;
     text-indent: 0;
   }
 
@@ -1446,7 +1452,7 @@ a:focus-visible {
   }
 
   .official-report-speech {
-    margin: 1.15rem 0;
+    margin: 1.2rem 0;
     position: relative;
   }
 
@@ -1457,12 +1463,13 @@ a:focus-visible {
   .official-report-speech__p {
     font-family: "Times New Roman", Times, serif;
     hyphens: auto;
+    line-height: 1.75;
     margin: 0 0 0.95rem;
     text-indent: 0;
   }
 
   .official-report-speech__p:not(.official-report-speech__p--first) {
-    text-indent: 1.45rem;
+    text-indent: var(--report-para-indent);
   }
 
   .official-report-speech__p.indent_1 {
@@ -1493,5 +1500,115 @@ a:focus-visible {
 
   .official-report-reader strong {
     font-weight: 700;
+  }
+
+  .reader {
+    max-width: var(--report-measure);
+    margin: 0 auto;
+  }
+
+  .section {
+    margin: 1.5rem 0;
+  }
+
+  .section__heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.18rem;
+    margin: 1.7rem 0 1.05rem;
+  }
+
+  .summary {
+    margin: 0.7rem 0 1rem;
+  }
+
+  .summary.center,
+  .official-report-summary--center {
+    text-align: center;
+  }
+
+  .summary--italic,
+  .official-report-summary--italic {
+    font-style: italic;
+  }
+
+  .summary--divisionline,
+  .official-report-summary--divisionline {
+    text-align: center;
+  }
+
+  .speech {
+    margin: 1.2rem 0;
+    position: relative;
+  }
+
+  .speaker {
+    font-weight: 700;
+  }
+
+  .speech__p {
+    margin: 0 0 0.95rem;
+    hyphens: auto;
+    text-indent: 0;
+  }
+
+  .speech__p:not(.speech__p--first) {
+    text-indent: var(--report-para-indent);
+  }
+
+  .speech__p.indent_1 {
+    margin-left: 2.2em;
+    margin-bottom: 0.55rem;
+  }
+
+  .speech__p.indent_2 {
+    margin-left: 3.8em;
+    margin-bottom: 0.55rem;
+  }
+
+  .speech__p.indent_3 {
+    margin-left: 5.4em;
+    margin-bottom: 0.55rem;
+  }
+
+  .speech__p.indent_1,
+  .speech__p.indent_2,
+  .speech__p.indent_3 {
+    text-indent: 0;
+    hyphens: none;
+  }
+
+  .question__p {
+    margin: 0 0 0.95rem;
+  }
+
+  .division__table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.95rem;
+  }
+
+  .division__table th,
+  .division__table td {
+    vertical-align: top;
+    padding: 0.25rem 0.5rem;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  .division__table thead th {
+    border-bottom: 1px solid #000;
+    font-weight: 700;
+  }
+
+  .division__table tbody td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .division__table th + th,
+  .division__table td + td {
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
   }
 }
