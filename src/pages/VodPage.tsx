@@ -36,7 +36,7 @@ type TvFilters = {
 type LiveForumState = "LIVE" | "VOTE" | "UP_NEXT" | "ADJOURNED";
 type LiveForumCard = {
   id: string;
-  sourceItemId: string;
+  sourceKey: string;
   location: string;
   forum: string;
   state: LiveForumState;
@@ -45,6 +45,7 @@ type LiveForumCard = {
   href: string;
   thumb: string;
   previewSrc?: string;
+  playerUrl?: string;
   meta: string;
   note: string;
 };
@@ -462,11 +463,12 @@ function buildMockLiveForums(source: VodItem[]): LiveForumCard[] {
   const cr2 = pick("vod-committee-2026-05-27-disability-matters");
   const cr3 = pick("vod-committee-2026-05-28-children-equality");
   const cr4 = pick("vod-committee-2026-05-27-transport");
+  const oireachtasTv = tvFeatured[0];
 
   return [
     {
       id: "live-dail",
-      sourceItemId: dail.id,
+      sourceKey: getVodStorageKey(dail.id),
       location: "Dáil Chamber",
       forum: "Dáil Éireann",
       state: "LIVE",
@@ -480,7 +482,7 @@ function buildMockLiveForums(source: VodItem[]): LiveForumCard[] {
     },
     {
       id: "live-seanad",
-      sourceItemId: seanad.id,
+      sourceKey: getVodStorageKey(seanad.id),
       location: "Seanad Chamber",
       forum: "Seanad Éireann",
       state: "VOTE",
@@ -494,7 +496,7 @@ function buildMockLiveForums(source: VodItem[]): LiveForumCard[] {
     },
     {
       id: "live-cr1",
-      sourceItemId: cr1.id,
+      sourceKey: getVodStorageKey(cr1.id),
       location: "Committee Room 1",
       forum: "Committee of Public Accounts",
       state: "LIVE",
@@ -508,7 +510,7 @@ function buildMockLiveForums(source: VodItem[]): LiveForumCard[] {
     },
     {
       id: "live-cr2",
-      sourceItemId: cr2.id,
+      sourceKey: getVodStorageKey(cr2.id),
       location: "Committee Room 2",
       forum: "Joint Committee on Disability Matters",
       state: "LIVE",
@@ -522,7 +524,7 @@ function buildMockLiveForums(source: VodItem[]): LiveForumCard[] {
     },
     {
       id: "live-cr3",
-      sourceItemId: cr3.id,
+      sourceKey: getVodStorageKey(cr3.id),
       location: "Committee Room 3",
       forum: "Joint Committee on Finance",
       state: "UP_NEXT",
@@ -536,7 +538,7 @@ function buildMockLiveForums(source: VodItem[]): LiveForumCard[] {
     },
     {
       id: "live-cr4",
-      sourceItemId: cr4.id,
+      sourceKey: getVodStorageKey(cr4.id),
       location: "Committee Room 4",
       forum: "Joint Committee on Public Petitions",
       state: "ADJOURNED",
@@ -547,6 +549,20 @@ function buildMockLiveForums(source: VodItem[]): LiveForumCard[] {
       previewSrc: cr4.mp4Url,
       meta: MOCK_LIVE_DATE,
       note: "No further business scheduled",
+    },
+    {
+      id: "live-oirtv",
+      sourceKey: getTvStorageKey(oireachtasTv.id),
+      location: "Oireachtas TV",
+      forum: "Oireachtas TV",
+      state: "LIVE",
+      statusLabel: "Live",
+      startTimeLabel: "Available now",
+      href: "https://www.oireachtas.ie/video/?oirtv",
+      thumb: publicAsset("/media/oireachtas-tv/oireachtas-tv-logo.png"),
+      playerUrl: "https://www.oireachtas.ie/video/?oirtv",
+      meta: "Oireachtas TV live channel",
+      note: "The Oireachtas TV channel is delivering unprecedented public access to the work of the Dáil, Seanad and Committees.",
     },
   ];
 }
@@ -843,7 +859,7 @@ function FeaturedLiveStage({
   const [previewReady, setPreviewReady] = useState(false);
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const canPreview =
-    Boolean(item.previewSrc) &&
+    Boolean(item.previewSrc || item.playerUrl) &&
     item.state !== "ADJOURNED" &&
     item.state !== "UP_NEXT";
   const tone =
@@ -863,12 +879,12 @@ function FeaturedLiveStage({
   useEffect(() => {
     if (!playInline) return;
     const video = videoRef.current;
-    if (!video) return;
+    if (!video || item.playerUrl) return;
     const playAttempt = video.play();
     if (playAttempt && typeof playAttempt.catch === "function") {
       playAttempt.catch(() => {});
     }
-  }, [playInline, item.id]);
+  }, [playInline, item.id, item.playerUrl]);
 
   return (
     <article className="featured-live-stage mx-auto max-w-[70rem] overflow-hidden rounded-sm bg-black text-white">
@@ -897,16 +913,26 @@ function FeaturedLiveStage({
         }}
       >
         {playInline && canPreview ? (
-          <video
-            ref={videoRef}
-            className="h-full w-full object-cover"
-            src={item.previewSrc}
-            poster={item.thumb}
-            controls
-            autoPlay
-            playsInline
-            preload="auto"
-          />
+          item.playerUrl ? (
+            <iframe
+              src={item.playerUrl}
+              title={item.forum}
+              className="h-full w-full border-0 bg-white"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            />
+          ) : (
+            <video
+              ref={videoRef}
+              className="h-full w-full object-cover"
+              src={item.previewSrc}
+              poster={item.thumb}
+              controls
+              autoPlay
+              playsInline
+              preload="auto"
+            />
+          )
         ) : (
           <>
             <img
@@ -1440,8 +1466,26 @@ function OnNowView({
   onToggleSavedVideo: (key: string) => void;
   onMarkVideoWatched: (key: string) => void;
 }) {
+  const liveSourceCards = useMemo(
+    () => items.filter((item) => item.id !== "live-oirtv"),
+    [items],
+  );
+  const oireachtasTvCard = useMemo(
+    () => items.find((item) => item.id === "live-oirtv"),
+    [items],
+  );
+  const [selectorTab, setSelectorTab] = useState<"channels" | "tv">("channels");
   const [activeId, setActiveId] = useState(items[0]?.id ?? "");
   const active = items.find((item) => item.id === activeId) ?? items[0];
+
+  useEffect(() => {
+    if (selectorTab === "channels" && !liveSourceCards.some((item) => item.id === activeId)) {
+      setActiveId(liveSourceCards[0]?.id ?? activeId);
+    }
+    if (selectorTab === "tv" && oireachtasTvCard && activeId !== oireachtasTvCard.id) {
+      setActiveId(oireachtasTvCard.id);
+    }
+  }, [activeId, liveSourceCards, oireachtasTvCard, selectorTab]);
 
   return (
     <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
@@ -1459,20 +1503,65 @@ function OnNowView({
             <div className="space-y-5">
               <FeaturedLiveStage
                 item={active}
-                onMarkWatched={() =>
-                  onMarkVideoWatched(getVodStorageKey(active.sourceItemId))
-                }
+                onMarkWatched={() => onMarkVideoWatched(active.sourceKey)}
               />
 
-              <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
-                {items.map((item) => (
-                  <LiveForumPanel
-                    key={item.id}
-                    item={item}
-                    active={item.id === active.id}
-                    onSelect={() => setActiveId(item.id)}
+              <div className="space-y-4">
+                <div className="flex items-center justify-start">
+                  <div
+                    className="inline-flex rounded-sm border border-brand-gray-300 bg-white"
+                    role="tablist"
+                    aria-label="Live channel selector"
+                  >
+                    <button
+                      type="button"
+                      role="tab"
+                      aria-selected={selectorTab === "channels"}
+                      onClick={() => setSelectorTab("channels")}
+                      className={[
+                        "px-4 py-2 text-[0.76rem] font-semibold uppercase tracking-[0.16em] transition",
+                        selectorTab === "channels"
+                          ? "bg-brand-gray-700 text-white"
+                          : "text-brand-gray-500 hover:text-brand-gray-700",
+                      ].join(" ")}
+                    >
+                      Live
+                    </button>
+                    <button
+                      type="button"
+                      role="tab"
+                      aria-selected={selectorTab === "tv"}
+                      onClick={() => setSelectorTab("tv")}
+                      className={[
+                        "border-l border-brand-gray-300 px-4 py-2 text-[0.76rem] font-semibold uppercase tracking-[0.16em] transition",
+                        selectorTab === "tv"
+                          ? "bg-brand-gray-700 text-white"
+                          : "text-brand-gray-500 hover:text-brand-gray-700",
+                      ].join(" ")}
+                    >
+                      Oireachtas TV
+                    </button>
+                  </div>
+                </div>
+
+                {selectorTab === "channels" ? (
+                  <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+                    {liveSourceCards.map((item) => (
+                      <LiveForumPanel
+                        key={item.id}
+                        item={item}
+                        active={item.id === active.id}
+                        onSelect={() => setActiveId(item.id)}
+                      />
+                    ))}
+                  </div>
+                ) : oireachtasTvCard ? (
+                  <OireachtasTvChannelPanel
+                    item={oireachtasTvCard}
+                    active={oireachtasTvCard.id === active.id}
+                    onSelect={() => setActiveId(oireachtasTvCard.id)}
                   />
-                ))}
+                ) : null}
               </div>
             </div>
           ) : null}
@@ -1515,6 +1604,8 @@ function LiveForumPanel({
     <button
       type="button"
       onClick={onSelect}
+      aria-pressed={active}
+      aria-label={`Select ${item.location}: ${item.forum}`}
       className={[
         "flex h-full w-full rounded-sm border bg-white px-4 py-4 text-left transition",
         active
@@ -1536,6 +1627,60 @@ function LiveForumPanel({
           <p className="mt-2 text-sm text-brand-gray-500">{item.note}</p>
         </div>
         <StatusBadge label={item.statusLabel} tone={tone} />
+      </div>
+    </button>
+  );
+}
+
+function OireachtasTvChannelPanel({
+  item,
+  active,
+  onSelect,
+}: {
+  item: LiveForumCard;
+  active: boolean;
+  onSelect: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onSelect}
+      aria-pressed={active}
+      aria-label="Select Oireachtas TV live channel"
+      className={[
+        "flex w-full rounded-sm border bg-white px-5 py-5 text-left transition",
+        active
+          ? "border-brand-gold shadow-[0_10px_24px_rgba(47,47,47,0.06)]"
+          : "border-brand-gray-300 hover:border-brand-gold",
+      ].join(" ")}
+    >
+      <div className="flex w-full flex-col gap-4 lg:flex-row lg:items-start lg:justify-between lg:gap-8">
+        <div className="min-w-0 flex-1">
+          <p className="text-[0.72rem] font-semibold uppercase tracking-[0.16em] text-brand-gray-500">
+            Oireachtas TV
+          </p>
+          <h3 className="mt-2 text-xl font-semibold leading-snug text-brand-gray-700">
+            Oireachtas TV channel
+          </h3>
+          <p className="mt-3 max-w-4xl text-sm leading-6 text-brand-gray-600">
+            The Oireachtas TV channel is delivering unprecedented public access to the work of the
+            Dáil, Seanad and Committees. It is available throughout Ireland on:
+          </p>
+          <div className="mt-3 grid gap-x-8 gap-y-1 text-sm leading-6 text-brand-gray-600 sm:grid-cols-2">
+            <p>Saorview channel 22</p>
+            <p>Virgin Media channel 207</p>
+            <p>Sky channel 514</p>
+            <p>eir Vision channel 504</p>
+            <p>Vodafone channel 201</p>
+          </div>
+          <p className="mt-3 max-w-4xl text-sm leading-6 text-brand-gray-600">
+            Vodafone customers can also view live streaming from Dáil Éireann on channel 207 and
+            Seanad Éireann on channel 208.
+          </p>
+        </div>
+        <div className="shrink-0">
+          <StatusBadge label={item.statusLabel} tone="live" />
+        </div>
       </div>
     </button>
   );
