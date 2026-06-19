@@ -5,6 +5,7 @@ import { buildVodHolderHref, buildVodHubHref } from "../utils/vodNavigation";
 
 const SAVED_VIDEOS_STORAGE_KEY = "vod-poc:saved-videos";
 const FOCUS_MODE_STORAGE_KEY = "vod-poc:focus-mode";
+const OFFICIAL_REPORT_OPEN_STORAGE_KEY = "vod-poc:official-report-open";
 
 type RelatedLink = {
   label: string;
@@ -1992,12 +1993,12 @@ function InfoSidebar({
               Speakers
             </p>
             <div className="mt-4 flex flex-wrap items-center gap-2.5">
-              {speakers.slice(0, 6).map((speaker) => (
+              {speakers.slice(0, 9).map((speaker) => (
                 <SpeakerAvatar key={speaker.eId} speaker={speaker} />
               ))}
-              {speakers.length > 6 ? (
+              {speakers.length > 9 ? (
                 <span className="inline-flex h-10 min-w-10 items-center justify-center rounded-full border border-brand-gray-300 bg-white px-2 text-[0.74rem] font-semibold text-brand-gray-600">
-                  +{speakers.length - 6}
+                  +{speakers.length - 9}
                 </span>
               ) : null}
             </div>
@@ -2753,7 +2754,9 @@ export default function VodHolderPage() {
   const [businessContexts, setBusinessContexts] = useState<Map<string, BusinessContextRecord>>(
     new Map(),
   );
-  const [officialReportOpen, setOfficialReportOpen] = useState(false);
+  const [officialReportOpen, setOfficialReportOpen] = useState(() =>
+    readStoredBoolean(OFFICIAL_REPORT_OPEN_STORAGE_KEY, true),
+  );
   const [videoSource, setVideoSource] = useState(
     sittingDay.businessItems[initialActiveIndex]?.videoSource || PROTOTYPE_VIDEO_SOURCE,
   );
@@ -2830,7 +2833,7 @@ export default function VodHolderPage() {
     setActiveIndex(initialActiveIndex);
     setClipOpen(false);
     setIslEnabled(true);
-    setOfficialReportOpen(false);
+    setOfficialReportOpen(readStoredBoolean(OFFICIAL_REPORT_OPEN_STORAGE_KEY, true));
     setVideoSource(
       baseSittingDay.businessItems[initialActiveIndex]?.videoSource || PROTOTYPE_VIDEO_SOURCE,
     );
@@ -2853,6 +2856,10 @@ export default function VodHolderPage() {
   useEffect(() => {
     writeStoredBoolean(FOCUS_MODE_STORAGE_KEY, focusMode);
   }, [focusMode]);
+
+  useEffect(() => {
+    writeStoredBoolean(OFFICIAL_REPORT_OPEN_STORAGE_KEY, officialReportOpen);
+  }, [officialReportOpen]);
 
   useEffect(() => {
     if (focusMode) {

@@ -268,6 +268,16 @@ a:focus-visible {
     text-overflow: ellipsis;
   }
 
+  .featured-house-badge-hero {
+    max-width: min(100%, 16rem);
+  }
+
+  .featured-house-badge-vod {
+    background: rgba(166, 202, 255, 0.94);
+    border-color: rgba(110, 146, 214, 0.52);
+    color: #20385f;
+  }
+
   .featured-house-badge-rail {
     border-radius: 0.35rem;
     font-size: 0.69rem;
@@ -356,15 +366,20 @@ a:focus-visible {
 
   .featured-live-action {
     align-items: center;
-    backdrop-filter: blur(6px);
-    border-radius: 0.45rem;
+    border-radius: 0.18rem;
     display: inline-flex;
-    font-size: 0.98rem;
+    font-size: 0.94rem;
     font-weight: 600;
-    gap: 0.55rem;
+    gap: 0.5rem;
     line-height: 1;
-    padding: 0.9rem 1.15rem;
-    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    letter-spacing: 0.01em;
+    min-height: 3.15rem;
+    padding: 0.85rem 1.1rem;
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      color 0.2s ease,
+      box-shadow 0.2s ease;
   }
 
   .featured-live-action-primary {
@@ -379,6 +394,20 @@ a:focus-visible {
     color: #1d1914;
   }
 
+  .featured-live-action-light {
+    background: #fffdf9;
+    border: 1px solid rgba(196, 190, 178, 0.95);
+    color: #464138;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.7) inset;
+  }
+
+  .featured-live-action-light:hover,
+  .featured-live-action-light:focus-visible {
+    background: #ffffff;
+    border-color: rgba(146, 139, 126, 0.95);
+    color: #2f2c26;
+  }
+
   .featured-live-action-secondary {
     background: rgba(17, 19, 23, 0.24);
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -389,6 +418,26 @@ a:focus-visible {
   .featured-live-action-secondary:focus-visible {
     background: rgba(17, 19, 23, 0.38);
     color: #ffffff;
+  }
+
+  .featured-live-play-trigger {
+    align-items: center;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .featured-live-play-trigger:disabled {
+    cursor: default;
+  }
+
+  .featured-live-play-trigger:focus-visible {
+    border-radius: 9999px;
+    outline: 2px solid rgba(255, 255, 255, 0.92);
+    outline-offset: 8px;
   }
 
   .player-poster {
@@ -1093,31 +1142,39 @@ a:focus-visible {
   .video-save-button {
     align-items: center;
     background: rgba(255, 253, 248, 0.92);
-    border: 1px solid rgba(74, 70, 61, 0.16);
-    border-radius: 0.4rem;
-    color: #3f3b34;
+    border: 1px solid rgba(196, 190, 178, 0.95);
+    border-radius: 0.18rem;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.7) inset;
+    color: #464138;
     cursor: pointer;
     display: inline-flex;
     font: inherit;
-    font-size: 0.72rem;
+    font-size: 0.8rem;
     font-weight: 600;
-    gap: 0.42rem;
+    gap: 0.46rem;
     letter-spacing: 0.01em;
     line-height: 1;
-    padding: 0.5rem 0.72rem;
-    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    min-height: 2.9rem;
+    padding: 0.62rem 0.85rem;
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      color 0.2s ease,
+      box-shadow 0.2s ease;
   }
 
   .video-save-button:hover,
   .video-save-button:focus-visible {
     background: #fff;
-    border-color: rgba(74, 70, 61, 0.24);
+    border-color: rgba(146, 139, 126, 0.95);
     color: #26221d;
   }
 
   .video-save-button-dark {
     background: rgba(17, 19, 23, 0.58);
-    border-color: rgba(255, 255, 255, 0.14);
+    border-color: rgba(255, 255, 255, 0.22);
+    border-radius: 0.18rem;
+    box-shadow: none;
     color: rgba(255, 255, 255, 0.94);
     backdrop-filter: blur(4px);
   }

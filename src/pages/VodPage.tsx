@@ -301,9 +301,11 @@ function formatMetaCompact(meta?: string): string | undefined {
 function StatusBadge({
   label,
   tone,
+  compact = false,
 }: {
   label: string;
   tone: "live" | "vote" | "vod" | "upnext" | "adjourned";
+  compact?: boolean;
 }) {
   const toneClass =
     tone === "vote"
@@ -321,7 +323,10 @@ function StatusBadge({
   return (
     <span
       className={[
-        "inline-flex items-center whitespace-nowrap rounded-[0.4rem] border px-2.5 py-1.5 text-[0.76rem] font-semibold leading-none tracking-[0.01em]",
+        "inline-flex items-center whitespace-nowrap rounded-[0.4rem] border font-semibold leading-none tracking-[0.01em]",
+        compact
+          ? "px-2.25 py-1 text-[0.72rem]"
+          : "px-2.5 py-1.5 text-[0.76rem]",
         toneClass,
       ].join(" ")}
     >
@@ -850,12 +855,13 @@ function TvPlayerOverlay({
 
 function FeaturedLiveStage({
   item,
-  onMarkWatched,
+  playInline,
+  onPlayInline,
 }: {
   item: LiveForumCard;
-  onMarkWatched: () => void;
+  playInline: boolean;
+  onPlayInline: () => void;
 }) {
-  const [playInline, setPlayInline] = useState(false);
   const [previewReady, setPreviewReady] = useState(false);
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const canPreview =
@@ -872,7 +878,6 @@ function FeaturedLiveStage({
           : "live";
 
   useEffect(() => {
-    setPlayInline(false);
     setPreviewReady(false);
   }, [item.id]);
 
@@ -887,7 +892,7 @@ function FeaturedLiveStage({
   }, [playInline, item.id, item.playerUrl]);
 
   return (
-    <article className="featured-live-stage mx-auto max-w-[70rem] overflow-hidden rounded-sm bg-black text-white">
+    <article className="featured-live-stage overflow-hidden rounded-sm bg-black text-white">
       <div
         className={[
           "preview-frame featured-live-frame relative aspect-[16/8.75] overflow-hidden",
@@ -940,6 +945,20 @@ function FeaturedLiveStage({
               alt=""
               className="preview-image h-full w-full object-cover"
             />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <button
+                type="button"
+                onClick={canPreview ? onPlayInline : undefined}
+                className="featured-live-play-trigger"
+                aria-label={`Watch ${item.forum}`}
+                disabled={!canPreview}
+              >
+                <PlayBadge
+                  className="preview-badge h-16 w-16 text-xl"
+                  variant="dark"
+                />
+              </button>
+            </div>
             {canPreview ? (
               <video
                 ref={videoRef}
@@ -958,45 +977,91 @@ function FeaturedLiveStage({
               />
             ) : null}
             <div className="featured-live-shade absolute inset-0" />
-            <div className="featured-live-copy absolute inset-x-0 bottom-0 z-10 p-6 sm:p-8">
-              <div className="flex flex-wrap items-center gap-2">
-                <StatusBadge label={item.statusLabel} tone={tone} />
-              </div>
-              <h3 className="mt-4 text-4xl font-semibold leading-tight text-white sm:text-5xl">
-                {item.forum}
-              </h3>
-              <p className="mt-3 max-w-3xl text-xl text-white/88">
-                {item.note}
-              </p>
-              <p className="mt-2 text-base font-medium text-white/72">
-                {item.startTimeLabel} · ISL · CC
-              </p>
-              <div className="mt-6 flex flex-wrap items-center gap-3">
-                {canPreview ? (
-                  <button
-                    type="button"
-                    onClick={() => {
-                      onMarkWatched();
-                      setPlayInline(true);
-                    }}
-                    className="featured-live-action featured-live-action-primary"
-                  >
-                    <span aria-hidden="true">▶</span>
-                    <span>Watch now</span>
-                  </button>
-                ) : null}
-                <a
-                  href={FULL_SCHEDULE_URL}
-                  className="featured-live-action featured-live-action-secondary"
-                >
-                  Full schedule
-                </a>
-              </div>
-            </div>
           </>
         )}
       </div>
     </article>
+  );
+}
+
+function LiveChannelSummaryCard({
+  item,
+}: {
+  item: LiveForumCard;
+}) {
+  const isTvChannel = item.id === "live-oirtv";
+  const tone =
+    item.state === "VOTE"
+      ? "vote"
+      : item.state === "UP_NEXT"
+        ? "upnext"
+        : item.state === "ADJOURNED"
+          ? "adjourned"
+          : "live";
+
+  return (
+    <section className="flex flex-1 flex-col border border-t-0 border-brand-gray-300/80 bg-white px-5 py-5 sm:px-6">
+      <div className="flex flex-col gap-5 lg:flex-row lg:items-stretch lg:justify-between">
+        <div className="min-w-0 flex-1">
+          <div className="flex flex-wrap items-center gap-x-2.5 gap-y-2 text-[0.72rem] font-semibold uppercase tracking-[0.14em] text-brand-gray-500">
+            <span>{isTvChannel ? "Oireachtas TV" : `Proceedings of ${item.forum}`}</span>
+            {isTvChannel && item.meta ? (
+              <>
+                <span aria-hidden="true" className="text-brand-gray-300">
+                  /
+                </span>
+                <span className="normal-case tracking-normal text-brand-gray-600">
+                  {item.meta}
+                </span>
+              </>
+            ) : null}
+          </div>
+          <h3 className="mt-4 text-[1.85rem] font-semibold leading-tight text-brand-gray-700 sm:text-[2.15rem]">
+            {isTvChannel ? "Oireachtas TV channel" : item.note}
+          </h3>
+          <p className="mt-5 text-sm font-medium text-brand-gray-500">
+            {item.meta ? `${item.meta} · ${item.startTimeLabel}` : item.startTimeLabel}
+          </p>
+          {!isTvChannel ? (
+            <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2 text-base font-semibold text-brand-gray-600">
+              <span className="text-[1.05rem] font-semibold text-brand-gray-700">
+                {item.location}
+              </span>
+              <span aria-hidden="true" className="text-brand-gray-300">
+                •
+              </span>
+              <StatusBadge label={item.statusLabel} tone={tone} />
+            </div>
+          ) : (
+            <p className="mt-4 max-w-4xl text-base leading-7 text-brand-gray-600">
+              {item.note}
+            </p>
+          )}
+          {!isTvChannel ? (
+            <div className="mt-3 flex flex-wrap items-center gap-2 text-sm font-medium text-brand-gray-500">
+              <span className="text-[0.74rem] font-semibold uppercase tracking-[0.14em] text-brand-gray-500">
+                ISL
+              </span>
+              <span aria-hidden="true" className="text-brand-gray-300">
+                •
+              </span>
+              <span className="text-[0.74rem] font-semibold uppercase tracking-[0.14em] text-brand-gray-500">
+                CC
+              </span>
+            </div>
+          ) : null}
+        </div>
+
+        <div className="flex shrink-0 flex-wrap items-end gap-3 lg:min-h-full lg:self-stretch lg:justify-end">
+          <a
+            href={FULL_SCHEDULE_URL}
+            className="featured-live-action featured-live-action-light lg:mt-auto"
+          >
+            Full schedule
+          </a>
+        </div>
+      </div>
+    </section>
   );
 }
 
@@ -1476,6 +1541,7 @@ function OnNowView({
   );
   const [selectorTab, setSelectorTab] = useState<"channels" | "tv">("channels");
   const [activeId, setActiveId] = useState(items[0]?.id ?? "");
+  const [playInline, setPlayInline] = useState(false);
   const active = items.find((item) => item.id === activeId) ?? items[0];
 
   useEffect(() => {
@@ -1487,8 +1553,31 @@ function OnNowView({
     }
   }, [activeId, liveSourceCards, oireachtasTvCard, selectorTab]);
 
+  useEffect(() => {
+    setPlayInline(false);
+  }, [activeId]);
+
   return (
     <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
+      {active ? (
+        <div className="mb-4 flex flex-wrap items-center gap-x-3 gap-y-2 text-[0.72rem] font-semibold uppercase tracking-[0.16em] text-brand-gray-500">
+          <span>Parliament in session</span>
+          <span aria-hidden="true" className="text-brand-gray-300">
+            /
+          </span>
+          <span className="text-brand-gray-600">{active.forum}</span>
+          {active.meta ? (
+            <>
+              <span aria-hidden="true" className="text-brand-gray-300">
+                /
+              </span>
+              <span className="normal-case tracking-normal text-brand-gray-600">
+                {active.meta}
+              </span>
+            </>
+          ) : null}
+        </div>
+      ) : null}
       <section className="pq-panel p-4 sm:p-6">
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
@@ -1497,55 +1586,68 @@ function OnNowView({
                 Now on
               </h2>
             </div>
+            <div
+              className="inline-flex self-start rounded-sm border border-brand-gray-300 bg-white"
+              role="tablist"
+              aria-label="Live channel selector"
+            >
+              <button
+                type="button"
+                role="tab"
+                aria-selected={selectorTab === "channels"}
+                onClick={() => setSelectorTab("channels")}
+                className={[
+                  "px-4 py-2 text-[0.76rem] font-semibold uppercase tracking-[0.16em] transition",
+                  selectorTab === "channels"
+                    ? "bg-brand-gray-700 text-white"
+                    : "text-brand-gray-500 hover:text-brand-gray-700",
+                ].join(" ")}
+              >
+                Live
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={selectorTab === "tv"}
+                onClick={() => setSelectorTab("tv")}
+                className={[
+                  "border-l border-brand-gray-300 px-4 py-2 text-[0.76rem] font-semibold uppercase tracking-[0.16em] transition",
+                  selectorTab === "tv"
+                    ? "bg-brand-gray-700 text-white"
+                    : "text-brand-gray-500 hover:text-brand-gray-700",
+                ].join(" ")}
+              >
+                Oireachtas TV
+              </button>
+            </div>
           </div>
 
           {active ? (
-            <div className="space-y-5">
-              <FeaturedLiveStage
-                item={active}
-                onMarkWatched={() => onMarkVideoWatched(active.sourceKey)}
-              />
+            <div
+              className={[
+                "grid gap-5",
+                selectorTab === "channels"
+                  ? "xl:grid-cols-[minmax(0,1fr)_20rem] xl:items-stretch"
+                  : "",
+              ].join(" ")}
+            >
+              <div className="flex min-w-0 flex-col">
+                <FeaturedLiveStage
+                  item={active}
+                  playInline={playInline}
+                  onPlayInline={() => {
+                    setPlayInline(true);
+                    onMarkVideoWatched(active.sourceKey);
+                  }}
+                />
+                <LiveChannelSummaryCard
+                  item={active}
+                />
+              </div>
 
-              <div className="space-y-4">
-                <div className="flex items-center justify-start">
-                  <div
-                    className="inline-flex rounded-sm border border-brand-gray-300 bg-white"
-                    role="tablist"
-                    aria-label="Live channel selector"
-                  >
-                    <button
-                      type="button"
-                      role="tab"
-                      aria-selected={selectorTab === "channels"}
-                      onClick={() => setSelectorTab("channels")}
-                      className={[
-                        "px-4 py-2 text-[0.76rem] font-semibold uppercase tracking-[0.16em] transition",
-                        selectorTab === "channels"
-                          ? "bg-brand-gray-700 text-white"
-                          : "text-brand-gray-500 hover:text-brand-gray-700",
-                      ].join(" ")}
-                    >
-                      Live
-                    </button>
-                    <button
-                      type="button"
-                      role="tab"
-                      aria-selected={selectorTab === "tv"}
-                      onClick={() => setSelectorTab("tv")}
-                      className={[
-                        "border-l border-brand-gray-300 px-4 py-2 text-[0.76rem] font-semibold uppercase tracking-[0.16em] transition",
-                        selectorTab === "tv"
-                          ? "bg-brand-gray-700 text-white"
-                          : "text-brand-gray-500 hover:text-brand-gray-700",
-                      ].join(" ")}
-                    >
-                      Oireachtas TV
-                    </button>
-                  </div>
-                </div>
-
-                {selectorTab === "channels" ? (
-                  <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+              {selectorTab === "channels" ? (
+                <aside className="space-y-4 xl:max-h-[46rem] xl:overflow-y-auto xl:pr-1">
+                  <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-1">
                     {liveSourceCards.map((item) => (
                       <LiveForumPanel
                         key={item.id}
@@ -1555,14 +1657,8 @@ function OnNowView({
                       />
                     ))}
                   </div>
-                ) : oireachtasTvCard ? (
-                  <OireachtasTvChannelPanel
-                    item={oireachtasTvCard}
-                    active={oireachtasTvCard.id === active.id}
-                    onSelect={() => setActiveId(oireachtasTvCard.id)}
-                  />
-                ) : null}
-              </div>
+                </aside>
+              ) : null}
             </div>
           ) : null}
         </div>
@@ -1607,7 +1703,7 @@ function LiveForumPanel({
       aria-pressed={active}
       aria-label={`Select ${item.location}: ${item.forum}`}
       className={[
-        "flex h-full w-full rounded-sm border bg-white px-4 py-4 text-left transition",
+        "flex h-full w-full rounded-sm border bg-white px-3.5 py-3.5 text-left transition",
         active
           ? "border-brand-gold shadow-[0_10px_24px_rgba(47,47,47,0.06)]"
           : "border-brand-gray-300 hover:border-brand-gold",
@@ -1615,16 +1711,15 @@ function LiveForumPanel({
     >
       <div className="flex w-full items-start justify-between gap-3">
         <div className="min-w-0 flex-1">
-          <p className="text-[0.72rem] font-semibold uppercase tracking-[0.16em] text-brand-gray-500">
+          <p className="whitespace-nowrap text-[0.68rem] font-semibold uppercase tracking-[0.15em] text-brand-gray-500">
             {item.location}
           </p>
-          <h3 className="mt-2 text-lg font-semibold leading-snug text-brand-gray-700">
+          <h3 className="mt-1.5 text-[0.98rem] font-semibold leading-snug text-brand-gray-700">
             {item.forum}
           </h3>
-          <p className="mt-2 text-sm font-medium text-brand-gray-500">
+          <p className="mt-1.5 text-[0.92rem] font-medium text-brand-gray-500">
             {item.startTimeLabel}
           </p>
-          <p className="mt-2 text-sm text-brand-gray-500">{item.note}</p>
         </div>
         <StatusBadge label={item.statusLabel} tone={tone} />
       </div>
@@ -1957,8 +2052,7 @@ function FeaturedDemandShowcase({
   onToggleSavedVideo: (key: string) => void;
   onMarkVideoWatched: (key: string) => void;
 }) {
-  const [activeId, setActiveId] = useState(items[0]?.id ?? "");
-  const active = items.find((item) => item.id === activeId) ?? items[0];
+  const active = items[0];
   const supporting = items.filter((item) => item.id !== active?.id).slice(0, 3);
   const activeHref = active ? buildVodHolderHref(active.id) : undefined;
 
@@ -1982,43 +2076,58 @@ function FeaturedDemandShowcase({
                 previewSrc={active.mp4Url}
                 badgeVariant="light"
                 aspectClassName="h-full min-h-[18.5rem]"
-                showPlayBadge={false}
               >
+                {activeHref ? (
+                  <a
+                    href={activeHref}
+                    onClick={() =>
+                      onMarkVideoWatched(getVodStorageKey(active.id))
+                    }
+                    className="absolute inset-0 z-[1]"
+                    aria-label={`Open ${active.title}`}
+                  />
+                ) : null}
                 <div className="demand-feature-card-scrim absolute inset-0" />
                 <div className="absolute inset-x-0 bottom-0 z-10 p-5 sm:p-6 pointer-events-none">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <StatusBadge label="On demand" tone="vod" />
-                    <span className="featured-house-badge">
-                      {getHouseLabel(active)}
-                    </span>
-                  </div>
-                  <h3 className="demand-feature-title mt-4 max-w-[22rem] text-[1.4rem] font-semibold leading-[1.06] text-white sm:text-[1.65rem]">
-                    {active.title}
-                  </h3>
-                  {isCommitteeVodItem(active) ? (
-                    <p className="mt-3 text-sm font-medium text-white/72">
-                      {active.topic}
-                    </p>
-                  ) : null}
-                  <p className="mt-3 text-sm font-semibold text-white/90">
-                    {[active.date, formatDurationCompact(active.duration)]
-                      .filter(Boolean)
-                      .join(" · ")}
-                  </p>
-                  <div className="mt-3 pointer-events-auto">
-                    <DebateLink href={active.debate} dark />
-                  </div>
-                  <div className="mt-5 flex items-center gap-3 pointer-events-auto">
+                  {activeHref ? (
                     <a
                       href={activeHref}
                       onClick={() =>
                         onMarkVideoWatched(getVodStorageKey(active.id))
                       }
-                      className="featured-live-action featured-live-action-primary"
+                      className="pointer-events-auto inline-block"
                     >
-                      <span aria-hidden="true">▶</span>
-                      <span>Watch now</span>
+                      <h3 className="demand-feature-title mt-4 max-w-[22rem] text-[1.4rem] font-semibold leading-[1.06] text-white sm:text-[1.65rem]">
+                        {active.title}
+                      </h3>
                     </a>
+                  ) : (
+                    <h3 className="demand-feature-title mt-4 max-w-[22rem] text-[1.4rem] font-semibold leading-[1.06] text-white sm:text-[1.65rem]">
+                      {active.title}
+                    </h3>
+                  )}
+                  <div className="mt-3 flex flex-wrap items-center gap-2.5">
+                    <span className="featured-house-badge featured-house-badge-vod featured-house-badge-hero">
+                      On demand
+                    </span>
+                    <span className="featured-house-badge featured-house-badge-hero">
+                      {getHouseLabel(active)}
+                    </span>
+                    {isCommitteeVodItem(active) ? (
+                      <span className="text-sm font-medium text-white/72">
+                        {active.topic}
+                      </span>
+                    ) : null}
+                  </div>
+                  <div className="mt-4 flex flex-wrap items-center justify-between gap-3 pointer-events-auto">
+                    <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-semibold text-white/90">
+                      <span>
+                        {[active.date, formatDurationCompact(active.duration)]
+                          .filter(Boolean)
+                          .join(" · ")}
+                      </span>
+                      <DebateLink href={active.debate} dark />
+                    </div>
                     <SaveVideoButton
                       saved={isVideoSaved(getVodStorageKey(active.id))}
                       onToggle={() =>
@@ -2038,7 +2147,13 @@ function FeaturedDemandShowcase({
                 <DemandFeatureRailCard
                   key={item.id}
                   item={item}
-                  onSelect={() => setActiveId(item.id)}
+                  saved={isVideoSaved(getVodStorageKey(item.id))}
+                  onToggleSaved={() =>
+                    onToggleSavedVideo(getVodStorageKey(item.id))
+                  }
+                  onMarkWatched={() =>
+                    onMarkVideoWatched(getVodStorageKey(item.id))
+                  }
                 />
               ))}
             </div>
@@ -2051,16 +2166,22 @@ function FeaturedDemandShowcase({
 
 function DemandFeatureRailCard({
   item,
-  onSelect,
+  saved,
+  onToggleSaved,
+  onMarkWatched,
 }: {
   item: VodItem;
-  onSelect: () => void;
+  saved: boolean;
+  onToggleSaved: () => void;
+  onMarkWatched: () => void;
 }) {
+  const holderHref = buildVodHolderHref(item.id);
+
   return (
     <article className="tv-card-surface tv-rail-card relative w-full overflow-hidden rounded-sm text-left no-underline">
-      <button
-        type="button"
-        onClick={onSelect}
+      <a
+        href={holderHref}
+        onClick={onMarkWatched}
         className="grid w-full appearance-none grid-cols-[10rem_minmax(0,1fr)] items-stretch border-0 bg-transparent p-0 text-left"
       >
         <div className="relative min-h-full self-stretch overflow-hidden bg-black/10">
@@ -2071,6 +2192,9 @@ function DemandFeatureRailCard({
         </div>
         <div className="min-w-0 flex-1 p-3">
           <div className="flex flex-wrap items-center gap-2">
+            <span className="featured-house-badge featured-house-badge-vod featured-house-badge-rail">
+              On demand
+            </span>
             <span className="featured-house-badge featured-house-badge-rail">
               {getHouseLabel(item)}
             </span>
@@ -2088,11 +2212,14 @@ function DemandFeatureRailCard({
               .filter(Boolean)
               .join(" · ")}
           </p>
-          <div className="mt-2">
+          <div className="mt-3 flex items-center justify-between gap-3">
             <DebateLink href={item.debate} />
+            <div className="shrink-0">
+              <SaveVideoButton saved={saved} onToggle={onToggleSaved} />
+            </div>
           </div>
         </div>
-      </button>
+      </a>
     </article>
   );
 }
@@ -2152,6 +2279,19 @@ function OireachtasTvView({
                   className="absolute inset-0 h-full w-full object-cover"
                 />
               )}
+              <div className="absolute inset-0 z-20 flex items-center justify-center">
+                <button
+                  type="button"
+                  onClick={() => {
+                    onMarkVideoWatched(getTvStorageKey(active.id));
+                    setPlayerItem(active);
+                  }}
+                  className="featured-live-play-trigger"
+                  aria-label={`Play ${active.title}`}
+                >
+                  <PlayBadge className="preview-badge h-16 w-16 text-xl" />
+                </button>
+              </div>
               <div className="tv-hero-scrim absolute inset-0" />
               <div className="relative z-20 flex min-h-[520px] flex-col justify-end p-6 sm:p-8">
                 <span className="hero-eyebrow inline-flex w-fit items-center rounded-sm px-3 py-1 text-[0.72rem] font-semibold uppercase tracking-[0.16em]">
@@ -2180,17 +2320,6 @@ function OireachtasTvView({
                 </p>
                 <div className="mt-6">
                   <div className="flex flex-wrap items-center gap-3">
-                    <button
-                      type="button"
-                      onClick={() => {
-                        onMarkVideoWatched(getTvStorageKey(active.id));
-                        setPlayerItem(active);
-                      }}
-                      className="featured-live-action featured-live-action-primary"
-                    >
-                      <span aria-hidden="true">▶</span>
-                      <span>Watch now</span>
-                    </button>
                     {active.companionUrl ? (
                       <a
                         href={active.companionUrl}
@@ -2222,7 +2351,11 @@ function OireachtasTvView({
                     key={item.id}
                     item={item}
                     active={item.id === active.id}
-                    onSelect={() => setActiveId(item.id)}
+                    onSelect={() => {
+                      setActiveId(item.id);
+                      onMarkVideoWatched(getTvStorageKey(item.id));
+                      setPlayerItem(item);
+                    }}
                   />
                 ))}
               </div>
